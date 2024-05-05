@@ -1,0 +1,27 @@
+{
+  "schedule": {
+    "date": "2030-01-01T00:00:00"
+  },
+  "name": "Tropical cyclones (Trigger 2030)",
+  "actions": [
+    {
+      "notification": {
+        "sendEmail": false,
+        "title": {
+          "de": "Taifun trifft Philippinen",
+          "ru": "Тайфун ударил по Филиппинам",
+          "en": "Typhoon Hits Philippines",
+          "fr": "Typhon frappe les Philippines",
+          "ar": "الإعصار يضرب الفلبين"
+        },
+        "body": {
+          "de": "<img width=250 src=\"../../../content/images/events/36_typhoon_hits_philippines.jpg\"><br>Mitten in der Nacht klingelt Dein Handy. Du schreckst auf und gehst sofort ran, als Du siehst wer anruft: Deine beste Freundin, von der Du schon seit Tagen nichts mehr gehört hast. Sie ist gerade auf einer Reise auf den Philippinen und Du hast Dir schon schreckliche Sorgen gemacht. Sie konnte sich nicht melden, sagt sie, sie liege im Krankenhaus. Als der Taifun auf die Inselkette getroffen ist, sei sie verwundet worden. Sie habe aber noch Glück gehabt und es gehe ihr schon besser. 95 Prozent der Bevölkerung waren von dem Taifun betroffen. Aufgrund der Erderhitzung ist der Wirbelsturm deutlich stärker ausgefallen, als es ohne Klimawandel der Fall gewesen wäre.<br>Text von treibhauspost.de",
+          "ru": "<img width=250 src=\"../../../content/images/events/36_typhoon_hits_philippines.jpg\"><br>Среди ночи зазвонил ваш телефон. Вы вздрогнули и сразу же взяли трубку, увидев, кто звонит: ваша лучшая подруга, о которой вы не слышали уже несколько дней. Она сейчас в путешествии на Филиппинах, и вы уже беспокоились о ней. Она не могла связаться, говорит она, что она в больнице. Когда тайфун ударил по островам, она получила ранения. Но ей повезло, и ей стало лучше. 95 процентов населения пострадали от тайфуна. Из-за глобального потепления ураган оказался гораздо сильнее, чем это было бы без изменения климата.<br>Текст с treibhauspost.de",
+          "en": "<img width=250 src=\"../../../content/images/events/36_typhoon_hits_philippines.jpg\"><br>In the middle of the night, your phone rings. Startled, you pick up immediately when you see who's calling: your best friend, whom you haven't heard from in days. She's currently on a trip to the Philippines, and you've been terribly worried about her. She couldn't get in touch, she says she's in the hospital. When the typhoon hit the island chain, she was injured. But she's lucky and getting better. 95 percent of the population were affected by the typhoon. Due to global warming, the cyclone was significantly stronger than it would have been without climate change.<br>Text from treibhauspost.de",
+          "ar": "<img width=250 src=\"../../../content/images/events/36_typhoon_hits_philippines.jpg\"><br>في منتصف الليل، يرن هاتفك. أنتبهت وأجبت فوراً عندما رأيت من يتصل: صديقتك الأعز تلك التي لم تسمع منها منذ أيام. إنها حاليًا في رحلة إلى الفلبين، وكنت قلقًا شديدًا بشأنها. لم تستطع التواصل، تقول إنها في المستشفى. عندما ضرب الإعصار سلسلة الجزر، أُصيبت. ولكنها محظوظة وتتحسن حالتها. تأثر 95 بالمئة من السكان بالإعصار. بسبب الاحتباس الحراري، كان الإعصار أقوى بكثير مما كان سيحدث بدون تغيير المناخ.<br>نص من treibhauspost.de",
+          "fr": "<img width=250 src=\"../../../content/images/events/36_typhoon_hits_philippines.jpg\"><br>Au milieu de la nuit, votre téléphone sonne. Sursautant, vous décrochez immédiatement en voyant qui appelle : votre meilleure amie, que vous n'avez pas eue de nouvelles depuis des jours. Elle est actuellement en voyage aux Philippines, et vous étiez terriblement inquiet pour elle. Elle n'a pas pu se mettre en contact, elle dit qu'elle est à l'hôpital. Lorsque le typhon a frappé l'archipel, elle a été blessée. Mais elle a eu de la chance et ça va mieux pour elle. 95 pour cent de la population a été touchée par le typhon. En raison du réchauffement climatique, le cyclone était nettement plus fort que s'il n'y avait pas eu de changement climatique.<br>Texte de treibhauspost.de"
+        }
+      }
+    }
+  ]
+}

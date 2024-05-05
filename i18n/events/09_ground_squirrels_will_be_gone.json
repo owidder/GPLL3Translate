@@ -1,0 +1,38 @@
+{
+  "schedule": {
+    "conditions": [
+      {
+        "path": "..globalMeanTemperature.series.GMT [Kelvins by year]",
+        "configurationType": "PROJECTION_RESULT",
+        "delayEvaluation": {
+          "value": 5,
+          "unit": "years",
+          "operator": "EQ"
+        },
+        "value": 1.9,
+        "operator": "GT"
+      }
+    ]
+  },
+  "name": "Large ground-dwelling squirrels will go extinct in 5 years (Trigger 1.9 °C).",
+  "actions": [
+    {
+      "notification": {
+        "sendEmail": false,
+        "title": {
+          "de": "Das Alpenmurmeltier wird bald aussterben!",
+          "ru": null,
+          "en": "Large ground-dwelling will squirrels go extinct very soon!",
+          "ar": "سوف تنقرض سناجب الأرض الكبيرة قريبًا جدًا!",
+          "fr": "Les écureuils terrestres de grande taille vont bientôt disparaître !"
+        },
+        "body": {
+          "de": "<img width=250  src=\"https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/alpine-marmot-pair-arterra-picture-library.jpg\"><br> Das Alpenmurmeltier wird aufgrund zunehmender Hitze in circa fünf Jahren aussterben wenn wir nicht sofort drastische Maßnahmen ergreifen. Das Alpenmurmeltier (Marmota marmota) ist ein großes, bodenbewohnendes Eichhörnchen aus der Gattung der Murmeltiere. Es kam in großer Zahl in den Gebirgsregionen Mittel- und Südeuropas vor, in Höhen zwischen 800 und 3.200 m in den Alpen, den Karpaten, der Tatra und dem nördlichen Apennin. Das Alpenmurmeltier gilt bisweilen als die schwerste Eichhörnchenart, obwohl einige andere Murmeltierarten einen ähnlichen Gewichtsbereich aufweisen. Das Alpenmurmeltier wurde früher in großem Umfang  als Nahrung gejagt und weil man glaubte, dass sein Fett, wenn es auf die Haut gerieben wurde, Rheuma linderte. Die Jagd auf das Alpenmurmeltier wurde auch als Sport betrieben. Die Jagd war unzureichend reguliert, weshalb sich die Tiere auch relativ langsam vermehrten.",
+          "en": "<img width=250  src=\"https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/alpine-marmot-pair-arterra-picture-library.jpg\"><br>The alpine marmot will be extinct due to increasing heat in about five years unless we take immediate action. The alpine marmot (Marmota marmota) is a large ground-dwelling squirrel, from the genus of marmots. It was found in high numbers in mountainous areas of central and southern Europe, at heights between 800 and 3,200 m (2,600–10,500 ft) in the Alps, Carpathians, Tatras and Northern Apennines. The alpine marmot was sometimes considered the heaviest squirrel species, although some other marmot species have a similar weight range. Alpine marmots were once widely hunted for food and because their fat was believed to ease rheumatism when rubbed on the skin. Hunting of the alpine marmot still occurred for sport. Hunting was insufficiently regulated, thus they also reproduced relatively slowly.",
+          "ar": "<img width=250 src=\"https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/alpine-marmot-pair-arterra-picture-library.jpg\"><br>سيكون السنجاب الكبير العابث بالأرض على وشك الانقراض في غضون خمس سنوات بسبب ارتفاع درجة الحرارة، ما لم نتخذ إجراءً فوريًا. السنجاب الكبير العابث بالأرض (Marmota marmota) هو سنجاب كبير الحجم يعيش في الأرض من جنس السناجب الجبلية. كان يعثر عليه بأعداد كبيرة في المناطق الجبلية في وسط وجنوب أوروبا، على ارتفاعات تتراوح بين 800 و3،200 متر (2,600–10,500 قدم) في جبال الألب، وجبال الكاربات، وتاترا، وشمال الأبينين. كان السنجاب الكبير العابث بالأرض في بعض الأحيان يُعتبر أثقل فصيلة من السناجب، على الرغم من أن بعض أنواع السناجب الجبلية الأخرى تمتلك نطاق وزن مماثل. كان يتم صيد السنجاب الكبير العابث بالأرض في السابق بشكل واسع للاستخدام الغذائي ولأنه كان يُعتقد أن دهونه تخفف من الروماتيزم عندما يُدلك على الجلد. كما كان الصيد يجري بشكل رياضي. كان الصيد غير مُنظم بشكل كافٍ، وبالتالي كانت سرعة تكاثر الحيوانات بطيئة نسبيًا.",
+          "fr": "<img width=250 src=\"https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/alpine-marmot-pair-arterra-picture-library.jpg\"><br>La marmotte alpine sera éteinte dans environ cinq ans en raison de l'augmentation de la chaleur, à moins que nous ne prenions des mesures immédiates. La marmotte alpine (Marmota marmota) est un grand écureuil terrestre, appartenant au genre des marmottes. On la trouvait en grand nombre dans les régions montagneuses d'Europe centrale et méridionale, à des altitudes comprises entre 800 et 3 200 mètres (2 600 à 10 500 pieds) dans les Alpes, les Carpates, les Tatras et les Apennins du Nord. La marmotte alpine était parfois considérée comme l'espèce d'écureuil la plus lourde, bien que certaines autres espèces de marmottes aient une plage de poids similaire. Les marmottes alpines étaient autrefois largement chassées pour leur viande et parce que leur graisse était réputée soulager les rhumatismes lorsqu'elle était frottée sur la peau. La chasse à la marmotte alpine avait toujours lieu à des fins sportives. La chasse était insuffisamment réglementée, ce qui a également entraîné une reproduction relativement lente de ces animaux."
+        }
+      }
+    }
+  ]
+}

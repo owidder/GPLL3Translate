@@ -1,0 +1,232 @@
+{
+  "schedule": {
+    "date": "2022-05-01T00:00:00",
+    "interval": {
+      "period": "YEARS",
+      "length": 4
+    }
+  },
+  "name": "Voting Result (every 4 years)",
+  "isPollingEvent": true,
+  "actions": [
+    {
+      "notification": {
+        "sendEmail": false,
+        "title": {
+          "de": "Die Ergebnisse sind da!",
+          "ru": "Результаты подведены!",
+          "en": "The results are in!",
+          "fr": "Les résultats sont là !",
+          "ar": "النتائج جاهزة!"
+        },
+        "body": {
+          "de": "Nachhaltiger Flugzeugkraftstoff",
+          "en": "Sustainable Aviation Fuel"
+        },
+        "conditions": [
+          {
+            "path": "profile.countryOfResidence",
+            "configurationType": "AGENT_VARIABLE",
+            "value": "DEU",
+            "operator": "EQ"
+          }
+        ]
+      },
+      "actionCondition": {
+        "neutralValue": "abstain",
+        "op": "MAX",
+        "variablePath": "sustainable-aviation-fuel",
+        "configurationType": "AGENT_VARIABLE",
+        "value": "opt-2"
+      },
+      "resultConfigurationValue": {
+        "subPathIdentifier": "POLITICAL_MEASURE",
+        "valueOrPath": "industry.aviation.saf.full",
+        "selector": {
+          "value": "DEU",
+          "key": "isoCountryCode"
+        }
+      }
+    },
+    {
+      "notification": {
+        "sendEmail": false,
+        "title": {
+          "de": "Die Ergebnisse sind da!",
+          "ru": "Результаты подведены!",
+          "en": "The results are in!",
+          "fr": "Les résultats sont là !",
+          "ar": "النتائج جاهزة!"
+        },
+        "body": {
+          "de": "Bei der letzten Wahl wurde für die Erhöhung der CO₂-Steuer gestimmt.<br>Sie ist deshalb um 25€ gestiegen!",
+          "ru": "На последних выборах проголосовали за увеличение налога на CO₂.<br>Таким образом, она подорожала на 25 евро!",
+          "en": "In the last election, the CO₂ tax was voted to increase.<br>It has therefore gone up by €25!",
+          "fr": "Lors des dernières élections, la taxe CO₂ a été votée en augmentation.<br>Elle a donc augmenté de 25 € !",
+          "ar": "في الانتخابات الأخيرة، تم التصويت على زيادة ضريبة ثاني أكسيد الكربون.<br>لذلك، ارتفعت بمقدار 25 يورو!"
+        },
+        "conditions": [
+          {
+            "path": "profile.countryOfResidence",
+            "configurationType": "AGENT_VARIABLE",
+            "value": "DEU",
+            "operator": "EQ"
+          }
+        ]
+      },
+      "actionCondition": {
+        "neutralValue": "abstain",
+        "op": "MAX",
+        "variablePath": "co2-pricing-poll",
+        "configurationType": "AGENT_VARIABLE",
+        "value": "raise"
+      },
+      "expression": {
+        "changeMode": "ADD",
+        "arguments": [
+          {
+            "subPathIdentifier": "SIMULATION_VARIABLE",
+            "valueOrPath": "co2_tax.amount.value",
+            "selector": {
+              "value": "DEU",
+              "key": "isoCountryCode"
+            }
+          },
+          {
+            "subPathIdentifier": "VALUE",
+            "valueOrPath": 25.0
+          }
+        ]
+      },
+      "resultConfigurationValue": {
+        "subPathIdentifier": "SIMULATION_VARIABLE",
+        "valueOrPath": "co2_tax.amount.value",
+        "selector": {
+          "value": "DEU",
+          "key": "isoCountryCode"
+        }
+      },
+      "upperLimit": 999.0
+    },
+    {
+      "notification": {
+        "sendEmail": false,
+        "title": {
+          "de": "Die Ergebnisse sind da!",
+          "ru": "Результаты подведены!",
+          "en": "The results are in!",
+          "fr": "Les résultats sont là !",
+          "ar": "النتائج جاهزة!"
+        },
+        "body": {
+          "de": "Bei der letzten Wahl wurde für die Verringerung der CO₂-Steuer gestimmt.<br>Sie ist deshalb um 25€ gesunken!",
+          "ru": "На последних выборах люди проголосовали за снижение налога на CO₂.<br>Таким образом, она подешевела на 25 евро!",
+          "en": "In the last election, people voted to reduce the CO₂ tax.<br>It has therefore gone down by €25!",
+          "fr": "Lors des dernières élections, les gens ont voté pour réduire la taxe CO₂.<br>Elle a donc diminué de 25 € !",
+          "ar": "في الانتخابات الأخيرة، صوت الناس لخفض ضريبة ثاني أكسيد الكربون.<br>لذلك، انخفضت بمقدار 25 يورو!"
+        },
+        "conditions": [
+          {
+            "path": "profile.countryOfResidence",
+            "configurationType": "AGENT_VARIABLE",
+            "value": "DEU",
+            "operator": "EQ"
+          }
+        ]
+      },
+      "actionCondition": {
+        "neutralValue": "abstain",
+        "op": "MAX",
+        "variablePath": "co2-pricing-poll",
+        "configurationType": "AGENT_VARIABLE",
+        "value": "lower"
+      },
+      "expression": {
+        "changeMode": "ADD",
+        "arguments": [
+          {
+            "subPathIdentifier": "SIMULATION_VARIABLE",
+            "valueOrPath": "co2_tax.amount.value",
+            "selector": {
+              "value": "DEU",
+              "key": "isoCountryCode"
+            }
+          },
+          {
+            "subPathIdentifier": "VALUE",
+            "valueOrPath": -25.0
+          }
+        ]
+      },
+      "resultConfigurationValue": {
+        "subPathIdentifier": "SIMULATION_VARIABLE",
+        "valueOrPath": "co2_tax.amount.value",
+        "selector": {
+          "value": "DEU",
+          "key": "isoCountryCode"
+        }
+      },
+      "lowerLimit": 0.0
+    },
+    {
+      "notification": {
+        "sendEmail": false,
+        "title": {
+          "de": "Die Ergebnisse sind da!",
+          "ru": "Результаты подведены!",
+          "en": "The results are in!",
+          "fr": "Les résultats sont là !",
+          "ar": "النتائج جاهزة!"
+        },
+        "body": {
+          "de": "Bei der letzten Wahl wurde für das Gleichbleiben der CO₂-Steuer gestimmt.<br>Sie bleibt deshalb unverändert!",
+          "ru": "На последних выборах налог на CO₂ проголосовали за то, чтобы оставить его прежним.<br>Поэтому он остается неизменным!",
+          "en": "In the last election, the CO₂ tax was voted to remain the same.<br>It therefore remains unchanged!",
+          "fr": "Lors des dernières élections, la taxe CO₂ a été votée pour rester inchangée.<br>Elle reste donc inchangée !",
+          "ar": "في الانتخابات الأخيرة، صوت الناس للحفاظ على ضريبة ثاني أكسيد الكربون بنفس المستوى.<br>لذلك، فإنه يظل دون تغيير!"
+        },
+        "conditions": [
+          {
+            "path": "profile.countryOfResidence",
+            "configurationType": "AGENT_VARIABLE",
+            "value": "DEU",
+            "operator": "EQ"
+          }
+        ]
+      },
+      "actionCondition": {
+        "neutralValue": "abstain",
+        "op": "MAX",
+        "variablePath": "co2-pricing-poll",
+        "configurationType": "AGENT_VARIABLE",
+        "value": "maintain"
+      },
+      "expression": {
+        "changeMode": "ADD",
+        "arguments": [
+          {
+            "subPathIdentifier": "SIMULATION_VARIABLE",
+            "valueOrPath": "co2_tax.amount.value",
+            "selector": {
+              "value": "DEU",
+              "key": "isoCountryCode"
+            }
+          },
+          {
+            "subPathIdentifier": "VALUE",
+            "valueOrPath": 0.0
+          }
+        ]
+      },
+      "resultConfigurationValue": {
+        "subPathIdentifier": "SIMULATION_VARIABLE",
+        "valueOrPath": "co2_tax.amount.value",
+        "selector": {
+          "value": "DEU",
+          "key": "isoCountryCode"
+        }
+      },
+      "lowerLimit": 0.0
+    }
+  ]
+}

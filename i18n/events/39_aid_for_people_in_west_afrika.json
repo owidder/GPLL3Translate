@@ -1,0 +1,35 @@
+{
+  "schedule": {
+    "date": "2071-01-01T00:00:00",
+    "conditions": [
+      {
+        "path": "..globalMeanTemperature.series.GMT [Kelvins by year]",
+        "configurationType": "PROJECTION_RESULT",
+        "value": 2.5,
+        "operator": "GTE"
+      }
+    ]
+  },
+  "name": "Extinction of edible fish species in Africa (Trigger 2.5°C and 2071)",
+  "actions": [
+    {
+      "notification": {
+        "sendEmail": false,
+        "title": {
+          "de": "Spendenaufruf: Hilfe für Menschen in Westafrika",
+          "ru": "Призыв к пожертвованиям: Помощь людям на Западном континенте Африки",
+          "en": "Appeal for Donations: Aid for People in West Africa",
+          "fr": "Appel aux dons : Aide aux populations en Afrique de l'Ouest",
+          "ar": "نداء للتبرعات: مساعدة الناس في غرب أفريقيا"
+        },
+        "body": {
+          "de": "<img width=250 src=\"../../../content/images/events/39_aid_for_people_in_west_afrika.jpg\"><br>Aktion Deutschland hilft und Welthungerhilfe starten Spendenaufruf: Die Bevölkerung in mehreren westafrikanischen Ländern erleidet eine der schwersten Hungersnöte der Geschichte. In Folge der Erderhitzung sind inzwischen rund 60 Prozent der essbaren Fischspezies in Afrika ausgestorben. Bitte helfen Sie mit Ihrer Spende. Spendenkonto: DE11 1122 2233 3344 4455 5566 00<br>Text von treibhauspost.de",
+          "ru": "<img width=250 src=\"../../../content/images/events/39_aid_for_people_in_west_afrika.jpg\"><br>Акция Deutschland hilft и Welthungerhilfe начинают призыв к пожертвованиям: Население нескольких стран Западной Африки переживает один из самых тяжёлых голодов в истории. Из-за глобального потепления в Африке уже вымерло около 60 процентов съедобных видов рыб. Пожалуйста, помогите своим взносом. Реквизиты для пожертвований: DE11 1122 2233 3344 4455 5566 00<br>Текст с treibhauspost.de",
+          "en": "<img width=250 src=\"../../../content/images/events/39_aid_for_people_in_west_afrika.jpg\"><br>Aktion Deutschland hilft and Welthungerhilfe launch an appeal for donations: The population in several West African countries is experiencing one of the most severe famines in history. Due to global warming, around 60 percent of edible fish species in Africa have gone extinct. Please help with your donation. Donation account: DE11 1122 2233 3344 4455 5566 00<br>Text from treibhauspost.de",
+          "ar": "<img width=250 src=\"../../../content/images/events/39_aid_for_people_in_west_afrika.jpg\"><br>تطلق Aktion Deutschland hilft وWelthungerhilfe نداءً للتبرعات: يعاني السكان في عدة دول في غرب أفريقيا من واحدة من أسوأ مجاعات في التاريخ. بسبب الاحتباس الحراري، انقرض نحو 60 في المائة من أنواع الأسماك القابلة للأكل في أفريقيا. يرجى المساعدة من خلال تبرعكم. حساب التبرع: DE11 1122 2233 3344 4455 5566 00<br>نص من treibhauspost.de",
+          "fr": "<img width=250 src=\"../../../content/images/events/39_aid_for_people_in_west_afrika.jpg\"><br>Aktion Deutschland hilft et Welthungerhilfe lancent un appel aux dons : La population de plusieurs pays d'Afrique de l'Ouest connaît l'une des famines les plus graves de l'histoire. En raison du réchauffement climatique, environ 60 % des espèces de poissons comestibles en Afrique ont disparu. Merci de nous aider en faisant un don. Compte de dons : DE11 1122 2233 3344 4455 5566 00<br>Texte de treibhauspost.de"
+        }
+      }
+    }
+  ]
+}

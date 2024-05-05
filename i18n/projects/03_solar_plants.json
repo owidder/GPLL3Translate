@@ -1,0 +1,107 @@
+{
+  "_id": "solar-plants",
+  "title": {
+    "de": "Solaranlagen",
+    "ru": "Солнечные системы",
+    "en": "Solar plants",
+    "ar": "محطات الطاقة الشمسية",
+    "fr" : "Plantes solaires"
+  },
+  "description": {
+    "de": "Die Gewinnung erneuerbarer Energie durch Solar-Photovoltaik-Anlagen ist ein beliebter Projekttyp der Treibhausgas-Kompensation. Solarenergie verfügt über ein riesiges Potenzial, da die Kraft der Sonne im Überfluss vorhanden ist. Herkömmliche Technologien zur Stromerzeugung wie z. B. Kohle, Öl und Erdgas werden durch sie ersetzt. \n \n Die Finanzierung solcher Projekte für Haushalte oder Gemeinden im Globalen Süden kann Fortschritte in der Entwicklung besserer Anlagen, Materialien und Batterien zur Speicherung der Energie und damit ihre globale Verbreitung weiter vorantreiben. Dies kann einen wesentlichen Beitrag zur Verringerung von Treibhausgasemissionen und beim Überspringen fossiler Technologien bei gleichzeitiger Förderung der wirtschaftlichen Entwicklung leisten. Außerdem werden zahlreiche weitere Entwicklungsfaktoren beeinflusst (siehe unten). \n \n Quelle: drawdown.org",
+    "ru": "Производство возобновляемой энергии с помощью солнечных фотоэлектрических систем является популярным видом проектов по компенсации парниковых газов. Солнечная энергия имеет многообещающий потенциал, поскольку энергия солнца в изобилии. Она приходит на смену традиционным технологиям производства электроэнергии, таким как уголь, нефть и природный газ. \n \n Финансирование таких проектов для домохозяйств или сообществ Глобального Юга может способствовать дальнейшему прогрессу в разработке лучшего оборудования, материалов и батарей для хранения энергии и, таким образом, ее глобальному распространению. Это может внести значительный вклад в снижение выбросов парниковых газов. Это также повлияет на многие другие факторы развития (см. ниже). \n \n Источник: drawdown.org",
+    "en": "Renewable energy generation through solar photovoltaic systems is a popular type of greenhouse gas offset project. Solar energy has promising potential because the power of the sun is abundant. It is replacing conventional power generation technologies such as coal, oil and natural gas. \n \n Financing such projects for households or communities in the Global South can further advance advances in the development of better equipment, materials and batteries to store the energy, and thus its global diffusion. This can make a significant contribution to reducing greenhouse gas emissions. It will also influence many other development factors (see below). \n \n Source: drawdown.org",
+    "ar": "يعد توليد الطاقة المتجددة من خلال أنظمة الطاقة الشمسية الكهروضوئية نوعًا شائعًا من المشاريع لتعويض غازات الاحتباس الحراري. تتمتع الطاقة الشمسية بإمكانيات هائلة بسبب وفرة طاقة الشمس. تقنيات توليد الطاقة التقليدية مثل يتم استبدال الفحم والنفط والغاز الطبيعي بها. \n يمكن أن يؤدي تمويل مثل هذه المشاريع للأسر أو المجتمعات في الجنوب العالمي إلى زيادة التقدم في تطوير أجهزة ومواد وبطاريات أفضل لتخزين الطاقة وبالتالي نشرها عالميًا. يمكن أن يساهم هذا بشكل كبير في تقليل انبعاثات غازات الاحتباس الحراري وتخطي تقنيات الوقود الأحفوري مع تعزيز التنمية الاقتصادية. تتأثر أيضًا العديد من عوامل التنمية الأخرى (انظر أدناه). \n المصدر: drawdown.org",
+    "fr" : "La production d'énergie renouvelable par des installations solaires photovoltaïques est un type de projet populaire de compensation des gaz à effet de serre. L'énergie solaire dispose d'un énorme potentiel, car la puissance du soleil est abondante. Elle remplace les technologies traditionnelles de production d'électricité telles que le charbon, le pétrole et le gaz naturel. \n \n Le financement de tels projets pour les ménages ou les communautés du Sud peut permettre de progresser dans la mise au point d'installations, de matériaux et de batteries plus performants pour stocker l'énergie, et donc de la diffuser davantage à l'échelle mondiale. Cela peut contribuer de manière significative à la réduction des émissions de gaz à effet de serre et à l'abandon des technologies fossiles, tout en favorisant le développement économique. En outre, de nombreux autres facteurs de développement seront influencés (voir ci-dessous). \n \n Source : drawdown.org"
+  },
+  "globalCompensationLimit": 1500000000,
+  "participantCompensationLimit": 15,
+  "pricePerTon": [
+    {"isoCountryCode": "DEU", "unit": "€", "source":  "02_standard_prices_euro.csv", "isDefault":  true},
+    {"isoCountryCode": "AUT", "unit": "€", "source":  "02_standard_prices_euro.csv", "isDefault":  false},
+    {"isoCountryCode": "CHE", "unit": "CHF", "source":  "02_standard_prices_chf.csv", "isDefault":  false},
+    {"isoCountryCode": "RUS", "unit": "¶", "source":  "02_standard_prices_rubel.csv", "isDefault":  false}
+  ],
+  "logos": [
+    {
+      "imageRef": {
+        "de": "SDG_icons_DE-03",
+        "ru": "R-WEB-Goal-03",
+        "en": "sdg3",
+        "ar": "A-WEB-Goal-03",
+        "fr": "A-WEB-Goal-03"
+      },
+      "logoDescription": {
+        "de": "Unsichere Lichtquellen im Haushalt können ersetzt werden, was die Gefahr von Verbrennungen und andere Verletzungen reduziert; Luftverschmutzung im Haus wird ebenfalls gesenkt",
+        "ru": "Небезопасные источники света в доме могут быть заменены, что снижает риск ожогов и других травм; также уменьшается загрязнение воздуха в доме",
+        "en": "Unsafe light sources in the home can be replaced, reducing the risk of burns and other injuries; air pollution in the home is also reduced",
+        "ar": "يمكن استبدال مصادر الإضاءة غير الآمنة في المنزل ، مما يقلل من مخاطر الحروق والإصابات الأخرى ؛ كما يتم تقليل تلوث الهواء في المنزل",
+        "fr" : "Les sources de lumière dangereuses dans la maison peuvent être remplacées, ce qui réduit le risque de brûlures et d'autres blessures ; la pollution de l'air dans la maison est également réduite"
+      }
+    },
+    {
+      "imageRef": {
+        "de": "SDG_icons_DE-04",
+        "ru": "R-WEB-Goal-04",
+        "en": "sdg4",
+        "ar": "A-WEB-Goal-04",
+        "fr": "A-WEB-Goal-04"
+      },
+      "logoDescription": {
+        "de": "Zuverlässigere und bessere Beleuchtung für Kinder und Jugendliche zum Lernen wird ermöglicht",
+        "ru": "Обеспечивается более надежное и лучшее освещение для обучения детей и молодежи",
+        "en": "More reliable and better lighting for children and young people to learn is made possible",
+        "ar": "أصبحت الإضاءة الأكثر موثوقية وأفضل للأطفال والشباب لتعلمها ممكنة",
+        "fr" : "Un éclairage plus fiable et de meilleure qualité pour l'apprentissage des enfants et des jeunes est rendu possible"
+      }
+    },
+    {
+      "imageRef": {
+        "de": "SDG_icons_DE-07",
+        "ru": "R-WEB-Goal-07",
+        "en": "sdg7",
+        "ar": "A-WEB-Goal-07",
+        "fr": "A-WEB-Goal-07"
+      },
+      "logoDescription": {
+        "de": "Anteil der erneuerbaren Energien wird erhöht, andere Formen werden zurückgedrängt; Energiesicherheit und Zugang zu Energie allgemein können gewährleistet werden",
+        "ru": "Доля возобновляемых источников энергии увеличивается, другие формы оттесняются; может быть обеспечена энергетическая безопасность и доступ к энергии в целом",
+        "en": "Share of renewable energies is increased, other forms are pushed back; energy security and access to energy in general can be ensured",
+        "ar": "تزداد حصة الطاقات المتجددة ، وتتراجع الأشكال الأخرى",
+        "fr" : "La part des énergies renouvelables est augmentée, les autres formes sont repoussées ; la sécurité énergétique et l'accès à l'énergie en général peuvent être assurés"
+      }
+    },
+    {
+      "imageRef": {
+        "de": "SDG_icons_DE-11",
+        "ru": "R-WEB-Goal-11",
+        "en": "sdg11",
+        "ar": "A-WEB-Goal-11",
+        "fr": "A-WEB-Goal-11"
+      },
+      "logoDescription": {
+        "de": "Durch die Erzeugung erneuerbarer Solarenergie können Städte und Gemeinden nachhaltig, inklusiv und zukunftsfest gemacht werden",
+        "ru": "Возобновляемое производство солнечной энергии может сделать города и сообщества устойчивыми, инклюзивными и перспективными",
+        "en": "Renewable solar energy generation can make cities and communities sustainable, inclusive, and future-proof",
+        "ar": "من خلال توليد الطاقة الشمسية المتجددة ، يمكن جعل المدن والمجتمعات مستدامة وشاملة ومستقبلية",
+        "fr" : "La production d'énergie solaire renouvelable peut rendre les villes et les communautés durables, inclusives et à l'épreuve du temps"
+      }
+    },
+    {
+      "imageRef": {
+        "de": "SDG_icons_DE-13",
+        "ru": "R-WEB-Goal-13",
+        "en": "sdg13",
+        "ar": "A-WEB-Goal-13",
+        "fr": "A-WEB-Goal-13"
+      },
+      "logoDescription": {
+        "de": "Emissionen durch Stromerzeugung von Kohle, Öl, und Erdgas werden deutlich reduziert",
+        "ru": "Значительно снижены выбросы при производстве электроэнергии из угля, нефти и природного газа",
+        "en": "Emissions from power generation from coal, oil, and natural gas are significantly reduced",
+        "ar": "يتم تقليل الانبعاثات الناتجة عن توليد الطاقة من الفحم والنفط والغاز الطبيعي بشكل كبير",
+        "fr" : "Les émissions liées à la production d'électricité à partir de charbon, de pétrole et de gaz naturel sont réduites de manière significative"
+      }
+    }
+  ]
+}

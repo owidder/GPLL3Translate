@@ -1,0 +1,34 @@
+{
+  "schedule": {
+    "conditions": [
+      {
+        "path": "..globalMeanTemperature.series.GMT [Kelvins by year]",
+        "configurationType": "PROJECTION_RESULT",
+        "value": 2.2,
+        "operator": "GT"
+      }
+    ]
+  },
+  "name": "Beautiful Tuvalu is gone (Trigger 2.2 °C)",
+  "actions": [
+    {
+      "notification": {
+        "sendEmail": false,
+        "title": {
+          "de": "Der wunderschöne pazifische Inselstaat Tuvalu ist nicht mehr",
+          "ru": "Прекрасное тихоокеанское островное государство Тувалу исчезло",
+          "en": "The beautiful Pacific island nation of Tuvalu is gone",
+          "ar": "اختفت دولة توفالو الجميلة في جزيرة المحيط الهادئ",
+          "fr": "La magnifique nation insulaire du Pacifique de Tuvalu a disparu"
+        },
+        "body": {
+          "de": "<img width=250  src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"><br>Der pazifische Inselstaat Tuvalu ist völlig überflutet. Die 11.000 Einwohner haben alles verloren und sind auf Hilfe angewiesen. Wenden Sie sich an Ihre örtlichen Behörden, um zu erfahren, wie Sie helfen können.",
+          "ru": "<img width=250  src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"><br>Тихоокеанское островное государство Тувалу полностью затоплено. Его 11 000 жителей потеряли все и нуждаются в помощи. Свяжитесь с местными властями, чтобы узнать, чем вы можете помочь.",
+          "en": "<img width=250  src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"><br> The Pacific island nation of Tuvalu is completely flooded. Its 11,000 inhabitants have lost everything and are in need of rescue. Reach out to your local authorities to learn how you can help.",
+          "ar": "<img width=250  src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"><br> اجتاحت الفيضانات الدولة الجزيرة في المحيط الهادئ توفالو بالكامل. فقد السكان البالغ عددهم 11,000 شخص كل شيء وهم بحاجة إلى الإنقاذ. تواصل مع السلطات المحلية لمعرفة كيف يمكنك المساعدة.",
+          "fr": "<img width=250  src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"><br> La nation insulaire du Pacifique de Tuvalu est complètement inondée. Ses 11 000 habitants ont tout perdu et ont besoin d'être secourus. Contactez les autorités locales pour savoir comment vous pouvez aider."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+    "heading": {
+        "de": "Abstimmung über ein Verbot des Verbrennungsmotors in PKW",
+        "en": "Vote on a ban of the combustion engine in passenger cars",
+        "fr": "Votez pour l'interdiction du moteur à combustion dans les voitures particulières",
+        "ar": "تصويت بشأن حظر محرك الاحتراق الداخلي في سيارات الركاب",
+        "_with_de": "Abstimmung über ein Verbot des Verbrennungsmotors in Personenkraftwagen",
+        "_without_de": "Abstimmung über ein Verbot des Verbrennungsmotors in Personenkraftwagen"
+    },
+    "description": {
+        "de": "Eine wesentliche Quelle für Treibhausgasemissionen ist mit 20% der Verkehr durch das Verbrennen fossiler Treibstoffe wie Benzin, Diesel und Gas.\n\nEin Verbot von PKW mit Verbrennungsmotoren, die ca. 60% Anteil an den Emissionen des Verkehrssektors haben, würde die Emissionen bereits vor Inkrafttreten erheblich reduzieren, weil alle Autohersteller ihre Flotte schon vorher schrittweise umstellen müssten.\n\n",
+        "en": "A major source of greenhouse gas emissions, accounting for 20%, is transport through the burning of fossil fuels such as petrol, diesel and gas.\n\nA ban on passenger cars with combustion engines, which account for about 60% of transport sector emissions, would reduce emissions significantly even before it comes into force, because all car manufacturers would have to gradually convert their fleets before then.\n\n",
+        "fr": "Une source majeure d'émissions de gaz à effet de serre, représentant 20 %, est le transport par la combustion de combustibles fossiles tels que l'essence, le diesel et le gaz.\n\nUne interdiction des voitures particulières équipées de moteurs à combustion, qui représentent environ 60 % des émissions du secteur des transports, réduirait considérablement les émissions même avant son entrée en vigueur, car tous les constructeurs automobiles devraient convertir progressivement leur flotte avant cette date.\n\n",
+        "ar": "إحدى المصادر الرئيسية لانبعاثات غازات الاحتباس الحراري، والتي تشكل 20%، هي النقل عن طريق حرق الوقود الأحفوري مثل البنزين والديزل والغاز.\n\nسيؤدي حظر السيارات الركاب المزودة بمحركات الاحتراق، والتي تمثل حوالي 60% من انبعاثات قطاع النقل، إلى تقليل الانبعاثات بشكل كبير حتى قبل البدء في تنفيذ الحظر، لأن جميع شركات صناعة السيارات ستضطر إلى تحويل أسطولها تدريجيًا قبل ذلك الحين.\n\n",
+        "_with_de": "Eine bedeutende Quelle für Treibhausgasemissionen, die 20% ausmachen, ist der Verkehr durch die Verbrennung fossiler Brennstoffe wie Benzin, Diesel und Gas.\n\nEin Verbot von Personenkraftwagen mit Verbrennungsmotoren, die etwa 60% der Emissionen im Verkehrssektor ausmachen, würde die Emissionen erheblich reduzieren, noch bevor es in Kraft tritt, da alle Autohersteller ihre Flotten bis dahin schrittweise umstellen müssten.\n",
+        "_without_de": "Eine Hauptquelle für Treibhausgasemissionen, die 20% ausmachen, ist der Verkehr durch die Verbrennung von fossilen Brennstoffen wie Benzin, Diesel und Gas.\n\nEin Verbot von Personenkraftwagen mit Verbrennungsmotoren, die für etwa 60% der Emissionen im Verkehrssektor verantwortlich sind, würde die Emissionen erheblich reduzieren, noch bevor es in Kraft tritt, da alle Autohersteller ihre Flotten bis dahin schrittweise umstellen müssten."
+    },
+    "choices[0].uiStrings": {
+        "de": "Kein Verbot",
+        "en": "No ban",
+        "fr": "Pas d'interdiction",
+        "ar": "لا حظر",
+        "_with_de": "Kein Verbot",
+        "_without_de": "Kein Verbot"
+    },
+    "choices[1].uiStrings": {
+        "de": "Verbot ab 2025",
+        "en": "Ban from 2025",
+        "fr": "Interdiction à partir de 2025",
+        "ar": "حظر اعتبارًا من 2025",
+        "_with_de": "Verbot ab 2025",
+        "_without_de": "Verbot ab 2025"
+    },
+    "choices[2].uiStrings": {
+        "de": "Verbot ab 2030",
+        "en": "Ban from 2030",
+        "fr": "Interdiction à partir de 2030",
+        "ar": "حظر اعتبارًا من 2030",
+        "_with_de": "Verbot ab 2030",
+        "_without_de": "Verbot ab 2030"
+    },
+    "choices[3].uiStrings": {
+        "de": "Verbot ab 2035",
+        "en": "Ban from 2035",
+        "fr": "Interdiction à partir de 2035",
+        "ar": "حظر اعتبارًا من 2035",
+        "_with_de": "Verbot ab 2035",
+        "_without_de": "Verbot ab 2035"
+    },
+    "choices[4].uiStrings": {
+        "de": "Verbot ab 2040",
+        "en": "Ban from 2040",
+        "fr": "Interdiction à partir de 2040",
+        "ar": "حظر اعتبارًا من 2040",
+        "_with_de": "Verbot ab 2040",
+        "_without_de": "Verbot ab 2040"
+    },
+    "choices[5].uiStrings": {
+        "de": "Verbot ab 2045",
+        "en": "Ban from 2045",
+        "fr": "Interdiction à partir de 2045",
+        "ar": "حظر اعتبارًا من 2045",
+        "_with_de": "Verbot ab 2045",
+        "_without_de": "Verbot ab 2045"
+    }
+}

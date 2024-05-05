@@ -1,0 +1,33 @@
+{
+  "_id": "sustainable-aviation-fuel",
+  "heading": {
+    "de": "Abstimmung über die Umstellung auf CO₂-freien Flugzeugkraftstoff",
+    "en": "Vote on the switch to CO₂-free aviation fuel"
+  },
+  "description": {
+    "de": "Sollen Flugzeuge nur noch mit nachhaltigem CO2 neutralem Kraftstoff fliegen? \n\nBitte stimmen Sie über die folgenden politischen Maßnahmen ab, wie damit umzugehen ist:",
+    "en": "Should plains fly only with sustainable aviation fuel? \n\nPlease vote on the following policy measures on how to deal with this:\n"
+  },
+  "multipleChoice": false,
+  "choices": [
+    {
+      "name": "opt-1",
+      "isDefault": false,
+      "uiStrings": {
+        "de": "Keine politischen Maßnahmen.",
+        "ru": "Никаких мер политики.",
+        "en": "No policy measures.",
+        "ar": "لا توجد إجراءات سياسية.",
+        "fr": "Aucune mesure politique."
+      }
+    },
+    {
+      "name": "opt-2",
+      "isDefault": false,
+      "uiStrings": {
+        "de": "Alle Flüge dürfen nur noch mit SAF betrieben werden.",
+        "en": "All flights must be operated with SAF."
+      }
+    }
+  ]
+}

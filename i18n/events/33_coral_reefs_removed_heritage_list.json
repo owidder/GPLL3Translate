@@ -1,0 +1,42 @@
+{
+  "schedule": {
+    "conditions": [
+      {
+        "path": "..globalMeanTemperature.series.GMT [Kelvins by year]",
+        "source": "bauRCP6.0",
+        "configurationType": "PROJECTION_RESULT",
+        "value": 1.0,
+        "operator": "GTE"
+      },
+      {
+        "path": "..globalMeanTemperature.series.GMT [Kelvins by year]",
+        "source": "bauRCP6.0",
+        "configurationType": "PROJECTION_RESULT",
+        "value": 1.2,
+        "operator": "LTE"
+      }
+    ]
+  },
+  "name": "Coral reefs (Trigger 1.0 - 1.2°C)",
+  "actions": [
+    {
+      "notification": {
+        "sendEmail": false,
+        "title": {
+            "de": "UNESCO streicht Great Barrier Reef von der Weltnaturerbe-Liste",
+            "ru": "ЮНЕСКО исключило Великий барьерный риф из списка Всемирного наследия",
+            "en": "UNESCO Removes Great Barrier Reef from World Heritage List",
+            "fr": "L'UNESCO retire la Grande Barrière de Corail de la liste du patrimoine mondial",
+            "ar": "اليونسكو تستبعد الحاجز المرجاني العظيم من قائمة التراث العالمي"
+        },
+        "body": {
+            "de": "<img width=250 src=\"\"><br>Das Great Barrier Reef verliert seinen Platz in der UNESCO-Weltnaturerbe-Liste. Nach Warnungen von Expert*innen wurde das Great Barrier Reef zuvor bereits auf die Liste der gefährdeten Welterbestätten gesetzt. Das Korallensterben schreitet immer weiter voran. Es wird zunehmend unwahrscheinlich, dass sich das Ökosystem von den Folgen der Erderhitzung noch wird erholen können.<br>Text von treibhauspost.de",
+            "ru": "<img width=250 src=\"\"><br>Великий барьерный риф лишился своего места в списке Всемирного наследия ЮНЕСКО. После предупреждений экспертов риф уже был внесен в список уязвимых объектов Всемирного наследия. Гибель кораллов продолжает продвигаться. Становится все менее вероятным, что экосистема сможет восстановиться от последствий глобального потепления.<br>Текст с treibhauspost.de",
+            "en": "<img width=250 src=\"\"><br>The Great Barrier Reef is losing its place on the UNESCO World Heritage List. Following warnings from experts, the Great Barrier Reef was previously added to the list of endangered World Heritage sites. Coral bleaching continues to progress. It is becoming increasingly unlikely that the ecosystem will be able to recover from the effects of global warming.<br>Text from treibhauspost.de",
+            "ar": "<img width=250 src=\"\"><br>الحاجز المرجاني العظيم يفقد مكانه في قائمة التراث العالمي لليونسكو. بعد تحذيرات من الخبراء، تمت إضافة الحاجز المرجاني العظيم إلى قائمة المواقع المعرضة للخطر في التراث العالمي. استمرار تدهور الشعاب المرجانية. يصبح من غير المرجح بشكل متزايد أن يتمكن النظام البيئي من التعافي من تأثيرات الاحتباس الحراري.<br>نص من treibhauspost.de",
+            "fr": "<img width=250 src=\"\"><br>La Grande Barrière de Corail perd sa place dans la liste du patrimoine mondial de l'UNESCO. Après les avertissements des experts, la Grande Barrière de Corail avait déjà été inscrite sur la liste des sites du patrimoine mondial en péril. La disparition des coraux continue de progresser. Il devient de plus en plus improbable que l'écosystème puisse se rétablir des conséquences du réchauffement climatique.<br>Texte de treibhauspost.de"
+        }
+      }
+    }
+  ]
+}
