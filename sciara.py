@@ -1,5 +1,7 @@
 import difflib
+import asyncio
 import json
+from openai import AsyncOpenAI
 import openai
 import re
 import time
@@ -70,9 +72,10 @@ def create_td(text = "", diff: [str] = [], plusminus = "+") -> str:
     return td
 
 
-def ask_chatgpt(system: str, user: str, model: str) -> str:
+async def ask_chatgpt(system: str, user: str, model: str) -> str:
     try:
-        response = openai.ChatCompletion.create(
+        client = AsyncOpenAI()
+        response = await client.chat.completions.create(
             model=model,
             messages=[
                 {
@@ -90,7 +93,7 @@ def ask_chatgpt(system: str, user: str, model: str) -> str:
             frequency_penalty=0,
             presence_penalty=0
         )
-        answer = response["choices"][0]["message"]["content"]
+        answer = response.choices[0].message.content
     except openai.RateLimitError as e:
         print(e.json_body["error"]["message"])
         secnum_re = re.match(".*Please try again in ([0-9.]*)s\..*", e.json_body["error"]["message"])
@@ -115,7 +118,7 @@ def ask_llama3(system: str, user: str) -> str:
     return response
 
 
-def get_translation(source_text: str, source_language: str, target_language: str, translations: [(str, str)], use_chatGPT=True):
+async def get_translation(source_text: str, source_language: str, target_language: str, translations: [(str, str)], use_chatGPT=True):
     system = (
         f"You are an expert in all languages and climate change. In the following you get an original {LANGUAGES[source_language]} text {'and several translations into other languages' if len(translations) > 0 else ''}."
         f"Translate the original {LANGUAGES[source_language]} text into {LANGUAGES[target_language]}. Ensure that the translated text retains the original meaning, tone, and intent."
@@ -128,7 +131,7 @@ def get_translation(source_text: str, source_language: str, target_language: str
     user = "\n".join(user_lines)
     print(f"get_translation for '{source_text}'")
     if use_chatGPT:
-        answer = ask_chatgpt(system, user, model="gpt-4")
+        answer = await ask_chatgpt(system, user, model="gpt-4")
     else:
         answer = ask_llama3(system, user)
     print(f"get_translation: answer={answer}")
@@ -136,7 +139,7 @@ def get_translation(source_text: str, source_language: str, target_language: str
     return answer
 
 
-def check_translation(source_text: str, source_language: str, target_text: str, target_language: str):
+async def check_translation(source_text: str, source_language: str, target_text: str, target_language: str):
     system = (
         f"You are an expert in all languages and climate change. In the following you get an original {LANGUAGES[source_language]} text and a translation in {LANGUAGES[target_language]}."
         "Please decide whether both texts have the same meaning, tone and intent. If so, just answer with 'YES', if not, explain the difference and find a better translation."
@@ -144,7 +147,7 @@ def check_translation(source_text: str, source_language: str, target_text: str, 
     user_lines = [f"Original {LANGUAGES[source_language]}: \"{source_text}\"", f"{LANGUAGES[target_language]} translation: \"{target_text}\""]
     user = "\n".join(user_lines)
     print(f"check_translation for '{source_text}' -> '{target_text}'")
-    answer = ask_chatgpt(system, user, model="gpt-4")
+    answer = await ask_chatgpt(system, user, model="gpt-4")
     print(f"check_translation: answer={answer}")
     return answer
 
@@ -185,11 +188,11 @@ def create_diff_html(textA: str, textB: str, plusminus = "+") -> str:
 
 
 
-def crawl_json(data, source_language: str, target_language: str, current_translations: dict, table_lines: list, path="", official=""):
+async def crawl_json(data, source_language: str, target_language: str, current_translations: dict, table_lines: list, path="", official=""):
     if isinstance(data, dict):
         for key, value in data.items():
             new_path = f"{path}.{key}" if path else key
-            crawl_json(
+            await crawl_json(
                 data=value,
                 path=new_path,
                 source_language=source_language,
@@ -226,7 +229,7 @@ def crawl_json(data, source_language: str, target_language: str, current_transla
 
             target_language_ll3_property = f"_ll3_{target_language}"
             if len(filtered_translations) > 0 and not target_language_ll3_property in data:
-                target_translation_ll3 = get_translation(
+                target_translation_ll3 = await get_translation(
                     source_text=data[source_language],
                     source_language=source_language,
                     target_language=target_language,
@@ -239,7 +242,7 @@ def crawl_json(data, source_language: str, target_language: str, current_transla
 
             target_language_ll3_wo_property = f"_ll3_wo_{target_language}"
             if len(filtered_translations) > 0 and not target_language_ll3_wo_property in data:
-                target_translation_ll3_wo = get_translation(
+                target_translation_ll3_wo = await get_translation(
                     source_text=data[source_language],
                     source_language=source_language,
                     target_language=target_language,
@@ -264,7 +267,7 @@ def crawl_json(data, source_language: str, target_language: str, current_transla
 
             check_property = f"_check_{target_language}"
             if (not check_property in data) or (RETRY_CHECK and data[check_property].lower() != "yes"):
-                check_result = check_translation(
+                check_result = await check_translation(
                     source_language=source_language,
                     target_language=target_language,
                     source_text=current_translations[source_language],
@@ -276,7 +279,7 @@ def crawl_json(data, source_language: str, target_language: str, current_transla
 
             check_wo_property = f"_check_wo_{target_language}"
             if len(filtered_translations) > 0 and ((not check_wo_property in data) or (RETRY_CHECK and data[check_wo_property].lower() != "yes")):
-                check_wo_result = check_translation(
+                check_wo_result = await check_translation(
                     source_language=source_language,
                     target_language=target_language,
                     source_text=current_translations[source_language],
@@ -288,7 +291,7 @@ def crawl_json(data, source_language: str, target_language: str, current_transla
 
             check_ll3_property = f"_check_ll3_{target_language}"
             if len(filtered_translations) > 0 and ((not check_ll3_property in data) or (RETRY_CHECK and data[check_ll3_property].lower() != "yes")):
-                check_ll3_result = check_translation(
+                check_ll3_result = await check_translation(
                     source_language=source_language,
                     target_language=target_language,
                     source_text=current_translations[source_language],
@@ -300,7 +303,7 @@ def crawl_json(data, source_language: str, target_language: str, current_transla
 
             check_ll3_wo_property = f"_check_ll3_wo_{target_language}"
             if len(filtered_translations) > 0 and ((not check_ll3_wo_property in data) or (RETRY_CHECK and data[check_ll3_wo_property].lower() != "yes")):
-                check_ll3_wo_result = check_translation(
+                check_ll3_wo_result = await check_translation(
                     source_language=source_language,
                     target_language=target_language,
                     source_text=current_translations[source_language],
@@ -327,7 +330,7 @@ def crawl_json(data, source_language: str, target_language: str, current_transla
     elif isinstance(data, list):
         for i, value in enumerate(data):
             new_path = f"{path}[{i}]"
-            crawl_json(
+            await crawl_json(
                 data=value,
                 path=new_path,
                 source_language=source_language,
@@ -342,17 +345,17 @@ def crawl_json(data, source_language: str, target_language: str, current_transla
         print(f"{path}: {data}")
 
 
-def process_i18n_file(file_path: str):
+async def process_i18n_file(file_path: str):
     with open(file_path) as f:
         data = json.load(f)
 
     for target_language in LANGUAGES.keys():
         if target_language not in CERTIFIED_LANGUAGES:
             table_lines = []
-            crawl_json(data, source_language=SOURCE_LANGUAGE, target_language=target_language, current_translations={}, table_lines=table_lines)
+            await crawl_json(data, source_language=SOURCE_LANGUAGE, target_language=target_language, current_translations={}, table_lines=table_lines)
             with open(file_path, "w", encoding="UTF-8") as f:
                 json.dump(data, f, indent=4, ensure_ascii=False)
 
 
 if __name__ == "__main__":
-    process_i18n_file(INPUT_FILE)
+    asyncio.run(process_i18n_file(INPUT_FILE))
