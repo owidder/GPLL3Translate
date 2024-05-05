@@ -79,7 +79,12 @@
         "_check_zh": "YES",
         "_wo_de": "Nachhaltige Kochgeräte",
         "de": "Nachhaltige Herde",
-        "_check_de": "YES"
+        "_check_de": "YES",
+        "_ll3_de": "Nachhaltige Kochgeräte",
+        "_ll3_wo_de": "Nachhaltige Kochgeräte",
+        "_check_wo_de": "YES",
+        "_check_ll3_de": "YES",
+        "_check_ll3_wo_de": "YES"
     },
     "description": {
         "ru": "Во всем мире многие люди готовят пищу на открытом огне и на примитивных плитах. В качестве топлива очень часто используется древесина или (древесный) уголь. При их сжигании образуются клубы дыма и копоти. Чистые кухонные плиты, с другой стороны, уменьшают загрязнение, вызванное сжиганием этих материалов. Поэтому они, помимо прочего, снижают количество выбрасываемых в атмосферу вредных веществ. \n \n Финансирование такого проекта позволит заменить традиционные кухонные плиты, которые сжигают древесный уголь неэффективно и без вентиляции, а количество выделяемых газов и дыма может быть значительно снижено. Кроме того, использование таких усовершенствованных кухонных плит дает дополнительные положительные эффекты для устойчивого развития местного населения в развивающихся странах и странах с формирующимся рынком (см. ниже).  \n Источник: drawdown.org",
@@ -160,7 +165,12 @@
         "_check_zh": "YES",
         "_wo_de": "Weltweit kochen viele Menschen über offenem Feuer und auf rudimentären Herden. Holz oder (Holzkohle) werden sehr oft als Brennstoffe verwendet. Wenn sie verbrannt werden, werden Wolken aus Rauch und Ruß freigesetzt. Saubere Kochherde hingegen reduzieren im Vergleich die Verschmutzung durch die Verbrennung dieser Materialien. Sie reduzieren also unter anderem die Emissionen, die ausgestoßen werden.\n\nDie Finanzierung dieser Art von Projekt wird traditionelle Kochherde ersetzen, die Holzkohle ineffizient und ohne Belüftung verbrennen, und die ausgestoßenen Gase und Rauch können stark reduziert werden. Darüber hinaus bringt die Verwendung solcher verbesserten Kochherde andere positive Effekte für die nachhaltige Entwicklung der lokalen Bevölkerung in Entwicklungs- und Schwellenländern mit sich (siehe unten).\nQuelle: drawdown.org",
         "de": "Weltweit kochen viele Menschen über offenem Feuer und auf rudimentären Herden. Holz oder (Holzkohle) werden sehr oft als Brennstoffe verwendet. Wenn sie verbrannt werden, werden Wolken aus Rauch und Ruß freigesetzt. Saubere Kochherde hingegen reduzieren im Vergleich die Verschmutzung durch die Verbrennung dieser Materialien. Sie reduzieren also unter anderem die Emissionen, die ausgestoßen werden.\n\nDie Finanzierung dieser Art von Projekt wird traditionelle Kochherde ersetzen, die Holzkohle ineffizient und ohne Belüftung verbrennen, und die ausgestoßenen Gase und Rauch können erheblich reduziert werden. Darüber hinaus bringt die Verwendung solcher verbesserten Kochherde andere positive Effekte für die nachhaltige Entwicklung der lokalen Bevölkerung in Entwicklungs- und Schwellenländern mit sich (siehe unten).\nQuelle: drawdown.org",
-        "_check_de": "YES"
+        "_check_de": "YES",
+        "_ll3_de": "Um die Welt über, viele Menschen kochen über offenen Feuern und auf einfachen Kochplatten. Holz oder (Holzkohle) werden sehr oft als Brennstoff verwendet. Wenn sie verbrannt werden, werden Wolken von Rauch und Ruß freigesetzt. Saubere Kochplatten, andererseits, reduzieren die durch die Verbrennung dieser Materialien verursachte Verunreinigung im Vergleich. Deshalb reduz",
+        "_ll3_wo_de": "Um die Welt herum verwenden viele Menschen offene Feuer und einfache Kochherde. Holz oder (Kohle) werden oft als Brennstoff verwendet. Wenn sie verbrannt werden, werden Wolken von Rauch und Ruß freigesetzt. Saubere Kochherde reduzieren dagegen die Luftverschmutzung durch den Verbrennung dieser Materialien im Vergleich. Deshalb reduzieren sie auch die emittierten Emissionen.\n\n",
+        "_check_wo_de": "YES",
+        "_check_ll3_de": "The German translation is incomplete and therefore does not convey the same meaning as the English text. A better translation would be:\n\n\"Auf der ganzen Welt kochen viele Menschen über offenem Feuer und auf einfachen Herden. Holz oder (Holzkohle) werden sehr oft als Brennstoffe verwendet. Wenn sie verbrannt werden, entstehen Rauch- und Rußwolken. Saubere Kochherde hingegen reduzieren im Vergleich die Verschmutzung, die durch die Verbrennung dieser Materialien entsteht. Sie reduzieren also unter anderem die ausgestoßenen Emissionen.\n\nDie Finanzierung dieser Art von Projekten wird traditionelle Kochherde ersetzen, die Holzkohle ineffizient und ohne Belüftung verbrennen, und die ausgestoßenen Gase und Rauch können erheblich reduziert werden. Darüber hinaus bringt die Verwendung solcher verbesserten Kochherde andere positive Effekte für die nachhaltige Entwicklung der lokalen Bevölkerung in Entwicklungs- und Schwellenländern mit sich (siehe unten).\nQuelle: drawdown.org\"",
+        "_check_ll3_wo_de": "Die Finanzierung dieser Art von Projekt wird traditionelle Kochherde ersetzen, die Kohle ineffizient und ohne Belüftung verbrennen, und die ausgestoßenen Gase und Rauch können erheblich reduziert werden. Darüber hinaus bringt die Verwendung solcher verbesserten Kochherde andere positive Effekte für die nachhaltige Entwicklung der lokalen Bevölkerung in Entwicklungs- und Schwellenländern mit sich (siehe unten).\nQuelle: drawdown.org\"\n\nYES"
     },
     "globalCompensationLimit": 15000000,
     "participantCompensationLimit": 15,
@@ -278,7 +288,12 @@
                 "_check_zh": "YES",
                 "_wo_de": "Weniger Luftverschmutzung und somit Belastung für die Lungen; weniger körperliche Anstrengung beim Sammeln von Brennholz",
                 "de": "Weniger Luftverschmutzung und somit Belastung für die Lungen; weniger körperliche Anstrengung beim Sammeln von Brennholz",
-                "_check_de": "YES"
+                "_check_de": "YES",
+                "_ll3_de": "Deutsch: \"Minder Luftverschmutzung und dadurch weniger Belastung der Lungen; weniger körperliche Belastung durch das Sammeln von Holz\"",
+                "_ll3_wo_de": "Lessere Luftverschmutzung und dadurch Belastung der Lungen; weniger körperliche Belastung durch das Sammeln von Holz",
+                "_check_wo_de": "YES",
+                "_check_ll3_de": "YES",
+                "_check_ll3_wo_de": "The German translation is almost correct, but the word \"Lessere\" is not correct in this context. A better translation would be:\n\n\"Weniger Luftverschmutzung und dadurch weniger Belastung für die Lungen; weniger körperliche Anstrengung durch das Sammeln von Feuerholz.\""
             }
         },
         {
@@ -368,7 +383,12 @@
                 "_check_zh": "YES",
                 "_wo_de": "Frauen und Mädchen müssen weniger Feuerholz sammeln und haben mehr Zeit für andere Aktivitäten (z.B. Arbeit und Bildung)",
                 "de": "Frauen und Mädchen müssen weniger Feuerholz sammeln und haben mehr Zeit für andere Aktivitäten (z.B. Arbeit und Bildung)",
-                "_check_de": "YES"
+                "_check_de": "YES",
+                "_ll3_de": "Frauen und Mädchen müssen weniger Holz sammeln und haben mehr Zeit für andere Aktivitäten (z.B. Arbeit und Bildung).",
+                "_ll3_wo_de": "Frauen und Mädchen müssen weniger Holz sammeln und mehr Zeit für andere Aktivitäten (z.B. Arbeit und Bildung) haben.",
+                "_check_wo_de": "YES",
+                "_check_ll3_de": "YES",
+                "_check_ll3_wo_de": "NO. The German translation is not completely correct. The verb \"haben\" at the end of the sentence makes it sound like a command or an obligation, which changes the tone and intent of the sentence. A better translation would be: \"Frauen und Mädchen müssen weniger Feuerholz sammeln und haben dadurch mehr Zeit für andere Aktivitäten (z.B. Arbeit und Bildung).\""
             }
         },
         {
@@ -458,7 +478,12 @@
                 "_check_zh": "YES",
                 "_wo_de": "Höhere Energieeffizienz als herkömmliche Öfen, somit höhere Energiesicherheit für Haushalte",
                 "de": "Höhere Energieeffizienz als herkömmliche Öfen, was zu einer höheren Energiesicherheit für Haushalte führt",
-                "_check_de": "YES"
+                "_check_de": "YES",
+                "_ll3_de": "Deutsch: \"Höhere Energieeffizienz als bei den konventionellen Ofen, daher höhere Energie Sicherheit für Haushalte\"",
+                "_ll3_wo_de": "Höhere Energieeffizienz als die konventionellen Ofen, daher höhere Energie-Sicherheit für Haushalte",
+                "_check_wo_de": "YES",
+                "_check_ll3_de": "NO. The German translation is slightly incorrect. The correct translation should be: \"Höhere Energieeffizienz als bei den konventionellen Öfen, daher höhere Energiesicherheit für Haushalte\".",
+                "_check_ll3_wo_de": "NO. The German translation is incorrect because \"Ofen\" is singular, while \"stoves\" is plural in English. A better translation would be: \"Höhere Energieeffizienz als bei konventionellen Öfen, daher höhere Energiesicherheit für Haushalte\"."
             }
         },
         {
@@ -548,7 +573,12 @@
                 "_check_zh": "YES",
                 "_wo_de": "Beschäftigungsmöglichkeiten können entlang der Kochherd-Wertschöpfungskette geschaffen werden (z.B. in der Herstellung und Wartung); die eingesparte Zeit kann für andere Geschäftsaktivitäten genutzt werden.",
                 "de": "Beschäftigungsmöglichkeiten können entlang der Wertschöpfungskette von Kochherden geschaffen werden (z.B. in der Herstellung und Wartung); die eingesparte Zeit kann für andere Geschäftsaktivitäten genutzt werden",
-                "_check_de": "YES"
+                "_check_de": "YES",
+                "_ll3_de": "Entlang der Wertschöpfungskette der Kochherde können Beschäftigungsmöglichkeiten geschaffen werden (z.B. in der Fertigung und Wartung); eingespartes Zeit kann für andere wirtschaftliche Aktivitäten verwendet werden.",
+                "_ll3_wo_de": "Im Wertstoffkette des Kochofens können Beschäftigungsmöglichkeiten geschaffen werden (z.B. im Bereich der Fertigung und Wartung); eingesparte Zeit kann für andere Geschäftstätigkeiten verwendet werden.",
+                "_check_wo_de": "YES",
+                "_check_ll3_de": "YES",
+                "_check_ll3_wo_de": "NO. The German translation of \"cookstove value chain\" is not \"Wertstoffkette des Kochofens\". A better translation would be \"Wertschöpfungskette des Kochherdes\". So the corrected sentence is: \"Im Bereich der Wertschöpfungskette des Kochherdes können Beschäftigungsmöglichkeiten geschaffen werden (z.B. in der Fertigung und Wartung); die eingesparte Zeit kann für andere Geschäftstätigkeiten verwendet werden.\""
             }
         },
         {
@@ -638,7 +668,12 @@
                 "_check_zh": "YES",
                 "_wo_de": "Reduziert Treibhausgasemissionen",
                 "de": "Reduziert Treibhausgasemissionen",
-                "_check_de": "YES"
+                "_check_de": "YES",
+                "_ll3_de": "Reduziert die Treibhausgasemissionen",
+                "_ll3_wo_de": "Reduziert die Treibhausgasemissionen",
+                "_check_wo_de": "YES",
+                "_check_ll3_de": "YES",
+                "_check_ll3_wo_de": "YES"
             }
         }
     ]
