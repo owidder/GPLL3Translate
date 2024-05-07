@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{{ title }}</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-family: verdana, serif;
+            font-size:12px;
+            border: 1px solid white;
+        }
+        th, td {
+            border-bottom:3px solid white;
+            border-right:3px solid white;
+            padding: 15px;
+            text-align: left;
+        }
+        th {
+            background-color: darkgray;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                {% for header in headers %}
+                    <th>{{ header }}</th>
+                {% endfor %}
+            </tr>
+        </thead>
+        <tbody>
+            {% for translation_line in translation_lines %}
+                <tr>
+                    <td>{{ translation_line.source_text }}</td>
+                    <td>{{ translation_line.translation }}</td>
+                    <td>{{ translation_line.translation_wo }}</td>
+                    <td>{{ translation_line.translation_ll3 }}</td>
+                    <td>{{ translation_line.translation_ll3_wo }}</td>
+                    <td>{{ translation_line.official }}</td>
+                    <td>{{ translation_line.check }}</td>
+                    <td>{{ translation_line.check_wo }}</td>
+                    <td>{{ translation_line.check_ll3 }}</td>
+                    <td>{{ translation_line.check_ll3_wo }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>

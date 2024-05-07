@@ -55,7 +55,7 @@ INPUT_FILE = os.getenv("INPUT_FILE")
 RETRY_CHECK = (os.getenv("RETRY_CHECK", "0") == "1")
 
 
-def create_td(text = "", diff: [str] = [], plusminus = "+") -> str:
+def create_td(text = "", diff: [str]=[], plusminus="+") -> str:
     td = "<td style='border-bottom:3px solid white;border-right:3px solid white;'>"
 
     if len(diff) > 0:
@@ -159,11 +159,15 @@ def is_translation(path: str) -> bool:
 def create_table(translation_lines: [str], source: str, target: str):
     headers = [
         "source text",
-        "with translations",
-        "without translations",
+        "GPT4 (with translations)",
+        "GPT4 (without translations)",
+        "Llama3-8B (with translations)",
+        "Llama3-8B (without translations)",
         "official",
-        "check with translations",
-        "check without translations",
+        "check GPT4 (with translations)",
+        "check GPT4 (without translations)",
+        "check Llama3-8B (with translations)",
+        "check Llama3-8B (without translations)",
     ]
 
     env = Environment(loader=FileSystemLoader('./templates'))
@@ -345,7 +349,7 @@ async def crawl_json(data, source_language: str, target_language: str, current_t
         print(f"{path}: {data}")
 
 
-async def process_i18n_file(file_path: str):
+async def process_i18n_file(file_path: str) -> [object]:
     with open(file_path) as f:
         data = json.load(f)
 
