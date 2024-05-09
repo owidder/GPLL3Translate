@@ -12,7 +12,7 @@ model, tokenizer = load("mlx-community/Meta-Llama-3-8B-Instruct-4bit")
 
 
 CERTIFIED_LANGUAGES = [
-    # "de",
+    "de",
     "ru",
     "en",
     "ar",
@@ -53,6 +53,7 @@ LANGUAGES = {
 }
 INPUT_FILE = os.getenv("INPUT_FILE")
 RETRY_CHECK = (os.getenv("RETRY_CHECK", "0") == "1")
+TARGET_LANGUAGE = os.getenv("TARGET_LANGUAGE", "")
 
 
 def create_td(text = "", diff: [str]=[], plusminus="+") -> str:
@@ -156,7 +157,7 @@ def is_translation(path: str) -> bool:
     return path.split(".")[-1].lower() in LANGUAGES and not "imageRef" in path
 
 
-def create_table(translation_lines: [str], source: str, target: str):
+def create_table(input_file: str, translation_lines: [str], source: str, target: str):
     headers = [
         "source text",
         "GPT4 (with translations)",
@@ -173,11 +174,11 @@ def create_table(translation_lines: [str], source: str, target: str):
     env = Environment(loader=FileSystemLoader('./templates'))
     template = env.get_template('simple_table_small.html.j2')
     html = template.render(headers=headers, translation_lines=translation_lines)
-    with open(f"./tables/table.{source}_{target}.html", 'w') as f:
+    with open(f"./tables/{input_file}_table.{source}_{target}.html", 'w') as f:
         f.write(html)
 
 
-def create_diff_html(textA: str, textB: str, plusminus = "+") -> str:
+def create_diff_html(textA: str, textB: str, plusminus="+") -> str:
     diff_list = list(difflib.ndiff(textA.split(), textB.split()))
     html = ""
     for word in diff_list:
@@ -219,9 +220,21 @@ async def crawl_json(data, source_language: str, target_language: str, current_t
             else:
                 target_translation = data[target_language]
 
+            target_language_w_property = f"_w_{target_language}"
+            if len(filtered_translations) > 0 and not target_language_w_property in data and target_language in CERTIFIED_LANGUAGES:
+                target_translation_w = await get_translation(
+                    source_text=data[source_language],
+                    source_language=source_language,
+                    target_language=target_language,
+                    translations=filtered_translations
+                )
+                data[target_language_w_property] = target_translation_w
+            else:
+                target_translation_w = data[target_language_w_property]
+
             target_language_wo_property = f"_wo_{target_language}"
             if len(filtered_translations) > 0 and not target_language_wo_property in data:
-                target_translation_wo = get_translation(
+                target_translation_wo = await get_translation(
                     source_text=data[source_language],
                     source_language=source_language,
                     target_language=target_language,
@@ -275,7 +288,7 @@ async def crawl_json(data, source_language: str, target_language: str, current_t
                     source_language=source_language,
                     target_language=target_language,
                     source_text=current_translations[source_language],
-                    target_text=target_translation
+                    target_text=target_translation_w if target_language in CERTIFIED_LANGUAGES else target_translation_w,
                 )
                 data[check_property] = check_result
             else:
@@ -319,10 +332,11 @@ async def crawl_json(data, source_language: str, target_language: str, current_t
 
             table_lines.append({
                 "id": path,
-                "translation": create_diff_html(textA=target_translation, textB=official),
-                "translation_wo": create_diff_html(textA=target_translation_wo, textB=official),
-                "translation_ll3": create_diff_html(textA=target_translation_ll3, textB=official),
-                "translation_ll3_wo": create_diff_html(textA=target_translation_ll3_wo, textB=official),
+                "translation": create_diff_html(textB=target_translation, textA=target_translation_wo),
+                "translation_w": create_diff_html(textB=target_translation_wo, textA=target_translation_w) if target_language in CERTIFIED_LANGUAGES else "",
+                "translation_wo": create_diff_html(textB=target_translation_wo, textA=target_translation),
+                "translation_ll3": create_diff_html(textB=target_translation_ll3, textA=target_translation_ll3_wo),
+                "translation_ll3_wo": create_diff_html(textB=target_translation_ll3_wo, textA=target_translation_ll3),
                 "source_text": current_translations[source_language],
                 "official": official,
                 "check": check_result,
@@ -349,17 +363,24 @@ async def crawl_json(data, source_language: str, target_language: str, current_t
         print(f"{path}: {data}")
 
 
-async def process_i18n_file(file_path: str) -> [object]:
+async def process_i18n_file(file_path: str, target_language="") -> {str: [object]}:
     with open(file_path) as f:
         data = json.load(f)
 
-    for target_language in LANGUAGES.keys():
-        if target_language not in CERTIFIED_LANGUAGES:
-            table_lines = []
-            await crawl_json(data, source_language=SOURCE_LANGUAGE, target_language=target_language, current_translations={}, table_lines=table_lines)
-            with open(file_path, "w", encoding="UTF-8") as f:
-                json.dump(data, f, indent=4, ensure_ascii=False)
+    table_lines_dict = {}
+    for _target_language in (LANGUAGES.keys() if len(target_language) == 0 else [target_language]):
+        table_lines = []
+        await crawl_json(data, source_language=SOURCE_LANGUAGE, target_language=_target_language, current_translations={}, table_lines=table_lines)
+        with open(file_path, "w", encoding="UTF-8") as f:
+            json.dump(data, f, indent=4, ensure_ascii=False)
+        table_lines_dict[_target_language] = table_lines
+    return table_lines_dict
+
+async def main():
+    table_lines_dict = await process_i18n_file(INPUT_FILE, TARGET_LANGUAGE)
+    for target_language in table_lines_dict:
+        create_table(translation_lines=table_lines_dict[target_language], source=SOURCE_LANGUAGE, target=target_language, input_file=os.path.basename(INPUT_FILE))
 
 
 if __name__ == "__main__":
-    asyncio.run(process_i18n_file(INPUT_FILE))
+    asyncio.run(main())

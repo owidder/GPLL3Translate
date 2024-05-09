@@ -34,7 +34,11 @@
             {% for translation_line in translation_lines %}
                 <tr>
                     <td>{{ translation_line.source_text }}</td>
+                    {%  if translation_line.translation_w|length > 0 %}
+                    <td>{{ translation_line.translation_w }}</td>
+                    {%  else %}
                     <td>{{ translation_line.translation }}</td>
+                    {% endif %}
                     <td>{{ translation_line.translation_wo }}</td>
                     <td>{{ translation_line.translation_ll3 }}</td>
                     <td>{{ translation_line.translation_ll3_wo }}</td>
