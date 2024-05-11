@@ -77,7 +77,18 @@
         "_check_sv": "YES",
         "zh": "对普遍的高速公路速度限制进行投票",
         "_back_zh": "Über allgemeine Geschwindigkeitsbegrenzungen auf Autobahnen abstimmen",
-        "_check_zh": "YES"
+        "_check_zh": "YES",
+        "_w_de": "Abstimmung über ein allgemeines Autobahngeschwindigkeitslimit",
+        "_wo_de": "Abstimmung über ein allgemeines Autobahngeschwindigkeitslimit",
+        "_ll3_de": "Stimmt ab für eine allgemeine Geschwindigkeitsbegrenzung auf Autobahnen",
+        "_ll3_wo_de": "Stimmen für eine allgemeine Geschwindigkeitsbegrenzung auf Autobahnen",
+        "_check_de": "YES",
+        "_check_wo_de": "YES",
+        "_check_ll3_de": "NO. The German translation is not completely accurate. It says \"Vote for a general motorway speed limit\" which implies a bias towards voting in favor of the speed limit. A better translation would be: \"Stimmt ab über eine allgemeine Geschwindigkeitsbegrenzung auf Autobahnen\". This translation maintains the neutral tone of the original English text.",
+        "_check_ll3_wo_de": "YES",
+        "_check_ru": "NO. The Russian translation is in English, not Russian. A correct translation in Russian would be \"Голосование по общему ограничению скорости на автобанах\".",
+        "_check_ar": "NO. The Armenian translation provided is actually in Arabic, not Armenian. The correct Armenian translation would be: \"Ավտոմայնային ճանապարհի ընդհանուր արագասարքի սահմանաչափի մասին քվեարկություն\".",
+        "_check_fr": "NO. The French translation is not accurate. It suggests to \"Vote for a general speed limit on highways\" which is not the same as the German original. A better translation would be: \"Vote sur une limitation de vitesse générale sur les autoroutes\"."
     },
     "description": {
         "ar": "يزداد مقاومة الهواء للمركبة مع تربيع السرعة. وبناءً على ذلك، يزداد حصة استهلاك الوقود بسبب مقاومة الهواء.\n\nتقدر الخبراء أن تحديد حد السرعة المسموح به الأقصى على الطرق السريعة سيؤدي إلى الحد من الانبعاثات على النحو التالي:\n\n130 كم/ساعة: 1.9 مليون طن من ثاني أكسيد الكربون\n120 كم/ساعة: 2.6 مليون طن من ثاني أكسيد الكربون\n100 كم/ساعة: 5.4 مليون طن من ثاني أكسيد الكربون.\n\nيقول المؤيدون: حد السرعة العام لا يكلف شيئًا تقريبًا، ويؤدي على الفور إلى التوفير المذكور وزيادة تدفق المرور وسلامة الطريق.\n\nيقول النقاد: يشعر العديد من السائقين الألمان بأنهم يتعرضون للمضايقة ويخشون أنهم لن يكونوا قادرين على الوصول إلى وجهاتهم بنفس السرعة التي كانوا يستخدمونها في السابق. سيتم القضاء على حجة صناعة السيارات الألمانية لصالح المركبات عالية القوة التي تحقق من خلالها أعلى أرباحها.\n\nفي كل الدول الأوروبية الأخرى، تم تطبيق حدود سرعة تتراوح بين 100 و 130 كم/ساعة باستمرار منذ عقود، وفي بولندا 140 كم/ساعة على الطرق السريعة.",
@@ -156,7 +167,18 @@
         "_check_sv": "YES",
         "zh": "一辆车的空气阻力随着速度的平方增加。因此，由空气阻力引起的燃料消耗份额也相应增加。\n\n专家估计，限制高速公路上允许的最高速度将导致以下排放减少：\n\n130公里/小时：190万吨CO₂\n120公里/小时：260万吨CO₂\n100公里/小时：540万吨CO₂。\n\n支持者说：一般的速度限制几乎不花费任何费用，立即带来上述的节省，并增加交通流量和道路安全。\n\n批评者说：许多德国司机感到自己受到了欺凌，担心他们将无法像以前那样快速到达目的地。对于德国汽车工业来说，它最赚钱的高动力车辆的一个论点将被消除。\n\n在几乎所有其他欧洲国家，几十年来一直实行100至130公里/小时之间的速度限制，在波兰的高速公路上是140公里/小时。\n\n你的意见是什么？",
         "_back_zh": "Der Luftwiderstand eines Autos steigt mit dem Quadrat der Geschwindigkeit. Daher steigt auch der Anteil des Kraftstoffverbrauchs, der durch den Luftwiderstand verursacht wird, entsprechend an.\n\nExperten schätzen, dass eine Begrenzung der zulässigen Höchstgeschwindigkeit auf Autobahnen zu folgenden Emissionsreduktionen führen würde:\n\n130 Kilometer pro Stunde: 1,9 Millionen Tonnen CO₂\n120 Kilometer pro Stunde: 2,6 Millionen Tonnen CO₂\n100 Kilometer pro Stunde: 5,4 Millionen Tonnen CO₂.\n\nBefürworter sagen: Allgemeine Geschwindigkeitsbegrenzungen kosten kaum etwas, bringen sofort die oben genannten Einsparungen und erhöhen den Verkehrsfluss und die Straßensicherheit.\n\nKritiker sagen: Viele deutsche Fahrer fühlen sich schikaniert und befürchten, dass sie nicht mehr so schnell an ihr Ziel kommen können wie früher. Für die deutsche Automobilindustrie würde ein Argument für ihre profitabelsten Hochleistungsfahrzeuge wegfallen.\n\nIn fast allen anderen europäischen Ländern gibt es seit Jahrzehnten Geschwindigkeitsbegrenzungen zwischen 100 und 130 Kilometern pro Stunde, auf polnischen Autobahnen sind es 140 Kilometer pro Stunde.\n\nWas ist Ihre Meinung?",
-        "_check_zh": "YES"
+        "_check_zh": "YES",
+        "_w_de": "Der Luftwiderstand eines Fahrzeugs steigt mit dem Quadrat der Geschwindigkeit. Dementsprechend erhöht sich der Anteil des Kraftstoffverbrauchs aufgrund des Luftwiderstands.\n\nExperten schätzen, dass eine Begrenzung der maximal zulässigen Geschwindigkeit auf Autobahnen zu folgenden Emissionsreduktionen führen würde:\n\n130 km/h: 1,9 Millionen Tonnen CO₂\n120 km/h: 2,6 Millionen Tonnen CO₂\n100 km/h: 5,4 Millionen Tonnen CO₂.\n\nBefürworter sagen: Ein allgemeines Tempolimit kostet praktisch nichts, führt sofort zu den genannten Einsparungen und erhöht den Verkehrsfluss und die Verkehrssicherheit.\n\nDie Kritiker sagen: Viele deutsche Fahrer fühlen sich schikaniert und befürchten, dass sie ihre Ziele nicht mehr so schnell erreichen können wie früher. Für die deutsche Automobilindustrie würde ein Argument für die leistungsstarken Fahrzeuge, mit denen sie am meisten Geld verdient, entfallen.\n\nIn praktisch allen anderen europäischen Ländern gelten seit Jahrzehnten durchgehend Geschwindigkeitsbegrenzungen zwischen 100 und 130 km/h, in Polen 140 km/h auf Autobahnen.\n\nWas ist Ihre Meinung?",
+        "_wo_de": "Der Luftwiderstand eines Fahrzeugs steigt mit dem Quadrat der Geschwindigkeit. Dementsprechend steigt der Anteil des Kraftstoffverbrauchs aufgrund des Luftwiderstands.\n\nExperten schätzen, dass eine Begrenzung der maximal zulässigen Geschwindigkeit auf Autobahnen zu folgenden Emissionsreduktionen führen würde:\n\n130 km/h: 1,9 Millionen Tonnen CO₂\n120 km/h: 2,6 Millionen Tonnen CO₂\n100 km/h: 5,4 Millionen Tonnen CO₂\n\nBefürworter sagen: Ein allgemeines Tempolimit kostet praktisch nichts, führt sofort zu den genannten Einsparungen und erhöht den Verkehrsfluss und die Verkehrssicherheit.\n\nDie Kritiker sagen: Viele deutsche Fahrer fühlen sich schikaniert und befürchten, dass sie ihre Ziele nicht mehr so schnell erreichen können wie früher. Für die deutsche Autoindustrie würde ein Argument für die leistungsstarken Fahrzeuge, mit denen sie am meisten Geld verdient, wegfallen.\n\nIn praktisch allen anderen europäischen Ländern gelten seit Jahrzehnten durchgehend Geschwindigkeitsbegrenzungen zwischen 100 und 130 km/h, in Polen 140 km/h auf Autobahnen.\n\nWas ist Ihre Meinung?",
+        "_ll3_de": "Der Luftwiderstand eines Fahrzeugs steigt mit dem Quadrat der Geschwindigkeit. Folglich steigt auch der Anteil des Kraftstoffverbrauchs, der durch den Luftwiderstand verursacht wird.\n\nExperten schätzen, dass die Begrenzung der zulässigen Höchstgeschwindigkeit auf Autobahnen zu den folgenden Emissionsreduktionen führen würde:\n\n130 km/h: 1,9 Millionen Tonnen",
+        "_ll3_wo_de": "Der Luftwiderstand eines Fahrzeugs steigt mit dem Quadrat der Geschwindigkeit. Entsprechend steigt der Anteil des Kraftstoffverbrauchs durch Luftwiderstand.\n\nExperten schätzen, dass die Begrenzung der zulässigen Höchstgeschwindigkeit auf Autobahnen zu den folgenden Emissionsreduktionen führen würde:\n\n130 km/h: 1,9 Millionen Tonnen CO₂\n120 km/h",
+        "_check_de": "YES",
+        "_check_wo_de": "YES",
+        "_check_ll3_de": "NO\n\nThe German translation is incomplete. It only translates the text up to the first emission reduction estimate and leaves out the rest of the text. A complete translation would be:\n\n\"Der Luftwiderstand eines Fahrzeugs steigt mit dem Quadrat der Geschwindigkeit. Dementsprechend erhöht sich der Anteil des Kraftstoffverbrauchs, der auf den Luftwiderstand zurückzuführen ist.\n\nExperten schätzen, dass eine Begrenzung der maximal zulässigen Geschwindigkeit auf Autobahnen zu folgenden Emissionsreduktionen führen würde:\n\n130 km/h: 1,9 Millionen Tonnen CO₂\n120 km/h: 2,6 Millionen Tonnen CO₂\n100 km/h: 5,4 Millionen Tonnen CO₂\n\nBefürworter sagen: Ein allgemeines Tempolimit kostet praktisch nichts, führt sofort zu den genannten Einsparungen und erhöht den Verkehrsfluss und die Verkehrssicherheit.\n\nDie Kritiker sagen: Viele deutsche Fahrer fühlen sich schikaniert und befürchten, dass sie ihre Ziele nicht mehr so schnell erreichen können wie früher. Für die deutsche Autoindustrie würde ein Argument für die leistungsstarken Fahrzeuge, mit denen sie am meisten Geld verdient, wegfallen.\n\nIn praktisch allen anderen europäischen Ländern gelten seit Jahrzehnten durchgehend Geschwindigkeitsbegrenzungen zwischen 100 und 130 km/h, in Polen 140 km/h auf Autobahnen.\n\nWas ist Ihre Meinung?\"",
+        "_check_ll3_wo_de": "NO\n\nThe German translation is incomplete. It stops at \"120 km/h\" and does not continue with the rest of the text. A complete translation would be:\n\n\"Der Luftwiderstand eines Fahrzeugs steigt mit dem Quadrat der Geschwindigkeit. Dementsprechend steigt der Anteil des Kraftstoffverbrauchs durch Luftwiderstand.\n\nExperten schätzen, dass die Begrenzung der zulässigen Höchstgeschwindigkeit auf Autobahnen zu den folgenden Emissionsreduktionen führen würde:\n\n130 km/h: 1,9 Millionen Tonnen CO₂\n120 km/h: 2,6 Millionen Tonnen CO₂\n100 km/h: 5,4 Millionen Tonnen CO₂\n\nBefürworter sagen: Ein allgemeines Tempolimit kostet praktisch nichts, führt sofort zu den genannten Einsparungen und erhöht den Verkehrsfluss und die Verkehrssicherheit.\n\nDie Kritiker sagen: Viele deutsche Fahrer fühlen sich schikaniert und befürchten, dass sie ihre Ziele nicht mehr so schnell erreichen können wie früher. Für die deutsche Autoindustrie würde ein Argument für die leistungsstarken Fahrzeuge, mit denen sie am meisten Geld verdient, wegfallen.\n\nIn praktisch allen anderen europäischen Ländern gelten seit Jahrzehnten konsequent Geschwindigkeitsbegrenzungen zwischen 100 und 130 km/h, in Polen 140 km/h auf Autobahnen.\n\nWas ist Ihre Meinung?\"",
+        "_check_ru": "The Russian translation provided is not in Russian, it's in English. Therefore, it's not possible to compare the German text with the Russian translation. A correct Russian translation of the German text would be:\n\n\"Сопротивление воздуха автомобиля увеличивается в квадрате скорости. Соответственно, увеличивается доля расхода топлива из-за сопротивления воздуха.\n\nЭксперты оценивают, что ограничение максимально допустимой скорости на автобанах приведет к следующему снижению выбросов:\n\n130 км/ч: 1,9 млн. тонн CO₂\n120 км/ч: 2,6 млн. тонн CO₂\n100 км/ч: 5,4 млн. тонн CO₂\n\nСторонники говорят: Общее ограничение скорости практически ничего не стоит, немедленно приводит к указанным экономиям и увеличивает поток трафика и безопасность дорожного движения.\n\nКритики говорят: Многие немецкие водители чувствуют, что их угнетают, и боятся, что они больше не смогут достичь своих пунктов назначения так быстро, как раньше. Для немецкой автомобильной промышленности исчезнет аргумент в пользу мощных автомобилей, на которых она зарабатывает больше всего денег.\n\nПрактически во всех других европейских странах уже десятилетиями действуют ограничения скорости от 100 до 130 км/ч, в Польше на автобанах 140 км/ч.\n\nКакое у вас мнение?\"",
+        "_check_ar": "The text provided is not in Armenian, it's in Arabic. Therefore, it's not possible to compare the German original with the Armenian translation. Please provide the correct Armenian translation.",
+        "_check_fr": "YES"
     },
     "multipleChoice": false,
     "choices": [
@@ -240,7 +262,18 @@
                 "_check_sv": "YES",
                 "zh": "速度限制100公里/小时",
                 "_back_zh": "Geschwindigkeitsbegrenzung 100 Kilometer/Stunde",
-                "_check_zh": "YES"
+                "_check_zh": "YES",
+                "_w_de": "Geschwindigkeitsbegrenzung 100 km/h",
+                "_wo_de": "Geschwindigkeitsbegrenzung 100 km/h",
+                "_ll3_de": "Geschwindigkeitsbegrenzung 100 km/h",
+                "_ll3_wo_de": "Tempolimit 100 km/h",
+                "_check_de": "YES",
+                "_check_wo_de": "YES",
+                "_check_ll3_de": "YES",
+                "_check_ll3_wo_de": "YES",
+                "_check_ru": "The Russian translation is in English, not Russian. The correct Russian translation would be \"Ограничение скорости 100 км/ч\".",
+                "_check_ar": "NO. The Armenian translation provided is actually in Arabic, not Armenian. The correct Armenian translation would be \"Սահմանափակում 100 կմ/ժ\"",
+                "_check_fr": "YES"
             }
         },
         {
@@ -323,7 +356,18 @@
                 "_check_sv": "YES",
                 "zh": "速度限制120公里/小时",
                 "_back_zh": "Geschwindigkeitsbegrenzung 120 Kilometer/Stunde",
-                "_check_zh": "YES"
+                "_check_zh": "YES",
+                "_w_de": "Geschwindigkeitsbegrenzung 120 km/h",
+                "_wo_de": "Geschwindigkeitsbegrenzung 120 km/h",
+                "_ll3_de": "Geschwindigkeitsbegrenzung 120 km/h",
+                "_ll3_wo_de": "Tempolimit 120 km/h",
+                "_check_de": "YES",
+                "_check_wo_de": "YES",
+                "_check_ll3_de": "YES",
+                "_check_ll3_wo_de": "YES",
+                "_check_ru": "The Russian translation is in English, not Russian. The correct translation in Russian would be \"Ограничение скорости 120 км/ч\".",
+                "_check_ar": "NO. The Armenian translation provided is actually in Arabic, not Armenian. The correct Armenian translation would be \"120 կմ/ժ սահմանափակում\".",
+                "_check_fr": "YES"
             }
         },
         {
@@ -406,7 +450,18 @@
                 "_check_sv": "YES",
                 "zh": "速度限制130公里/小时",
                 "_back_zh": "Geschwindigkeitsbegrenzung 130 Kilometer/Stunde",
-                "_check_zh": "YES"
+                "_check_zh": "YES",
+                "_w_de": "Geschwindigkeitsbegrenzung 130 km/h",
+                "_wo_de": "Geschwindigkeitsbegrenzung 130 km/h",
+                "_ll3_de": "Geschwindigkeitsbegrenzung 130 km/h",
+                "_ll3_wo_de": "Tempolimit 130 km/h",
+                "_check_de": "YES",
+                "_check_wo_de": "YES",
+                "_check_ll3_de": "YES",
+                "_check_ll3_wo_de": "YES",
+                "_check_ru": "The Russian translation is in English, not Russian. The correct translation in Russian would be \"Ограничение скорости 130 км/ч\".",
+                "_check_ar": "NO. The Armenian translation provided is actually in Arabic, not Armenian. The correct Armenian translation would be \"130 կմ/ժ սահմանափակում\".",
+                "_check_fr": "YES"
             }
         },
         {
@@ -489,7 +544,18 @@
                 "_check_sv": "YES",
                 "zh": "速度限制140公里/小时",
                 "_back_zh": "Geschwindigkeitsbegrenzung 140 Kilometer/Stunde",
-                "_check_zh": "YES"
+                "_check_zh": "YES",
+                "_w_de": "Geschwindigkeitsbegrenzung 140 km/h",
+                "_wo_de": "Geschwindigkeitsbegrenzung 140 km/h",
+                "_ll3_de": "Geschwindigkeitsbegrenzung 140 km/h",
+                "_ll3_wo_de": "Tempolimit 140 km/h",
+                "_check_de": "YES",
+                "_check_wo_de": "YES",
+                "_check_ll3_de": "YES",
+                "_check_ll3_wo_de": "YES",
+                "_check_ru": "NO. The Russian translation is in English, not Russian. A correct translation would be \"Ограничение скорости 140 км/ч\".",
+                "_check_ar": "NO. The Armenian translation provided is actually in Arabic, not Armenian. The correct Armenian translation would be \"140 կմ/ժ սահմանափակում\".",
+                "_check_fr": "YES"
             }
         },
         {
@@ -572,7 +638,18 @@
                 "_check_sv": "NO. The Swedish translation \"Ingen hastighetsbegränsning\" means \"No speed limit\" in English, which is more specific than the original German text \"Keine Begrenzung\" that simply means \"No limit\". A better translation would be \"Ingen begränsning\".",
                 "zh": "没有速度限制",
                 "_back_zh": "Keine Geschwindigkeitsbegrenzung",
-                "_check_zh": "NO. The Chinese translation \"没有速度限制\" means \"No speed limit\". The correct translation for the German phrase \"Keine Begrenzung\" should be \"没有限制\", which means \"No limit\"."
+                "_check_zh": "NO. The Chinese translation \"没有速度限制\" means \"No speed limit\". The correct translation for the German phrase \"Keine Begrenzung\" should be \"没有限制\", which means \"No limit\".",
+                "_w_de": "Keine Geschwindigkeitsbegrenzung",
+                "_wo_de": "Keine Geschwindigkeitsbegrenzung",
+                "_ll3_de": "Keine Geschwindigkeitsbegrenzung",
+                "_ll3_wo_de": "Keine Geschwindigkeitsbeschränkung",
+                "_check_de": "YES",
+                "_check_wo_de": "YES",
+                "_check_ll3_de": "YES",
+                "_check_ll3_wo_de": "YES",
+                "_check_ru": "NO. The Russian translation is not correct. The German phrase \"Keine Begrenzung\" translates to \"No limit\" in English, not specifically \"No speed limit\". A better Russian translation would be \"Без ограничений\".",
+                "_check_ar": "NO. The Armenian translation is incorrect because it is actually in Arabic, not Armenian. The Arabic phrase translates to \"There is no speed limit\" in English, which is not the same as the German phrase \"Keine Begrenzung\" that means \"No limit\". The correct Armenian translation should be \"Ոչ մի սահմանափակում\".",
+                "_check_fr": "NO. The French translation \"Pas de limitation de vitesse\" specifically refers to \"no speed limit\". The original German text \"Keine Begrenzung\" simply means \"No limit\" or \"No restriction\". A better translation would be \"Pas de limite\"."
             }
         }
     ]
