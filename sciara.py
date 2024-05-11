@@ -171,7 +171,13 @@ def create_table(input_file: str, translation_lines: [str], source: str, target:
         "check Llama3-8B (with translations)",
         "check Llama3-8B (without translations)",
     ]
-    headers = list(reduce(lambda acc, item: [*acc, f"check: {item}"], CERTIFIED_LANGUAGES, _headers))
+    headers = list(
+        reduce(
+            lambda acc, item: [*acc, f"check: {item}"],
+            filter(lambda l: l != source and l != target, CERTIFIED_LANGUAGES),
+            _headers
+        )
+    )
 
     env = Environment(loader=FileSystemLoader('./templates'))
     template = env.get_template('simple_table_small.html.j2')
@@ -347,11 +353,11 @@ async def crawl_json(data, source_language: str, target_language: str, current_t
 
             table_lines.append({
                 "id": path,
-                "translation": create_diff_html(textB=target_translation, textA=target_translation_wo),
-                "translation_w": create_diff_html(textB=target_translation_wo, textA=target_translation_w) if target_language in CERTIFIED_LANGUAGES else "",
-                "translation_wo": create_diff_html(textB=target_translation_wo, textA=target_translation),
-                "translation_ll3": create_diff_html(textB=target_translation_ll3, textA=target_translation_ll3_wo),
-                "translation_ll3_wo": create_diff_html(textB=target_translation_ll3_wo, textA=target_translation_ll3),
+                "translation": create_diff_html(textA=target_translation_wo, textB=target_translation),
+                "translation_w": create_diff_html(textA=target_translation_wo, textB=target_translation_w) if target_language in CERTIFIED_LANGUAGES else "",
+                "translation_wo": create_diff_html(textA=target_translation_w, textB=target_translation_wo),
+                "translation_ll3": create_diff_html(textA=target_translation_ll3_wo, textB=target_translation_ll3),
+                "translation_ll3_wo": create_diff_html(textA=target_translation_ll3, textB=target_translation_ll3_wo),
                 "source_text": current_translations[source_language],
                 "official": official,
                 "check": check_result,
