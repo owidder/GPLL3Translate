@@ -1,68 +1,138 @@
 {
-  "_id": "energysubsidy",
-  "heading": {
-    "de": "Abstimmung über ein Bürger-Energiegeld",
-    "en": "Vote on a citizen energy subsidy",
-    "fr": "Votez pour une subvention énergétique citoyenne",
-    "ar": "التصويت على دعم الطاقة للمواطنين"
-  },
-  "description": {
-    "de": "Die Preissteigerungen bei Energie treffen vor allem die Geringverdiener hart.\nAnstatt Energie allgemein zu subventionieren könnte der Staat allen Bürgern gleichmäßig den Mindestbedarf an Energie subventionieren. Dadurch würden Geringverdiener entlastet, gleichzeitig die Marktmechanismen erhalten, die Sparsamkeit durch hohe Preise bewirken und die Energiekonzerne daran gehindert, die Subvention selbst einzustreichen.\n\nUm die Kosten dafür zu decken, kommen Steuererhöhungen oder (vor allem bei einer temporären Maßnahme) neue Staatsschulden infrage.",
-    "en": "The price increases for energy hit low-income earners especially hard.\nInstead of subsidising energy in general, the state could subsidise the minimum energy needs of all citizens equally. This would relieve low-income earners, while at the same time preserving the market mechanisms that bring about thrift through high prices and preventing the energy companies from pocketing the subsidy themselves.\n\nTo cover the costs of this, tax increases or (especially in the case of a temporary measure) new public debt are possible options.",
-    "fr": "Les hausses de prix de l'énergie touchent particulièrement les personnes à faible revenu.\nAu lieu de subventionner l'énergie de manière générale, l'État pourrait subventionner de manière égale les besoins énergétiques minimum de tous les citoyens. Cela soulagerait les personnes à faible revenu, tout en préservant les mécanismes du marché qui favorisent l'économie grâce à des prix élevés et en empêchant les sociétés énergétiques de s'approprier la subvention.\n\nPour couvrir les coûts, des augmentations d'impôts ou (surtout dans le cas d'une mesure temporaire) de nouvelles dettes publiques sont des options possibles.",
-    "ar": "تؤثر زيادات أسعار الطاقة بشكل خاص على المتردين الوضع الاقتصادي.\nبدلاً من دعم الطاقة بشكل عام، يمكن للدولة دعم الحد الأدنى من احتياجات الطاقة لجميع المواطنين بالتساوي. وسيؤدي ذلك إلى تخفيف العبء عن المتردين الوضع الاقتصادي، مع الحفاظ في الوقت نفسه على آليات السوق التي تجلب التوفير من خلال رفع الأسعار ومنع شركات الطاقة من الاستحواذ على الدعم.\n\nلتغطية تكاليف ذلك، هناك خيارات ممكنة مثل زيادة الضرائب أو (خاصة في حالة التدابير المؤقتة) الديون العامة الجديدة."
-  },
-  "multipleChoice": false,
-  "choices": [
-    {
-      "name": "level25",
-      "isDefault": false,
-      "uiStrings": {
-        "de": "25% des Grundbedarfs werden vom Staat bezahlt",
-        "en": "25% of the basic needs are paid by the state",
-        "fr": "25 % des besoins de base sont pris en charge par l'État",
-        "ar": "يدفع الدولة 25% من الاحتياجات الأساسية"
-      }
+    "_id": "energysubsidy",
+    "heading": {
+        "de": "Abstimmung über ein Bürger-Energiegeld",
+        "en": "Vote on a citizen energy subsidy",
+        "fr": "Votez pour une subvention énergétique citoyenne",
+        "ar": "التصويت على دعم الطاقة للمواطنين",
+        "_w_de": "Abstimmung über eine Bürgerenergiesubvention",
+        "_wo_de": "Abstimmung über eine Bürgerenergie-Subvention",
+        "_ll3_de": "Stimmen Sie für einen Zuschuss zur Bürger-Energie",
+        "_ll3_wo_de": "Stimmen für einen Bürger-Energie-Zuschuss",
+        "_check_de": "YES",
+        "_check_wo_de": "YES",
+        "_check_ll3_de": "NO. The German translation is not completely accurate. It translates to \"Vote for a subsidy for citizen energy\". A better translation would be: \"Abstimmung über eine Bürgerenergie-Subvention\".",
+        "_check_ll3_wo_de": "NO. The German translation is not correct. A better translation would be: \"Abstimmung über eine Bürger-Energie-Subvention\". The original English text implies a voting process, not just voices in support.",
+        "_check_ar": "The provided Armenian translation is actually in Arabic, not Armenian. Therefore, it's not possible to compare the German and Armenian texts as requested. However, the Arabic translation means \"Voting on energy support for citizens\", which is not an exact match for the German text \"Voting on a citizen energy money\". The Arabic translation lacks the specific concept of \"energy money\" present in the original German text.",
+        "_check_fr": "NO. The French translation is not entirely accurate. A more accurate translation would be \"Vote sur une allocation énergétique citoyenne\". The original German text refers to a vote or referendum on a citizen energy money, not voting for it."
     },
-    {
-      "name": "level50",
-      "isDefault": false,
-      "uiStrings": {
-        "de": "50% des Grundbedarfs werden vom Staat bezahlt",
-        "en": "50% of the basic needs are paid by the state",
-        "fr": "50 % des besoins de base sont pris en charge par l'État",
-        "ar": "يدفع الدولة 50% من الاحتياجات الأساسية"
-      }
+    "description": {
+        "de": "Die Preissteigerungen bei Energie treffen vor allem die Geringverdiener hart.\nAnstatt Energie allgemein zu subventionieren könnte der Staat allen Bürgern gleichmäßig den Mindestbedarf an Energie subventionieren. Dadurch würden Geringverdiener entlastet, gleichzeitig die Marktmechanismen erhalten, die Sparsamkeit durch hohe Preise bewirken und die Energiekonzerne daran gehindert, die Subvention selbst einzustreichen.\n\nUm die Kosten dafür zu decken, kommen Steuererhöhungen oder (vor allem bei einer temporären Maßnahme) neue Staatsschulden infrage.",
+        "en": "The price increases for energy hit low-income earners especially hard.\nInstead of subsidising energy in general, the state could subsidise the minimum energy needs of all citizens equally. This would relieve low-income earners, while at the same time preserving the market mechanisms that bring about thrift through high prices and preventing the energy companies from pocketing the subsidy themselves.\n\nTo cover the costs of this, tax increases or (especially in the case of a temporary measure) new public debt are possible options.",
+        "fr": "Les hausses de prix de l'énergie touchent particulièrement les personnes à faible revenu.\nAu lieu de subventionner l'énergie de manière générale, l'État pourrait subventionner de manière égale les besoins énergétiques minimum de tous les citoyens. Cela soulagerait les personnes à faible revenu, tout en préservant les mécanismes du marché qui favorisent l'économie grâce à des prix élevés et en empêchant les sociétés énergétiques de s'approprier la subvention.\n\nPour couvrir les coûts, des augmentations d'impôts ou (surtout dans le cas d'une mesure temporaire) de nouvelles dettes publiques sont des options possibles.",
+        "ar": "تؤثر زيادات أسعار الطاقة بشكل خاص على المتردين الوضع الاقتصادي.\nبدلاً من دعم الطاقة بشكل عام، يمكن للدولة دعم الحد الأدنى من احتياجات الطاقة لجميع المواطنين بالتساوي. وسيؤدي ذلك إلى تخفيف العبء عن المتردين الوضع الاقتصادي، مع الحفاظ في الوقت نفسه على آليات السوق التي تجلب التوفير من خلال رفع الأسعار ومنع شركات الطاقة من الاستحواذ على الدعم.\n\nلتغطية تكاليف ذلك، هناك خيارات ممكنة مثل زيادة الضرائب أو (خاصة في حالة التدابير المؤقتة) الديون العامة الجديدة.",
+        "_w_de": "Die Preiserhöhungen für Energie treffen insbesondere Geringverdiener hart.\nAnstatt Energie allgemein zu subventionieren, könnte der Staat den minimalen Energiebedarf aller Bürger gleichmäßig subventionieren. Dies würde Geringverdiener entlasten und gleichzeitig die Markmechanismen bewahren, die durch hohe Preise Sparsamkeit fördern und verhindern, dass die Energieunternehmen die Subventionen selbst einstreichen.\n\nUm die Kosten dafür zu decken, sind Steuererhöhungen oder (insbesondere im Falle einer vorübergehenden Maßnahme) neue öffentliche Schulden mögliche Optionen.",
+        "_wo_de": "Die Preiserhöhungen für Energie treffen insbesondere Geringverdiener hart. \nAnstatt Energie allgemein zu subventionieren, könnte der Staat die minimalen Energiebedürfnisse aller Bürger gleichmäßig subventionieren. Dies würde Geringverdiener entlasten, während gleichzeitig die Markmechanismen, die durch hohe Preise Sparsamkeit bewirken, erhalten bleiben und verhindert wird, dass die Energieunternehmen die Subventionen selbst einstreichen.\n\nUm die Kosten dafür zu decken, sind Steuererhöhungen oder (insbesondere im Falle einer vorübergehenden Maßnahme) neue öffentliche Schulden mögliche Optionen.",
+        "_ll3_de": "Die Preissteigerungen für Energie treffen insbesondere die Einkommensschwachen besonders hart.\nStattdessen könnte der Staat die minimale Energiebedarf aller Bürger gleichmäßig subsizieren. Dies würde die Einkommensschwachen entlasten, während gleichzeitig die Marktmechanismen erhalten bleiben, die durch hohe Preise Sparsamkeit bewirken und die Energieunternehmen daran hindern, den",
+        "_ll3_wo_de": "Die Preiserhöhungen für Energie treffen insbesondere die Einkommensschwachen besonders hart.\nStattdessen könnte der Staat die minimalen Energiebedürfnisse aller Bürger gleichmäßig subsizieren. Dies würde die Einkommensschwachen entlasten, während gleichzeitig die Marktmechanismen erhalten bleiben, die durch hohe Preise Sparsamkeit hervorbringen, und die Energieunternehmen",
+        "_check_de": "YES",
+        "_check_wo_de": "YES",
+        "_check_ll3_de": "Zuschuss selbst einzustecken.\n\nUm die Kosten dafür zu decken, sind Steuererhöhungen oder (insbesondere im Falle einer vorübergehenden Maßnahme) neue öffentliche Schulden mögliche Optionen.\"\n\nThe German translation is correct and conveys the same meaning, tone and intent as the original English text. So, the answer is 'YES'.",
+        "_check_ll3_wo_de": "The German translation is incomplete and does not cover the entire English text. The last part of the text about covering the costs of the subsidy through tax increases or new public debt is missing. A better translation would be:\n\n\"Die Preiserhöhungen für Energie treffen insbesondere die Geringverdiener besonders hart. Anstatt Energie allgemein zu subventionieren, könnte der Staat die minimalen Energiebedürfnisse aller Bürger gleichmäßig subventionieren. Dies würde Geringverdiener entlasten, während gleichzeitig die Marktmechanismen, die durch hohe Preise Sparsamkeit hervorrufen, erhalten bleiben und verhindern, dass die Energieunternehmen die Subventionen selbst einstecken.\n\nUm die Kosten dafür zu decken, sind Steuererhöhungen oder (insbesondere im Falle einer vorübergehenden Maßnahme) neue öffentliche Schulden mögliche Optionen.\"",
+        "_check_ar": "The Armenian translation provided is actually in Arabic, not Armenian. Therefore, the texts do not have the same meaning, tone, and intent because they are not in the same language. A correct Armenian translation would be:\n\n\"Էներգետիկայի գների աճը ամենաշատը բախվում է ցածր աշխատավարձովներին: Պետությունը կարող է սուբվենցիաները տալ բոլոր քաղաքացիներին հավասարաչափ, ոչ թե ընդհանուրապես էներգիային: Սա կանխիկացնի ցածր աշխատավարձովներին, միաժամանակ պահպանելով շուկայի մեխանիզմները, որոնք առաջացնում են խնայողությունը բարձր գներով և կարգավորում են էներգետիկայի ընկերություններին չստանալ սուբվենցիաները:\n\nՈրպեսզի ապահովել այդ ծախսերը, հնարավոր է հարկերի բարձրացում կամ (հիմնականում ժամանակավոր միջոցառման դեպքում) նոր պետական պարտքեր:\"",
+        "_check_fr": "YES"
     },
-    {
-      "name": "level75",
-      "isDefault": false,
-      "uiStrings": {
-        "de": "75% des Grundbedarfs werden vom Staat bezahlt",
-        "en": "75% of the basic needs are paid by the state",
-        "fr": "75 % des besoins de base sont pris en charge par l'État",
-        "ar": "يدفع الدولة 75% من الاحتياجات الأساسية"
-      }
-    },
-    {
-      "name": "level100",
-      "isDefault": false,
-      "uiStrings": {
-        "de": "100% des Grundbedarfs werden vom Staat bezahlt",
-        "en": "100% of the basic needs are paid by the state",
-        "fr": "100 % des besoins de base sont pris en charge par l'État",
-        "ar": "يدفع الدولة 100% من الاحتياجات الأساسية"
-      }
-    },
-    {
-      "name": "nosubsidy",
-      "isDefault": true,
-      "uiStrings": {
-        "de": "Keine Subvention der Energiekosten",
-        "en": "No subsidy",
-        "fr": "Aucune subvention",
-        "ar": "لا دعم"
-      }
-    }
-  ]
+    "multipleChoice": false,
+    "choices": [
+        {
+            "name": "level25",
+            "isDefault": false,
+            "uiStrings": {
+                "de": "25% des Grundbedarfs werden vom Staat bezahlt",
+                "en": "25% of the basic needs are paid by the state",
+                "fr": "25 % des besoins de base sont pris en charge par l'État",
+                "ar": "يدفع الدولة 25% من الاحتياجات الأساسية",
+                "_w_de": "25% der Grundbedürfnisse werden vom Staat bezahlt",
+                "_wo_de": "25% der Grundbedürfnisse werden vom Staat bezahlt",
+                "_ll3_de": "25 Prozent der grundlegenden Bedürfnisse werden vom Staat bezahlt",
+                "_ll3_wo_de": "25% der grundlegenden Bedürfnisse werden vom Staat bezahlt",
+                "_check_de": "YES",
+                "_check_wo_de": "YES",
+                "_check_ll3_de": "YES",
+                "_check_ll3_wo_de": "YES",
+                "_check_ar": "NO, the Armenian translation provided is actually in Arabic, not Armenian. The correct Armenian translation would be: \"Պետությունը վճարում է հիմնական կարիքների 25%\".",
+                "_check_fr": "YES"
+            }
+        },
+        {
+            "name": "level50",
+            "isDefault": false,
+            "uiStrings": {
+                "de": "50% des Grundbedarfs werden vom Staat bezahlt",
+                "en": "50% of the basic needs are paid by the state",
+                "fr": "50 % des besoins de base sont pris en charge par l'État",
+                "ar": "يدفع الدولة 50% من الاحتياجات الأساسية",
+                "_w_de": "50% der Grundbedürfnisse werden vom Staat bezahlt",
+                "_wo_de": "50% der Grundbedürfnisse werden vom Staat bezahlt",
+                "_ll3_de": "50 Prozent der grundlegenden Bedürfnisse werden vom Staat bezahlt",
+                "_ll3_wo_de": "50% der grundlegenden Bedürfnisse werden vom Staat bezahlt",
+                "_check_de": "YES",
+                "_check_wo_de": "YES",
+                "_check_ll3_de": "YES",
+                "_check_ll3_wo_de": "YES",
+                "_check_ar": "The provided Armenian translation is actually in Arabic, not Armenian. Therefore, the correct answer is NO. The correct Armenian translation would be: \"Պետությունը վճարում է հիմնական կարիքների 50%\".",
+                "_check_fr": "YES"
+            }
+        },
+        {
+            "name": "level75",
+            "isDefault": false,
+            "uiStrings": {
+                "de": "75% des Grundbedarfs werden vom Staat bezahlt",
+                "en": "75% of the basic needs are paid by the state",
+                "fr": "75 % des besoins de base sont pris en charge par l'État",
+                "ar": "يدفع الدولة 75% من الاحتياجات الأساسية",
+                "_w_de": "75% der Grundbedürfnisse werden vom Staat bezahlt",
+                "_wo_de": "75% der Grundbedürfnisse werden vom Staat bezahlt",
+                "_ll3_de": "75 % der Grundbedürfnisse werden vom Staat bezahlt",
+                "_ll3_wo_de": "75% der grundlegenden Bedürfnisse werden vom Staat bezahlt",
+                "_check_de": "YES",
+                "_check_wo_de": "YES",
+                "_check_ll3_de": "YES",
+                "_check_ll3_wo_de": "YES",
+                "_check_ar": "NO. The provided Armenian translation is actually in Arabic, not Armenian. The correct Armenian translation would be: \"Պետությունը վճարում է հիմնական կարիքների 75%\".",
+                "_check_fr": "YES"
+            }
+        },
+        {
+            "name": "level100",
+            "isDefault": false,
+            "uiStrings": {
+                "de": "100% des Grundbedarfs werden vom Staat bezahlt",
+                "en": "100% of the basic needs are paid by the state",
+                "fr": "100 % des besoins de base sont pris en charge par l'État",
+                "ar": "يدفع الدولة 100% من الاحتياجات الأساسية",
+                "_w_de": "100% der Grundbedürfnisse werden vom Staat bezahlt",
+                "_wo_de": "100% der Grundbedürfnisse werden vom Staat bezahlt",
+                "_ll3_de": "100 Prozent der grundlegenden Bedürfnisse werden vom Staat bezahlt",
+                "_ll3_wo_de": "100% der grundlegenden Bedürfnisse werden vom Staat bezahlt",
+                "_check_de": "YES",
+                "_check_wo_de": "YES",
+                "_check_ll3_de": "YES",
+                "_check_ll3_wo_de": "YES",
+                "_check_ar": "The provided Armenian translation is actually in Arabic, not Armenian. Therefore, the comparison cannot be made. The correct Armenian translation would be \"Պետությունը վճարում է հիմնական կարիքների 100%\".",
+                "_check_fr": "YES"
+            }
+        },
+        {
+            "name": "nosubsidy",
+            "isDefault": true,
+            "uiStrings": {
+                "de": "Keine Subvention der Energiekosten",
+                "en": "No subsidy",
+                "fr": "Aucune subvention",
+                "ar": "لا دعم",
+                "_w_de": "Keine Subvention",
+                "_wo_de": "Keine Subvention",
+                "_ll3_de": "Keine Zuschüsse",
+                "_ll3_wo_de": "Keine Zuschüsse",
+                "_check_de": "YES",
+                "_check_wo_de": "YES",
+                "_check_ll3_de": "YES",
+                "_check_ll3_wo_de": "YES",
+                "_check_ar": "NO, the Armenian translation is incorrect. It is actually in Arabic and it means \"No support\", which is not a complete and accurate translation of the original German text. A better Armenian translation would be \"Էներգետիկայի արժեքների ենթադրամաշվածք չկա\".",
+                "_check_fr": "NO, the French translation is incomplete. It only says \"No subsidy\" and misses the part about energy costs. A better translation would be: \"Aucune subvention des coûts de l'énergie\"."
+            }
+        }
+    ]
 }

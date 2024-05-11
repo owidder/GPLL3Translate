@@ -340,16 +340,17 @@ async def crawl_json(data, source_language: str, target_language: str, current_t
 
             certified_translation_checks = {}
             for check_language in filter(lambda l: l != source_language and l != target_language, CERTIFIED_LANGUAGES):
-                check_language_property = f"_check_{check_language}"
-                if (not check_language_property in data) or (RETRY_CHECK and data[check_language_property].lower() != "yes"):
-                    check_language_result = await check_translation(
-                        source_language=target_language,
-                        target_language=check_language,
-                        source_text=data[target_language],
-                        target_text=data[check_language]
-                    )
-                    data[check_language_property] = check_language_result
-                certified_translation_checks[check_language] = data[check_language_property]
+                if check_language in data:
+                    check_language_property = f"_check_{check_language}"
+                    if (not check_language_property in data) or (RETRY_CHECK and data[check_language_property].lower() != "yes"):
+                        check_language_result = await check_translation(
+                            source_language=target_language,
+                            target_language=check_language,
+                            source_text=data[target_language],
+                            target_text=data[check_language]
+                        )
+                        data[check_language_property] = check_language_result
+                    certified_translation_checks[check_language] = data[check_language_property]
 
             table_lines.append({
                 "id": path,
