@@ -47,6 +47,9 @@
                     <td>{{ translation_line.check_wo }}</td>
                     <td>{{ translation_line.check_ll3 }}</td>
                     <td>{{ translation_line.check_ll3_wo }}</td>
+                    {% for check in translation_line.certified_translation_checks.values()  %}
+                    <td>{{ check }}</td>
+                    {% endfor %}
                 </tr>
             {% endfor %}
         </tbody>

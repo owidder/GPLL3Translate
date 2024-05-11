@@ -2,6 +2,7 @@ import difflib
 import asyncio
 import json
 from openai import AsyncOpenAI
+from functools import reduce
 import openai
 import re
 import time
@@ -158,7 +159,7 @@ def is_translation(path: str) -> bool:
 
 
 def create_table(input_file: str, translation_lines: [str], source: str, target: str):
-    headers = [
+    _headers = [
         "source text",
         "GPT4 (with translations)",
         "GPT4 (without translations)",
@@ -170,6 +171,7 @@ def create_table(input_file: str, translation_lines: [str], source: str, target:
         "check Llama3-8B (with translations)",
         "check Llama3-8B (without translations)",
     ]
+    headers = list(reduce(lambda acc, item: [*acc, f"check: {item}"], CERTIFIED_LANGUAGES, _headers))
 
     env = Environment(loader=FileSystemLoader('./templates'))
     template = env.get_template('simple_table_small.html.j2')
@@ -207,7 +209,7 @@ async def crawl_json(data, source_language: str, target_language: str, current_t
             )
         print(current_translations)
         translations = [(language, current_translations.get(language)) for language in CERTIFIED_LANGUAGES]
-        filtered_translations = list(filter(lambda l: l[1] is not None and l[0] != source_language, translations))
+        filtered_translations = list(filter(lambda l: l[1] is not None and l[0] != source_language and l[0] != target_language, translations))
         if len(current_translations.keys()) > 0:
             if not target_language in data:
                 target_translation = get_translation(
@@ -307,7 +309,7 @@ async def crawl_json(data, source_language: str, target_language: str, current_t
                 check_wo_result = data[check_wo_property]
 
             check_ll3_property = f"_check_ll3_{target_language}"
-            if len(filtered_translations) > 0 and ((not check_ll3_property in data) or (RETRY_CHECK and data[check_ll3_property].lower() != "yes")):
+            if (not check_ll3_property in data) or (RETRY_CHECK and data[check_ll3_property].lower() != "yes"):
                 check_ll3_result = await check_translation(
                     source_language=source_language,
                     target_language=target_language,
@@ -330,6 +332,19 @@ async def crawl_json(data, source_language: str, target_language: str, current_t
             else:
                 check_ll3_wo_result = data[check_ll3_wo_property]
 
+            certified_translation_checks = {}
+            for check_language in filter(lambda l: l != source_language and l != target_language, CERTIFIED_LANGUAGES):
+                check_language_property = f"_check_{check_language}"
+                if (not check_language_property in data) or (RETRY_CHECK and data[check_language_property].lower() != "yes"):
+                    check_language_result = await check_translation(
+                        source_language=target_language,
+                        target_language=check_language,
+                        source_text=data[target_language],
+                        target_text=data[check_language]
+                    )
+                    data[check_language_property] = check_language_result
+                certified_translation_checks[check_language] = data[check_language_property]
+
             table_lines.append({
                 "id": path,
                 "translation": create_diff_html(textB=target_translation, textA=target_translation_wo),
@@ -343,6 +358,7 @@ async def crawl_json(data, source_language: str, target_language: str, current_t
                 "check_wo": check_wo_result,
                 "check_ll3": check_ll3_result,
                 "check_ll3_wo": check_ll3_wo_result,
+                "certified_translation_checks": certified_translation_checks,
             })
             current_translations.clear()
     elif isinstance(data, list):

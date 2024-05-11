@@ -78,14 +78,17 @@
         "zh": "关于转向无CO₂钢的投票",
         "_back_zh": "Über die Abstimmung zur Umstellung auf CO₂-freien Stahl",
         "_check_zh": "YES",
-        "_w_de": "Stimmen Sie für den Wechsel zu CO₂-freiem Stahl",
         "_wo_de": "Abstimmung über den Wechsel zu CO₂-freiem Stahl",
         "_ll3_de": "Wählen Sie für den Wechsel zu CO₂-freiem Stahl",
         "_ll3_wo_de": "Stimmen für den Wechsel zu CO₂-freiem Stahl",
         "_check_de": "NO. The German translation is not accurate. It translates to \"Vote for the switch to CO2-free steel\", which is not the same as the original English text. A better translation would be: \"Abstimmung über den Wechsel zu CO₂-freiem Stahl\".",
         "_check_wo_de": "YES",
         "_check_ll3_de": "NO. The German translation is incorrect. It translates to \"Vote for the switch to CO2-free steel\", which implies that the reader should vote in favor of the switch. A better translation would be: \"Abstimmung über den Wechsel zu CO₂-freiem Stahl\".",
-        "_check_ll3_wo_de": "NO. The German translation \"Stimmen für den Wechsel zu CO₂-freiem Stahl\" means \"Voices for the switch to CO₂-free steel\". A better translation would be \"Abstimmung über den Wechsel zu CO₂-freiem Stahl\"."
+        "_check_ll3_wo_de": "NO. The German translation \"Stimmen für den Wechsel zu CO₂-freiem Stahl\" means \"Voices for the switch to CO₂-free steel\". A better translation would be \"Abstimmung über den Wechsel zu CO₂-freiem Stahl\".",
+        "_w_de": "Stimmen Sie für den Wechsel zu CO₂-freiem Stahl",
+        "_check_ru": "NO. The Russian translation is not entirely accurate. The German text is about a \"vote\" or \"poll\" on the transition to CO2-free steel, not an invitation to vote for it. A better translation would be \"Голосование о переходе на сталь без CO₂\".",
+        "_check_ar": "The provided Armenian translation is actually in Arabic, not Armenian. Therefore, the comparison cannot be made. The correct Armenian translation would be \"Քվեարկություն CO2-ից ազատ պողպատի վրա անցումի մասին\".",
+        "_check_fr": "NO. The French translation is not entirely accurate. It sounds more like a call to action (\"Vote for the transition to CO2-free steel\") rather than a neutral statement about a vote taking place. A better translation would be: \"Vote sur la transition vers l'acier sans CO₂\"."
     },
     "description": {
         "de": "Die Stahlerzeugung verursacht weltweit ca. 8% der CO₂-Emissionen.\n<br>\nDie kohlenstofffreie Erzeugung von Stahl ist grundsätzlich möglich.\n<br>\nDie Regierung hat beschlossen, dass ab 2030 Stahl in unserem Land nur noch CO₂-frei produziert werden darf. Dieser ist aktuell jedoch 60–70 Prozent teurer als der konventionelle Stahl.\n<br>\nKohlenstoffneutraler Stahl ist damit auf dem Markt gegenüber importiertem Stahl nicht konkurrenzfähig. \n\nBitte stimmen Sie über die folgenden politischen Maßnahmen ab, wie damit umzugehen ist:",
@@ -172,7 +175,10 @@
         "_check_de": "YES",
         "_check_wo_de": "YES",
         "_check_ll3_de": "The German translation is incomplete and does not fully convey the meaning of the English text. The last sentence is cut off and the sentence about the competitiveness of carbon neutral steel is missing. Also, there are some grammatical errors. A better translation would be:\n\n\"Die Stahlproduktion ist für etwa 8% der CO₂-Emissionen weltweit verantwortlich.\n<br>\nEine kohlenstofffreie Produktion von Stahl ist grundsätzlich möglich.\n<br>\nDie Regierung hat beschlossen, dass ab 2030 in unserem Land Stahl nur noch CO₂-frei produziert werden darf. Allerdings ist dies derzeit 60-70 Prozent teurer als herkömmlicher Stahl.\n<br>\nKohlenstoffneutraler Stahl ist daher auf dem Markt nicht wettbewerbsfähig gegen importierten Stahl.\n\nBitte stimmen Sie über die folgenden politischen Maßnahmen ab, wie damit umgegangen werden soll:\"",
-        "_check_ll3_wo_de": "NO\n\nThe German translation is incomplete and contains some grammatical errors. A better translation would be:\n\n\"Die Stahlproduktion ist für etwa 8% der weltweiten CO₂-Emissionen verantwortlich.\n<br>\nEine kohlenstofffreie Stahlproduktion ist grundsätzlich möglich.\n<br>\nDie Regierung hat entschieden, dass ab 2030 in unserem Land Stahl nur noch CO₂-frei produziert werden darf. Allerdings ist dies derzeit 60-70 Prozent teurer als herkömmlicher Stahl.\n<br>\nKohlenstoffneutraler Stahl ist somit auf dem Markt nicht wettbewerbsfähig gegen importierten Stahl.\n\nBitte stimmen Sie über die folgenden politischen Maßnahmen ab, wie damit umgegangen werden soll:\""
+        "_check_ll3_wo_de": "NO\n\nThe German translation is incomplete and contains some grammatical errors. A better translation would be:\n\n\"Die Stahlproduktion ist für etwa 8% der weltweiten CO₂-Emissionen verantwortlich.\n<br>\nEine kohlenstofffreie Stahlproduktion ist grundsätzlich möglich.\n<br>\nDie Regierung hat entschieden, dass ab 2030 in unserem Land Stahl nur noch CO₂-frei produziert werden darf. Allerdings ist dies derzeit 60-70 Prozent teurer als herkömmlicher Stahl.\n<br>\nKohlenstoffneutraler Stahl ist somit auf dem Markt nicht wettbewerbsfähig gegen importierten Stahl.\n\nBitte stimmen Sie über die folgenden politischen Maßnahmen ab, wie damit umgegangen werden soll:\"",
+        "_check_ru": "YES",
+        "_check_ar": "The text provided is not in Armenian, it's in Arabic. Therefore, it's not possible to compare the German original with the Armenian translation.",
+        "_check_fr": "NO. The French translation is incorrect. The phrase \"l'acier dans notre pays ne devra être produit qu'à partir de CO₂\" translates to \"steel in our country should only be produced from CO₂\", which is not the same as the original German text. The correct translation should be \"l'acier dans notre pays ne devra être produit qu'en étant exempt de CO₂\" which means \"steel in our country should only be produced being CO₂-free\"."
     },
     "multipleChoice": false,
     "choices": [
@@ -264,7 +270,10 @@
                 "_check_de": "YES",
                 "_check_wo_de": "YES",
                 "_check_ll3_de": "YES",
-                "_check_ll3_wo_de": "YES"
+                "_check_ll3_wo_de": "YES",
+                "_check_ru": "YES",
+                "_check_ar": "NO. The Armenian translation provided is actually in Arabic, not Armenian. The correct Armenian translation for \"Keine politischen Maßnahmen\" would be \"Ոչ մի քաղաքական եղանակություն\".",
+                "_check_fr": "YES"
             }
         },
         {
@@ -355,7 +364,10 @@
                 "_check_de": "NO. The German translation is not completely accurate. A better translation would be: \"Die Regierung deckt die zusätzlichen Kosten für kohlenstofffreien Stahl durch Steuern ab, bis dieser marktfähig ist (Kohlenstoffverträge für Preisunterschiede).\"",
                 "_check_wo_de": "YES",
                 "_check_ll3_de": "YES",
-                "_check_ll3_wo_de": "NO. The German translation is not entirely correct. A better translation would be: \"Die Regierung deckt die zusätzlichen Kosten für kohlenstofffreien Stahl durch Steuern ab, bis dieser marktfähig ist (Carbon Contracts for Difference).\""
+                "_check_ll3_wo_de": "NO. The German translation is not entirely correct. A better translation would be: \"Die Regierung deckt die zusätzlichen Kosten für kohlenstofffreien Stahl durch Steuern ab, bis dieser marktfähig ist (Carbon Contracts for Difference).\"",
+                "_check_ru": "YES",
+                "_check_ar": "The provided Armenian translation is actually in Arabic, not Armenian. Therefore, the texts do not have the same meaning, tone, and intent because they are not in the same language. The correct Armenian translation would be: \"Պետությունը համապատասխանում է ածխածին առանց պողպատի ավելացող ծախսերը հարկային միջոցներից, մինչև այն շուկայության հարմար չդառնայ (ածխածին պայմանագրեր տարբերության համար).\"",
+                "_check_fr": "YES"
             }
         },
         {
@@ -446,7 +458,10 @@
                 "_check_de": "YES",
                 "_check_wo_de": "YES",
                 "_check_ll3_de": "NO. The term \"Carbon Border Adjustment Mechanism\" is not correctly translated. A better translation would be: \"Zollabgaben auf konventionell produziertem Stahl (Mechanismus zur Anpassung der Kohlenstoffgrenze).\"",
-                "_check_ll3_wo_de": "YES"
+                "_check_ll3_wo_de": "YES",
+                "_check_ru": "NO. The Russian translation is not entirely accurate. The term \"Grenzausgleichsabgabe\" is translated as \"border fee\" (пограничный сбор), but it actually refers to a \"border adjustment tax\". The term \"konventionell produzierten Stahl\" is translated as \"steel of conventional production\" (сталь обычного производства), but it should be \"conventionally produced steel\". A better translation would be: \"Импортные пошлины на сталь, произведенную традиционным способом (налог на регулирование торговли у границ).\"",
+                "_check_ar": "NO. The Armenian translation is actually in Arabic, not Armenian. A correct Armenian translation would be: \"Ներմուծման մաքսազերծված սովորական արտադրության պողպատ (սահմանային համեմատական վճար):\"",
+                "_check_fr": "NO. The French translation is not entirely accurate. The term \"Mécanisme d'ajustement frontalier du carbone\" refers to a carbon border adjustment mechanism, which is not the same as \"Grenzausgleichsabgabe\" (border adjustment tax). A better translation would be: \"Droits d'importation sur l'acier produit de manière conventionnelle (taxe d'ajustement à la frontière).\""
             }
         }
     ]
