@@ -12,8 +12,8 @@ import difflib
 
 
 openai.api_key = os.getenv("OPENAI_API_KEY")
-min_length = os.getenv("MIN_LENGTH")
-max_sentence_no = int(os.getenv("MAX_SENTENCE_NO", sys.maxsize))
+MIN_LENGTH = os.getenv("MIN_LENGTH")
+MAX_SENTENCE_NO = int(os.getenv("MAX_SENTENCE_NO", sys.maxsize))
 
 LANGUAGES = {
     "de": "German",
@@ -197,12 +197,12 @@ def create_diff_html(textA: str, textB: str, plusminus = "+") -> str:
 
 def translate_and_check() -> [str]:
     translation_lines = []
-    out_name = f"./translations/eng_translations_detailed.{min_length}.tsv"
+    out_name = f"./translations/eng_translations_detailed.{MIN_LENGTH}.tsv"
     translated_sentences = read_translated_sentences(filename=out_name)
-    sentences = read_tsv_file(filename=f"./source_texts/eng_sentences_detailed.{min_length}.tsv", max_number_of_sentences=100)
+    sentences = read_tsv_file(filename=f"./source_texts/eng_sentences_detailed.{MIN_LENGTH}.tsv", max_number_of_sentences=100)
     for sentence in sentences:
         sentence_no = sentence["sentence_no"]
-        if sentence_no > max_sentence_no:
+        if sentence_no > MAX_SENTENCE_NO:
             break
 
         translated_sentence = translated_sentences.get(sentence_no, {})
@@ -287,7 +287,7 @@ def create_table(translation_lines: [str]):
     env = Environment(loader=FileSystemLoader('./templates'))
     template = env.get_template('simple_table.html.j2')
     html = template.render(headers=headers, translation_lines=translation_lines)
-    with open(f"./tables/eng_table_detailed.{min_length}.html", 'w') as f:
+    with open(f"./tables/eng_table_detailed.{MIN_LENGTH}.html", 'w') as f:
         f.write(html)
 
 
