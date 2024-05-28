@@ -167,7 +167,6 @@ def create_table(input_file: str, translation_lines: [str], source: str, target:
         "GPT4 (without translations)",
         "Llama3-8B (with translations)",
         "Llama3-8B (without translations)",
-        "official",
         "check GPT4 (with translations)",
         "check GPT4 (without translations)",
         "check Llama3-8B (with translations)",
