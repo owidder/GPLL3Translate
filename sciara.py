@@ -10,6 +10,8 @@ import os
 from jinja2 import Environment, FileSystemLoader
 from mlx_lm import load, generate
 model, tokenizer = load("mlx-community/Meta-Llama-3-8B-Instruct-4bit")
+#model, tokenizer = load("mlx-community/Llama-3-8B-Instruct-1048k-8bit")
+#model, tokenizer = load("mlx-community/Meta-Llama-3-8B-8bit")
 
 
 CERTIFIED_LANGUAGES = [
@@ -22,14 +24,14 @@ CERTIFIED_LANGUAGES = [
 
 SOURCE_LANGUAGE = "en"
 LANGUAGES = {
-    "ar": "armenian",
+    "ar": "arabic",
     # "bg": "bulgarian",
     # "cs": "czech",
     # "da": "danish",
     "de": "german",
     # "el": "greek",
     "en": "english",
-    # "es": "spanish",
+    "es": "spanish",
     # "et": "estonian",
     # "fi": "finnish",
     "fr": "french",
@@ -218,7 +220,7 @@ async def crawl_json(data, source_language: str, target_language: str, current_t
         filtered_translations = list(filter(lambda l: l[1] is not None and l[0] != source_language and l[0] != target_language, translations))
         if len(current_translations.keys()) > 0:
             if not target_language in data:
-                target_translation = get_translation(
+                target_translation = await get_translation(
                     source_text=current_translations[source_language],
                     source_language=source_language,
                     target_language=target_language,
@@ -252,31 +254,34 @@ async def crawl_json(data, source_language: str, target_language: str, current_t
             else:
                 target_translation_wo = data[target_language_wo_property]
 
-            target_language_ll3_property = f"_ll3_{target_language}"
-            if len(filtered_translations) > 0 and not target_language_ll3_property in data:
-                target_translation_ll3 = await get_translation(
-                    source_text=data[source_language],
-                    source_language=source_language,
-                    target_language=target_language,
-                    translations=filtered_translations,
-                    use_chatGPT=False
-                )
-                data[target_language_ll3_property] = target_translation_ll3
-            else:
-                target_translation_ll3 = data[target_language_ll3_property]
+            target_translation_ll3 = ""
+            target_translation_ll3_wo = ""
+            if len(data[source_language]) < 150:
+                target_language_ll3_property = f"_ll3_{target_language}"
+                if len(filtered_translations) > 0 and not target_language_ll3_property in data:
+                    target_translation_ll3 = await get_translation(
+                        source_text=data[source_language],
+                        source_language=source_language,
+                        target_language=target_language,
+                        translations=filtered_translations,
+                        use_chatGPT=False
+                    )
+                    data[target_language_ll3_property] = target_translation_ll3
+                else:
+                    target_translation_ll3 = data[target_language_ll3_property]
 
-            target_language_ll3_wo_property = f"_ll3_wo_{target_language}"
-            if len(filtered_translations) > 0 and not target_language_ll3_wo_property in data:
-                target_translation_ll3_wo = await get_translation(
-                    source_text=data[source_language],
-                    source_language=source_language,
-                    target_language=target_language,
-                    translations=[],
-                    use_chatGPT=False
-                )
-                data[target_language_ll3_wo_property] = target_translation_ll3_wo
-            else:
-                target_translation_ll3_wo = data[target_language_ll3_wo_property]
+                target_language_ll3_wo_property = f"_ll3_wo_{target_language}"
+                if len(filtered_translations) > 0 and not target_language_ll3_wo_property in data:
+                    target_translation_ll3_wo = await get_translation(
+                        source_text=data[source_language],
+                        source_language=source_language,
+                        target_language=target_language,
+                        translations=[],
+                        use_chatGPT=False
+                    )
+                    data[target_language_ll3_wo_property] = target_translation_ll3_wo
+                else:
+                    target_translation_ll3_wo = data[target_language_ll3_wo_property]
 
             # back_property = f"_back_{target_language}"
             # if not back_property in data:
@@ -314,29 +319,33 @@ async def crawl_json(data, source_language: str, target_language: str, current_t
             else:
                 check_wo_result = data[check_wo_property]
 
-            check_ll3_property = f"_check_ll3_{target_language}"
-            if (not check_ll3_property in data) or (RETRY_CHECK and data[check_ll3_property].lower() != "yes"):
-                check_ll3_result = await check_translation(
-                    source_language=source_language,
-                    target_language=target_language,
-                    source_text=current_translations[source_language],
-                    target_text=target_translation_ll3
-                )
-                data[check_ll3_property] = check_ll3_result
-            else:
-                check_ll3_result = data[check_ll3_property]
+            check_ll3_result = ""
+            if len(target_translation_ll3) > 0:
+                check_ll3_property = f"_check_ll3_{target_language}"
+                if (not check_ll3_property in data) or (RETRY_CHECK and data[check_ll3_property].lower() != "yes"):
+                    check_ll3_result = await check_translation(
+                        source_language=source_language,
+                        target_language=target_language,
+                        source_text=current_translations[source_language],
+                        target_text=target_translation_ll3
+                    )
+                    data[check_ll3_property] = check_ll3_result
+                else:
+                    check_ll3_result = data[check_ll3_property]
 
-            check_ll3_wo_property = f"_check_ll3_wo_{target_language}"
-            if len(filtered_translations) > 0 and ((not check_ll3_wo_property in data) or (RETRY_CHECK and data[check_ll3_wo_property].lower() != "yes")):
-                check_ll3_wo_result = await check_translation(
-                    source_language=source_language,
-                    target_language=target_language,
-                    source_text=current_translations[source_language],
-                    target_text=target_translation_ll3_wo
-                )
-                data[check_ll3_wo_property] = check_ll3_wo_result
-            else:
-                check_ll3_wo_result = data[check_ll3_wo_property]
+            check_ll3_wo_result = ""
+            if len(target_translation_ll3_wo) > 0:
+                check_ll3_wo_property = f"_check_ll3_wo_{target_language}"
+                if len(filtered_translations) > 0 and ((not check_ll3_wo_property in data) or (RETRY_CHECK and data[check_ll3_wo_property].lower() != "yes")):
+                    check_ll3_wo_result = await check_translation(
+                        source_language=source_language,
+                        target_language=target_language,
+                        source_text=current_translations[source_language],
+                        target_text=target_translation_ll3_wo
+                    )
+                    data[check_ll3_wo_property] = check_ll3_wo_result
+                else:
+                    check_ll3_wo_result = data[check_ll3_wo_property]
 
             certified_translation_checks = {}
             for check_language in filter(lambda l: l != source_language and l != target_language, CERTIFIED_LANGUAGES):
@@ -350,7 +359,7 @@ async def crawl_json(data, source_language: str, target_language: str, current_t
                             target_text=data[check_language]
                         )
                         data[check_language_property] = check_language_result
-                    certified_translation_checks[check_language] = data[check_language_property]
+                    certified_translation_checks[check_language] = f"<span style = 'color: gray; font-weight: bold;'>{data[check_language]}</span><br><br><br>{data[check_language_property]}"
 
             table_lines.append({
                 "id": path,
