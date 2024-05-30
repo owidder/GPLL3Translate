@@ -22,41 +22,41 @@ CERTIFIED_LANGUAGES = [
     "fr"
 ]
 
-SOURCE_LANGUAGE = "en"
 LANGUAGES = {
     "ar": "arabic",
-    # "bg": "bulgarian",
-    # "cs": "czech",
-    # "da": "danish",
+    "bg": "bulgarian",
+    "cs": "czech",
+    "da": "danish",
     "de": "german",
-    # "el": "greek",
+    "el": "greek",
     "en": "english",
     "es": "spanish",
-    # "et": "estonian",
-    # "fi": "finnish",
+    "et": "estonian",
+    "fi": "finnish",
     "fr": "french",
-    # "ga": "irish",
-    # "hr": "croation",
-    # "hu": "hungarian",
-    # "id": "indonesian",
-    # "it": "italian",
-    # "ja": "japanese",
-    # "ko": "korean",
-    # "lv": "latvian",
-    # "lt": "lithuanian",
-    # "mt": "maltese",
-    # "nl": "dutch",
-    # "pl": "polish",
-    # "ro": "romanian",
+    "ga": "irish",
+    "hr": "croation",
+    "hu": "hungarian",
+    "id": "indonesian",
+    "it": "italian",
+    "ja": "japanese",
+    "ko": "korean",
+    "lv": "latvian",
+    "lt": "lithuanian",
+    "mt": "maltese",
+    "nl": "dutch",
+    "pl": "polish",
+    "ro": "romanian",
     "ru": "russian",
-    # "sk": "slovak",
-    # "sl": "slovenian",
-    # "sv": "swedish",
-    # "zh": "chinese",
+    "sk": "slovak",
+    "sl": "slovenian",
+    "sv": "swedish",
+    "zh": "chinese",
 }
 INPUT_FILE = os.getenv("INPUT_FILE")
 RETRY_CHECK = (os.getenv("RETRY_CHECK", "0") == "1")
 TARGET_LANGUAGE = os.getenv("TARGET_LANGUAGE", "")
+SOURCE_LANGUAGE = os.getenv("SOURCE_LANGUAGE", "en")
 
 
 def create_td(text = "", diff: [str]=[], plusminus="+") -> str:
@@ -230,16 +230,19 @@ async def crawl_json(data, source_language: str, target_language: str, current_t
                 target_translation = data[target_language]
 
             target_language_w_property = f"_w_{target_language}"
-            if len(filtered_translations) > 0 and not target_language_w_property in data and target_language in CERTIFIED_LANGUAGES:
-                target_translation_w = await get_translation(
-                    source_text=data[source_language],
-                    source_language=source_language,
-                    target_language=target_language,
-                    translations=filtered_translations
-                )
-                data[target_language_w_property] = target_translation_w
+            if target_language in CERTIFIED_LANGUAGES:
+                if len(filtered_translations) > 0 and not target_language_w_property in data:
+                    target_translation_w = await get_translation(
+                        source_text=data[source_language],
+                        source_language=source_language,
+                        target_language=target_language,
+                        translations=filtered_translations
+                    )
+                    data[target_language_w_property] = target_translation_w
+                else:
+                    target_translation_w = data[target_language_w_property]
             else:
-                target_translation_w = data[target_language_w_property]
+                target_translation_w = ""
 
             target_language_wo_property = f"_wo_{target_language}"
             if len(filtered_translations) > 0 and not target_language_wo_property in data:
@@ -300,7 +303,7 @@ async def crawl_json(data, source_language: str, target_language: str, current_t
                     source_language=source_language,
                     target_language=target_language,
                     source_text=current_translations[source_language],
-                    target_text=target_translation_w if target_language in CERTIFIED_LANGUAGES else target_translation_w,
+                    target_text=target_translation_w if len(target_translation_w) > 0 else target_translation,
                 )
                 data[check_property] = check_result
             else:
@@ -352,9 +355,9 @@ async def crawl_json(data, source_language: str, target_language: str, current_t
                     check_language_property = f"_check_{check_language}"
                     if (not check_language_property in data) or (RETRY_CHECK and data[check_language_property].lower() != "yes"):
                         check_language_result = await check_translation(
-                            source_language=target_language,
+                            source_language=source_language,
                             target_language=check_language,
-                            source_text=data[target_language],
+                            source_text=data[source_language],
                             target_text=data[check_language]
                         )
                         data[check_language_property] = check_language_result
@@ -363,8 +366,8 @@ async def crawl_json(data, source_language: str, target_language: str, current_t
             table_lines.append({
                 "id": path,
                 "translation": create_diff_html(textA=target_translation_wo, textB=target_translation),
-                "translation_w": create_diff_html(textA=target_translation_wo, textB=target_translation_w) if target_language in CERTIFIED_LANGUAGES else "",
-                "translation_wo": create_diff_html(textA=target_translation_w, textB=target_translation_wo),
+                "translation_w": create_diff_html(textA=target_translation_wo, textB=target_translation_w) if len(target_translation_w) > 0 else "",
+                "translation_wo": create_diff_html(textA=target_translation_w if len(target_translation_w) > 0 else target_translation, textB=target_translation_wo),
                 "translation_ll3": create_diff_html(textA=target_translation_ll3_wo, textB=target_translation_ll3),
                 "translation_ll3_wo": create_diff_html(textA=target_translation_ll3, textB=target_translation_ll3_wo),
                 "source_text": current_translations[source_language],
