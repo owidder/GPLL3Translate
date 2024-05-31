@@ -399,7 +399,11 @@
                 "_check_fr": "YES",
                 "_check_es": "YES",
                 "_wo_sv": "Staten kompenserar för de extra kostnaderna för kol-fritt stål från skattemedel så länge tills det är marknadsförbart (Carbon Contracts for Difference).",
-                "_check_wo_sv": "YES"
+                "_check_wo_sv": "YES",
+                "_ll3_sv": "Staten kompenserar de extra kostnaderna för koldioxidfri stål genom skatter så länge som den blir marknadsmässig (Kolombalkar för skillnaden).",
+                "_ll3_wo_sv": "Statens bidragsfonder täcker upp de ökade kostnaderna för koldioxidfritt stål från skattemedel så länge som det är marknadsmässigt (Kolonnkontrakter för skillnad).",
+                "_check_ll3_sv": "NO. The Swedish translation is not entirely correct. A better translation would be: \"Staten kompenserar för merkostnaderna för kolstål från skattemedel så länge det är marknadsmässigt (Carbon Contracts for Difference).\"",
+                "_check_ll3_wo_sv": "NO. The Swedish translation is not entirely correct. A better translation would be: \"Staten kompenserar för de ökade kostnaderna för kolneutral stål från skattemedel så länge det inte är marknadsmässigt (Karbonkontrakt för skillnad).\""
             }
         },
         {

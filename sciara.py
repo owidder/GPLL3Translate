@@ -258,7 +258,7 @@ async def crawl_json(data, source_language: str, target_language: str, current_t
 
             target_translation_ll3 = ""
             target_translation_ll3_wo = ""
-            if len(data[source_language]) < 150:
+            if len(data[source_language]) < 200:
                 target_language_ll3_property = f"_ll3_{target_language}"
                 if len(filtered_translations) > 0 and not target_language_ll3_property in data:
                     target_translation_ll3 = await get_translation(
