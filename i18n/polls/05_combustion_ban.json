@@ -1,78 +1,162 @@
 {
-  "_id" : "combustionban",
-  "heading" : {
-    "de" : "Abstimmung über ein Verbot des Verbrennungsmotors in PKW",
-    "en" : "Vote on a ban of the combustion engine in passenger cars",
-    "fr" : "Votez pour l'interdiction du moteur à combustion dans les voitures particulières",
-    "ar" : "تصويت بشأن حظر محرك الاحتراق الداخلي في سيارات الركاب"
-  },
-  "description" : {
-    "de" : "Eine wesentliche Quelle für Treibhausgasemissionen ist mit 20% der Verkehr durch das Verbrennen fossiler Treibstoffe wie Benzin, Diesel und Gas.\n\nEin Verbot von PKW mit Verbrennungsmotoren, die ca. 60% Anteil an den Emissionen des Verkehrssektors haben, würde die Emissionen bereits vor Inkrafttreten erheblich reduzieren, weil alle Autohersteller ihre Flotte schon vorher schrittweise umstellen müssten.\n\n",
-    "en" : "A major source of greenhouse gas emissions, accounting for 20%, is transport through the burning of fossil fuels such as petrol, diesel and gas.\n\nA ban on passenger cars with combustion engines, which account for about 60% of transport sector emissions, would reduce emissions significantly even before it comes into force, because all car manufacturers would have to gradually convert their fleets before then.\n\n",
-    "fr" : "Une source majeure d'émissions de gaz à effet de serre, représentant 20 %, est le transport par la combustion de combustibles fossiles tels que l'essence, le diesel et le gaz.\n\nUne interdiction des voitures particulières équipées de moteurs à combustion, qui représentent environ 60 % des émissions du secteur des transports, réduirait considérablement les émissions même avant son entrée en vigueur, car tous les constructeurs automobiles devraient convertir progressivement leur flotte avant cette date.\n\n",
-    "ar" : "إحدى المصادر الرئيسية لانبعاثات غازات الاحتباس الحراري، والتي تشكل 20%، هي النقل عن طريق حرق الوقود الأحفوري مثل البنزين والديزل والغاز.\n\nسيؤدي حظر السيارات الركاب المزودة بمحركات الاحتراق، والتي تمثل حوالي 60% من انبعاثات قطاع النقل، إلى تقليل الانبعاثات بشكل كبير حتى قبل البدء في تنفيذ الحظر، لأن جميع شركات صناعة السيارات ستضطر إلى تحويل أسطولها تدريجيًا قبل ذلك الحين.\n\n"
-  },
-  "multipleChoice" : false,
-  "choices" : [
-    {
-      "name" : "Noban",
-      "isDefault" : true,
-      "uiStrings" : {
-        "de" : "Kein Verbot",
-        "en" : "No ban",
-        "fr" : "Pas d'interdiction",
-        "ar" : "لا حظر"
-      }
+    "_id": "combustionban",
+    "heading": {
+        "de": "Abstimmung über ein Verbot des Verbrennungsmotors in PKW",
+        "en": "Vote on a ban of the combustion engine in passenger cars",
+        "fr": "Votez pour l'interdiction du moteur à combustion dans les voitures particulières",
+        "ar": "تصويت بشأن حظر محرك الاحتراق الداخلي في سيارات الركاب",
+        "sv": "Omröstning om förbud mot förbränningsmotorer i personbilar",
+        "_wo_sv": "Omröstning om förbud mot förbränningsmotorer i personbilar",
+        "_ll3_sv": "Röstsamtal om förbud mot bränslemotor i personbilar",
+        "_ll3_wo_sv": "Beslutande om ett förbud mot bränslemotor i personbilar",
+        "_check_sv": "YES",
+        "_check_wo_sv": "YES",
+        "_check_ll3_sv": "NO. The Swedish translation is not entirely correct. The term \"Röstsamtal\" means \"voice call\", which is not the correct translation for \"Abstimmung\" (vote). A better translation would be: \"Omröstning om förbud mot förbränningsmotorer i personbilar\".",
+        "_check_ll3_wo_sv": "NO. The Swedish translation is not entirely correct. A better translation would be: \"Omröstning om ett förbud mot förbränningsmotorer i personbilar\". The original German text refers to a \"vote\" or \"poll\" (Abstimmung), not a \"decision\" (Beslutande).",
+        "_check_en": "YES",
+        "_check_ar": "YES",
+        "_check_fr": "NO. The French translation is not accurate. It is more of a call to action (\"Vote for the ban...\") rather than a neutral statement about a vote taking place. A better translation would be: \"Vote sur l'interdiction du moteur à combustion dans les voitures particulières\"."
     },
-    {
-      "name" : "Ban2025",
-      "isDefault" : false,
-      "uiStrings" : {
-        "de" : "Verbot ab 2025",
-        "en" : "Ban from 2025",
-        "fr" : "Interdiction à partir de 2025",
-        "ar" : "حظر اعتبارًا من 2025"
-      }
+    "description": {
+        "de": "Eine wesentliche Quelle für Treibhausgasemissionen ist mit 20% der Verkehr durch das Verbrennen fossiler Treibstoffe wie Benzin, Diesel und Gas.\n\nEin Verbot von PKW mit Verbrennungsmotoren, die ca. 60% Anteil an den Emissionen des Verkehrssektors haben, würde die Emissionen bereits vor Inkrafttreten erheblich reduzieren, weil alle Autohersteller ihre Flotte schon vorher schrittweise umstellen müssten.\n\n",
+        "en": "A major source of greenhouse gas emissions, accounting for 20%, is transport through the burning of fossil fuels such as petrol, diesel and gas.\n\nA ban on passenger cars with combustion engines, which account for about 60% of transport sector emissions, would reduce emissions significantly even before it comes into force, because all car manufacturers would have to gradually convert their fleets before then.\n\n",
+        "fr": "Une source majeure d'émissions de gaz à effet de serre, représentant 20 %, est le transport par la combustion de combustibles fossiles tels que l'essence, le diesel et le gaz.\n\nUne interdiction des voitures particulières équipées de moteurs à combustion, qui représentent environ 60 % des émissions du secteur des transports, réduirait considérablement les émissions même avant son entrée en vigueur, car tous les constructeurs automobiles devraient convertir progressivement leur flotte avant cette date.\n\n",
+        "ar": "إحدى المصادر الرئيسية لانبعاثات غازات الاحتباس الحراري، والتي تشكل 20%، هي النقل عن طريق حرق الوقود الأحفوري مثل البنزين والديزل والغاز.\n\nسيؤدي حظر السيارات الركاب المزودة بمحركات الاحتراق، والتي تمثل حوالي 60% من انبعاثات قطاع النقل، إلى تقليل الانبعاثات بشكل كبير حتى قبل البدء في تنفيذ الحظر، لأن جميع شركات صناعة السيارات ستضطر إلى تحويل أسطولها تدريجيًا قبل ذلك الحين.\n\n",
+        "sv": "En betydande källa till växthusgasutsläpp, som står för 20%, är transport genom förbränning av fossila bränslen som bensin, diesel och gas.\n\nEtt förbud mot personbilar med förbränningsmotorer, som står för cirka 60% av transportsektorns utsläpp, skulle minska utsläppen avsevärt även innan det träder i kraft, eftersom alla biltillverkare skulle behöva gradvis omvandla sina flottor innan dess.",
+        "_wo_sv": "En väsentlig källa till växthusgasutsläpp är med 20% trafiken genom förbränning av fossila bränslen som bensin, diesel och gas.\n\nEtt förbud mot personbilar med förbränningsmotorer, som står för cirka 60% av utsläppen från transportsektorn, skulle redan minska utsläppen avsevärt innan det träder i kraft, eftersom alla biltillverkare skulle behöva gradvis omvandla sin flotta i förväg.",
+        "_check_sv": "YES",
+        "_check_wo_sv": "YES",
+        "_check_en": "YES",
+        "_check_ar": "YES",
+        "_check_fr": "YES"
     },
-    {
-      "name" : "Ban2030",
-      "isDefault" : false,
-      "uiStrings" : {
-        "de" : "Verbot ab 2030",
-        "en" : "Ban from 2030",
-        "fr" : "Interdiction à partir de 2030",
-        "ar" : "حظر اعتبارًا من 2030"
-      }
-    },
-    {
-      "name" : "Ban2035",
-      "isDefault" : false,
-      "uiStrings" : {
-        "de" : "Verbot ab 2035",
-        "en" : "Ban from 2035",
-        "fr" : "Interdiction à partir de 2035",
-        "ar" : "حظر اعتبارًا من 2035"
-      }
-    },
-    {
-      "name" : "Ban2040",
-      "isDefault" : false,
-      "uiStrings" : {
-        "de" : "Verbot ab 2040",
-        "en" : "Ban from 2040",
-        "fr" : "Interdiction à partir de 2040",
-        "ar" : "حظر اعتبارًا من 2040"
-      }
-    },
-    {
-      "name" : "Ban2045",
-      "isDefault" : false,
-      "uiStrings" : {
-        "de" : "Verbot ab 2045",
-        "en" : "Ban from 2045",
-        "fr" : "Interdiction à partir de 2045",
-        "ar" : "حظر اعتبارًا من 2045"
-      }
-    }
-  ]
+    "multipleChoice": false,
+    "choices": [
+        {
+            "name": "Noban",
+            "isDefault": true,
+            "uiStrings": {
+                "de": "Kein Verbot",
+                "en": "No ban",
+                "fr": "Pas d'interdiction",
+                "ar": "لا حظر",
+                "sv": "Inget förbud",
+                "_wo_sv": "Inget förbud",
+                "_ll3_sv": "Inget förbud.",
+                "_ll3_wo_sv": "Inget förbud",
+                "_check_sv": "YES",
+                "_check_wo_sv": "YES",
+                "_check_ll3_sv": "YES",
+                "_check_ll3_wo_sv": "YES",
+                "_check_en": "YES",
+                "_check_ar": "YES",
+                "_check_fr": "YES"
+            }
+        },
+        {
+            "name": "Ban2025",
+            "isDefault": false,
+            "uiStrings": {
+                "de": "Verbot ab 2025",
+                "en": "Ban from 2025",
+                "fr": "Interdiction à partir de 2025",
+                "ar": "حظر اعتبارًا من 2025",
+                "sv": "Förbud från 2025",
+                "_wo_sv": "Förbud från 2025",
+                "_ll3_sv": " Förbud från 2025",
+                "_ll3_wo_sv": "Förbud från 2025",
+                "_check_sv": "YES",
+                "_check_wo_sv": "YES",
+                "_check_ll3_sv": "YES",
+                "_check_ll3_wo_sv": "YES",
+                "_check_en": "YES",
+                "_check_ar": "YES",
+                "_check_fr": "YES"
+            }
+        },
+        {
+            "name": "Ban2030",
+            "isDefault": false,
+            "uiStrings": {
+                "de": "Verbot ab 2030",
+                "en": "Ban from 2030",
+                "fr": "Interdiction à partir de 2030",
+                "ar": "حظر اعتبارًا من 2030",
+                "sv": "Förbud från 2030",
+                "_wo_sv": "Förbud från 2030",
+                "_ll3_sv": " Förbud från 2030",
+                "_ll3_wo_sv": "Förbud från 2030",
+                "_check_sv": "YES",
+                "_check_wo_sv": "YES",
+                "_check_ll3_sv": "YES",
+                "_check_ll3_wo_sv": "YES",
+                "_check_en": "YES",
+                "_check_ar": "YES",
+                "_check_fr": "YES"
+            }
+        },
+        {
+            "name": "Ban2035",
+            "isDefault": false,
+            "uiStrings": {
+                "de": "Verbot ab 2035",
+                "en": "Ban from 2035",
+                "fr": "Interdiction à partir de 2035",
+                "ar": "حظر اعتبارًا من 2035",
+                "sv": "Förbud från 2035",
+                "_wo_sv": "Förbud från 2035",
+                "_ll3_sv": " Förbud från 2035",
+                "_ll3_wo_sv": "Förbud från 2035",
+                "_check_sv": "YES",
+                "_check_wo_sv": "YES",
+                "_check_ll3_sv": "YES",
+                "_check_ll3_wo_sv": "YES",
+                "_check_en": "YES",
+                "_check_ar": "YES",
+                "_check_fr": "YES"
+            }
+        },
+        {
+            "name": "Ban2040",
+            "isDefault": false,
+            "uiStrings": {
+                "de": "Verbot ab 2040",
+                "en": "Ban from 2040",
+                "fr": "Interdiction à partir de 2040",
+                "ar": "حظر اعتبارًا من 2040",
+                "sv": "Förbud från 2040",
+                "_wo_sv": "Förbud från 2040",
+                "_ll3_sv": " Förbud från 2040",
+                "_ll3_wo_sv": "Förbud från 2040",
+                "_check_sv": "YES",
+                "_check_wo_sv": "YES",
+                "_check_ll3_sv": "YES",
+                "_check_ll3_wo_sv": "YES",
+                "_check_en": "YES",
+                "_check_ar": "YES",
+                "_check_fr": "YES"
+            }
+        },
+        {
+            "name": "Ban2045",
+            "isDefault": false,
+            "uiStrings": {
+                "de": "Verbot ab 2045",
+                "en": "Ban from 2045",
+                "fr": "Interdiction à partir de 2045",
+                "ar": "حظر اعتبارًا من 2045",
+                "sv": "Förbud från 2045",
+                "_wo_sv": "Förbud från 2045",
+                "_ll3_sv": " Förbud från 2045",
+                "_ll3_wo_sv": "Förbud från 2045",
+                "_check_sv": "YES",
+                "_check_wo_sv": "YES",
+                "_check_ll3_sv": "YES",
+                "_check_ll3_wo_sv": "YES",
+                "_check_en": "YES",
+                "_check_ar": "YES",
+                "_check_fr": "YES"
+            }
+        }
+    ]
 }

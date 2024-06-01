@@ -164,13 +164,13 @@ def create_table(input_file: str, translation_lines: [str], source: str, target:
     _headers = [
         "source text",
         "GPT4 (with translations)",
+        "check",
         "GPT4 (without translations)",
+        "check",
         "Llama3-8B (with translations)",
+        "check",
         "Llama3-8B (without translations)",
-        "check GPT4 (with translations)",
-        "check GPT4 (without translations)",
-        "check Llama3-8B (with translations)",
-        "check Llama3-8B (without translations)",
+        "check",
     ]
     headers = list(
         reduce(
