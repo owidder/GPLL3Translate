@@ -1,232 +1,325 @@
 {
-  "schedule": {
-    "date": "2022-05-01T00:00:00",
-    "interval": {
-      "period": "YEARS",
-      "length": 4
-    }
-  },
-  "name": "Voting Result (every 4 years)",
-  "isPollingEvent": true,
-  "actions": [
-    {
-      "notification": {
-        "sendEmail": false,
-        "title": {
-          "de": "Die Ergebnisse sind da!",
-          "ru": "Результаты подведены!",
-          "en": "The results are in!",
-          "fr": "Les résultats sont là !",
-          "ar": "النتائج جاهزة!"
-        },
-        "body": {
-          "de": "Nachhaltiger Flugzeugkraftstoff",
-          "en": "Sustainable Aviation Fuel"
-        },
-        "conditions": [
-          {
-            "path": "profile.countryOfResidence",
-            "configurationType": "AGENT_VARIABLE",
-            "value": "DEU",
-            "operator": "EQ"
-          }
-        ]
-      },
-      "actionCondition": {
-        "neutralValue": "abstain",
-        "op": "MAX",
-        "variablePath": "sustainable-aviation-fuel",
-        "configurationType": "AGENT_VARIABLE",
-        "value": "opt-2"
-      },
-      "resultConfigurationValue": {
-        "subPathIdentifier": "POLITICAL_MEASURE",
-        "valueOrPath": "industry.aviation.saf.full",
-        "selector": {
-          "value": "DEU",
-          "key": "isoCountryCode"
+    "schedule": {
+        "date": "2022-05-01T00:00:00",
+        "interval": {
+            "period": "YEARS",
+            "length": 4
         }
-      }
     },
-    {
-      "notification": {
-        "sendEmail": false,
-        "title": {
-          "de": "Die Ergebnisse sind da!",
-          "ru": "Результаты подведены!",
-          "en": "The results are in!",
-          "fr": "Les résultats sont là !",
-          "ar": "النتائج جاهزة!"
-        },
-        "body": {
-          "de": "Bei der letzten Wahl wurde für die Erhöhung der CO₂-Steuer gestimmt.<br>Sie ist deshalb um 25€ gestiegen!",
-          "ru": "На последних выборах проголосовали за увеличение налога на CO₂.<br>Таким образом, она подорожала на 25 евро!",
-          "en": "In the last election, the CO₂ tax was voted to increase.<br>It has therefore gone up by €25!",
-          "fr": "Lors des dernières élections, la taxe CO₂ a été votée en augmentation.<br>Elle a donc augmenté de 25 € !",
-          "ar": "في الانتخابات الأخيرة، تم التصويت على زيادة ضريبة ثاني أكسيد الكربون.<br>لذلك، ارتفعت بمقدار 25 يورو!"
-        },
-        "conditions": [
-          {
-            "path": "profile.countryOfResidence",
-            "configurationType": "AGENT_VARIABLE",
-            "value": "DEU",
-            "operator": "EQ"
-          }
-        ]
-      },
-      "actionCondition": {
-        "neutralValue": "abstain",
-        "op": "MAX",
-        "variablePath": "co2-pricing-poll",
-        "configurationType": "AGENT_VARIABLE",
-        "value": "raise"
-      },
-      "expression": {
-        "changeMode": "ADD",
-        "arguments": [
-          {
-            "subPathIdentifier": "SIMULATION_VARIABLE",
-            "valueOrPath": "co2_tax.amount.value",
-            "selector": {
-              "value": "DEU",
-              "key": "isoCountryCode"
+    "name": "Voting Result (every 4 years)",
+    "isPollingEvent": true,
+    "actions": [
+        {
+            "notification": {
+                "sendEmail": false,
+                "title": {
+                    "de": "Die Ergebnisse sind da!",
+                    "ru": "Результаты подведены!",
+                    "en": "The results are in!",
+                    "fr": "Les résultats sont là !",
+                    "ar": "النتائج جاهزة!",
+                    "sv": "Resultaten är här!",
+                    "_wo_sv": "Resultaten är här!",
+                    "_ll3_sv": "Resultaten är där!",
+                    "_ll3_wo_sv": "Resultaten är där!",
+                    "_check_sv": "YES",
+                    "_check_wo_sv": "YES",
+                    "_check_ll3_sv": "NO, the Swedish translation is not correct. A better translation would be \"Resultaten är här!\" which means \"The results are here!\" in English. The Swedish phrase \"Resultaten är där!\" translates to \"The results are there!\" in English, which is not the same as the original German text.",
+                    "_check_ll3_wo_sv": "NO. The Swedish translation is not correct. A better translation would be \"Resultaten är här!\" which means \"The results are here!\" in English. The Swedish phrase \"Resultaten är där!\" translates to \"The results are there!\" in English, which is not the same meaning as the original German text.",
+                    "_check_ru": "YES",
+                    "_check_en": "YES",
+                    "_check_ar": "YES",
+                    "_check_fr": "YES"
+                },
+                "body": {
+                    "de": "Nachhaltiger Flugzeugkraftstoff",
+                    "en": "Sustainable Aviation Fuel",
+                    "sv": "Hållbart flygbränsle",
+                    "_wo_sv": "Hållbart flygbränsle",
+                    "_ll3_sv": "Återhälsande flygbensin",
+                    "_ll3_wo_sv": "Sustainable flygplanstillämpning",
+                    "_check_sv": "YES",
+                    "_check_wo_sv": "YES",
+                    "_check_ll3_sv": "NO. The Swedish translation \"Återhälsande flygbensin\" does not convey the same meaning as the original German text. A better translation would be \"Hållbart flygbränsle\", which means \"Sustainable airplane fuel\".",
+                    "_check_ll3_wo_sv": "NO. The Swedish translation is incorrect. The correct translation for \"Nachhaltiger Flugzeugkraftstoff\" would be \"Hållbart flygbränsle\". The given Swedish translation means \"Sustainable airplane application\", which is not the same as \"Sustainable airplane fuel\".",
+                    "_check_en": "YES"
+                },
+                "conditions": [
+                    {
+                        "path": "profile.countryOfResidence",
+                        "configurationType": "AGENT_VARIABLE",
+                        "value": "DEU",
+                        "operator": "EQ"
+                    }
+                ]
+            },
+            "actionCondition": {
+                "neutralValue": "abstain",
+                "op": "MAX",
+                "variablePath": "sustainable-aviation-fuel",
+                "configurationType": "AGENT_VARIABLE",
+                "value": "opt-2"
+            },
+            "resultConfigurationValue": {
+                "subPathIdentifier": "POLITICAL_MEASURE",
+                "valueOrPath": "industry.aviation.saf.full",
+                "selector": {
+                    "value": "DEU",
+                    "key": "isoCountryCode"
+                }
             }
-          },
-          {
-            "subPathIdentifier": "VALUE",
-            "valueOrPath": 25.0
-          }
-        ]
-      },
-      "resultConfigurationValue": {
-        "subPathIdentifier": "SIMULATION_VARIABLE",
-        "valueOrPath": "co2_tax.amount.value",
-        "selector": {
-          "value": "DEU",
-          "key": "isoCountryCode"
+        },
+        {
+            "notification": {
+                "sendEmail": false,
+                "title": {
+                    "de": "Die Ergebnisse sind da!",
+                    "ru": "Результаты подведены!",
+                    "en": "The results are in!",
+                    "fr": "Les résultats sont là !",
+                    "ar": "النتائج جاهزة!",
+                    "sv": "Resultaten är här!",
+                    "_wo_sv": "Resultaten är här!",
+                    "_ll3_sv": "Resultaten är där!",
+                    "_ll3_wo_sv": "Resultaten är där!",
+                    "_check_sv": "YES",
+                    "_check_wo_sv": "YES",
+                    "_check_ll3_sv": "NO, the Swedish translation is not correct. A better translation would be \"Resultaten är här!\" which means \"The results are here!\" in English. The Swedish phrase \"Resultaten är där!\" translates to \"The results are there!\" in English, which is not the same as the original German text.",
+                    "_check_ll3_wo_sv": "NO. The Swedish translation is not correct. A better translation would be \"Resultaten är här!\" which means \"The results are here!\" in English. The Swedish phrase \"Resultaten är där!\" translates to \"The results are there!\" in English, which is not the same as the original German text.",
+                    "_check_ru": "YES",
+                    "_check_en": "YES",
+                    "_check_ar": "YES",
+                    "_check_fr": "YES"
+                },
+                "body": {
+                    "de": "Bei der letzten Wahl wurde für die Erhöhung der CO₂-Steuer gestimmt.<br>Sie ist deshalb um 25€ gestiegen!",
+                    "ru": "На последних выборах проголосовали за увеличение налога на CO₂.<br>Таким образом, она подорожала на 25 евро!",
+                    "en": "In the last election, the CO₂ tax was voted to increase.<br>It has therefore gone up by €25!",
+                    "fr": "Lors des dernières élections, la taxe CO₂ a été votée en augmentation.<br>Elle a donc augmenté de 25 € !",
+                    "ar": "في الانتخابات الأخيرة، تم التصويت على زيادة ضريبة ثاني أكسيد الكربون.<br>لذلك، ارتفعت بمقدار 25 يورو!",
+                    "sv": "Vid det senaste valet röstades det för att höja CO₂-skatten.<br>Den har därför ökat med 25 €!",
+                    "_wo_sv": "Vid det senaste valet röstades det för att höja CO₂-skatten.<br> Därför har den ökat med 25€!",
+                    "_ll3_sv": "Svenska: \"I senaste valet röstades för en ökning av CO₂-skatten.<br>Så har den gått upp med 25 euro!\"",
+                    "_ll3_wo_sv": " Vid senaste valet röstades för en ökning av CO₂-skatten.<br>Så är den därför stigit med 25 euro!",
+                    "_check_sv": "YES",
+                    "_check_wo_sv": "YES",
+                    "_check_ll3_sv": "YES",
+                    "_check_ll3_wo_sv": "YES",
+                    "_check_ru": "YES",
+                    "_check_en": "YES",
+                    "_check_ar": "YES",
+                    "_check_fr": "YES"
+                },
+                "conditions": [
+                    {
+                        "path": "profile.countryOfResidence",
+                        "configurationType": "AGENT_VARIABLE",
+                        "value": "DEU",
+                        "operator": "EQ"
+                    }
+                ]
+            },
+            "actionCondition": {
+                "neutralValue": "abstain",
+                "op": "MAX",
+                "variablePath": "co2-pricing-poll",
+                "configurationType": "AGENT_VARIABLE",
+                "value": "raise"
+            },
+            "expression": {
+                "changeMode": "ADD",
+                "arguments": [
+                    {
+                        "subPathIdentifier": "SIMULATION_VARIABLE",
+                        "valueOrPath": "co2_tax.amount.value",
+                        "selector": {
+                            "value": "DEU",
+                            "key": "isoCountryCode"
+                        }
+                    },
+                    {
+                        "subPathIdentifier": "VALUE",
+                        "valueOrPath": 25.0
+                    }
+                ]
+            },
+            "resultConfigurationValue": {
+                "subPathIdentifier": "SIMULATION_VARIABLE",
+                "valueOrPath": "co2_tax.amount.value",
+                "selector": {
+                    "value": "DEU",
+                    "key": "isoCountryCode"
+                }
+            },
+            "upperLimit": 999.0
+        },
+        {
+            "notification": {
+                "sendEmail": false,
+                "title": {
+                    "de": "Die Ergebnisse sind da!",
+                    "ru": "Результаты подведены!",
+                    "en": "The results are in!",
+                    "fr": "Les résultats sont là !",
+                    "ar": "النتائج جاهزة!",
+                    "sv": "Resultaten är här!",
+                    "_wo_sv": "Resultaten är här!",
+                    "_ll3_sv": "Resultaten är där!",
+                    "_ll3_wo_sv": "Resultaten är där!",
+                    "_check_sv": "YES",
+                    "_check_wo_sv": "YES",
+                    "_check_ll3_sv": "NO. The Swedish translation is not correct. A better translation would be \"Resultaten är här!\" which means \"The results are here!\" in English. The Swedish phrase \"Resultaten är där!\" translates to \"The results are there!\" in English, which is not the same meaning as the original German text.",
+                    "_check_ll3_wo_sv": "NO. The Swedish translation is not correct. A better translation would be \"Resultaten är här!\" which means \"The results are here!\" in English. The Swedish phrase \"Resultaten är där!\" translates to \"The results are there!\" in English, which is not the same as the original German text.",
+                    "_check_ru": "YES",
+                    "_check_en": "YES",
+                    "_check_ar": "YES",
+                    "_check_fr": "YES"
+                },
+                "body": {
+                    "de": "Bei der letzten Wahl wurde für die Verringerung der CO₂-Steuer gestimmt.<br>Sie ist deshalb um 25€ gesunken!",
+                    "ru": "На последних выборах люди проголосовали за снижение налога на CO₂.<br>Таким образом, она подешевела на 25 евро!",
+                    "en": "In the last election, people voted to reduce the CO₂ tax.<br>It has therefore gone down by €25!",
+                    "fr": "Lors des dernières élections, les gens ont voté pour réduire la taxe CO₂.<br>Elle a donc diminué de 25 € !",
+                    "ar": "في الانتخابات الأخيرة، صوت الناس لخفض ضريبة ثاني أكسيد الكربون.<br>لذلك، انخفضت بمقدار 25 يورو!",
+                    "sv": "Vid det senaste valet röstade folk för att minska CO₂-skatten.<br>Den har därför minskat med 25 €!",
+                    "_wo_sv": "Vid det senaste valet röstades det för att minska CO₂-skatten.<br>Den har därför sjunkit med 25€!",
+                    "_ll3_sv": "Svenska: \"I senaste valet röstade folk för att minska CO₂-skatten.<br>Så har den gått ner med 25 euro!\"",
+                    "_ll3_wo_sv": " Vid senaste valet röstades för minskning av CO₂-skatten.<br>Så är den därför sjunkit med 25 euro!",
+                    "_check_sv": "YES",
+                    "_check_wo_sv": "YES",
+                    "_check_ll3_sv": "YES",
+                    "_check_ll3_wo_sv": "NO. The Swedish translation is not completely correct. A better translation would be: \"Vid det senaste valet röstades det för att minska CO₂-skatten.<br>Den har därför minskat med 25 euro!\"",
+                    "_check_ru": "YES",
+                    "_check_en": "YES",
+                    "_check_ar": "YES",
+                    "_check_fr": "YES"
+                },
+                "conditions": [
+                    {
+                        "path": "profile.countryOfResidence",
+                        "configurationType": "AGENT_VARIABLE",
+                        "value": "DEU",
+                        "operator": "EQ"
+                    }
+                ]
+            },
+            "actionCondition": {
+                "neutralValue": "abstain",
+                "op": "MAX",
+                "variablePath": "co2-pricing-poll",
+                "configurationType": "AGENT_VARIABLE",
+                "value": "lower"
+            },
+            "expression": {
+                "changeMode": "ADD",
+                "arguments": [
+                    {
+                        "subPathIdentifier": "SIMULATION_VARIABLE",
+                        "valueOrPath": "co2_tax.amount.value",
+                        "selector": {
+                            "value": "DEU",
+                            "key": "isoCountryCode"
+                        }
+                    },
+                    {
+                        "subPathIdentifier": "VALUE",
+                        "valueOrPath": -25.0
+                    }
+                ]
+            },
+            "resultConfigurationValue": {
+                "subPathIdentifier": "SIMULATION_VARIABLE",
+                "valueOrPath": "co2_tax.amount.value",
+                "selector": {
+                    "value": "DEU",
+                    "key": "isoCountryCode"
+                }
+            },
+            "lowerLimit": 0.0
+        },
+        {
+            "notification": {
+                "sendEmail": false,
+                "title": {
+                    "de": "Die Ergebnisse sind da!",
+                    "ru": "Результаты подведены!",
+                    "en": "The results are in!",
+                    "fr": "Les résultats sont là !",
+                    "ar": "النتائج جاهزة!",
+                    "sv": "Resultaten är här!",
+                    "_wo_sv": "Resultaten är här!",
+                    "_ll3_sv": "Resultaten är där!",
+                    "_ll3_wo_sv": "Resultaten är där!",
+                    "_check_sv": "YES",
+                    "_check_wo_sv": "YES",
+                    "_check_ll3_sv": "NO. The Swedish translation is not correct. A better translation would be \"Resultaten är här!\" which means \"The results are here!\" in English. The Swedish phrase \"Resultaten är där!\" translates to \"The results are there!\" in English, which is not the same as the original German text.",
+                    "_check_ll3_wo_sv": "NO. The Swedish translation is not correct. A better translation would be \"Resultaten är här!\" which means \"The results are here!\" in English. The Swedish phrase \"Resultaten är där!\" translates to \"The results are there!\" in English, which is not the same as the original German text.",
+                    "_check_ru": "YES",
+                    "_check_en": "YES",
+                    "_check_ar": "YES",
+                    "_check_fr": "YES"
+                },
+                "body": {
+                    "de": "Bei der letzten Wahl wurde für das Gleichbleiben der CO₂-Steuer gestimmt.<br>Sie bleibt deshalb unverändert!",
+                    "ru": "На последних выборах налог на CO₂ проголосовали за то, чтобы оставить его прежним.<br>Поэтому он остается неизменным!",
+                    "en": "In the last election, the CO₂ tax was voted to remain the same.<br>It therefore remains unchanged!",
+                    "fr": "Lors des dernières élections, la taxe CO₂ a été votée pour rester inchangée.<br>Elle reste donc inchangée !",
+                    "ar": "في الانتخابات الأخيرة، صوت الناس للحفاظ على ضريبة ثاني أكسيد الكربون بنفس المستوى.<br>لذلك، فإنه يظل دون تغيير!",
+                    "sv": "Vid det senaste valet röstades det för att CO₂-skatten skulle förbli densamma.<br>Den förblir därför oförändrad!",
+                    "_wo_sv": "Vid det senaste valet röstades det för att CO₂-skatten skulle förbli densamma. <br>Den förblir därför oförändrad!",
+                    "_ll3_sv": "Svenska: \"I senaste valet röstades det för att CO₂-avgiften skulle förbli oförändrad.<br>Så förblir den oförändrad!\"",
+                    "_ll3_wo_sv": " Vid senaste valet röstades för att CO2-skatten skulle förbli oförändrad.<br>Så den förbli oförändrad!",
+                    "_check_sv": "YES",
+                    "_check_wo_sv": "YES",
+                    "_check_ll3_sv": "YES",
+                    "_check_ll3_wo_sv": "YES",
+                    "_check_ru": "YES",
+                    "_check_en": "YES",
+                    "_check_ar": "YES",
+                    "_check_fr": "YES"
+                },
+                "conditions": [
+                    {
+                        "path": "profile.countryOfResidence",
+                        "configurationType": "AGENT_VARIABLE",
+                        "value": "DEU",
+                        "operator": "EQ"
+                    }
+                ]
+            },
+            "actionCondition": {
+                "neutralValue": "abstain",
+                "op": "MAX",
+                "variablePath": "co2-pricing-poll",
+                "configurationType": "AGENT_VARIABLE",
+                "value": "maintain"
+            },
+            "expression": {
+                "changeMode": "ADD",
+                "arguments": [
+                    {
+                        "subPathIdentifier": "SIMULATION_VARIABLE",
+                        "valueOrPath": "co2_tax.amount.value",
+                        "selector": {
+                            "value": "DEU",
+                            "key": "isoCountryCode"
+                        }
+                    },
+                    {
+                        "subPathIdentifier": "VALUE",
+                        "valueOrPath": 0.0
+                    }
+                ]
+            },
+            "resultConfigurationValue": {
+                "subPathIdentifier": "SIMULATION_VARIABLE",
+                "valueOrPath": "co2_tax.amount.value",
+                "selector": {
+                    "value": "DEU",
+                    "key": "isoCountryCode"
+                }
+            },
+            "lowerLimit": 0.0
         }
-      },
-      "upperLimit": 999.0
-    },
-    {
-      "notification": {
-        "sendEmail": false,
-        "title": {
-          "de": "Die Ergebnisse sind da!",
-          "ru": "Результаты подведены!",
-          "en": "The results are in!",
-          "fr": "Les résultats sont là !",
-          "ar": "النتائج جاهزة!"
-        },
-        "body": {
-          "de": "Bei der letzten Wahl wurde für die Verringerung der CO₂-Steuer gestimmt.<br>Sie ist deshalb um 25€ gesunken!",
-          "ru": "На последних выборах люди проголосовали за снижение налога на CO₂.<br>Таким образом, она подешевела на 25 евро!",
-          "en": "In the last election, people voted to reduce the CO₂ tax.<br>It has therefore gone down by €25!",
-          "fr": "Lors des dernières élections, les gens ont voté pour réduire la taxe CO₂.<br>Elle a donc diminué de 25 € !",
-          "ar": "في الانتخابات الأخيرة، صوت الناس لخفض ضريبة ثاني أكسيد الكربون.<br>لذلك، انخفضت بمقدار 25 يورو!"
-        },
-        "conditions": [
-          {
-            "path": "profile.countryOfResidence",
-            "configurationType": "AGENT_VARIABLE",
-            "value": "DEU",
-            "operator": "EQ"
-          }
-        ]
-      },
-      "actionCondition": {
-        "neutralValue": "abstain",
-        "op": "MAX",
-        "variablePath": "co2-pricing-poll",
-        "configurationType": "AGENT_VARIABLE",
-        "value": "lower"
-      },
-      "expression": {
-        "changeMode": "ADD",
-        "arguments": [
-          {
-            "subPathIdentifier": "SIMULATION_VARIABLE",
-            "valueOrPath": "co2_tax.amount.value",
-            "selector": {
-              "value": "DEU",
-              "key": "isoCountryCode"
-            }
-          },
-          {
-            "subPathIdentifier": "VALUE",
-            "valueOrPath": -25.0
-          }
-        ]
-      },
-      "resultConfigurationValue": {
-        "subPathIdentifier": "SIMULATION_VARIABLE",
-        "valueOrPath": "co2_tax.amount.value",
-        "selector": {
-          "value": "DEU",
-          "key": "isoCountryCode"
-        }
-      },
-      "lowerLimit": 0.0
-    },
-    {
-      "notification": {
-        "sendEmail": false,
-        "title": {
-          "de": "Die Ergebnisse sind da!",
-          "ru": "Результаты подведены!",
-          "en": "The results are in!",
-          "fr": "Les résultats sont là !",
-          "ar": "النتائج جاهزة!"
-        },
-        "body": {
-          "de": "Bei der letzten Wahl wurde für das Gleichbleiben der CO₂-Steuer gestimmt.<br>Sie bleibt deshalb unverändert!",
-          "ru": "На последних выборах налог на CO₂ проголосовали за то, чтобы оставить его прежним.<br>Поэтому он остается неизменным!",
-          "en": "In the last election, the CO₂ tax was voted to remain the same.<br>It therefore remains unchanged!",
-          "fr": "Lors des dernières élections, la taxe CO₂ a été votée pour rester inchangée.<br>Elle reste donc inchangée !",
-          "ar": "في الانتخابات الأخيرة، صوت الناس للحفاظ على ضريبة ثاني أكسيد الكربون بنفس المستوى.<br>لذلك، فإنه يظل دون تغيير!"
-        },
-        "conditions": [
-          {
-            "path": "profile.countryOfResidence",
-            "configurationType": "AGENT_VARIABLE",
-            "value": "DEU",
-            "operator": "EQ"
-          }
-        ]
-      },
-      "actionCondition": {
-        "neutralValue": "abstain",
-        "op": "MAX",
-        "variablePath": "co2-pricing-poll",
-        "configurationType": "AGENT_VARIABLE",
-        "value": "maintain"
-      },
-      "expression": {
-        "changeMode": "ADD",
-        "arguments": [
-          {
-            "subPathIdentifier": "SIMULATION_VARIABLE",
-            "valueOrPath": "co2_tax.amount.value",
-            "selector": {
-              "value": "DEU",
-              "key": "isoCountryCode"
-            }
-          },
-          {
-            "subPathIdentifier": "VALUE",
-            "valueOrPath": 0.0
-          }
-        ]
-      },
-      "resultConfigurationValue": {
-        "subPathIdentifier": "SIMULATION_VARIABLE",
-        "valueOrPath": "co2_tax.amount.value",
-        "selector": {
-          "value": "DEU",
-          "key": "isoCountryCode"
-        }
-      },
-      "lowerLimit": 0.0
-    }
-  ]
+    ]
 }
