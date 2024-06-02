@@ -57,7 +57,8 @@ INPUT_FILE = os.getenv("INPUT_FILE")
 RETRY_CHECK = (os.getenv("RETRY_CHECK", "0") == "1")
 TARGET_LANGUAGE = os.getenv("TARGET_LANGUAGE", "")
 SOURCE_LANGUAGE = os.getenv("SOURCE_LANGUAGE", "en")
-WITH_CHECKS_FOR_CERTIFIED_LANGUAGES = os.getenv("WITH_CHECKS_FOR_CERTIFIED_LANGUAGES", False)
+WITH_CHECKS_FOR_CERTIFIED_LANGUAGES = bool(os.getenv("WITH_CHECKS_FOR_CERTIFIED_LANGUAGES", False))
+REDO_CHATGPT = bool(os.getenv("REDO_CHATGPT", False))
 
 
 def create_td(text = "", diff: [str]=[], plusminus="+") -> str:
@@ -232,7 +233,7 @@ async def crawl_json(data, source_language: str, target_language: str, current_t
 
             target_language_w_property = f"_w_{target_language}"
             if target_language in CERTIFIED_LANGUAGES:
-                if len(filtered_translations) > 0 and not target_language_w_property in data:
+                if REDO_CHATGPT or (len(filtered_translations) > 0 and not target_language_w_property in data):
                     target_translation_w = await get_translation(
                         source_text=data[source_language],
                         source_language=source_language,
@@ -246,7 +247,7 @@ async def crawl_json(data, source_language: str, target_language: str, current_t
                 target_translation_w = ""
 
             target_language_wo_property = f"_wo_{target_language}"
-            if len(filtered_translations) > 0 and not target_language_wo_property in data:
+            if REDO_CHATGPT or (len(filtered_translations) > 0 and not target_language_wo_property in data):
                 target_translation_wo = await get_translation(
                     source_text=data[source_language],
                     source_language=source_language,
@@ -299,7 +300,7 @@ async def crawl_json(data, source_language: str, target_language: str, current_t
             #     back_translation = data[back_property]
 
             check_property = f"_check_{target_language}"
-            if (not check_property in data) or (RETRY_CHECK and data[check_property].lower() != "yes"):
+            if REDO_CHATGPT or ((not check_property in data) or (RETRY_CHECK and data[check_property].lower() != "yes")):
                 check_result = await check_translation(
                     source_language=source_language,
                     target_language=target_language,
@@ -311,7 +312,7 @@ async def crawl_json(data, source_language: str, target_language: str, current_t
                 check_result = data[f"_check_{target_language}"]
 
             check_wo_property = f"_check_wo_{target_language}"
-            if len(filtered_translations) > 0 and ((not check_wo_property in data) or (RETRY_CHECK and data[check_wo_property].lower() != "yes")):
+            if REDO_CHATGPT or (len(filtered_translations) > 0 and ((not check_wo_property in data) or (RETRY_CHECK and data[check_wo_property].lower() != "yes"))):
                 check_wo_result = await check_translation(
                     source_language=source_language,
                     target_language=target_language,
