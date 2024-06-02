@@ -152,7 +152,7 @@ async def check_translation(source_text: str, source_language: str, target_text:
     user_lines = [f"Original {LANGUAGES[source_language]}: \"{source_text}\"", f"{LANGUAGES[target_language]} translation: \"{target_text}\""]
     user = "\n".join(user_lines)
     print(f"check_translation for '{source_text}' -> '{target_text}'")
-    answer = await ask_chatgpt(system, user, model="gpt-4")
+    answer = await ask_chatgpt(system, user, model="gpt-4o")
     print(f"check_translation: answer={answer}")
     return answer
 
