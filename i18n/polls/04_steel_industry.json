@@ -69,9 +69,6 @@
         "sl": "Glasovanje o prehodu na jeklo brez CO₂",
         "_back_sl": "Abstimmung über den Übergang zu CO₂-freiem Stahl",
         "_check_sl": "YES",
-        "sv": "Omröstning om övergången till CO₂-fritt stål",
-        "_back_sv": "Abstimmung über den Übergang zu CO₂-freiem Stahl",
-        "_check_sv": "YES",
         "zh": "关于转向无CO₂钢的投票",
         "_back_zh": "Über die Abstimmung zur Umstellung auf CO₂-freien Stahl",
         "_check_zh": "YES",
@@ -95,12 +92,14 @@
         "_check_ar": "YES",
         "_check_fr": "NO. The French translation is not accurate. It sounds like a call to action (\"Vote for the switch to CO2-free steel\") rather than a neutral statement about a vote taking place. A better translation would be: \"Vote sur la transition vers l'acier sans CO₂\".",
         "_check_es": "NO. The Spanish translation is not entirely accurate. The German text refers to a \"vote\" or \"poll\" in a more general sense, not necessarily instructing someone to vote. A better translation would be: \"Votación sobre la transición a acero libre de CO₂\".",
-        "_wo_sv": "Omröstning om övergången till CO₂-fritt stål",
         "_ll3_sv": "Rösta om övergången till CO₂-fri stål",
         "_ll3_wo_sv": "Omställning av CO₂-alkoholfritt stål - en överenskommelse",
-        "_check_wo_sv": "YES",
         "_check_ll3_sv": "YES",
-        "_check_ll3_wo_sv": "NO, the Swedish translation is incorrect. The term \"alkoholfritt\" means \"alcohol-free\", which is not relevant in this context. A better translation would be: \"Omröstning om övergången till CO₂-fritt stål\"."
+        "_check_ll3_wo_sv": "NO, the Swedish translation is incorrect. The term \"alkoholfritt\" means \"alcohol-free\", which is not relevant in this context. A better translation would be: \"Omröstning om övergången till CO₂-fritt stål\".",
+        "sv": "Omröstning om övergången till CO₂-fritt stål",
+        "_wo_sv": "Omröstning om övergången till CO₂-fritt stål",
+        "_check_sv": "YES",
+        "_check_wo_sv": "YES"
     },
     "description": {
         "de": "Die Stahlerzeugung verursacht weltweit ca. 8% der CO₂-Emissionen.\n<br>\nDie kohlenstofffreie Erzeugung von Stahl ist grundsätzlich möglich.\n<br>\nDie Regierung hat beschlossen, dass ab 2030 Stahl in unserem Land nur noch CO₂-frei produziert werden darf. Dieser ist aktuell jedoch 60–70 Prozent teurer als der konventionelle Stahl.\n<br>\nKohlenstoffneutraler Stahl ist damit auf dem Markt gegenüber importiertem Stahl nicht konkurrenzfähig. \n\nBitte stimmen Sie über die folgenden politischen Maßnahmen ab, wie damit umzugehen ist:",
@@ -171,9 +170,6 @@
         "sl": "Proizvodnja jekla povzroča približno 8% emisij CO₂ po vsem svetu.\n<br>\nProizvodnja jekla brez ogljika je v principu možna.\n<br>\nVlada je odločila, da se od leta 2030 v naši državi jeklo sme proizvajati le brez CO₂. Vendar je to trenutno 60-70 odstotkov dražje kot običajno jeklo.\n<br>\nJeklo, nevtralno na ogljik, tako na trgu ni konkurenčno uvoženemu jeklu.\n\nProsimo, glasujte o naslednjih političnih ukrepih o tem, kako ravnati s tem:",
         "_back_sl": "Die Stahlproduktion verursacht weltweit etwa 8% der CO₂-Emissionen.\n<br>\nDie Produktion von kohlenstofffreiem Stahl ist grundsätzlich möglich.\n<br>\nDie Regierung hat beschlossen, dass ab 2030 in unserem Land Stahl nur noch ohne CO₂ produziert werden darf. Dies ist jedoch derzeit 60-70 Prozent teurer als herkömmlicher Stahl.\n<br>\nKohlenstoffneutraler Stahl ist daher auf dem Markt nicht wettbewerbsfähig gegenüber importiertem Stahl.\n\nBitte stimmen Sie über die folgenden politischen Maßnahmen ab, wie damit umzugehen ist:",
         "_check_sl": "YES",
-        "sv": "Stålproduktion står för cirka 8% av CO₂-utsläppen globalt.\n<br>\nKoldioxidfri produktion av stål är i princip möjlig.\n<br>\nRegeringen har beslutat att från 2030 får stål i vårt land endast produceras CO₂-fritt. Detta är dock för närvarande 60-70 procent dyrare än konventionellt stål.\n<br>\nKoldioxidneutralt stål är således inte konkurrenskraftigt på marknaden jämfört med importerat stål. \n\nVänligen rösta på följande politiska åtgärder om hur man ska hantera detta:",
-        "_back_sv": "Die Stahlproduktion ist für etwa 8% der globalen CO2-Emissionen verantwortlich.\n<br>\nDie CO2-freie Produktion von Stahl ist grundsätzlich möglich.\n<br>\nDie Regierung hat beschlossen, dass ab 2030 Stahl in unserem Land nur noch CO2-frei produziert werden darf. Dies ist jedoch derzeit 60-70 Prozent teurer als herkömmlicher Stahl.\n<br>\nCO2-neutrales Stahl ist daher auf dem Markt nicht wettbewerbsfähig im Vergleich zu importiertem Stahl.\n\nBitte stimmen Sie über die folgenden politischen Maßnahmen ab, wie man damit umgehen soll:",
-        "_check_sv": "YES",
         "zh": "全球钢铁生产约占CO₂排放量的8%。\n<br>\n原则上，可以无碳生产钢铁。\n<br>\n政府已决定，从2030年开始，我国只能生产无CO₂的钢铁。然而，目前这种钢铁的价格比传统钢铁贵60-70%。\n<br>\n因此，碳中和钢在市场上无法与进口钢竞争。\n\n请就如何处理这个问题的以下政策措施进行投票：",
         "_back_zh": "Die globale Stahlproduktion macht etwa 8% der CO₂-Emissionen aus.\n<br>\nGrundsätzlich kann Stahl kohlenstofffrei produziert werden.\n<br>\nDie Regierung hat beschlossen, dass ab 2030 in unserem Land nur noch CO₂-freier Stahl produziert werden darf. Derzeit ist dieser Stahl jedoch 60-70% teurer als herkömmlicher Stahl.\n<br>\nDaher kann kohlenstoffneutraler Stahl auf dem Markt nicht mit importiertem Stahl konkurrieren.\n\nBitte stimmen Sie über die folgenden politischen Maßnahmen zur Bewältigung dieses Problems ab:",
         "_check_zh": "YES",
@@ -189,7 +185,9 @@
         "_check_ar": "YES",
         "_check_fr": "NO. The French translation is incorrect. The phrase \"l'acier dans notre pays ne devra être produit qu'à partir de CO₂\" translates to \"steel in our country should only be produced from CO₂\", which is not the same as the original German text. The correct translation should be \"l'acier dans notre pays ne devra être produit que de manière neutre en CO₂\".",
         "_check_es": "YES",
+        "sv": "Stålproduktion står för cirka 8% av CO₂-utsläppen globalt.\n<br>\nKoldioxidfri produktion av stål är i princip möjlig.\n<br>\nRegeringen har beslutat att från 2030 får stål i vårt land endast produceras CO₂-fritt. Detta är dock för närvarande 60-70 procent dyrare än konventionellt stål.\n<br>\nKoldioxidneutralt stål är därför inte konkurrenskraftigt på marknaden jämfört med importerat stål. \n\nVänligen rösta på följande politiska åtgärder om hur man ska hantera detta:",
         "_wo_sv": "Stålproduktion orsakar globalt cirka 8% av CO₂-utsläppen.\n<br>\nKoldioxidfri stålproduktion är i princip möjlig.\n<br>\nRegeringen har beslutat att från 2030 får stål i vårt land endast produceras CO₂-fritt. Detta är dock för närvarande 60-70 procent dyrare än konventionellt stål.\n<br>\nKoldioxidneutralt stål är därför inte konkurrenskraftigt på marknaden jämfört med importerat stål.\n\nVänligen rösta om följande politiska åtgärder om hur man ska hantera detta:",
+        "_check_sv": "YES",
         "_check_wo_sv": "YES"
     },
     "multipleChoice": false,
@@ -266,9 +264,6 @@
                 "sl": "Nobenih političnih ukrepov.",
                 "_back_sl": "Keine politischen Maßnahmen.",
                 "_check_sl": "YES",
-                "sv": "Inga politiska åtgärder.",
-                "_back_sv": "Keine politischen Maßnahmen.",
-                "_check_sv": "YES",
                 "zh": "没有政策措施。",
                 "_back_zh": "Es gibt keine politischen Maßnahmen.",
                 "_check_zh": "YES",
@@ -292,12 +287,14 @@
                 "_check_ar": "YES",
                 "_check_fr": "YES",
                 "_check_es": "YES",
-                "_wo_sv": "Inga politiska åtgärder.",
                 "_ll3_sv": "Inga politiska åtgärder.",
                 "_ll3_wo_sv": "Inga politiska åtgärder.",
-                "_check_wo_sv": "YES",
                 "_check_ll3_sv": "YES",
-                "_check_ll3_wo_sv": "YES"
+                "_check_ll3_wo_sv": "YES",
+                "sv": "Inga politiska åtgärder.",
+                "_wo_sv": "Inga politiska åtgärder.",
+                "_check_sv": "YES",
+                "_check_wo_sv": "YES"
             }
         },
         {
@@ -372,9 +369,6 @@
                 "sl": "Slovenski prevod: \"Država izravnava dodatne stroške ogljikovega jekla iz davčnih sredstev, dokler ni tržno (Ogljikovi pogodbi za razliko).\"",
                 "_back_sl": "Deutsche Übersetzung: \"Der Staat gleicht die zusätzlichen Kosten für Kohlenstoffstahl aus Steuermitteln aus, bis er marktfähig ist (Kohlenstoffvertrag für den Unterschied).\"",
                 "_check_sl": "NO\n\nThe Slovenian translation is not entirely accurate. The term \"kohlenstofffreien Stahl\" means \"carbon-free steel\", not \"carbon steel\" (\"ogljikovega jekla\"). Also, the phrase \"dokler ni tržno\" should be \"dokler ni tržno sposoben\" to fully convey the meaning of \"until it is marketable\". The correct translation should be:\n\n\"Slovenski prevod: \"Država izravnava dodatne stroške za jeklo brez ogljika iz davčnih sredstev, dokler ni tržno sposoben (Ogljikovi pogodbi za razliko).\"\"",
-                "sv": "Staten kompenserar för de extra kostnaderna för kolstål från skattemedel tills det är marknadsförbart (Carbon Contracts for Difference).",
-                "_back_sv": "Der Staat kompensiert die zusätzlichen Kosten für Kohlenstoffstahl aus Steuermitteln, bis er marktfähig ist (Carbon Contracts for Difference).",
-                "_check_sv": "NO. The Swedish translation is incorrect. The term \"kohlenstofffreien Stahl\" means \"carbon-free steel\", not \"coal steel\". A better translation would be: \"Staten kompenserar för de extra kostnaderna för kol-fritt stål från skattemedel tills det är marknadsförbart (Carbon Contracts for Difference).\"",
                 "zh": "政府通过税收抵消无碳钢的额外成本，直到它可以在市场上销售（碳差价合同）。",
                 "_back_zh": "Die Regierung deckt die zusätzlichen Kosten für kohlenstofffreien Stahl durch Steuern ab, bis er auf dem Markt verkauft werden kann (Kohlenstoffdifferenzverträge).",
                 "_check_zh": "YES",
@@ -398,12 +392,14 @@
                 "_check_ar": "YES",
                 "_check_fr": "YES",
                 "_check_es": "YES",
-                "_wo_sv": "Staten kompenserar för de extra kostnaderna för kol-fritt stål från skattemedel så länge tills det är marknadsförbart (Carbon Contracts for Difference).",
-                "_check_wo_sv": "YES",
                 "_ll3_sv": "Staten kompenserar de extra kostnaderna för koldioxidfri stål genom skatter så länge som den blir marknadsmässig (Kolombalkar för skillnaden).",
                 "_ll3_wo_sv": "Statens bidragsfonder täcker upp de ökade kostnaderna för koldioxidfritt stål från skattemedel så länge som det är marknadsmässigt (Kolonnkontrakter för skillnad).",
                 "_check_ll3_sv": "NO. The Swedish translation is not entirely correct. A better translation would be: \"Staten kompenserar för merkostnaderna för kolstål från skattemedel så länge det är marknadsmässigt (Carbon Contracts for Difference).\"",
-                "_check_ll3_wo_sv": "NO. The Swedish translation is not entirely correct. A better translation would be: \"Staten kompenserar för de ökade kostnaderna för kolneutral stål från skattemedel så länge det inte är marknadsmässigt (Karbonkontrakt för skillnad).\""
+                "_check_ll3_wo_sv": "NO. The Swedish translation is not entirely correct. A better translation would be: \"Staten kompenserar för de ökade kostnaderna för kolneutral stål från skattemedel så länge det inte är marknadsmässigt (Karbonkontrakt för skillnad).\"",
+                "sv": "Staten kompenserar för de extra kostnaderna för kolstål från skattemedel tills det är marknadsförbart (Carbon Contracts for Difference).",
+                "_wo_sv": "Staten kompenserar för de extra kostnaderna för kolstål från skattemedel så länge det är marknadsförbart (Carbon Contracts for Difference).",
+                "_check_wo_sv": "NO. \n\nThe original German text refers to \"kohlenstofffreien Stahl\" which means \"carbon-free steel,\" while the Swedish translation refers to \"kolstål,\" which means \"carbon steel.\" These are two different types of steel, and the translation changes the meaning significantly.\n\nA better translation would be: \"Staten kompenserar för de extra kostnaderna för kolfritt stål från skattemedel så länge det inte är marknadsförbart (Carbon Contracts for Difference).\"",
+                "_check_sv": "NO\n\nThe original German text refers to \"kohlenstofffreien Stahl,\" which means \"carbon-free steel.\" However, the Swedish translation refers to \"kolstål,\" which means \"carbon steel.\" These are two different types of steel, and the translation changes the meaning of the sentence.\n\nA better Swedish translation would be:\n\"Staten kompenserar för de extra kostnaderna för kolfritt stål från skattemedel tills det är marknadsförbart (Carbon Contracts for Difference).\""
             }
         },
         {
@@ -479,9 +475,6 @@
                 "sl": "Uvozne dajatve za konvencionalno proizvedeno jeklo (Mehanizem za prilagoditev ogljikove meje).",
                 "_back_sl": "Einfuhrzölle für konventionell hergestellten Stahl (Mechanismus zur Anpassung der Kohlengrenze).",
                 "_check_sl": "NO. The Slovenian translation is not completely accurate. The term \"Mehanizm za prilagoditev ogljikove meje\" translates to \"Mechanism for adjusting the carbon border\", which is not the same as \"Grenzausgleichsabgabe\" (border adjustment tax). A better translation would be: \"Uvozne dajatve za konvencionalno proizvedeno jeklo (davek za prilagoditev na meji).\"",
-                "sv": "Importtullar på konventionellt producerat stål (Koldioxidgränsjusteringsmekanism).",
-                "_back_sv": "Einfuhrzölle auf konventionell produzierten Stahl (Kohlenstoff-Grenzanpassungsmechanismus).",
-                "_check_sv": "NO. The Swedish translation is not accurate. The term \"Koldioxidgränsjusteringsmekanism\" refers to a carbon border adjustment mechanism, which is not the same as \"Grenzausgleichsabgabe\" (border adjustment tax) in the original German text. A better translation would be: \"Importtullar på konventionellt producerat stål (gränsjusteringsavgift).\"",
                 "zh": "对传统生产的钢材征收进口关税（碳边境调整机制）。",
                 "_back_zh": "Erhebung von Einfuhrzöllen auf traditionell hergestellten Stahl (Kohlenstoff-Grenzanpassungsmechanismus).",
                 "_check_zh": "NO. The Chinese translation is not completely accurate. The term \"Grenzausgleichsabgabe\" is translated as \"carbon border adjustment mechanism\" which is not the same. A better translation would be: \"对传统生产的钢材征收进口关税（边境平衡税）\".",
@@ -504,12 +497,14 @@
                 "_check_ar": "NO, the Arabic translation is not accurate. The term \"Grenzausgleichsabgabe\" is translated as \"border carbon adjustment mechanism\" which is not correct. A better translation would be: \"رسوم الاستيراد على الصلب المنتج تقليديًا (ضريبة التسوية الحدودية).\"",
                 "_check_fr": "NO. The French translation is not entirely accurate. The term \"Grenzausgleichsabgabe\" is translated as \"Mécanisme d'ajustement frontalier du carbone\" which refers to a carbon border adjustment mechanism. This is not the same as a general import duty. A better translation would be: \"Droits d'importation sur l'acier produit de manière conventionnelle (taxe d'ajustement aux frontières).\"",
                 "_check_es": "NO. The Spanish translation is not entirely accurate. The term \"Mecanismo de Ajuste Fronterizo de Carbono\" refers to a Carbon Border Adjustment Mechanism, which is not the same as \"Grenzausgleichsabgabe\" (border adjustment tax). A better translation would be: \"Derechos de importación para acero producido de manera convencional (Impuesto de ajuste fronterizo).\"",
-                "_wo_sv": "Införtullar för konventionellt producerat stål (gränsjusteringsavgift).",
                 "_ll3_sv": "Tullavgifter för konventionellt producerad stål (gränsjusteringsskatt).",
                 "_ll3_wo_sv": "Tullavgifter för konventionellt producerad stål (gränskompensationsavgift).",
-                "_check_wo_sv": "YES",
                 "_check_ll3_sv": "YES",
-                "_check_ll3_wo_sv": "YES"
+                "_check_ll3_wo_sv": "YES",
+                "sv": "Införtullar på konventionellt producerat stål (Koldioxidgränsjusteringsmekanism).",
+                "_wo_sv": "Införtullar för konventionellt producerat stål (gränsjusteringsavgift).",
+                "_check_sv": "NO. \n\nThe German text refers to \"Einfuhrzölle\" (import duties) for conventionally produced steel, with a specific mention of \"Grenzausgleichsabgabe\" (border adjustment tax). The Swedish translation, however, refers to \"Införtullar\" (import duties) on conventionally produced steel but translates \"Grenzausgleichsabgabe\" as \"Koldioxidgränsjusteringsmekanism\" (carbon border adjustment mechanism). \n\nThe term \"Koldioxidgränsjusteringsmekanism\" specifically refers to a mechanism related to carbon emissions, which is not explicitly mentioned in the German text. \n\nA better translation would be: \"Införtullar på konventionellt producerat stål (gränsjusteringsavgift).\"",
+                "_check_wo_sv": "YES"
             }
         }
     ]
