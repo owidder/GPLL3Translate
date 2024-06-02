@@ -57,6 +57,7 @@ INPUT_FILE = os.getenv("INPUT_FILE")
 RETRY_CHECK = (os.getenv("RETRY_CHECK", "0") == "1")
 TARGET_LANGUAGE = os.getenv("TARGET_LANGUAGE", "")
 SOURCE_LANGUAGE = os.getenv("SOURCE_LANGUAGE", "en")
+WITH_CHECKS_FOR_CERTIFIED_LANGUAGES = os.getenv("WITH_CHECKS_FOR_CERTIFIED_LANGUAGES", False)
 
 
 def create_td(text = "", diff: [str]=[], plusminus="+") -> str:
@@ -178,7 +179,7 @@ def create_table(input_file: str, translation_lines: [str], source: str, target:
             filter(lambda l: l != source and l != target, CERTIFIED_LANGUAGES),
             _headers
         )
-    )
+    ) if WITH_CHECKS_FOR_CERTIFIED_LANGUAGES else _headers
 
     env = Environment(loader=FileSystemLoader('./templates'))
     template = env.get_template('simple_table_small.html.j2')
@@ -350,18 +351,19 @@ async def crawl_json(data, source_language: str, target_language: str, current_t
                     check_ll3_wo_result = data[check_ll3_wo_property]
 
             certified_translation_checks = {}
-            for check_language in filter(lambda l: l != source_language and l != target_language, CERTIFIED_LANGUAGES):
-                if check_language in data:
-                    check_language_property = f"_check_{check_language}"
-                    if (not check_language_property in data) or (RETRY_CHECK and data[check_language_property].lower() != "yes"):
-                        check_language_result = await check_translation(
-                            source_language=source_language,
-                            target_language=check_language,
-                            source_text=data[source_language],
-                            target_text=data[check_language]
-                        )
-                        data[check_language_property] = check_language_result
-                    certified_translation_checks[check_language] = f"<span style = 'color: gray; font-weight: bold;'>{data[check_language]}</span><br><br><br>{data[check_language_property]}"
+            if WITH_CHECKS_FOR_CERTIFIED_LANGUAGES:
+                for check_language in filter(lambda l: l != source_language and l != target_language, CERTIFIED_LANGUAGES):
+                    if check_language in data:
+                        check_language_property = f"_check_{check_language}"
+                        if (not check_language_property in data) or (RETRY_CHECK and data[check_language_property].lower() != "yes"):
+                            check_language_result = await check_translation(
+                                source_language=source_language,
+                                target_language=check_language,
+                                source_text=data[source_language],
+                                target_text=data[check_language]
+                            )
+                            data[check_language_property] = check_language_result
+                        certified_translation_checks[check_language] = f"<span style = 'color: gray; font-weight: bold;'>{data[check_language]}</span><br><br><br>{data[check_language_property]}"
 
             table_lines.append({
                 "id": path,
