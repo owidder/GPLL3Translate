@@ -55,22 +55,10 @@
             {% for translation_line in translation_lines %}
                 <tr>
                     <td class="endtd source">{{ translation_line.source_text }}</td>
-                    {%  if translation_line.translation_w|length > 0 %}
-                    <td class="endtd source">{{ translation_line.translation_w }}</td>
-                    {%  else %}
-                    <td class="gpt4w">{{ translation_line.translation }}</td>
-                    {% endif %}
-                    <td class="endtd gpt4w">{{ translation_line.check }}</td>
                     <td class="gpt4wo">{{ translation_line.translation_wo }}</td>
                     <td class="endtd gpt4wo">{{ translation_line.check_wo }}</td>
-                    <td class="llama3">{{ translation_line.translation_ll3 }}</td>
-                    <td class="endtd llama3">{{ translation_line.check_ll3 }}</td>
-                    <td class="llama3wo">{{ translation_line.translation_ll3_wo }}</td>
-                    <td class="endtd llama3wo">{{ translation_line.check_ll3_wo }}</td>
                     <td class="geminiwo">{{ translation_line.translation_gemini_wo }}</td>
-                    {% for check in translation_line.certified_translation_checks.values()  %}
-                    <td>{{ check }}</td>
-                    {% endfor %}
+                    <td class="endtd geminiwo">{{ translation_line.check_gemini_wo }}</td>
                 </tr>
             {% endfor %}
         </tbody>

@@ -27,7 +27,9 @@
                     "_check_sv": "YES",
                     "_check_wo_sv": "YES",
                     "_check_ll3_sv": "YES",
-                    "_check_ll3_wo_sv": "YES"
+                    "_check_ll3_wo_sv": "YES",
+                    "_gemini_wo_sv": "Stora delar av Bremen översvämmade efter ovädret \n",
+                    "_check_gemini_wo_sv": "YES"
                 },
                 "body": {
                     "de": "<img width=250  src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"><br>Stundenlange Gewitter mit heftigen Regenfällen haben in der letzten Nacht die Stadt Bremen in Deutschland unter Wasser gesetzt.<br>Bei Polizei und Feuerwehr gingen Hunderte von Hilferufen wegen vollgelaufener Keller und umgestürzter Bäume ein.",
@@ -38,7 +40,9 @@
                     "sv": "<img width=250  src=https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg><br>Timmar av åskväder med kraftiga regnfall översvämmade staden Bremen i Tyskland förra natten. Polisen och brandkåren mottog hundratals samtal om hjälp på grund av översvämmade källare och omkullfallna träd.",
                     "_wo_sv": "<img width=250  src=https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg><br>Timslånga åskväder med kraftiga regnfall har under den senaste natten satt staden Bremen i Tyskland under vatten.<br>Polisen och brandkåren mottog hundratals nödsamtal på grund av översvämmade källare och omkullfallna träd.",
                     "_check_sv": "YES",
-                    "_check_wo_sv": "YES"
+                    "_check_wo_sv": "YES",
+                    "_gemini_wo_sv": "<img width=250  src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"><br>Timmar av åskväder med kraftiga regnfall översvämmade staden Bremen i Tyskland under natten.<br>Polisen och brandkåren fick hundratals samtal om källare som var fulla med vatten och omkullfallna träd. \n",
+                    "_check_gemini_wo_sv": "YES"
                 }
             }
         }
