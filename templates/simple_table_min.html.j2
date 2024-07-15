@@ -56,9 +56,11 @@
                 <tr>
                     <td class="endtd source">{{ translation_line.source_text }}</td>
                     <td class="gpt4wo">{{ translation_line.translation_wo }}</td>
-                    <td class="endtd gpt4wo">{{ translation_line.check_wo }}</td>
+                    <td class="gpt4wo">{{ translation_line.check_wo }}</td>
+                    <td class="endtd gpt4wo">{{ translation_line.check_wo_via_gemini }}</td>
                     <td class="geminiwo">{{ translation_line.translation_gemini_wo }}</td>
-                    <td class="endtd geminiwo">{{ translation_line.check_gemini_wo }}</td>
+                    <td class="geminiwo">{{ translation_line.check_gemini_wo }}</td>
+                    <td class="endtd geminiwo">{{ translation_line.check_gemini_wo_via_gemini }}</td>
                 </tr>
             {% endfor %}
         </tbody>

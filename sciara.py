@@ -132,7 +132,7 @@ def ask_gemini(system: str, user: str, model: str):
     return response.text
 
 
-async def get_translation(source_text: str, source_language: str, target_language: str, translations: [(str, str)], use_chatGPT=True, llm="gpt"):
+async def get_translation(source_text: str, source_language: str, target_language: str, translations: [(str, str)], llm="gpt"):
     system = (
         f"You are an expert in all languages and climate change. In the following you get an original {LANGUAGES[source_language]} text {'and several translations into other languages' if len(translations) > 0 else ''}."
         f"Translate the original {LANGUAGES[source_language]} text into {LANGUAGES[target_language]}. Ensure that the translated text retains the original meaning, tone, and intent."
@@ -157,7 +157,7 @@ async def get_translation(source_text: str, source_language: str, target_languag
     return answer
 
 
-async def check_translation(source_text: str, source_language: str, target_text: str, target_language: str):
+async def check_translation(source_text: str, source_language: str, target_text: str, target_language: str, llm="gpt"):
     system = (
         f"You are an expert in all languages and climate change. In the following you get an original {LANGUAGES[source_language]} text and a translation in {LANGUAGES[target_language]}."
         "Please decide whether both texts have the same meaning, tone and intent. If so, just answer with 'YES', if not, explain the difference and find a better translation."
@@ -165,26 +165,13 @@ async def check_translation(source_text: str, source_language: str, target_text:
     user_lines = [f"Original {LANGUAGES[source_language]}: \"{source_text}\"", f"{LANGUAGES[target_language]} translation: \"{target_text}\""]
     user = "\n".join(user_lines)
     print(f"check_translation for '{source_text}' -> '{target_text}'")
-    answer = await ask_chatgpt(system, user, model="gpt-4o")
-    print(f"check_translation: answer={answer}")
-    return answer
-
-
-async def check_translation_via_gemini(source_text: str, source_language: str, target_text: str, target_language: str):
-    system = (
-        f"You are an expert in all languages and climate change. In the following you get an original {LANGUAGES[source_language]} text and a translation in {LANGUAGES[target_language]}."
-        "Please decide whether both texts have the same meaning, tone and intent. If so, just answer with 'YES', if not, explain the difference and find a better translation."
-    )
-    user_lines = [f"Original {LANGUAGES[source_language]}: \"{source_text}\"", f"{LANGUAGES[target_language]} translation: \"{target_text}\""]
-    user = "\n".join(user_lines)
-    print(f"check_translation for '{source_text}' -> '{target_text}'")
-    answer = await ask_chatgpt(system, user, model="gpt-4o")
-    print(f"check_translation: answer={answer}")
-
-    model = genai.GenerativeModel(model_name=model, system_instruction=system)
-    response = model.generate_content(user)
-    return response.text
-
+    if llm == "gpt":
+        answer = await ask_chatgpt(system, user, model="gpt-4o")
+    elif llm == "gemini":
+        answer = ask_gemini(system, user, model='gemini-1.5-flash')
+    else:
+        raise Exception(f"unknown llm: {llm}")
+    print(f"check_translation with {llm}: answer={answer}")
     return answer
 
 
@@ -197,8 +184,10 @@ def create_table(input_file: str, translation_lines: [str], source: str, target:
         "source text",
         "GPT4",
         "check (GPT4 via GPT4)",
-        "gemini",
-        "check (Gemini via GPT4)"
+        "check (GPT4 via Gemini)",
+        "Gemini",
+        "check (Gemini via GPT4)",
+        "check (Gemini via Gemini)",
     ]
     headers = list(
         reduce(
@@ -379,6 +368,19 @@ async def crawl_json(data, source_language: str, target_language: str, current_t
             else:
                 check_wo_result = data[check_wo_property]
 
+            check_wo_via_gemini_property = f"_check_wo_via_gemini_{target_language}"
+            if REDO_CHATGPT or (len(filtered_translations) > 0 and ((not check_wo_via_gemini_property in data) or (RETRY_CHECK and data[check_wo_via_gemini_property].lower() != "yes"))):
+                check_wo_via_gemini_result = await check_translation(
+                    source_language=source_language,
+                    target_language=target_language,
+                    source_text=current_translations[source_language],
+                    target_text=target_translation_wo,
+                    llm='gemini'
+                )
+                data[check_wo_via_gemini_property] = check_wo_via_gemini_result
+            else:
+                check_wo_via_gemini_result = data[check_wo_via_gemini_property]
+
             check_gemini_wo_result = ""
             if len(target_translation_gemini_wo) > 0:
                 check_gemini_wo_property = f"_check_gemini_wo_{target_language}"
@@ -392,6 +394,21 @@ async def crawl_json(data, source_language: str, target_language: str, current_t
                     data[check_gemini_wo_property] = check_gemini_wo_result
                 else:
                     check_gemini_wo_result = data[check_gemini_wo_property]
+
+            check_gemini_wo_via_gemini_result = ""
+            if len(target_translation_gemini_wo) > 0:
+                check_gemini_wo_via_gemini_property = f"_check_gemini_wo_via_gemini_{target_language}"
+                if len(filtered_translations) > 0 and ((not check_gemini_wo_via_gemini_property in data) or (RETRY_CHECK and data[check_gemini_wo_via_gemini_property].lower() != "yes")):
+                    check_gemini_wo_via_gemini_result = await check_translation(
+                        source_language=source_language,
+                        target_language=target_language,
+                        source_text=current_translations[source_language],
+                        target_text=target_translation_gemini_wo,
+                        llm='gemini'
+                    )
+                    data[check_gemini_wo_via_gemini_property] = check_gemini_wo_via_gemini_result
+                else:
+                    check_gemini_wo_via_gemini_result = data[check_gemini_wo_via_gemini_property]
 
             # check_ll3_result = ""
             # if len(target_translation_ll3) > 0:
@@ -449,7 +466,9 @@ async def crawl_json(data, source_language: str, target_language: str, current_t
                 "official": official,
                 # "check": check_result,
                 "check_wo": check_wo_result,
+                "check_wo_via_gemini": check_wo_via_gemini_result,
                 "check_gemini_wo": check_gemini_wo_result,
+                "check_gemini_wo_via_gemini": check_gemini_wo_via_gemini_result,
                 # "check_ll3": check_ll3_result,
                 # "check_ll3_wo": check_ll3_wo_result,
                 # "certified_translation_checks": certified_translation_checks,
