@@ -99,7 +99,11 @@
         "sv": "Omröstning om övergången till CO₂-fritt stål",
         "_wo_sv": "Omröstning om övergången till CO₂-fritt stål",
         "_check_sv": "YES",
-        "_check_wo_sv": "YES"
+        "_check_wo_sv": "YES",
+        "_gemini_wo_sv": "Omröstning om övergången till koldioxidfri stål \n",
+        "_check_wo_via_gemini_sv": "YES \n",
+        "_check_gemini_wo_sv": "YES",
+        "_check_gemini_wo_via_gemini_sv": "YES \n"
     },
     "description": {
         "de": "Die Stahlerzeugung verursacht weltweit ca. 8% der CO₂-Emissionen.\n<br>\nDie kohlenstofffreie Erzeugung von Stahl ist grundsätzlich möglich.\n<br>\nDie Regierung hat beschlossen, dass ab 2030 Stahl in unserem Land nur noch CO₂-frei produziert werden darf. Dieser ist aktuell jedoch 60–70 Prozent teurer als der konventionelle Stahl.\n<br>\nKohlenstoffneutraler Stahl ist damit auf dem Markt gegenüber importiertem Stahl nicht konkurrenzfähig. \n\nBitte stimmen Sie über die folgenden politischen Maßnahmen ab, wie damit umzugehen ist:",
@@ -188,7 +192,11 @@
         "sv": "Stålproduktion står för cirka 8% av CO₂-utsläppen globalt.\n<br>\nKoldioxidfri produktion av stål är i princip möjlig.\n<br>\nRegeringen har beslutat att från 2030 får stål i vårt land endast produceras CO₂-fritt. Detta är dock för närvarande 60-70 procent dyrare än konventionellt stål.\n<br>\nKoldioxidneutralt stål är därför inte konkurrenskraftigt på marknaden jämfört med importerat stål. \n\nVänligen rösta på följande politiska åtgärder om hur man ska hantera detta:",
         "_wo_sv": "Stålproduktion orsakar globalt cirka 8% av CO₂-utsläppen.\n<br>\nKoldioxidfri stålproduktion är i princip möjlig.\n<br>\nRegeringen har beslutat att från 2030 får stål i vårt land endast produceras CO₂-fritt. Detta är dock för närvarande 60-70 procent dyrare än konventionellt stål.\n<br>\nKoldioxidneutralt stål är därför inte konkurrenskraftigt på marknaden jämfört med importerat stål.\n\nVänligen rösta om följande politiska åtgärder om hur man ska hantera detta:",
         "_check_sv": "YES",
-        "_check_wo_sv": "YES"
+        "_check_wo_sv": "YES",
+        "_gemini_wo_sv": "Stålproduktion orsakar cirka 8% av de globala CO₂-utsläppen.\n<br>\nKoldioxidfri stålproduktion är i princip möjlig.\n<br>\nRegeringen har beslutat att stål i vårt land endast får produceras koldioxidfritt från och med 2030. Detta är för närvarande dock 60–70 procent dyrare än konventionellt stål.\n<br>\nKoldioxidneutralt stål är därför inte konkurrenskraftigt på marknaden mot importerat stål.\n\nRösta om följande politiska åtgärder för att hantera detta: \n",
+        "_check_wo_via_gemini_sv": "YES \n",
+        "_check_gemini_wo_sv": "YES",
+        "_check_gemini_wo_via_gemini_sv": "YES \n"
     },
     "multipleChoice": false,
     "choices": [
@@ -294,7 +302,11 @@
                 "sv": "Inga politiska åtgärder.",
                 "_wo_sv": "Inga politiska åtgärder.",
                 "_check_sv": "YES",
-                "_check_wo_sv": "YES"
+                "_check_wo_sv": "YES",
+                "_gemini_wo_sv": "Inga politiska åtgärder. \n",
+                "_check_wo_via_gemini_sv": "YES \n",
+                "_check_gemini_wo_sv": "YES",
+                "_check_gemini_wo_via_gemini_sv": "YES \n"
             }
         },
         {
@@ -399,7 +411,11 @@
                 "sv": "Staten kompenserar för de extra kostnaderna för kolstål från skattemedel tills det är marknadsförbart (Carbon Contracts for Difference).",
                 "_wo_sv": "Staten kompenserar för de extra kostnaderna för kolstål från skattemedel så länge det är marknadsförbart (Carbon Contracts for Difference).",
                 "_check_wo_sv": "NO. \n\nThe original German text refers to \"kohlenstofffreien Stahl\" which means \"carbon-free steel,\" while the Swedish translation refers to \"kolstål,\" which means \"carbon steel.\" These are two different types of steel, and the translation changes the meaning significantly.\n\nA better translation would be: \"Staten kompenserar för de extra kostnaderna för kolfritt stål från skattemedel så länge det inte är marknadsförbart (Carbon Contracts for Difference).\"",
-                "_check_sv": "NO\n\nThe original German text refers to \"kohlenstofffreien Stahl,\" which means \"carbon-free steel.\" However, the Swedish translation refers to \"kolstål,\" which means \"carbon steel.\" These are two different types of steel, and the translation changes the meaning of the sentence.\n\nA better Swedish translation would be:\n\"Staten kompenserar för de extra kostnaderna för kolfritt stål från skattemedel tills det är marknadsförbart (Carbon Contracts for Difference).\""
+                "_check_sv": "NO\n\nThe original German text refers to \"kohlenstofffreien Stahl,\" which means \"carbon-free steel.\" However, the Swedish translation refers to \"kolstål,\" which means \"carbon steel.\" These are two different types of steel, and the translation changes the meaning of the sentence.\n\nA better Swedish translation would be:\n\"Staten kompenserar för de extra kostnaderna för kolfritt stål från skattemedel tills det är marknadsförbart (Carbon Contracts for Difference).\"",
+                "_gemini_wo_sv": "Staten subventionerar de ökade kostnaderna för koldioxidfri stål med skattemedel tills det blir marknadsmässigt (Carbon Contracts for Difference). \n",
+                "_check_wo_via_gemini_sv": "NO.\n\nThe Swedish translation is not accurate. The main issue is the use of \"kolstål\" (carbon steel) instead of \"koldioxidfritt stål\" (carbon-free steel). This changes the meaning of the sentence entirely. \n\nHere's a better translation:\n\n**\"Staten täcker de extra kostnaderna för koldioxidfritt stål från skattemedel så länge det inte är marknadsförbart (Carbon Contracts for Difference).\"**\n\nThis translation accurately conveys the original meaning: that the state will subsidize carbon-free steel until it becomes commercially viable.\n\nHere's a breakdown of the differences:\n\n* **\"kohlenstofffreien Stahl\"** (German) translates to **\"koldioxidfritt stål\"** (Swedish), not \"kolstål\".\n* **\"so lange er marktfähig ist\"** (German) translates to **\"så länge det inte är marknadsförbart\"** (Swedish). This is a literal translation, but the Swedish phrase is not idiomatic. A better option might be  **\"så länge det inte är kommersiellt hållbart\"** (until it is commercially sustainable).\n\nThe tone of both texts is similar,  formal and informative. The intent is to inform about a government policy concerning the financial support of carbon-free steel production. \n",
+                "_check_gemini_wo_sv": "YES",
+                "_check_gemini_wo_via_gemini_sv": "YES \n"
             }
         },
         {
@@ -504,7 +520,11 @@
                 "sv": "Införtullar på konventionellt producerat stål (Koldioxidgränsjusteringsmekanism).",
                 "_wo_sv": "Införtullar för konventionellt producerat stål (gränsjusteringsavgift).",
                 "_check_sv": "NO. \n\nThe German text refers to \"Einfuhrzölle\" (import duties) for conventionally produced steel, with a specific mention of \"Grenzausgleichsabgabe\" (border adjustment tax). The Swedish translation, however, refers to \"Införtullar\" (import duties) on conventionally produced steel but translates \"Grenzausgleichsabgabe\" as \"Koldioxidgränsjusteringsmekanism\" (carbon border adjustment mechanism). \n\nThe term \"Koldioxidgränsjusteringsmekanism\" specifically refers to a mechanism related to carbon emissions, which is not explicitly mentioned in the German text. \n\nA better translation would be: \"Införtullar på konventionellt producerat stål (gränsjusteringsavgift).\"",
-                "_check_wo_sv": "YES"
+                "_check_wo_sv": "YES",
+                "_gemini_wo_sv": "Importtullar på konventionellt producerat stål (gränsutjämningsavgift). \n",
+                "_check_wo_via_gemini_sv": "YES \n",
+                "_check_gemini_wo_sv": "YES",
+                "_check_gemini_wo_via_gemini_sv": "YES \n"
             }
         }
     ]

@@ -15,7 +15,11 @@
         "_check_ll3_wo_sv": "NO. The Swedish translation is not entirely correct. A better translation would be: \"Omröstning om ett förbud mot förbränningsmotorer i personbilar\". The original German text refers to a \"vote\" or \"poll\" (Abstimmung), not a \"decision\" (Beslutande).",
         "_check_en": "YES",
         "_check_ar": "YES",
-        "_check_fr": "NO. The French translation is not accurate. It is more of a call to action (\"Vote for the ban...\") rather than a neutral statement about a vote taking place. A better translation would be: \"Vote sur l'interdiction du moteur à combustion dans les voitures particulières\"."
+        "_check_fr": "NO. The French translation is not accurate. It is more of a call to action (\"Vote for the ban...\") rather than a neutral statement about a vote taking place. A better translation would be: \"Vote sur l'interdiction du moteur à combustion dans les voitures particulières\".",
+        "_gemini_wo_sv": "Omröstning om förbud mot förbränningsmotorer i personbilar \n",
+        "_check_wo_via_gemini_sv": "YES \n",
+        "_check_gemini_wo_sv": "YES",
+        "_check_gemini_wo_via_gemini_sv": "YES \n"
     },
     "description": {
         "de": "Eine wesentliche Quelle für Treibhausgasemissionen ist mit 20% der Verkehr durch das Verbrennen fossiler Treibstoffe wie Benzin, Diesel und Gas.\n\nEin Verbot von PKW mit Verbrennungsmotoren, die ca. 60% Anteil an den Emissionen des Verkehrssektors haben, würde die Emissionen bereits vor Inkrafttreten erheblich reduzieren, weil alle Autohersteller ihre Flotte schon vorher schrittweise umstellen müssten.\n\n",
@@ -28,7 +32,11 @@
         "_check_wo_sv": "YES",
         "_check_en": "YES",
         "_check_ar": "YES",
-        "_check_fr": "YES"
+        "_check_fr": "YES",
+        "_gemini_wo_sv": "En viktig källa till växthusgasutsläpp är med 20 % trafiken genom förbränning av fossila bränslen som bensin, diesel och gas. \n\nEtt förbud mot personbilar med förbränningsmotorer, som står för cirka 60 % av utsläppen från transportsektorn, skulle minska utsläppen avsevärt redan före ikraftträdande, eftersom alla biltillverkare skulle behöva gradvis ställa om sina flottor i förväg. \n",
+        "_check_wo_via_gemini_sv": "YES \n",
+        "_check_gemini_wo_sv": "YES",
+        "_check_gemini_wo_via_gemini_sv": "YES \n"
     },
     "multipleChoice": false,
     "choices": [
@@ -50,7 +58,11 @@
                 "_check_ll3_wo_sv": "YES",
                 "_check_en": "YES",
                 "_check_ar": "YES",
-                "_check_fr": "YES"
+                "_check_fr": "YES",
+                "_gemini_wo_sv": "Inget förbud \n",
+                "_check_wo_via_gemini_sv": "YES \n",
+                "_check_gemini_wo_sv": "YES",
+                "_check_gemini_wo_via_gemini_sv": "YES \n"
             }
         },
         {
@@ -71,7 +83,11 @@
                 "_check_ll3_wo_sv": "YES",
                 "_check_en": "YES",
                 "_check_ar": "YES",
-                "_check_fr": "YES"
+                "_check_fr": "YES",
+                "_gemini_wo_sv": "Förbud från och med 2025 \n",
+                "_check_wo_via_gemini_sv": "YES \n",
+                "_check_gemini_wo_sv": "YES",
+                "_check_gemini_wo_via_gemini_sv": "YES \n"
             }
         },
         {
@@ -92,7 +108,11 @@
                 "_check_ll3_wo_sv": "YES",
                 "_check_en": "YES",
                 "_check_ar": "YES",
-                "_check_fr": "YES"
+                "_check_fr": "YES",
+                "_gemini_wo_sv": "Förbud från och med 2030 \n",
+                "_check_wo_via_gemini_sv": "YES \n",
+                "_check_gemini_wo_sv": "YES",
+                "_check_gemini_wo_via_gemini_sv": "YES \n"
             }
         },
         {
@@ -113,7 +133,11 @@
                 "_check_ll3_wo_sv": "YES",
                 "_check_en": "YES",
                 "_check_ar": "YES",
-                "_check_fr": "YES"
+                "_check_fr": "YES",
+                "_gemini_wo_sv": "Förbud från och med 2035 \n",
+                "_check_wo_via_gemini_sv": "YES \n",
+                "_check_gemini_wo_sv": "YES",
+                "_check_gemini_wo_via_gemini_sv": "YES \n"
             }
         },
         {
@@ -134,7 +158,11 @@
                 "_check_ll3_wo_sv": "YES",
                 "_check_en": "YES",
                 "_check_ar": "YES",
-                "_check_fr": "YES"
+                "_check_fr": "YES",
+                "_gemini_wo_sv": "Förbud från och med 2040 \n",
+                "_check_wo_via_gemini_sv": "YES \n",
+                "_check_gemini_wo_sv": "YES",
+                "_check_gemini_wo_via_gemini_sv": "YES \n"
             }
         },
         {
@@ -155,7 +183,11 @@
                 "_check_ll3_wo_sv": "YES",
                 "_check_en": "YES",
                 "_check_ar": "YES",
-                "_check_fr": "YES"
+                "_check_fr": "YES",
+                "_gemini_wo_sv": "Förbud från 2045 \n",
+                "_check_wo_via_gemini_sv": "YES \n",
+                "_check_gemini_wo_sv": "YES",
+                "_check_gemini_wo_via_gemini_sv": "YES \n"
             }
         }
     ]

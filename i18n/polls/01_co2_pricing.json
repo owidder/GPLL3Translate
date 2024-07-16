@@ -77,7 +77,13 @@
         "_check_sv": "YES",
         "zh": "对CO₂价格的投票",
         "_back_zh": "Die Abstimmung über den CO₂-Preis",
-        "_check_zh": "YES"
+        "_check_zh": "YES",
+        "_wo_sv": "Omröstning om CO₂-priset",
+        "_gemini_wo_sv": "Omröstning om CO₂-priset \n",
+        "_check_wo_sv": "YES",
+        "_check_wo_via_gemini_sv": "YES \n",
+        "_check_gemini_wo_sv": "YES",
+        "_check_gemini_wo_via_gemini_sv": "YES \n"
     },
     "description": {
         "de": "Bitte stimmen Sie über die Entwicklung der CO₂-Steuer ab.\n<br>\nDie CO₂-Steuer wird auf die fossilen Brennstoffe Kohle, Öl und Gas erhoben, abhängig von ihrem Kohlenstoffgehalt.\n<br>\nDiese Steuer wirkt sich auf die Preise aller Waren aus, die entweder direkt oder indirekt fossile Brennstoffe verwenden oder für ihre Herstellung fossile Brennstoffe benötigen.\n<br>\nSie soll einen Anreiz setzen, Energie zu sparen und Waren mit geringen CO₂-Emissionen herzustellen.",
@@ -156,7 +162,13 @@
         "_check_sv": "YES",
         "zh": "请对CO₂税的发展进行投票。\n\nCO₂税是根据煤炭、石油和天然气的碳含量对化石燃料征收的。\n这种税会影响所有直接或间接使用化石燃料，或者需要化石燃料来生产的商品的价格。\n它旨在提供激励，节省能源并生产低CO₂排放的商品。",
         "_back_zh": "Bitte stimmen Sie über die Entwicklung der CO₂-Steuer ab.\n\nDie CO₂-Steuer wird auf der Grundlage des Kohlenstoffgehalts von Kohle, Öl und Erdgas auf fossile Brennstoffe erhoben.\nDiese Steuer beeinflusst die Preise aller Waren, die direkt oder indirekt fossile Brennstoffe verwenden oder deren Produktion fossile Brennstoffe erfordert.\nSie zielt darauf ab, Anreize zu schaffen, Energie zu sparen und Waren mit geringen CO₂-Emissionen zu produzieren.",
-        "_check_zh": "YES"
+        "_check_zh": "YES",
+        "_wo_sv": "Vänligen rösta om utvecklingen av CO₂-skatten.\n<br>\nCO₂-skatten tas ut på de fossila bränslena kol, olja och gas, beroende på deras kolhalt.\n<br>\nDenna skatt påverkar priserna på alla varor som antingen direkt eller indirekt använder fossila bränslen eller behöver fossila bränslen för deras tillverkning.\n<br>\nDen ska ge ett incitament att spara energi och producera varor med låga CO₂-utsläpp.",
+        "_gemini_wo_sv": "Vänligen rösta om utvecklingen av CO₂-skatten. \n<br>\nCO₂-skatten läggs på de fossila bränslena kol, olja och gas, beroende på deras koldioxidhalt. \n<br>\nDenna skatt påverkar priset på alla varor som antingen direkt eller indirekt använder fossila bränslen eller som kräver fossila bränslen för sin tillverkning. \n<br>\nSyftet är att skapa ett incitament för att spara energi och producera varor med låga CO₂-utsläpp. \n",
+        "_check_wo_sv": "YES",
+        "_check_wo_via_gemini_sv": "YES\n",
+        "_check_gemini_wo_sv": "YES",
+        "_check_gemini_wo_via_gemini_sv": "YES \n"
     },
     "multipleChoice": false,
     "choices": [
@@ -240,7 +252,13 @@
                 "_check_sv": "YES",
                 "zh": "每吨增加25€",
                 "_back_zh": "Jede Tonne erhöht sich um 25€",
-                "_check_zh": "YES"
+                "_check_zh": "YES",
+                "_wo_sv": "Höj med 25€ per ton",
+                "_gemini_wo_sv": "Öka med 25€ per ton \n",
+                "_check_wo_sv": "YES",
+                "_check_wo_via_gemini_sv": "YES \n",
+                "_check_gemini_wo_sv": "YES",
+                "_check_gemini_wo_via_gemini_sv": "YES \n"
             }
         },
         {
@@ -323,7 +341,13 @@
                 "_check_sv": "YES",
                 "zh": "保持不变",
                 "_back_zh": "Unverändert bleiben",
-                "_check_zh": "YES"
+                "_check_zh": "YES",
+                "_wo_sv": "Lämna oförändrad",
+                "_gemini_wo_sv": "Lämna oförändrat \n",
+                "_check_wo_sv": "YES",
+                "_check_wo_via_gemini_sv": "YES \n",
+                "_check_gemini_wo_sv": "YES",
+                "_check_gemini_wo_via_gemini_sv": "YES \n"
             }
         },
         {
@@ -406,7 +430,13 @@
                 "_check_sv": "NO, the numbers in the texts are different. The correct Swedish translation should be \"Minska med 25€ per ton\".",
                 "zh": "每吨减少25€",
                 "_back_zh": "Jede Tonne reduziert um 25€",
-                "_check_zh": "YES"
+                "_check_zh": "YES",
+                "_wo_sv": "Minska med 25 € per ton",
+                "_gemini_wo_sv": "Sänka med 25€ per ton \n",
+                "_check_wo_sv": "YES",
+                "_check_wo_via_gemini_sv": "YES \n",
+                "_check_gemini_wo_sv": "YES",
+                "_check_gemini_wo_via_gemini_sv": "YES \n"
             }
         },
         {
@@ -489,7 +519,13 @@
                 "_check_sv": "NO. The Swedish translation \"Avhållsamhet\" means \"abstinence\" in English, which is not the correct translation for the German word \"Enthaltung\" which means \"abstention\". A better Swedish translation would be \"Avståndstagande\".",
                 "zh": "弃权",
                 "_back_zh": "Aufgeben",
-                "_check_zh": "YES"
+                "_check_zh": "YES",
+                "_wo_sv": "Avhållsamhet",
+                "_gemini_wo_sv": "Avhållsamhet \n",
+                "_check_wo_sv": "No, the translation is not accurate. \n\nThe German word \"Enthaltung\" translates to \"abstention\" in English, which refers to the act of refraining from voting or making a decision. \n\nThe Swedish word \"Avhållsamhet\" translates to \"abstinence\" in English, which generally refers to the act of refraining from indulging in certain activities, often related to alcohol, drugs, or sexual activity.\n\nA better Swedish translation for \"Enthaltung\" would be \"Avstående\" or \"Nedlagd röst\" (if referring to a vote).",
+                "_check_wo_via_gemini_sv": "YES \n",
+                "_check_gemini_wo_sv": "NO. \n\nThe German word \"Enthaltung\" translates to \"abstention\" in English, which refers to the act of refraining from voting or making a decision. The Swedish word \"Avhållsamhet\" translates to \"abstinence\" in English, which generally refers to the act of refraining from indulging in certain activities, often related to consumption or behavior, such as alcohol or sex.\n\nA better Swedish translation for \"Enthaltung\" would be \"Avstående\" or \"Nedlagd röst\".",
+                "_check_gemini_wo_via_gemini_sv": "YES \n"
             }
         }
     ]

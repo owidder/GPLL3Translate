@@ -223,16 +223,19 @@ def create_diff_html(target: str, source: str, plusminus="+") -> str:
     pasrsed_target = BeautifulSoup(source, "html.parser")
     source_nodes = list(parsed_source.descendants)
     target_nodes = list(pasrsed_target.descendants)
-    transformedNodes = []
-    for i in range(len(source_nodes)):
-        source_node = source_nodes[i]
-        target_node = target_nodes[i]
-        if source_node.name is None and target_node.name is None:
-            transformedNode = create_diff_text(target=str(target_node), source=str(source_node), plusminus=plusminus)
-        else:
-            transformedNode = str(source_node)
-        transformedNodes.append(transformedNode)
-    return " ".join(transformedNodes)
+    if len(source_nodes) == len(target_nodes):
+        transformedNodes = []
+        for i in range(len(source_nodes)):
+            source_node = source_nodes[i]
+            target_node = target_nodes[i]
+            if source_node.name is None and target_node.name is None:
+                transformedNode = create_diff_text(target=str(target_node), source=str(source_node), plusminus=plusminus)
+            else:
+                transformedNode = str(source_node)
+            transformedNodes.append(transformedNode)
+        return " ".join(transformedNodes)
+    else:
+        return create_diff_text(target=target, source=source, plusminus=plusminus)
 
 
 async def crawl_json(data, source_language: str, target_language: str, current_translations: dict, table_lines: list, path="", official=""):
