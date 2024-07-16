@@ -99,7 +99,9 @@
         "_gemini_wo_sv": "Omröstning om en generell hastighetsbegränsning på motorvägar \n",
         "_check_wo_via_gemini_sv": "YES \n",
         "_check_gemini_wo_sv": "YES",
-        "_check_gemini_wo_via_gemini_sv": "YES\n"
+        "_check_gemini_wo_via_gemini_sv": "YES\n",
+        "_compare_via_gemini_sv": "TRANSLATION 2. Translation 2 is more accurate because it captures the sense of a general speed limit across all motorways, whereas translation 1 implies a single, unified speed limit for the entire motorway network. \n",
+        "_compare_via_gpt_sv": "EQUAL\n\nBoth translations accurately convey the meaning of the original German text, with slight variations in wording that do not affect the overall accuracy."
     },
     "description": {
         "ar": "يزداد مقاومة الهواء للمركبة مع تربيع السرعة. وبناءً على ذلك، يزداد حصة استهلاك الوقود بسبب مقاومة الهواء.\n\nتقدر الخبراء أن تحديد حد السرعة المسموح به الأقصى على الطرق السريعة سيؤدي إلى الحد من الانبعاثات على النحو التالي:\n\n130 كم/ساعة: 1.9 مليون طن من ثاني أكسيد الكربون\n120 كم/ساعة: 2.6 مليون طن من ثاني أكسيد الكربون\n100 كم/ساعة: 5.4 مليون طن من ثاني أكسيد الكربون.\n\nيقول المؤيدون: حد السرعة العام لا يكلف شيئًا تقريبًا، ويؤدي على الفور إلى التوفير المذكور وزيادة تدفق المرور وسلامة الطريق.\n\nيقول النقاد: يشعر العديد من السائقين الألمان بأنهم يتعرضون للمضايقة ويخشون أنهم لن يكونوا قادرين على الوصول إلى وجهاتهم بنفس السرعة التي كانوا يستخدمونها في السابق. سيتم القضاء على حجة صناعة السيارات الألمانية لصالح المركبات عالية القوة التي تحقق من خلالها أعلى أرباحها.\n\nفي كل الدول الأوروبية الأخرى، تم تطبيق حدود سرعة تتراوح بين 100 و 130 كم/ساعة باستمرار منذ عقود، وفي بولندا 140 كم/ساعة على الطرق السريعة.",
@@ -196,7 +198,9 @@
         "_gemini_wo_sv": "Luftmotståndet för ett fordon ökar med kvadraten på hastigheten. Därmed ökar också bränsleförbrukningen som orsakas av luftmotstånd.\n\nExperter uppskattar att en begränsning av den tillåtna högsta hastigheten på motorvägar skulle ge följande utsläppsminskningar:\n\n130 km/h: 1,9 miljoner ton CO₂\n120 km/h: 2,6 miljoner ton CO₂\n100 km/h: 5,4 miljoner ton CO₂\n\nFörespråkarna säger: En generell hastighetsbegränsning kostar praktiskt taget ingenting, leder omedelbart till de nämnda besparingarna och ökar trafikflödet och trafiksäkerheten.\n\nKritikerna säger: Många tyska bilister känner sig begränsade och är oroliga för att de inte längre kan nå sina resmål lika snabbt som tidigare.\nFör den tyska bilindustrin skulle ett argument för de högeffektsfordon som de tjänar mest pengar på försvinna.\n\nI praktiskt taget alla andra europeiska länder har det i decennier genomgående gällt hastighetsbegränsningar mellan 100 och 130 km/h, i Polen 140 km/h på motorvägar.\n\nVad är din åsikt? \n",
         "_check_wo_via_gemini_sv": "YES\n",
         "_check_gemini_wo_sv": "YES",
-        "_check_gemini_wo_via_gemini_sv": "YES \n"
+        "_check_gemini_wo_via_gemini_sv": "YES \n",
+        "_compare_via_gemini_sv": "EQUAL. Both translations are accurate and follow the original German text closely. \n",
+        "_compare_via_gpt_sv": "TRANSLATION 1\n\nTranslation 1 is more accurate because it correctly translates \"luftwiderstandsbedingte Anteil des Verbrauchs\" as \"den del av förbrukningen som beror på luftmotståndet\" and \"gegängelt\" as \"trakasserade,\" which are closer to the original German meanings."
     },
     "multipleChoice": false,
     "choices": [
@@ -302,7 +306,9 @@
                 "_gemini_wo_sv": "Hastighetsbegränsning till 100 km/h \n",
                 "_check_wo_via_gemini_sv": "YES \n",
                 "_check_gemini_wo_sv": "YES",
-                "_check_gemini_wo_via_gemini_sv": "YES \n"
+                "_check_gemini_wo_via_gemini_sv": "YES \n",
+                "_compare_via_gemini_sv": "TRANSLATION 2.  Translation 2 is more accurate because it uses the more common Swedish term for speed limit, \"hastighetsbegränsning\". \n",
+                "_compare_via_gpt_sv": "TRANSLATION 1\n\nExplanation: \"Begränsning till 100km/h\" is a more direct and accurate translation of \"Begrenzung auf 100km/h\" without adding extra words."
             }
         },
         {
@@ -407,7 +413,9 @@
                 "_gemini_wo_sv": "Begränsning till 120 km/h \n",
                 "_check_wo_via_gemini_sv": "YES \n",
                 "_check_gemini_wo_sv": "YES",
-                "_check_gemini_wo_via_gemini_sv": "YES \n"
+                "_check_gemini_wo_via_gemini_sv": "YES \n",
+                "_compare_via_gemini_sv": "TRANSLATION 2. Translation 2 uses the correct Swedish word order and punctuation for speed limits. \n",
+                "_compare_via_gpt_sv": "TRANSLATION 2\n\nExplanation: Translation 2 includes a space between \"120\" and \"km/h,\" which is more accurate and standard in Swedish."
             }
         },
         {
@@ -512,7 +520,9 @@
                 "_gemini_wo_sv": "Hastighetsbegränsning till 130 km/h \n",
                 "_check_wo_via_gemini_sv": "YES \n",
                 "_check_gemini_wo_sv": "YES",
-                "_check_gemini_wo_via_gemini_sv": "YES \n"
+                "_check_gemini_wo_via_gemini_sv": "YES \n",
+                "_compare_via_gemini_sv": "TRANSLATION 2. Translation 2 is more accurate because it includes the word \"hastighetsbegränsning\" which is the common Swedish term for speed limit. \n",
+                "_compare_via_gpt_sv": "TRANSLATION 2\n\nExplanation: \"Hastighetsbegränsning\" (speed limit) provides a clearer context similar to the original German term \"Begrenzung\" (limitation)."
             }
         },
         {
@@ -617,7 +627,9 @@
                 "_gemini_wo_sv": "Begränsning till 140 km/h \n",
                 "_check_wo_via_gemini_sv": "YES \n",
                 "_check_gemini_wo_sv": "YES",
-                "_check_gemini_wo_via_gemini_sv": "YES \n"
+                "_check_gemini_wo_via_gemini_sv": "YES \n",
+                "_compare_via_gemini_sv": "EQUAL. Both translations are equally accurate and natural-sounding in Swedish. \n",
+                "_compare_via_gpt_sv": "EQUAL\n\nBoth translations are identical and accurately convey the meaning of the original German text."
             }
         },
         {
@@ -722,7 +734,9 @@
                 "_gemini_wo_sv": "Inga begränsningar \n",
                 "_check_wo_via_gemini_sv": "YES \n",
                 "_check_gemini_wo_sv": "YES",
-                "_check_gemini_wo_via_gemini_sv": "YES \n"
+                "_check_gemini_wo_via_gemini_sv": "YES \n",
+                "_compare_via_gemini_sv": "TRANSLATION 2.  Translation 2 is more accurate because it accurately conveys the plural sense of \"keine Begrenzung\" (no limitations), while Translation 1 uses the singular form. \n",
+                "_compare_via_gpt_sv": "TRANSLATION 1\n\nExplanation: \"Keine Begrenzung\" translates directly to \"Ingen begränsning\" in Swedish, maintaining the singular form."
             }
         }
     ]

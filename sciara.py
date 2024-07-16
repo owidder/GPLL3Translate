@@ -178,7 +178,7 @@ async def check_translation(source_text: str, source_language: str, target_text:
 async def compare_translations(source_text: str, source_language: str, target_text_1: str, target_text_2: str, target_language: str, llm="gpt"):
     system = (
         f"You are an expert in all languages and climate change. In the following you get an original {LANGUAGES[source_language]} text and two translations in {LANGUAGES[target_language]}."
-        "Please decide whether which translation is more accurate."
+        "Please decide whether which translation is more accurate. Just answer with 'EQUAL', 'TRANSLATION 1' or 'TRANSLATION 2'. Please explain your decision in just one sentence."
     )
     user_lines = [f"Original {LANGUAGES[source_language]}: \"{source_text}\"", f"{LANGUAGES[target_language]} translation 1: \"{target_text_1}\"", f"{LANGUAGES[target_language]} translation 2: \"{target_text_2}\""]
     user = "\n".join(user_lines)
