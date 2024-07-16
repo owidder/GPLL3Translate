@@ -175,6 +175,24 @@ async def check_translation(source_text: str, source_language: str, target_text:
     return answer
 
 
+async def compare_translations(source_text: str, source_language: str, target_text_1: str, target_text_2: str, target_language: str, llm="gpt"):
+    system = (
+        f"You are an expert in all languages and climate change. In the following you get an original {LANGUAGES[source_language]} text and two translations in {LANGUAGES[target_language]}."
+        "Please decide whether which translation is more accurate."
+    )
+    user_lines = [f"Original {LANGUAGES[source_language]}: \"{source_text}\"", f"{LANGUAGES[target_language]} translation 1: \"{target_text_1}\"", f"{LANGUAGES[target_language]} translation 2: \"{target_text_2}\""]
+    user = "\n".join(user_lines)
+    print(f"compare_translations for '{source_text}' -> '{target_text_1}' / '{target_text_2}'")
+    if llm == "gpt":
+        answer = await ask_chatgpt(system, user, model="gpt-4o")
+    elif llm == "gemini":
+        answer = ask_gemini(system, user, model='gemini-1.5-flash')
+    else:
+        raise Exception(f"unknown llm: {llm}")
+    print(f"check_translation with {llm}: answer={answer}")
+    return answer
+
+
 def is_translation(path: str) -> bool:
     return path.split(".")[-1].lower() in LANGUAGES and not "imageRef" in path
 
@@ -188,6 +206,8 @@ def create_table(input_file: str, translation_lines: [str], source: str, target:
         "Gemini",
         "check (Gemini via GPT4)",
         "check (Gemini via Gemini)",
+        "compare via GPT",
+        "compare via Gemini",
     ]
     headers = list(
         reduce(
@@ -413,6 +433,34 @@ async def crawl_json(data, source_language: str, target_language: str, current_t
                 else:
                     check_gemini_wo_via_gemini_result = data[check_gemini_wo_via_gemini_property]
 
+            compare_via_gemini_property = f"_compare_via_gemini_{target_language}"
+            if not compare_via_gemini_property in data:
+                conpare_via_gemini_result = await compare_translations(
+                    source_language=source_language,
+                    target_language=target_language,
+                    source_text=current_translations[source_language],
+                    target_text_1=target_translation_wo,
+                    target_text_2=target_translation_gemini_wo,
+                    llm='gemini'
+                )
+                data[compare_via_gemini_property] = conpare_via_gemini_result
+            else:
+                conpare_via_gemini_result = data[compare_via_gemini_property]
+
+            compare_via_gpt_property = f"_compare_via_gpt_{target_language}"
+            if not compare_via_gpt_property in data:
+                conpare_via_gpt_result = await compare_translations(
+                    source_language=source_language,
+                    target_language=target_language,
+                    source_text=current_translations[source_language],
+                    target_text_1=target_translation_wo,
+                    target_text_2=target_translation_gemini_wo,
+                    llm='gpt'
+                )
+                data[compare_via_gpt_property] = conpare_via_gpt_result
+            else:
+                conpare_via_gpt_result = data[compare_via_gpt_property]
+
             # check_ll3_result = ""
             # if len(target_translation_ll3) > 0:
             #     check_ll3_property = f"_check_ll3_{target_language}"
@@ -472,6 +520,8 @@ async def crawl_json(data, source_language: str, target_language: str, current_t
                 "check_wo_via_gemini": check_wo_via_gemini_result,
                 "check_gemini_wo": check_gemini_wo_result,
                 "check_gemini_wo_via_gemini": check_gemini_wo_via_gemini_result,
+                "compare_via_gemini": conpare_via_gemini_result,
+                "compare_via_gpt": conpare_via_gpt_result,
                 # "check_ll3": check_ll3_result,
                 # "check_ll3_wo": check_ll3_wo_result,
                 # "certified_translation_checks": certified_translation_checks,

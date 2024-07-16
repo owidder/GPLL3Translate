@@ -31,6 +31,12 @@
         .gpt4wo {
             background-color: lightblue;
         }
+        .geminiwo {
+            background-color: lightgray;
+        }
+        .compare {
+            background-color: lightgoldenrodyellow;
+        }
         .llama3 {
             background-color: rgba(241, 181, 181, 0.50);
         }
@@ -61,6 +67,8 @@
                     <td class="geminiwo">{{ translation_line.translation_gemini_wo }}</td>
                     <td class="geminiwo">{{ translation_line.check_gemini_wo }}</td>
                     <td class="endtd geminiwo">{{ translation_line.check_gemini_wo_via_gemini }}</td>
+                    <td class="compare">{{ translation_line.compare_via_gpt }}</td>
+                    <td class="compare">{{ translation_line.compare_via_gemini }}</td>
                 </tr>
             {% endfor %}
         </tbody>
