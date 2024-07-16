@@ -225,7 +225,7 @@ def create_table(input_file: str, translation_lines: [str], source: str, target:
 
 
 def create_diff_text(target: str, source: str, plusminus) -> str:
-    diff_list = list(difflib.ndiff(a=target.split(), b=source.split()))
+    diff_list = list(difflib.ndiff(a=source.split(), b=target.split()))
     parts: [str] = []
     for word in diff_list:
         if word[0] == plusminus:
