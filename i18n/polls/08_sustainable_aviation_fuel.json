@@ -1,33 +1,73 @@
 {
-  "_id": "sustainable-aviation-fuel",
-  "heading": {
-    "de": "Abstimmung über die Umstellung auf CO₂-freien Flugzeugkraftstoff",
-    "en": "Vote on the switch to CO₂-free aviation fuel"
-  },
-  "description": {
-    "de": "Sollen Flugzeuge nur noch mit nachhaltigem CO2 neutralem Kraftstoff fliegen? \n\nBitte stimmen Sie über die folgenden politischen Maßnahmen ab, wie damit umzugehen ist:",
-    "en": "Should plains fly only with sustainable aviation fuel? \n\nPlease vote on the following policy measures on how to deal with this:\n"
-  },
-  "multipleChoice": false,
-  "choices": [
-    {
-      "name": "opt-1",
-      "isDefault": false,
-      "uiStrings": {
-        "de": "Keine politischen Maßnahmen.",
-        "ru": "Никаких мер политики.",
-        "en": "No policy measures.",
-        "ar": "لا توجد إجراءات سياسية.",
-        "fr": "Aucune mesure politique."
-      }
+    "_id": "sustainable-aviation-fuel",
+    "heading": {
+        "de": "Abstimmung über die Umstellung auf CO₂-freien Flugzeugkraftstoff",
+        "en": "Vote on the switch to CO₂-free aviation fuel",
+        "_wo_sv": "Omröstning om övergången till CO₂-fri flygbränsle",
+        "_gemini_wo_sv": "Omröstning om övergången till koldioxidfritt flygbränsle \n",
+        "_check_wo_sv": "YES",
+        "_check_wo_via_gemini_sv": "YES \n",
+        "_check_gemini_wo_sv": "YES",
+        "_check_gemini_wo_via_gemini_sv": "YES \n",
+        "_compare_via_gemini_sv": "TRANSLATION 2.  Translation 2 is more accurate as it correctly uses the Swedish term for carbon dioxide (\"koldioxid\"). \n",
+        "_compare_to_second_via_gemini_sv": "TRANSLATION 2.  Translation 2 is more accurate because it uses the more common Swedish term \"koldioxid\" for CO₂ instead of the less common \"CO₂\". \n",
+        "_compare_via_gpt_sv": "TRANSLATION 2\n\nExplanation: \"Koldioxidfritt\" is a more precise translation of \"CO₂-freien\" than \"CO₂-fri\".",
+        "_compare_to_second_via_gpt_sv": "TRANSLATION 2\n\nExplanation: \"Koldioxidfritt\" is a more precise translation of \"CO₂-free\" compared to \"CO₂-fri\"."
     },
-    {
-      "name": "opt-2",
-      "isDefault": false,
-      "uiStrings": {
-        "de": "Alle Flüge dürfen nur noch mit SAF betrieben werden.",
-        "en": "All flights must be operated with SAF."
-      }
-    }
-  ]
+    "description": {
+        "de": "Sollen Flugzeuge nur noch mit nachhaltigem CO2 neutralem Kraftstoff fliegen? \n\nBitte stimmen Sie über die folgenden politischen Maßnahmen ab, wie damit umzugehen ist:",
+        "en": "Should plains fly only with sustainable aviation fuel? \n\nPlease vote on the following policy measures on how to deal with this:\n",
+        "_wo_sv": "Ska flygplan bara flyga med hållbart CO2-neutralt bränsle?\n\nVar vänlig och rösta på följande politiska åtgärder om hur man ska hantera detta:",
+        "_gemini_wo_sv": "Ska flygplan endast drivas med hållbart, koldioxidneutralt bränsle?\n\nRösta gärna om följande politiska åtgärder för hur man ska hantera detta: \n",
+        "_check_wo_sv": "YES",
+        "_check_wo_via_gemini_sv": "YES \n",
+        "_check_gemini_wo_sv": "YES",
+        "_check_gemini_wo_via_gemini_sv": "YES \n",
+        "_compare_via_gemini_sv": "TRANSLATION 2.  Translation 2 is more accurate because it uses the phrasing \"drivas med\" (powered by) for \"fliegen mit\" (fly with), which is more natural in Swedish when describing the fuel source of an aircraft. \n",
+        "_compare_to_second_via_gemini_sv": "TRANSLATION 2. Translation 2 is more accurate as it captures the meaning of \"sustainable aviation fuel\" more directly than translation 1. \n",
+        "_compare_via_gpt_sv": "TRANSLATION 2\n\nTranslation 2 is more accurate because it correctly translates \"nur noch\" to \"endast\" and maintains the context of voting on political measures.",
+        "_compare_to_second_via_gpt_sv": "TRANSLATION 2\n\nTranslation 2 is more accurate because it correctly translates \"sustainable aviation fuel\" to \"hållbart, koldioxidneutralt bränsle\" and maintains the original meaning and tone of the request to vote."
+    },
+    "multipleChoice": false,
+    "choices": [
+        {
+            "name": "opt-1",
+            "isDefault": false,
+            "uiStrings": {
+                "de": "Keine politischen Maßnahmen.",
+                "ru": "Никаких мер политики.",
+                "en": "No policy measures.",
+                "ar": "لا توجد إجراءات سياسية.",
+                "fr": "Aucune mesure politique.",
+                "_wo_sv": "Inga politiska åtgärder.",
+                "_gemini_wo_sv": "Inga politiska åtgärder. \n",
+                "_check_wo_sv": "YES",
+                "_check_wo_via_gemini_sv": "YES \n",
+                "_check_gemini_wo_sv": "YES",
+                "_check_gemini_wo_via_gemini_sv": "YES \n",
+                "_compare_via_gemini_sv": "EQUAL. Both translations are accurate and equivalent. \n",
+                "_compare_to_second_via_gemini_sv": "EQUAL. Both translations are accurate and convey the same meaning. \n",
+                "_compare_via_gpt_sv": "EQUAL\n\nBoth translations are identical and accurately convey the meaning of the original German text.",
+                "_compare_to_second_via_gpt_sv": "EQUAL\n\nBoth translations are identical and accurately convey the meaning of the original English text."
+            }
+        },
+        {
+            "name": "opt-2",
+            "isDefault": false,
+            "uiStrings": {
+                "de": "Alle Flüge dürfen nur noch mit SAF betrieben werden.",
+                "en": "All flights must be operated with SAF.",
+                "_wo_sv": "Alla flygningar får endast drivas med SAF.",
+                "_gemini_wo_sv": "Alla flygningar får endast drivas med SAF. \n",
+                "_check_wo_sv": "YES",
+                "_check_wo_via_gemini_sv": "YES \n",
+                "_check_gemini_wo_sv": "YES",
+                "_check_gemini_wo_via_gemini_sv": "YES \n",
+                "_compare_via_gemini_sv": "EQUAL. Both translations are accurate and convey the same meaning, with the only difference being a line break in the second translation. \n",
+                "_compare_to_second_via_gemini_sv": "EQUAL. Both translations are equally accurate, simply conveying the same meaning with slightly different word order. \n",
+                "_compare_via_gpt_sv": "EQUAL\n\nBoth translations are identical and accurately convey the meaning of the original German text.",
+                "_compare_to_second_via_gpt_sv": "EQUAL\n\nBoth translations are identical and accurately convey the original English sentence."
+            }
+        }
+    ]
 }

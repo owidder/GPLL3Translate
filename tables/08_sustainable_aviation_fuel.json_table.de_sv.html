@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-family: verdana, serif;
+            font-size:12px;
+            border: 1px solid white;
+        }
+        th, td {
+            border-bottom:3px solid white;
+            border-right:3px solid white;
+            padding: 15px;
+            text-align: left;
+        }
+        th {
+            background-color: darkgray;
+        }
+        td {
+            background-color: lightgray;
+        }
+        .endtd {
+            border-right: 3px solid darkgray;
+        }
+        .gpt4w {
+            background-color: lightblue;
+        }
+        .gpt4wo {
+            background-color: lightblue;
+        }
+        .geminiwo {
+            background-color: lightgray;
+        }
+        .compare {
+            background-color: lightgoldenrodyellow;
+        }
+        .compare2 {
+            background-color: lightskyblue;
+        }
+        .llama3 {
+            background-color: rgba(241, 181, 181, 0.50);
+        }
+        .llama3wo {
+            background-color: rgba(241, 181, 181, 0.50);
+        }
+        .source {
+            background-color: palegoldenrod;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                
+                    <th>source text</th>
+                
+                    <th>GPT4</th>
+                
+                    <th>check (GPT4 via GPT4)</th>
+                
+                    <th>check (GPT4 via Gemini)</th>
+                
+                    <th>Gemini</th>
+                
+                    <th>check (Gemini via GPT4)</th>
+                
+                    <th>check (Gemini via Gemini)</th>
+                
+                    <th>compare via GPT</th>
+                
+                    <th>compare via Gemini</th>
+                
+                    <th>compare text (en)</th>
+                
+                    <th>compare via GPT (en)</th>
+                
+                    <th>compare via Gemini (en)</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            
+                <tr>
+                    <td class="endtd source">Abstimmung über die Umstellung auf CO₂-freien Flugzeugkraftstoff</td>
+                    <td class="gpt4wo"><span style = 'color: black;'>  Omröstning</span> <span style = 'color: black;'>  om</span> <span style = 'color: black;'>  övergången</span> <span style = 'color: black;'>  till</span> <span style = 'color: red; font-weight: bold;'> CO₂-fri</span> <span style = 'color: black;'>  flygbränsle</span></td>
+                    <td class="gpt4wo">YES</td>
+                    <td class="endtd gpt4wo">YES 
+</td>
+                    <td class="geminiwo"><span style = 'color: black;'>  Omröstning</span> <span style = 'color: black;'>  om</span> <span style = 'color: black;'>  övergången</span> <span style = 'color: black;'>  till</span> <span style = 'color: red; font-weight: bold;'> koldioxidfritt</span> <span style = 'color: black;'>  flygbränsle</span></td>
+                    <td class="geminiwo">YES</td>
+                    <td class="endtd geminiwo">YES 
+</td>
+                    <td class="compare">TRANSLATION 2
+
+Explanation: "Koldioxidfritt" is a more precise translation of "CO₂-freien" than "CO₂-fri".</td>
+                    <td class="compare">TRANSLATION 2.  Translation 2 is more accurate as it correctly uses the Swedish term for carbon dioxide ("koldioxid"). 
+</td>
+                    <td class="compare2">Vote on the switch to CO₂-free aviation fuel</td>
+                    <td class="compare2">TRANSLATION 2
+
+Explanation: "Koldioxidfritt" is a more precise translation of "CO₂-free" compared to "CO₂-fri".</td>
+                    <td class="compare2">TRANSLATION 2.  Translation 2 is more accurate because it uses the more common Swedish term "koldioxid" for CO₂ instead of the less common "CO₂". 
+</td>
+                </tr>
+            
+                <tr>
+                    <td class="endtd source">Sollen Flugzeuge nur noch mit nachhaltigem CO2 neutralem Kraftstoff fliegen? 
+
+Bitte stimmen Sie über die folgenden politischen Maßnahmen ab, wie damit umzugehen ist:</td>
+                    <td class="gpt4wo"><span style = 'color: black;'>  Ska</span> <span style = 'color: black;'>  flygplan</span> <span style = 'color: red; font-weight: bold;'> bara</span> <span style = 'color: red; font-weight: bold;'> flyga</span> <span style = 'color: black;'>  med</span> <span style = 'color: red; font-weight: bold;'> hållbart</span> <span style = 'color: red; font-weight: bold;'> CO2-neutralt</span> <span style = 'color: black;'>  bränsle?</span> <span style = 'color: red; font-weight: bold;'> Var</span> <span style = 'color: red; font-weight: bold;'> vänlig</span> <span style = 'color: red; font-weight: bold;'> och</span> <span style = 'color: red; font-weight: bold;'> rösta</span> <span style = 'color: red; font-weight: bold;'> på</span> <span style = 'color: black;'>  följande</span> <span style = 'color: black;'>  politiska</span> <span style = 'color: black;'>  åtgärder</span> <span style = 'color: red; font-weight: bold;'> om</span> <span style = 'color: black;'>  hur</span> <span style = 'color: black;'>  man</span> <span style = 'color: black;'>  ska</span> <span style = 'color: black;'>  hantera</span> <span style = 'color: black;'>  detta:</span></td>
+                    <td class="gpt4wo">YES</td>
+                    <td class="endtd gpt4wo">YES 
+</td>
+                    <td class="geminiwo"><span style = 'color: black;'>  Ska</span> <span style = 'color: black;'>  flygplan</span> <span style = 'color: red; font-weight: bold;'> endast</span> <span style = 'color: red; font-weight: bold;'> drivas</span> <span style = 'color: black;'>  med</span> <span style = 'color: red; font-weight: bold;'> hållbart,</span> <span style = 'color: red; font-weight: bold;'> koldioxidneutralt</span> <span style = 'color: black;'>  bränsle?</span> <span style = 'color: red; font-weight: bold;'> Rösta</span> <span style = 'color: red; font-weight: bold;'> gärna</span> <span style = 'color: red; font-weight: bold;'> om</span> <span style = 'color: black;'>  följande</span> <span style = 'color: black;'>  politiska</span> <span style = 'color: black;'>  åtgärder</span> <span style = 'color: red; font-weight: bold;'> för</span> <span style = 'color: black;'>  hur</span> <span style = 'color: black;'>  man</span> <span style = 'color: black;'>  ska</span> <span style = 'color: black;'>  hantera</span> <span style = 'color: black;'>  detta:</span></td>
+                    <td class="geminiwo">YES</td>
+                    <td class="endtd geminiwo">YES 
+</td>
+                    <td class="compare">TRANSLATION 2
+
+Translation 2 is more accurate because it correctly translates "nur noch" to "endast" and maintains the context of voting on political measures.</td>
+                    <td class="compare">TRANSLATION 2.  Translation 2 is more accurate because it uses the phrasing "drivas med" (powered by) for "fliegen mit" (fly with), which is more natural in Swedish when describing the fuel source of an aircraft. 
+</td>
+                    <td class="compare2">Should plains fly only with sustainable aviation fuel? 
+
+Please vote on the following policy measures on how to deal with this:
+</td>
+                    <td class="compare2">TRANSLATION 2
+
+Translation 2 is more accurate because it correctly translates "sustainable aviation fuel" to "hållbart, koldioxidneutralt bränsle" and maintains the original meaning and tone of the request to vote.</td>
+                    <td class="compare2">TRANSLATION 2. Translation 2 is more accurate as it captures the meaning of "sustainable aviation fuel" more directly than translation 1. 
+</td>
+                </tr>
+            
+                <tr>
+                    <td class="endtd source">Keine politischen Maßnahmen.</td>
+                    <td class="gpt4wo"><span style = 'color: black;'>  Inga</span> <span style = 'color: black;'>  politiska</span> <span style = 'color: black;'>  åtgärder.</span></td>
+                    <td class="gpt4wo">YES</td>
+                    <td class="endtd gpt4wo">YES 
+</td>
+                    <td class="geminiwo"><span style = 'color: black;'>  Inga</span> <span style = 'color: black;'>  politiska</span> <span style = 'color: black;'>  åtgärder.</span></td>
+                    <td class="geminiwo">YES</td>
+                    <td class="endtd geminiwo">YES 
+</td>
+                    <td class="compare">EQUAL
+
+Both translations are identical and accurately convey the meaning of the original German text.</td>
+                    <td class="compare">EQUAL. Both translations are accurate and equivalent. 
+</td>
+                    <td class="compare2">No policy measures.</td>
+                    <td class="compare2">EQUAL
+
+Both translations are identical and accurately convey the meaning of the original English text.</td>
+                    <td class="compare2">EQUAL. Both translations are accurate and convey the same meaning. 
+</td>
+                </tr>
+            
+                <tr>
+                    <td class="endtd source">Alle Flüge dürfen nur noch mit SAF betrieben werden.</td>
+                    <td class="gpt4wo"><span style = 'color: black;'>  Alla</span> <span style = 'color: black;'>  flygningar</span> <span style = 'color: black;'>  får</span> <span style = 'color: black;'>  endast</span> <span style = 'color: black;'>  drivas</span> <span style = 'color: black;'>  med</span> <span style = 'color: black;'>  SAF.</span></td>
+                    <td class="gpt4wo">YES</td>
+                    <td class="endtd gpt4wo">YES 
+</td>
+                    <td class="geminiwo"><span style = 'color: black;'>  Alla</span> <span style = 'color: black;'>  flygningar</span> <span style = 'color: black;'>  får</span> <span style = 'color: black;'>  endast</span> <span style = 'color: black;'>  drivas</span> <span style = 'color: black;'>  med</span> <span style = 'color: black;'>  SAF.</span></td>
+                    <td class="geminiwo">YES</td>
+                    <td class="endtd geminiwo">YES 
+</td>
+                    <td class="compare">EQUAL
+
+Both translations are identical and accurately convey the meaning of the original German text.</td>
+                    <td class="compare">EQUAL. Both translations are accurate and convey the same meaning, with the only difference being a line break in the second translation. 
+</td>
+                    <td class="compare2">All flights must be operated with SAF.</td>
+                    <td class="compare2">EQUAL
+
+Both translations are identical and accurately convey the original English sentence.</td>
+                    <td class="compare2">EQUAL. Both translations are equally accurate, simply conveying the same meaning with slightly different word order. 
+</td>
+                </tr>
+            
+        </tbody>
+    </table>
+</body>
+</html>
