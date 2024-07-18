@@ -84,7 +84,17 @@
         "_ll3_wo_de": "Nachhaltige Kochgeräte",
         "_check_wo_de": "YES",
         "_check_ll3_de": "YES",
-        "_check_ll3_wo_de": "YES"
+        "_check_ll3_wo_de": "YES",
+        "_wo_sv": "Hållbara hjordar",
+        "_gemini_wo_sv": "Hållbara besättningar \n",
+        "_check_wo_sv": "YES",
+        "_check_wo_via_gemini_sv": "YES \n",
+        "_check_gemini_wo_sv": "YES",
+        "_check_gemini_wo_via_gemini_sv": "YES \n",
+        "_compare_via_gemini_sv": "TRANSLATION 2.  \"Besättningar\" is a more accurate translation of \"Herde\" in this context, as it refers to a group of livestock rather than just a herd of animals. \n",
+        "_compare_to_second_via_gemini_sv": "TRANSLATION 2.  Translation 2 is more accurate as it correctly translates \"cookers\" to \"besättningar\", which refers to a set of cooking equipment. \n",
+        "_compare_via_gpt_sv": "TRANSLATION 2\n\nExplanation: \"Besättningar\" is a more accurate translation for \"Herde\" in the context of livestock, while \"hjordar\" typically refers to herds of wild animals.",
+        "_compare_to_second_via_gpt_sv": "TRANSLATION 1\n\n\"Hållbara hjordar\" translates to \"sustainable herds,\" which is more accurate than \"Hållbara besättningar,\" which translates to \"sustainable crews.\""
     },
     "description": {
         "ru": "Во всем мире многие люди готовят пищу на открытом огне и на примитивных плитах. В качестве топлива очень часто используется древесина или (древесный) уголь. При их сжигании образуются клубы дыма и копоти. Чистые кухонные плиты, с другой стороны, уменьшают загрязнение, вызванное сжиганием этих материалов. Поэтому они, помимо прочего, снижают количество выбрасываемых в атмосферу вредных веществ. \n \n Финансирование такого проекта позволит заменить традиционные кухонные плиты, которые сжигают древесный уголь неэффективно и без вентиляции, а количество выделяемых газов и дыма может быть значительно снижено. Кроме того, использование таких усовершенствованных кухонных плит дает дополнительные положительные эффекты для устойчивого развития местного населения в развивающихся странах и странах с формирующимся рынком (см. ниже).  \n Источник: drawdown.org",
@@ -170,7 +180,17 @@
         "_ll3_wo_de": "Um die Welt herum verwenden viele Menschen offene Feuer und einfache Kochherde. Holz oder (Kohle) werden oft als Brennstoff verwendet. Wenn sie verbrannt werden, werden Wolken von Rauch und Ruß freigesetzt. Saubere Kochherde reduzieren dagegen die Luftverschmutzung durch den Verbrennung dieser Materialien im Vergleich. Deshalb reduzieren sie auch die emittierten Emissionen.\n\n",
         "_check_wo_de": "YES",
         "_check_ll3_de": "The German translation is incomplete and therefore does not convey the same meaning as the English text. A better translation would be:\n\n\"Auf der ganzen Welt kochen viele Menschen über offenem Feuer und auf einfachen Herden. Holz oder (Holzkohle) werden sehr oft als Brennstoffe verwendet. Wenn sie verbrannt werden, entstehen Rauch- und Rußwolken. Saubere Kochherde hingegen reduzieren im Vergleich die Verschmutzung, die durch die Verbrennung dieser Materialien entsteht. Sie reduzieren also unter anderem die ausgestoßenen Emissionen.\n\nDie Finanzierung dieser Art von Projekten wird traditionelle Kochherde ersetzen, die Holzkohle ineffizient und ohne Belüftung verbrennen, und die ausgestoßenen Gase und Rauch können erheblich reduziert werden. Darüber hinaus bringt die Verwendung solcher verbesserten Kochherde andere positive Effekte für die nachhaltige Entwicklung der lokalen Bevölkerung in Entwicklungs- und Schwellenländern mit sich (siehe unten).\nQuelle: drawdown.org\"",
-        "_check_ll3_wo_de": "Die Finanzierung dieser Art von Projekt wird traditionelle Kochherde ersetzen, die Kohle ineffizient und ohne Belüftung verbrennen, und die ausgestoßenen Gase und Rauch können erheblich reduziert werden. Darüber hinaus bringt die Verwendung solcher verbesserten Kochherde andere positive Effekte für die nachhaltige Entwicklung der lokalen Bevölkerung in Entwicklungs- und Schwellenländern mit sich (siehe unten).\nQuelle: drawdown.org\"\n\nYES"
+        "_check_ll3_wo_de": "Die Finanzierung dieser Art von Projekt wird traditionelle Kochherde ersetzen, die Kohle ineffizient und ohne Belüftung verbrennen, und die ausgestoßenen Gase und Rauch können erheblich reduziert werden. Darüber hinaus bringt die Verwendung solcher verbesserten Kochherde andere positive Effekte für die nachhaltige Entwicklung der lokalen Bevölkerung in Entwicklungs- und Schwellenländern mit sich (siehe unten).\nQuelle: drawdown.org\"\n\nYES",
+        "_wo_sv": "Över hela världen lagar många människor mat över öppen eld och på rudimentära spisar. Trä eller (träkol) används ofta som bränsle. När de bränns, frigörs moln av rök och sot. Rena spisar minskar däremot föroreningen från förbränningen av dessa material jämfört med. De minskar alltså bland annat utsläppen som släpps ut.\n\nFinansieringen av denna typ av projekt kommer att ersätta traditionella spisar som bränner träkol ineffektivt och utan ventilation, och de utsläppta gaserna och röken kan minskas avsevärt. Dessutom medför användningen av sådana förbättrade spisar andra positiva effekter för den hållbara utvecklingen av den lokala befolkningen i utvecklings- och tillväxtländer (se nedan).\nKälla: drawdown.org",
+        "_gemini_wo_sv": "Många människor över hela världen lagar mat över öppen eld och på enkla spisar. Ved eller träkol används ofta som bränsle. När de brinner släpps moln av rök och sot ut. Rena kokspisar, å andra sidan, minskar föroreningen från förbränning av dessa material. De minskar därför bland annat utsläppen.\n\nFinansiering av denna typ av projekt kommer att ersätta traditionella kokspisar som förbränner träkol ineffektivt och utan ventilation, och de utsläppta gaserna och röken kan reduceras avsevärt. Dessutom medför användningen av sådana förbättrade kokspisar andra positiva effekter för den hållbara utvecklingen av den lokala befolkningen i utvecklings- och tillväxtländer (se nedan).\nKälla: drawdown.org \n",
+        "_check_wo_sv": "YES",
+        "_check_wo_via_gemini_sv": "YES \n",
+        "_check_gemini_wo_sv": "YES",
+        "_check_gemini_wo_via_gemini_sv": "YES\n",
+        "_compare_via_gemini_sv": "EQUAL. Both translations are accurate and capture the meaning of the original German text. \n",
+        "_compare_to_second_via_gemini_sv": "TRANSLATION 2. Translation 2 uses more accurate Swedish phrasing and avoids unnecessary repetition, making it flow better. \n",
+        "_compare_via_gpt_sv": "TRANSLATION 2\n\nTranslation 2 is more accurate because it uses terms like \"enkla spisar\" and \"kokspisar\" which are closer to the original \"rudimentären Herden\" and \"Kochherde\" respectively, and it maintains the overall meaning and structure of the original text more precisely.",
+        "_compare_to_second_via_gpt_sv": "TRANSLATION 1\n\nTranslation 1 is more accurate as it maintains the specific terminology and structure of the original text, such as \"clean cookstoves\" translated to \"rena spisar\" instead of \"rena kokspisar\" in Translation 2."
     },
     "globalCompensationLimit": 15000000,
     "participantCompensationLimit": 15,
@@ -293,7 +313,17 @@
                 "_ll3_wo_de": "Lessere Luftverschmutzung und dadurch Belastung der Lungen; weniger körperliche Belastung durch das Sammeln von Holz",
                 "_check_wo_de": "YES",
                 "_check_ll3_de": "YES",
-                "_check_ll3_wo_de": "The German translation is almost correct, but the word \"Lessere\" is not correct in this context. A better translation would be:\n\n\"Weniger Luftverschmutzung und dadurch weniger Belastung für die Lungen; weniger körperliche Anstrengung durch das Sammeln von Feuerholz.\""
+                "_check_ll3_wo_de": "The German translation is almost correct, but the word \"Lessere\" is not correct in this context. A better translation would be:\n\n\"Weniger Luftverschmutzung und dadurch weniger Belastung für die Lungen; weniger körperliche Anstrengung durch das Sammeln von Feuerholz.\"",
+                "_wo_sv": "Mindre luftföroreningar och därmed mindre belastning för lungorna; mindre fysisk ansträngning vid insamling av ved.",
+                "_gemini_wo_sv": "Mindre luftförorening och därmed mindre belastning på lungorna; mindre fysisk ansträngning vid insamling av ved. \n",
+                "_check_wo_sv": "YES",
+                "_check_wo_via_gemini_sv": "YES \n",
+                "_check_gemini_wo_sv": "YES",
+                "_check_gemini_wo_via_gemini_sv": "YES \n",
+                "_compare_via_gemini_sv": "TRANSLATION 1.  Translation 1 accurately reflects the original German sentence's phrasing and meaning. \n",
+                "_compare_to_second_via_gemini_sv": "EQUAL. Both translations are equally accurate and natural. \n",
+                "_compare_via_gpt_sv": "TRANSLATION 1\n\nTranslation 1 is more accurate because it correctly translates \"Luftverschmutzung\" as \"luftföroreningar\" (plural) and maintains the structure and meaning of the original sentence.",
+                "_compare_to_second_via_gpt_sv": "TRANSLATION 1\n\nTranslation 1 is more accurate because it correctly uses \"luftföroreningar\" (plural) to match \"less air pollution\" and \"belastning för lungorna\" aligns better with \"strain on the lungs.\""
             }
         },
         {
@@ -388,7 +418,17 @@
                 "_ll3_wo_de": "Frauen und Mädchen müssen weniger Holz sammeln und mehr Zeit für andere Aktivitäten (z.B. Arbeit und Bildung) haben.",
                 "_check_wo_de": "YES",
                 "_check_ll3_de": "YES",
-                "_check_ll3_wo_de": "NO. The German translation is not completely correct. The verb \"haben\" at the end of the sentence makes it sound like a command or an obligation, which changes the tone and intent of the sentence. A better translation would be: \"Frauen und Mädchen müssen weniger Feuerholz sammeln und haben dadurch mehr Zeit für andere Aktivitäten (z.B. Arbeit und Bildung).\""
+                "_check_ll3_wo_de": "NO. The German translation is not completely correct. The verb \"haben\" at the end of the sentence makes it sound like a command or an obligation, which changes the tone and intent of the sentence. A better translation would be: \"Frauen und Mädchen müssen weniger Feuerholz sammeln und haben dadurch mehr Zeit für andere Aktivitäten (z.B. Arbeit und Bildung).\"",
+                "_wo_sv": "Kvinnor och flickor måste samla mindre ved och har mer tid för andra aktiviteter (t.ex. arbete och utbildning)",
+                "_gemini_wo_sv": "Kvinnor och flickor behöver samla mindre ved och har mer tid för andra aktiviteter (t.ex. arbete och utbildning). \n",
+                "_check_wo_sv": "YES",
+                "_check_wo_via_gemini_sv": "YES \n",
+                "_check_gemini_wo_sv": "YES",
+                "_check_gemini_wo_via_gemini_sv": "YES \n",
+                "_compare_via_gemini_sv": "TRANSLATION 1.  Translation 2 uses the word \"behöver\" which indicates necessity rather than the more accurate \"måste\" which indicates obligation. \n",
+                "_compare_to_second_via_gemini_sv": "TRANSLATION 1.  Translation 1 uses the more appropriate verb \"måste\" (must) for the context, making it more accurate. \n",
+                "_compare_via_gpt_sv": "TRANSLATION 2\n\nExplanation: The word \"müssen\" in German translates more accurately to \"behöver\" (need to) in Swedish, rather than \"måste\" (must).",
+                "_compare_to_second_via_gpt_sv": "TRANSLATION 2\n\nExplanation: \"Behöver\" is a more accurate translation of \"have to\" than \"måste,\" which implies a stronger necessity."
             }
         },
         {
@@ -483,7 +523,17 @@
                 "_ll3_wo_de": "Höhere Energieeffizienz als die konventionellen Ofen, daher höhere Energie-Sicherheit für Haushalte",
                 "_check_wo_de": "YES",
                 "_check_ll3_de": "NO. The German translation is slightly incorrect. The correct translation should be: \"Höhere Energieeffizienz als bei den konventionellen Öfen, daher höhere Energiesicherheit für Haushalte\".",
-                "_check_ll3_wo_de": "NO. The German translation is incorrect because \"Ofen\" is singular, while \"stoves\" is plural in English. A better translation would be: \"Höhere Energieeffizienz als bei konventionellen Öfen, daher höhere Energiesicherheit für Haushalte\"."
+                "_check_ll3_wo_de": "NO. The German translation is incorrect because \"Ofen\" is singular, while \"stoves\" is plural in English. A better translation would be: \"Höhere Energieeffizienz als bei konventionellen Öfen, daher höhere Energiesicherheit für Haushalte\".",
+                "_wo_sv": "Högre energieffektivitet än traditionella ugnar, vilket leder till högre energisäkerhet för hushåll",
+                "_gemini_wo_sv": "Högsta energieeffektiviteten jämfört med traditionella ugnar, vilket leder till ökad energisäkerhet för hushållen. \n",
+                "_check_wo_sv": "YES",
+                "_check_wo_via_gemini_sv": "YES \n",
+                "_check_gemini_wo_sv": "YES",
+                "_check_gemini_wo_via_gemini_sv": "YES \n",
+                "_compare_via_gemini_sv": "TRANSLATION 1. Translation 2 makes a claim of \"highest\" efficiency, which is not implied in the original sentence. \n",
+                "_compare_to_second_via_gemini_sv": "TRANSLATION 1.  Translation 2 is too strong (\"highest\") and does not accurately reflect the original meaning. \n",
+                "_compare_via_gpt_sv": "TRANSLATION 1: It accurately translates \"höhere Energieeffizienz\" as \"högre energieffektivitet\" and \"höhere Energiesicherheit\" as \"högre energisäkerhet,\" maintaining the comparative form and meaning.",
+                "_compare_to_second_via_gpt_sv": "TRANSLATION 1: It accurately translates \"higher energy efficiency\" and \"higher energy security\" without exaggerating the degree of efficiency."
             }
         },
         {
@@ -578,7 +628,17 @@
                 "_ll3_wo_de": "Im Wertstoffkette des Kochofens können Beschäftigungsmöglichkeiten geschaffen werden (z.B. im Bereich der Fertigung und Wartung); eingesparte Zeit kann für andere Geschäftstätigkeiten verwendet werden.",
                 "_check_wo_de": "YES",
                 "_check_ll3_de": "YES",
-                "_check_ll3_wo_de": "NO. The German translation of \"cookstove value chain\" is not \"Wertstoffkette des Kochofens\". A better translation would be \"Wertschöpfungskette des Kochherdes\". So the corrected sentence is: \"Im Bereich der Wertschöpfungskette des Kochherdes können Beschäftigungsmöglichkeiten geschaffen werden (z.B. in der Fertigung und Wartung); die eingesparte Zeit kann für andere Geschäftstätigkeiten verwendet werden.\""
+                "_check_ll3_wo_de": "NO. The German translation of \"cookstove value chain\" is not \"Wertstoffkette des Kochofens\". A better translation would be \"Wertschöpfungskette des Kochherdes\". So the corrected sentence is: \"Im Bereich der Wertschöpfungskette des Kochherdes können Beschäftigungsmöglichkeiten geschaffen werden (z.B. in der Fertigung und Wartung); die eingesparte Zeit kann für andere Geschäftstätigkeiten verwendet werden.\"",
+                "_wo_sv": "Jobbmöjligheter kan skapas längs värdekedjan för matlagningsugnar (t.ex. i tillverkning och underhåll); den sparade tiden kan användas för andra affärsaktiviteter.",
+                "_gemini_wo_sv": "Arbetstillfällen kan skapas längs värdekedjan för spisar (t.ex. inom tillverkning och underhåll); den sparade tiden kan användas för andra affärsaktiviteter. \n",
+                "_check_wo_sv": "YES",
+                "_check_wo_via_gemini_sv": "YES\n",
+                "_check_gemini_wo_sv": "YES",
+                "_check_gemini_wo_via_gemini_sv": "YES\n",
+                "_compare_via_gemini_sv": "TRANSLATION 2.  Translation 2 uses the more accurate word \"spisar\" to describe cookers, while translation 1 uses \"matlagningsugnar\" which refers specifically to ovens. \n",
+                "_compare_to_second_via_gemini_sv": "TRANSLATION 2.  Translation 2 is more accurate as it uses the more common Swedish term \"spisar\" for \"cookstoves\" instead of \"matlagningsugnar\". \n",
+                "_compare_via_gpt_sv": "TRANSLATION 2\n\nExplanation: \"Arbetstillfällen\" is a more accurate translation of \"Beschäftigungsmöglichkeiten\" than \"Jobbmöjligheter,\" and \"spisar\" is a more accurate translation of \"Kochherden\" than \"matlagningsugnar.\"",
+                "_compare_to_second_via_gpt_sv": "TRANSLATION 2\n\nExplanation: \"Arbetstillfällen\" is a more accurate translation of \"employment opportunities\" than \"Jobbmöjligheter,\" and \"spisar\" is a more precise term for \"cookstoves\" than \"matlagningsugnar.\""
             }
         },
         {
@@ -673,7 +733,17 @@
                 "_ll3_wo_de": "Reduziert die Treibhausgasemissionen",
                 "_check_wo_de": "YES",
                 "_check_ll3_de": "YES",
-                "_check_ll3_wo_de": "YES"
+                "_check_ll3_wo_de": "YES",
+                "_wo_sv": "Reducerar växthusgasutsläpp",
+                "_gemini_wo_sv": "Minska växthusgasutsläpp \n",
+                "_check_wo_sv": "YES",
+                "_check_wo_via_gemini_sv": "YES \n",
+                "_check_gemini_wo_sv": "YES",
+                "_check_gemini_wo_via_gemini_sv": "YES \n",
+                "_compare_via_gemini_sv": "TRANSLATION 2. Translation 2 is more accurate because it uses the imperative form, reflecting the direct, active call to action present in the German original. \n",
+                "_compare_to_second_via_gemini_sv": "TRANSLATION 1.  \"Reducerar växthusgasutsläpp\" is more accurate because it is a more natural and grammatically correct Swedish phrasing. \n",
+                "_compare_via_gpt_sv": "TRANSLATION 1\n\nExplanation: \"Reducerar\" (reduces) is a more accurate translation of \"Reduziert\" (reduces) compared to \"Minska\" (reduce).",
+                "_compare_to_second_via_gpt_sv": "TRANSLATION 1\n\nExplanation: \"Reducerar\" accurately translates to \"reduces,\" while \"Minska\" translates to \"reduce,\" which is not the correct verb form in this context."
             }
         }
     ]

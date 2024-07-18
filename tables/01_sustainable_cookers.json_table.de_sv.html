@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-family: verdana, serif;
+            font-size:12px;
+            border: 1px solid white;
+        }
+        th, td {
+            border-bottom:3px solid white;
+            border-right:3px solid white;
+            padding: 15px;
+            text-align: left;
+        }
+        th {
+            background-color: darkgray;
+        }
+        td {
+            background-color: lightgray;
+        }
+        .endtd {
+            border-right: 3px solid darkgray;
+        }
+        .gpt4w {
+            background-color: lightblue;
+        }
+        .gpt4wo {
+            background-color: lightblue;
+        }
+        .geminiwo {
+            background-color: lightgray;
+        }
+        .compare {
+            background-color: lightgoldenrodyellow;
+        }
+        .compare2 {
+            background-color: lightskyblue;
+        }
+        .llama3 {
+            background-color: rgba(241, 181, 181, 0.50);
+        }
+        .llama3wo {
+            background-color: rgba(241, 181, 181, 0.50);
+        }
+        .source {
+            background-color: palegoldenrod;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                
+                    <th>source text</th>
+                
+                    <th>GPT4</th>
+                
+                    <th>check (GPT4 via GPT4)</th>
+                
+                    <th>check (GPT4 via Gemini)</th>
+                
+                    <th>Gemini</th>
+                
+                    <th>check (Gemini via GPT4)</th>
+                
+                    <th>check (Gemini via Gemini)</th>
+                
+                    <th>compare via GPT</th>
+                
+                    <th>compare via Gemini</th>
+                
+                    <th>compare text (en)</th>
+                
+                    <th>compare via GPT (en)</th>
+                
+                    <th>compare via Gemini (en)</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            
+                <tr>
+                    <td class="endtd source">Nachhaltige Herde</td>
+                    <td class="gpt4wo"><span style = 'color: black;'>  Hållbara</span> <span style = 'color: red; font-weight: bold;'> hjordar</span></td>
+                    <td class="gpt4wo">YES</td>
+                    <td class="endtd gpt4wo">YES 
+</td>
+                    <td class="geminiwo"><span style = 'color: black;'>  Hållbara</span> <span style = 'color: red; font-weight: bold;'> besättningar</span></td>
+                    <td class="geminiwo">YES</td>
+                    <td class="endtd geminiwo">YES 
+</td>
+                    <td class="compare">TRANSLATION 2
+
+Explanation: "Besättningar" is a more accurate translation for "Herde" in the context of livestock, while "hjordar" typically refers to herds of wild animals.</td>
+                    <td class="compare">TRANSLATION 2.  "Besättningar" is a more accurate translation of "Herde" in this context, as it refers to a group of livestock rather than just a herd of animals. 
+</td>
+                    <td class="compare2">Sustainable cookers</td>
+                    <td class="compare2">TRANSLATION 1
+
+"Hållbara hjordar" translates to "sustainable herds," which is more accurate than "Hållbara besättningar," which translates to "sustainable crews."</td>
+                    <td class="compare2">TRANSLATION 2.  Translation 2 is more accurate as it correctly translates "cookers" to "besättningar", which refers to a set of cooking equipment. 
+</td>
+                </tr>
+            
+                <tr>
+                    <td class="endtd source">Weltweit kochen viele Menschen über offenem Feuer und auf rudimentären Herden. Holz oder (Holzkohle) werden sehr oft als Brennstoffe verwendet. Wenn sie verbrannt werden, werden Wolken aus Rauch und Ruß freigesetzt. Saubere Kochherde hingegen reduzieren im Vergleich die Verschmutzung durch die Verbrennung dieser Materialien. Sie reduzieren also unter anderem die Emissionen, die ausgestoßen werden.
+
+Die Finanzierung dieser Art von Projekt wird traditionelle Kochherde ersetzen, die Holzkohle ineffizient und ohne Belüftung verbrennen, und die ausgestoßenen Gase und Rauch können erheblich reduziert werden. Darüber hinaus bringt die Verwendung solcher verbesserten Kochherde andere positive Effekte für die nachhaltige Entwicklung der lokalen Bevölkerung in Entwicklungs- und Schwellenländern mit sich (siehe unten).
+Quelle: drawdown.org</td>
+                    <td class="gpt4wo"><span style = 'color: red; font-weight: bold;'> Över</span> <span style = 'color: black;'>  hela</span> <span style = 'color: black;'>  världen</span> <span style = 'color: black;'>  lagar</span> <span style = 'color: red; font-weight: bold;'> många</span> <span style = 'color: red; font-weight: bold;'> människor</span> <span style = 'color: black;'>  mat</span> <span style = 'color: black;'>  över</span> <span style = 'color: black;'>  öppen</span> <span style = 'color: black;'>  eld</span> <span style = 'color: black;'>  och</span> <span style = 'color: black;'>  på</span> <span style = 'color: red; font-weight: bold;'> rudimentära</span> <span style = 'color: black;'>  spisar.</span> <span style = 'color: red; font-weight: bold;'> Trä</span> <span style = 'color: black;'>  eller</span> <span style = 'color: red; font-weight: bold;'> (träkol)</span> <span style = 'color: black;'>  används</span> <span style = 'color: black;'>  ofta</span> <span style = 'color: black;'>  som</span> <span style = 'color: black;'>  bränsle.</span> <span style = 'color: black;'>  När</span> <span style = 'color: black;'>  de</span> <span style = 'color: red; font-weight: bold;'> bränns,</span> <span style = 'color: red; font-weight: bold;'> frigörs</span> <span style = 'color: black;'>  moln</span> <span style = 'color: black;'>  av</span> <span style = 'color: black;'>  rök</span> <span style = 'color: black;'>  och</span> <span style = 'color: red; font-weight: bold;'> sot.</span> <span style = 'color: black;'>  Rena</span> <span style = 'color: red; font-weight: bold;'> spisar</span> <span style = 'color: black;'>  minskar</span> <span style = 'color: red; font-weight: bold;'> däremot</span> <span style = 'color: black;'>  föroreningen</span> <span style = 'color: black;'>  från</span> <span style = 'color: red; font-weight: bold;'> förbränningen</span> <span style = 'color: black;'>  av</span> <span style = 'color: black;'>  dessa</span> <span style = 'color: red; font-weight: bold;'> material</span> <span style = 'color: red; font-weight: bold;'> jämfört</span> <span style = 'color: red; font-weight: bold;'> med.</span> <span style = 'color: black;'>  De</span> <span style = 'color: black;'>  minskar</span> <span style = 'color: red; font-weight: bold;'> alltså</span> <span style = 'color: black;'>  bland</span> <span style = 'color: black;'>  annat</span> <span style = 'color: red; font-weight: bold;'> utsläppen</span> <span style = 'color: red; font-weight: bold;'> som</span> <span style = 'color: red; font-weight: bold;'> släpps</span> <span style = 'color: red; font-weight: bold;'> ut.</span> <span style = 'color: red; font-weight: bold;'> Finansieringen</span> <span style = 'color: black;'>  av</span> <span style = 'color: black;'>  denna</span> <span style = 'color: black;'>  typ</span> <span style = 'color: black;'>  av</span> <span style = 'color: black;'>  projekt</span> <span style = 'color: black;'>  kommer</span> <span style = 'color: black;'>  att</span> <span style = 'color: black;'>  ersätta</span> <span style = 'color: black;'>  traditionella</span> <span style = 'color: red; font-weight: bold;'> spisar</span> <span style = 'color: black;'>  som</span> <span style = 'color: red; font-weight: bold;'> bränner</span> <span style = 'color: black;'>  träkol</span> <span style = 'color: black;'>  ineffektivt</span> <span style = 'color: black;'>  och</span> <span style = 'color: black;'>  utan</span> <span style = 'color: black;'>  ventilation,</span> <span style = 'color: black;'>  och</span> <span style = 'color: black;'>  de</span> <span style = 'color: black;'>  utsläppta</span> <span style = 'color: black;'>  gaserna</span> <span style = 'color: black;'>  och</span> <span style = 'color: black;'>  röken</span> <span style = 'color: black;'>  kan</span> <span style = 'color: red; font-weight: bold;'> minskas</span> <span style = 'color: black;'>  avsevärt.</span> <span style = 'color: black;'>  Dessutom</span> <span style = 'color: black;'>  medför</span> <span style = 'color: black;'>  användningen</span> <span style = 'color: black;'>  av</span> <span style = 'color: black;'>  sådana</span> <span style = 'color: black;'>  förbättrade</span> <span style = 'color: red; font-weight: bold;'> spisar</span> <span style = 'color: black;'>  andra</span> <span style = 'color: black;'>  positiva</span> <span style = 'color: black;'>  effekter</span> <span style = 'color: black;'>  för</span> <span style = 'color: black;'>  den</span> <span style = 'color: black;'>  hållbara</span> <span style = 'color: black;'>  utvecklingen</span> <span style = 'color: black;'>  av</span> <span style = 'color: black;'>  den</span> <span style = 'color: black;'>  lokala</span> <span style = 'color: black;'>  befolkningen</span> <span style = 'color: black;'>  i</span> <span style = 'color: black;'>  utvecklings-</span> <span style = 'color: black;'>  och</span> <span style = 'color: black;'>  tillväxtländer</span> <span style = 'color: black;'>  (se</span> <span style = 'color: black;'>  nedan).</span> <span style = 'color: black;'>  Källa:</span> <span style = 'color: black;'>  drawdown.org</span></td>
+                    <td class="gpt4wo">YES</td>
+                    <td class="endtd gpt4wo">YES 
+</td>
+                    <td class="geminiwo"><span style = 'color: red; font-weight: bold;'> Många</span> <span style = 'color: red; font-weight: bold;'> människor</span> <span style = 'color: red; font-weight: bold;'> över</span> <span style = 'color: black;'>  hela</span> <span style = 'color: black;'>  världen</span> <span style = 'color: black;'>  lagar</span> <span style = 'color: black;'>  mat</span> <span style = 'color: black;'>  över</span> <span style = 'color: black;'>  öppen</span> <span style = 'color: black;'>  eld</span> <span style = 'color: black;'>  och</span> <span style = 'color: black;'>  på</span> <span style = 'color: red; font-weight: bold;'> enkla</span> <span style = 'color: black;'>  spisar.</span> <span style = 'color: red; font-weight: bold;'> Ved</span> <span style = 'color: black;'>  eller</span> <span style = 'color: red; font-weight: bold;'> träkol</span> <span style = 'color: black;'>  används</span> <span style = 'color: black;'>  ofta</span> <span style = 'color: black;'>  som</span> <span style = 'color: black;'>  bränsle.</span> <span style = 'color: black;'>  När</span> <span style = 'color: black;'>  de</span> <span style = 'color: red; font-weight: bold;'> brinner</span> <span style = 'color: red; font-weight: bold;'> släpps</span> <span style = 'color: black;'>  moln</span> <span style = 'color: black;'>  av</span> <span style = 'color: black;'>  rök</span> <span style = 'color: black;'>  och</span> <span style = 'color: red; font-weight: bold;'> sot</span> <span style = 'color: red; font-weight: bold;'> ut.</span> <span style = 'color: black;'>  Rena</span> <span style = 'color: red; font-weight: bold;'> kokspisar,</span> <span style = 'color: red; font-weight: bold;'> å</span> <span style = 'color: red; font-weight: bold;'> andra</span> <span style = 'color: red; font-weight: bold;'> sidan,</span> <span style = 'color: black;'>  minskar</span> <span style = 'color: black;'>  föroreningen</span> <span style = 'color: black;'>  från</span> <span style = 'color: red; font-weight: bold;'> förbränning</span> <span style = 'color: black;'>  av</span> <span style = 'color: black;'>  dessa</span> <span style = 'color: red; font-weight: bold;'> material.</span> <span style = 'color: black;'>  De</span> <span style = 'color: black;'>  minskar</span> <span style = 'color: red; font-weight: bold;'> därför</span> <span style = 'color: black;'>  bland</span> <span style = 'color: black;'>  annat</span> <span style = 'color: red; font-weight: bold;'> utsläppen.</span> <span style = 'color: red; font-weight: bold;'> Finansiering</span> <span style = 'color: black;'>  av</span> <span style = 'color: black;'>  denna</span> <span style = 'color: black;'>  typ</span> <span style = 'color: black;'>  av</span> <span style = 'color: black;'>  projekt</span> <span style = 'color: black;'>  kommer</span> <span style = 'color: black;'>  att</span> <span style = 'color: black;'>  ersätta</span> <span style = 'color: black;'>  traditionella</span> <span style = 'color: red; font-weight: bold;'> kokspisar</span> <span style = 'color: black;'>  som</span> <span style = 'color: red; font-weight: bold;'> förbränner</span> <span style = 'color: black;'>  träkol</span> <span style = 'color: black;'>  ineffektivt</span> <span style = 'color: black;'>  och</span> <span style = 'color: black;'>  utan</span> <span style = 'color: black;'>  ventilation,</span> <span style = 'color: black;'>  och</span> <span style = 'color: black;'>  de</span> <span style = 'color: black;'>  utsläppta</span> <span style = 'color: black;'>  gaserna</span> <span style = 'color: black;'>  och</span> <span style = 'color: black;'>  röken</span> <span style = 'color: black;'>  kan</span> <span style = 'color: red; font-weight: bold;'> reduceras</span> <span style = 'color: black;'>  avsevärt.</span> <span style = 'color: black;'>  Dessutom</span> <span style = 'color: black;'>  medför</span> <span style = 'color: black;'>  användningen</span> <span style = 'color: black;'>  av</span> <span style = 'color: black;'>  sådana</span> <span style = 'color: black;'>  förbättrade</span> <span style = 'color: red; font-weight: bold;'> kokspisar</span> <span style = 'color: black;'>  andra</span> <span style = 'color: black;'>  positiva</span> <span style = 'color: black;'>  effekter</span> <span style = 'color: black;'>  för</span> <span style = 'color: black;'>  den</span> <span style = 'color: black;'>  hållbara</span> <span style = 'color: black;'>  utvecklingen</span> <span style = 'color: black;'>  av</span> <span style = 'color: black;'>  den</span> <span style = 'color: black;'>  lokala</span> <span style = 'color: black;'>  befolkningen</span> <span style = 'color: black;'>  i</span> <span style = 'color: black;'>  utvecklings-</span> <span style = 'color: black;'>  och</span> <span style = 'color: black;'>  tillväxtländer</span> <span style = 'color: black;'>  (se</span> <span style = 'color: black;'>  nedan).</span> <span style = 'color: black;'>  Källa:</span> <span style = 'color: black;'>  drawdown.org</span></td>
+                    <td class="geminiwo">YES</td>
+                    <td class="endtd geminiwo">YES
+</td>
+                    <td class="compare">TRANSLATION 2
+
+Translation 2 is more accurate because it uses terms like "enkla spisar" and "kokspisar" which are closer to the original "rudimentären Herden" and "Kochherde" respectively, and it maintains the overall meaning and structure of the original text more precisely.</td>
+                    <td class="compare">EQUAL. Both translations are accurate and capture the meaning of the original German text. 
+</td>
+                    <td class="compare2">Around the world, a great many people cook over open fires and on rudimentary stoves. Wood or (charcoal) are very often used as fuels. When they are burned, clouds of smoke and soot are released. Clean cookstoves, on the other hand, reduce pollution from the combustion of these materials by comparison. So, among other things, they reduce the emissions that are emitted. 
+ 
+ Funding this type of project will replace traditional cookstoves that burn charcoal inefficiently and without ventilation, and the gases and smoke emitted can be greatly reduced. In addition, the use of such improved cookstoves brings other positive effects for the sustainable development of the local population in developing and emerging countries (see below).  
+ Source: drawdown.org</td>
+                    <td class="compare2">TRANSLATION 1
+
+Translation 1 is more accurate as it maintains the specific terminology and structure of the original text, such as "clean cookstoves" translated to "rena spisar" instead of "rena kokspisar" in Translation 2.</td>
+                    <td class="compare2">TRANSLATION 2. Translation 2 uses more accurate Swedish phrasing and avoids unnecessary repetition, making it flow better. 
+</td>
+                </tr>
+            
+                <tr>
+                    <td class="endtd source">Weniger Luftverschmutzung und somit Belastung für die Lungen; weniger körperliche Anstrengung beim Sammeln von Brennholz</td>
+                    <td class="gpt4wo"><span style = 'color: black;'>  Mindre</span> <span style = 'color: red; font-weight: bold;'> luftföroreningar</span> <span style = 'color: black;'>  och</span> <span style = 'color: black;'>  därmed</span> <span style = 'color: black;'>  mindre</span> <span style = 'color: black;'>  belastning</span> <span style = 'color: red; font-weight: bold;'> för</span> <span style = 'color: black;'>  lungorna;</span> <span style = 'color: black;'>  mindre</span> <span style = 'color: black;'>  fysisk</span> <span style = 'color: black;'>  ansträngning</span> <span style = 'color: black;'>  vid</span> <span style = 'color: black;'>  insamling</span> <span style = 'color: black;'>  av</span> <span style = 'color: black;'>  ved.</span></td>
+                    <td class="gpt4wo">YES</td>
+                    <td class="endtd gpt4wo">YES 
+</td>
+                    <td class="geminiwo"><span style = 'color: black;'>  Mindre</span> <span style = 'color: red; font-weight: bold;'> luftförorening</span> <span style = 'color: black;'>  och</span> <span style = 'color: black;'>  därmed</span> <span style = 'color: black;'>  mindre</span> <span style = 'color: black;'>  belastning</span> <span style = 'color: red; font-weight: bold;'> på</span> <span style = 'color: black;'>  lungorna;</span> <span style = 'color: black;'>  mindre</span> <span style = 'color: black;'>  fysisk</span> <span style = 'color: black;'>  ansträngning</span> <span style = 'color: black;'>  vid</span> <span style = 'color: black;'>  insamling</span> <span style = 'color: black;'>  av</span> <span style = 'color: black;'>  ved.</span></td>
+                    <td class="geminiwo">YES</td>
+                    <td class="endtd geminiwo">YES 
+</td>
+                    <td class="compare">TRANSLATION 1
+
+Translation 1 is more accurate because it correctly translates "Luftverschmutzung" as "luftföroreningar" (plural) and maintains the structure and meaning of the original sentence.</td>
+                    <td class="compare">TRANSLATION 1.  Translation 1 accurately reflects the original German sentence's phrasing and meaning. 
+</td>
+                    <td class="compare2">Less air pollution and thus strain on the lungs; less physical strain from collecting firewood</td>
+                    <td class="compare2">TRANSLATION 1
+
+Translation 1 is more accurate because it correctly uses "luftföroreningar" (plural) to match "less air pollution" and "belastning för lungorna" aligns better with "strain on the lungs."</td>
+                    <td class="compare2">EQUAL. Both translations are equally accurate and natural. 
+</td>
+                </tr>
+            
+                <tr>
+                    <td class="endtd source">Frauen und Mädchen müssen weniger Feuerholz sammeln und haben mehr Zeit für andere Aktivitäten (z.B. Arbeit und Bildung)</td>
+                    <td class="gpt4wo"><span style = 'color: black;'>  Kvinnor</span> <span style = 'color: black;'>  och</span> <span style = 'color: black;'>  flickor</span> <span style = 'color: red; font-weight: bold;'> måste</span> <span style = 'color: black;'>  samla</span> <span style = 'color: black;'>  mindre</span> <span style = 'color: black;'>  ved</span> <span style = 'color: black;'>  och</span> <span style = 'color: black;'>  har</span> <span style = 'color: black;'>  mer</span> <span style = 'color: black;'>  tid</span> <span style = 'color: black;'>  för</span> <span style = 'color: black;'>  andra</span> <span style = 'color: black;'>  aktiviteter</span> <span style = 'color: black;'>  (t.ex.</span> <span style = 'color: black;'>  arbete</span> <span style = 'color: black;'>  och</span> <span style = 'color: red; font-weight: bold;'> utbildning)</span></td>
+                    <td class="gpt4wo">YES</td>
+                    <td class="endtd gpt4wo">YES 
+</td>
+                    <td class="geminiwo"><span style = 'color: black;'>  Kvinnor</span> <span style = 'color: black;'>  och</span> <span style = 'color: black;'>  flickor</span> <span style = 'color: red; font-weight: bold;'> behöver</span> <span style = 'color: black;'>  samla</span> <span style = 'color: black;'>  mindre</span> <span style = 'color: black;'>  ved</span> <span style = 'color: black;'>  och</span> <span style = 'color: black;'>  har</span> <span style = 'color: black;'>  mer</span> <span style = 'color: black;'>  tid</span> <span style = 'color: black;'>  för</span> <span style = 'color: black;'>  andra</span> <span style = 'color: black;'>  aktiviteter</span> <span style = 'color: black;'>  (t.ex.</span> <span style = 'color: black;'>  arbete</span> <span style = 'color: black;'>  och</span> <span style = 'color: red; font-weight: bold;'> utbildning).</span></td>
+                    <td class="geminiwo">YES</td>
+                    <td class="endtd geminiwo">YES 
+</td>
+                    <td class="compare">TRANSLATION 2
+
+Explanation: The word "müssen" in German translates more accurately to "behöver" (need to) in Swedish, rather than "måste" (must).</td>
+                    <td class="compare">TRANSLATION 1.  Translation 2 uses the word "behöver" which indicates necessity rather than the more accurate "måste" which indicates obligation. 
+</td>
+                    <td class="compare2">Women and girls have to collect less firewood and have more time for other activities (e.g. work and education)</td>
+                    <td class="compare2">TRANSLATION 2
+
+Explanation: "Behöver" is a more accurate translation of "have to" than "måste," which implies a stronger necessity.</td>
+                    <td class="compare2">TRANSLATION 1.  Translation 1 uses the more appropriate verb "måste" (must) for the context, making it more accurate. 
+</td>
+                </tr>
+            
+                <tr>
+                    <td class="endtd source">Höhere Energieeffizienz als herkömmliche Öfen, was zu einer höheren Energiesicherheit für Haushalte führt</td>
+                    <td class="gpt4wo"><span style = 'color: red; font-weight: bold;'> Högre</span> <span style = 'color: red; font-weight: bold;'> energieffektivitet</span> <span style = 'color: red; font-weight: bold;'> än</span> <span style = 'color: black;'>  traditionella</span> <span style = 'color: black;'>  ugnar,</span> <span style = 'color: black;'>  vilket</span> <span style = 'color: black;'>  leder</span> <span style = 'color: black;'>  till</span> <span style = 'color: red; font-weight: bold;'> högre</span> <span style = 'color: black;'>  energisäkerhet</span> <span style = 'color: black;'>  för</span> <span style = 'color: red; font-weight: bold;'> hushåll</span></td>
+                    <td class="gpt4wo">YES</td>
+                    <td class="endtd gpt4wo">YES 
+</td>
+                    <td class="geminiwo"><span style = 'color: red; font-weight: bold;'> Högsta</span> <span style = 'color: red; font-weight: bold;'> energieeffektiviteten</span> <span style = 'color: red; font-weight: bold;'> jämfört</span> <span style = 'color: red; font-weight: bold;'> med</span> <span style = 'color: black;'>  traditionella</span> <span style = 'color: black;'>  ugnar,</span> <span style = 'color: black;'>  vilket</span> <span style = 'color: black;'>  leder</span> <span style = 'color: black;'>  till</span> <span style = 'color: red; font-weight: bold;'> ökad</span> <span style = 'color: black;'>  energisäkerhet</span> <span style = 'color: black;'>  för</span> <span style = 'color: red; font-weight: bold;'> hushållen.</span></td>
+                    <td class="geminiwo">YES</td>
+                    <td class="endtd geminiwo">YES 
+</td>
+                    <td class="compare">TRANSLATION 1: It accurately translates "höhere Energieeffizienz" as "högre energieffektivitet" and "höhere Energiesicherheit" as "högre energisäkerhet," maintaining the comparative form and meaning.</td>
+                    <td class="compare">TRANSLATION 1. Translation 2 makes a claim of "highest" efficiency, which is not implied in the original sentence. 
+</td>
+                    <td class="compare2">Higher energy efficiency than the conventional stoves, thus higher energy security for households</td>
+                    <td class="compare2">TRANSLATION 1: It accurately translates "higher energy efficiency" and "higher energy security" without exaggerating the degree of efficiency.</td>
+                    <td class="compare2">TRANSLATION 1.  Translation 2 is too strong ("highest") and does not accurately reflect the original meaning. 
+</td>
+                </tr>
+            
+                <tr>
+                    <td class="endtd source">Beschäftigungsmöglichkeiten können entlang der Wertschöpfungskette von Kochherden geschaffen werden (z.B. in der Herstellung und Wartung); die eingesparte Zeit kann für andere Geschäftsaktivitäten genutzt werden</td>
+                    <td class="gpt4wo"><span style = 'color: red; font-weight: bold;'> Jobbmöjligheter</span> <span style = 'color: black;'>  kan</span> <span style = 'color: black;'>  skapas</span> <span style = 'color: black;'>  längs</span> <span style = 'color: black;'>  värdekedjan</span> <span style = 'color: black;'>  för</span> <span style = 'color: red; font-weight: bold;'> matlagningsugnar</span> <span style = 'color: black;'>  (t.ex.</span> <span style = 'color: red; font-weight: bold;'> i</span> <span style = 'color: black;'>  tillverkning</span> <span style = 'color: black;'>  och</span> <span style = 'color: black;'>  underhåll);</span> <span style = 'color: black;'>  den</span> <span style = 'color: black;'>  sparade</span> <span style = 'color: black;'>  tiden</span> <span style = 'color: black;'>  kan</span> <span style = 'color: black;'>  användas</span> <span style = 'color: black;'>  för</span> <span style = 'color: black;'>  andra</span> <span style = 'color: black;'>  affärsaktiviteter.</span></td>
+                    <td class="gpt4wo">YES</td>
+                    <td class="endtd gpt4wo">YES
+</td>
+                    <td class="geminiwo"><span style = 'color: red; font-weight: bold;'> Arbetstillfällen</span> <span style = 'color: black;'>  kan</span> <span style = 'color: black;'>  skapas</span> <span style = 'color: black;'>  längs</span> <span style = 'color: black;'>  värdekedjan</span> <span style = 'color: black;'>  för</span> <span style = 'color: red; font-weight: bold;'> spisar</span> <span style = 'color: black;'>  (t.ex.</span> <span style = 'color: red; font-weight: bold;'> inom</span> <span style = 'color: black;'>  tillverkning</span> <span style = 'color: black;'>  och</span> <span style = 'color: black;'>  underhåll);</span> <span style = 'color: black;'>  den</span> <span style = 'color: black;'>  sparade</span> <span style = 'color: black;'>  tiden</span> <span style = 'color: black;'>  kan</span> <span style = 'color: black;'>  användas</span> <span style = 'color: black;'>  för</span> <span style = 'color: black;'>  andra</span> <span style = 'color: black;'>  affärsaktiviteter.</span></td>
+                    <td class="geminiwo">YES</td>
+                    <td class="endtd geminiwo">YES
+</td>
+                    <td class="compare">TRANSLATION 2
+
+Explanation: "Arbetstillfällen" is a more accurate translation of "Beschäftigungsmöglichkeiten" than "Jobbmöjligheter," and "spisar" is a more accurate translation of "Kochherden" than "matlagningsugnar."</td>
+                    <td class="compare">TRANSLATION 2.  Translation 2 uses the more accurate word "spisar" to describe cookers, while translation 1 uses "matlagningsugnar" which refers specifically to ovens. 
+</td>
+                    <td class="compare2">Employment opportunities can be created along the cookstove value chain (e.g. in manufacturing and maintenance); time saved can be used for other business activities</td>
+                    <td class="compare2">TRANSLATION 2
+
+Explanation: "Arbetstillfällen" is a more accurate translation of "employment opportunities" than "Jobbmöjligheter," and "spisar" is a more precise term for "cookstoves" than "matlagningsugnar."</td>
+                    <td class="compare2">TRANSLATION 2.  Translation 2 is more accurate as it uses the more common Swedish term "spisar" for "cookstoves" instead of "matlagningsugnar". 
+</td>
+                </tr>
+            
+                <tr>
+                    <td class="endtd source">Reduziert Treibhausgasemissionen</td>
+                    <td class="gpt4wo"><span style = 'color: red; font-weight: bold;'> Reducerar</span> <span style = 'color: black;'>  växthusgasutsläpp</span></td>
+                    <td class="gpt4wo">YES</td>
+                    <td class="endtd gpt4wo">YES 
+</td>
+                    <td class="geminiwo"><span style = 'color: red; font-weight: bold;'> Minska</span> <span style = 'color: black;'>  växthusgasutsläpp</span></td>
+                    <td class="geminiwo">YES</td>
+                    <td class="endtd geminiwo">YES 
+</td>
+                    <td class="compare">TRANSLATION 1
+
+Explanation: "Reducerar" (reduces) is a more accurate translation of "Reduziert" (reduces) compared to "Minska" (reduce).</td>
+                    <td class="compare">TRANSLATION 2. Translation 2 is more accurate because it uses the imperative form, reflecting the direct, active call to action present in the German original. 
+</td>
+                    <td class="compare2">Reduces greenhouse gas emissions</td>
+                    <td class="compare2">TRANSLATION 1
+
+Explanation: "Reducerar" accurately translates to "reduces," while "Minska" translates to "reduce," which is not the correct verb form in this context.</td>
+                    <td class="compare2">TRANSLATION 1.  "Reducerar växthusgasutsläpp" is more accurate because it is a more natural and grammatically correct Swedish phrasing. 
+</td>
+                </tr>
+            
+        </tbody>
+    </table>
+</body>
+</html>
