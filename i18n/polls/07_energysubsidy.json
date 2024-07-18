@@ -14,7 +14,17 @@
         "_check_ll3_de": "NO. The German translation is not completely accurate. It translates to \"Vote for a subsidy for citizen energy\". A better translation would be: \"Abstimmung über eine Bürgerenergie-Subvention\".",
         "_check_ll3_wo_de": "NO. The German translation is not correct. A better translation would be: \"Abstimmung über eine Bürger-Energie-Subvention\". The original English text implies a voting process, not just voices in support.",
         "_check_ar": "The provided Armenian translation is actually in Arabic, not Armenian. Therefore, it's not possible to compare the German and Armenian texts as requested. However, the Arabic translation means \"Voting on energy support for citizens\", which is not an exact match for the German text \"Voting on a citizen energy money\". The Arabic translation lacks the specific concept of \"energy money\" present in the original German text.",
-        "_check_fr": "NO. The French translation is not entirely accurate. A more accurate translation would be \"Vote sur une allocation énergétique citoyenne\". The original German text refers to a vote or referendum on a citizen energy money, not voting for it."
+        "_check_fr": "NO. The French translation is not entirely accurate. A more accurate translation would be \"Vote sur une allocation énergétique citoyenne\". The original German text refers to a vote or referendum on a citizen energy money, not voting for it.",
+        "_wo_sv": "Omröstning om ett medborgarenergipengar",
+        "_gemini_wo_sv": "Omröstning om ett medborgar-energiersättning \n",
+        "_check_wo_sv": "NO\n\nThe original German text \"Abstimmung über ein Bürger-Energiegeld\" translates to \"Vote on a citizen energy money\" in English. The Swedish translation \"Omröstning om ett medborgarenergipengar\" is not entirely accurate. The term \"medborgarenergipengar\" is not a common or clear term in Swedish.\n\nA better translation would be: \"Omröstning om ett medborgarenergi-bidrag\" or \"Omröstning om ett medborgarenergibidrag\". This maintains the meaning, tone, and intent of the original German text.",
+        "_check_wo_via_gemini_sv": "YES \n",
+        "_check_gemini_wo_sv": "YES",
+        "_check_gemini_wo_via_gemini_sv": "The translations are close, but not quite the same. Here's why:\n\n**German:** \"Abstimmung über ein Bürger-Energiegeld\"\n\n* **Abstimmung:**  Indicates a formal vote, likely in a political context.\n* **Bürger-Energiegeld:** This is a compound noun combining \"Bürger\" (citizen) and \"Energiegeld\" (energy money). It implies a direct financial payment to citizens to offset energy costs.\n\n**Swedish:** \"Omröstning om ett medborgar-energiersättning\"\n\n* **Omröstning:** Also indicates a formal vote, matching the German.\n* **Medborgar-energiersättning:** The compound noun uses \"ersättning\" (compensation), which is more generic than \"energy money\" and could imply other forms of help besides direct payments.\n\n**Difference:** The Swedish translation is more generic, while the German is more specific in implying a direct financial payment.\n\n**Better translation:**\n\n\"Omröstning om ett medborgar-energibidrag\" \n\nThis uses \"bidrag\" (contribution), which is closer to \"Energiegeld\" in meaning and indicates a direct payment. \n",
+        "_compare_via_gemini_sv": "TRANSLATION 2.  Translation 2 better captures the nuance of \"Bürger-Energiegeld\" which implies a specific payment, while translation 1 is more general. \n",
+        "_compare_to_second_via_gemini_sv": "TRANSLATION 2. Translation 2 is more accurate because it captures the meaning of \"subsidy\" better than translation 1, which uses \"pengar\" (money) which is too broad. \n",
+        "_compare_via_gpt_sv": "TRANSLATION 2\n\nExplanation: \"Medborgar-energiersättning\" more accurately captures the concept of \"Bürger-Energiegeld\" as a form of compensation or payment related to energy for citizens.",
+        "_compare_to_second_via_gpt_sv": "TRANSLATION 2\n\nExplanation: \"Medborgar-energiersättning\" accurately translates to \"citizen energy subsidy,\" while \"medborgarenergipengar\" is not a correct translation."
     },
     "description": {
         "de": "Die Preissteigerungen bei Energie treffen vor allem die Geringverdiener hart.\nAnstatt Energie allgemein zu subventionieren könnte der Staat allen Bürgern gleichmäßig den Mindestbedarf an Energie subventionieren. Dadurch würden Geringverdiener entlastet, gleichzeitig die Marktmechanismen erhalten, die Sparsamkeit durch hohe Preise bewirken und die Energiekonzerne daran gehindert, die Subvention selbst einzustreichen.\n\nUm die Kosten dafür zu decken, kommen Steuererhöhungen oder (vor allem bei einer temporären Maßnahme) neue Staatsschulden infrage.",
@@ -30,7 +40,17 @@
         "_check_ll3_de": "Zuschuss selbst einzustecken.\n\nUm die Kosten dafür zu decken, sind Steuererhöhungen oder (insbesondere im Falle einer vorübergehenden Maßnahme) neue öffentliche Schulden mögliche Optionen.\"\n\nThe German translation is correct and conveys the same meaning, tone and intent as the original English text. So, the answer is 'YES'.",
         "_check_ll3_wo_de": "The German translation is incomplete and does not cover the entire English text. The last part of the text about covering the costs of the subsidy through tax increases or new public debt is missing. A better translation would be:\n\n\"Die Preiserhöhungen für Energie treffen insbesondere die Geringverdiener besonders hart. Anstatt Energie allgemein zu subventionieren, könnte der Staat die minimalen Energiebedürfnisse aller Bürger gleichmäßig subventionieren. Dies würde Geringverdiener entlasten, während gleichzeitig die Marktmechanismen, die durch hohe Preise Sparsamkeit hervorrufen, erhalten bleiben und verhindern, dass die Energieunternehmen die Subventionen selbst einstecken.\n\nUm die Kosten dafür zu decken, sind Steuererhöhungen oder (insbesondere im Falle einer vorübergehenden Maßnahme) neue öffentliche Schulden mögliche Optionen.\"",
         "_check_ar": "The Armenian translation provided is actually in Arabic, not Armenian. Therefore, the texts do not have the same meaning, tone, and intent because they are not in the same language. A correct Armenian translation would be:\n\n\"Էներգետիկայի գների աճը ամենաշատը բախվում է ցածր աշխատավարձովներին: Պետությունը կարող է սուբվենցիաները տալ բոլոր քաղաքացիներին հավասարաչափ, ոչ թե ընդհանուրապես էներգիային: Սա կանխիկացնի ցածր աշխատավարձովներին, միաժամանակ պահպանելով շուկայի մեխանիզմները, որոնք առաջացնում են խնայողությունը բարձր գներով և կարգավորում են էներգետիկայի ընկերություններին չստանալ սուբվենցիաները:\n\nՈրպեսզի ապահովել այդ ծախսերը, հնարավոր է հարկերի բարձրացում կամ (հիմնականում ժամանակավոր միջոցառման դեպքում) նոր պետական պարտքեր:\"",
-        "_check_fr": "YES"
+        "_check_fr": "YES",
+        "_wo_sv": "Prisökningarna på energi drabbar framför allt låginkomsttagare hårt.\nIstället för att subventionera energi generellt, kunde staten subventionera alla medborgares minimibehov av energi. På så sätt skulle låginkomsttagare avlastas, samtidigt som marknadsmekanismerna bevaras, vilka orsakar sparsamhet genom höga priser och hindrar energiföretagen från att själva ta emot subventionen.\n\nFör att täcka kostnaderna för detta, kan skattehöjningar eller (framför allt vid en tillfällig åtgärd) nya statsskulder vara aktuella.",
+        "_gemini_wo_sv": "Prisökningarna på energi slår särskilt hårt mot låginkomsttagare.\nIstället för att subventionera energi generellt skulle staten kunna subventionera alla medborgare lika mycket för deras minsta behov av energi. På så sätt skulle låginkomsttagare avlastas, samtidigt som marknadsmekanismerna behålls, vilket leder till sparsamhet genom höga priser, och energibolagen hindras från att själva ta emot subventionen.\n\nFör att täcka kostnaderna för detta kan skattehöjningar eller (särskilt vid en tillfällig åtgärd) nya statsskulder komma i fråga. \n",
+        "_check_wo_sv": "YES",
+        "_check_wo_via_gemini_sv": "YES \n",
+        "_check_gemini_wo_sv": "YES",
+        "_check_gemini_wo_via_gemini_sv": "YES \n",
+        "_compare_via_gemini_sv": "TRANSLATION 2. Translation 2 maintains the nuance of the German original by emphasizing the \"equal\" distribution of the energy subsidy. \n",
+        "_compare_to_second_via_gemini_sv": "TRANSLATION 2. Translation 2 is more accurate as it captures the nuance of the original text regarding the equal subsidization of *minimum* energy needs, while translation 1 refers to \"minimum energy needs\" which is less precise. \n",
+        "_compare_via_gpt_sv": "TRANSLATION 1\n\nTranslation 1 is more accurate because it maintains the original meaning and structure more closely, particularly in the explanation of market mechanisms and the impact on energy companies.",
+        "_compare_to_second_via_gpt_sv": "TRANSLATION 2\n\nTranslation 2 is more accurate as it better captures the nuances of the original text, such as \"slår särskilt hårt\" for \"hit especially hard\" and \"komma i fråga\" for \"are possible options.\""
     },
     "multipleChoice": false,
     "choices": [
@@ -51,7 +71,17 @@
                 "_check_ll3_de": "YES",
                 "_check_ll3_wo_de": "YES",
                 "_check_ar": "NO, the Armenian translation provided is actually in Arabic, not Armenian. The correct Armenian translation would be: \"Պետությունը վճարում է հիմնական կարիքների 25%\".",
-                "_check_fr": "YES"
+                "_check_fr": "YES",
+                "_wo_sv": "25% av grundbehovet betalas av staten",
+                "_gemini_wo_sv": "25 % av grundbehovet betalas av staten. \n",
+                "_check_wo_sv": "YES",
+                "_check_wo_via_gemini_sv": "YES \n",
+                "_check_gemini_wo_sv": "YES",
+                "_check_gemini_wo_via_gemini_sv": "YES \n",
+                "_compare_via_gemini_sv": "EQUAL. Both translations accurately convey the meaning of the original German sentence.  \n",
+                "_compare_to_second_via_gemini_sv": "EQUAL. Both translations are accurate and differ only in formatting. \n",
+                "_compare_via_gpt_sv": "EQUAL\n\nBoth translations accurately convey the meaning of the original German text, with the only difference being the spacing in \"25 %\".",
+                "_compare_to_second_via_gpt_sv": "EQUAL\n\nBoth translations accurately convey the meaning of the original English text, with the only difference being the spacing in the percentage notation."
             }
         },
         {
@@ -71,7 +101,17 @@
                 "_check_ll3_de": "YES",
                 "_check_ll3_wo_de": "YES",
                 "_check_ar": "The provided Armenian translation is actually in Arabic, not Armenian. Therefore, the correct answer is NO. The correct Armenian translation would be: \"Պետությունը վճարում է հիմնական կարիքների 50%\".",
-                "_check_fr": "YES"
+                "_check_fr": "YES",
+                "_wo_sv": "50% av grundbehovet betalas av staten",
+                "_gemini_wo_sv": "50 % av grundbehovet betalas av staten. \n",
+                "_check_wo_sv": "YES",
+                "_check_wo_via_gemini_sv": "YES \n",
+                "_check_gemini_wo_sv": "YES",
+                "_check_gemini_wo_via_gemini_sv": "YES \n",
+                "_compare_via_gemini_sv": "EQUAL. Both translations are equally accurate, only differing in their use of punctuation. \n",
+                "_compare_to_second_via_gemini_sv": "EQUAL. Both translations are equally accurate, the only difference is the use of a space before the percentage sign. \n",
+                "_compare_via_gpt_sv": "EQUAL\n\nBoth translations accurately convey the meaning of the original German text, with the only difference being the spacing in \"50 %\".",
+                "_compare_to_second_via_gpt_sv": "EQUAL\n\nBoth translations accurately convey the meaning of the original English text, with the only difference being the spacing in the percentage notation."
             }
         },
         {
@@ -91,7 +131,17 @@
                 "_check_ll3_de": "YES",
                 "_check_ll3_wo_de": "YES",
                 "_check_ar": "NO. The provided Armenian translation is actually in Arabic, not Armenian. The correct Armenian translation would be: \"Պետությունը վճարում է հիմնական կարիքների 75%\".",
-                "_check_fr": "YES"
+                "_check_fr": "YES",
+                "_wo_sv": "75% av grundbehovet betalas av staten",
+                "_gemini_wo_sv": "75 % av det grundläggande behovet betalas av staten. \n",
+                "_check_wo_sv": "YES",
+                "_check_wo_via_gemini_sv": "YES \n",
+                "_check_gemini_wo_sv": "YES",
+                "_check_gemini_wo_via_gemini_sv": "YES \n",
+                "_compare_via_gemini_sv": "TRANSLATION 1. Translation 2 uses a more complex and less common phrase \"det grundläggande behovet\" which is not a natural translation of \"Grundbedarf\". \n",
+                "_compare_to_second_via_gemini_sv": "TRANSLATION 2. Translation 2 is more accurate because it uses the more common and natural Swedish phrase \"det grundläggande behovet\" instead of \"grundbehovet\" in Translation 1. \n",
+                "_compare_via_gpt_sv": "TRANSLATION 1\n\nTranslation 1 is more accurate because it directly translates \"Grundbedarfs\" to \"grundbehovet\" without adding unnecessary words.",
+                "_compare_to_second_via_gpt_sv": "TRANSLATION 2\n\nExplanation: Translation 2 is more accurate because it correctly translates \"basic needs\" as \"det grundläggande behovet,\" which is a more precise and complete translation."
             }
         },
         {
@@ -111,7 +161,17 @@
                 "_check_ll3_de": "YES",
                 "_check_ll3_wo_de": "YES",
                 "_check_ar": "The provided Armenian translation is actually in Arabic, not Armenian. Therefore, the comparison cannot be made. The correct Armenian translation would be \"Պետությունը վճարում է հիմնական կարիքների 100%\".",
-                "_check_fr": "YES"
+                "_check_fr": "YES",
+                "_wo_sv": "100% av grundbehovet betalas av staten",
+                "_gemini_wo_sv": "100 % av grundbehovet betalas av staten. \n",
+                "_check_wo_sv": "YES",
+                "_check_wo_via_gemini_sv": "YES \n",
+                "_check_gemini_wo_sv": "YES",
+                "_check_gemini_wo_via_gemini_sv": "YES \n",
+                "_compare_via_gemini_sv": "EQUAL. Both translations are accurate and convey the same meaning. \n",
+                "_compare_to_second_via_gemini_sv": "EQUAL. Both translations are accurate, the second translation just includes a space before the percentage sign which isn't necessarily incorrect. \n",
+                "_compare_via_gpt_sv": "EQUAL\n\nBoth translations accurately convey the meaning of the original German text, with the only difference being the spacing in \"100 %\".",
+                "_compare_to_second_via_gpt_sv": "EQUAL\n\nBoth translations accurately convey the meaning of the original English text."
             }
         },
         {
@@ -131,7 +191,17 @@
                 "_check_ll3_de": "YES",
                 "_check_ll3_wo_de": "YES",
                 "_check_ar": "NO, the Armenian translation is incorrect. It is actually in Arabic and it means \"No support\", which is not a complete and accurate translation of the original German text. A better Armenian translation would be \"Էներգետիկայի արժեքների ենթադրամաշվածք չկա\".",
-                "_check_fr": "NO, the French translation is incomplete. It only says \"No subsidy\" and misses the part about energy costs. A better translation would be: \"Aucune subvention des coûts de l'énergie\"."
+                "_check_fr": "NO, the French translation is incomplete. It only says \"No subsidy\" and misses the part about energy costs. A better translation would be: \"Aucune subvention des coûts de l'énergie\".",
+                "_wo_sv": "Ingen subvention av energikostnader",
+                "_gemini_wo_sv": "Inga subventioner för energikostnader \n",
+                "_check_wo_sv": "YES",
+                "_check_wo_via_gemini_sv": "YES \n",
+                "_check_gemini_wo_sv": "YES",
+                "_check_gemini_wo_via_gemini_sv": "YES \n",
+                "_compare_via_gemini_sv": "TRANSLATION 2. Translation 2 is more accurate as it emphasizes the absence of subsidies in plural form, reflecting the more general meaning of \"keine Subvention\" which implies a lack of any subsidies. \n",
+                "_compare_to_second_via_gemini_sv": "TRANSLATION 2. Translation 2 is more accurate as it directly translates \"no subsidy\" to \"inga subventioner\" which is a more direct translation. \n",
+                "_compare_via_gpt_sv": "TRANSLATION 1\n\nExplanation: The original German phrase is singular (\"Keine Subvention\"), and Translation 1 accurately reflects this singular form in Swedish (\"Ingen subvention\").",
+                "_compare_to_second_via_gpt_sv": "TRANSLATION 2\n\nExplanation: \"Inga subventioner\" accurately translates to \"No subsidy\" without adding extra context about energy costs."
             }
         }
     ]
