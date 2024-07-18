@@ -59,6 +59,7 @@ INPUT_FILE = os.getenv("INPUT_FILE")
 RETRY_CHECK = (os.getenv("RETRY_CHECK", "0") == "1")
 TARGET_LANGUAGE = os.getenv("TARGET_LANGUAGE", "")
 SOURCE_LANGUAGE = os.getenv("SOURCE_LANGUAGE", "en")
+SECOND_COMPARE_LANGUAGE = os.getenv("SECOND_COMPARE_LANGUAGE", "en")
 WITH_CHECKS_FOR_CERTIFIED_LANGUAGES = bool(os.getenv("WITH_CHECKS_FOR_CERTIFIED_LANGUAGES", False))
 REDO_CHATGPT = os.getenv("REDO_CHATGPT", "False").lower() == "true"
 
@@ -208,6 +209,9 @@ def create_table(input_file: str, translation_lines: [str], source: str, target:
         "check (Gemini via Gemini)",
         "compare via GPT",
         "compare via Gemini",
+        "compare text (en)",
+        "compare via GPT (en)",
+        "compare via Gemini (en)",
     ]
     headers = list(
         reduce(
@@ -258,7 +262,7 @@ def create_diff_html(target: str, source: str, plusminus="+") -> str:
         return create_diff_text(target=target, source=source, plusminus=plusminus)
 
 
-async def crawl_json(data, source_language: str, target_language: str, current_translations: dict, table_lines: list, path="", official=""):
+async def crawl_json(data, source_language: str, target_language: str, current_translations: dict, table_lines: list, path="", official="", second_compare_language=""):
     if isinstance(data, dict):
         for key, value in data.items():
             new_path = f"{path}.{key}" if path else key
@@ -268,7 +272,9 @@ async def crawl_json(data, source_language: str, target_language: str, current_t
                 source_language=source_language,
                 target_language=target_language,
                 current_translations=current_translations,
-                table_lines=table_lines
+                table_lines=table_lines,
+                official=official,
+                second_compare_language=second_compare_language,
             )
         print(current_translations)
         translations = [(language, current_translations.get(language)) for language in CERTIFIED_LANGUAGES]
@@ -435,7 +441,7 @@ async def crawl_json(data, source_language: str, target_language: str, current_t
 
             compare_via_gemini_property = f"_compare_via_gemini_{target_language}"
             if not compare_via_gemini_property in data:
-                conpare_via_gemini_result = await compare_translations(
+                compare_via_gemini_result = await compare_translations(
                     source_language=source_language,
                     target_language=target_language,
                     source_text=current_translations[source_language],
@@ -443,13 +449,28 @@ async def crawl_json(data, source_language: str, target_language: str, current_t
                     target_text_2=target_translation_gemini_wo,
                     llm='gemini'
                 )
-                data[compare_via_gemini_property] = conpare_via_gemini_result
+                data[compare_via_gemini_property] = compare_via_gemini_result
             else:
-                conpare_via_gemini_result = data[compare_via_gemini_property]
+                compare_via_gemini_result = data[compare_via_gemini_property]
+
+            if len(second_compare_language) > 0:
+                compare_to_second_via_gemini_property = f"_compare_to_second_via_gemini_{target_language}"
+                if not compare_to_second_via_gemini_property in data:
+                    compare_to_second_via_gemini_result = await compare_translations(
+                        source_language=second_compare_language,
+                        target_language=target_language,
+                        source_text=current_translations[second_compare_language],
+                        target_text_1=target_translation_wo,
+                        target_text_2=target_translation_gemini_wo,
+                        llm='gemini'
+                    )
+                    data[compare_to_second_via_gemini_property] = compare_to_second_via_gemini_result
+                else:
+                    compare_to_second_via_gemini_result = data[compare_to_second_via_gemini_property]
 
             compare_via_gpt_property = f"_compare_via_gpt_{target_language}"
             if not compare_via_gpt_property in data:
-                conpare_via_gpt_result = await compare_translations(
+                compare_via_gpt_result = await compare_translations(
                     source_language=source_language,
                     target_language=target_language,
                     source_text=current_translations[source_language],
@@ -457,9 +478,24 @@ async def crawl_json(data, source_language: str, target_language: str, current_t
                     target_text_2=target_translation_gemini_wo,
                     llm='gpt'
                 )
-                data[compare_via_gpt_property] = conpare_via_gpt_result
+                data[compare_via_gpt_property] = compare_via_gpt_result
             else:
-                conpare_via_gpt_result = data[compare_via_gpt_property]
+                compare_via_gpt_result = data[compare_via_gpt_property]
+
+            if len(second_compare_language) > 0:
+                compare_to_second_via_gpt_property = f"_compare_to_second_via_gpt_{target_language}"
+                if not compare_to_second_via_gpt_property in data and len(second_compare_language) > 0:
+                    compare_to_second_via_gpt_result = await compare_translations(
+                        source_language=second_compare_language,
+                        target_language=target_language,
+                        source_text=current_translations[second_compare_language],
+                        target_text_1=target_translation_wo,
+                        target_text_2=target_translation_gemini_wo,
+                        llm='gpt'
+                    )
+                    data[compare_to_second_via_gpt_property] = compare_to_second_via_gpt_result
+                else:
+                    compare_to_second_via_gpt_result = data[compare_to_second_via_gpt_property]
 
             # check_ll3_result = ""
             # if len(target_translation_ll3) > 0:
@@ -514,14 +550,17 @@ async def crawl_json(data, source_language: str, target_language: str, current_t
                 # "translation_ll3_wo": create_diff_html(textA=target_translation_ll3, textB=target_translation_ll3_wo),
                 "translation_gemini_wo": create_diff_html(target=target_translation_wo, source=target_translation_gemini_wo),
                 "source_text": current_translations[source_language],
+                "second_compare_text": current_translations[second_compare_language],
                 "official": official,
                 # "check": check_result,
                 "check_wo": check_wo_result,
                 "check_wo_via_gemini": check_wo_via_gemini_result,
                 "check_gemini_wo": check_gemini_wo_result,
                 "check_gemini_wo_via_gemini": check_gemini_wo_via_gemini_result,
-                "compare_via_gemini": conpare_via_gemini_result,
-                "compare_via_gpt": conpare_via_gpt_result,
+                "compare_via_gemini": compare_via_gemini_result,
+                "compare_via_gpt": compare_via_gpt_result,
+                "compare_to_second_via_gemini": compare_to_second_via_gemini_result,
+                "compare_to_second_via_gpt": compare_to_second_via_gpt_result,
                 # "check_ll3": check_ll3_result,
                 # "check_ll3_wo": check_ll3_wo_result,
                 # "certified_translation_checks": certified_translation_checks,
@@ -536,7 +575,9 @@ async def crawl_json(data, source_language: str, target_language: str, current_t
                 source_language=source_language,
                 target_language=target_language,
                 current_translations=current_translations,
-                table_lines=table_lines
+                table_lines=table_lines,
+                official=official,
+                second_compare_language=second_compare_language,
             )
     else:
         if is_translation(path):
@@ -552,7 +593,7 @@ async def process_i18n_file(file_path: str, target_language="") -> {str: [object
     table_lines_dict = {}
     for _target_language in (LANGUAGES.keys() if len(target_language) == 0 else [target_language]):
         table_lines = []
-        await crawl_json(data, source_language=SOURCE_LANGUAGE, target_language=_target_language, current_translations={}, table_lines=table_lines)
+        await crawl_json(data, source_language=SOURCE_LANGUAGE, target_language=_target_language, current_translations={}, table_lines=table_lines, second_compare_language=SECOND_COMPARE_LANGUAGE)
         with open(file_path, "w", encoding="UTF-8") as f:
             json.dump(data, f, indent=4, ensure_ascii=False)
         table_lines_dict[_target_language] = table_lines

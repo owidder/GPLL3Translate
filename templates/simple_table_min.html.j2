@@ -37,6 +37,9 @@
         .compare {
             background-color: lightgoldenrodyellow;
         }
+        .compare2 {
+            background-color: lightskyblue;
+        }
         .llama3 {
             background-color: rgba(241, 181, 181, 0.50);
         }
@@ -69,6 +72,9 @@
                     <td class="endtd geminiwo">{{ translation_line.check_gemini_wo_via_gemini }}</td>
                     <td class="compare">{{ translation_line.compare_via_gpt }}</td>
                     <td class="compare">{{ translation_line.compare_via_gemini }}</td>
+                    <td class="compare2">{{ translation_line.second_compare_text }}</td>
+                    <td class="compare2">{{ translation_line.compare_to_second_via_gpt }}</td>
+                    <td class="compare2">{{ translation_line.compare_to_second_via_gemini }}</td>
                 </tr>
             {% endfor %}
         </tbody>
