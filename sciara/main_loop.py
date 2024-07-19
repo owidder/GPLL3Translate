@@ -159,8 +159,8 @@ async def crawl_json(data, source_language_1: str, source_language_2: str, targe
                 "id": path,
                 "source_text_1": data[source_language_1],
                 "source_text_2": data[source_language_2],
-                "translation_1": translation_1,
-                "translation_2": translation_2,
+                "translation_1": create_diff_html(source=translation_1, target=translation_2),
+                "translation_2": create_diff_html(source=translation_2, target=translation_1),
                 "check_result_1": check_result_1,
                 "check_result_2": check_result_2,
             })
@@ -195,6 +195,40 @@ async def process_i18n_file(file_path: str, source_language_1: str, source_langu
     with open(file_path, "w", encoding="UTF-8") as f:
         json.dump(data, f, indent=4, ensure_ascii=False)
     return table_lines
+
+
+def create_diff_text(target: str, source: str, plusminus) -> str:
+    diff_list = list(difflib.ndiff(a=source.split(), b=target.split()))
+    parts: [str] = []
+    for word in diff_list:
+        if word[0] == plusminus:
+            parts.append("<span style = 'color: red; font-weight: bold;'>{}</span>".format(word[1:]))
+        elif word[0] == "?" and len(word) > 1:
+            pass
+        elif word[0] != "+" and word[0] != "-":
+            parts.append("<span style = 'color: black;'>{}</span>".format(word))
+
+    return " ".join(parts)
+
+
+def create_diff_html(target: str, source: str, plusminus="+") -> str:
+    parsed_source = BeautifulSoup(target, "html.parser")
+    pasrsed_target = BeautifulSoup(source, "html.parser")
+    source_nodes = list(parsed_source.descendants)
+    target_nodes = list(pasrsed_target.descendants)
+    if len(source_nodes) == len(target_nodes):
+        transformedNodes = []
+        for i in range(len(source_nodes)):
+            source_node = source_nodes[i]
+            target_node = target_nodes[i]
+            if source_node.name is None and target_node.name is None:
+                transformedNode = create_diff_text(target=str(target_node), source=str(source_node), plusminus=plusminus)
+            else:
+                transformedNode = str(source_node)
+            transformedNodes.append(transformedNode)
+        return " ".join(transformedNodes)
+    else:
+        return create_diff_text(target=target, source=source, plusminus=plusminus)
 
 
 def create_table(input_file: str, translation_lines: [str], source_language_1: str, source_language_2: str, target_language: str):
