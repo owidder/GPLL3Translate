@@ -152,8 +152,12 @@ async def crawl_json(data, source_language_1: str, source_language_2: str, targe
         if len(current_translations.keys()) > 0:
             translation_1 = await create_translation_property(data=data, source_language=source_language_1, target_language=target_language, prefix=f"_{source_language_1}_")
             translation_2 = await create_translation_property(data=data, source_language=source_language_2, target_language=target_language, prefix=f"_{source_language_2}_")
-            check_result_1 = await check_translation_property(data=data, source_language=source_language_1, target_language=target_language, target_text=translation_2, prefix=f"_check_{source_language_1}_")
-            check_result_2 = await check_translation_property(data=data, source_language=source_language_2, target_language=target_language, target_text=translation_1, prefix=f"_check_{source_language_2}_")
+            back_translation_1 = await create_translation_property(data=data, source_language=target_language, target_language=source_language_1, prefix=f"_back_{source_language_1}_")
+            back_translation_2 = await create_translation_property(data=data, source_language=target_language, target_language=source_language_2, prefix=f"_back_{source_language_2}_")
+            cross_check_result_1 = await check_translation_property(data=data, source_language=source_language_1, target_language=target_language, target_text=translation_2, prefix=f"_check_{source_language_1}_")
+            cross_check_result_2 = await check_translation_property(data=data, source_language=source_language_2, target_language=target_language, target_text=translation_1, prefix=f"_check_{source_language_2}_")
+            check_result_1 = await check_translation_property(data=data, source_language=source_language_1, target_language=target_language, target_text=translation_1, prefix=f"_nocross_check_{source_language_1}_")
+            check_result_2 = await check_translation_property(data=data, source_language=source_language_2, target_language=target_language, target_text=translation_2, prefix=f"_nocross_check_{source_language_2}_")
 
             table_lines.append({
                 "id": path,
@@ -161,6 +165,10 @@ async def crawl_json(data, source_language_1: str, source_language_2: str, targe
                 "source_text_2": data[source_language_2],
                 "translation_1": create_diff_html(source=translation_1, target=translation_2),
                 "translation_2": create_diff_html(source=translation_2, target=translation_1),
+                "back_translation_1": create_diff_html(source=back_translation_1, target=data[source_language_1]),
+                "back_translation_2": create_diff_html(source=back_translation_2, target=data[source_language_2]),
+                "cross_check_result_1": cross_check_result_1,
+                "cross_check_result_2": cross_check_result_2,
                 "check_result_1": check_result_1,
                 "check_result_2": check_result_2,
             })
@@ -237,8 +245,10 @@ def create_table(input_file: str, translation_lines: [str], source_language_1: s
         f"source text {source_language_2}",
         f"translation {source_language_1}",
         f"translation {source_language_2}",
-        f"check (translation {source_language_1} vs. {source_language_2})",
-        f"check (translation {source_language_2} vs. {source_language_1})",
+        f"check (translation {source_language_1})",
+        f"check (translation {source_language_2})",
+        f"back translation {source_language_1}",
+        f"back translation {source_language_2}",
     ]
 
     env = Environment(loader=FileSystemLoader('../templates'))
