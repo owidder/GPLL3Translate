@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{{ title }}</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-family: verdana, serif;
+            font-size:12px;
+            border: 1px solid white;
+        }
+        th, td {
+            border-bottom:3px solid white;
+            border-right:3px solid white;
+            padding: 15px;
+            text-align: left;
+        }
+        th {
+            background-color: darkgray;
+        }
+        td {
+            background-color: lightgray;
+        }
+        .endtd {
+            border-right: 3px solid darkgray;
+        }
+        .gpt4w {
+            background-color: lightblue;
+        }
+        .gpt4wo {
+            background-color: lightblue;
+        }
+        .geminiwo {
+            background-color: lightgray;
+        }
+        .compare {
+            background-color: lightgoldenrodyellow;
+        }
+        .compare2 {
+            background-color: lightskyblue;
+        }
+        .llama3 {
+            background-color: rgba(241, 181, 181, 0.50);
+        }
+        .llama3wo {
+            background-color: rgba(241, 181, 181, 0.50);
+        }
+        .source {
+            background-color: palegoldenrod;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                {% for header in headers %}
+                    <th>{{ header }}</th>
+                {% endfor %}
+            </tr>
+        </thead>
+        <tbody>
+            {% for translation_line in translation_lines %}
+                <tr>
+                    <td class="source">{{ translation_line.source_text_1 }}</td>
+                    <td class="endtd source">{{ translation_line.source_text_2 }}</td>
+                    <td class="gpt4wo">{{ translation_line.translation_1 }}</td>
+                    <td class="gpt4wo">{{ translation_line.translation_2 }}</td>
+                    <td class="gpt4wo">{{ translation_line.check_result_1 }}</td>
+                    <td class="endtd gpt4wo">{{ translation_line.check_result_2 }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>

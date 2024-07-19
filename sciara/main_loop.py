@@ -157,6 +157,8 @@ async def crawl_json(data, source_language_1: str, source_language_2: str, targe
 
             table_lines.append({
                 "id": path,
+                "source_text_1": data[source_language_1],
+                "source_text_2": data[source_language_2],
                 "translation_1": translation_1,
                 "translation_2": translation_2,
                 "check_result_1": check_result_1,
@@ -184,23 +186,37 @@ async def crawl_json(data, source_language_1: str, source_language_2: str, targe
         print(f"{path}: {data}")
 
 
-async def process_i18n_file(file_path: str, target_language="") -> {str: [object]}:
+async def process_i18n_file(file_path: str, source_language_1: str, source_language_2: str, target_language="") -> list:
     with open(file_path) as f:
         data = json.load(f)
 
-    table_lines_dict = {}
     table_lines = []
-    await crawl_json(data, source_language_1=SOURCE_LANGUAGE, source_language_2="en", target_language=target_language, current_translations={}, table_lines=table_lines)
+    await crawl_json(data, source_language_1=source_language_1, source_language_2=source_language_2, target_language=target_language, current_translations={}, table_lines=table_lines)
     with open(file_path, "w", encoding="UTF-8") as f:
         json.dump(data, f, indent=4, ensure_ascii=False)
-    table_lines_dict[target_language] = table_lines
-    return table_lines_dict
+    return table_lines
+
+
+def create_table(input_file: str, translation_lines: [str], source_language_1: str, source_language_2: str, target_language: str):
+    headers = [
+        f"source text {source_language_1}",
+        f"source text {source_language_2}",
+        f"translation {source_language_1}",
+        f"translation {source_language_2}",
+        f"check (translation {source_language_1} vs. {source_language_2})",
+        f"check (translation {source_language_2} vs. {source_language_1})",
+    ]
+
+    env = Environment(loader=FileSystemLoader('../templates'))
+    template = env.get_template('simple_table_min_2langcompare.html.j2')
+    html = template.render(headers=headers, translation_lines=translation_lines)
+    with open(f"../tables/{input_file}_table.{source_language_1}_{source_language_2}_{target_language}.html", 'w') as f:
+        f.write(html)
 
 async def main():
-    table_lines_dict = await process_i18n_file(INPUT_FILE, TARGET_LANGUAGE)
-    print(table_lines_dict)
-    # for target_language in table_lines_dict:
-    #     create_table(translation_lines=table_lines_dict[target_language], source=SOURCE_LANGUAGE, target=target_language, input_file=os.path.basename(INPUT_FILE))
+    table_lines = await process_i18n_file(file_path=INPUT_FILE, source_language_1=SOURCE_LANGUAGE, source_language_2="en", target_language=TARGET_LANGUAGE)
+    print(table_lines)
+    create_table(translation_lines=table_lines, source_language_1=SOURCE_LANGUAGE, source_language_2="en", target_language=TARGET_LANGUAGE, input_file=os.path.basename(INPUT_FILE))
 
 
 if __name__ == "__main__":
