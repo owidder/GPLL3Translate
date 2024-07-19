@@ -26,8 +26,6 @@ huggingface-hub==0.22.2
 idna==3.7
 Jinja2==3.1.3
 MarkupSafe==2.1.5
-mlx==0.12.0
-mlx-lm==0.12.1
 mpmath==1.3.0
 networkx==3.3
 numpy==1.26.4

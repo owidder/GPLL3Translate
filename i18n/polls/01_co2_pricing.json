@@ -83,7 +83,11 @@
         "_check_wo_sv": "YES",
         "_check_wo_via_gemini_sv": "YES \n",
         "_check_gemini_wo_sv": "YES",
-        "_check_gemini_wo_via_gemini_sv": "YES \n"
+        "_check_gemini_wo_via_gemini_sv": "YES \n",
+        "_de_it": "Votazione sul prezzo del CO₂",
+        "_en_it": "Sondaggio sulla tassa CO₂",
+        "_check_de_it": "NO\n\nThe German text \"Abstimmung über den CO₂-Preis\" translates to \"Vote on the CO₂ price\" in English. The term \"Abstimmung\" refers to a vote or ballot, while \"Preis\" means price.\n\nThe Italian translation \"Sondaggio sulla tassa CO₂\" translates to \"Survey on the CO₂ tax\" in English. The term \"Sondaggio\" refers to a survey or poll, and \"tassa\" means tax.\n\nA better Italian translation would be: \"Votazione sul prezzo del CO₂\".",
+        "_check_en_it": "NO\n\nThe original English text \"Poll on the CO₂ tax\" refers to a survey or public opinion poll regarding a tax on carbon dioxide emissions. The Italian translation \"Votazione sul prezzo del CO₂\" translates to \"Vote on the price of CO₂,\" which implies a formal voting process on the price of carbon dioxide rather than a survey or poll.\n\nA better translation would be: \"Sondaggio sulla tassa sul CO₂\""
     },
     "description": {
         "de": "Bitte stimmen Sie über die Entwicklung der CO₂-Steuer ab.\n<br>\nDie CO₂-Steuer wird auf die fossilen Brennstoffe Kohle, Öl und Gas erhoben, abhängig von ihrem Kohlenstoffgehalt.\n<br>\nDiese Steuer wirkt sich auf die Preise aller Waren aus, die entweder direkt oder indirekt fossile Brennstoffe verwenden oder für ihre Herstellung fossile Brennstoffe benötigen.\n<br>\nSie soll einen Anreiz setzen, Energie zu sparen und Waren mit geringen CO₂-Emissionen herzustellen.",
@@ -168,7 +172,11 @@
         "_check_wo_sv": "YES",
         "_check_wo_via_gemini_sv": "YES\n",
         "_check_gemini_wo_sv": "YES",
-        "_check_gemini_wo_via_gemini_sv": "YES \n"
+        "_check_gemini_wo_via_gemini_sv": "YES \n",
+        "_de_it": "Si prega di votare sullo sviluppo della tassa sul CO₂.\n<br>\nLa tassa sul CO₂ viene applicata ai combustibili fossili carbone, petrolio e gas, a seconda del loro contenuto di carbonio.\n<br>\nQuesta tassa influisce sui prezzi di tutti i beni che utilizzano combustibili fossili direttamente o indirettamente o che necessitano di combustibili fossili per la loro produzione.\n<br>\nDovrebbe incentivare il risparmio energetico e la produzione di beni con basse emissioni di CO₂.",
+        "_en_it": "Per favore votate sullo sviluppo della tassa sul CO₂.\n\nLa tassa sul CO₂ è imposta sui combustibili fossili come carbone, petrolio e gas, a seconda del loro contenuto di carbonio.\nQuesta tassa influisce sui prezzi di tutti i beni che utilizzano direttamente o indirettamente combustibili fossili o che richiedono combustibili fossili per la loro produzione.\nÈ intesa a fornire un incentivo per risparmiare energia e produrre beni con basse emissioni di CO₂.",
+        "_check_de_it": "YES",
+        "_check_en_it": "YES"
     },
     "multipleChoice": false,
     "choices": [
@@ -258,7 +266,11 @@
                 "_check_wo_sv": "YES",
                 "_check_wo_via_gemini_sv": "YES \n",
                 "_check_gemini_wo_sv": "YES",
-                "_check_gemini_wo_via_gemini_sv": "YES \n"
+                "_check_gemini_wo_via_gemini_sv": "YES \n",
+                "_de_it": "Aumentare di 25€ per tonnellata",
+                "_en_it": "Aumentare di 25€ per tonnellata",
+                "_check_de_it": "YES",
+                "_check_en_it": "YES"
             }
         },
         {
@@ -347,7 +359,11 @@
                 "_check_wo_sv": "YES",
                 "_check_wo_via_gemini_sv": "YES \n",
                 "_check_gemini_wo_sv": "YES",
-                "_check_gemini_wo_via_gemini_sv": "YES \n"
+                "_check_gemini_wo_via_gemini_sv": "YES \n",
+                "_de_it": "Lasciare invariato",
+                "_en_it": "Lascia così com'è",
+                "_check_de_it": "YES",
+                "_check_en_it": "YES"
             }
         },
         {
@@ -436,7 +452,11 @@
                 "_check_wo_sv": "YES",
                 "_check_wo_via_gemini_sv": "YES \n",
                 "_check_gemini_wo_sv": "YES",
-                "_check_gemini_wo_via_gemini_sv": "YES \n"
+                "_check_gemini_wo_via_gemini_sv": "YES \n",
+                "_de_it": "Ridurre di 25€ per tonnellata",
+                "_en_it": "Inferiore di 35€ per tonnellata",
+                "_check_de_it": "No, the texts do not have the same meaning. The German text states \"Verringern um 25€ pro Tonne\" which means \"Reduce by 25€ per ton.\" The Italian translation \"Inferiore di 35€ per tonnellata\" means \"Lower by 35€ per ton.\" \n\nA better translation would be: \"Ridurre di 25€ per tonnellata.\"",
+                "_check_en_it": "The texts do not have the same meaning. The original English text states \"Lower by 35€ per ton,\" while the Italian translation states \"Ridurre di 25€ per tonnellata,\" which means \"Reduce by 25€ per ton.\" The difference is in the amount: 35€ versus 25€.\n\nA better translation would be: \"Ridurre di 35€ per tonnellata.\"\n\nSo the answer is: NO"
             }
         },
         {
@@ -525,7 +545,11 @@
                 "_check_wo_sv": "No, the translation is not accurate. \n\nThe German word \"Enthaltung\" translates to \"abstention\" in English, which refers to the act of refraining from voting or making a decision. \n\nThe Swedish word \"Avhållsamhet\" translates to \"abstinence\" in English, which generally refers to the act of refraining from indulging in certain activities, often related to alcohol, drugs, or sexual activity.\n\nA better Swedish translation for \"Enthaltung\" would be \"Avstående\" or \"Nedlagd röst\" (if referring to a vote).",
                 "_check_wo_via_gemini_sv": "YES \n",
                 "_check_gemini_wo_sv": "NO. \n\nThe German word \"Enthaltung\" translates to \"abstention\" in English, which refers to the act of refraining from voting or making a decision. The Swedish word \"Avhållsamhet\" translates to \"abstinence\" in English, which generally refers to the act of refraining from indulging in certain activities, often related to consumption or behavior, such as alcohol or sex.\n\nA better Swedish translation for \"Enthaltung\" would be \"Avstående\" or \"Nedlagd röst\".",
-                "_check_gemini_wo_via_gemini_sv": "YES \n"
+                "_check_gemini_wo_via_gemini_sv": "YES \n",
+                "_de_it": "Astensione",
+                "_en_it": "Astenersi",
+                "_check_de_it": "NO\n\nThe German word \"Enthaltung\" translates to \"abstention\" in English, which refers to the act of refraining from voting or making a decision. The Italian word \"Astenersi\" translates to \"to abstain\" in English, which is a verb form and means the act of refraining from doing something.\n\nA better Italian translation for \"Enthaltung\" would be \"Astensione,\" which is a noun and directly corresponds to the German term.",
+                "_check_en_it": "YES"
             }
         }
     ]
