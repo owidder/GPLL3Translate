@@ -10,6 +10,8 @@ import os
 from jinja2 import Environment, FileSystemLoader
 from bs4 import BeautifulSoup
 
+OPENAI_BASE_URL = os.getenv("OPENAI_BASE_URL", "https://api.openai.com/v1") # iteraGPT: https://api.iteragpt.iteratec.de/v1
+OPENAI_MODEL = os.getenv("OPENAI_MODEL", "gpt-4o") # iteraGPT: e.g. azure/gpt-4-turbo
 INPUT_FILE = os.getenv("INPUT_FILE")
 TARGET_LANGUAGE = os.getenv("TARGET_LANGUAGE", "")
 SOURCE_LANGUAGE = os.getenv("SOURCE_LANGUAGE", "en")
@@ -46,15 +48,16 @@ LANGUAGES = {
     "zh": "chinese",
 }
 
+
 def is_translation(path: str) -> bool:
     return path.split(".")[-1].lower() in LANGUAGES and not "imageRef" in path
 
 
-async def ask_chatgpt(system: str, user: str, model: str) -> str:
+async def ask_chatgpt(system: str, user: str) -> str:
     try:
-        client = AsyncOpenAI()
+        client = AsyncOpenAI(base_url=OPENAI_BASE_URL)
         response = await client.chat.completions.create(
-            model=model,
+            model=OPENAI_MODEL,
             messages=[
                 {
                     "role": "system",
@@ -86,7 +89,7 @@ async def get_translation(source_text: str, source_language: str, target_languag
     )
     user = f"Original {LANGUAGES[source_language]}: \"{source_text}\""
     print(f"get_translation for '{source_text}'")
-    answer = await ask_chatgpt(system, user, model="gpt-4o")
+    answer = await ask_chatgpt(system, user)
     print(f"get_translation: answer={answer}")
     answer = answer.replace('"', '').replace("'", "") if (answer.startswith('"') or answer.startswith("'")) else answer
     return answer
@@ -99,7 +102,7 @@ async def check_translation(source_text: str, source_language: str, target_text:
     user_lines = [f"Original {LANGUAGES[source_language]}: \"{source_text}\"", f"{LANGUAGES[target_language]} translation: \"{target_text}\""]
     user = "\n".join(user_lines)
     print(f"check_translation for '{source_text}' -> '{target_text}'")
-    answer = await ask_chatgpt(system, user, model="gpt-4o")
+    answer = await ask_chatgpt(system, user)
     print(f"check_translation with {llm}: answer={answer}")
     return answer
 

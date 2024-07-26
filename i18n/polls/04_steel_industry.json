@@ -103,7 +103,15 @@
         "_gemini_wo_sv": "Omröstning om övergången till koldioxidfri stål \n",
         "_check_wo_via_gemini_sv": "YES \n",
         "_check_gemini_wo_sv": "YES",
-        "_check_gemini_wo_via_gemini_sv": "YES \n"
+        "_check_gemini_wo_via_gemini_sv": "YES \n",
+        "_de_it": "Votazione sul passaggio all'acciaio privo di CO₂",
+        "_en_it": "Votazione sul passaggio all'acciaio privo di CO₂",
+        "_back_de_de": "Abstimmung über den Übergang zu CO₂-freiem Stahl",
+        "_back_en_en": "Vote on the transition to CO₂-free steel",
+        "_check_de_it": "YES",
+        "_check_en_it": "YES",
+        "_nocross_check_de_it": "YES",
+        "_nocross_check_en_it": "YES"
     },
     "description": {
         "de": "Die Stahlerzeugung verursacht weltweit ca. 8% der CO₂-Emissionen.\n<br>\nDie kohlenstofffreie Erzeugung von Stahl ist grundsätzlich möglich.\n<br>\nDie Regierung hat beschlossen, dass ab 2030 Stahl in unserem Land nur noch CO₂-frei produziert werden darf. Dieser ist aktuell jedoch 60–70 Prozent teurer als der konventionelle Stahl.\n<br>\nKohlenstoffneutraler Stahl ist damit auf dem Markt gegenüber importiertem Stahl nicht konkurrenzfähig. \n\nBitte stimmen Sie über die folgenden politischen Maßnahmen ab, wie damit umzugehen ist:",
@@ -196,7 +204,15 @@
         "_gemini_wo_sv": "Stålproduktion orsakar cirka 8% av de globala CO₂-utsläppen.\n<br>\nKoldioxidfri stålproduktion är i princip möjlig.\n<br>\nRegeringen har beslutat att stål i vårt land endast får produceras koldioxidfritt från och med 2030. Detta är för närvarande dock 60–70 procent dyrare än konventionellt stål.\n<br>\nKoldioxidneutralt stål är därför inte konkurrenskraftigt på marknaden mot importerat stål.\n\nRösta om följande politiska åtgärder för att hantera detta: \n",
         "_check_wo_via_gemini_sv": "YES \n",
         "_check_gemini_wo_sv": "YES",
-        "_check_gemini_wo_via_gemini_sv": "YES \n"
+        "_check_gemini_wo_via_gemini_sv": "YES \n",
+        "_de_it": "La produzione di acciaio è responsabile a livello mondiale di circa l'8% delle emissioni di CO₂.\nLa produzione di acciaio senza carbonio è fondamentalmente possibile.\nIl governo ha deciso che a partire dal 2030 l'acciaio nel nostro paese potrà essere prodotto solo senza emissioni di CO₂. Attualmente, però, questo è dal 60 al 70 percento più costoso rispetto all'acciaio convenzionale.\nL'acciaio neutro in carbonio non è quindi competitivo sul mercato rispetto all'acciaio importato.\n\nSi prega di votare sulle seguenti misure politiche su come affrontare la questione:",
+        "_en_it": "La produzione di acciaio rappresenta circa l'8% delle emissioni di CO₂ in tutto il mondo.\nLa produzione di acciaio senza carbonio è possibile in linea di principio.\nIl governo ha deciso che dal 2030 l'acciaio nel nostro paese potrà essere prodotto solo senza emissioni di CO₂. Tuttavia, questo è attualmente dal 60 al 70 per cento più costoso dell'acciaio convenzionale.\nL'acciaio neutro in carbonio non è quindi competitivo sul mercato rispetto all'acciaio importato.\n\nSi prega di votare sulle seguenti misure politiche su come affrontare questo:",
+        "_back_de_de": "Die Stahlproduktion macht etwa 8% der weltweiten CO₂-Emissionen aus.\nDie Herstellung von kohlenstofffreiem Stahl ist grundsätzlich möglich.\nDie Regierung hat beschlossen, dass ab 2030 Stahl in unserem Land nur noch ohne CO₂ produziert werden darf. Derzeit ist er jedoch 60 bis 70 Prozent teurer als herkömmlicher Stahl.\nKohlenstoffneutraler Stahl ist daher auf dem Markt im Vergleich zu importiertem Stahl nicht wettbewerbsfähig.\n\nBitte stimmen Sie über die folgenden politischen Maßnahmen ab, wie diese Frage angegangen werden soll:",
+        "_back_en_en": "Steel production accounts for about 18% of global CO₂ emissions.\nCarbon-free steel production is possible in principle.\nThe government has decided that by 2030, steel in our country can only be produced without CO₂. However, it is currently 60 to 70 percent more expensive than conventional steel.\nCarbon-neutral steel is therefore not competitive in the market compared to imported steel.\n\nPlease vote on the following policy measures on how to address this issue:",
+        "_check_de_it": "YES",
+        "_check_en_it": "YES",
+        "_nocross_check_de_it": "YES",
+        "_nocross_check_en_it": "YES"
     },
     "multipleChoice": false,
     "choices": [
@@ -306,7 +322,15 @@
                 "_gemini_wo_sv": "Inga politiska åtgärder. \n",
                 "_check_wo_via_gemini_sv": "YES \n",
                 "_check_gemini_wo_sv": "YES",
-                "_check_gemini_wo_via_gemini_sv": "YES \n"
+                "_check_gemini_wo_via_gemini_sv": "YES \n",
+                "_de_it": "Nessuna misura politica.",
+                "_en_it": "Nessuna misura politica.",
+                "_back_de_de": "Keine politische Maßnahme.",
+                "_back_en_en": "No political measure.",
+                "_check_de_it": "YES",
+                "_check_en_it": "YES",
+                "_nocross_check_de_it": "YES",
+                "_nocross_check_en_it": "YES"
             }
         },
         {
@@ -415,7 +439,15 @@
                 "_gemini_wo_sv": "Staten subventionerar de ökade kostnaderna för koldioxidfri stål med skattemedel tills det blir marknadsmässigt (Carbon Contracts for Difference). \n",
                 "_check_wo_via_gemini_sv": "NO.\n\nThe Swedish translation is not accurate. The main issue is the use of \"kolstål\" (carbon steel) instead of \"koldioxidfritt stål\" (carbon-free steel). This changes the meaning of the sentence entirely. \n\nHere's a better translation:\n\n**\"Staten täcker de extra kostnaderna för koldioxidfritt stål från skattemedel så länge det inte är marknadsförbart (Carbon Contracts for Difference).\"**\n\nThis translation accurately conveys the original meaning: that the state will subsidize carbon-free steel until it becomes commercially viable.\n\nHere's a breakdown of the differences:\n\n* **\"kohlenstofffreien Stahl\"** (German) translates to **\"koldioxidfritt stål\"** (Swedish), not \"kolstål\".\n* **\"so lange er marktfähig ist\"** (German) translates to **\"så länge det inte är marknadsförbart\"** (Swedish). This is a literal translation, but the Swedish phrase is not idiomatic. A better option might be  **\"så länge det inte är kommersiellt hållbart\"** (until it is commercially sustainable).\n\nThe tone of both texts is similar,  formal and informative. The intent is to inform about a government policy concerning the financial support of carbon-free steel production. \n",
                 "_check_gemini_wo_sv": "YES",
-                "_check_gemini_wo_via_gemini_sv": "YES \n"
+                "_check_gemini_wo_via_gemini_sv": "YES \n",
+                "_de_it": "Lo stato compensa i maggiori costi per l'acciaio privo di carbonio con fondi fiscali fino a quando non diventa competitivo sul mercato (Contratti di Carbonio per la Differenza).",
+                "_en_it": "Il governo compensa il costo aggiuntivo dell'acciaio privo di carbonio dalle tasse fino a quando non è commercializzabile (Contratti di Carbonio per la Differenza).",
+                "_back_de_de": "Der Staat gleicht die zusätzlichen Kosten für kohlenstofffreien Stahl mit Steuern aus, bis dieser handelbar wird (Carbon Contracts for Difference).",
+                "_back_en_en": "The State compensates for the additional costs of carbon-free steel with taxes until it becomes marketable (Carbon Contracts for Difference).",
+                "_check_de_it": "NO\n\nThe Italian translation has a slight difference in meaning due to the use of \"governo\" instead of \"stato\". While both terms can refer to the entity of public power, \"stato\" is a more general term that encompasses the entire nation-state, including all its institutions, whereas \"governo\" typically refers to the executive branch or the current administration. This could imply a narrower scope of responsibility in the Italian text.\n\nAdditionally, the phrase \"dalle tasse\" in Italian could be interpreted as \"from the taxes\" which might imply that the compensation is coming directly from taxes collected, rather than \"aus Steuermitteln\" which means \"from tax revenues\" in a more general sense.\n\nA better translation that maintains the original meaning, tone, and intent would be:\n\n\"Il governo compensa i maggiori costi dell'acciaio senza carbonio con fondi statali fino a quando non diventa competitivo sul mercato (Contratti di Carbonio per la Differenza).\"",
+                "_check_en_it": "YES",
+                "_nocross_check_de_it": "YES",
+                "_nocross_check_en_it": "NO\n\nThe Italian translation is mostly accurate, but there is a slight discrepancy in the phrase \"dalle tasse\" which could be interpreted as the extra cost being compensated from taxes, rather than by using tax revenues. A better translation would be:\n\n\"Il governo compensa il costo aggiuntivo dell'acciaio senza carbonio utilizzando i ricavi fiscali fino a quando non diventa commercializzabile (Contratti di Carbonio per la Differenza).\"\n\nThis clarifies that the government uses tax revenues to offset the extra cost."
             }
         },
         {
@@ -524,7 +556,15 @@
                 "_gemini_wo_sv": "Importtullar på konventionellt producerat stål (gränsutjämningsavgift). \n",
                 "_check_wo_via_gemini_sv": "YES \n",
                 "_check_gemini_wo_sv": "YES",
-                "_check_gemini_wo_via_gemini_sv": "YES \n"
+                "_check_gemini_wo_via_gemini_sv": "YES \n",
+                "_de_it": "Dazi all'importazione per l'acciaio prodotto convenzionalmente (imposta di adeguamento alla frontiera).",
+                "_en_it": "Dazi all'importazione su acciaio prodotto convenzionalmente (Meccanismo di adeguamento alla frontiera del carbonio).",
+                "_back_de_de": "Einfuhrzölle auf konventionell hergestellten Stahl (Mechanismus zur Kohlenstoffgrenzanpassung).",
+                "_back_en_en": "Import duties on conventionally produced steel (Carbon Border Adjustment Mechanism).",
+                "_check_de_it": "NO\n\nThe Italian translation introduces a specific term, \"Meccanismo di adeguamento alla frontiera del carbonio,\" which refers to the Carbon Border Adjustment Mechanism (CBAM). This is a policy tool designed to adjust the prices of carbon-intensive products imported into the EU to prevent carbon leakage and to encourage producers in non-EU countries to reduce their greenhouse gas emissions.\n\nThe original German text simply mentions \"Einfuhrzölle für konventionell produzierten Stahl (Grenzausgleichsabgabe),\" which translates to \"import duties on conventionally produced steel (border adjustment tax).\" It does not specify that the border adjustment tax is related to carbon content or emissions, although it could be implied.\n\nA more accurate translation that maintains the original meaning without introducing the specific mechanism would be:\n\n\"Dazi all'importazione per l'acciaio prodotto convenzionalmente (imposta di adeguamento alla frontiera).\" \n\nThis translation keeps the general idea of a border adjustment tax without specifying that it is the carbon border adjustment mechanism.",
+                "_check_en_it": "NO\n\nThe Italian translation is not entirely accurate. The term \"Carbon Border Adjustment Mechanism\" has been translated as \"imposta di adeguamento alla frontiera,\" which is not specific enough and omits the reference to carbon. A more accurate translation would be:\n\n\"Dazi all'importazione sull'acciaio prodotto convenzionalmente (Meccanismo di Adeguamento Carbonico alla Frontiera).\"",
+                "_nocross_check_de_it": "YES",
+                "_nocross_check_en_it": "YES"
             }
         }
     ]
