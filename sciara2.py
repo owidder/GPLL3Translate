@@ -55,6 +55,8 @@ LANGUAGES = {
     "sv": "swedish",
     "zh": "chinese",
 }
+OPENAI_BASE_URL = os.getenv("OPENAI_BASE_URL", "https://api.openai.com/v1") # iteraGPT: https://api.iteragpt.iteratec.de/v1
+OPENAI_MODEL = os.getenv("OPENAI_MODEL", "gpt-4o") # iteraGPT: e.g. azure/gpt-4-turbo
 INPUT_FILE = os.getenv("INPUT_FILE")
 RETRY_CHECK = (os.getenv("RETRY_CHECK", "0") == "1")
 TARGET_LANGUAGE = os.getenv("TARGET_LANGUAGE", "")
@@ -81,11 +83,11 @@ def create_td(text = "", diff: [str]=[], plusminus="+") -> str:
     return td
 
 
-async def ask_chatgpt(system: str, user: str, model: str) -> str:
+async def ask_chatgpt(system: str, user: str) -> str:
     try:
-        client = AsyncOpenAI()
+        client = AsyncOpenAI(base_url=OPENAI_BASE_URL)
         response = await client.chat.completions.create(
-            model=model,
+            model=OPENAI_MODEL,
             messages=[
                 {
                     "role": "system",
@@ -112,7 +114,7 @@ async def ask_chatgpt(system: str, user: str, model: str) -> str:
             secnum = 1
         print(f"wait for {secnum}")
         time.sleep(secnum)
-        return ask_chatgpt(system, user, model)
+        return ask_chatgpt(system, user)
     except Exception as exc:
         print(f"Exception: {exc}")
         return ""
@@ -143,7 +145,7 @@ async def get_translation(source_text: str, source_language: str, target_languag
     user = "\n".join(user_lines)
     print(f"get_translation for '{source_text}'")
     if llm == "gpt":
-        answer = await ask_chatgpt(system, user, model="gpt-4")
+        answer = await ask_chatgpt(system, user)
     # elif llm == "llama3":
     #     answer = ask_llama3(system, user)
     elif llm == "gemini":
@@ -164,7 +166,7 @@ async def check_translation(source_text: str, source_language: str, target_text:
     user = "\n".join(user_lines)
     print(f"check_translation for '{source_text}' -> '{target_text}'")
     if llm == "gpt":
-        answer = await ask_chatgpt(system, user, model="gpt-4o")
+        answer = await ask_chatgpt(system, user)
     elif llm == "gemini":
         answer = ask_gemini(system, user, model='gemini-1.5-flash')
     else:
@@ -182,7 +184,7 @@ async def compare_translations(source_text: str, source_language: str, target_te
     user = "\n".join(user_lines)
     print(f"compare_translations for '{source_text}' -> '{target_text_1}' / '{target_text_2}'")
     if llm == "gpt":
-        answer = await ask_chatgpt(system, user, model="gpt-4o")
+        answer = await ask_chatgpt(system, user)
     elif llm == "gemini":
         answer = ask_gemini(system, user, model='gemini-1.5-flash')
     else:
@@ -275,7 +277,7 @@ async def crawl_json(data, source_language: str, target_language: str, current_t
             )
         print(current_translations)
         if len(current_translations.keys()) > 0:
-            target_language_property = f"_wo_{target_language}"
+            target_language_property = f"_{target_language}"
             if not target_language_property in data:
                 target_translation = await get_translation(
                     source_text=data[source_language],
@@ -286,7 +288,7 @@ async def crawl_json(data, source_language: str, target_language: str, current_t
             else:
                 target_translation = data[target_language_property]
 
-            target_language_gemini_property = f"_gemini_wo_{target_language}"
+            target_language_gemini_property = f"_gemini_{target_language}"
             if not target_language_gemini_property in data:
                 target_translation_gemini = await get_translation(
                     source_text=data[source_language],
@@ -298,7 +300,7 @@ async def crawl_json(data, source_language: str, target_language: str, current_t
             else:
                 target_translation_gemini = data[target_language_gemini_property]
 
-            check_property = f"_check_wo_{target_language}"
+            check_property = f"_check_{target_language}"
             if (not check_property in data) or (RETRY_CHECK and data[check_property].lower() != "yes"):
                 check_result = await check_translation(
                     source_language=source_language,
@@ -310,7 +312,7 @@ async def crawl_json(data, source_language: str, target_language: str, current_t
             else:
                 check_result = data[check_property]
 
-            check_via_gemini_property = f"_check_wo_via_gemini_{target_language}"
+            check_via_gemini_property = f"_check_via_gemini_{target_language}"
             if (not check_via_gemini_property in data) or (RETRY_CHECK and data[check_via_gemini_property].lower() != "yes"):
                 check_via_gemini_result = await check_translation(
                     source_language=source_language,
@@ -325,7 +327,7 @@ async def crawl_json(data, source_language: str, target_language: str, current_t
 
             check_gemini_result = ""
             if len(target_translation_gemini) > 0:
-                check_gemini_property = f"_check_gemini_wo_{target_language}"
+                check_gemini_property = f"_check_gemini_{target_language}"
                 if (not check_gemini_property in data) or (RETRY_CHECK and data[check_gemini_property].lower() != "yes"):
                     check_gemini_result = await check_translation(
                         source_language=source_language,
@@ -339,7 +341,7 @@ async def crawl_json(data, source_language: str, target_language: str, current_t
 
             check_gemini_via_gemini_result = ""
             if len(target_translation_gemini) > 0:
-                check_gemini_via_gemini_property = f"_check_gemini_wo_via_gemini_{target_language}"
+                check_gemini_via_gemini_property = f"_check_gemini_via_gemini_{target_language}"
                 if (not check_gemini_via_gemini_property in data) or (RETRY_CHECK and data[check_gemini_via_gemini_property].lower() != "yes"):
                     check_gemini_via_gemini_result = await check_translation(
                         source_language=source_language,
@@ -418,9 +420,9 @@ async def crawl_json(data, source_language: str, target_language: str, current_t
                 "second_compare_text": current_translations[second_compare_language],
                 "official": official,
                 "check_wo": check_result,
-                "check_wo_via_gemini": check_via_gemini_result,
+                "check_via_gemini": check_via_gemini_result,
                 "check_gemini_wo": check_gemini_result,
-                "check_gemini_wo_via_gemini": check_gemini_via_gemini_result,
+                "check_gemini_via_gemini": check_gemini_via_gemini_result,
                 "compare_via_gemini": compare_via_gemini_result,
                 "compare_via_gpt": compare_via_gpt_result,
                 "compare_to_second_via_gemini": compare_to_second_via_gemini_result,

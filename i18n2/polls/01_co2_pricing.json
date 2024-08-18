@@ -1,124 +1,64 @@
 {
-    "_id": "co2-pricing-poll",
-    "heading": {
-        "de": "Abstimmung über den CO₂-Preis",
-        "ru": "Опрос о налоге на CO₂",
-        "en": "Poll on the CO₂ tax",
-        "ar": "استطلاع حول ضريبة CO₂",
-        "fr": "Vote sur la taxe CO₂",
-        "_wo_sv": "Omröstning om CO₂-skatt",
-        "_gemini_wo_sv": "Omröstning om koldioxidskatt \n",
-        "_check_wo_sv": "YES",
-        "_check_wo_via_gemini_sv": "YES \n",
-        "_check_gemini_wo_sv": "YES",
-        "_check_gemini_wo_via_gemini_sv": "YES \n",
-        "_compare_via_gemini_sv": "TRANSLATION 2.  Translation 2 is more accurate as it directly translates \"CO₂ tax\" to \"koldioxidskatt\", which is the common Swedish term. \n",
-        "_compare_to_second_via_gemini_sv": "TRANSLATION 2. \"Omröstning om koldioxidskatt\" is a more accurate translation because it directly translates \"CO₂ tax\" to \"koldioxidskatt\" while translation 1 uses a more general term \"CO₂-skatt\". \n",
-        "_compare_via_gpt_sv": "EQUAL\n\nBoth translations accurately convey the meaning of the original English text, with \"CO₂-skatt\" and \"koldioxidskatt\" being interchangeable terms for CO₂ tax in Swedish.",
-        "_compare_to_second_via_gpt_sv": "EQUAL\n\nBoth translations accurately convey the meaning of the original English text, with \"CO₂-skatt\" and \"koldioxidskatt\" being interchangeable terms for CO₂ tax in Swedish."
+  "_id": "co2-pricing-poll",
+  "heading": {
+    "de": "Abstimmung über den CO₂-Preis",
+    "ru": "Опрос о налоге на CO₂",
+    "en": "Poll on the CO₂ tax",
+    "ar": "استطلاع حول ضريبة CO₂",
+    "fr": "Vote sur la taxe CO₂"
+  },
+  "description": {
+    "de": "Bitte stimmen Sie über die Entwicklung der CO₂-Steuer ab.\n<br>\nDie CO₂-Steuer wird auf die fossilen Brennstoffe Kohle, Öl und Gas erhoben, abhängig von ihrem Kohlenstoffgehalt.\n<br>\nDiese Steuer wirkt sich auf die Preise aller Waren aus, die entweder direkt oder indirekt fossile Brennstoffe verwenden oder für ihre Herstellung fossile Brennstoffe benötigen.\n<br>\nSie soll einen Anreiz setzen, Energie zu sparen und Waren mit geringen CO₂-Emissionen herzustellen.",
+    "ru": "Пожалуйста, проголосуйте за разработку налога на CO₂.\n\nНалог на CO₂ взимается с ископаемых видов топлива - угля, нефти и газа, в зависимости от содержания в них углерода.\nЭтот налог влияет на цены всех товаров, которые прямо или косвенно используют ископаемое топливо или требуют ископаемого топлива для своего производства.\nОн призван стимулировать экономию энергии и производство товаров с низким уровнем выбросов CO₂.",
+    "en": "Please vote on the development of the CO₂ tax.\n\nThe CO₂ tax is levied on the fossil fuels coal, oil and gas, depending on their carbon content.\nThis tax affects the prices of all goods that either directly or indirectly use fossil fuels or require fossil fuels for their production.\nIt is intended to provide an incentive to save energy and produce goods with low CO₂ emissions.",
+    "ar": "يرجى التصويت على تطوير ضريبة CO₂.\n\nيتم فرض ضريبة CO₂ على الفحم والنفط والغاز من الوقود الأحفوري ، اعتمادا على محتواها من الكربون.\nتؤثر هذه الضريبة على أسعار جميع السلع التي تستخدم الوقود الأحفوري بشكل مباشر أو غير مباشر أو تتطلب الوقود الأحفوري لإنتاجها.\nوتهدف إلى توفير حافز لتوفير الطاقة وإنتاج سلع ذات انبعاثات منخفضة من CO₂.",
+    "fr": "Veuillez voter sur le développement de la taxe CO₂.\n\nLa taxe CO₂ est prélevée sur les combustibles fossiles tels que le charbon, le pétrole et le gaz, en fonction de leur teneur en carbone.\nCette taxe affecte les prix de tous les biens qui utilisent directement ou indirectement des combustibles fossiles ou qui en ont besoin pour leur production.\nElle vise à inciter à économiser l'énergie et à produire des biens à faible émission de CO₂."
+  },
+  "multipleChoice": false,
+  "choices": [
+    {
+      "name": "raise",
+      "isDefault": false,
+      "uiStrings": {
+        "de": "Erhöhen um 25€ pro Tonne",
+        "ru": "Увеличение на 2000 ₽ за тонну",
+        "en": "Raise by 25€ per ton",
+        "ar": "رفع بنسبة 25 € لكل طن",
+        "fr": "Augmenter de 25€ par tonne"
+      }
     },
-    "description": {
-        "de": "Bitte stimmen Sie über die Entwicklung der CO₂-Steuer ab.\n<br>\nDie CO₂-Steuer wird auf die fossilen Brennstoffe Kohle, Öl und Gas erhoben, abhängig von ihrem Kohlenstoffgehalt.\n<br>\nDiese Steuer wirkt sich auf die Preise aller Waren aus, die entweder direkt oder indirekt fossile Brennstoffe verwenden oder für ihre Herstellung fossile Brennstoffe benötigen.\n<br>\nSie soll einen Anreiz setzen, Energie zu sparen und Waren mit geringen CO₂-Emissionen herzustellen.",
-        "ru": "Пожалуйста, проголосуйте за разработку налога на CO₂.\n\nНалог на CO₂ взимается с ископаемых видов топлива - угля, нефти и газа, в зависимости от содержания в них углерода.\nЭтот налог влияет на цены всех товаров, которые прямо или косвенно используют ископаемое топливо или требуют ископаемого топлива для своего производства.\nОн призван стимулировать экономию энергии и производство товаров с низким уровнем выбросов CO₂.",
-        "en": "Please vote on the development of the CO₂ tax.\n\nThe CO₂ tax is levied on the fossil fuels coal, oil and gas, depending on their carbon content.\nThis tax affects the prices of all goods that either directly or indirectly use fossil fuels or require fossil fuels for their production.\nIt is intended to provide an incentive to save energy and produce goods with low CO₂ emissions.",
-        "ar": "يرجى التصويت على تطوير ضريبة CO₂.\n\nيتم فرض ضريبة CO₂ على الفحم والنفط والغاز من الوقود الأحفوري ، اعتمادا على محتواها من الكربون.\nتؤثر هذه الضريبة على أسعار جميع السلع التي تستخدم الوقود الأحفوري بشكل مباشر أو غير مباشر أو تتطلب الوقود الأحفوري لإنتاجها.\nوتهدف إلى توفير حافز لتوفير الطاقة وإنتاج سلع ذات انبعاثات منخفضة من CO₂.",
-        "fr": "Veuillez voter sur le développement de la taxe CO₂.\n\nLa taxe CO₂ est prélevée sur les combustibles fossiles tels que le charbon, le pétrole et le gaz, en fonction de leur teneur en carbone.\nCette taxe affecte les prix de tous les biens qui utilisent directement ou indirectement des combustibles fossiles ou qui en ont besoin pour leur production.\nElle vise à inciter à économiser l'énergie et à produire des biens à faible émission de CO₂.",
-        "_wo_sv": "Rösta gärna om utvecklingen av CO₂-skatten.\n\nCO₂-skatten tas ut på fossila bränslen som kol, olja och gas, beroende på deras kolhalt.\nDenna skatt påverkar priserna på alla varor som antingen direkt eller indirekt använder fossila bränslen eller kräver fossila bränslen för sin produktion.\nDen är avsedd att ge ett incitament att spara energi och producera varor med låga CO₂-utsläpp.",
-        "_gemini_wo_sv": "Vänligen rösta om utvecklingen av CO₂-skatten.\n\nCO₂-skatten tas ut på de fossila bränslena kol, olja och gas, beroende på deras kolinnehåll. \nDenna skatt påverkar priserna på alla varor som antingen direkt eller indirekt använder fossila bränslen eller kräver fossila bränslen för sin produktion. \nDen är avsedd att ge ett incitament att spara energi och producera varor med låga CO₂-utsläpp. \n",
-        "_check_wo_sv": "YES",
-        "_check_wo_via_gemini_sv": "YES \n",
-        "_check_gemini_wo_sv": "YES",
-        "_check_gemini_wo_via_gemini_sv": "YES \n",
-        "_compare_via_gemini_sv": "EQUAL. Both translations are accurate and use similar language, with only slight differences in wording. \n",
-        "_compare_to_second_via_gemini_sv": "EQUAL. Both translations are accurate and capture the meaning of the original text. \n",
-        "_compare_via_gpt_sv": "TRANSLATION 1\n\nTranslation 1 is more accurate because it uses \"Rösta gärna\" which is a more natural and polite way to ask someone to vote in Swedish.",
-        "_compare_to_second_via_gpt_sv": "TRANSLATION 1\n\nTranslation 1 is more accurate because it uses \"Rösta gärna\" which is a more natural and polite way to ask someone to vote in Swedish."
+    {
+      "name": "maintain",
+      "isDefault": false,
+      "uiStrings": {
+        "de": "Unverändert lassen",
+        "ru": "Оставить без изменений",
+        "en": "Leave as is",
+        "ar": "اترك كما هي",
+        "fr": "Laisser tel quel"
+      }
     },
-    "multipleChoice": false,
-    "choices": [
-        {
-            "name": "raise",
-            "isDefault": false,
-            "uiStrings": {
-                "de": "Erhöhen um 25€ pro Tonne",
-                "ru": "Увеличение на 2000 ₽ за тонну",
-                "en": "Raise by 25€ per ton",
-                "ar": "رفع بنسبة 25 € لكل طن",
-                "fr": "Augmenter de 25€ par tonne",
-                "_wo_sv": "Höj med 25€ per ton",
-                "_gemini_wo_sv": "Höj med 25€ per ton \n",
-                "_check_wo_sv": "YES",
-                "_check_wo_via_gemini_sv": "YES \n",
-                "_check_gemini_wo_sv": "YES",
-                "_check_gemini_wo_via_gemini_sv": "YES\n",
-                "_compare_via_gemini_sv": "EQUAL. Both translations are identical. \n",
-                "_compare_to_second_via_gemini_sv": "EQUAL. Both translations are identical and accurately convey the meaning of the original English sentence. \n",
-                "_compare_via_gpt_sv": "EQUAL\n\nBoth translations are identical and accurately convey the original English text.",
-                "_compare_to_second_via_gpt_sv": "EQUAL\n\nBoth translations are identical and accurately convey the original English text."
-            }
-        },
-        {
-            "name": "maintain",
-            "isDefault": false,
-            "uiStrings": {
-                "de": "Unverändert lassen",
-                "ru": "Оставить без изменений",
-                "en": "Leave as is",
-                "ar": "اترك كما هي",
-                "fr": "Laisser tel quel",
-                "_wo_sv": "Lämna som det är",
-                "_gemini_wo_sv": "Lämna som det är \n",
-                "_check_wo_sv": "YES",
-                "_check_wo_via_gemini_sv": "YES \n",
-                "_check_gemini_wo_sv": "YES",
-                "_check_gemini_wo_via_gemini_sv": "YES \n",
-                "_compare_via_gemini_sv": "EQUAL. Both translations are identical and accurately convey the meaning of the original English phrase. \n",
-                "_compare_to_second_via_gemini_sv": "EQUAL. Both translations are equally accurate and convey the same meaning. \n",
-                "_compare_via_gpt_sv": "EQUAL\n\nBoth translations are identical and accurately convey the meaning of the original English text.",
-                "_compare_to_second_via_gpt_sv": "EQUAL\n\nBoth translations are identical and accurately convey the meaning of the original English text."
-            }
-        },
-        {
-            "name": "lower",
-            "isDefault": false,
-            "uiStrings": {
-                "de": "Verringern um 25€ pro Tonne",
-                "ru": "Снижение на 2000 ₽ за тонну",
-                "en": "Lower by 35€ per ton",
-                "ar": "أقل بمقدار 35 يورو للطن",
-                "fr": "Diminuer de 35€ par tonne",
-                "_wo_sv": "Sänk med 35€ per ton",
-                "_gemini_wo_sv": "Lägre med 35€ per ton \n",
-                "_check_wo_sv": "YES",
-                "_check_wo_via_gemini_sv": "YES \n",
-                "_check_gemini_wo_sv": "YES",
-                "_check_gemini_wo_via_gemini_sv": "YES \n",
-                "_compare_via_gemini_sv": "TRANSLATION 1.  Translation 1 is more accurate as it reflects the active voice of the original sentence, while translation 2 uses a passive construction. \n",
-                "_compare_to_second_via_gemini_sv": "TRANSLATION 1.  \"Sänk med 35€ per ton\" is more accurate because it conveys the same meaning of lowering something by a certain amount. \n",
-                "_compare_via_gpt_sv": "TRANSLATION 1\n\nExplanation: \"Sänk med 35€ per ton\" accurately translates to \"Lower by 35€ per ton,\" while \"Lägre med 35€ per ton\" implies \"Lower with 35€ per ton,\" which is less precise.",
-                "_compare_to_second_via_gpt_sv": "TRANSLATION 1\n\nExplanation: \"Sänk med 35€ per ton\" accurately translates to \"Lower by 35€ per ton,\" while \"Lägre med 35€ per ton\" implies \"Lower with 35€ per ton,\" which is less precise."
-            }
-        },
-        {
-            "name": "abstain",
-            "isDefault": true,
-            "uiStrings": {
-                "de": "Enthaltung",
-                "ru": "Воздержался",
-                "en": "Abstain",
-                "ar": "امتنع",
-                "fr": "S'abstenir",
-                "_wo_sv": "Avstå",
-                "_gemini_wo_sv": "Avstå \n",
-                "_check_wo_sv": "YES",
-                "_check_wo_via_gemini_sv": "YES \n",
-                "_check_gemini_wo_sv": "YES",
-                "_check_gemini_wo_via_gemini_sv": "YES \n",
-                "_compare_via_gemini_sv": "EQUAL. Both translations are equally accurate and convey the same meaning. \n",
-                "_compare_to_second_via_gemini_sv": "EQUAL. Both translations are equally accurate, both simply mean \"abstain\". \n",
-                "_compare_via_gpt_sv": "EQUAL\n\nBoth translations are identical and accurately translate the English word \"Abstain\" to Swedish.",
-                "_compare_to_second_via_gpt_sv": "EQUAL\n\nBoth translations are identical and accurately convey the meaning of the original English word \"Abstain.\""
-            }
-        }
-    ]
+    {
+      "name": "lower",
+      "isDefault": false,
+      "uiStrings": {
+        "de": "Verringern um 25€ pro Tonne",
+        "ru": "Снижение на 2000 ₽ за тонну",
+        "en": "Lower by 35€ per ton",
+        "ar": "أقل بمقدار 35 يورو للطن",
+        "fr": "Diminuer de 35€ par tonne"
+      }
+    },
+    {
+      "name": "abstain",
+      "isDefault": true,
+      "uiStrings": {
+        "de": "Enthaltung",
+        "ru": "Воздержался",
+        "en": "Abstain",
+        "ar": "امتنع",
+        "fr": "S'abstenir"
+      }
+    }
+  ]
 }
