@@ -1,0 +1,35 @@
+{
+    "schedule": {
+      "conditions": [
+        {
+          "path": "..globalMeanTemperature.series.GMT [Kelvins by year]",
+          "configurationType": "PROJECTION_RESULT",
+          "value": 3.6,
+          "operator": "GTE"
+        }
+      ]
+    },
+    "name": "Mozambique 4 (Trigger 3.6 °C)",
+    "actions": [
+      {
+        "notification": {
+          "sendEmail": true,
+          "title": {
+            "de": "Teile Mosambiks überschwemmt, restlicher Teil von Hurricane stark zerstört",
+            "ru": "Часть Мозамбика затоплена, оставшаяся часть сильно повреждена ураганом",
+            "en": "Parts of Mozambique flooded, remaining part badly damaged by hurricane",
+            "ar": "تعرضت أجزاء من موزمبيق للفيضانات، في حين تضررت الجزء المتبقي بشدة جراء الإعصار.",
+            "fr": "Des parties du Mozambique ont été inondées, tandis que la partie restante a été gravement endommagée par l'ouragan."
+
+          },
+          "body": {
+            "de": "Mosambik, das afrikanische Land an der Küste zum Indischen Ozean, ist extrem stark von dem Anstieg des Meeresspiegels betroffen. Weite Teile des Landes sind dadurch unbewohnbar geworden. Die Bevölkerung ist immer mehr ins Landesinnere umgesiedelt, da sie vor dem näherkommenden Wasser fliehen musste. \n\n Als wäre das nicht schon gravierend genug, hat ein Hurricane großflächige Zerstörung in den restlichen Teilen des Landes angerichtet. Beinahe 90 % der mosambikanischen Bevölkerung ist obdachlos. Finanzielle Mittel zum Wiederaufbau sind kaum vorhanden. Die ohnehin schwierige Lage für die Landwirtschaft wurde durch den Hurricane in ihrer Infrastruktur weitläufig zerstört. Obdachlosigkeit, Hungersnot und drastisch verschlechterte Gesundheitszustände sorgen für einen Überlebenskampf in dem südostafrikanischen Land. \n\n Selbst die städtische Gesundheitsversorgung ist kaum noch existent. Krankenhäuser und weitere Gesundheitseinrichtungen sind kaum mehr in Betrieb aufgrund des Mangels an Energie und Medikamenten. Aufgrund eigener Herausforderungen kommt mittlerweile kaum noch internationale Hilfe von anderen Ländern an, obwohl sie so dringend benötigt wird. Die mosambikanische Bevölkerung wird weitestgehend ihrem eigenen Schicksal überlassen.",
+            "ru": "Мозамбик, африканская страна на побережье Индийского океана, чрезвычайно пострадала от повышения уровня моря. В результате этого значительные районы страны стали непригодными для проживания. Население все больше перемещается вглубь страны, спасаясь от приближающихся вод. \n\n Как будто это было недостаточно серьезно, ураган вызвал широкомасштабные разрушения в остальных частях страны. Почти 90 % населения Мозамбика являются бездомными. Финансовые ресурсы для восстановления практически отсутствуют. И без того сложная ситуация в сельском хозяйстве привела к тому, что его инфраструктура была полностью разрушена ураганом. Бездомность, голод и резко ухудшившееся состояние здоровья заставляют бороться за выживание в стране на юго-востоке Африки. \n\n Даже в городах здравоохранение практически отсутствует. Больницы и другие медицинские учреждения практически не функционируют из-за отсутствия энергии и медикаментов. Из-за собственных проблем в это время почти не поступает международная помощь из других стран, хотя она так остро необходима. Население Мозамбика в значительной степени брошено на произвол судьбы.",
+            "en": "Mozambique, the African country on the coast of the Indian Ocean, has been extremely affected by rising sea levels. Large parts of the country have become uninhabitable as a result. The population has increasingly moved inland, fleeing the approaching waters. \n\n As if that were not serious enough, a hurricane caused widespread destruction in the remaining parts of the country. Almost 90 % of the Mozambican population is homeless. Financial resources for reconstruction are almost non-existent. The already difficult situation for agriculture has had its infrastructure widely destroyed by the hurricane. Homelessness, famine and drastically worsened health conditions make for a struggle for survival in the south-east African country. \n\n Even urban health care is almost non-existent. Hospitals and other health facilities are barely functioning due to the lack of energy and medicines. Due to its own challenges, hardly any international aid from other countries arrives in the meantime, although it is so urgently needed. The Mozambican population is largely left to its own fate.",
+            "fr": "Le Mozambique, le pays africain situé sur la côte de l'océan Indien, a été extrêmement touché par la montée du niveau de la mer. De vastes parties du pays sont devenues inhabitables en conséquence. La population s'est de plus en plus déplacée vers l'intérieur des terres pour fuir les eaux qui avancent. \n\n Comme si cela ne suffisait pas, un ouragan a causé des destructions massives dans les parties restantes du pays. Près de 90 % de la population mozambicaine est sans abri. Les ressources financières pour la reconstruction sont presque inexistantes. La situation déjà difficile pour l'agriculture a vu son infrastructure largement détruite par l'ouragan. Le sans-abrisme, la famine et les conditions de santé considérablement aggravées rendent la survie difficile dans ce pays d'Afrique du Sud-Est. \n\n Même les soins de santé en milieu urbain sont presque inexistants. Les hôpitaux et autres établissements de santé fonctionnent à peine en raison du manque d'énergie et de médicaments. En raison de ses propres défis, presque aucune aide internationale des autres pays n'arrive entre-temps, bien qu'elle soit si urgente. La population mozambicaine est en grande partie livrée à son propre sort.",
+            "ar": "أثرت موزمبيق، البلد الأفريقي الواقع على ساحل المحيط الهندي، بشكل كبير بارتفاع منسوب سطح البحر. أصبحت أجزاء كبيرة من البلاد غير صالحة للسكن نتيجة لذلك. اضطر السكان للانتقال بشكل متزايد نحو الداخل، هربًا من اقتراب المياه. \n\n وكأن ذلك لم يكن كافيًا، تسبب إعصار في دمار واسع النطاق في الأجزاء المتبقية من البلاد. تقريبًا 90٪ من السكان الموزمبيقيين لا يملكون مأوى. الموارد المالية لإعادة الإعمار تكاد تكون غير موجودة. الحالة الصعبة بالفعل للزراعة تسببت في تدمير البنية التحتية بشكل واسع من قبل الإعصار. البيوت المشردة، والجوع، وتدهور الحالة الصحية بشكل كبير تجعل البلاد الإفريقية جنوب شرق صعبة المعيشة. \n\n حتى الرعاية الصحية الحضرية تكاد تكون غير موجودة. المستشفيات والمرافق الصحية الأخرى تعمل بصعوبة بسبب نقص الطاقة والأدوية. بسبب التحديات الخاصة بها، تصل القليل جدًا من المساعدات الدولية من البلدان الأخرى في الوقت الحالي، على الرغم من الحاجة الملحة لها. تركت السلطات الموزمبيقية السكان بشكل كبير لمصيرهم الخاص."
+          }
+        }
+      }
+    ]
+  }

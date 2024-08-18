@@ -1,0 +1,35 @@
+{
+  "schedule": {
+    "conditions": [
+      {
+        "path": "..seaLevel.series.elevation [meters by year]",
+        "configurationType": "PROJECTION_RESULT",
+        "value": 0.8,
+        "operator": "GT"
+      }
+    ]
+  },
+  "name": "Bremerhaven flooded (Trigger sea level rise 0.8 m)",
+  "actions": [
+    {
+      "notification": {
+        "sendEmail": false,
+        "title": {
+          "de": "Die Seestadt Bremerhaven wird zum fünften Mal in diesem Jahr überflutet",
+          "ru": "Приморский город Бремерхафен был затоплен уже в пятый раз в этом году",
+          "en": "Seaside city of Bremerhaven has been flooded for the fifth time this year.",
+          "ar": "تعرضت مدينة بريمرهافن الساحلية للفيضان للمرة الخامسة هذا العام.",
+          "fr": "La ville balnéaire de Bremerhaven a été inondée pour la cinquième fois cette année."
+        },
+        "body": {
+          "de": "<img width=250  src=\"https://static.dw.com/image/58274551_403.jpg\"><br>Die Seestadt Bremerhaven wurde in diesem Jahr bereits zum fünften Mal überflutet. Die Deiche sind nicht mehr die beste Lösung. Auch Finnland und die Niederlande verlieren ihr Land an das Meer. Die Bürger fordern Maßnahmen und Unterstützung.",
+          "ru": "<img width=250  src=\"https://static.dw.com/image/58274551_403.jpg\"><br>Приморский город Бремерхафен был затоплен уже в пятый раз в этом году. Дамбы больше не являются эффективным решением. Финляндия и Нидерланды также теряют свои земли морю. Граждане требуют действий и финансовой поддержки.",
+          "en": "<img width=250  src=\"https://static.dw.com/image/58274551_403.jpg\"><br>Seaside city of Bremerhaven has been flooded for the fifth time this year. Dikes are no longer effective solution. Finland and Netherlands are also losing their land to the sea. Citizens demand action and support.",
+          "ar": "<img width=250  src=\"https://static.dw.com/image/58274551_403.jpg\"><br>تعرضت مدينة بريمرهافن الساحلية للفيضان للمرة الخامسة هذا العام. السدود لم تعد حلاً فعالاً. كما أن فنلندا وهولندا تفقدان أراضيهما للبحر. المواطنون يطالبون باتخاذ إجراءات وتقديم الدعم.",
+          "fr": "<img width=250  src=\"https://static.dw.com/image/58274551_403.jpg\"><br>La ville balnéaire de Bremerhaven a été inondée pour la cinquième fois cette année. Les digues ne sont plus une solution efficace. La Finlande et les Pays-Bas perdent également leurs terres face à la mer. Les citoyens demandent des actions et un soutien."
+
+        }
+      }
+    }
+  ]
+}

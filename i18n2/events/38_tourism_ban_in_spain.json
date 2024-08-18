@@ -1,0 +1,34 @@
+{
+  "schedule": {
+    "conditions": [
+      {
+        "path": "..globalMeanTemperature.series.GMT [Kelvins by year]",
+        "configurationType": "PROJECTION_RESULT",
+        "value": 2.0,
+        "operator": "GTE"
+      }
+    ]
+  },
+  "name": "Water shortage (Trigger 2.0°C and IPCC WG II)",
+  "actions": [
+    {
+      "notification": {
+        "sendEmail": false,
+        "title": {
+          "de": "Tourismus-Verbot in Südspanien",
+          "ru": "Запрет на туризм на юге Испании",
+          "en": "Tourism Ban in Southern Spain",
+          "fr": "Interdiction du tourisme dans le sud de l'Espagne",
+          "ar": "حظر السياحة في جنوب إسبانيا"
+        },
+        "body": {
+          "de": "<img width=250 src=\"../../../content/images/events/38_tourisim_ban_in_spain.jpg\"><br>Aufgrund der extremen Wasserknappheit im Süden des Landes hat die spanische Regierung ein Urlaubs- und Reiseverbot für die Region verhängt. \nTrotz der enormen wirtschaftlichen Einbußen, die zu befürchten sind, habe man diese Entscheidung treffen müssen, hieß es in einer Erklärung der Regierung. Die umfassenden Maßnahmen zur Wassereinsparung reichten schon lange nicht mehr aus und durch den Tourismus komme es zu einem erheblichen Mehrverbrauch von Wasserressourcen. \nAufgrund steigender Temperaturen und anhaltender Dürren herrscht in Südeuropa extreme Wasserknappheit. Ein Drittel der südeuropäischen Bevölkerung ist unmittelbar betroffen.<br>Text von treibhauspost.de",
+          "ru": "<img width=250 src=\"../../../content/images/events/38_tourisim_ban_in_spain.jpg\"><br>Из-за крайней нехватки воды на юге страны испанское правительство ввело запрет на туризм и путешествия в регионе. Несмотря на огромные экономические убытки, которые могут возникнуть, такое решение пришлось принять, сообщило правительство в своем заявлении. Обширные меры по экономии воды уже давно перестали быть достаточными, и из-за туризма происходит значительное увеличение потребления водных ресурсов. Из-за роста температур и продолжительной засухи в Южной Европе наблюдается крайняя нехватка воды. Один треть южноевропейского населения непосредственно пострадала.<br>Текст с treibhauspost.de",
+          "en": "<img width=250 src=\"../../../content/images/events/38_tourisim_ban_in_spain.jpg\"><br>Due to the extreme water scarcity in the southern part of the country, the Spanish government has imposed a ban on vacations and travel to the region. Despite the significant economic losses anticipated, the government stated that this decision had to be made, according to an official statement. The comprehensive water-saving measures have long ceased to be effective, and tourism is leading to a substantial increase in water resource consumption. Southern Europe is facing extreme water scarcity due to rising temperatures and persistent droughts. One-third of the southern European population is directly affected.<br>Text from treibhauspost.de",
+          "ar": "<img width=250 src=\"../../../content/images/events/38_tourisim_ban_in_spain.jpg\"><br>نتيجةً لندرة المياه المتطرفة في جنوب البلاد، فرضت الحكومة الإسبانية حظرًا على العطلات والسفر إلى المنطقة. على الرغم من التقديرات المتعلقة بالخسائر الاقتصادية الكبيرة المتوقعة، أشارت الحكومة إلى أنه كان لا بد من اتخاذ هذا القرار، وفقًا لبيان رسمي. توقفت التدابير الشاملة لتوفير المياه منذ فترة طويلة، والسياحة تؤدي إلى زيادة كبيرة في استهلاك موارد المياه. جنوب أوروبا تواجه نقصًا شديدًا في المياه بسبب ارتفاع درجات الحرارة والجفاف المستمر. ثلث سكان جنوب أوروبا متأثرون بشكل مباشر.<br>نص من treibhauspost.de",
+          "fr": "<img width=250 src=\"../../../content/images/events/38_tourisim_ban_in_spain.jpg\"><br>En raison de la pénurie d'eau extrême dans le sud du pays, le gouvernement espagnol a imposé une interdiction de vacances et de voyages dans la région. Malgré les pertes économiques importantes à craindre, le gouvernement a déclaré qu'il devait prendre cette décision, selon une déclaration officielle. Les mesures complètes d'économie d'eau ne sont plus efficaces depuis longtemps, et le tourisme entraîne une augmentation substantielle de la consommation de ressources en eau. L'Europe du Sud fait face à une pénurie d'eau extrême en raison de l'augmentation des températures et des sécheresses persistantes. Un tiers de la population de l'Europe du Sud est directement touché.<br>Texte de treibhauspost.de"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "schedule": {
+    "conditions": [
+      {
+        "path": "..globalMeanTemperature.series.GMT [Kelvins by year]",
+        "configurationType": "PROJECTION_RESULT",
+        "value": 1.5,
+        "operator": "GT"
+      }
+    ]
+  },
+  "name": "Forest fires affecting Europe and Africa (Trigger 1.5 °C)",
+  "actions": [
+    {
+      "notification": {
+        "sendEmail": false,
+        "title": {
+          "de": "Roter Himmel des Unheils: Überlegen Sie sich gut, wo Sie Ihren nächsten Urlaub buchen!",
+          "ru": "Красное небо обреченности: Хорошо подумайте о том, где вы бронируете свой следующий отпуск!",
+          "en": "Red sky of doom: Think carefully about where you book your next holiday!",
+          "ar": "سماء حمراء من الهلاك: فكروا جيدًا في أي مكان تحجزون فيه عطلتكم القادمة!",
+          "fr": "Le ciel rouge de la perdition : Réfléchissez attentivement à l'endroit où vous réservez vos prochaines vacances !"
+        },
+        "body": {
+          "de": "<img width=250  src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"><br>Entlang des Mittelmeeres bedrohen riesige Waldbrände weiterhin beliebte Touristengegenden. Die Auswirkungen auf Flora und Fauna sind verheerend. Bitte seien Sie vorsichtig!",
+          "ru": "<img width=250  src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"><br>Вдоль Средиземного моря огромные лесные пожары продолжают угрожать популярным туристическим районам. Влияние на флору и фауну разрушительно. Пожалуйста, будьте осторожны!",
+          "en": "<img width=250  src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"><br>Along the Mediterranean, huge forest fires continue to threaten popular tourist areas. The effect on flora and fauna is devastating. Please be careful!",
+          "ar": "<img width=250  src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"><br>تستمر الحرائق الكبيرة في الغابات على طول البحر الأبيض المتوسط في تهديد مناطق السياحة الشهيرة. لقد ترتب على النباتات والحيوانات آثارًا كارثية. الرجاء أخذ الحيطة والحذر!",
+          "fr": "<img width=250  src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"><br>Le long de la Méditerranée, d'immenses incendies de forêt continuent de menacer les zones touristiques populaires. Les conséquences sur la flore et la faune sont dévastatrices. Soyez prudent(e) !"
+        }
+
+      }
+    }
+  ]
+}

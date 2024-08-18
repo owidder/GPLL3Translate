@@ -1,0 +1,35 @@
+{
+  "schedule": {
+    "date": "2050-01-01T00:00:00",
+    "conditions": [
+      {
+        "path": "..globalMeanTemperature.series.GMT [Kelvins by year]",
+        "configurationType": "PROJECTION_RESULT",
+        "value": 1.4,
+        "operator": "GTE"
+      }
+    ]
+  },
+  "name": "Thawing of the permafrost (Trigger 2050 and RCP 4.5)",
+  "actions": [
+    {
+      "notification": {
+        "sendEmail": false,
+        "title": {
+          "de": "EU-Rettungsschirm für panarktischen Raum",
+          "ru": "ЕС создаёт фонд помощи для панарктической зоны",
+          "en": "EU Rescue Umbrella for Pan-Arctic Region",
+          "fr": "Parapluie de sauvetage de l'UE pour la région panarctique",
+          "ar": "مظلة الإنقاذ الأوروبية للمنطقة القطبية القطبية"
+        },
+        "body": {
+          "de": "<img width=250 src=\"../../../content/images/events/40_rescu_umbrella_for_pen_arctic_region.jpg\"><br>Die globale Erwärmung des Klimas sorgt bereits seit Jahren für das Abtauen von Permafrostgebieten. Die Infrastruktur im panarktischen Raum ist mittlerweile stark beschädigt. Betroffen sind rund 1.200 Siedlungen mit Schäden in Millionenhöhe.<br>Text von treibhauspost.de",
+          "ru": "<img width=250 src=\"../../../content/images/events/40_rescu_umbrella_for_pen_arctic_region.jpg\"><br>Глобальное потепление климата уже несколько лет приводит к оттаиванию постоянно замерзших районов. Инфраструктура в панарктической зоне сильно повреждена. Пострадали около 1 200 поселений с ущербом в миллионах долларов.<br>Текст с treibhauspost.de",
+          "en": "<img width=250 src=\"../../../content/images/events/40_rescu_umbrella_for_pen_arctic_region.jpg\"><br>The global warming of the climate has been causing the thawing of permafrost areas for years. Infrastructure in the pan-Arctic region has been heavily damaged. Approximately 1,200 settlements are affected with damages amounting to millions.<br>Text from treibhauspost.de",
+          "ar": "<img width=250 src=\"../../../content/images/events/40_rescu_umbrella_for_pen_arctic_region.jpg\"><br>إن الاحتباس الحراري العالمي للمناخ قد تسبب في ذوبان مناطق الصقيع منذ سنوات. بنية البنية التحتية في المنطقة القطبية القطبية تضررت بشدة. تتأثر حوالي 1200 مستوطنة بأضرار تصل إلى الملايين.<br>نص من treibhauspost.de",
+          "fr": "<img width=250 src=\"../../../content/images/events/40_rescu_umbrella_for_pen_arctic_region.jpg\"><br>Le réchauffement climatique mondial provoque depuis des années la fonte des zones de pergélisol. L'infrastructure dans la région panarctique est désormais fortement endommagée. Environ 1 200 colonies sont touchées par des dommages de plusieurs millions de dollars.<br>Texte de treibhauspost.de"
+        }
+      }
+    }
+  ]
+}

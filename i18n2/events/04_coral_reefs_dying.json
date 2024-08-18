@@ -1,0 +1,35 @@
+{
+  "schedule": {
+    "conditions": [
+      {
+        "path": "..globalMeanTemperature.series.GMT [Kelvins by year]",
+        "configurationType": "PROJECTION_RESULT",
+        "value": 1.4,
+        "operator": "GT"
+      }
+    ]
+  },
+  "name": "Coral reefs are dying (Trigger 1.4 °C)",
+  "actions": [
+    {
+      "notification": {
+        "sendEmail": false,
+        "title": {
+          "de": "Hitzewellen im Meer töten Korallenriffe",
+          "ru": "Морские тепловые волны убивают коралловые рифы",
+          "en": "Marine heat waves are killing coral reefs",
+          "fr": "Les vagues de chaleur marine tuent les récifs coralliens",
+          "ar": "موجات الحرارة البحرية تقتل الشعاب المرجانية"
+        },
+        "body": {
+          "de": "<img width=250  src=\"https://static.dw.com/image/46075549_303.jpg \"><br>Eine große gemeinsame Bestandaufnahme von Meeresforschungsinstituten mehrerer Länder ergab, dass über zwei Drittel aller Korallen durch zu warme Meerestemperaturen gestorben sind.<br>Dies hat katastrophale Auswirkungen auf den Fischbestand, da die Korallenriffe eine wichtiger Aufzuchtsort für eine große Zahl von Fischen, Schalentieren und Krebstieren sind.",
+          "ru": "<img width=250  src=\"https://static.dw.com/image/46075549_303.jpg \"><br>Крупное совместное исследование морских исследовательских институтов нескольких стран показало, что более двух третей всех кораллов погибло из-за чрезмерно теплой температуры океана.<br> Это имеет катастрофические последствия для рыбных запасов, поскольку коралловые рифы являются важным местом обитания большого количества рыб, моллюсков и ракообразных.",
+          "en": "<img width=250  src=\"https://static.dw.com/image/46075549_303.jpg \"><br>A major joint survey by marine research institutes in several countries found that over two-thirds of all corals have died due to excessively warm ocean temperatures.<br>This has disastrous consequences for fish stocks, as coral reefs are an important nursery for a large number of fish, shellfish and crustaceans.",
+          "ar": "<img width=250  src=\"https://static.dw.com/image/46075549_303.jpg \"><br>اكتشفت دراسة مشتركة كبيرة من معاهد البحوث البحرية في عدة بلدان أن أكثر من ثلثي المرجان قد ماتت بسبب ارتفاع درجات حرارة المحيط الزائد.<br> هذا يتسبب في تداعيات كارثية على مخزون الأسماك، حيث تعتبر الشعاب المرجانية موطنًا هامًا لتربية عدد كبير من الأسماك والمحار والقشريات.",
+          "fr": "<img width=250  src=\"https://static.dw.com/image/46075549_303.jpg \"><br>Une enquête conjointe majeure menée par des instituts de recherche marine de plusieurs pays a révélé que plus des deux tiers des coraux sont morts en raison de températures océaniques excessivement chaudes.<br> Cela a des conséquences désastreuses sur les stocks de poissons, car les récifs coralliens sont une nurserie importante pour un grand nombre de poissons, de crustacés et de mollusques."
+
+        }
+      }
+    }
+  ]
+}
