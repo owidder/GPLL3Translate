@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-family: verdana, serif;
+            font-size:12px;
+            border: 1px solid white;
+        }
+        th, td {
+            border-bottom:3px solid white;
+            border-right:3px solid white;
+            padding: 15px;
+            text-align: left;
+        }
+        th {
+            background-color: darkgray;
+        }
+        td {
+            background-color: lightgray;
+        }
+        .endtd {
+            border-right: 3px solid darkgray;
+        }
+        .gpt4w {
+            background-color: lightblue;
+        }
+        .gpt4wo {
+            background-color: lightblue;
+        }
+        .geminiwo {
+            background-color: lightgray;
+        }
+        .compare {
+            background-color: lightgoldenrodyellow;
+        }
+        .compare2 {
+            background-color: lightskyblue;
+        }
+        .llama3 {
+            background-color: rgba(241, 181, 181, 0.50);
+        }
+        .llama3wo {
+            background-color: rgba(241, 181, 181, 0.50);
+        }
+        .source {
+            background-color: palegoldenrod;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                
+                    <th>source text</th>
+                
+                    <th>GPT4</th>
+                
+                    <th>check (GPT4 via GPT4)</th>
+                
+                    <th>check (GPT4 via Gemini)</th>
+                
+                    <th>Gemini</th>
+                
+                    <th>check (Gemini via GPT4)</th>
+                
+                    <th>check (Gemini via Gemini)</th>
+                
+                    <th>compare via GPT</th>
+                
+                    <th>compare via Gemini</th>
+                
+                    <th>compare text (en)</th>
+                
+                    <th>compare via GPT (en)</th>
+                
+                    <th>compare via Gemini (en)</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            
+                <tr>
+                    <td class="endtd source">Poll on the CO₂ tax</td>
+                    <td class="gpt4wo"><span style = 'color: black;'>  Omröstning</span> <span style = 'color: black;'>  om</span> <span style = 'color: red; font-weight: bold;'> CO₂-skatt</span></td>
+                    <td class="gpt4wo">YES</td>
+                    <td class="endtd gpt4wo">YES 
+</td>
+                    <td class="geminiwo"><span style = 'color: black;'>  Omröstning</span> <span style = 'color: black;'>  om</span> <span style = 'color: red; font-weight: bold;'> koldioxidskatt</span></td>
+                    <td class="geminiwo">YES</td>
+                    <td class="endtd geminiwo">YES 
+</td>
+                    <td class="compare">EQUAL
+
+Both translations accurately convey the meaning of the original English text, with "CO₂-skatt" and "koldioxidskatt" being interchangeable terms for CO₂ tax in Swedish.</td>
+                    <td class="compare">TRANSLATION 2.  Translation 2 is more accurate as it directly translates "CO₂ tax" to "koldioxidskatt", which is the common Swedish term. 
+</td>
+                    <td class="compare2">Poll on the CO₂ tax</td>
+                    <td class="compare2">EQUAL
+
+Both translations accurately convey the meaning of the original English text, with "CO₂-skatt" and "koldioxidskatt" being interchangeable terms for CO₂ tax in Swedish.</td>
+                    <td class="compare2">TRANSLATION 2. "Omröstning om koldioxidskatt" is a more accurate translation because it directly translates "CO₂ tax" to "koldioxidskatt" while translation 1 uses a more general term "CO₂-skatt". 
+</td>
+                </tr>
+            
+                <tr>
+                    <td class="endtd source">Please vote on the development of the CO₂ tax.
+
+The CO₂ tax is levied on the fossil fuels coal, oil and gas, depending on their carbon content.
+This tax affects the prices of all goods that either directly or indirectly use fossil fuels or require fossil fuels for their production.
+It is intended to provide an incentive to save energy and produce goods with low CO₂ emissions.</td>
+                    <td class="gpt4wo"><span style = 'color: red; font-weight: bold;'> Rösta</span> <span style = 'color: red; font-weight: bold;'> gärna</span> <span style = 'color: black;'>  om</span> <span style = 'color: black;'>  utvecklingen</span> <span style = 'color: black;'>  av</span> <span style = 'color: black;'>  CO₂-skatten.</span> <span style = 'color: black;'>  CO₂-skatten</span> <span style = 'color: black;'>  tas</span> <span style = 'color: black;'>  ut</span> <span style = 'color: black;'>  på</span> <span style = 'color: black;'>  fossila</span> <span style = 'color: red; font-weight: bold;'> bränslen</span> <span style = 'color: red; font-weight: bold;'> som</span> <span style = 'color: black;'>  kol,</span> <span style = 'color: black;'>  olja</span> <span style = 'color: black;'>  och</span> <span style = 'color: black;'>  gas,</span> <span style = 'color: black;'>  beroende</span> <span style = 'color: black;'>  på</span> <span style = 'color: black;'>  deras</span> <span style = 'color: red; font-weight: bold;'> kolhalt.</span> <span style = 'color: black;'>  Denna</span> <span style = 'color: black;'>  skatt</span> <span style = 'color: black;'>  påverkar</span> <span style = 'color: black;'>  priserna</span> <span style = 'color: black;'>  på</span> <span style = 'color: black;'>  alla</span> <span style = 'color: black;'>  varor</span> <span style = 'color: black;'>  som</span> <span style = 'color: black;'>  antingen</span> <span style = 'color: black;'>  direkt</span> <span style = 'color: black;'>  eller</span> <span style = 'color: black;'>  indirekt</span> <span style = 'color: black;'>  använder</span> <span style = 'color: black;'>  fossila</span> <span style = 'color: black;'>  bränslen</span> <span style = 'color: black;'>  eller</span> <span style = 'color: black;'>  kräver</span> <span style = 'color: black;'>  fossila</span> <span style = 'color: black;'>  bränslen</span> <span style = 'color: black;'>  för</span> <span style = 'color: black;'>  sin</span> <span style = 'color: black;'>  produktion.</span> <span style = 'color: black;'>  Den</span> <span style = 'color: black;'>  är</span> <span style = 'color: black;'>  avsedd</span> <span style = 'color: black;'>  att</span> <span style = 'color: black;'>  ge</span> <span style = 'color: black;'>  ett</span> <span style = 'color: black;'>  incitament</span> <span style = 'color: black;'>  att</span> <span style = 'color: black;'>  spara</span> <span style = 'color: black;'>  energi</span> <span style = 'color: black;'>  och</span> <span style = 'color: black;'>  producera</span> <span style = 'color: black;'>  varor</span> <span style = 'color: black;'>  med</span> <span style = 'color: black;'>  låga</span> <span style = 'color: black;'>  CO₂-utsläpp.</span></td>
+                    <td class="gpt4wo">YES</td>
+                    <td class="endtd gpt4wo">YES 
+</td>
+                    <td class="geminiwo"><span style = 'color: red; font-weight: bold;'> Vänligen</span> <span style = 'color: red; font-weight: bold;'> rösta</span> <span style = 'color: black;'>  om</span> <span style = 'color: black;'>  utvecklingen</span> <span style = 'color: black;'>  av</span> <span style = 'color: black;'>  CO₂-skatten.</span> <span style = 'color: black;'>  CO₂-skatten</span> <span style = 'color: black;'>  tas</span> <span style = 'color: black;'>  ut</span> <span style = 'color: black;'>  på</span> <span style = 'color: red; font-weight: bold;'> de</span> <span style = 'color: black;'>  fossila</span> <span style = 'color: red; font-weight: bold;'> bränslena</span> <span style = 'color: black;'>  kol,</span> <span style = 'color: black;'>  olja</span> <span style = 'color: black;'>  och</span> <span style = 'color: black;'>  gas,</span> <span style = 'color: black;'>  beroende</span> <span style = 'color: black;'>  på</span> <span style = 'color: black;'>  deras</span> <span style = 'color: red; font-weight: bold;'> kolinnehåll.</span> <span style = 'color: black;'>  Denna</span> <span style = 'color: black;'>  skatt</span> <span style = 'color: black;'>  påverkar</span> <span style = 'color: black;'>  priserna</span> <span style = 'color: black;'>  på</span> <span style = 'color: black;'>  alla</span> <span style = 'color: black;'>  varor</span> <span style = 'color: black;'>  som</span> <span style = 'color: black;'>  antingen</span> <span style = 'color: black;'>  direkt</span> <span style = 'color: black;'>  eller</span> <span style = 'color: black;'>  indirekt</span> <span style = 'color: black;'>  använder</span> <span style = 'color: black;'>  fossila</span> <span style = 'color: black;'>  bränslen</span> <span style = 'color: black;'>  eller</span> <span style = 'color: black;'>  kräver</span> <span style = 'color: black;'>  fossila</span> <span style = 'color: black;'>  bränslen</span> <span style = 'color: black;'>  för</span> <span style = 'color: black;'>  sin</span> <span style = 'color: black;'>  produktion.</span> <span style = 'color: black;'>  Den</span> <span style = 'color: black;'>  är</span> <span style = 'color: black;'>  avsedd</span> <span style = 'color: black;'>  att</span> <span style = 'color: black;'>  ge</span> <span style = 'color: black;'>  ett</span> <span style = 'color: black;'>  incitament</span> <span style = 'color: black;'>  att</span> <span style = 'color: black;'>  spara</span> <span style = 'color: black;'>  energi</span> <span style = 'color: black;'>  och</span> <span style = 'color: black;'>  producera</span> <span style = 'color: black;'>  varor</span> <span style = 'color: black;'>  med</span> <span style = 'color: black;'>  låga</span> <span style = 'color: black;'>  CO₂-utsläpp.</span></td>
+                    <td class="geminiwo">YES</td>
+                    <td class="endtd geminiwo">YES 
+</td>
+                    <td class="compare">TRANSLATION 1
+
+Translation 1 is more accurate because it uses "Rösta gärna" which is a more natural and polite way to ask someone to vote in Swedish.</td>
+                    <td class="compare">EQUAL. Both translations are accurate and use similar language, with only slight differences in wording. 
+</td>
+                    <td class="compare2">Please vote on the development of the CO₂ tax.
+
+The CO₂ tax is levied on the fossil fuels coal, oil and gas, depending on their carbon content.
+This tax affects the prices of all goods that either directly or indirectly use fossil fuels or require fossil fuels for their production.
+It is intended to provide an incentive to save energy and produce goods with low CO₂ emissions.</td>
+                    <td class="compare2">TRANSLATION 1
+
+Translation 1 is more accurate because it uses "Rösta gärna" which is a more natural and polite way to ask someone to vote in Swedish.</td>
+                    <td class="compare2">EQUAL. Both translations are accurate and capture the meaning of the original text. 
+</td>
+                </tr>
+            
+                <tr>
+                    <td class="endtd source">Raise by 25€ per ton</td>
+                    <td class="gpt4wo"><span style = 'color: black;'>  Höj</span> <span style = 'color: black;'>  med</span> <span style = 'color: black;'>  25€</span> <span style = 'color: black;'>  per</span> <span style = 'color: black;'>  ton</span></td>
+                    <td class="gpt4wo">YES</td>
+                    <td class="endtd gpt4wo">YES 
+</td>
+                    <td class="geminiwo"><span style = 'color: black;'>  Höj</span> <span style = 'color: black;'>  med</span> <span style = 'color: black;'>  25€</span> <span style = 'color: black;'>  per</span> <span style = 'color: black;'>  ton</span></td>
+                    <td class="geminiwo">YES</td>
+                    <td class="endtd geminiwo">YES
+</td>
+                    <td class="compare">EQUAL
+
+Both translations are identical and accurately convey the original English text.</td>
+                    <td class="compare">EQUAL. Both translations are identical. 
+</td>
+                    <td class="compare2">Raise by 25€ per ton</td>
+                    <td class="compare2">EQUAL
+
+Both translations are identical and accurately convey the original English text.</td>
+                    <td class="compare2">EQUAL. Both translations are identical and accurately convey the meaning of the original English sentence. 
+</td>
+                </tr>
+            
+                <tr>
+                    <td class="endtd source">Leave as is</td>
+                    <td class="gpt4wo"><span style = 'color: black;'>  Lämna</span> <span style = 'color: black;'>  som</span> <span style = 'color: black;'>  det</span> <span style = 'color: black;'>  är</span></td>
+                    <td class="gpt4wo">YES</td>
+                    <td class="endtd gpt4wo">YES 
+</td>
+                    <td class="geminiwo"><span style = 'color: black;'>  Lämna</span> <span style = 'color: black;'>  som</span> <span style = 'color: black;'>  det</span> <span style = 'color: black;'>  är</span></td>
+                    <td class="geminiwo">YES</td>
+                    <td class="endtd geminiwo">YES 
+</td>
+                    <td class="compare">EQUAL
+
+Both translations are identical and accurately convey the meaning of the original English text.</td>
+                    <td class="compare">EQUAL. Both translations are identical and accurately convey the meaning of the original English phrase. 
+</td>
+                    <td class="compare2">Leave as is</td>
+                    <td class="compare2">EQUAL
+
+Both translations are identical and accurately convey the meaning of the original English text.</td>
+                    <td class="compare2">EQUAL. Both translations are equally accurate and convey the same meaning. 
+</td>
+                </tr>
+            
+                <tr>
+                    <td class="endtd source">Lower by 35€ per ton</td>
+                    <td class="gpt4wo"><span style = 'color: red; font-weight: bold;'> Sänk</span> <span style = 'color: black;'>  med</span> <span style = 'color: black;'>  35€</span> <span style = 'color: black;'>  per</span> <span style = 'color: black;'>  ton</span></td>
+                    <td class="gpt4wo">YES</td>
+                    <td class="endtd gpt4wo">YES 
+</td>
+                    <td class="geminiwo"><span style = 'color: red; font-weight: bold;'> Lägre</span> <span style = 'color: black;'>  med</span> <span style = 'color: black;'>  35€</span> <span style = 'color: black;'>  per</span> <span style = 'color: black;'>  ton</span></td>
+                    <td class="geminiwo">YES</td>
+                    <td class="endtd geminiwo">YES 
+</td>
+                    <td class="compare">TRANSLATION 1
+
+Explanation: "Sänk med 35€ per ton" accurately translates to "Lower by 35€ per ton," while "Lägre med 35€ per ton" implies "Lower with 35€ per ton," which is less precise.</td>
+                    <td class="compare">TRANSLATION 1.  Translation 1 is more accurate as it reflects the active voice of the original sentence, while translation 2 uses a passive construction. 
+</td>
+                    <td class="compare2">Lower by 35€ per ton</td>
+                    <td class="compare2">TRANSLATION 1
+
+Explanation: "Sänk med 35€ per ton" accurately translates to "Lower by 35€ per ton," while "Lägre med 35€ per ton" implies "Lower with 35€ per ton," which is less precise.</td>
+                    <td class="compare2">TRANSLATION 1.  "Sänk med 35€ per ton" is more accurate because it conveys the same meaning of lowering something by a certain amount. 
+</td>
+                </tr>
+            
+                <tr>
+                    <td class="endtd source">Abstain</td>
+                    <td class="gpt4wo"><span style = 'color: black;'>  Avstå</span></td>
+                    <td class="gpt4wo">YES</td>
+                    <td class="endtd gpt4wo">YES 
+</td>
+                    <td class="geminiwo"><span style = 'color: black;'>  Avstå</span></td>
+                    <td class="geminiwo">YES</td>
+                    <td class="endtd geminiwo">YES 
+</td>
+                    <td class="compare">EQUAL
+
+Both translations are identical and accurately translate the English word "Abstain" to Swedish.</td>
+                    <td class="compare">EQUAL. Both translations are equally accurate and convey the same meaning. 
+</td>
+                    <td class="compare2">Abstain</td>
+                    <td class="compare2">EQUAL
+
+Both translations are identical and accurately convey the meaning of the original English word "Abstain."</td>
+                    <td class="compare2">EQUAL. Both translations are equally accurate, both simply mean "abstain". 
+</td>
+                </tr>
+            
+        </tbody>
+    </table>
+</body>
+</html>
