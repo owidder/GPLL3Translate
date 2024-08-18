@@ -133,16 +133,13 @@ def ask_gemini(system: str, user: str, model: str):
     return response.text
 
 
-async def get_translation(source_text: str, source_language: str, target_language: str, translations: [(str, str)], llm="gpt"):
+async def get_translation(source_text: str, source_language: str, target_language: str, llm="gpt"):
     system = (
-        f"You are an expert in all languages and climate change. In the following you get an original {LANGUAGES[source_language]} text {'and several translations into other languages' if len(translations) > 0 else ''}."
+        f"You are an expert in all languages and climate change. In the following you get an original {LANGUAGES[source_language]} text."
         f"Translate the original {LANGUAGES[source_language]} text into {LANGUAGES[target_language]}. Ensure that the translated text retains the original meaning, tone, and intent."
         f"The answer has to contain ONLY the translation itself. No explaining text. Otherwise the answer is NOT CORRECT"
     )
     user_lines = [f"Original {LANGUAGES[source_language]}: \"{source_text}\""]
-    if len(translations) > 0:
-        translations_filtered = [language_pair for language_pair in translations if language_pair[0] not in [source_language, target_language]]
-        user_lines.extend([f"{LANGUAGES[language]} Translation: \"{translation}\"" for language, translation in translations_filtered])
     user = "\n".join(user_lines)
     print(f"get_translation for '{source_text}'")
     if llm == "gpt":
@@ -277,167 +274,83 @@ async def crawl_json(data, source_language: str, target_language: str, current_t
                 second_compare_language=second_compare_language,
             )
         print(current_translations)
-        translations = [(language, current_translations.get(language)) for language in CERTIFIED_LANGUAGES]
-        filtered_translations = list(filter(lambda l: l[1] is not None and l[0] != source_language and l[0] != target_language, translations))
         if len(current_translations.keys()) > 0:
-            # if not target_language in data:
-            #     target_translation = await get_translation(
-            #         source_text=current_translations[source_language],
-            #         source_language=source_language,
-            #         target_language=target_language,
-            #         translations=filtered_translations
-            #     )
-            #     data[target_language] = target_translation
-            # else:
-            #     target_translation = data[target_language]
-
-            # target_language_w_property = f"_w_{target_language}"
-            # if target_language in CERTIFIED_LANGUAGES:
-            #     if REDO_CHATGPT or (len(filtered_translations) > 0 and not target_language_w_property in data):
-            #         target_translation_w = await get_translation(
-            #             source_text=data[source_language],
-            #             source_language=source_language,
-            #             target_language=target_language,
-            #             translations=filtered_translations
-            #         )
-            #         data[target_language_w_property] = target_translation_w
-            #     else:
-            #         target_translation_w = data[target_language_w_property]
-            # else:
-            #     target_translation_w = ""
-
-            target_language_wo_property = f"_wo_{target_language}"
-            if REDO_CHATGPT or (len(filtered_translations) > 0 and not target_language_wo_property in data):
-                target_translation_wo = await get_translation(
+            target_language_property = f"_wo_{target_language}"
+            if not target_language_property in data:
+                target_translation = await get_translation(
                     source_text=data[source_language],
                     source_language=source_language,
                     target_language=target_language,
-                    translations=[]
                 )
-                data[target_language_wo_property] = target_translation_wo
+                data[target_language_property] = target_translation
             else:
-                target_translation_wo = data[target_language_wo_property]
+                target_translation = data[target_language_property]
 
-            # target_translation_ll3 = ""
-            # if len(data[source_language]) < 200:
-            #     target_language_ll3_property = f"_ll3_{target_language}"
-            #     if len(filtered_translations) > 0 and not target_language_ll3_property in data:
-            #         target_translation_ll3 = await get_translation(
-            #             source_text=data[source_language],
-            #             source_language=source_language,
-            #             target_language=target_language,
-            #             translations=filtered_translations,
-            #             llm='llama3'
-            #         )
-            #         data[target_language_ll3_property] = target_translation_ll3
-            #     else:
-            #         target_translation_ll3 = data[target_language_ll3_property]
-
-            # target_translation_ll3_wo = ""
-            # target_language_ll3_wo_property = f"_ll3_wo_{target_language}"
-            # if len(filtered_translations) > 0 and not target_language_ll3_wo_property in data:
-            #     target_translation_ll3_wo = await get_translation(
-            #         source_text=data[source_language],
-            #         source_language=source_language,
-            #         target_language=target_language,
-            #         translations=[],
-            #         llm='llama3'
-            #     )
-            #     data[target_language_ll3_wo_property] = target_translation_ll3_wo
-            # else:
-            #     target_translation_ll3_wo = data[target_language_ll3_wo_property]
-
-            target_language_gemini_wo_property = f"_gemini_wo_{target_language}"
-            if len(filtered_translations) > 0 and not target_language_gemini_wo_property in data:
-                target_translation_gemini_wo = await get_translation(
+            target_language_gemini_property = f"_gemini_wo_{target_language}"
+            if not target_language_gemini_property in data:
+                target_translation_gemini = await get_translation(
                     source_text=data[source_language],
                     source_language=source_language,
                     target_language=target_language,
-                    translations=[],
                     llm='gemini'
                 )
-                data[target_language_gemini_wo_property] = target_translation_gemini_wo
+                data[target_language_gemini_property] = target_translation_gemini
             else:
-                target_translation_gemini_wo = data[target_language_gemini_wo_property]
+                target_translation_gemini = data[target_language_gemini_property]
 
-
-            # back_property = f"_back_{target_language}"
-            # if not back_property in data:
-            #     back_translation = get_translation(
-            #         source_text=target_translation,
-            #         source_language=target_language,
-            #         target_language=source_language,
-            #         translations=[]
-            #     )
-            #     data[back_property] = back_translation
-            # else:
-            #     back_translation = data[back_property]
-
-            # check_property = f"_check_{target_language}"
-            # if REDO_CHATGPT or ((not check_property in data) or (RETRY_CHECK and data[check_property].lower() != "yes")):
-            #     check_result = await check_translation(
-            #         source_language=source_language,
-            #         target_language=target_language,
-            #         source_text=current_translations[source_language],
-            #         target_text=target_translation_w if len(target_translation_w) > 0 else target_translation,
-            #     )
-            #     data[check_property] = check_result
-            # else:
-            #     check_result = data[f"_check_{target_language}"]
-
-            check_wo_property = f"_check_wo_{target_language}"
-            if REDO_CHATGPT or (len(filtered_translations) > 0 and ((not check_wo_property in data) or (RETRY_CHECK and data[check_wo_property].lower() != "yes"))):
-                check_wo_result = await check_translation(
+            check_property = f"_check_wo_{target_language}"
+            if (not check_property in data) or (RETRY_CHECK and data[check_property].lower() != "yes"):
+                check_result = await check_translation(
                     source_language=source_language,
                     target_language=target_language,
                     source_text=current_translations[source_language],
-                    target_text=target_translation_wo
+                    target_text=target_translation
                 )
-                data[check_wo_property] = check_wo_result
+                data[check_property] = check_result
             else:
-                check_wo_result = data[check_wo_property]
+                check_result = data[check_property]
 
-            check_wo_via_gemini_property = f"_check_wo_via_gemini_{target_language}"
-            if REDO_CHATGPT or (len(filtered_translations) > 0 and ((not check_wo_via_gemini_property in data) or (RETRY_CHECK and data[check_wo_via_gemini_property].lower() != "yes"))):
-                check_wo_via_gemini_result = await check_translation(
+            check_via_gemini_property = f"_check_wo_via_gemini_{target_language}"
+            if (not check_via_gemini_property in data) or (RETRY_CHECK and data[check_via_gemini_property].lower() != "yes"):
+                check_via_gemini_result = await check_translation(
                     source_language=source_language,
                     target_language=target_language,
                     source_text=current_translations[source_language],
-                    target_text=target_translation_wo,
+                    target_text=target_translation,
                     llm='gemini'
                 )
-                data[check_wo_via_gemini_property] = check_wo_via_gemini_result
+                data[check_via_gemini_property] = check_via_gemini_result
             else:
-                check_wo_via_gemini_result = data[check_wo_via_gemini_property]
+                check_via_gemini_result = data[check_via_gemini_property]
 
-            check_gemini_wo_result = ""
-            if len(target_translation_gemini_wo) > 0:
-                check_gemini_wo_property = f"_check_gemini_wo_{target_language}"
-                if len(filtered_translations) > 0 and ((not check_gemini_wo_property in data) or (RETRY_CHECK and data[check_gemini_wo_property].lower() != "yes")):
-                    check_gemini_wo_result = await check_translation(
+            check_gemini_result = ""
+            if len(target_translation_gemini) > 0:
+                check_gemini_property = f"_check_gemini_wo_{target_language}"
+                if (not check_gemini_property in data) or (RETRY_CHECK and data[check_gemini_property].lower() != "yes"):
+                    check_gemini_result = await check_translation(
                         source_language=source_language,
                         target_language=target_language,
                         source_text=current_translations[source_language],
-                        target_text=target_translation_gemini_wo
+                        target_text=target_translation_gemini
                     )
-                    data[check_gemini_wo_property] = check_gemini_wo_result
+                    data[check_gemini_property] = check_gemini_result
                 else:
-                    check_gemini_wo_result = data[check_gemini_wo_property]
+                    check_gemini_result = data[check_gemini_property]
 
-            check_gemini_wo_via_gemini_result = ""
-            if len(target_translation_gemini_wo) > 0:
-                check_gemini_wo_via_gemini_property = f"_check_gemini_wo_via_gemini_{target_language}"
-                if len(filtered_translations) > 0 and ((not check_gemini_wo_via_gemini_property in data) or (RETRY_CHECK and data[check_gemini_wo_via_gemini_property].lower() != "yes")):
-                    check_gemini_wo_via_gemini_result = await check_translation(
+            check_gemini_via_gemini_result = ""
+            if len(target_translation_gemini) > 0:
+                check_gemini_via_gemini_property = f"_check_gemini_wo_via_gemini_{target_language}"
+                if (not check_gemini_via_gemini_property in data) or (RETRY_CHECK and data[check_gemini_via_gemini_property].lower() != "yes"):
+                    check_gemini_via_gemini_result = await check_translation(
                         source_language=source_language,
                         target_language=target_language,
                         source_text=current_translations[source_language],
-                        target_text=target_translation_gemini_wo,
+                        target_text=target_translation_gemini,
                         llm='gemini'
                     )
-                    data[check_gemini_wo_via_gemini_property] = check_gemini_wo_via_gemini_result
+                    data[check_gemini_via_gemini_property] = check_gemini_via_gemini_result
                 else:
-                    check_gemini_wo_via_gemini_result = data[check_gemini_wo_via_gemini_property]
+                    check_gemini_via_gemini_result = data[check_gemini_via_gemini_property]
 
             compare_via_gemini_property = f"_compare_via_gemini_{target_language}"
             if not compare_via_gemini_property in data:
@@ -445,8 +358,8 @@ async def crawl_json(data, source_language: str, target_language: str, current_t
                     source_language=source_language,
                     target_language=target_language,
                     source_text=current_translations[source_language],
-                    target_text_1=target_translation_wo,
-                    target_text_2=target_translation_gemini_wo,
+                    target_text_1=target_translation,
+                    target_text_2=target_translation_gemini,
                     llm='gemini'
                 )
                 data[compare_via_gemini_property] = compare_via_gemini_result
@@ -460,8 +373,8 @@ async def crawl_json(data, source_language: str, target_language: str, current_t
                         source_language=second_compare_language,
                         target_language=target_language,
                         source_text=current_translations[second_compare_language],
-                        target_text_1=target_translation_wo,
-                        target_text_2=target_translation_gemini_wo,
+                        target_text_1=target_translation,
+                        target_text_2=target_translation_gemini,
                         llm='gemini'
                     )
                     data[compare_to_second_via_gemini_property] = compare_to_second_via_gemini_result
@@ -474,8 +387,8 @@ async def crawl_json(data, source_language: str, target_language: str, current_t
                     source_language=source_language,
                     target_language=target_language,
                     source_text=current_translations[source_language],
-                    target_text_1=target_translation_wo,
-                    target_text_2=target_translation_gemini_wo,
+                    target_text_1=target_translation,
+                    target_text_2=target_translation_gemini,
                     llm='gpt'
                 )
                 data[compare_via_gpt_property] = compare_via_gpt_result
@@ -489,81 +402,29 @@ async def crawl_json(data, source_language: str, target_language: str, current_t
                         source_language=second_compare_language,
                         target_language=target_language,
                         source_text=current_translations[second_compare_language],
-                        target_text_1=target_translation_wo,
-                        target_text_2=target_translation_gemini_wo,
+                        target_text_1=target_translation,
+                        target_text_2=target_translation_gemini,
                         llm='gpt'
                     )
                     data[compare_to_second_via_gpt_property] = compare_to_second_via_gpt_result
                 else:
                     compare_to_second_via_gpt_result = data[compare_to_second_via_gpt_property]
 
-            # check_ll3_result = ""
-            # if len(target_translation_ll3) > 0:
-            #     check_ll3_property = f"_check_ll3_{target_language}"
-            #     if (not check_ll3_property in data) or (RETRY_CHECK and data[check_ll3_property].lower() != "yes"):
-            #         check_ll3_result = await check_translation(
-            #             source_language=source_language,
-            #             target_language=target_language,
-            #             source_text=current_translations[source_language],
-            #             target_text=target_translation_ll3
-            #         )
-            #         data[check_ll3_property] = check_ll3_result
-            #     else:
-            #         check_ll3_result = data[check_ll3_property]
-            #
-            # check_ll3_wo_result = ""
-            # if len(target_translation_ll3_wo) > 0:
-            #     check_ll3_wo_property = f"_check_ll3_wo_{target_language}"
-            #     if len(filtered_translations) > 0 and ((not check_ll3_wo_property in data) or (RETRY_CHECK and data[check_ll3_wo_property].lower() != "yes")):
-            #         check_ll3_wo_result = await check_translation(
-            #             source_language=source_language,
-            #             target_language=target_language,
-            #             source_text=current_translations[source_language],
-            #             target_text=target_translation_ll3_wo
-            #         )
-            #         data[check_ll3_wo_property] = check_ll3_wo_result
-            #     else:
-            #         check_ll3_wo_result = data[check_ll3_wo_property]
-
-            # certified_translation_checks = {}
-            # if WITH_CHECKS_FOR_CERTIFIED_LANGUAGES:
-            #     for check_language in filter(lambda l: l != source_language and l != target_language, CERTIFIED_LANGUAGES):
-            #         if check_language in data:
-            #             check_language_property = f"_check_{check_language}"
-            #             if (not check_language_property in data) or (RETRY_CHECK and data[check_language_property].lower() != "yes"):
-            #                 check_language_result = await check_translation(
-            #                     source_language=source_language,
-            #                     target_language=check_language,
-            #                     source_text=data[source_language],
-            #                     target_text=data[check_language]
-            #                 )
-            #                 data[check_language_property] = check_language_result
-            #             certified_translation_checks[check_language] = f"<span style = 'color: gray; font-weight: bold;'>{data[check_language]}</span><br><br><br>{data[check_language_property]}"
-
             table_lines.append({
                 "id": path,
-                # "translation": create_diff_html(textA=target_translation_wo, textB=target_translation),
-                # "translation_w": create_diff_html(textA=target_translation_wo, textB=target_translation_w) if len(target_translation_w) > 0 else "",
-                # "translation_wo": create_diff_html(textA=target_translation_w if len(target_translation_w) > 0 else target_translation, textB=target_translation_wo),
-                "translation_wo": create_diff_html(target=target_translation_gemini_wo, source=target_translation_wo),
-                # "translation_ll3": create_diff_html(textA=target_translation_ll3_wo, textB=target_translation_ll3),
-                # "translation_ll3_wo": create_diff_html(textA=target_translation_ll3, textB=target_translation_ll3_wo),
-                "translation_gemini_wo": create_diff_html(target=target_translation_wo, source=target_translation_gemini_wo),
+                "translation_wo": create_diff_html(target=target_translation_gemini, source=target_translation),
+                "translation_gemini_wo": create_diff_html(target=target_translation, source=target_translation_gemini),
                 "source_text": current_translations[source_language],
                 "second_compare_text": current_translations[second_compare_language],
                 "official": official,
-                # "check": check_result,
-                "check_wo": check_wo_result,
-                "check_wo_via_gemini": check_wo_via_gemini_result,
-                "check_gemini_wo": check_gemini_wo_result,
-                "check_gemini_wo_via_gemini": check_gemini_wo_via_gemini_result,
+                "check_wo": check_result,
+                "check_wo_via_gemini": check_via_gemini_result,
+                "check_gemini_wo": check_gemini_result,
+                "check_gemini_wo_via_gemini": check_gemini_via_gemini_result,
                 "compare_via_gemini": compare_via_gemini_result,
                 "compare_via_gpt": compare_via_gpt_result,
                 "compare_to_second_via_gemini": compare_to_second_via_gemini_result,
                 "compare_to_second_via_gpt": compare_to_second_via_gpt_result,
-                # "check_ll3": check_ll3_result,
-                # "check_ll3_wo": check_ll3_wo_result,
-                # "certified_translation_checks": certified_translation_checks,
             })
             current_translations.clear()
     elif isinstance(data, list):

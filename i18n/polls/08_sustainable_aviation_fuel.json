@@ -12,7 +12,17 @@
         "_compare_via_gemini_sv": "TRANSLATION 2.  Translation 2 is more accurate as it correctly uses the Swedish term for carbon dioxide (\"koldioxid\"). \n",
         "_compare_to_second_via_gemini_sv": "TRANSLATION 2.  Translation 2 is more accurate because it uses the more common Swedish term \"koldioxid\" for CO₂ instead of the less common \"CO₂\". \n",
         "_compare_via_gpt_sv": "TRANSLATION 2\n\nExplanation: \"Koldioxidfritt\" is a more precise translation of \"CO₂-freien\" than \"CO₂-fri\".",
-        "_compare_to_second_via_gpt_sv": "TRANSLATION 2\n\nExplanation: \"Koldioxidfritt\" is a more precise translation of \"CO₂-free\" compared to \"CO₂-fri\"."
+        "_compare_to_second_via_gpt_sv": "TRANSLATION 2\n\nExplanation: \"Koldioxidfritt\" is a more precise translation of \"CO₂-free\" compared to \"CO₂-fri\".",
+        "_wo_ar": "صوت على الانتقال إلى وقود الطيران خالي من ثاني أكسيد الكربون",
+        "_gemini_wo_ar": "الاقتراع على التحول إلى وقود الطيران الخالي من ثاني أكسيد الكربون \n",
+        "_check_wo_ar": "YES",
+        "_check_wo_via_gemini_ar": "YES \n",
+        "_check_gemini_wo_ar": "YES",
+        "_check_gemini_wo_via_gemini_ar": "YES \n",
+        "_compare_via_gemini_ar": "TRANSLATION 2.  Translation 2 accurately conveys the imperative to vote on the transition to CO₂-free aviation fuel, whereas Translation 1 is more descriptive and lacks the direct call to action. \n",
+        "_compare_to_second_via_gemini_ar": "TRANSLATION 2. Translation 2 is more accurate as it reflects the phrase \"vote on\" from the original text more closely using \"الاقتراع على\" which is more precise than the alternative \"صوت على\" used in Translation 1. \n",
+        "_compare_via_gpt_ar": "TRANSLATION 1\n\nExplanation: Translation 1 accurately captures the imperative \"Vote on\" as \"صوت على,\" while Translation 2 uses \"الاقتراع على\" which means \"the voting on,\" changing the sentence structure.",
+        "_compare_to_second_via_gpt_ar": "TRANSLATION 1\n\nExplanation: Translation 1 directly translates \"Vote on the switch\" accurately, while Translation 2 uses \"الاقتراع\" which means \"the ballot\" and changes the structure of the sentence."
     },
     "description": {
         "de": "Sollen Flugzeuge nur noch mit nachhaltigem CO2 neutralem Kraftstoff fliegen? \n\nBitte stimmen Sie über die folgenden politischen Maßnahmen ab, wie damit umzugehen ist:",
@@ -26,7 +36,17 @@
         "_compare_via_gemini_sv": "TRANSLATION 2.  Translation 2 is more accurate because it uses the phrasing \"drivas med\" (powered by) for \"fliegen mit\" (fly with), which is more natural in Swedish when describing the fuel source of an aircraft. \n",
         "_compare_to_second_via_gemini_sv": "TRANSLATION 2. Translation 2 is more accurate as it captures the meaning of \"sustainable aviation fuel\" more directly than translation 1. \n",
         "_compare_via_gpt_sv": "TRANSLATION 2\n\nTranslation 2 is more accurate because it correctly translates \"nur noch\" to \"endast\" and maintains the context of voting on political measures.",
-        "_compare_to_second_via_gpt_sv": "TRANSLATION 2\n\nTranslation 2 is more accurate because it correctly translates \"sustainable aviation fuel\" to \"hållbart, koldioxidneutralt bränsle\" and maintains the original meaning and tone of the request to vote."
+        "_compare_to_second_via_gpt_sv": "TRANSLATION 2\n\nTranslation 2 is more accurate because it correctly translates \"sustainable aviation fuel\" to \"hållbart, koldioxidneutralt bränsle\" and maintains the original meaning and tone of the request to vote.",
+        "_wo_ar": "هل يجب أن تطير الطائرات فقط بوقود الطيران المستدام؟\n\nيرجى التصويت على التدابير السياسية التالية حول كيفية التعامل مع هذا:",
+        "_gemini_wo_ar": "هل يجب أن تطير الطائرات فقط باستخدام وقود الطيران المستدام؟\n\nيرجى التصويت على تدابير السياسة التالية حول كيفية التعامل مع ذلك: \n",
+        "_check_wo_ar": "YES",
+        "_check_wo_via_gemini_ar": "YES \n",
+        "_check_gemini_wo_ar": "YES",
+        "_check_gemini_wo_via_gemini_ar": "YES\n",
+        "_compare_via_gemini_ar": "TRANSLATION 1. Translation 1 uses a more natural and idiomatic phrasing for the question, and more accurately conveys the tone of the original English text. \n",
+        "_compare_to_second_via_gemini_ar": "TRANSLATION 2.  Translation 2 is more accurate because it uses the more idiomatic and natural Arabic term for \"sustainable aviation fuel.\" \n",
+        "_compare_via_gpt_ar": "TRANSLATION 2\n\nTranslation 2 is more accurate because it uses \"باستخدام\" which directly translates to \"using,\" aligning more closely with the original English text.",
+        "_compare_to_second_via_gpt_ar": "TRANSLATION 2\n\nTranslation 2 is more accurate because it correctly uses \"باستخدام\" which means \"using,\" aligning more closely with the original English text."
     },
     "multipleChoice": false,
     "choices": [
@@ -48,7 +68,17 @@
                 "_compare_via_gemini_sv": "EQUAL. Both translations are accurate and equivalent. \n",
                 "_compare_to_second_via_gemini_sv": "EQUAL. Both translations are accurate and convey the same meaning. \n",
                 "_compare_via_gpt_sv": "EQUAL\n\nBoth translations are identical and accurately convey the meaning of the original German text.",
-                "_compare_to_second_via_gpt_sv": "EQUAL\n\nBoth translations are identical and accurately convey the meaning of the original English text."
+                "_compare_to_second_via_gpt_sv": "EQUAL\n\nBoth translations are identical and accurately convey the meaning of the original English text.",
+                "_wo_ar": "لا توجد تدابير سياسية.",
+                "_gemini_wo_ar": "لا تدابير سياسية. \n",
+                "_check_wo_ar": "YES",
+                "_check_wo_via_gemini_ar": "YES \n",
+                "_check_gemini_wo_ar": "YES",
+                "_check_gemini_wo_via_gemini_ar": "YES \n",
+                "_compare_via_gemini_ar": "TRANSLATION 1. Translation 1 uses the correct Arabic phrasing for \"no policy measures.\" \n",
+                "_compare_to_second_via_gemini_ar": "EQUAL. Both translations accurately convey the meaning of the English sentence. \n",
+                "_compare_via_gpt_ar": "TRANSLATION 1\n\nExplanation: Translation 1 is more accurate because it correctly translates \"No policy measures\" to \"لا توجد تدابير سياسية,\" which is a more complete and grammatically correct sentence in Arabic.",
+                "_compare_to_second_via_gpt_ar": "EQUAL\n\nBoth translations accurately convey the meaning of \"No policy measures\" in Arabic."
             }
         },
         {
@@ -66,7 +96,17 @@
                 "_compare_via_gemini_sv": "EQUAL. Both translations are accurate and convey the same meaning, with the only difference being a line break in the second translation. \n",
                 "_compare_to_second_via_gemini_sv": "EQUAL. Both translations are equally accurate, simply conveying the same meaning with slightly different word order. \n",
                 "_compare_via_gpt_sv": "EQUAL\n\nBoth translations are identical and accurately convey the meaning of the original German text.",
-                "_compare_to_second_via_gpt_sv": "EQUAL\n\nBoth translations are identical and accurately convey the original English sentence."
+                "_compare_to_second_via_gpt_sv": "EQUAL\n\nBoth translations are identical and accurately convey the original English sentence.",
+                "_wo_ar": "يجب تشغيل جميع الرحلات الجوية بواسطة SAF.",
+                "_gemini_wo_ar": "يجب تشغيل جميع الرحلات باستخدام وقود الطيران المستدام (SAF). \n",
+                "_check_wo_ar": "YES",
+                "_check_wo_via_gemini_ar": "YES \n",
+                "_check_gemini_wo_ar": "YES",
+                "_check_gemini_wo_via_gemini_ar": "YES \n",
+                "_compare_via_gemini_ar": "TRANSLATION 2. Translation 2 is more accurate because it provides the full meaning of SAF, which is sustainable aviation fuel. \n",
+                "_compare_to_second_via_gemini_ar": "TRANSLATION 2.  Translation 2 is more accurate as it explicitly clarifies the acronym SAF as \"Sustainable Aviation Fuel\". \n",
+                "_compare_via_gpt_ar": "TRANSLATION 2\n\nExplanation: Translation 2 is more accurate because it specifies \"وقود الطيران المستدام\" (sustainable aviation fuel), which clarifies what SAF stands for.",
+                "_compare_to_second_via_gpt_ar": "TRANSLATION 2\n\nExplanation: Translation 2 accurately translates \"SAF\" as \"وقود الطيران المستدام,\" providing clarity on what SAF stands for."
             }
         }
     ]
