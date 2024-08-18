@@ -64,12 +64,12 @@
             {% for translation_line in translation_lines %}
                 <tr>
                     <td class="endtd source">{{ translation_line.source_text }}</td>
-                    <td class="gpt4wo">{{ translation_line.translation_wo }}</td>
-                    <td class="gpt4wo">{{ translation_line.check_wo }}</td>
-                    <td class="endtd gpt4wo">{{ translation_line.check_wo_via_gemini }}</td>
-                    <td class="geminiwo">{{ translation_line.translation_gemini_wo }}</td>
-                    <td class="geminiwo">{{ translation_line.check_gemini_wo }}</td>
-                    <td class="endtd geminiwo">{{ translation_line.check_gemini_wo_via_gemini }}</td>
+                    <td class="gpt4wo">{{ translation_line.translation }}</td>
+                    <td class="gpt4wo">{{ translation_line.check }}</td>
+                    <td class="endtd gpt4wo">{{ translation_line.check_via_gemini }}</td>
+                    <td class="geminiwo">{{ translation_line.translation_gemini }}</td>
+                    <td class="geminiwo">{{ translation_line.check_gemini }}</td>
+                    <td class="endtd geminiwo">{{ translation_line.check_gemini_via_gemini }}</td>
                     <td class="compare">{{ translation_line.compare_via_gpt }}</td>
                     <td class="compare">{{ translation_line.compare_via_gemini }}</td>
                     <td class="compare2">{{ translation_line.second_compare_text }}</td>

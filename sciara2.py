@@ -414,14 +414,14 @@ async def crawl_json(data, source_language: str, target_language: str, current_t
 
             table_lines.append({
                 "id": path,
-                "translation_wo": create_diff_html(target=target_translation_gemini, source=target_translation),
-                "translation_gemini_wo": create_diff_html(target=target_translation, source=target_translation_gemini),
+                "translation": create_diff_html(target=target_translation_gemini, source=target_translation),
+                "translation_gemini": create_diff_html(target=target_translation, source=target_translation_gemini),
                 "source_text": current_translations[source_language],
                 "second_compare_text": current_translations[second_compare_language],
                 "official": official,
-                "check_wo": check_result,
+                "check": check_result,
                 "check_via_gemini": check_via_gemini_result,
-                "check_gemini_wo": check_gemini_result,
+                "check_gemini": check_gemini_result,
                 "check_gemini_via_gemini": check_gemini_via_gemini_result,
                 "compare_via_gemini": compare_via_gemini_result,
                 "compare_via_gpt": compare_via_gpt_result,
