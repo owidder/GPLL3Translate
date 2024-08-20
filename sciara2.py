@@ -1,6 +1,8 @@
 import difflib
 import asyncio
 import json
+
+from google.api_core.client_options import ClientOptions
 from openai import AsyncOpenAI
 from functools import reduce
 import openai
@@ -57,6 +59,7 @@ LANGUAGES = {
 }
 OPENAI_BASE_URL = os.getenv("OPENAI_BASE_URL", "https://api.openai.com/v1") # iteraGPT: https://api.iteragpt.iteratec.de/v1
 OPENAI_MODEL = os.getenv("OPENAI_MODEL", "gpt-4o") # iteraGPT: e.g. azure/gpt-4-turbo
+GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gcp/gemini-1.5-pro")
 INPUT_FILE = os.getenv("INPUT_FILE")
 RETRY_CHECK = (os.getenv("RETRY_CHECK", "0") == "1")
 TARGET_LANGUAGE = os.getenv("TARGET_LANGUAGE", "")
@@ -83,11 +86,11 @@ def create_td(text = "", diff: [str]=[], plusminus="+") -> str:
     return td
 
 
-async def ask_chatgpt(system: str, user: str) -> str:
+async def ask_chatgpt(system: str, user: str, model: str) -> str:
     try:
         client = AsyncOpenAI(base_url=OPENAI_BASE_URL)
         response = await client.chat.completions.create(
-            model=OPENAI_MODEL,
+            model=model,
             messages=[
                 {
                     "role": "system",
@@ -106,15 +109,16 @@ async def ask_chatgpt(system: str, user: str) -> str:
         )
         answer = response.choices[0].message.content
     except openai.RateLimitError as e:
-        print(e.json_body["error"]["message"])
-        secnum_re = re.match(".*Please try again in ([0-9.]*)s\..*", e.json_body["error"]["message"])
+        message = e.body["message"]
+        print(message)
+        secnum_re = re.match(".*Try again in ([0-9.]*) seconds.*", message)
         if secnum_re:
             secnum = float(secnum_re.groups()[0])
         else:
             secnum = 1
         print(f"wait for {secnum}")
         time.sleep(secnum)
-        return ask_chatgpt(system, user)
+        return ask_chatgpt(system, user, model)
     except Exception as exc:
         print(f"Exception: {exc}")
         return ""
@@ -130,6 +134,11 @@ async def ask_chatgpt(system: str, user: str) -> str:
 
 
 def ask_gemini(system: str, user: str, model: str):
+    clientOptions = ClientOptions(
+        api_endpoint=os.getenv("OPENAI_BASE_URL"),
+        api_key=os.getenv("GOOGLE_API_KEY")
+    )
+    genai.configure(client_options=clientOptions)
     model = genai.GenerativeModel(model_name=model, system_instruction=system)
     response = model.generate_content(user)
     return response.text
@@ -145,11 +154,11 @@ async def get_translation(source_text: str, source_language: str, target_languag
     user = "\n".join(user_lines)
     print(f"get_translation for '{source_text}'")
     if llm == "gpt":
-        answer = await ask_chatgpt(system, user)
+        answer = await ask_chatgpt(system, user, model=OPENAI_MODEL)
     # elif llm == "llama3":
     #     answer = ask_llama3(system, user)
     elif llm == "gemini":
-        answer = ask_gemini(system, user, model='gemini-1.5-flash')
+        answer = await ask_chatgpt(system, user, model=GEMINI_MODEL)
     else:
         raise Exception(f"unknown llm: {llm}")
     print(f"get_translation: answer={answer}")
@@ -166,9 +175,9 @@ async def check_translation(source_text: str, source_language: str, target_text:
     user = "\n".join(user_lines)
     print(f"check_translation for '{source_text}' -> '{target_text}'")
     if llm == "gpt":
-        answer = await ask_chatgpt(system, user)
+        answer = await ask_chatgpt(system, user, model=OPENAI_MODEL)
     elif llm == "gemini":
-        answer = ask_gemini(system, user, model='gemini-1.5-flash')
+        answer = await ask_chatgpt(system, user, model=GEMINI_MODEL)
     else:
         raise Exception(f"unknown llm: {llm}")
     print(f"check_translation with {llm}: answer={answer}")
@@ -184,9 +193,9 @@ async def compare_translations(source_text: str, source_language: str, target_te
     user = "\n".join(user_lines)
     print(f"compare_translations for '{source_text}' -> '{target_text_1}' / '{target_text_2}'")
     if llm == "gpt":
-        answer = await ask_chatgpt(system, user)
+        answer = await ask_chatgpt(system, user, model=OPENAI_MODEL)
     elif llm == "gemini":
-        answer = ask_gemini(system, user, model='gemini-1.5-flash')
+        answer = await ask_chatgpt(system, user, model=GEMINI_MODEL)
     else:
         raise Exception(f"unknown llm: {llm}")
     print(f"check_translation with {llm}: answer={answer}")
