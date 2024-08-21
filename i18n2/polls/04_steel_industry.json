@@ -1,55 +1,103 @@
 {
-  "_id": "steel-decarbon-poll",
-  "heading": {
-    "de": "Abstimmung über die Umstellung auf CO₂-freien Stahl",
-    "ru": "Проголосуйте за переход на сталь без CO₂",
-    "en": "Vote on the switch to CO₂-free steel",
-    "ar": "التصويت بشأن التحول إلى الصلب خالي من ثاني أكسيد الكربون",
-    "fr": "Votez pour le passage à l'acier sans CO₂"
-  },
-  "description": {
-    "de": "Die Stahlerzeugung verursacht weltweit ca. 8% der CO₂-Emissionen.\n<br>\nDie kohlenstofffreie Erzeugung von Stahl ist grundsätzlich möglich.\n<br>\nDie Regierung hat beschlossen, dass ab 2030 Stahl in unserem Land nur noch CO₂-frei produziert werden darf. Dieser ist aktuell jedoch 60–70 Prozent teurer als der konventionelle Stahl.\n<br>\nKohlenstoffneutraler Stahl ist damit auf dem Markt gegenüber importiertem Stahl nicht konkurrenzfähig. \n\nBitte stimmen Sie über die folgenden politischen Maßnahmen ab, wie damit umzugehen ist:",
-    "ru": "На производство стали приходится около 8% выбросов CO₂ в мире.\n<br>\nБезуглеродное производство стали в принципе возможно.\n<br>\nПравительство приняло решение, что с 2030 года сталь в нашей стране может производиться только без CO₂. Однако в настоящее время она на 60-70 процентов дороже обычной стали.\n<br>\nТаким образом, углеродистая нейтральная сталь неконкурентоспособна на рынке по сравнению с импортной сталью. \n\nПожалуйста, проголосуйте за следующие политические меры по решению этой проблемы:",
-    "en": "Steel production accounts for about 8% of CO₂ emissions worldwide.\n<br>\nCarbon-free production of steel is possible in principle.\n<br>\nThe government has decided that from 2030 steel in our country may only be produced CO₂-free. However, this is currently 60-70 per cent more expensive than conventional steel.\n<br>\nCarbon neutral steel is thus not competitive in the market against imported steel. \n\nPlease vote on the following policy measures on how to deal with this:\n",
-    "ar": "يسهم إنتاج الصلب بنسبة حوالي 8% من انبعاثات ثاني أكسيد الكربون عالميًا.\n<br>\nإن إنتاج الصلب خالي من الكربون ممكن بشكل أساسي.\n<br>\nقررت الحكومة أن يتم إنتاج الصلب في بلادنا بدون ثاني أكسيد الكربون اعتبارًا من عام 2030. ومع ذلك، يكون هذا الصلب حاليًا أغلى بنسبة 60-70 في المائة من الصلب التقليدي.\n<br>\nبالتالي، الصلب النقي من الكربون غير تنافسي في السوق مقابل الصلب المستورد.\n\nيرجى التصويت على الإجراءات السياسية التالية حول كيفية التعامل مع هذه المسألة:",
-    "fr": "La production d'acier représente environ 8 % des émissions de CO₂ dans le monde.\n<br>\nLa production d'acier sans carbone est possible en principe.\n<br>\nLe gouvernement a décidé qu'à partir de 2030, l'acier dans notre pays ne devra être produit qu'à partir de CO₂. Cependant, cela coûte actuellement 60 à 70 % de plus que l'acier conventionnel.\n<br>\nL'acier neutre en carbone n'est donc pas compétitif sur le marché par rapport à l'acier importé. \n\nVeuillez voter sur les mesures politiques suivantes pour traiter cette question:\n"
-
-  },
-  "multipleChoice": false,
-  "choices": [
-    {
-      "name": "opt-1",
-      "isDefault": false,
-      "uiStrings": {
-        "de": "Keine politischen Maßnahmen.",
-        "ru": "Никаких мер политики.",
-        "en": "No policy measures.",
-        "ar": "لا توجد إجراءات سياسية.",
-        "fr": "Aucune mesure politique."
-      }
+    "_id": "steel-decarbon-poll",
+    "heading": {
+        "de": "Abstimmung über die Umstellung auf CO₂-freien Stahl",
+        "ru": "Проголосуйте за переход на сталь без CO₂",
+        "en": "Vote on the switch to CO₂-free steel",
+        "ar": "التصويت بشأن التحول إلى الصلب خالي من ثاني أكسيد الكربون",
+        "fr": "Votez pour le passage à l'acier sans CO₂",
+        "_sv": "Rösta om övergången till CO₂-fritt stål",
+        "_gemini_sv": "Rösta för en övergång till koldioxidfritt stål \n",
+        "_check_sv": "YES",
+        "_check_via_gemini_sv": "YES \n",
+        "_check_gemini_sv": "YES",
+        "_check_gemini_via_gemini_sv": "The Swedish translation is accurate in terms of meaning, but the tone could be slightly improved. \n\nHere's a suggestion for a better translation:\n\n**\"Rösta ja till CO₂-fritt stål!\"**\n\n**Explanation:**\n\n* **\"Rösta ja\"** (Vote yes) is a more direct and active call to action compared to \"Rösta för\" (Vote for). \n* Using **\"CO₂-fritt\"** instead of \"koldioxidfritt\" is more concise and commonly used in Swedish when talking about climate-friendly solutions.\n* Adding an exclamation mark **(!) ** at the end further emphasizes the urgency and importance of the message. \n\nThe original English phrase has a clear and direct call to action, and the suggested Swedish translation reflects that better. \n",
+        "_compare_via_gemini_sv": "TRANSLATION 2 - Translation 2 better captures the nuance of encouraging a vote in favor of the transition, while Translation 1 is more ambiguous about the direction of the vote. \n",
+        "_compare_to_second_via_gemini_sv": "TRANSLATION 2\n\nTranslation 2 is more accurate because it captures the implicit call to action \"vote *for*\" the switch, while translation 1 is more neutral and could be interpreted as \"vote *on the issue of* the switch\". \n",
+        "_compare_via_gpt_sv": "TRANSLATION 1\n\nExplanation: Translation 1 is more accurate as it directly translates \"switch\" to \"övergången\" and \"CO₂-free\" to \"CO₂-fritt,\" maintaining the original meaning and terminology.",
+        "_compare_to_second_via_gpt_sv": "TRANSLATION 1\n\nExplanation: Translation 1 is more accurate as it directly translates \"switch\" to \"övergången\" and \"CO₂-free\" to \"CO₂-fritt,\" maintaining the original meaning and terminology."
     },
-    {
-      "name": "opt-2",
-      "isDefault": false,
-      "uiStrings": {
-        "de": "Der Staat gleicht die Mehrkosten für den kohlenstofffreien Stahl aus Steuermitteln so lange aus, bis er marktfähig ist (Carbon Contracts for Difference).",
-        "ru": "Правительство компенсирует дополнительную стоимость безуглеродистой стали за счет налогов до тех пор, пока она не станет доступной на рынке (углеродные контракты на разницу).",
-        "en": "Government offsets the extra cost of carbon-free steel from taxes until it is marketable (Carbon Contracts for Difference).",
-        "ar": "يقوم الحكومة بتعويض التكلفة الإضافية للصلب خالي من الكربون من الضرائب حتى يصبح صالحًا للسوق (عقود الكربون للفروق).",
-        "fr": "Le gouvernement compense les coûts supplémentaires de l'acier sans carbone grâce aux taxes jusqu'à ce qu'il soit commercialisable (Contrats carbone pour la différence)."
-      }
+    "description": {
+        "de": "Die Stahlerzeugung verursacht weltweit ca. 8% der CO₂-Emissionen.\n<br>\nDie kohlenstofffreie Erzeugung von Stahl ist grundsätzlich möglich.\n<br>\nDie Regierung hat beschlossen, dass ab 2030 Stahl in unserem Land nur noch CO₂-frei produziert werden darf. Dieser ist aktuell jedoch 60–70 Prozent teurer als der konventionelle Stahl.\n<br>\nKohlenstoffneutraler Stahl ist damit auf dem Markt gegenüber importiertem Stahl nicht konkurrenzfähig. \n\nBitte stimmen Sie über die folgenden politischen Maßnahmen ab, wie damit umzugehen ist:",
+        "ru": "На производство стали приходится около 8% выбросов CO₂ в мире.\n<br>\nБезуглеродное производство стали в принципе возможно.\n<br>\nПравительство приняло решение, что с 2030 года сталь в нашей стране может производиться только без CO₂. Однако в настоящее время она на 60-70 процентов дороже обычной стали.\n<br>\nТаким образом, углеродистая нейтральная сталь неконкурентоспособна на рынке по сравнению с импортной сталью. \n\nПожалуйста, проголосуйте за следующие политические меры по решению этой проблемы:",
+        "en": "Steel production accounts for about 8% of CO₂ emissions worldwide.\n<br>\nCarbon-free production of steel is possible in principle.\n<br>\nThe government has decided that from 2030 steel in our country may only be produced CO₂-free. However, this is currently 60-70 per cent more expensive than conventional steel.\n<br>\nCarbon neutral steel is thus not competitive in the market against imported steel. \n\nPlease vote on the following policy measures on how to deal with this:\n",
+        "ar": "يسهم إنتاج الصلب بنسبة حوالي 8% من انبعاثات ثاني أكسيد الكربون عالميًا.\n<br>\nإن إنتاج الصلب خالي من الكربون ممكن بشكل أساسي.\n<br>\nقررت الحكومة أن يتم إنتاج الصلب في بلادنا بدون ثاني أكسيد الكربون اعتبارًا من عام 2030. ومع ذلك، يكون هذا الصلب حاليًا أغلى بنسبة 60-70 في المائة من الصلب التقليدي.\n<br>\nبالتالي، الصلب النقي من الكربون غير تنافسي في السوق مقابل الصلب المستورد.\n\nيرجى التصويت على الإجراءات السياسية التالية حول كيفية التعامل مع هذه المسألة:",
+        "fr": "La production d'acier représente environ 8 % des émissions de CO₂ dans le monde.\n<br>\nLa production d'acier sans carbone est possible en principe.\n<br>\nLe gouvernement a décidé qu'à partir de 2030, l'acier dans notre pays ne devra être produit qu'à partir de CO₂. Cependant, cela coûte actuellement 60 à 70 % de plus que l'acier conventionnel.\n<br>\nL'acier neutre en carbone n'est donc pas compétitif sur le marché par rapport à l'acier importé. \n\nVeuillez voter sur les mesures politiques suivantes pour traiter cette question:\n",
+        "_sv": "Stålproduktion står för cirka 8 % av de globala CO₂-utsläppen.\n<br>\nKoldioxidfri produktion av stål är i princip möjlig.\n<br>\nRegeringen har beslutat att från och med 2030 får stål i vårt land endast produceras CO₂-fritt. Detta är dock för närvarande 60-70 procent dyrare än konventionellt stål.\n<br>\nKoldioxidneutralt stål är således inte konkurrenskraftigt på marknaden mot importerat stål.\n\nVänligen rösta om följande politiska åtgärder om hur man ska hantera detta:\n",
+        "_gemini_sv": "Stålproduktion står för cirka 8 % av koldioxidutsläppen globalt.\n<br>\nKoldioxidfri produktion av stål är i princip möjlig.\n<br>\nRegeringen har beslutat att från 2030 får stål i vårt land endast produceras koldioxidfritt. Detta är dock för närvarande 60–70 procent dyrare än konventionellt stål.\n<br>\nKoldioxidneutralt stål är således inte konkurrenskraftigt på marknaden mot importerat stål. \n\nRösta på följande åtgärder för hur vi ska hantera detta: \n",
+        "_check_sv": "YES",
+        "_check_via_gemini_sv": "YES \n",
+        "_check_gemini_sv": "YES",
+        "_check_gemini_via_gemini_sv": "YES \n",
+        "_compare_via_gemini_sv": "EQUAL - Both translations accurately convey the meaning of the original English text with only minor stylistic differences. \n",
+        "_compare_to_second_via_gemini_sv": "EQUAL - Both translations are accurate and convey the same meaning, with only minor stylistic differences. \n",
+        "_compare_via_gpt_sv": "TRANSLATION 1\n\nTranslation 1 is more accurate because it maintains the original structure and meaning more closely, including the specific phrasing of \"CO₂ emissions\" and \"policy measures.\"",
+        "_compare_to_second_via_gpt_sv": "TRANSLATION 1\n\nTranslation 1 is more accurate because it maintains the original structure and phrasing more closely, including the specific term \"CO₂-free\" instead of \"koldioxidfritt.\""
     },
-    {
-      "name": "opt-3",
-      "isDefault": false,
-      "uiStrings": {
-        "de": "Einfuhrzölle für konventionell produzierten Stahl (Grenzausgleichsabgabe).",
-        "ru": "Импортные пошлины на сталь обычного производства (пограничный сбор).",
-        "en": "Import duties on conventionally produced steel (Carbon Border Adjustment Mechanism).",
-        "ar": "رسوم الاستيراد على الصلب المنتج تقليديًا (آلية تعديل الكربون الحدودي).",
-        "fr": "Droits d'importation sur l'acier produit de manière conventionnelle (Mécanisme d'ajustement frontalier du carbone)."
-
-      }
-    }
-  ]
+    "multipleChoice": false,
+    "choices": [
+        {
+            "name": "opt-1",
+            "isDefault": false,
+            "uiStrings": {
+                "de": "Keine politischen Maßnahmen.",
+                "ru": "Никаких мер политики.",
+                "en": "No policy measures.",
+                "ar": "لا توجد إجراءات سياسية.",
+                "fr": "Aucune mesure politique.",
+                "_sv": "Inga politiska åtgärder.",
+                "_gemini_sv": "Inga åtgärder. \n",
+                "_check_sv": "YES",
+                "_check_via_gemini_sv": "YES \n",
+                "_check_gemini_sv": "NO",
+                "_check_gemini_via_gemini_sv": "The Swedish translation is very literal and while technically correct, it misses the nuance of the English phrase in the context of climate change. \n\nHere's why:\n\n* **Context is key:** \"No policy measures\" in English strongly implies a lack of governmental or institutional action on a specific issue, in this case, climate change. \n* **Swedish translation is too broad:** \"Inga åtgärder\" simply means \"no measures\" and lacks the specific focus on policy and the implied criticism of inaction.\n\n**A better translation:**\n\n* **\"Inga politiska åtgärder\"** - This directly translates to \"no political measures\" and maintains the focus on policy.\n* **\"Inga åtgärder vidtas\"** - This translates to \"no measures are being taken\" and emphasizes the lack of action.\n\nThese options better capture the original meaning, tone, and intent of the English phrase. \n",
+                "_compare_via_gemini_sv": "TRANSLATION 1 - Translation 1 is more accurate because it explicitly includes the \"political\" aspect present in the original English phrase. \n",
+                "_compare_to_second_via_gemini_sv": "TRANSLATION 1\n\nTranslation 1 is more accurate because it explicitly includes the crucial aspect of \"political\" measures, fully capturing the original meaning. \n",
+                "_compare_via_gpt_sv": "TRANSLATION 1\n\nExplanation: \"Inga politiska åtgärder\" accurately translates to \"No policy measures,\" while \"Inga åtgärder\" translates to \"No measures,\" omitting the specific reference to policy.",
+                "_compare_to_second_via_gpt_sv": "TRANSLATION 1\n\nExplanation: \"Inga politiska åtgärder\" accurately translates to \"No policy measures,\" while \"Inga åtgärder\" translates to \"No measures,\" omitting the specific reference to policy."
+            }
+        },
+        {
+            "name": "opt-2",
+            "isDefault": false,
+            "uiStrings": {
+                "de": "Der Staat gleicht die Mehrkosten für den kohlenstofffreien Stahl aus Steuermitteln so lange aus, bis er marktfähig ist (Carbon Contracts for Difference).",
+                "ru": "Правительство компенсирует дополнительную стоимость безуглеродистой стали за счет налогов до тех пор, пока она не станет доступной на рынке (углеродные контракты на разницу).",
+                "en": "Government offsets the extra cost of carbon-free steel from taxes until it is marketable (Carbon Contracts for Difference).",
+                "ar": "يقوم الحكومة بتعويض التكلفة الإضافية للصلب خالي من الكربون من الضرائب حتى يصبح صالحًا للسوق (عقود الكربون للفروق).",
+                "fr": "Le gouvernement compense les coûts supplémentaires de l'acier sans carbone grâce aux taxes jusqu'à ce qu'il soit commercialisable (Contrats carbone pour la différence).",
+                "_sv": "Regeringen kompenserar den extra kostnaden för kolfritt stål från skatter tills det är marknadsdugligt (Carbon Contracts for Difference).",
+                "_gemini_sv": "Regeringen kompenserar den extra kostnaden för fossilfritt stål med skattemedel tills det är marknadsmässigt gångbart (Differenskontrakt för koldioxid). \n",
+                "_check_sv": "YES",
+                "_check_via_gemini_sv": "The Swedish translation is quite accurate in terms of meaning. However, there's a slight difference in tone and clarity. \n\n**Here's a closer look:**\n\n* **\"Offsets\" vs. \"kompenserar\":** While both words mean \"compensate,\"  \"offsets\" in the English text carries a slightly more technical and financial connotation, suggesting a direct and calculated counterbalance. \"Kompenserar\" is a bit more general.\n\n* **Clarity:** The Swedish translation could benefit from a slightly clearer link between the compensation and the Carbon Contracts for Difference. \n\n**Here's an improved Swedish translation:**\n\n\"Regeringen utjämnar den extra kostnaden för kolfritt stål genom skatter tills det är marknadsdugligt, detta genom så kallade 'Carbon Contracts for Difference'.\"\n\n**Explanation of changes:**\n\n* **\"utjämnar\"**: This word, meaning \"evens out,\" better captures the financial aspect of offsetting the cost.\n* **\"detta genom så kallade\"**: This phrase, meaning \"this through what is called,\" clarifies the connection between the compensation and the Carbon Contracts for Difference. \n\nThis revised translation maintains the original meaning while improving the tone and clarity to better match the English text. \n",
+                "_check_gemini_sv": "YES",
+                "_check_gemini_via_gemini_sv": "The Swedish translation is quite accurate in terms of meaning but could be improved for clarity and tone. \n\n**Here's a breakdown of the differences and a suggested improvement:**\n\n* **\"Marknadsmässigt gångbart\"** is a bit clunky and less precise than \"marketable.\" A smoother alternative would be \"kommersiellt gångbart\" or \"konkurrenskraftigt.\"\n\n* **The Swedish translation doesn't explicitly mention that the offsetting is temporary.** While \"tills det är...\" implies this, it's better to be explicit.\n\n**Improved Swedish translation:**\n\n\"Regeringen kompenserar **tillfälligt** den extra kostnaden för fossilfritt stål med skattemedel tills det blir **kommersiellt gångbart** (Differenskontrakt för koldioxid).\"\n\n**This improved version:**\n\n* Clearly conveys the temporary nature of the government support.\n* Uses a more natural and precise term for \"marketable.\" \n\nLet me know if you'd like to see other translation options! \n",
+                "_compare_via_gemini_sv": "TRANSLATION 2\n\nTranslation 2 is more accurate because it correctly translates \"carbon-free steel\" as \"fossilfritt stål\" and provides a more natural translation of \"Carbon Contracts for Difference\" as \"Differenskontrakt för koldioxid\". \n",
+                "_compare_to_second_via_gemini_sv": "TRANSLATION 2\n\nTranslation 2 is more accurate because it correctly translates \"carbon-free steel\" as \"fossilfritt stål\" and provides a better translation of \"Carbon Contracts for Difference\" as \"Differenskontrakt för koldioxid.\" \n",
+                "_compare_via_gpt_sv": "TRANSLATION 2: It accurately translates \"carbon-free steel\" as \"fossilfritt stål\" and \"taxes\" as \"skattemedel,\" and it also correctly translates \"marketable\" as \"marknadsmässigt gångbart.\"",
+                "_compare_to_second_via_gpt_sv": "TRANSLATION 2: It accurately translates \"carbon-free steel\" as \"fossilfritt stål\" and \"marketable\" as \"marknadsmässigt gångbart,\" and correctly translates \"Carbon Contracts for Difference\" as \"Differenskontrakt för koldioxid.\""
+            }
+        },
+        {
+            "name": "opt-3",
+            "isDefault": false,
+            "uiStrings": {
+                "de": "Einfuhrzölle für konventionell produzierten Stahl (Grenzausgleichsabgabe).",
+                "ru": "Импортные пошлины на сталь обычного производства (пограничный сбор).",
+                "en": "Import duties on conventionally produced steel (Carbon Border Adjustment Mechanism).",
+                "ar": "رسوم الاستيراد على الصلب المنتج تقليديًا (آلية تعديل الكربون الحدودي).",
+                "fr": "Droits d'importation sur l'acier produit de manière conventionnelle (Mécanisme d'ajustement frontalier du carbone).",
+                "_sv": "Importtullar på konventionellt producerat stål (Koldioxidgränsjusteringsmekanism).",
+                "_gemini_sv": "Tullar på konventionellt tillverkat stål (Koldioxidjusteringsmekanism vid gränsen). \n",
+                "_check_sv": "YES",
+                "_check_via_gemini_sv": "The translation is accurate in terms of meaning. However, the Swedish translation uses a literal translation of \"Carbon Border Adjustment Mechanism\" as \"Koldioxidgränsjusteringsmekanism.\" While technically correct, it sounds overly formal and clunky in Swedish. \n\nA better translation would be: \n\n\"Importtullar på konventionellt producerat stål (gränstull för koldioxidutsläpp).\" \n\nThis translates to \"Import duties on conventionally produced steel (border tax for carbon emissions).\" This version is more concise and uses more common Swedish terminology, making it sound more natural. \n",
+                "_check_gemini_sv": "YES",
+                "_check_gemini_via_gemini_sv": "The translations are very close, but there is a slight difference in meaning. \n\n**Difference:**\n\n* **English:** \"Carbon Border Adjustment Mechanism\" is more specific and refers to a mechanism that adjusts for the carbon emissions embedded in imported goods.\n* **Swedish:** \"Koldioxidjusteringsmekanism vid gränsen\" translates directly to \"Carbon dioxide adjustment mechanism at the border.\" While it conveys the general idea, it lacks the specific economic policy connotation of \"Carbon Border Adjustment Mechanism.\"\n\n**Better Translation:**\n\nTo maintain the specific meaning, a better translation would be:\n\n\"Tullar på konventionellt tillverkat stål (Gränsjusteringsmekanism för koldioxid).\"\n\nThis translates to: \"Tariffs on conventionally produced steel (Border Carbon Adjustment Mechanism).\" \n\nThis translation accurately reflects the English term and its specific meaning within the context of climate change and trade policy. \n",
+                "_compare_via_gemini_sv": "TRANSLATION 2 - Translation 2 is more accurate because it correctly translates \"Carbon Border Adjustment Mechanism\" as \"Koldioxidjusteringsmekanism vid gränsen,\" while Translation 1 uses a less precise term. \n",
+                "_compare_to_second_via_gemini_sv": "TRANSLATION 2\n\nTranslation 2 is more accurate because it correctly translates \"Carbon Border Adjustment Mechanism\" as \"Koldioxidjusteringsmekanism vid gränsen\" while Translation 1 shortens it to \"Koldioxidgränsjusteringsmekanism\" which is less precise. \n",
+                "_compare_via_gpt_sv": "TRANSLATION 1\n\nExplanation: Translation 1 accurately translates \"Import duties\" as \"Importtullar\" and \"Carbon Border Adjustment Mechanism\" as \"Koldioxidgränsjusteringsmekanism,\" maintaining the original meaning more precisely.",
+                "_compare_to_second_via_gpt_sv": "TRANSLATION 1\n\nExplanation: Translation 1 accurately translates \"Import duties\" as \"Importtullar\" and \"Carbon Border Adjustment Mechanism\" as \"Koldioxidgränsjusteringsmekanism,\" maintaining the original meaning more precisely."
+            }
+        }
+    ]
 }
