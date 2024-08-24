@@ -163,7 +163,8 @@ async def compare_translations(source_text: str, source_language: str, translati
     translation_lines = [f"translation {index}: \"{translation}\"" for index, translation in enumerate(translations)]
     user = "\n".join(original_line + translation_lines)
     print(f"compare_translations for '{source_text}'")
-    return ask_model(system=system, user=user, model=model)
+    answer = await ask_model(system=system, user=user, model=model)
+    return answer
 
 
 def is_translation(path: str) -> bool:
