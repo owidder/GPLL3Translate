@@ -51,9 +51,12 @@ LANGUAGES = {
     "sv": "swedish",
     "zh": "chinese",
 }
-OPENAI_BASE_URL = os.getenv("OPENAI_BASE_URL", "https://api.openai.com/v1") # iteraGPT: https://api.iteragpt.iteratec.de/v1
-OPENAI_MODEL = os.getenv("OPENAI_MODEL", "gpt-4o") # iteraGPT: e.g. azure/gpt-4-turbo
+OPENAI_BASE_URL = os.getenv("OPENAI_BASE_URL", "https://api.iteragpt.iteratec.de/v1")
+OPENAI_MODEL = os.getenv("OPENAI_MODEL", "azure/gpt-4o")
 GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gcp/gemini-1.5-pro")
+CLAUDE_MODEL = os.getenv("CLAUDE_MODEL", "aws/claude-3-sonnet")
+MISTRAL_MODEL = os.getenv("MISTRAL_MODEL", "azure/mistral-large")
+LLAMA3_MODEL = os.getenv("LLAMA3_MODEL", "iteratec/Llama3.1-70B-Instruct")
 INPUT_FILE = os.getenv("INPUT_FILE")
 RETRY_CHECK = (os.getenv("RETRY_CHECK", "0") == "1")
 TARGET_LANGUAGE = os.getenv("TARGET_LANGUAGE", "")
@@ -79,7 +82,7 @@ def create_td(text = "", diff: [str]=[], plusminus="+") -> str:
     return td
 
 
-async def ask_chatgpt(system: str, user: str, model: str) -> str:
+async def ask_model(system: str, user: str, model: str) -> str:
     try:
         client = AsyncOpenAI(base_url=OPENAI_BASE_URL)
         response = await client.chat.completions.create(
@@ -111,14 +114,14 @@ async def ask_chatgpt(system: str, user: str, model: str) -> str:
             secnum = 1
         print(f"wait for {secnum}")
         time.sleep(secnum)
-        return ask_chatgpt(system, user, model)
+        return ask_model(system, user, model)
     except Exception as exc:
         print(f"Exception: {exc}")
         return ""
     return answer
 
 
-async def get_translation(source_text: str, source_language: str, target_language: str, llm="gpt"):
+async def get_translation(source_text: str, source_language: str, target_language: str, model: str):
     system = (
         f"You are an expert in all languages and climate change. In the following you get an original {LANGUAGES[source_language]} text."
         f"Translate the original {LANGUAGES[source_language]} text into {LANGUAGES[target_language]}. Ensure that the translated text retains the original meaning, tone, and intent."
@@ -127,14 +130,7 @@ async def get_translation(source_text: str, source_language: str, target_languag
     user_lines = [f"Original {LANGUAGES[source_language]}: \"{source_text}\""]
     user = "\n".join(user_lines)
     print(f"get_translation for '{source_text}'")
-    if llm == "gpt":
-        answer = await ask_chatgpt(system, user, model=OPENAI_MODEL)
-    # elif llm == "llama3":
-    #     answer = ask_llama3(system, user)
-    elif llm == "gemini":
-        answer = await ask_chatgpt(system, user, model=GEMINI_MODEL)
-    else:
-        raise Exception(f"unknown llm: {llm}")
+    answer = await ask_model(system, user, model=model)
     print(f"get_translation: answer={answer}")
     answer = answer.replace('"', '').replace("'", "") if (answer.startswith('"') or answer.startswith("'")) else answer
     return answer
@@ -149,31 +145,25 @@ async def check_translation(source_text: str, source_language: str, target_text:
     user = "\n".join(user_lines)
     print(f"check_translation for '{source_text}' -> '{target_text}'")
     if llm == "gpt":
-        answer = await ask_chatgpt(system, user, model=OPENAI_MODEL)
+        answer = await ask_model(system, user, model=OPENAI_MODEL)
     elif llm == "gemini":
-        answer = await ask_chatgpt(system, user, model=GEMINI_MODEL)
+        answer = await ask_model(system, user, model=GEMINI_MODEL)
     else:
         raise Exception(f"unknown llm: {llm}")
     print(f"check_translation with {llm}: answer={answer}")
     return answer
 
 
-async def compare_translations(source_text: str, source_language: str, target_text_1: str, target_text_2: str, target_language: str, llm="gpt"):
+async def compare_translations(source_text: str, source_language: str, translations: [str], target_language: str, model: str):
     system = (
-        f"You are an expert in all languages and climate change. In the following you get an original {LANGUAGES[source_language]} text and two translations in {LANGUAGES[target_language]}."
-        "Please decide whether which translation is more accurate. Just answer with 'EQUAL', 'TRANSLATION 1' or 'TRANSLATION 2'. Please explain your decision in just one sentence."
+        f"You are an expert in all languages and climate change. In the following you get an original {LANGUAGES[source_language]} text and {len(translations)} translations in {LANGUAGES[target_language]}."
+        "Please decide which translation is the most accurate. Just answer just with the number of the translation. Please explain your decision in just one sentence."
     )
-    user_lines = [f"Original {LANGUAGES[source_language]}: \"{source_text}\"", f"{LANGUAGES[target_language]} translation 1: \"{target_text_1}\"", f"{LANGUAGES[target_language]} translation 2: \"{target_text_2}\""]
-    user = "\n".join(user_lines)
-    print(f"compare_translations for '{source_text}' -> '{target_text_1}' / '{target_text_2}'")
-    if llm == "gpt":
-        answer = await ask_chatgpt(system, user, model=OPENAI_MODEL)
-    elif llm == "gemini":
-        answer = await ask_chatgpt(system, user, model=GEMINI_MODEL)
-    else:
-        raise Exception(f"unknown llm: {llm}")
-    print(f"check_translation with {llm}: answer={answer}")
-    return answer
+    original_line = [f"Original {LANGUAGES[source_language]}: \"{source_text}\""]
+    translation_lines = [f"translation {index}: \"{translation}\"" for translation, index in translations.items()]
+    user = "\n".join(original_line + translation_lines)
+    print(f"compare_translations for '{source_text}'")
+    return ask_model(system=system, user=user, model=model)
 
 
 def is_translation(path: str) -> bool:
@@ -183,17 +173,16 @@ def is_translation(path: str) -> bool:
 def create_table(input_file: str, translation_lines: [str], source: str, target: str):
     headers = [
         "source text",
-        "GPT4",
-        "check (GPT4 via GPT4)",
-        "check (GPT4 via Gemini)",
-        "Gemini",
-        "check (Gemini via GPT4)",
-        "check (Gemini via Gemini)",
-        "compare via GPT",
-        "compare via Gemini",
-        "compare text (en)",
-        "compare via GPT (en)",
-        "compare via Gemini (en)",
+        "OpenAI (1)",
+        "Gemini (2)",
+        "Claude (3)",
+        "Mistral (4)",
+        "Llama3 (5)",
+        "Compare via OpenAI",
+        "Compare via Gemini",
+        "Compare via Claude",
+        "Compare via Mistral",
+        "Compare via Llama3",
     ]
 
     env = Environment(loader=FileSystemLoader('./templates'))
@@ -237,7 +226,7 @@ def create_diff_html(target: str, source: str, plusminus="+") -> str:
         return create_diff_text(target=target, source=source, plusminus=plusminus)
 
 
-async def crawl_json(data, source_language: str, target_language: str, current_translations: dict, table_lines: list, path="", official="", second_compare_language=""):
+async def crawl_json(data, source_language: str, target_language: str, current_translations: dict, table_lines: list, path="", official=""):
     if isinstance(data, dict):
         for key, value in data.items():
             new_path = f"{path}.{key}" if path else key
@@ -249,20 +238,20 @@ async def crawl_json(data, source_language: str, target_language: str, current_t
                 current_translations=current_translations,
                 table_lines=table_lines,
                 official=official,
-                second_compare_language=second_compare_language,
             )
         print(current_translations)
         if len(current_translations.keys()) > 0:
-            target_language_property = f"_{target_language}"
-            if not target_language_property in data:
-                target_translation = await get_translation(
+            target_language_openai_property = f"_openai_{target_language}"
+            if not target_language_openai_property in data:
+                target_translation_openai = await get_translation(
                     source_text=data[source_language],
                     source_language=source_language,
                     target_language=target_language,
+                    model=OPENAI_MODEL,
                 )
-                data[target_language_property] = target_translation
+                data[target_language_openai_property] = target_translation_openai
             else:
-                target_translation = data[target_language_property]
+                target_translation_openai = data[target_language_openai_property]
 
             target_language_gemini_property = f"_gemini_{target_language}"
             if not target_language_gemini_property in data:
@@ -270,139 +259,126 @@ async def crawl_json(data, source_language: str, target_language: str, current_t
                     source_text=data[source_language],
                     source_language=source_language,
                     target_language=target_language,
-                    llm='gemini'
+                    model=GEMINI_MODEL,
                 )
                 data[target_language_gemini_property] = target_translation_gemini
             else:
                 target_translation_gemini = data[target_language_gemini_property]
 
-            check_property = f"_check_{target_language}"
-            if (not check_property in data) or (RETRY_CHECK and data[check_property].lower() != "yes"):
-                check_result = await check_translation(
+            target_language_claude_property = f"_claude_{target_language}"
+            if not target_language_claude_property in data:
+                target_translation_claude = await get_translation(
+                    source_text=data[source_language],
                     source_language=source_language,
                     target_language=target_language,
-                    source_text=current_translations[source_language],
-                    target_text=target_translation
+                    model=CLAUDE_MODEL,
                 )
-                data[check_property] = check_result
+                data[target_language_claude_property] = target_translation_claude
             else:
-                check_result = data[check_property]
+                target_translation_claude = data[target_language_claude_property]
 
-            check_via_gemini_property = f"_check_via_gemini_{target_language}"
-            if (not check_via_gemini_property in data) or (RETRY_CHECK and data[check_via_gemini_property].lower() != "yes"):
-                check_via_gemini_result = await check_translation(
+            target_language_mistral_property = f"_mistral_{target_language}"
+            if not target_language_mistral_property in data:
+                target_translation_mistral = await get_translation(
+                    source_text=data[source_language],
                     source_language=source_language,
                     target_language=target_language,
-                    source_text=current_translations[source_language],
-                    target_text=target_translation,
-                    llm='gemini'
+                    model=MISTRAL_MODEL,
                 )
-                data[check_via_gemini_property] = check_via_gemini_result
+                data[target_language_mistral_property] = target_translation_mistral
             else:
-                check_via_gemini_result = data[check_via_gemini_property]
+                target_translation_mistral = data[target_language_mistral_property]
 
-            check_gemini_result = ""
-            if len(target_translation_gemini) > 0:
-                check_gemini_property = f"_check_gemini_{target_language}"
-                if (not check_gemini_property in data) or (RETRY_CHECK and data[check_gemini_property].lower() != "yes"):
-                    check_gemini_result = await check_translation(
-                        source_language=source_language,
-                        target_language=target_language,
-                        source_text=current_translations[source_language],
-                        target_text=target_translation_gemini
-                    )
-                    data[check_gemini_property] = check_gemini_result
-                else:
-                    check_gemini_result = data[check_gemini_property]
-
-            check_gemini_via_gemini_result = ""
-            if len(target_translation_gemini) > 0:
-                check_gemini_via_gemini_property = f"_check_gemini_via_gemini_{target_language}"
-                if (not check_gemini_via_gemini_property in data) or (RETRY_CHECK and data[check_gemini_via_gemini_property].lower() != "yes"):
-                    check_gemini_via_gemini_result = await check_translation(
-                        source_language=source_language,
-                        target_language=target_language,
-                        source_text=current_translations[source_language],
-                        target_text=target_translation_gemini,
-                        llm='gemini'
-                    )
-                    data[check_gemini_via_gemini_property] = check_gemini_via_gemini_result
-                else:
-                    check_gemini_via_gemini_result = data[check_gemini_via_gemini_property]
-
-            compare_via_gemini_property = f"_compare_via_gemini_{target_language}"
-            if not compare_via_gemini_property in data:
-                compare_via_gemini_result = await compare_translations(
+            target_language_llama3_property = f"_llama3_{target_language}"
+            if not target_language_llama3_property in data:
+                target_translation_llama3 = await get_translation(
+                    source_text=data[source_language],
                     source_language=source_language,
                     target_language=target_language,
-                    source_text=current_translations[source_language],
-                    target_text_1=target_translation,
-                    target_text_2=target_translation_gemini,
-                    llm='gemini'
+                    model=LLAMA3_MODEL,
                 )
-                data[compare_via_gemini_property] = compare_via_gemini_result
+                data[target_language_llama3_property] = target_translation_llama3
             else:
-                compare_via_gemini_result = data[compare_via_gemini_property]
+                target_translation_llama3 = data[target_language_llama3_property]
 
-            if len(second_compare_language) > 0:
-                compare_to_second_via_gemini_property = f"_compare_to_second_via_gemini_{target_language}"
-                if not compare_to_second_via_gemini_property in data:
-                    compare_to_second_via_gemini_result = await compare_translations(
-                        source_language=second_compare_language,
-                        target_language=target_language,
-                        source_text=current_translations[second_compare_language],
-                        target_text_1=target_translation,
-                        target_text_2=target_translation_gemini,
-                        llm='gemini'
-                    )
-                    data[compare_to_second_via_gemini_property] = compare_to_second_via_gemini_result
-                else:
-                    compare_to_second_via_gemini_result = data[compare_to_second_via_gemini_property]
-
-            compare_via_gpt_property = f"_compare_via_gpt_{target_language}"
-            if not compare_via_gpt_property in data:
-                compare_via_gpt_result = await compare_translations(
+            compare_result_openai_property = f"_compare_openai_{target_language}"
+            if not compare_result_openai_property in data:
+                compare_result_openai = await compare_translations(
+                    source_text=data[source_language],
                     source_language=source_language,
+                    translations=[target_translation_openai, target_translation_gemini, target_translation_claude, target_translation_mistral, target_translation_llama3],
                     target_language=target_language,
-                    source_text=current_translations[source_language],
-                    target_text_1=target_translation,
-                    target_text_2=target_translation_gemini,
-                    llm='gpt'
+                    model=OPENAI_MODEL,
                 )
-                data[compare_via_gpt_property] = compare_via_gpt_result
+                data[compare_result_openai_property] = compare_result_openai
             else:
-                compare_via_gpt_result = data[compare_via_gpt_property]
+                compare_result_openai = data[compare_result_openai_property]
 
-            if len(second_compare_language) > 0:
-                compare_to_second_via_gpt_property = f"_compare_to_second_via_gpt_{target_language}"
-                if not compare_to_second_via_gpt_property in data and len(second_compare_language) > 0:
-                    compare_to_second_via_gpt_result = await compare_translations(
-                        source_language=second_compare_language,
-                        target_language=target_language,
-                        source_text=current_translations[second_compare_language],
-                        target_text_1=target_translation,
-                        target_text_2=target_translation_gemini,
-                        llm='gpt'
-                    )
-                    data[compare_to_second_via_gpt_property] = compare_to_second_via_gpt_result
-                else:
-                    compare_to_second_via_gpt_result = data[compare_to_second_via_gpt_property]
+            compare_result_gemini_property = f"_compare_gemini_{target_language}"
+            if not compare_result_gemini_property in data:
+                compare_result_gemini = await compare_translations(
+                    source_text=data[source_language],
+                    source_language=source_language,
+                    translations=[target_translation_openai, target_translation_gemini, target_translation_claude, target_translation_mistral, target_translation_llama3],
+                    target_language=target_language,
+                    model=GEMINI_MODEL,
+                )
+                data[compare_result_gemini_property] = compare_result_gemini
+            else:
+                compare_result_gemini = data[compare_result_gemini_property]
+
+            compare_result_claude_property = f"_compare_claude_{target_language}"
+            if not compare_result_claude_property in data:
+                compare_result_claude = await compare_translations(
+                    source_text=data[source_language],
+                    source_language=source_language,
+                    translations=[target_translation_openai, target_translation_gemini, target_translation_claude, target_translation_mistral, target_translation_llama3],
+                    target_language=target_language,
+                    model=CLAUDE_MODEL,
+                )
+                data[compare_result_claude_property] = compare_result_claude
+            else:
+                compare_result_claude = data[compare_result_claude_property]
+
+            compare_result_mistral_property = f"_compare_mistral_{target_language}"
+            if not compare_result_mistral_property in data:
+                compare_result_mistral = await compare_translations(
+                    source_text=data[source_language],
+                    source_language=source_language,
+                    translations=[target_translation_openai, target_translation_gemini, target_translation_claude, target_translation_mistral, target_translation_llama3],
+                    target_language=target_language,
+                    model=MISTRAL_MODEL,
+                )
+                data[compare_result_mistral_property] = compare_result_mistral
+            else:
+                compare_result_mistral = data[compare_result_mistral_property]
+
+            compare_result_llama3_property = f"_compare_llama3_{target_language}"
+            if not compare_result_llama3_property in data:
+                compare_result_llama3 = await compare_translations(
+                    source_text=data[source_language],
+                    source_language=source_language,
+                    translations=[target_translation_openai, target_translation_gemini, target_translation_claude, target_translation_mistral, target_translation_llama3],
+                    target_language=target_language,
+                    model=LLAMA3_MODEL,
+                )
+                data[compare_result_llama3_property] = compare_result_llama3
+            else:
+                compare_result_llama3 = data[compare_result_llama3_property]
 
             table_lines.append({
                 "id": path,
-                "translation": create_diff_html(target=target_translation_gemini, source=target_translation),
-                "translation_gemini": create_diff_html(target=target_translation, source=target_translation_gemini),
                 "source_text": current_translations[source_language],
-                "second_compare_text": current_translations[second_compare_language],
-                "official": official,
-                "check": check_result,
-                "check_via_gemini": check_via_gemini_result,
-                "check_gemini": check_gemini_result,
-                "check_gemini_via_gemini": check_gemini_via_gemini_result,
-                "compare_via_gemini": compare_via_gemini_result,
-                "compare_via_gpt": compare_via_gpt_result,
-                "compare_to_second_via_gemini": compare_to_second_via_gemini_result,
-                "compare_to_second_via_gpt": compare_to_second_via_gpt_result,
+                "translation_openai": create_diff_html(target=target_translation_gemini, source=target_translation_openai),
+                "translation_gemini": create_diff_html(target=target_translation_openai, source=target_translation_gemini),
+                "translation_claude": create_diff_html(target=target_translation_openai, source=target_translation_claude),
+                "translation_mistral": create_diff_html(target=target_translation_openai, source=target_translation_mistral),
+                "translation_llama3": create_diff_html(target=target_translation_openai, source=target_translation_llama3),
+                "compare_openai": compare_result_openai,
+                "compare_gemini": compare_result_gemini,
+                "compare_claude": compare_result_claude,
+                "compare_mistral": compare_result_mistral,
+                "compare_llama3": compare_result_llama3,
             })
             current_translations.clear()
     elif isinstance(data, list):
@@ -416,7 +392,6 @@ async def crawl_json(data, source_language: str, target_language: str, current_t
                 current_translations=current_translations,
                 table_lines=table_lines,
                 official=official,
-                second_compare_language=second_compare_language,
             )
     else:
         if is_translation(path):
@@ -432,7 +407,7 @@ async def process_i18n_file(file_path: str, target_language="") -> {str: [object
     table_lines_dict = {}
     for _target_language in (LANGUAGES.keys() if len(target_language) == 0 else [target_language]):
         table_lines = []
-        await crawl_json(data, source_language=SOURCE_LANGUAGE, target_language=_target_language, current_translations={}, table_lines=table_lines, second_compare_language=SECOND_COMPARE_LANGUAGE)
+        await crawl_json(data, source_language=SOURCE_LANGUAGE, target_language=_target_language, current_translations={}, table_lines=table_lines)
         with open(file_path, "w", encoding="UTF-8") as f:
             json.dump(data, f, indent=4, ensure_ascii=False)
         table_lines_dict[_target_language] = table_lines
