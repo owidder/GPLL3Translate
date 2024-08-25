@@ -25,20 +25,11 @@
         .endtd {
             border-right: 3px solid darkgray;
         }
-        .openai {
+        .translate {
             background-color: lightblue;
         }
-        .gemini {
+        .compare {
             background-color: lightgray;
-        }
-        .claude {
-            background-color: lightgoldenrodyellow;
-        }
-        .mistral {
-            background-color: lightskyblue;
-        }
-        .llama3 {
-            background-color: rgba(241, 181, 181, 0.50);
         }
         .source {
             background-color: palegoldenrod;
@@ -58,16 +49,16 @@
             {% for translation_line in translation_lines %}
                 <tr>
                     <td class="endtd source">{{ translation_line.source_text }}</td>
-                    <td class="openai">{{ translation_line.translation_openai }}</td>
-                    <td class="gemini">{{ translation_line.translation_gemini }}</td>
-                    <td class="claude">{{ translation_line.translation_claude }}</td>
-                    <td class="mistral">{{ translation_line.translation_mistral }}</td>
-                    <td class="llama3">{{ translation_line.translation_llama3 }}</td>
-                    <td class="endtd openai">{{ translation_line.compare_openai }}</td>
-                    <td class="gemini">{{ translation_line.compare_gemini }}</td>
-                    <td class="claude">{{ translation_line.compare_claude }}</td>
-                    <td class="mistral">{{ translation_line.compare_mistral }}</td>
-                    <td class="llama3">{{ translation_line.compare_llama3 }}</td>
+                    <td class="translate">{{ translation_line.translation_1 }}</td>
+                    <td class="translate">{{ translation_line.translation_2 }}</td>
+                    <td class="translate">{{ translation_line.translation_3 }}</td>
+                    <td class="translate">{{ translation_line.translation_4 }}</td>
+                    <td class="endtd translate">{{ translation_line.translation_5 }}</td>
+                    <td class="compare">{{ translation_line.compare_openai }}</td>
+                    <td class="compare">{{ translation_line.compare_gemini }}</td>
+                    <td class="compare">{{ translation_line.compare_claude }}</td>
+                    <td class="compare">{{ translation_line.compare_mistral }}</td>
+                    <td class="compare">{{ translation_line.compare_llama3 }}</td>
                 </tr>
             {% endfor %}
         </tbody>

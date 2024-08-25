@@ -154,17 +154,20 @@ async def check_translation(source_text: str, source_language: str, target_text:
     return answer
 
 
-async def compare_translations(source_text: str, source_language: str, translations: [str], target_language: str, model: str):
+async def compare_translations(source_text: str, source_language: str, translations: [str], ignored_translation: str, target_language: str, model: str):
     system = (
         f"You are an expert in all languages and climate change. In the following you get an original {LANGUAGES[source_language]} text and {len(translations)} translations in {LANGUAGES[target_language]}."
         "Please decide which translation is the most accurate. Answer only with the number of the translation. Do NOT explain your choice!!! ONLY ONE NUMBER AS ANSWER!!!"
     )
     original_line = [f"Original {LANGUAGES[source_language]}: \"{source_text}\""]
-    translation_lines = [f"translation {index+1}: \"{translation}\"" for index, translation in enumerate(translations)]
-    user = "\n".join(original_line + translation_lines)
-    print(f"compare_translations for '{source_text}'")
-    answer = await ask_model(system=system, user=user, model=model)
-    return answer
+    translation_lines = [f"translation {index+1}: \"{translation}\"" for index, translation in enumerate(translations) if translation != ignored_translation]
+    if len(translation_lines) > 0:
+        user = "\n".join(original_line + translation_lines)
+        print(f"compare_translations for '{source_text}'")
+        answer = await ask_model(system=system, user=user, model=model)
+        return answer
+    else:
+        return "1"
 
 
 def is_translation(path: str) -> bool:
@@ -174,11 +177,11 @@ def is_translation(path: str) -> bool:
 def create_table(input_file: str, translation_lines: [str], source: str, target: str):
     headers = [
         "source text",
-        "OpenAI (1)",
-        "Gemini (2)",
-        "Claude (3)",
-        "Mistral (4)",
-        "Llama3 (5)",
+        "--- 1 ---",
+        "--- 2 ---",
+        "--- 3 ---",
+        "--- 4 ---",
+        "--- 5 ---",
         "Compare via OpenAI",
         "Compare via Gemini",
         "Compare via Claude",
@@ -302,12 +305,16 @@ async def crawl_json(data, source_language: str, target_language: str, current_t
             else:
                 target_translation_llama3 = data[target_language_llama3_property]
 
+            unique_translations = list({target_translation_openai, target_translation_gemini, target_translation_claude,
+                                   target_translation_mistral, target_translation_llama3})
+
             compare_result_openai_property = f"_compare_openai_{target_language}"
             if not compare_result_openai_property in data:
                 compare_result_openai = await compare_translations(
                     source_text=data[source_language],
                     source_language=source_language,
-                    translations=[target_translation_openai, target_translation_gemini, target_translation_claude, target_translation_mistral, target_translation_llama3],
+                    translations=unique_translations,
+                    ignored_translation=target_translation_openai,
                     target_language=target_language,
                     model=OPENAI_MODEL,
                 )
@@ -320,7 +327,8 @@ async def crawl_json(data, source_language: str, target_language: str, current_t
                 compare_result_gemini = await compare_translations(
                     source_text=data[source_language],
                     source_language=source_language,
-                    translations=[target_translation_openai, target_translation_gemini, target_translation_claude, target_translation_mistral, target_translation_llama3],
+                    translations=unique_translations,
+                    ignored_translation=target_translation_gemini,
                     target_language=target_language,
                     model=GEMINI_MODEL,
                 )
@@ -333,7 +341,8 @@ async def crawl_json(data, source_language: str, target_language: str, current_t
                 compare_result_claude = await compare_translations(
                     source_text=data[source_language],
                     source_language=source_language,
-                    translations=[target_translation_openai, target_translation_gemini, target_translation_claude, target_translation_mistral, target_translation_llama3],
+                    translations=unique_translations,
+                    ignored_translation=target_translation_claude,
                     target_language=target_language,
                     model=CLAUDE_MODEL,
                 )
@@ -346,7 +355,8 @@ async def crawl_json(data, source_language: str, target_language: str, current_t
                 compare_result_mistral = await compare_translations(
                     source_text=data[source_language],
                     source_language=source_language,
-                    translations=[target_translation_openai, target_translation_gemini, target_translation_claude, target_translation_mistral, target_translation_llama3],
+                    translations=unique_translations,
+                    ignored_translation=target_translation_mistral,
                     target_language=target_language,
                     model=MISTRAL_MODEL,
                 )
@@ -359,7 +369,8 @@ async def crawl_json(data, source_language: str, target_language: str, current_t
                 compare_result_llama3 = await compare_translations(
                     source_text=data[source_language],
                     source_language=source_language,
-                    translations=[target_translation_openai, target_translation_gemini, target_translation_claude, target_translation_mistral, target_translation_llama3],
+                    translations=unique_translations,
+                    ignored_translation=target_translation_llama3,
                     target_language=target_language,
                     model=LLAMA3_MODEL,
                 )
@@ -370,11 +381,11 @@ async def crawl_json(data, source_language: str, target_language: str, current_t
             table_lines.append({
                 "id": path,
                 "source_text": current_translations[source_language],
-                "translation_openai": create_diff_html(target=target_translation_gemini, source=target_translation_openai),
-                "translation_gemini": create_diff_html(target=target_translation_openai, source=target_translation_gemini),
-                "translation_claude": create_diff_html(target=target_translation_openai, source=target_translation_claude),
-                "translation_mistral": create_diff_html(target=target_translation_openai, source=target_translation_mistral),
-                "translation_llama3": create_diff_html(target=target_translation_openai, source=target_translation_llama3),
+                "translation_1": unique_translations[0],
+                "translation_2": create_diff_html(unique_translations[0], unique_translations[1]) if len(unique_translations) > 1 else "",
+                "translation_3": create_diff_html(unique_translations[0], unique_translations[2]) if len(unique_translations) > 2 else "",
+                "translation_4": create_diff_html(unique_translations[0], unique_translations[3]) if len(unique_translations) > 3 else "",
+                "translation_5": create_diff_html(unique_translations[0], unique_translations[4]) if len(unique_translations) > 4 else "",
                 "compare_openai": compare_result_openai,
                 "compare_gemini": compare_result_gemini,
                 "compare_claude": compare_result_claude,
