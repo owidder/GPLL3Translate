@@ -305,8 +305,8 @@ async def crawl_json(data, source_language: str, target_language: str, current_t
             else:
                 target_translation_llama3 = data[target_language_llama3_property]
 
-            unique_translations = list({target_translation_openai, target_translation_gemini, target_translation_claude,
-                                   target_translation_mistral, target_translation_llama3})
+            unique_translations = list({target_translation_openai.strip(), target_translation_gemini.strip(), target_translation_claude.strip(),
+                                   target_translation_mistral.strip(), target_translation_llama3.strip()})
 
             compare_result_openai_property = f"_compare_openai_{target_language}"
             if not compare_result_openai_property in data:
