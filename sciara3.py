@@ -160,7 +160,7 @@ async def compare_translations(source_text: str, source_language: str, translati
         "Please decide which translation is the most accurate. Just answer just with the number of the translation. Please explain your decision in just one sentence."
     )
     original_line = [f"Original {LANGUAGES[source_language]}: \"{source_text}\""]
-    translation_lines = [f"translation {index}: \"{translation}\"" for index, translation in enumerate(translations)]
+    translation_lines = [f"translation {index+1}: \"{translation}\"" for index, translation in enumerate(translations)]
     user = "\n".join(original_line + translation_lines)
     print(f"compare_translations for '{source_text}'")
     answer = await ask_model(system=system, user=user, model=model)
