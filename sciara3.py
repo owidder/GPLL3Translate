@@ -157,7 +157,7 @@ async def check_translation(source_text: str, source_language: str, target_text:
 async def compare_translations(source_text: str, source_language: str, translations: [str], target_language: str, model: str):
     system = (
         f"You are an expert in all languages and climate change. In the following you get an original {LANGUAGES[source_language]} text and {len(translations)} translations in {LANGUAGES[target_language]}."
-        "Please decide which translation is the most accurate. Answer only with the number of the translation"
+        "Please decide which translation is the most accurate. Answer only with the number of the translation. Do NOT explain your choice!!! ONLY ONE NUMBER AS ANSWER!!!"
     )
     original_line = [f"Original {LANGUAGES[source_language]}: \"{source_text}\""]
     translation_lines = [f"translation {index+1}: \"{translation}\"" for index, translation in enumerate(translations)]
