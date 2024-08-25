@@ -60,7 +60,7 @@ LLAMA3_MODEL = os.getenv("LLAMA3_MODEL", "iteratec/Llama3.1-70B-Instruct")
 INPUT_FILE = os.getenv("INPUT_FILE")
 RETRY_CHECK = (os.getenv("RETRY_CHECK", "0") == "1")
 TARGET_LANGUAGE = os.getenv("TARGET_LANGUAGE", "")
-SOURCE_LANGUAGE = os.getenv("SOURCE_LANGUAGE", "en")
+SOURCE_LANGUAGE = os.getenv("SOURCE_LANGUAGE", "de")
 SECOND_COMPARE_LANGUAGE = os.getenv("SECOND_COMPARE_LANGUAGE", "en")
 REDO_CHATGPT = os.getenv("REDO_CHATGPT", "False").lower() == "true"
 
