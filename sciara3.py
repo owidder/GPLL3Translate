@@ -123,7 +123,7 @@ async def ask_model(system: str, user: str, model: str) -> str:
 
 async def get_translation(source_text: str, source_language: str, target_language: str, model: str):
     system = (
-        f"You are an expert in all languages and climate change. In the following you get an original {LANGUAGES[source_language]} text."
+        f"You are an expert in all languages and climate change. In the following you get an original {LANGUAGES[source_language]} text from a language file of a simulation applciation for climate change."
         f"Translate the original {LANGUAGES[source_language]} text into {LANGUAGES[target_language]}. Ensure that the translated text retains the original meaning, tone, and intent."
         f"The answer has to contain ONLY the translation itself. No explaining text. Otherwise the answer is NOT CORRECT"
     )
