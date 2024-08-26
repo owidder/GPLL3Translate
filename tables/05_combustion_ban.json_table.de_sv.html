@@ -25,17 +25,14 @@
         .endtd {
             border-right: 3px solid darkgray;
         }
-        .gpt4w {
+        .translate {
             background-color: lightblue;
         }
-        .gpt4wo {
-            background-color: lightblue;
+        .winner {
+            background-color: lightpink;
         }
-        .llama3 {
-            background-color: rgba(241, 181, 181, 0.50);
-        }
-        .llama3wo {
-            background-color: rgba(241, 181, 181, 0.50);
+        .compare {
+            background-color: lightgray;
         }
         .source {
             background-color: palegoldenrod;
@@ -49,17 +46,25 @@
                 
                     <th>source text</th>
                 
-                    <th>GPT4</th>
+                    <th>--- 1 ---</th>
                 
-                    <th>check (GPT4 via GPT4)</th>
+                    <th>--- 2 ---</th>
                 
-                    <th>check (GPT4 via Gemini)</th>
+                    <th>--- 3 ---</th>
                 
-                    <th>Gemini</th>
+                    <th>--- 4 ---</th>
                 
-                    <th>check (Gemini via GPT4)</th>
+                    <th>--- 5 ---</th>
                 
-                    <th>check (Gemini via Gemini)</th>
+                    <th>Compare via OpenAI</th>
+                
+                    <th>Compare via Gemini</th>
+                
+                    <th>Compare via Claude</th>
+                
+                    <th>Compare via Mistral</th>
+                
+                    <th>Compare via Llama3</th>
                 
             </tr>
         </thead>
@@ -67,14 +72,16 @@
             
                 <tr>
                     <td class="endtd source">Abstimmung über ein Verbot des Verbrennungsmotors in PKW</td>
-                    <td class="gpt4wo"><span style = 'color: black;'>  Omröstning</span> <span style = 'color: black;'>  om</span> <span style = 'color: black;'>  förbud</span> <span style = 'color: black;'>  mot</span> <span style = 'color: black;'>  förbränningsmotorer</span> <span style = 'color: black;'>  i</span> <span style = 'color: black;'>  personbilar</span></td>
-                    <td class="gpt4wo">YES</td>
-                    <td class="endtd gpt4wo">YES 
-</td>
-                    <td class="geminiwo"><span style = 'color: black;'>  Omröstning</span> <span style = 'color: black;'>  om</span> <span style = 'color: black;'>  förbud</span> <span style = 'color: black;'>  mot</span> <span style = 'color: black;'>  förbränningsmotorer</span> <span style = 'color: black;'>  i</span> <span style = 'color: black;'>  personbilar</span></td>
-                    <td class="geminiwo">YES</td>
-                    <td class="endtd geminiwo">YES 
-</td>
+                    <td class="translate">Omröstning om förbud mot förbränningsmotorer i personbilar</td>
+                    <td class="winner"><span style = 'color: black;'>  Omröstning</span> <span style = 'color: black;'>  om</span> <span style = 'color: red; font-weight: bold;'> ett</span> <span style = 'color: black;'>  förbud</span> <span style = 'color: black;'>  mot</span> <span style = 'color: black;'>  förbränningsmotorer</span> <span style = 'color: black;'>  i</span> <span style = 'color: black;'>  personbilar</span></td>
+                    <td class="translate"><span style = 'color: black;'>  Omröstning</span> <span style = 'color: black;'>  om</span> <span style = 'color: red; font-weight: bold;'> ett</span> <span style = 'color: black;'>  förbud</span> <span style = 'color: black;'>  mot</span> <span style = 'color: red; font-weight: bold;'> förbränningsmotor</span> <span style = 'color: black;'>  i</span> <span style = 'color: black;'>  personbilar</span></td>
+                    <td class="translate"></td>
+                    <td class="endtd translate"></td>
+                    <td class="compare">1</td>
+                    <td class="compare">2</td>
+                    <td class="compare">2</td>
+                    <td class="compare">2</td>
+                    <td class="compare">3</td>
                 </tr>
             
                 <tr>
@@ -83,86 +90,104 @@
 Ein Verbot von PKW mit Verbrennungsmotoren, die ca. 60% Anteil an den Emissionen des Verkehrssektors haben, würde die Emissionen bereits vor Inkrafttreten erheblich reduzieren, weil alle Autohersteller ihre Flotte schon vorher schrittweise umstellen müssten.
 
 </td>
-                    <td class="gpt4wo"><span style = 'color: black;'>  En</span> <span style = 'color: red; font-weight: bold;'> viktig</span> <span style = 'color: black;'>  källa</span> <span style = 'color: black;'>  till</span> <span style = 'color: black;'>  växthusgasutsläpp</span> <span style = 'color: black;'>  är</span> <span style = 'color: black;'>  med</span> <span style = 'color: red; font-weight: bold;'> 20</span> <span style = 'color: red; font-weight: bold;'> %</span> <span style = 'color: black;'>  trafiken</span> <span style = 'color: black;'>  genom</span> <span style = 'color: black;'>  förbränning</span> <span style = 'color: black;'>  av</span> <span style = 'color: black;'>  fossila</span> <span style = 'color: black;'>  bränslen</span> <span style = 'color: black;'>  som</span> <span style = 'color: black;'>  bensin,</span> <span style = 'color: black;'>  diesel</span> <span style = 'color: black;'>  och</span> <span style = 'color: black;'>  gas.</span> <span style = 'color: black;'>  Ett</span> <span style = 'color: black;'>  förbud</span> <span style = 'color: black;'>  mot</span> <span style = 'color: black;'>  personbilar</span> <span style = 'color: black;'>  med</span> <span style = 'color: black;'>  förbränningsmotorer,</span> <span style = 'color: black;'>  som</span> <span style = 'color: black;'>  står</span> <span style = 'color: black;'>  för</span> <span style = 'color: black;'>  cirka</span> <span style = 'color: red; font-weight: bold;'> 60</span> <span style = 'color: red; font-weight: bold;'> %</span> <span style = 'color: black;'>  av</span> <span style = 'color: black;'>  utsläppen</span> <span style = 'color: black;'>  från</span> <span style = 'color: black;'>  transportsektorn,</span> <span style = 'color: black;'>  skulle</span> <span style = 'color: black;'>  minska</span> <span style = 'color: black;'>  utsläppen</span> <span style = 'color: black;'>  avsevärt</span> <span style = 'color: red; font-weight: bold;'> redan</span> <span style = 'color: red; font-weight: bold;'> före</span> <span style = 'color: red; font-weight: bold;'> ikraftträdande,</span> <span style = 'color: black;'>  eftersom</span> <span style = 'color: black;'>  alla</span> <span style = 'color: black;'>  biltillverkare</span> <span style = 'color: black;'>  skulle</span> <span style = 'color: black;'>  behöva</span> <span style = 'color: black;'>  gradvis</span> <span style = 'color: red; font-weight: bold;'> ställa</span> <span style = 'color: red; font-weight: bold;'> om</span> <span style = 'color: red; font-weight: bold;'> sina</span> <span style = 'color: red; font-weight: bold;'> flottor</span> <span style = 'color: black;'>  i</span> <span style = 'color: black;'>  förväg.</span></td>
-                    <td class="gpt4wo">YES</td>
-                    <td class="endtd gpt4wo">YES 
-</td>
-                    <td class="geminiwo"><span style = 'color: black;'>  En</span> <span style = 'color: red; font-weight: bold;'> väsentlig</span> <span style = 'color: black;'>  källa</span> <span style = 'color: black;'>  till</span> <span style = 'color: black;'>  växthusgasutsläpp</span> <span style = 'color: black;'>  är</span> <span style = 'color: black;'>  med</span> <span style = 'color: red; font-weight: bold;'> 20%</span> <span style = 'color: black;'>  trafiken</span> <span style = 'color: black;'>  genom</span> <span style = 'color: black;'>  förbränning</span> <span style = 'color: black;'>  av</span> <span style = 'color: black;'>  fossila</span> <span style = 'color: black;'>  bränslen</span> <span style = 'color: black;'>  som</span> <span style = 'color: black;'>  bensin,</span> <span style = 'color: black;'>  diesel</span> <span style = 'color: black;'>  och</span> <span style = 'color: black;'>  gas.</span> <span style = 'color: black;'>  Ett</span> <span style = 'color: black;'>  förbud</span> <span style = 'color: black;'>  mot</span> <span style = 'color: black;'>  personbilar</span> <span style = 'color: black;'>  med</span> <span style = 'color: black;'>  förbränningsmotorer,</span> <span style = 'color: black;'>  som</span> <span style = 'color: black;'>  står</span> <span style = 'color: black;'>  för</span> <span style = 'color: black;'>  cirka</span> <span style = 'color: red; font-weight: bold;'> 60%</span> <span style = 'color: black;'>  av</span> <span style = 'color: black;'>  utsläppen</span> <span style = 'color: black;'>  från</span> <span style = 'color: black;'>  transportsektorn,</span> <span style = 'color: black;'>  skulle</span> <span style = 'color: red; font-weight: bold;'> redan</span> <span style = 'color: black;'>  minska</span> <span style = 'color: black;'>  utsläppen</span> <span style = 'color: black;'>  avsevärt</span> <span style = 'color: red; font-weight: bold;'> innan</span> <span style = 'color: red; font-weight: bold;'> det</span> <span style = 'color: red; font-weight: bold;'> träder</span> <span style = 'color: red; font-weight: bold;'> i</span> <span style = 'color: red; font-weight: bold;'> kraft,</span> <span style = 'color: black;'>  eftersom</span> <span style = 'color: black;'>  alla</span> <span style = 'color: black;'>  biltillverkare</span> <span style = 'color: black;'>  skulle</span> <span style = 'color: black;'>  behöva</span> <span style = 'color: black;'>  gradvis</span> <span style = 'color: red; font-weight: bold;'> omvandla</span> <span style = 'color: red; font-weight: bold;'> sin</span> <span style = 'color: red; font-weight: bold;'> flotta</span> <span style = 'color: black;'>  i</span> <span style = 'color: black;'>  förväg.</span></td>
-                    <td class="geminiwo">YES</td>
-                    <td class="endtd geminiwo">YES 
-</td>
+                    <td class="winner">En betydande källa till utsläpp av växthusgaser är trafiken, som står för 20 %, genom förbränning av fossila bränslen som bensin, diesel och gas.
+
+Ett förbud mot personbilar med förbränningsmotorer, som står för cirka 60 % av utsläppen inom transportsektorn, skulle avsevärt minska utsläppen redan innan det träder i kraft, eftersom alla biltillverkare skulle behöva ställa om sina flottor gradvis i förväg.</td>
+                    <td class="translate"><span style = 'color: black;'>  En</span> <span style = 'color: black;'>  betydande</span> <span style = 'color: black;'>  källa</span> <span style = 'color: red; font-weight: bold;'> för</span> <span style = 'color: black;'>  utsläpp</span> <span style = 'color: black;'>  av</span> <span style = 'color: black;'>  växthusgaser</span> <span style = 'color: black;'>  är</span> <span style = 'color: black;'>  trafiken,</span> <span style = 'color: black;'>  som</span> <span style = 'color: black;'>  står</span> <span style = 'color: black;'>  för</span> <span style = 'color: red; font-weight: bold;'> 20%</span> <span style = 'color: black;'>  genom</span> <span style = 'color: black;'>  förbränning</span> <span style = 'color: black;'>  av</span> <span style = 'color: black;'>  fossila</span> <span style = 'color: black;'>  bränslen</span> <span style = 'color: black;'>  som</span> <span style = 'color: black;'>  bensin,</span> <span style = 'color: black;'>  diesel</span> <span style = 'color: black;'>  och</span> <span style = 'color: black;'>  gas.</span> <span style = 'color: black;'>  Ett</span> <span style = 'color: black;'>  förbud</span> <span style = 'color: black;'>  mot</span> <span style = 'color: black;'>  personbilar</span> <span style = 'color: black;'>  med</span> <span style = 'color: black;'>  förbränningsmotorer,</span> <span style = 'color: black;'>  som</span> <span style = 'color: red; font-weight: bold;'> utgör</span> <span style = 'color: black;'>  cirka</span> <span style = 'color: red; font-weight: bold;'> 60%</span> <span style = 'color: black;'>  av</span> <span style = 'color: red; font-weight: bold;'> utslppen</span> <span style = 'color: black;'>  inom</span> <span style = 'color: red; font-weight: bold;'> trafiksektorn,</span> <span style = 'color: black;'>  skulle</span> <span style = 'color: red; font-weight: bold;'> minska</span> <span style = 'color: red; font-weight: bold;'> utslppen</span> <span style = 'color: black;'>  avsevärt</span> <span style = 'color: black;'>  redan</span> <span style = 'color: black;'>  innan</span> <span style = 'color: black;'>  det</span> <span style = 'color: black;'>  träder</span> <span style = 'color: black;'>  i</span> <span style = 'color: black;'>  kraft,</span> <span style = 'color: black;'>  eftersom</span> <span style = 'color: black;'>  alla</span> <span style = 'color: black;'>  biltillverkare</span> <span style = 'color: black;'>  skulle</span> <span style = 'color: black;'>  behöva</span> <span style = 'color: red; font-weight: bold;'> omställa</span> <span style = 'color: red; font-weight: bold;'> sin</span> <span style = 'color: red; font-weight: bold;'> flotta</span> <span style = 'color: red; font-weight: bold;'> stegvis</span> <span style = 'color: black;'>  i</span> <span style = 'color: black;'>  förväg.</span></td>
+                    <td class="translate"><span style = 'color: black;'>  En</span> <span style = 'color: red; font-weight: bold;'> väsentlig</span> <span style = 'color: black;'>  källa</span> <span style = 'color: black;'>  till</span> <span style = 'color: black;'>  utsläpp</span> <span style = 'color: black;'>  av</span> <span style = 'color: black;'>  växthusgaser</span> <span style = 'color: black;'>  är</span> <span style = 'color: red; font-weight: bold;'> transportsektorn</span> <span style = 'color: red; font-weight: bold;'> med</span> <span style = 'color: red; font-weight: bold;'> 20%</span> <span style = 'color: black;'>  genom</span> <span style = 'color: black;'>  förbränning</span> <span style = 'color: black;'>  av</span> <span style = 'color: black;'>  fossila</span> <span style = 'color: black;'>  bränslen</span> <span style = 'color: black;'>  som</span> <span style = 'color: black;'>  bensin,</span> <span style = 'color: black;'>  diesel</span> <span style = 'color: black;'>  och</span> <span style = 'color: black;'>  gas.</span> <span style = 'color: black;'>  Ett</span> <span style = 'color: black;'>  förbud</span> <span style = 'color: black;'>  mot</span> <span style = 'color: black;'>  personbilar</span> <span style = 'color: black;'>  med</span> <span style = 'color: black;'>  förbränningsmotorer,</span> <span style = 'color: black;'>  som</span> <span style = 'color: black;'>  står</span> <span style = 'color: black;'>  för</span> <span style = 'color: black;'>  cirka</span> <span style = 'color: red; font-weight: bold;'> 60%</span> <span style = 'color: black;'>  av</span> <span style = 'color: black;'>  utsläppen</span> <span style = 'color: red; font-weight: bold;'> från</span> <span style = 'color: black;'>  transportsektorn,</span> <span style = 'color: black;'>  skulle</span> <span style = 'color: red; font-weight: bold;'> redan</span> <span style = 'color: red; font-weight: bold;'> före</span> <span style = 'color: red; font-weight: bold;'> ikraftträdandet</span> <span style = 'color: black;'>  minska</span> <span style = 'color: black;'>  utsläppen</span> <span style = 'color: red; font-weight: bold;'> avsevärt,</span> <span style = 'color: black;'>  eftersom</span> <span style = 'color: black;'>  alla</span> <span style = 'color: black;'>  biltillverkare</span> <span style = 'color: black;'>  skulle</span> <span style = 'color: black;'>  behöva</span> <span style = 'color: black;'>  ställa</span> <span style = 'color: black;'>  om</span> <span style = 'color: red; font-weight: bold;'> sin</span> <span style = 'color: red; font-weight: bold;'> flotta</span> <span style = 'color: red; font-weight: bold;'> stegvis</span> <span style = 'color: red; font-weight: bold;'> redan</span> <span style = 'color: red; font-weight: bold;'> innan.</span></td>
+                    <td class="translate"><span style = 'color: black;'>  En</span> <span style = 'color: red; font-weight: bold;'> väsentlig</span> <span style = 'color: black;'>  källa</span> <span style = 'color: black;'>  till</span> <span style = 'color: red; font-weight: bold;'> växthusgasutsläpp</span> <span style = 'color: black;'>  är</span> <span style = 'color: red; font-weight: bold;'> trafiken</span> <span style = 'color: red; font-weight: bold;'> med</span> <span style = 'color: red; font-weight: bold;'> 20%</span> <span style = 'color: black;'>  genom</span> <span style = 'color: black;'>  förbränning</span> <span style = 'color: black;'>  av</span> <span style = 'color: black;'>  fossila</span> <span style = 'color: black;'>  bränslen</span> <span style = 'color: black;'>  som</span> <span style = 'color: black;'>  bensin,</span> <span style = 'color: black;'>  diesel</span> <span style = 'color: black;'>  och</span> <span style = 'color: black;'>  gas.</span> <span style = 'color: black;'>  Ett</span> <span style = 'color: black;'>  förbud</span> <span style = 'color: black;'>  mot</span> <span style = 'color: black;'>  personbilar</span> <span style = 'color: black;'>  med</span> <span style = 'color: red; font-weight: bold;'> förbränningsmotor,</span> <span style = 'color: black;'>  som</span> <span style = 'color: black;'>  står</span> <span style = 'color: black;'>  för</span> <span style = 'color: black;'>  cirka</span> <span style = 'color: red; font-weight: bold;'> 60%</span> <span style = 'color: black;'>  av</span> <span style = 'color: black;'>  utsläppen</span> <span style = 'color: red; font-weight: bold;'> från</span> <span style = 'color: black;'>  transportsektorn,</span> <span style = 'color: black;'>  skulle</span> <span style = 'color: black;'>  minska</span> <span style = 'color: black;'>  utsläppen</span> <span style = 'color: red; font-weight: bold;'> avsevärt</span> <span style = 'color: black;'>  redan</span> <span style = 'color: black;'>  innan</span> <span style = 'color: black;'>  det</span> <span style = 'color: black;'>  träder</span> <span style = 'color: black;'>  i</span> <span style = 'color: black;'>  kraft,</span> <span style = 'color: black;'>  eftersom</span> <span style = 'color: black;'>  alla</span> <span style = 'color: black;'>  biltillverkare</span> <span style = 'color: black;'>  skulle</span> <span style = 'color: black;'>  behöva</span> <span style = 'color: red; font-weight: bold;'> gradvis</span> <span style = 'color: black;'>  ställa</span> <span style = 'color: black;'>  om</span> <span style = 'color: black;'>  sina</span> <span style = 'color: black;'>  flottor</span> <span style = 'color: black;'>  i</span> <span style = 'color: black;'>  förväg.</span></td>
+                    <td class="endtd translate"><span style = 'color: black;'>  En</span> <span style = 'color: red; font-weight: bold;'> väsentlig</span> <span style = 'color: black;'>  källa</span> <span style = 'color: black;'>  till</span> <span style = 'color: red; font-weight: bold;'> växthusgasutsläpp</span> <span style = 'color: black;'>  är</span> <span style = 'color: red; font-weight: bold;'> med</span> <span style = 'color: red; font-weight: bold;'> 20%</span> <span style = 'color: red; font-weight: bold;'> trafiken</span> <span style = 'color: black;'>  genom</span> <span style = 'color: black;'>  förbränning</span> <span style = 'color: black;'>  av</span> <span style = 'color: black;'>  fossila</span> <span style = 'color: black;'>  bränslen</span> <span style = 'color: black;'>  som</span> <span style = 'color: black;'>  bensin,</span> <span style = 'color: black;'>  diesel</span> <span style = 'color: black;'>  och</span> <span style = 'color: black;'>  gas.</span> <span style = 'color: black;'>  Ett</span> <span style = 'color: black;'>  förbud</span> <span style = 'color: black;'>  mot</span> <span style = 'color: black;'>  personbilar</span> <span style = 'color: black;'>  med</span> <span style = 'color: black;'>  förbränningsmotorer,</span> <span style = 'color: black;'>  som</span> <span style = 'color: black;'>  står</span> <span style = 'color: black;'>  för</span> <span style = 'color: black;'>  cirka</span> <span style = 'color: red; font-weight: bold;'> 60%</span> <span style = 'color: black;'>  av</span> <span style = 'color: black;'>  utsläppen</span> <span style = 'color: red; font-weight: bold;'> från</span> <span style = 'color: black;'>  transportsektorn,</span> <span style = 'color: black;'>  skulle</span> <span style = 'color: red; font-weight: bold;'> redan</span> <span style = 'color: red; font-weight: bold;'> före</span> <span style = 'color: red; font-weight: bold;'> ikraftträdandet</span> <span style = 'color: black;'>  avsevärt</span> <span style = 'color: black;'>  minska</span> <span style = 'color: black;'>  utsläppen</span> <span style = 'color: black;'>  eftersom</span> <span style = 'color: black;'>  alla</span> <span style = 'color: black;'>  biltillverkare</span> <span style = 'color: black;'>  skulle</span> <span style = 'color: black;'>  behöva</span> <span style = 'color: red; font-weight: bold;'> successivt</span> <span style = 'color: black;'>  ställa</span> <span style = 'color: black;'>  om</span> <span style = 'color: red; font-weight: bold;'> sin</span> <span style = 'color: red; font-weight: bold;'> fordonsflotta</span> <span style = 'color: black;'>  i</span> <span style = 'color: black;'>  förväg.</span></td>
+                    <td class="compare">1</td>
+                    <td class="compare">1</td>
+                    <td class="compare">5</td>
+                    <td class="compare">1</td>
+                    <td class="compare">1</td>
                 </tr>
             
                 <tr>
                     <td class="endtd source">Kein Verbot</td>
-                    <td class="gpt4wo"><span style = 'color: black;'>  Inget</span> <span style = 'color: black;'>  förbud</span></td>
-                    <td class="gpt4wo">YES</td>
-                    <td class="endtd gpt4wo">YES 
-</td>
-                    <td class="geminiwo"><span style = 'color: black;'>  Inget</span> <span style = 'color: black;'>  förbud</span></td>
-                    <td class="geminiwo">YES</td>
-                    <td class="endtd geminiwo">YES 
-</td>
+                    <td class="winner">Inget förbud
+
+(This is the Swedish translation of the German text Kein Verbot.)</td>
+                    <td class="translate"><span style = 'color: black;'>  Inget</span> <span style = 'color: black;'>  förbud</span></td>
+                    <td class="translate"></td>
+                    <td class="translate"></td>
+                    <td class="endtd translate"></td>
+                    <td class="compare">1</td>
+                    <td class="compare">1</td>
+                    <td class="compare">1</td>
+                    <td class="compare">2</td>
+                    <td class="compare">1</td>
                 </tr>
             
                 <tr>
                     <td class="endtd source">Verbot ab 2025</td>
-                    <td class="gpt4wo"><span style = 'color: black;'>  Förbud</span> <span style = 'color: black;'>  från</span> <span style = 'color: red; font-weight: bold;'> och</span> <span style = 'color: red; font-weight: bold;'> med</span> <span style = 'color: black;'>  2025</span></td>
-                    <td class="gpt4wo">YES</td>
-                    <td class="endtd gpt4wo">YES 
-</td>
-                    <td class="geminiwo"><span style = 'color: black;'>  Förbud</span> <span style = 'color: black;'>  från</span> <span style = 'color: black;'>  2025</span></td>
-                    <td class="geminiwo">YES</td>
-                    <td class="endtd geminiwo">YES 
-</td>
+                    <td class="translate">Förbud från 2025</td>
+                    <td class="winner"><span style = 'color: black;'>  Förbud</span> <span style = 'color: black;'>  från</span> <span style = 'color: red; font-weight: bold;'> och</span> <span style = 'color: red; font-weight: bold;'> med</span> <span style = 'color: black;'>  2025</span></td>
+                    <td class="translate"></td>
+                    <td class="translate"></td>
+                    <td class="endtd translate"></td>
+                    <td class="compare">2</td>
+                    <td class="compare">2</td>
+                    <td class="compare">2</td>
+                    <td class="compare">1</td>
+                    <td class="compare">1</td>
                 </tr>
             
                 <tr>
                     <td class="endtd source">Verbot ab 2030</td>
-                    <td class="gpt4wo"><span style = 'color: black;'>  Förbud</span> <span style = 'color: black;'>  från</span> <span style = 'color: red; font-weight: bold;'> och</span> <span style = 'color: red; font-weight: bold;'> med</span> <span style = 'color: black;'>  2030</span></td>
-                    <td class="gpt4wo">YES</td>
-                    <td class="endtd gpt4wo">YES 
-</td>
-                    <td class="geminiwo"><span style = 'color: black;'>  Förbud</span> <span style = 'color: black;'>  från</span> <span style = 'color: black;'>  2030</span></td>
-                    <td class="geminiwo">YES</td>
-                    <td class="endtd geminiwo">YES 
-</td>
+                    <td class="translate">Förbud från 2030</td>
+                    <td class="winner"><span style = 'color: black;'>  Förbud</span> <span style = 'color: black;'>  från</span> <span style = 'color: red; font-weight: bold;'> och</span> <span style = 'color: red; font-weight: bold;'> med</span> <span style = 'color: black;'>  2030</span></td>
+                    <td class="translate"></td>
+                    <td class="translate"></td>
+                    <td class="endtd translate"></td>
+                    <td class="compare">2</td>
+                    <td class="compare">2</td>
+                    <td class="compare">2</td>
+                    <td class="compare">1</td>
+                    <td class="compare">1</td>
                 </tr>
             
                 <tr>
                     <td class="endtd source">Verbot ab 2035</td>
-                    <td class="gpt4wo"><span style = 'color: black;'>  Förbud</span> <span style = 'color: black;'>  från</span> <span style = 'color: red; font-weight: bold;'> och</span> <span style = 'color: red; font-weight: bold;'> med</span> <span style = 'color: black;'>  2035</span></td>
-                    <td class="gpt4wo">YES</td>
-                    <td class="endtd gpt4wo">YES 
-</td>
-                    <td class="geminiwo"><span style = 'color: black;'>  Förbud</span> <span style = 'color: black;'>  från</span> <span style = 'color: black;'>  2035</span></td>
-                    <td class="geminiwo">YES</td>
-                    <td class="endtd geminiwo">YES 
-</td>
+                    <td class="winner">Förbud från och med 2035</td>
+                    <td class="translate"><span style = 'color: black;'>  Förbud</span> <span style = 'color: black;'>  från</span> <span style = 'color: black;'>  2035</span></td>
+                    <td class="translate"></td>
+                    <td class="translate"></td>
+                    <td class="endtd translate"></td>
+                    <td class="compare">1</td>
+                    <td class="compare">1</td>
+                    <td class="compare">1</td>
+                    <td class="compare">2</td>
+                    <td class="compare">1</td>
                 </tr>
             
                 <tr>
                     <td class="endtd source">Verbot ab 2040</td>
-                    <td class="gpt4wo"><span style = 'color: black;'>  Förbud</span> <span style = 'color: black;'>  från</span> <span style = 'color: red; font-weight: bold;'> och</span> <span style = 'color: red; font-weight: bold;'> med</span> <span style = 'color: black;'>  2040</span></td>
-                    <td class="gpt4wo">YES</td>
-                    <td class="endtd gpt4wo">YES 
-</td>
-                    <td class="geminiwo"><span style = 'color: black;'>  Förbud</span> <span style = 'color: black;'>  från</span> <span style = 'color: black;'>  2040</span></td>
-                    <td class="geminiwo">YES</td>
-                    <td class="endtd geminiwo">YES 
-</td>
+                    <td class="winner">Förbud från och med 2040</td>
+                    <td class="translate"><span style = 'color: black;'>  Förbud</span> <span style = 'color: black;'>  från</span> <span style = 'color: black;'>  2040</span></td>
+                    <td class="translate"></td>
+                    <td class="translate"></td>
+                    <td class="endtd translate"></td>
+                    <td class="compare">1</td>
+                    <td class="compare">1</td>
+                    <td class="compare">1</td>
+                    <td class="compare">1</td>
+                    <td class="compare">1</td>
                 </tr>
             
                 <tr>
                     <td class="endtd source">Verbot ab 2045</td>
-                    <td class="gpt4wo"><span style = 'color: black;'>  Förbud</span> <span style = 'color: black;'>  från</span> <span style = 'color: black;'>  2045</span></td>
-                    <td class="gpt4wo">YES</td>
-                    <td class="endtd gpt4wo">YES 
-</td>
-                    <td class="geminiwo"><span style = 'color: black;'>  Förbud</span> <span style = 'color: black;'>  från</span> <span style = 'color: black;'>  2045</span></td>
-                    <td class="geminiwo">YES</td>
-                    <td class="endtd geminiwo">YES 
-</td>
+                    <td class="winner">Förbud från och med 2045</td>
+                    <td class="translate"><span style = 'color: black;'>  Förbud</span> <span style = 'color: black;'>  från</span> <span style = 'color: black;'>  2045</span></td>
+                    <td class="translate"></td>
+                    <td class="translate"></td>
+                    <td class="endtd translate"></td>
+                    <td class="compare">2</td>
+                    <td class="compare">1</td>
+                    <td class="compare">1</td>
+                    <td class="compare">1</td>
+                    <td class="compare">1</td>
                 </tr>
             
         </tbody>
