@@ -15,7 +15,16 @@
         "_compare_via_gemini_sv": "TRANSLATION 2.  \"Omröstning\" more accurately reflects the meaning of \"poll\" in this context, which is a vote or survey. \n",
         "_compare_to_second_via_gemini_sv": "TRANSLATION 2. \"Omröstning om koldioxidskatten\" is more accurate because it correctly conveys the meaning of \"poll\" as a vote or referendum, while \"undersökning\" in translation 1 implies a survey or research. \n",
         "_compare_via_gpt_sv": "TRANSLATION 2: \"Poll\" is more accurately translated as \"omröstning\" rather than \"undersökning,\" and \"koldioxidskatten\" specifies the CO₂ tax more clearly.",
-        "_compare_to_second_via_gpt_sv": "TRANSLATION 2\n\nExplanation: \"Poll\" in the context of the original text is more accurately translated as \"Omröstning\" rather than \"Undersökning,\" and \"koldioxidskatten\" specifies \"the CO₂ tax\" more clearly."
+        "_compare_to_second_via_gpt_sv": "TRANSLATION 2\n\nExplanation: \"Poll\" in the context of the original text is more accurately translated as \"Omröstning\" rather than \"Undersökning,\" and \"koldioxidskatten\" specifies \"the CO₂ tax\" more clearly.",
+        "_openai_sv": "Omröstning om koldioxidpriset",
+        "_claude_sv": "Omröstning om koldioxidpriset",
+        "_mistral_sv": "Omröstning om CO₂-priset",
+        "_llama3_sv": "Omröstning om CO₂-priset",
+        "_compare_openai_sv": "2",
+        "_compare_gemini_sv": "2",
+        "_compare_claude_sv": "2",
+        "_compare_mistral_sv": "3",
+        "_compare_llama3_sv": "3"
     },
     "description": {
         "de": "Bitte stimmen Sie über die Entwicklung der CO₂-Steuer ab.\n<br>\nDie CO₂-Steuer wird auf die fossilen Brennstoffe Kohle, Öl und Gas erhoben, abhängig von ihrem Kohlenstoffgehalt.\n<br>\nDiese Steuer wirkt sich auf die Preise aller Waren aus, die entweder direkt oder indirekt fossile Brennstoffe verwenden oder für ihre Herstellung fossile Brennstoffe benötigen.\n<br>\nSie soll einen Anreiz setzen, Energie zu sparen und Waren mit geringen CO₂-Emissionen herzustellen.",
@@ -32,7 +41,16 @@
         "_compare_via_gemini_sv": "TRANSLATION 1. Translation 2 changes the original's wording \"provide an incentive\" to \"the purpose is to give an incentive\" making it less accurate. \n",
         "_compare_to_second_via_gemini_sv": "EQUAL. Both translations are accurate and convey the meaning of the original text. \n",
         "_compare_via_gpt_sv": "TRANSLATION 1\n\nExplanation: Translation 1 maintains the specific term \"CO₂-skatten\" which is more accurate than the more general \"koldioxidskatten\" used in Translation 2.",
-        "_compare_to_second_via_gpt_sv": "TRANSLATION 1\n\nTranslation 1 is more accurate because it maintains the specific term \"CO₂-skatten\" and closely follows the original structure and intent."
+        "_compare_to_second_via_gpt_sv": "TRANSLATION 1\n\nTranslation 1 is more accurate because it maintains the specific term \"CO₂-skatten\" and closely follows the original structure and intent.",
+        "_openai_sv": "Vänligen rösta om utvecklingen av CO₂-skatten.\n<br>\nCO₂-skatten tas ut på de fossila bränslena kol, olja och gas, beroende på deras kolinnehåll.\n<br>\nDenna skatt påverkar priserna på alla varor som antingen direkt eller indirekt använder fossila bränslen eller behöver fossila bränslen för sin tillverkning.\n<br>\nDen ska ge ett incitament att spara energi och tillverka varor med låga CO₂-utsläpp.",
+        "_claude_sv": "Var vänlig och rösta om utvecklingen av koldioxidskatten.\n<br>\nKoldioxidskatten tas ut på de fossila bränslena kol, olja och gas, beroende på deras kolinnehåll.\n<br>\nDenna skatt påverkar priserna på alla varor som antingen direkt eller indirekt använder fossila bränslen eller kräver fossila bränslen för sin produktion.\n<br>\nDen är avsedd att skapa incitament för att spara energi och producera varor med låga koldioxidutsläpp.",
+        "_mistral_sv": "Vänligen rösta om utvecklingen av CO₂-skatten.\n<br>\nCO₂-skatten tas ut på de fossila bränslena kol, olja och gas, beroende på deras kolinnehåll.\n<br>\nDenna skatt påverkar priserna på alla varor som antingen direkt eller indirekt använder fossila bränslen eller behöver fossila bränslen för sin tillverkning.\n<br>\nDen ska ge ett incitament att spara energi och tillverka varor med låga CO₂-utsläpp.",
+        "_llama3_sv": "Vänligen rösta om utvecklingen av koldioxidskatten.\n<br>\nKoldioxidskatten tas ut på fossila bränslen som kol, olja och gas, beroende på deras koldioxidinnehåll.\n<br>\nDenna skatt påverkar priset på alla varor som antingen direkt eller indirekt använder fossila bränslen eller behöver fossila bränslen för sin produktion.\n<br>\nDen ska ge en incitament att spara energi och producera varor med låga koldioxidutsläpp.",
+        "_compare_openai_sv": "2",
+        "_compare_gemini_sv": "1",
+        "_compare_claude_sv": "4",
+        "_compare_mistral_sv": "2",
+        "_compare_llama3_sv": "2"
     },
     "multipleChoice": false,
     "choices": [
@@ -54,7 +72,16 @@
                 "_compare_via_gemini_sv": "EQUAL. Both translations are equally accurate, as they both convey the same meaning in Swedish. \n",
                 "_compare_to_second_via_gemini_sv": "EQUAL. Both translations are identical and accurate. \n",
                 "_compare_via_gpt_sv": "EQUAL\n\nBoth translations are identical and accurately convey the original English text.",
-                "_compare_to_second_via_gpt_sv": "EQUAL\n\nBoth translations are identical and accurately convey the original English text."
+                "_compare_to_second_via_gpt_sv": "EQUAL\n\nBoth translations are identical and accurately convey the original English text.",
+                "_openai_sv": "Öka med 25€ per ton",
+                "_claude_sv": "Öka med 25€ per ton",
+                "_mistral_sv": "Öka med 25€ per ton\n\nTranslation into Swedish: Höj med 25€ per ton\n\nNote: The translation is provided without any additional explanation, as per the instructions.",
+                "_llama3_sv": "Öka med 25€ per ton",
+                "_compare_openai_sv": "3",
+                "_compare_gemini_sv": "3",
+                "_compare_claude_sv": "2",
+                "_compare_mistral_sv": "3",
+                "_compare_llama3_sv": "2"
             }
         },
         {
@@ -75,7 +102,16 @@
                 "_compare_via_gemini_sv": "EQUAL. Both translations are identical and accurate. \n",
                 "_compare_to_second_via_gemini_sv": "EQUAL. Both translations are equally accurate as they are the exact same phrase. \n",
                 "_compare_via_gpt_sv": "EQUAL\n\nBoth translations are identical and accurately convey the meaning of the original English text.",
-                "_compare_to_second_via_gpt_sv": "EQUAL\n\nBoth translations are identical and accurately convey the meaning of the original English text."
+                "_compare_to_second_via_gpt_sv": "EQUAL\n\nBoth translations are identical and accurately convey the meaning of the original English text.",
+                "_openai_sv": "Lämna oförändrad",
+                "_claude_sv": "Lämna oförändrad",
+                "_mistral_sv": "Lämna oförändrad",
+                "_llama3_sv": "Lämna oförändrad",
+                "_compare_openai_sv": "2",
+                "_compare_gemini_sv": "2",
+                "_compare_claude_sv": "2",
+                "_compare_mistral_sv": "2",
+                "_compare_llama3_sv": "2"
             }
         },
         {
@@ -96,7 +132,16 @@
                 "_compare_via_gemini_sv": "EQUAL. Both translations are the same and accurate. \n",
                 "_compare_to_second_via_gemini_sv": "EQUAL. Both translations are accurate and convey the same meaning. \n",
                 "_compare_via_gpt_sv": "EQUAL\n\nBoth translations are identical and accurately convey the original English text.",
-                "_compare_to_second_via_gpt_sv": "EQUAL\n\nBoth translations are identical and accurately convey the original English text."
+                "_compare_to_second_via_gpt_sv": "EQUAL\n\nBoth translations are identical and accurately convey the original English text.",
+                "_openai_sv": "Minska med 25€ per ton",
+                "_claude_sv": "Minska med 25€ per ton",
+                "_mistral_sv": "Minska med 25€ per ton\n\nHere's the translation in Swedish:\n\nMinska med 25€ per ton\n\nNote that the euro currency symbol (€) is retained in the translation as it is a universally recognized symbol.",
+                "_llama3_sv": "Minska med 25€ per ton",
+                "_compare_openai_sv": "1",
+                "_compare_gemini_sv": "1",
+                "_compare_claude_sv": "1",
+                "_compare_mistral_sv": "3",
+                "_compare_llama3_sv": "1"
             }
         },
         {
@@ -117,7 +162,16 @@
                 "_compare_via_gemini_sv": "EQUAL. Both translations are accurate and convey the same meaning. \n",
                 "_compare_to_second_via_gemini_sv": "EQUAL. Both translations are equally accurate, as they are simply the Swedish word for \"abstain\". \n",
                 "_compare_via_gpt_sv": "EQUAL\n\nBoth translations are identical and accurately convey the meaning of \"Abstain\" in Swedish.",
-                "_compare_to_second_via_gpt_sv": "EQUAL\n\nBoth translations are identical and accurately convey the meaning of \"Abstain\" in Swedish."
+                "_compare_to_second_via_gpt_sv": "EQUAL\n\nBoth translations are identical and accurately convey the meaning of \"Abstain\" in Swedish.",
+                "_openai_sv": "Avstående",
+                "_claude_sv": "Avstående",
+                "_mistral_sv": "Avhållsamhet\n\n(Note: This is the only Swedish translation provided as per the instructions. No additional explaining text included.)",
+                "_llama3_sv": "Avstående",
+                "_compare_openai_sv": "2",
+                "_compare_gemini_sv": "3",
+                "_compare_claude_sv": "1",
+                "_compare_mistral_sv": "2",
+                "_compare_llama3_sv": "1"
             }
         }
     ]
