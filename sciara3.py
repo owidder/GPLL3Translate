@@ -1,6 +1,7 @@
 import difflib
 import asyncio
 import json
+from collections import Counter
 
 from openai import AsyncOpenAI
 from functools import reduce
@@ -154,6 +155,19 @@ async def check_translation(source_text: str, source_language: str, target_text:
     return answer
 
 
+def catch_single_digit(input_string):
+    single_digit_pattern = r'\b\d\b'
+    matches = re.findall(single_digit_pattern, input_string)
+    return matches[0]
+
+
+def find_most_common_numbers(numbers):
+    count = Counter(numbers)
+    max_frequency = max(count.values())
+    most_common_numbers = [num for num, freq in count.items() if freq == max_frequency]
+    return most_common_numbers
+
+
 async def compare_translations(source_text: str, source_language: str, translations: [str], ignored_translation: str, target_language: str, model: str):
     system = (
         f"You are an expert in all languages and climate change. In the following you get an original {LANGUAGES[source_language]} text and {len(translations)} translations in {LANGUAGES[target_language]}."
@@ -165,7 +179,7 @@ async def compare_translations(source_text: str, source_language: str, translati
         user = "\n".join(original_line + translation_lines)
         print(f"compare_translations for '{source_text}'")
         answer = await ask_model(system=system, user=user, model=model)
-        return answer
+        return catch_single_digit(answer)
     else:
         return "1"
 
@@ -377,6 +391,9 @@ async def crawl_json(data, source_language: str, target_language: str, current_t
                 data[compare_result_llama3_property] = compare_result_llama3
             else:
                 compare_result_llama3 = data[compare_result_llama3_property]
+
+            winners = find_most_common_numbers(
+                [compare_result_openai, compare_result_gemini, compare_result_claude, compare_result_mistral, compare_result_llama3])
 
             table_lines.append({
                 "id": path,
