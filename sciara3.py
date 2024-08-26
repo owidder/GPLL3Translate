@@ -408,6 +408,7 @@ async def crawl_json(data, source_language: str, target_language: str, current_t
                 "compare_claude": compare_result_claude,
                 "compare_mistral": compare_result_mistral,
                 "compare_llama3": compare_result_llama3,
+                "winners": ", ". join(winners),
             })
             current_translations.clear()
     elif isinstance(data, list):

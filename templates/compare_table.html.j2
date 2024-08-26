@@ -28,6 +28,9 @@
         .translate {
             background-color: lightblue;
         }
+        .winner {
+            background-color: lightpink;
+        }
         .compare {
             background-color: lightgray;
         }
@@ -49,11 +52,11 @@
             {% for translation_line in translation_lines %}
                 <tr>
                     <td class="endtd source">{{ translation_line.source_text }}</td>
-                    <td class="translate">{{ translation_line.translation_1 }}</td>
-                    <td class="translate">{{ translation_line.translation_2 }}</td>
-                    <td class="translate">{{ translation_line.translation_3 }}</td>
-                    <td class="translate">{{ translation_line.translation_4 }}</td>
-                    <td class="endtd translate">{{ translation_line.translation_5 }}</td>
+                    <td class="{{ 'winner' if '1' in translation_line.winners.split(',') else 'translate' }}">{{ translation_line.translation_1 }}</td>
+                    <td class="{{ 'winner' if '2' in translation_line.winners.split(',') else 'translate' }}">{{ translation_line.translation_2 }}</td>
+                    <td class="{{ 'winner' if '3' in translation_line.winners.split(',') else 'translate' }}">{{ translation_line.translation_3 }}</td>
+                    <td class="{{ 'winner' if '4' in translation_line.winners.split(',') else 'translate' }}">{{ translation_line.translation_4 }}</td>
+                    <td class="endtd {{ 'winner' if '5' in translation_line.winners.split(',') else 'translate' }}">{{ translation_line.translation_5 }}</td>
                     <td class="compare">{{ translation_line.compare_openai }}</td>
                     <td class="compare">{{ translation_line.compare_gemini }}</td>
                     <td class="compare">{{ translation_line.compare_claude }}</td>
