@@ -510,6 +510,7 @@ async def process_i18n_file(file_path: str, file_description:str, target_languag
             current_translations={},
             table_lines=table_lines,
             file_content=content,
+            file_description=file_description,
         )
         with open(file_path, "w", encoding="UTF-8") as f:
             json.dump(data, f, indent=4, ensure_ascii=False)
