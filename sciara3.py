@@ -59,6 +59,7 @@ CLAUDE_MODEL = os.getenv("CLAUDE_MODEL", "aws/claude-3-sonnet")
 MISTRAL_MODEL = os.getenv("MISTRAL_MODEL", "azure/mistral-large")
 LLAMA3_MODEL = os.getenv("LLAMA3_MODEL", "iteratec/Llama3.1-70B-Instruct")
 INPUT_FILE = os.getenv("INPUT_FILE")
+INPUT_FILE_DESCRIPTION = os.getenv("INPUT_FILE_DESCRIPTION")
 RETRY_CHECK = (os.getenv("RETRY_CHECK", "0") == "1")
 TARGET_LANGUAGE = os.getenv("TARGET_LANGUAGE", "")
 SOURCE_LANGUAGE = os.getenv("SOURCE_LANGUAGE", "de")
@@ -131,10 +132,18 @@ Based on these calculations, we will show you how your living environment could 
 """
 
 
-async def get_translation(source_text: str, source_language: str, target_language: str, model: str, file_content: str):
+async def get_translation(
+        source_text: str,
+        source_language: str,
+        target_language: str,
+        model: str,
+        file_content: str,
+        file_description: str,
+):
     system = (
         f"There is an application called 'Climate Time Machine' with the following description '{ABOUT_SCIARA}'"
         f"This application has a language file, with the following content: {file_content}"
+        f"The description of this language file is: {file_description}"
         f"You are a language expert and an expert in climate change. In the following you get a {LANGUAGES[source_language]} text from this language file."
         f"Translate this {LANGUAGES[source_language]} text into {LANGUAGES[target_language]}. Ensure that the translated text retains the original meaning, tone, and intent."
         f"The answer has to contain ONLY the translation itself. No explaining text is allowed in the answer."
@@ -180,9 +189,19 @@ def find_most_common_numbers(numbers):
     return most_common_numbers
 
 
-async def compare_translations(source_text: str, source_language: str, translations: [str], ignored_translation: str, target_language: str, model: str, file_content: str,):
+async def compare_translations(
+        source_text: str,
+        source_language: str,
+        translations: [str],
+        ignored_translation: str,
+        target_language: str,
+        model: str,
+        file_content: str,
+        file_description: str,
+):
     system = (
         f"There is an application called 'Climate Time Machine' with the following description '{ABOUT_SCIARA}'"
+        f"The description of this language file is: {file_description}"
         f"This application has a language file, with the following content: {file_content}"
         f"You are a language expert and an expert in climate change. In the following you get a {LANGUAGES[source_language]} text from this language file and {len(translations)} translations in {LANGUAGES[target_language]}."
         "Please decide which translation is the most accurate and the best for this application. Answer only with the number of the translation. Do NOT explain your choice!!! ONLY ONE NUMBER AS ANSWER!!!"
@@ -258,7 +277,16 @@ def create_diff_html(target: str, source: str, plusminus="+") -> str:
         return create_diff_text(target=target, source=source, plusminus=plusminus)
 
 
-async def crawl_json(data, source_language: str, target_language: str, current_translations: dict, table_lines: list, file_content: str,  path="",):
+async def crawl_json(
+        data,
+        source_language: str,
+        target_language: str,
+        current_translations: dict,
+        table_lines: list,
+        file_content: str,
+        file_description: str,
+        path="",
+):
     if isinstance(data, dict):
         for key, value in data.items():
             new_path = f"{path}.{key}" if path else key
@@ -270,6 +298,7 @@ async def crawl_json(data, source_language: str, target_language: str, current_t
                 current_translations=current_translations,
                 table_lines=table_lines,
                 file_content=file_content,
+                file_description=file_description,
             )
         print(current_translations)
         if len(current_translations.keys()) > 0:
@@ -281,6 +310,7 @@ async def crawl_json(data, source_language: str, target_language: str, current_t
                     target_language=target_language,
                     model=OPENAI_MODEL,
                     file_content=file_content,
+                    file_description=file_description,
                 )
                 data[target_language_openai_property] = target_translation_openai
             else:
@@ -294,6 +324,7 @@ async def crawl_json(data, source_language: str, target_language: str, current_t
                     target_language=target_language,
                     model=GEMINI_MODEL,
                     file_content=file_content,
+                    file_description=file_description,
                 )
                 data[target_language_gemini_property] = target_translation_gemini
             else:
@@ -307,6 +338,7 @@ async def crawl_json(data, source_language: str, target_language: str, current_t
                     target_language=target_language,
                     model=CLAUDE_MODEL,
                     file_content=file_content,
+                    file_description=file_description,
                 )
                 data[target_language_claude_property] = target_translation_claude
             else:
@@ -320,6 +352,7 @@ async def crawl_json(data, source_language: str, target_language: str, current_t
                     target_language=target_language,
                     model=MISTRAL_MODEL,
                     file_content=file_content,
+                    file_description=file_description,
                 )
                 data[target_language_mistral_property] = target_translation_mistral
             else:
@@ -333,6 +366,7 @@ async def crawl_json(data, source_language: str, target_language: str, current_t
                     target_language=target_language,
                     model=LLAMA3_MODEL,
                     file_content=file_content,
+                    file_description=file_description,
                 )
                 data[target_language_llama3_property] = target_translation_llama3
             else:
@@ -351,6 +385,7 @@ async def crawl_json(data, source_language: str, target_language: str, current_t
                     target_language=target_language,
                     model=OPENAI_MODEL,
                     file_content=file_content,
+                    file_description=file_description,
                 )
                 data[compare_result_openai_property] = compare_result_openai
             else:
@@ -366,6 +401,7 @@ async def crawl_json(data, source_language: str, target_language: str, current_t
                     target_language=target_language,
                     model=GEMINI_MODEL,
                     file_content=file_content,
+                    file_description=file_description,
                 )
                 data[compare_result_gemini_property] = compare_result_gemini
             else:
@@ -381,6 +417,7 @@ async def crawl_json(data, source_language: str, target_language: str, current_t
                     target_language=target_language,
                     model=CLAUDE_MODEL,
                     file_content=file_content,
+                    file_description=file_description,
                 )
                 data[compare_result_claude_property] = compare_result_claude
             else:
@@ -396,6 +433,7 @@ async def crawl_json(data, source_language: str, target_language: str, current_t
                     target_language=target_language,
                     model=MISTRAL_MODEL,
                     file_content=file_content,
+                    file_description=file_description,
                 )
                 data[compare_result_mistral_property] = compare_result_mistral
             else:
@@ -411,6 +449,7 @@ async def crawl_json(data, source_language: str, target_language: str, current_t
                     target_language=target_language,
                     model=LLAMA3_MODEL,
                     file_content=file_content,
+                    file_description=file_description,
                 )
                 data[compare_result_llama3_property] = compare_result_llama3
             else:
@@ -446,6 +485,7 @@ async def crawl_json(data, source_language: str, target_language: str, current_t
                 current_translations=current_translations,
                 table_lines=table_lines,
                 file_content=file_content,
+                file_description=file_description,
             )
     else:
         if is_translation(path):
@@ -454,9 +494,10 @@ async def crawl_json(data, source_language: str, target_language: str, current_t
         print(f"{path}: {data}")
 
 
-async def process_i18n_file(file_path: str, target_language="") -> {str: [object]}:
+async def process_i18n_file(file_path: str, file_description:str, target_language="") -> {str: [object]}:
     with open(file_path) as f:
         data = json.load(f)
+    with open(file_path) as f:
         content = f.read()
 
     table_lines_dict = {}
@@ -468,7 +509,7 @@ async def process_i18n_file(file_path: str, target_language="") -> {str: [object
             target_language=_target_language,
             current_translations={},
             table_lines=table_lines,
-            file_content=content
+            file_content=content,
         )
         with open(file_path, "w", encoding="UTF-8") as f:
             json.dump(data, f, indent=4, ensure_ascii=False)
@@ -476,7 +517,7 @@ async def process_i18n_file(file_path: str, target_language="") -> {str: [object
     return table_lines_dict
 
 async def main():
-    table_lines_dict = await process_i18n_file(INPUT_FILE, TARGET_LANGUAGE)
+    table_lines_dict = await process_i18n_file(file_path=INPUT_FILE, file_description=INPUT_FILE_DESCRIPTION, target_language=TARGET_LANGUAGE)
     for target_language in table_lines_dict:
         create_table(translation_lines=table_lines_dict[target_language], source=SOURCE_LANGUAGE, target=target_language, input_file=os.path.basename(INPUT_FILE))
 
