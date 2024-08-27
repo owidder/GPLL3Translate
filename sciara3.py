@@ -122,11 +122,21 @@ async def ask_model(system: str, user: str, model: str) -> str:
     return answer
 
 
+ABOUT_SCIARA = """
+In Climate Time Machine, experience a personal journey that focuses on you - discover how your lifestyle and choices impact you and society.
+First, provide some information about your lifestyle, from mobility and heating to diet and consumption. If you are missing details, we can help you out with convenient estimates and average values.
+Our system then calculates your individual CO2 footprint, but Climate Time Machine goes far beyond traditional CO2 calculators. In the simulation, your decisions represent those of many other people.
+The emissions changes of all participants are globally projected, and scientific models provide realistic climate developments.
+Based on these calculations, we will show you how your living environment could change over time. Experience trees dying or thriving, drying rivers or flooding. Recognize how the temperature is developing in your region and which cities are at risk of flooding. Discover how many hot nights are ahead and what impact this will have on crop yields.
+"""
+
+
 async def get_translation(source_text: str, source_language: str, target_language: str, model: str):
     system = (
-        f"You are an expert in all languages and climate change. In the following you get an original {LANGUAGES[source_language]} text from a language file of a simulation applciation for climate change."
+        f"There is an application called 'Climate Time Machine' with the following description '{ABOUT_SCIARA}'"
+        f"You are a language expert and an expert in climate change. In the following you get an original {LANGUAGES[source_language]} text from a language file of of this application."
         f"Translate the original {LANGUAGES[source_language]} text into {LANGUAGES[target_language]}. Ensure that the translated text retains the original meaning, tone, and intent."
-        f"The answer has to contain ONLY the translation itself. No explaining text. Otherwise the answer is NOT CORRECT"
+        f"The answer has to contain ONLY the translation itself. No explaining text is allowed in the answer."
     )
     user_lines = [f"Original {LANGUAGES[source_language]}: \"{source_text}\""]
     user = "\n".join(user_lines)
@@ -139,7 +149,8 @@ async def get_translation(source_text: str, source_language: str, target_languag
 
 async def check_translation(source_text: str, source_language: str, target_text: str, target_language: str, llm="gpt"):
     system = (
-        f"You are an expert in all languages and climate change. In the following you get an original {LANGUAGES[source_language]} text and a translation in {LANGUAGES[target_language]}."
+        f"There is an application called 'Climate Time Machine' with the following description '{ABOUT_SCIARA}'"
+        f"You are a language expert and an expert in climate change. In the following you get an original {LANGUAGES[source_language]} text and a translation in {LANGUAGES[target_language]}."
         "Please decide whether both texts have the same meaning, tone and intent. If so, just answer with 'YES', if not, explain the difference and find a better translation."
     )
     user_lines = [f"Original {LANGUAGES[source_language]}: \"{source_text}\"", f"{LANGUAGES[target_language]} translation: \"{target_text}\""]
@@ -170,8 +181,9 @@ def find_most_common_numbers(numbers):
 
 async def compare_translations(source_text: str, source_language: str, translations: [str], ignored_translation: str, target_language: str, model: str):
     system = (
-        f"You are an expert in all languages and climate change. In the following you get an original {LANGUAGES[source_language]} text and {len(translations)} translations in {LANGUAGES[target_language]}."
-        "Please decide which translation is the most accurate. Answer only with the number of the translation. Do NOT explain your choice!!! ONLY ONE NUMBER AS ANSWER!!!"
+        f"There is an application called 'Climate Time Machine' with the following description '{ABOUT_SCIARA}'"
+        f"You are a language expert and an expert in climate change. In the following you get an original {LANGUAGES[source_language]} text from a language file of this application and {len(translations)} translations in {LANGUAGES[target_language]}."
+        "Please decide which translation is the most accurate and the best for this application. Answer only with the number of the translation. Do NOT explain your choice!!! ONLY ONE NUMBER AS ANSWER!!!"
     )
     original_line = [f"Original {LANGUAGES[source_language]}: \"{source_text}\""]
     translation_lines = [f"translation {index+1}: \"{translation}\"" for index, translation in enumerate(translations) if translation != ignored_translation]
@@ -196,11 +208,11 @@ def create_table(input_file: str, translation_lines: [str], source: str, target:
         "--- 3 ---",
         "--- 4 ---",
         "--- 5 ---",
-        "Compare via OpenAI",
-        "Compare via Gemini",
-        "Compare via Claude",
-        "Compare via Mistral",
-        "Compare via Llama3",
+        "Assess (OpenAI)",
+        "Assess (Gemini)",
+        "Assess (Claude)",
+        "Assess (Mistral)",
+        "Assess (Llama3)",
     ]
 
     env = Environment(loader=FileSystemLoader('./templates'))
