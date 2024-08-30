@@ -231,7 +231,8 @@ def create_table(input_file: str, translation_lines: [str], source: str, target:
         "Assess (Gemini)",
         "Assess (Claude)",
         "Assess (Mistral)",
-        "Assess (Llama3)",
+        "Assess (Claude 3.5)",
+        "Winners",
     ]
 
     env = Environment(loader=FileSystemLoader('./templates'))
@@ -490,10 +491,15 @@ async def crawl_json(
                 "id": path,
                 "source_text": current_translations[source_language],
                 "translation_1": unique_translations[0],
+                "translation_1_raw": unique_translations[0],
                 "translation_2": create_diff_html(unique_translations[0], unique_translations[1]) if len(unique_translations) > 1 else "",
+                "translation_2_raw": unique_translations[1] if len(unique_translations) > 1 else "",
                 "translation_3": create_diff_html(unique_translations[0], unique_translations[2]) if len(unique_translations) > 2 else "",
+                "translation_3_raw": unique_translations[2] if len(unique_translations) > 2 else "",
                 "translation_4": create_diff_html(unique_translations[0], unique_translations[3]) if len(unique_translations) > 3 else "",
+                "translation_4_raw": unique_translations[3] if len(unique_translations) > 3 else "",
                 "translation_5": create_diff_html(unique_translations[0], unique_translations[4]) if len(unique_translations) > 4 else "",
+                "translation_5_raw": unique_translations[4] if len(unique_translations) > 4 else "",
                 "compare_openai": compare_result_openai,
                 "compare_gemini": compare_result_gemini,
                 "compare_claude": compare_result_claude,
