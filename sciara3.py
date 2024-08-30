@@ -506,6 +506,7 @@ async def crawl_json(
                 "compare_mistral": compare_result_mistral,
                 "compare_claude_3_5": compare_result_claude_3_5,
                 "winners": winners,
+                "unique_translations": unique_translations,
             })
             current_translations.clear()
     elif isinstance(data, list):

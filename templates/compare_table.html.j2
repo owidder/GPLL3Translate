@@ -57,11 +57,11 @@
                     <td class="{{ 'winner' if translation_line.translation_3_raw in translation_line.winners else 'translate' }}">{{ translation_line.translation_3 }}</td>
                     <td class="{{ 'winner' if translation_line.translation_4_raw in translation_line.winners else 'translate' }}">{{ translation_line.translation_4 }}</td>
                     <td class="endtd {{ 'winner' if translation_line.translation_5_raw in translation_line.winners else 'translate' }}">{{ translation_line.translation_5 }}</td>
-                    <td class="compare">{{ translation_line.compare_openai }}</td>
-                    <td class="compare">{{ translation_line.compare_gemini }}</td>
-                    <td class="compare">{{ translation_line.compare_claude }}</td>
-                    <td class="compare">{{ translation_line.compare_mistral }}</td>
-                    <td class="endtd compare">{{ translation_line.compare_claude_3_5 }}</td>
+                    <td class="compare">{{ translation_line.unique_translations.index(translation_line.compare_openai)+1 }}</td>
+                    <td class="compare">{{ translation_line.unique_translations.index(translation_line.compare_gemini)+1 }}</td>
+                    <td class="compare">{{ translation_line.unique_translations.index(translation_line.compare_claude)+1 }}</td>
+                    <td class="compare">{{ translation_line.unique_translations.index(translation_line.compare_mistral)+1 }}</td>
+                    <td class="endtd compare">{{ translation_line.unique_translations.index(translation_line.compare_claude_3_5)+1 }}</td>
                     <td class="compare">{{ translation_line.winners }}</td>
                 </tr>
             {% endfor %}
