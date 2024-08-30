@@ -182,23 +182,22 @@ def catch_single_digit(input_string):
     return matches[0]
 
 
-def find_most_common_numbers(numbers):
-    count = Counter(numbers)
+def find_most_common_strings(string_list: [str]):
+    count = Counter(string_list)
     max_frequency = max(count.values())
-    most_common_numbers = [num for num, freq in count.items() if freq == max_frequency]
-    return most_common_numbers
+    most_common_strings = [string for string, freq in count.items() if freq == max_frequency]
+    return most_common_strings
 
 
 async def compare_translations(
         source_text: str,
         source_language: str,
         translations: [str],
-        ignored_translation: str,
         target_language: str,
         model: str,
         file_content: str,
         file_description: str,
-):
+) -> str:
     system = (
         f"There is an application called 'Climate Time Machine' with the following description '{ABOUT_SCIARA}'"
         f"The description of this language file is: {file_description}"
@@ -207,14 +206,12 @@ async def compare_translations(
         "Please decide which translation is the most accurate and the best for this application. Answer only with the number of the translation. Do NOT explain your choice!!! ONLY ONE NUMBER AS ANSWER!!!"
     )
     original_line = [f"Original {LANGUAGES[source_language]}: \"{source_text}\""]
-    translation_lines = [f"translation {index+1}: \"{translation}\"" for index, translation in enumerate(translations) if translation != ignored_translation]
-    if len(translation_lines) > 0:
-        user = "\n".join(original_line + translation_lines)
-        print(f"compare_translations for '{source_text}'")
-        answer = await ask_model(system=system, user=user, model=model)
-        return catch_single_digit(answer)
-    else:
-        return "1"
+    translation_lines = [f"translation {index+1}: \"{translation}\"" for index, translation in enumerate(translations)]
+    user = "\n".join(original_line + translation_lines)
+    print(f"compare_translations for '{source_text}'")
+    answer = await ask_model(system=system, user=user, model=model)
+    winning_index = int(catch_single_digit(answer))
+    return translations[winning_index - 1]
 
 
 def is_translation(path: str) -> bool:
@@ -275,6 +272,12 @@ def create_diff_html(target: str, source: str, plusminus="+") -> str:
         return " ".join(transformedNodes)
     else:
         return create_diff_text(target=target, source=source, plusminus=plusminus)
+
+
+def create_unique_translations(translations: [str], ignored_translation_index=-1) -> [str]:
+    normalized_filtered = [t.strip().strip('\'"') for i, t in enumerate(translations) if i != ignored_translation_index]
+    unique_translations = list(set(normalized_filtered))
+    return unique_translations
 
 
 async def crawl_json(
@@ -372,16 +375,14 @@ async def crawl_json(
             else:
                 target_translation_llama3 = data[target_language_llama3_property]
 
-            unique_translations = list({target_translation_openai.strip().strip('\'"'), target_translation_gemini.strip().strip('\'"'), target_translation_claude.strip().strip('\'"'),
-                                   target_translation_mistral.strip().strip('\'"'), target_translation_llama3.strip().strip('\'"')})
+            translation_list = [target_translation_openai, target_translation_gemini, target_translation_claude, target_translation_mistral, target_translation_llama3]
 
             compare_result_openai_property = f"_compare_openai_{target_language}"
             if not compare_result_openai_property in data:
                 compare_result_openai = await compare_translations(
                     source_text=data[source_language],
                     source_language=source_language,
-                    translations=unique_translations,
-                    ignored_translation=target_translation_openai,
+                    translations=create_unique_translations(translation_list, 0),
                     target_language=target_language,
                     model=OPENAI_MODEL,
                     file_content=file_content,
@@ -396,8 +397,7 @@ async def crawl_json(
                 compare_result_gemini = await compare_translations(
                     source_text=data[source_language],
                     source_language=source_language,
-                    translations=unique_translations,
-                    ignored_translation=target_translation_gemini,
+                    translations=create_unique_translations(translation_list, 1),
                     target_language=target_language,
                     model=GEMINI_MODEL,
                     file_content=file_content,
@@ -412,8 +412,7 @@ async def crawl_json(
                 compare_result_claude = await compare_translations(
                     source_text=data[source_language],
                     source_language=source_language,
-                    translations=unique_translations,
-                    ignored_translation=target_translation_claude,
+                    translations=create_unique_translations(translation_list, 2),
                     target_language=target_language,
                     model=CLAUDE_MODEL,
                     file_content=file_content,
@@ -428,8 +427,7 @@ async def crawl_json(
                 compare_result_mistral = await compare_translations(
                     source_text=data[source_language],
                     source_language=source_language,
-                    translations=unique_translations,
-                    ignored_translation=target_translation_mistral,
+                    translations=create_unique_translations(translation_list, 3),
                     target_language=target_language,
                     model=MISTRAL_MODEL,
                     file_content=file_content,
@@ -444,8 +442,7 @@ async def crawl_json(
                 compare_result_llama3 = await compare_translations(
                     source_text=data[source_language],
                     source_language=source_language,
-                    translations=unique_translations,
-                    ignored_translation=target_translation_llama3,
+                    translations=create_unique_translations(translation_list, 4),
                     target_language=target_language,
                     model=LLAMA3_MODEL,
                     file_content=file_content,
@@ -455,8 +452,9 @@ async def crawl_json(
             else:
                 compare_result_llama3 = data[compare_result_llama3_property]
 
-            winners = find_most_common_numbers(
+            winners = find_most_common_strings(
                 [compare_result_openai, compare_result_gemini, compare_result_claude, compare_result_mistral, compare_result_llama3])
+            unique_translations = create_unique_translations(translation_list)
 
             table_lines.append({
                 "id": path,
@@ -471,7 +469,7 @@ async def crawl_json(
                 "compare_claude": compare_result_claude,
                 "compare_mistral": compare_result_mistral,
                 "compare_llama3": compare_result_llama3,
-                "winners": ",". join(winners),
+                "winners": winners,
             })
             current_translations.clear()
     elif isinstance(data, list):
