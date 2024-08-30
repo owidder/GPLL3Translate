@@ -56,6 +56,7 @@ OPENAI_BASE_URL = os.getenv("OPENAI_BASE_URL", "https://api.iteragpt.iteratec.de
 OPENAI_MODEL = os.getenv("OPENAI_MODEL", "azure/gpt-4o")
 GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gcp/gemini-1.5-pro")
 CLAUDE_MODEL = os.getenv("CLAUDE_MODEL", "aws/claude-3-sonnet")
+CLAUDE_MODEL_3_5 = os.getenv("CLAUDE_MODEL", "aws/claude-3.5-sonnet")
 MISTRAL_MODEL = os.getenv("MISTRAL_MODEL", "azure/mistral-large")
 LLAMA3_MODEL = os.getenv("LLAMA3_MODEL", "iteratec/Llama3.1-70B-Instruct")
 INPUT_FILE = os.getenv("INPUT_FILE")
@@ -116,7 +117,7 @@ async def ask_model(system: str, user: str, model: str) -> str:
             secnum = 1
         print(f"wait for {secnum}")
         time.sleep(secnum)
-        return ask_model(system, user, model)
+        return await ask_model(system, user, model)
     except Exception as exc:
         print(f"Exception: {exc}")
         return ""
@@ -347,6 +348,20 @@ async def crawl_json(
             else:
                 target_translation_claude = data[target_language_claude_property]
 
+            target_language_claude_3_5_property = f"_claude_3_5_{target_language}"
+            if not target_language_claude_3_5_property in data:
+                target_translation_claude_3_5 = await get_translation(
+                    source_text=data[source_language],
+                    source_language=source_language,
+                    target_language=target_language,
+                    model=CLAUDE_MODEL_3_5,
+                    file_content=file_content,
+                    file_description=file_description,
+                )
+                data[target_language_claude_3_5_property] = target_translation_claude_3_5
+            else:
+                target_translation_claude_3_5 = data[target_language_claude_3_5_property]
+
             target_language_mistral_property = f"_mistral_{target_language}"
             if not target_language_mistral_property in data:
                 target_translation_mistral = await get_translation(
@@ -361,21 +376,21 @@ async def crawl_json(
             else:
                 target_translation_mistral = data[target_language_mistral_property]
 
-            target_language_llama3_property = f"_llama3_{target_language}"
-            if not target_language_llama3_property in data:
-                target_translation_llama3 = await get_translation(
-                    source_text=data[source_language],
-                    source_language=source_language,
-                    target_language=target_language,
-                    model=LLAMA3_MODEL,
-                    file_content=file_content,
-                    file_description=file_description,
-                )
-                data[target_language_llama3_property] = target_translation_llama3
-            else:
-                target_translation_llama3 = data[target_language_llama3_property]
+            # target_language_llama3_property = f"_llama3_{target_language}"
+            # if not target_language_llama3_property in data:
+            #     target_translation_llama3 = await get_translation(
+            #         source_text=data[source_language],
+            #         source_language=source_language,
+            #         target_language=target_language,
+            #         model=LLAMA3_MODEL,
+            #         file_content=file_content,
+            #         file_description=file_description,
+            #     )
+            #     data[target_language_llama3_property] = target_translation_llama3
+            # else:
+            #     target_translation_llama3 = data[target_language_llama3_property]
 
-            translation_list = [target_translation_openai, target_translation_gemini, target_translation_claude, target_translation_mistral, target_translation_llama3]
+            translation_list = [target_translation_openai, target_translation_gemini, target_translation_claude, target_translation_mistral, target_translation_claude_3_5]
 
             compare_result_openai_property = f"_compare_openai_{target_language}"
             if not compare_result_openai_property in data:
@@ -422,6 +437,21 @@ async def crawl_json(
             else:
                 compare_result_claude = data[compare_result_claude_property]
 
+            compare_result_claude_3_5_property = f"_compare_claude_3_5_{target_language}"
+            if not compare_result_claude_3_5_property in data:
+                compare_result_claude_3_5 = await compare_translations(
+                    source_text=data[source_language],
+                    source_language=source_language,
+                    translations=create_unique_translations(translation_list, 2),
+                    target_language=target_language,
+                    model=CLAUDE_MODEL_3_5,
+                    file_content=file_content,
+                    file_description=file_description,
+                )
+                data[compare_result_claude_3_5_property] = compare_result_claude_3_5
+            else:
+                compare_result_claude_3_5 = data[compare_result_claude_3_5_property]
+
             compare_result_mistral_property = f"_compare_mistral_{target_language}"
             if not compare_result_mistral_property in data:
                 compare_result_mistral = await compare_translations(
@@ -437,23 +467,23 @@ async def crawl_json(
             else:
                 compare_result_mistral = data[compare_result_mistral_property]
 
-            compare_result_llama3_property = f"_compare_llama3_{target_language}"
-            if not compare_result_llama3_property in data:
-                compare_result_llama3 = await compare_translations(
-                    source_text=data[source_language],
-                    source_language=source_language,
-                    translations=create_unique_translations(translation_list, 4),
-                    target_language=target_language,
-                    model=LLAMA3_MODEL,
-                    file_content=file_content,
-                    file_description=file_description,
-                )
-                data[compare_result_llama3_property] = compare_result_llama3
-            else:
-                compare_result_llama3 = data[compare_result_llama3_property]
+            # compare_result_llama3_property = f"_compare_llama3_{target_language}"
+            # if not compare_result_llama3_property in data:
+            #     compare_result_llama3 = await compare_translations(
+            #         source_text=data[source_language],
+            #         source_language=source_language,
+            #         translations=create_unique_translations(translation_list, 4),
+            #         target_language=target_language,
+            #         model=LLAMA3_MODEL,
+            #         file_content=file_content,
+            #         file_description=file_description,
+            #     )
+            #     data[compare_result_llama3_property] = compare_result_llama3
+            # else:
+            #     compare_result_llama3 = data[compare_result_llama3_property]
 
             winners = find_most_common_strings(
-                [compare_result_openai, compare_result_gemini, compare_result_claude, compare_result_mistral, compare_result_llama3])
+                [compare_result_openai, compare_result_gemini, compare_result_claude, compare_result_mistral, compare_result_claude_3_5])
             unique_translations = create_unique_translations(translation_list)
 
             table_lines.append({
@@ -468,7 +498,7 @@ async def crawl_json(
                 "compare_gemini": compare_result_gemini,
                 "compare_claude": compare_result_claude,
                 "compare_mistral": compare_result_mistral,
-                "compare_llama3": compare_result_llama3,
+                "compare_claude_3_5": compare_result_claude_3_5,
                 "winners": winners,
             })
             current_translations.clear()
