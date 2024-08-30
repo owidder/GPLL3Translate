@@ -232,7 +232,6 @@ def create_table(input_file: str, translation_lines: [str], source: str, target:
         "Assess (Claude)",
         "Assess (Mistral)",
         "Assess (Claude 3.5)",
-        "Winners",
     ]
 
     env = Environment(loader=FileSystemLoader('./templates'))
