@@ -216,6 +216,39 @@ async def compare_translations(
     return translations[winning_index - 1]
 
 
+async def get_best_back_translation(
+        source_text: str,
+        source_language: str,
+        target_language: str,
+        translate_models: [str],
+        assess_models: [str],
+        file_content: str,
+        file_description: str,
+) -> str:
+    translations = [
+        await get_translation(
+            source_text=source_text,
+            source_language=source_language,
+            target_language=target_language,
+            model=model,
+            file_description=file_description,
+        ) for model in translate_models
+    ]
+    best_translations = [
+        await compare_translations(
+            source_text=source_text,
+            source_language=source_language,
+            target_language=target_language,
+            translations=translations,
+            model=model,
+            file_content=file_content,
+            file_description=file_description
+        ) for model in assess_models
+    ]
+    best_translation = find_most_common_strings(best_translations)[0]
+    return best_translation
+
+
 def is_translation(path: str) -> bool:
     return path.split(".")[-1].lower() in LANGUAGES and not "imageRef" in path
 
@@ -507,11 +540,13 @@ async def crawl_json(
             unique_translations_back_property = f"_unique_translations_back_{target_language}"
             if not unique_translations_back_property in data:
                 unique_translations_back = [
-                    await get_translation(
+                    await get_best_back_translation(
                         source_text=translation,
                         source_language=target_language,
                         target_language=source_language,
-                        model=OPENAI_MODEL,
+                        translate_models=[OPENAI_MODEL, GEMINI_MODEL, CLAUDE_MODEL_3_5, MISTRAL_MODEL],
+                        assess_models=[OPENAI_MODEL, GEMINI_MODEL, CLAUDE_MODEL_3_5, MISTRAL_MODEL],
+                        file_content=file_content,
                         file_description=file_description,
                     )
                     for translation in unique_translations
