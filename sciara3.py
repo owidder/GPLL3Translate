@@ -138,21 +138,22 @@ async def get_translation(
         source_language: str,
         target_language: str,
         model: str,
-        file_content: str,
-        file_description: str,
+        file_content="",
+        file_description="",
 ):
-    system = (
-        f"There is an application called 'Climate Time Machine' with the following description '{ABOUT_SCIARA}'"
-        f"This application has a language file, with the following content: {file_content}"
-        f"The description of this language file is: {file_description}"
-        f"You are a language expert and an expert in climate change. In the following you get a {LANGUAGES[source_language]} text from this language file."
-        f"Translate this {LANGUAGES[source_language]} text into {LANGUAGES[target_language]}. Ensure that the translated text retains the original meaning, tone, and intent."
-        f"The answer has to contain ONLY the translation itself. No explaining text is allowed in the answer."
-    )
+    system_msg = \
+        f"There is an application called 'Climate Time Machine' with the following description '{ABOUT_SCIARA}'\n" + \
+        (f"This application has a language file, with the following content: [{file_content}]\n" if len(file_content) > 0 else "") + \
+        (f"The description of this language file is: {file_description}\n" if len(file_description) > 0 else "") + \
+        f"You are a language expert and an expert in climate change. In the following you get a {LANGUAGES[source_language]} text from this language file.\n" + \
+        f"Translate this {LANGUAGES[source_language]} text into {LANGUAGES[target_language]}. Ensure that the translated text retains the original meaning, tone, and intent.\n" + \
+        f"The answer has to contain ONLY the translation itself. No explaining text is allowed in the answer.\n"
+
+    print(system_msg)
     user_lines = [f"Original {LANGUAGES[source_language]}: \"{source_text}\""]
     user = "\n".join(user_lines)
     print(f"get_translation for '{source_text}'")
-    answer = await ask_model(system, user, model=model)
+    answer = await ask_model(system_msg, user, model=model)
     print(f"get_translation: answer={answer}")
     answer = answer.replace('"', '').replace("'", "") if (answer.startswith('"') or answer.startswith("'")) else answer
     return answer
@@ -200,10 +201,10 @@ async def compare_translations(
         file_description: str,
 ) -> str:
     system = (
-        f"There is an application called 'Climate Time Machine' with the following description '{ABOUT_SCIARA}'"
-        f"The description of this language file is: {file_description}"
-        f"This application has a language file, with the following content: {file_content}"
-        f"You are a language expert and an expert in climate change. In the following you get a {LANGUAGES[source_language]} text from this language file and {len(translations)} translations in {LANGUAGES[target_language]}."
+        f"There is an application called 'Climate Time Machine' with the following description '{ABOUT_SCIARA}'\n"
+        f"The description of this language file is: {file_description}\n"
+        f"This application has a language file, with the following content: {file_content}\n"
+        f"You are a language expert and an expert in climate change. In the following you get a {LANGUAGES[source_language]} text from this language file and {len(translations)} translations in {LANGUAGES[target_language]}.\n"
         "Please decide which translation is the most accurate and the best for this application. Answer only with the number of the translation. Do NOT explain your choice!!! ONLY ONE NUMBER AS ANSWER!!!"
     )
     original_line = [f"Original {LANGUAGES[source_language]}: \"{source_text}\""]
@@ -511,7 +512,6 @@ async def crawl_json(
                         source_language=target_language,
                         target_language=source_language,
                         model=OPENAI_MODEL,
-                        file_content=file_content,
                         file_description=file_description,
                     )
                     for translation in unique_translations
