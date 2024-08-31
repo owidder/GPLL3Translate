@@ -28,6 +28,9 @@
         .translate {
             background-color: lightblue;
         }
+        .back-translate {
+            background-color: lightcyan;
+        }
         .winner {
             background-color: lightpink;
         }
@@ -53,10 +56,15 @@
                 <tr>
                     <td class="endtd source">{{ translation_line.source_text }}</td>
                     <td class="{{ 'winner' if translation_line.translation_1_raw in translation_line.winners else 'translate' }}">{{ translation_line.translation_1 }}</td>
+                    <td class="back-translate">{{ translation_line.translation_1_back }}</td>
                     <td class="{{ 'winner' if translation_line.translation_2_raw in translation_line.winners else 'translate' }}">{{ translation_line.translation_2 }}</td>
+                    <td class="back-translate">{{ translation_line.translation_2_back }}</td>
                     <td class="{{ 'winner' if translation_line.translation_3_raw in translation_line.winners else 'translate' }}">{{ translation_line.translation_3 }}</td>
+                    <td class="back-translate">{{ translation_line.translation_3_back }}</td>
                     <td class="{{ 'winner' if translation_line.translation_4_raw in translation_line.winners else 'translate' }}">{{ translation_line.translation_4 }}</td>
-                    <td class="endtd {{ 'winner' if translation_line.translation_5_raw in translation_line.winners else 'translate' }}">{{ translation_line.translation_5 }}</td>
+                    <td class="back-translate">{{ translation_line.translation_4_back }}</td>
+                    <td class="{{ 'winner' if translation_line.translation_5_raw in translation_line.winners else 'translate' }}">{{ translation_line.translation_5 }}</td>
+                    <td class="endtd back-translate">{{ translation_line.translation_5_back }}</td>
                     <td class="compare">{{ translation_line.unique_translations.index(translation_line.compare_openai)+1 }}</td>
                     <td class="compare">{{ translation_line.unique_translations.index(translation_line.compare_gemini)+1 }}</td>
                     <td class="compare">{{ translation_line.unique_translations.index(translation_line.compare_claude)+1 }}</td>

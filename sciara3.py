@@ -223,10 +223,15 @@ def create_table(input_file: str, translation_lines: [str], source: str, target:
     headers = [
         "source text",
         "--- 1 ---",
+        "--- 1 back ---",
         "--- 2 ---",
+        "--- 2 back ---",
         "--- 3 ---",
+        "--- 3 back ---",
         "--- 4 ---",
+        "--- 4 back ---",
         "--- 5 ---",
+        "--- 5 back ---",
         "Assess (OpenAI)",
         "Assess (Gemini)",
         "Assess (Claude)",
@@ -482,23 +487,57 @@ async def crawl_json(
             # else:
             #     compare_result_llama3 = data[compare_result_llama3_property]
 
-            winners = find_most_common_strings(
-                [compare_result_openai, compare_result_gemini, compare_result_claude, compare_result_mistral, compare_result_claude_3_5])
-            unique_translations = create_unique_translations(translation_list)
+            winners_property = f"_winners_{target_language}"
+            if not winners_property in data:
+                winners = find_most_common_strings(
+                    [compare_result_openai, compare_result_gemini, compare_result_claude, compare_result_mistral,
+                     compare_result_claude_3_5])
+                data[winners_property] = winners
+            else:
+                winners = data[winners_property]
+
+            unique_translations_property = f"_unique_translations_{target_language}"
+            if not unique_translations_property in data:
+                unique_translations = create_unique_translations(translation_list)
+                data[unique_translations_property] = unique_translations
+            else:
+                unique_translations = data[unique_translations_property]
+
+            unique_translations_back_property = f"_unique_translations_back_{target_language}"
+            if not unique_translations_back_property in data:
+                unique_translations_back = [
+                    await get_translation(
+                        source_text=translation,
+                        source_language=target_language,
+                        target_language=source_language,
+                        model=OPENAI_MODEL,
+                        file_content=file_content,
+                        file_description=file_description,
+                    )
+                    for translation in unique_translations
+                ]
+                data[unique_translations_back_property] = unique_translations_back
+            else:
+                unique_translations_back = data[unique_translations_back_property]
 
             table_lines.append({
                 "id": path,
                 "source_text": current_translations[source_language],
                 "translation_1": unique_translations[0],
                 "translation_1_raw": unique_translations[0],
+                "translation_1_back": unique_translations_back[0],
                 "translation_2": create_diff_html(unique_translations[0], unique_translations[1]) if len(unique_translations) > 1 else "",
                 "translation_2_raw": unique_translations[1] if len(unique_translations) > 1 else "",
+                "translation_2_back": unique_translations_back[1] if len(unique_translations_back) > 1 else "",
                 "translation_3": create_diff_html(unique_translations[0], unique_translations[2]) if len(unique_translations) > 2 else "",
                 "translation_3_raw": unique_translations[2] if len(unique_translations) > 2 else "",
+                "translation_3_back": unique_translations_back[2] if len(unique_translations_back) > 2 else "",
                 "translation_4": create_diff_html(unique_translations[0], unique_translations[3]) if len(unique_translations) > 3 else "",
                 "translation_4_raw": unique_translations[3] if len(unique_translations) > 3 else "",
+                "translation_4_back": unique_translations_back[3] if len(unique_translations_back) > 3 else "",
                 "translation_5": create_diff_html(unique_translations[0], unique_translations[4]) if len(unique_translations) > 4 else "",
                 "translation_5_raw": unique_translations[4] if len(unique_translations) > 4 else "",
+                "translation_5_back": unique_translations_back[4] if len(unique_translations_back) > 4 else "",
                 "compare_openai": compare_result_openai,
                 "compare_gemini": compare_result_gemini,
                 "compare_claude": compare_result_claude,
