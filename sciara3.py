@@ -544,8 +544,8 @@ async def crawl_json(
                         source_text=translation,
                         source_language=target_language,
                         target_language=source_language,
-                        translate_models=[OPENAI_MODEL, GEMINI_MODEL, CLAUDE_MODEL_3_5, MISTRAL_MODEL],
-                        assess_models=[OPENAI_MODEL, GEMINI_MODEL, CLAUDE_MODEL_3_5, MISTRAL_MODEL],
+                        translate_models=[OPENAI_MODEL, GEMINI_MODEL, CLAUDE_MODEL, CLAUDE_MODEL_3_5, MISTRAL_MODEL],
+                        assess_models=[OPENAI_MODEL, GEMINI_MODEL, CLAUDE_MODEL, CLAUDE_MODEL_3_5, MISTRAL_MODEL],
                         file_content=file_content,
                         file_description=file_description,
                     )
