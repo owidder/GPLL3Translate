@@ -121,6 +121,12 @@ async def ask_model(system: str, user: str, model: str) -> str:
     except Exception as exc:
         print(f"Exception: {exc}")
         return ""
+
+    if answer == None:
+        print("wait for 1s")
+        time.sleep(1)
+        return await ask_model(system, user, model)
+
     return answer
 
 
@@ -149,12 +155,12 @@ async def get_translation(
         f"Translate this {LANGUAGES[source_language]} text into {LANGUAGES[target_language]}. Ensure that the translated text retains the original meaning, tone, and intent.\n" + \
         f"The answer has to contain ONLY the translation itself. No explaining text is allowed in the answer.\n"
 
-    print(system_msg)
     user_lines = [f"Original {LANGUAGES[source_language]}: \"{source_text}\""]
     user = "\n".join(user_lines)
     print(f"get_translation for '{source_text}'")
     answer = await ask_model(system_msg, user, model=model)
     print(f"get_translation: answer={answer}")
+    print("----------------------------------------")
     answer = answer.replace('"', '').replace("'", "") if (answer.startswith('"') or answer.startswith("'")) else answer
     return answer
 
@@ -175,6 +181,7 @@ async def check_translation(source_text: str, source_language: str, target_text:
     else:
         raise Exception(f"unknown llm: {llm}")
     print(f"check_translation with {llm}: answer={answer}")
+    print("----------------------------------------")
     return answer
 
 
@@ -212,6 +219,7 @@ async def compare_translations(
     user = "\n".join(original_line + translation_lines)
     print(f"compare_translations for '{source_text}'")
     answer = await ask_model(system=system, user=user, model=model)
+    print(f"answer: {answer}")
     winning_index = int(catch_single_digit(answer))
     return translations[winning_index - 1]
 
@@ -268,11 +276,8 @@ def create_table(input_file: str, translation_lines: [str], source: str, target:
         "",
         "--- 4 ---",
         "",
-        "--- 5 ---",
-        "",
         "Assess (OpenAI)",
         "Assess (Gemini)",
-        "Assess (Claude)",
         "Assess (Mistral)",
         "Assess (Claude 3.5)",
     ]
@@ -358,7 +363,6 @@ async def crawl_json(
                 file_content=file_content,
                 file_description=file_description,
             )
-        print(current_translations)
         if len(current_translations.keys()) > 0:
             target_language_openai_property = f"_openai_{target_language}"
             if not target_language_openai_property in data:
@@ -388,20 +392,20 @@ async def crawl_json(
             else:
                 target_translation_gemini = data[target_language_gemini_property]
 
-            target_language_claude_property = f"_claude_{target_language}"
-            if not target_language_claude_property in data:
-                target_translation_claude = await get_translation(
-                    source_text=data[source_language],
-                    source_language=source_language,
-                    target_language=target_language,
-                    model=CLAUDE_MODEL,
-                    file_content=file_content,
-                    file_description=file_description,
-                )
-                data[target_language_claude_property] = target_translation_claude
-            else:
-                target_translation_claude = data[target_language_claude_property]
-
+            # target_language_claude_property = f"_claude_{target_language}"
+            # if not target_language_claude_property in data:
+            #     target_translation_claude = await get_translation(
+            #         source_text=data[source_language],
+            #         source_language=source_language,
+            #         target_language=target_language,
+            #         model=CLAUDE_MODEL,
+            #         file_content=file_content,
+            #         file_description=file_description,
+            #     )
+            #     data[target_language_claude_property] = target_translation_claude
+            # else:
+            #     target_translation_claude = data[target_language_claude_property]
+            #
             target_language_claude_3_5_property = f"_claude_3_5_{target_language}"
             if not target_language_claude_3_5_property in data:
                 target_translation_claude_3_5 = await get_translation(
@@ -444,7 +448,7 @@ async def crawl_json(
             # else:
             #     target_translation_llama3 = data[target_language_llama3_property]
 
-            translation_list = [target_translation_openai, target_translation_gemini, target_translation_claude, target_translation_mistral, target_translation_claude_3_5]
+            translation_list = [target_translation_openai, target_translation_gemini, target_translation_mistral, target_translation_claude_3_5]
 
             compare_result_openai_property = f"_compare_openai_{target_language}"
             if not compare_result_openai_property in data:
@@ -476,20 +480,20 @@ async def crawl_json(
             else:
                 compare_result_gemini = data[compare_result_gemini_property]
 
-            compare_result_claude_property = f"_compare_claude_{target_language}"
-            if not compare_result_claude_property in data:
-                compare_result_claude = await compare_translations(
-                    source_text=data[source_language],
-                    source_language=source_language,
-                    translations=create_unique_translations(translation_list, 2),
-                    target_language=target_language,
-                    model=CLAUDE_MODEL,
-                    file_content=file_content,
-                    file_description=file_description,
-                )
-                data[compare_result_claude_property] = compare_result_claude
-            else:
-                compare_result_claude = data[compare_result_claude_property]
+            # compare_result_claude_property = f"_compare_claude_{target_language}"
+            # if not compare_result_claude_property in data:
+            #     compare_result_claude = await compare_translations(
+            #         source_text=data[source_language],
+            #         source_language=source_language,
+            #         translations=create_unique_translations(translation_list, 2),
+            #         target_language=target_language,
+            #         model=CLAUDE_MODEL,
+            #         file_content=file_content,
+            #         file_description=file_description,
+            #     )
+            #     data[compare_result_claude_property] = compare_result_claude
+            # else:
+            #     compare_result_claude = data[compare_result_claude_property]
 
             compare_result_claude_3_5_property = f"_compare_claude_3_5_{target_language}"
             if not compare_result_claude_3_5_property in data:
@@ -539,8 +543,7 @@ async def crawl_json(
             winners_property = f"_winners_{target_language}"
             if not winners_property in data:
                 winners = find_most_common_strings(
-                    [compare_result_openai, compare_result_gemini, compare_result_claude, compare_result_mistral,
-                     compare_result_claude_3_5])
+                    [compare_result_openai, compare_result_gemini, compare_result_mistral, compare_result_claude_3_5])
                 data[winners_property] = winners
             else:
                 winners = data[winners_property]
@@ -559,8 +562,8 @@ async def crawl_json(
                         source_text=translation,
                         source_language=target_language,
                         target_language=source_language,
-                        translate_models=[OPENAI_MODEL, GEMINI_MODEL, CLAUDE_MODEL, CLAUDE_MODEL_3_5, MISTRAL_MODEL],
-                        assess_models=[OPENAI_MODEL, GEMINI_MODEL, CLAUDE_MODEL, CLAUDE_MODEL_3_5, MISTRAL_MODEL],
+                        translate_models=[OPENAI_MODEL, GEMINI_MODEL, CLAUDE_MODEL_3_5, MISTRAL_MODEL],
+                        assess_models=[OPENAI_MODEL, GEMINI_MODEL, CLAUDE_MODEL_3_5, MISTRAL_MODEL],
                         file_content=file_content,
                         file_description=file_description,
                     ) if translation in winners else ""
@@ -590,7 +593,6 @@ async def crawl_json(
                 "translation_5_back": create_diff_html(current_translations[source_language], unique_translations_back[4]) if len(unique_translations_back) > 4 and len(unique_translations_back[4]) > 0 else "",
                 "compare_openai": compare_result_openai,
                 "compare_gemini": compare_result_gemini,
-                "compare_claude": compare_result_claude,
                 "compare_mistral": compare_result_mistral,
                 "compare_claude_3_5": compare_result_claude_3_5,
                 "winners": winners,
@@ -614,7 +616,6 @@ async def crawl_json(
         if is_translation(path):
             language = path.split(".")[-1]
             current_translations[language] = data
-        print(f"{path}: {data}")
 
 
 async def process_i18n_file(file_path: str, file_description:str, target_language="") -> {str: [object]}:
