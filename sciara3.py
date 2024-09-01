@@ -225,12 +225,16 @@ async def get_best_back_translation(
         file_content: str,
         file_description: str,
 ) -> str:
+    file_content_dict = json.loads(file_content)
+    delete_key_recursive(file_content_dict, target_language)
+    file_content_without_target_language = json.dumps(file_content_dict, indent=4, ensure_ascii=False)
     translations = [
         await get_translation(
             source_text=source_text,
             source_language=source_language,
             target_language=target_language,
             model=model,
+            file_content=file_content_without_target_language,
             file_description=file_description,
         ) for model in translate_models
     ]
@@ -318,6 +322,17 @@ def create_unique_translations(translations: [str], ignored_translation_index=-1
     normalized_filtered = [t.strip().strip('\'"') for i, t in enumerate(translations) if i != ignored_translation_index]
     unique_translations = list(set(normalized_filtered))
     return unique_translations
+
+
+def delete_key_recursive(data, key_to_delete):
+    if isinstance(data, dict):
+        if key_to_delete in data:
+            del data[key_to_delete]
+        for key in list(data.keys()):
+            delete_key_recursive(data[key], key_to_delete)
+    elif isinstance(data, list):
+        for item in data:
+            delete_key_recursive(item, key_to_delete)
 
 
 async def crawl_json(
