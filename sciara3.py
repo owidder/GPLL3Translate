@@ -53,12 +53,13 @@ LANGUAGES = {
     "zh": "chinese",
 }
 OPENAI_BASE_URL = os.getenv("OPENAI_BASE_URL", "https://api.iteragpt.iteratec.de/v1")
-OPENAI_MODEL = os.getenv("OPENAI_MODEL", "azure/gpt-4o")
-GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gcp/gemini-1.5-pro")
-CLAUDE_MODEL = os.getenv("CLAUDE_MODEL", "aws/claude-3-sonnet")
-CLAUDE_MODEL_3_5 = os.getenv("CLAUDE_MODEL", "aws/claude-3.5-sonnet")
-MISTRAL_MODEL = os.getenv("MISTRAL_MODEL", "azure/mistral-large")
-LLAMA3_MODEL = os.getenv("LLAMA3_MODEL", "iteratec/Llama3.1-70B-Instruct")
+GPT_4O = "azure/gpt-4o"
+GEMINI_1_5_PRO = "gcp/gemini-1.5-pro"
+CLAUDE_3_SONNET = "aws/claude-3-sonnet"
+CLAUDE_3_5_SONNET = "aws/claude-3.5-sonnet"
+CLAUDE_3_HAIKU = "aws/claude-3-haiku"
+MISTRAL_LARGE = "azure/mistral-large"
+LLAMA_3_1_70B = "iteratec/Llama3.1-70B-Instruct"
 INPUT_FILE = os.getenv("INPUT_FILE")
 INPUT_FILE_DESCRIPTION = os.getenv("INPUT_FILE_DESCRIPTION")
 RETRY_CHECK = (os.getenv("RETRY_CHECK", "0") == "1")
@@ -86,6 +87,7 @@ def create_td(text = "", diff: [str]=[], plusminus="+") -> str:
 
 
 async def ask_model(system: str, user: str, model: str) -> str:
+    print(f"ask model: {model}")
     try:
         client = AsyncOpenAI(base_url=OPENAI_BASE_URL)
         response = await client.chat.completions.create(
@@ -123,10 +125,12 @@ async def ask_model(system: str, user: str, model: str) -> str:
         return ""
 
     if answer == None:
-        print("wait for 1s")
+        print("No answer!!!! Wait for 1s and try again")
+        print("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
         time.sleep(1)
-        return await ask_model(system, user, model)
+        return await ask_model(f"{system}\nPLEASE ALWAYS ANSWER WITH A STRING!!!!", user, model)
 
+    print(f"answer: {answer}")
     return answer
 
 
@@ -175,9 +179,9 @@ async def check_translation(source_text: str, source_language: str, target_text:
     user = "\n".join(user_lines)
     print(f"check_translation for '{source_text}' -> '{target_text}'")
     if llm == "gpt":
-        answer = await ask_model(system, user, model=OPENAI_MODEL)
+        answer = await ask_model(system, user, model=GPT_4O)
     elif llm == "gemini":
-        answer = await ask_model(system, user, model=GEMINI_MODEL)
+        answer = await ask_model(system, user, model=GEMINI_1_5_PRO)
     else:
         raise Exception(f"unknown llm: {llm}")
     print(f"check_translation with {llm}: answer={answer}")
@@ -276,10 +280,13 @@ def create_table(input_file: str, translation_lines: [str], source: str, target:
         "",
         "--- 4 ---",
         "",
-        "Assess (OpenAI)",
-        "Assess (Gemini)",
-        "Assess (Mistral)",
-        "Assess (Claude 3.5)",
+        "--- 5 ---",
+        "",
+        "Assess (GPT 4o)",
+        "Assess (Gemini 1.5 Pro)",
+        "Assess (Mistral Large)",
+        "Assess (Claude 3.5 Sonnet)",
+        "Assess (Claude 3 Haiku)",
     ]
 
     env = Environment(loader=FileSystemLoader('./templates'))
@@ -364,186 +371,215 @@ async def crawl_json(
                 file_description=file_description,
             )
         if len(current_translations.keys()) > 0:
-            target_language_openai_property = f"_openai_{target_language}"
-            if not target_language_openai_property in data:
-                target_translation_openai = await get_translation(
+            translation_gpt_4o_property = f"_gpt_4o_{target_language}"
+            if not translation_gpt_4o_property in data:
+                translation_gpt_4o = await get_translation(
                     source_text=data[source_language],
                     source_language=source_language,
                     target_language=target_language,
-                    model=OPENAI_MODEL,
+                    model=GPT_4O,
                     file_content=file_content,
                     file_description=file_description,
                 )
-                data[target_language_openai_property] = target_translation_openai
+                data[translation_gpt_4o_property] = translation_gpt_4o
             else:
-                target_translation_openai = data[target_language_openai_property]
+                translation_gpt_4o = data[translation_gpt_4o_property]
 
-            target_language_gemini_property = f"_gemini_{target_language}"
-            if not target_language_gemini_property in data:
-                target_translation_gemini = await get_translation(
+            translation_gemini_1_5_pro_property = f"_gemini_1_5_pro_{target_language}"
+            if not translation_gemini_1_5_pro_property in data:
+                translation_gemini_1_5_pro = await get_translation(
                     source_text=data[source_language],
                     source_language=source_language,
                     target_language=target_language,
-                    model=GEMINI_MODEL,
+                    model=GEMINI_1_5_PRO,
                     file_content=file_content,
                     file_description=file_description,
                 )
-                data[target_language_gemini_property] = target_translation_gemini
+                data[translation_gemini_1_5_pro_property] = translation_gemini_1_5_pro
             else:
-                target_translation_gemini = data[target_language_gemini_property]
+                translation_gemini_1_5_pro = data[translation_gemini_1_5_pro_property]
 
-            # target_language_claude_property = f"_claude_{target_language}"
-            # if not target_language_claude_property in data:
-            #     target_translation_claude = await get_translation(
+            # translation_claude_3_sonnet_property = f"_claude_3_sonnet_{target_language}"
+            # if not translation_claude_3_sonnet_property in data:
+            #     translation_claude_3_sonnet = await get_translation(
             #         source_text=data[source_language],
             #         source_language=source_language,
             #         target_language=target_language,
-            #         model=CLAUDE_MODEL,
+            #         model=CLAUDE_3_SONNET,
             #         file_content=file_content,
             #         file_description=file_description,
             #     )
-            #     data[target_language_claude_property] = target_translation_claude
+            #     data[translation_claude_3_sonnet_property] = translation_claude_3_sonnet
             # else:
-            #     target_translation_claude = data[target_language_claude_property]
-            #
-            target_language_claude_3_5_property = f"_claude_3_5_{target_language}"
-            if not target_language_claude_3_5_property in data:
-                target_translation_claude_3_5 = await get_translation(
+            #     translation_claude_3_sonnet = data[translation_claude_3_sonnet_property]
+
+            translation_claude_3_5_property = f"_claude_3_5_sonnet_{target_language}"
+            if not translation_claude_3_5_property in data:
+                translation_claude_3_5_sonnet = await get_translation(
                     source_text=data[source_language],
                     source_language=source_language,
                     target_language=target_language,
-                    model=CLAUDE_MODEL_3_5,
+                    model=CLAUDE_3_5_SONNET,
                     file_content=file_content,
                     file_description=file_description,
                 )
-                data[target_language_claude_3_5_property] = target_translation_claude_3_5
+                data[translation_claude_3_5_property] = translation_claude_3_5_sonnet
             else:
-                target_translation_claude_3_5 = data[target_language_claude_3_5_property]
+                translation_claude_3_5_sonnet = data[translation_claude_3_5_property]
 
-            target_language_mistral_property = f"_mistral_{target_language}"
-            if not target_language_mistral_property in data:
-                target_translation_mistral = await get_translation(
+            translation_claude_3_haiku_property = f"_claude_3_haiku_{target_language}"
+            if not translation_claude_3_haiku_property in data:
+                translation_claude_3_haiku = await get_translation(
                     source_text=data[source_language],
                     source_language=source_language,
                     target_language=target_language,
-                    model=MISTRAL_MODEL,
+                    model=CLAUDE_3_HAIKU,
                     file_content=file_content,
                     file_description=file_description,
                 )
-                data[target_language_mistral_property] = target_translation_mistral
+                data[translation_claude_3_haiku_property] = translation_claude_3_haiku
             else:
-                target_translation_mistral = data[target_language_mistral_property]
+                translation_claude_3_haiku = data[translation_claude_3_haiku_property]
 
-            # target_language_llama3_property = f"_llama3_{target_language}"
-            # if not target_language_llama3_property in data:
-            #     target_translation_llama3 = await get_translation(
+            translation_mistral_large_property = f"_mistral_large_{target_language}"
+            if not translation_mistral_large_property in data:
+                translation_mistral_large = await get_translation(
+                    source_text=data[source_language],
+                    source_language=source_language,
+                    target_language=target_language,
+                    model=MISTRAL_LARGE,
+                    file_content=file_content,
+                    file_description=file_description,
+                )
+                data[translation_mistral_large_property] = translation_mistral_large
+            else:
+                translation_mistral_large = data[translation_mistral_large_property]
+
+            # translation_llama_3_1_70B_property = f"_llama_3_1_70B_{target_language}"
+            # if not translation_llama_3_1_70B_property in data:
+            #     translation_llama_3_1_70B = await get_translation(
             #         source_text=data[source_language],
             #         source_language=source_language,
             #         target_language=target_language,
-            #         model=LLAMA3_MODEL,
+            #         model=LLAMA_3_1_70B,
             #         file_content=file_content,
             #         file_description=file_description,
             #     )
-            #     data[target_language_llama3_property] = target_translation_llama3
+            #     data[translation_llama_3_1_70B_property] = translation_llama_3_1_70B
             # else:
-            #     target_translation_llama3 = data[target_language_llama3_property]
+            #     translation_llama_3_1_70B = data[translation_llama_3_1_70B_property]
 
-            translation_list = [target_translation_openai, target_translation_gemini, target_translation_mistral, target_translation_claude_3_5]
+            translation_list = [translation_gpt_4o, translation_gemini_1_5_pro, translation_mistral_large, translation_claude_3_5_sonnet, translation_claude_3_haiku]
 
-            compare_result_openai_property = f"_compare_openai_{target_language}"
-            if not compare_result_openai_property in data:
-                compare_result_openai = await compare_translations(
+            compare_result_gpt_4o_property = f"_compare_gpt_4o_{target_language}"
+            if not compare_result_gpt_4o_property in data:
+                compare_result_gpt_4o = await compare_translations(
                     source_text=data[source_language],
                     source_language=source_language,
                     translations=create_unique_translations(translation_list, 0),
                     target_language=target_language,
-                    model=OPENAI_MODEL,
+                    model=GPT_4O,
                     file_content=file_content,
                     file_description=file_description,
                 )
-                data[compare_result_openai_property] = compare_result_openai
+                data[compare_result_gpt_4o_property] = compare_result_gpt_4o
             else:
-                compare_result_openai = data[compare_result_openai_property]
+                compare_result_gpt_4o = data[compare_result_gpt_4o_property]
 
-            compare_result_gemini_property = f"_compare_gemini_{target_language}"
-            if not compare_result_gemini_property in data:
-                compare_result_gemini = await compare_translations(
+            compare_result_gemini_1_5_pro_property = f"_compare_gemini_1_5_pro_{target_language}"
+            if not compare_result_gemini_1_5_pro_property in data:
+                compare_result_gemini_1_5_pro = await compare_translations(
                     source_text=data[source_language],
                     source_language=source_language,
                     translations=create_unique_translations(translation_list, 1),
                     target_language=target_language,
-                    model=GEMINI_MODEL,
+                    model=GEMINI_1_5_PRO,
                     file_content=file_content,
                     file_description=file_description,
                 )
-                data[compare_result_gemini_property] = compare_result_gemini
+                data[compare_result_gemini_1_5_pro_property] = compare_result_gemini_1_5_pro
             else:
-                compare_result_gemini = data[compare_result_gemini_property]
+                compare_result_gemini_1_5_pro = data[compare_result_gemini_1_5_pro_property]
 
-            # compare_result_claude_property = f"_compare_claude_{target_language}"
-            # if not compare_result_claude_property in data:
-            #     compare_result_claude = await compare_translations(
+            # compare_result_claude_3_sonnet_property = f"_compare_claude_3_sonnet_{target_language}"
+            # if not compare_result_claude_3_sonnet_property in data:
+            #     compare_result_claude_3_sonnet = await compare_translations(
             #         source_text=data[source_language],
             #         source_language=source_language,
             #         translations=create_unique_translations(translation_list, 2),
             #         target_language=target_language,
-            #         model=CLAUDE_MODEL,
+            #         model=CLAUDE_3_SONNET,
             #         file_content=file_content,
             #         file_description=file_description,
             #     )
-            #     data[compare_result_claude_property] = compare_result_claude
+            #     data[compare_result_claude_3_sonnet_property] = compare_result_claude_3_sonnet
             # else:
-            #     compare_result_claude = data[compare_result_claude_property]
+            #     compare_result_claude_3_sonnet = data[compare_result_claude_3_sonnet_property]
 
-            compare_result_claude_3_5_property = f"_compare_claude_3_5_{target_language}"
-            if not compare_result_claude_3_5_property in data:
-                compare_result_claude_3_5 = await compare_translations(
+            compare_result_mistral_large_property = f"_compare_mistral_large_{target_language}"
+            if not compare_result_mistral_large_property in data:
+                compare_result_mistral_large = await compare_translations(
                     source_text=data[source_language],
                     source_language=source_language,
                     translations=create_unique_translations(translation_list, 2),
                     target_language=target_language,
-                    model=CLAUDE_MODEL_3_5,
+                    model=MISTRAL_LARGE,
                     file_content=file_content,
                     file_description=file_description,
                 )
-                data[compare_result_claude_3_5_property] = compare_result_claude_3_5
+                data[compare_result_mistral_large_property] = compare_result_mistral_large
             else:
-                compare_result_claude_3_5 = data[compare_result_claude_3_5_property]
+                compare_result_mistral_large = data[compare_result_mistral_large_property]
 
-            compare_result_mistral_property = f"_compare_mistral_{target_language}"
-            if not compare_result_mistral_property in data:
-                compare_result_mistral = await compare_translations(
+            compare_result_claude_3_5_sonnet_property = f"_compare_claude_3_5_sonnet_{target_language}"
+            if not compare_result_claude_3_5_sonnet_property in data:
+                compare_result_claude_3_5_sonnet = await compare_translations(
                     source_text=data[source_language],
                     source_language=source_language,
                     translations=create_unique_translations(translation_list, 3),
                     target_language=target_language,
-                    model=MISTRAL_MODEL,
+                    model=CLAUDE_3_5_SONNET,
                     file_content=file_content,
                     file_description=file_description,
                 )
-                data[compare_result_mistral_property] = compare_result_mistral
+                data[compare_result_claude_3_5_sonnet_property] = compare_result_claude_3_5_sonnet
             else:
-                compare_result_mistral = data[compare_result_mistral_property]
+                compare_result_claude_3_5_sonnet = data[compare_result_claude_3_5_sonnet_property]
 
-            # compare_result_llama3_property = f"_compare_llama3_{target_language}"
-            # if not compare_result_llama3_property in data:
-            #     compare_result_llama3 = await compare_translations(
+            compare_result_claude_3_haiku_property = f"_compare_claude_3_haiku_{target_language}"
+            if not compare_result_claude_3_haiku_property in data:
+                compare_result_claude_3_haiku = await compare_translations(
+                    source_text=data[source_language],
+                    source_language=source_language,
+                    translations=create_unique_translations(translation_list, 3),
+                    target_language=target_language,
+                    model=CLAUDE_3_HAIKU,
+                    file_content=file_content,
+                    file_description=file_description,
+                )
+                data[compare_result_claude_3_haiku_property] = compare_result_claude_3_haiku
+            else:
+                compare_result_claude_3_haiku = data[compare_result_claude_3_haiku_property]
+
+            # compare_result_llama_3_1_70B_property = f"_compare_llama_3_1_70B_{target_language}"
+            # if not compare_result_llama_3_1_70B_property in data:
+            #     compare_result_llama_3_1_70B = await compare_translations(
             #         source_text=data[source_language],
             #         source_language=source_language,
             #         translations=create_unique_translations(translation_list, 4),
             #         target_language=target_language,
-            #         model=LLAMA3_MODEL,
+            #         model=LLAMA_3_1_70B,
             #         file_content=file_content,
             #         file_description=file_description,
             #     )
-            #     data[compare_result_llama3_property] = compare_result_llama3
+            #     data[compare_result_llama_3_1_70B_property] = compare_result_llama_3_1_70B
             # else:
-            #     compare_result_llama3 = data[compare_result_llama3_property]
+            #     compare_result_llama_3_1_70B = data[compare_result_llama_3_1_70B_property]
 
             winners_property = f"_winners_{target_language}"
             if not winners_property in data:
                 winners = find_most_common_strings(
-                    [compare_result_openai, compare_result_gemini, compare_result_mistral, compare_result_claude_3_5])
+                    [compare_result_gpt_4o, compare_result_gemini_1_5_pro, compare_result_mistral_large, compare_result_claude_3_5_sonnet])
                 data[winners_property] = winners
             else:
                 winners = data[winners_property]
@@ -562,8 +598,8 @@ async def crawl_json(
                         source_text=translation,
                         source_language=target_language,
                         target_language=source_language,
-                        translate_models=[OPENAI_MODEL, GEMINI_MODEL, CLAUDE_MODEL_3_5, MISTRAL_MODEL],
-                        assess_models=[OPENAI_MODEL, GEMINI_MODEL, CLAUDE_MODEL_3_5, MISTRAL_MODEL],
+                        translate_models=[GPT_4O, GEMINI_1_5_PRO, CLAUDE_3_5_SONNET, CLAUDE_3_HAIKU, MISTRAL_LARGE],
+                        assess_models=[GPT_4O, GEMINI_1_5_PRO, CLAUDE_3_5_SONNET, CLAUDE_3_HAIKU, MISTRAL_LARGE],
                         file_content=file_content,
                         file_description=file_description,
                     ) if translation in winners else ""
@@ -591,10 +627,11 @@ async def crawl_json(
                 "translation_5": create_diff_html(unique_translations[0], unique_translations[4]) if len(unique_translations) > 4 else "",
                 "translation_5_raw": unique_translations[4] if len(unique_translations) > 4 else "",
                 "translation_5_back": create_diff_html(current_translations[source_language], unique_translations_back[4]) if len(unique_translations_back) > 4 and len(unique_translations_back[4]) > 0 else "",
-                "compare_openai": compare_result_openai,
-                "compare_gemini": compare_result_gemini,
-                "compare_mistral": compare_result_mistral,
-                "compare_claude_3_5": compare_result_claude_3_5,
+                "compare_gpt_4o": compare_result_gpt_4o,
+                "compare_gemini_1_5_pro": compare_result_gemini_1_5_pro,
+                "compare_mistral_large": compare_result_mistral_large,
+                "compare_claude_3_5_sonnet": compare_result_claude_3_5_sonnet,
+                "compare_claude_3_haiku": compare_result_claude_3_haiku,
                 "winners": winners,
                 "unique_translations": unique_translations,
             })

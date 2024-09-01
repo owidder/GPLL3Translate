@@ -62,13 +62,14 @@
                     <td class="{{ 'winner' if translation_line.translation_3_raw in translation_line.winners else 'translate' }}">{{ translation_line.translation_3_raw }}</td>
                     <td class="back-translate">{{ translation_line.translation_3_back }}</td>
                     <td class="{{ 'winner' if translation_line.translation_4_raw in translation_line.winners else 'translate' }}">{{ translation_line.translation_4_raw }}</td>
-                    <td class="endtd back-translate">{{ translation_line.translation_4_back }}</td>
-{#                    <td class="{{ 'winner' if translation_line.translation_5_raw in translation_line.winners else 'translate' }}">{{ translation_line.translation_5_raw }}</td>#}
-{#                    <td class="endtd back-translate">{{ translation_line.translation_5_back }}</td>#}
-                    <td class="compare">{{ translation_line.unique_translations.index(translation_line.compare_openai)+1 }}</td>
-                    <td class="compare">{{ translation_line.unique_translations.index(translation_line.compare_gemini)+1 }}</td>
-                    <td class="compare">{{ translation_line.unique_translations.index(translation_line.compare_mistral)+1 }}</td>
-                    <td class="endtd compare">{{ translation_line.unique_translations.index(translation_line.compare_claude_3_5)+1 }}</td>
+                    <td class="back-translate">{{ translation_line.translation_4_back }}</td>
+                    <td class="{{ 'winner' if translation_line.translation_5_raw in translation_line.winners else 'translate' }}">{{ translation_line.translation_5_raw }}</td>
+                    <td class="endtd back-translate">{{ translation_line.translation_5_back }}</td>
+                    <td class="compare">{{ translation_line.unique_translations.index(translation_line.compare_gpt_4o) + 1 }}</td>
+                    <td class="compare">{{ translation_line.unique_translations.index(translation_line.compare_gemini_1_5_pro) + 1 }}</td>
+                    <td class="compare">{{ translation_line.unique_translations.index(translation_line.compare_mistral_large) + 1 }}</td>
+                    <td class="compare">{{ translation_line.unique_translations.index(translation_line.compare_claude_3_5_sonnet) + 1 }}</td>
+                    <td class="endtd compare">{{ translation_line.unique_translations.index(translation_line.compare_claude_3_haiku) + 1 }}</td>
                 </tr>
             {% endfor %}
         </tbody>
