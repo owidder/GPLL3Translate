@@ -579,7 +579,7 @@ async def crawl_json(
             winners_property = f"_winners_{target_language}"
             if not winners_property in data:
                 winners = find_most_common_strings(
-                    [compare_result_gpt_4o, compare_result_gemini_1_5_pro, compare_result_mistral_large, compare_result_claude_3_5_sonnet])
+                    [compare_result_gpt_4o, compare_result_gemini_1_5_pro, compare_result_mistral_large, compare_result_claude_3_5_sonnet, compare_result_claude_3_haiku])
                 data[winners_property] = winners
             else:
                 winners = data[winners_property]
