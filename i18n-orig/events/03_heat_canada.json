@@ -1,0 +1,34 @@
+{
+  "schedule": {
+    "conditions": [
+      {
+        "path": "..globalMeanTemperature.series.GMT [Kelvins by year]",
+        "configurationType": "PROJECTION_RESULT",
+        "value": 1.3,
+        "operator": "GT"
+      }
+    ]
+  },
+  "name": "Extreme heat in Canada takes lives(Trigger 1.3 °C )",
+  "actions": [
+    {
+      "notification": {
+        "sendEmail": false,
+        "title": {
+          "de": "Extreme Hitze in Kanada fordert Todesopfer",
+          "ru": "Экстремальная жара в Канаде уносит жизни людей",
+          "en": "Extreme heat in Canada causes deaths",
+          "ar": "ارتفاع درجات الحرارة الشديدة في كندا يتسبب في وفيات",
+          "fr": "La chaleur extrême au Canada provoque des décès"
+        },
+        "body": {
+          "de": "<img width=250  src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"><br>Kanada misst erneut Rekordtemperaturen von knapp 50 Grad Celsius.<br>Nach wochenlangen Temperaturen weit oberhalb von 30 Grad wurden gestern in einigen Gebieten British-Columbias bis zu 49,2 Grad gemessen.<br>Nach Angaben der Behörden starben mehrere Hundert Menschen, die sich nicht mehr ausreichend kühlen konnten.",
+          "ru": "<img width=250  src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"><br>В Канаде снова фиксируются рекордные температуры - почти 50 градусов по Цельсию.<br> После нескольких недель, когда температура была значительно выше 30 градусов, в некоторых районах Британской Колумбии вчера она достигла 49,2 градусов.<br> По данным властей, несколько сотен человек погибли, не сумев достаточно охладиться.",
+          "en": "<img width=250  src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"><br>Canada is again measuring record temperatures of nearly 50 degrees Celsius.<br>After weeks of temperatures well above 30 degrees, some areas of British Columbia measured as high as 49.2 degrees yesterday.<br>According to authorities, several hundred people died when they were unable to cool down sufficiently.",
+          "fr": "<img width=250  src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"><br>\nLe Canada enregistre à nouveau des températures records atteignant près de 50 degrés Celsius.<br>\nAprès des semaines de températures largement supérieures à 30 degrés, certaines régions de la Colombie-Britannique ont enregistré jusqu'à 49,2 degrés hier.<br>\nSelon les autorités, plusieurs centaines de personnes sont décédées car elles n'ont pas réussi à se rafraîchir suffisamment.",
+          "ar": "<img width=250  src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"><br>\nكندا تقيس مجددًا درجات حرارة قياسية تصل إلى حوالي 50 درجة مئوية.<br>\nبعد أسابيع من درجات الحرارة التي تتجاوز 30 درجة مئوية، قست بعض مناطق كولومبيا البريطانية درجة حرارة تصل إلى 49.2 درجة أمس.<br>\nوفقًا للسلطات، توفي عدة مئات من الأشخاص بسبب عدم قدرتهم على التبريد بشكل كافٍ."
+        }
+      }
+    }
+  ]
+}

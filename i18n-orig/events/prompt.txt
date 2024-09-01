@@ -1,0 +1,38 @@
+/*
+ * Prompts to use with ChatGpt to generate and confirm the translations
+ */
+
+/* Prompt to generate translations in the fitting json format */
+
+Can u translate the following text into English, Russian, French, and Arabic.  Everything should be lay outed in the following JSON syntax:
+```
+"title": {
+    "de": "",
+    "ru": "",
+    "en": "",
+    "fr": "",
+    "ar": "",
+}.
+"body": {
+    "de": "<img width=250 src=\"\"><br>",
+    "ru": "<img width=250 src=\"\"><br>",
+    "en": "<img width=250 src=\"\"><br>",
+    "ar": "<img width=250 src=\"\"><br>",
+    "fr": "<img width=250 src=\"\"><br>",
+}
+```
+
+The title is the line marked with the +++ Everything after is the body. The titles should be pasted inside the "" in the title section (including the german title). The body should be pasted after the <br> and before the ".
+You should translate everything your self and remove the +++ from the headings.
+This is the message:
+
+```
+
+```
+
+/* Prompt to confirm */
+
+Given the following Jason syntax. Can u check, that all the titles mean the same and all the bodies across the different languages.
+```
+
+```

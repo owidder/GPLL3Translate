@@ -1,0 +1,30 @@
+{
+  "schedule": {
+    "date": "2022-01-01T00:00:00",
+    "interval": {
+      "period": "YEARS",
+      "length": 1
+    }
+  },
+  "name": "Compute derived 'age' variable",
+  "actions": [
+    {
+      "resultConfigurationValue": {
+        "subPathIdentifier": "AGENT_VARIABLE",
+        "valueOrPath": "profile.age"
+      },
+      "expression": {
+        "arguments": [
+          {
+            "subPathIdentifier": "SIMULATION_DATE"
+          },
+          {
+            "subPathIdentifier": "AGENT_VARIABLE",
+            "valueOrPath": "profile.yearOfBirth"
+          }
+        ],
+        "changeMode": "DIFF"
+      }
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "schedule": {
+    "conditions": [
+      {
+        "path": "..seaLevel.series.elevation [meters by year]",
+        "configurationType": "PROJECTION_RESULT",
+        "value": 0.9,
+        "operator": "GT"
+      }
+    ]
+  },
+  "name": "Venice is no longer inhabitable (Trigger sea level rise 0.9 m).",
+  "actions": [
+    {
+      "notification": {
+        "sendEmail": false,
+        "title": {
+          "de": "Die Stadt Venedig wird durch Überschwemmungen und Tourismus zerstört",
+          "ru": "Город Венеция разрушается из-за наводнения и туризма",
+          "en": "The city of Venice is being destroyed by flooding and tourism",
+          "ar": "تتعرض مدينة البندقية للتدمير جراء الفيضانات والسياحة.",
+          "fr": "La ville de Venise est en train d'être détruite par les inondations et le tourisme."
+        },
+        "body": {
+          "de": "<img width=250  src=\"http://cache.boston.com/universal/site_graphics/blogs/bigpicture/venice_12_03/v02_17232273.jpg\"><br>Die Wasserstände in den Straßen von Venedig sind ständig präsent. Ältere Häuser und Gebäude in der Stadt sind eingestürzt und haben durch die Salzwasserschäden mehr Wasser eindringen lassen. Infolgedessen sind die ersten Stockwerke vieler Gebäude in Venedig jetzt unbewohnbar. Die Stadt Venedig wird für unbewohnbar erklärt. Trotzdem ist sie heute das beliebteste Touristenziel für Wassersportler.",
+          "ru": "<img width=250  src=\"http://cache.boston.com/universal/site_graphics/blogs/bigpicture/venice_12_03/v02_17232273.jpg\"><br>Уровень воды постоянно присутствует на улицах Венеции. Старые дома и здания в городе разрушились и пропускают больше воды из-за повреждения соленой водой. В результате первые этажи многих зданий Венеции стали непригодными для жизни. Город Венеция объявлен непригодным для жизни. Несмотря на это, сейчас это самое популярное туристическое место среди любителей водных видов спорта.",
+          "en": "<img width=250  src=\"http://cache.boston.com/universal/site_graphics/blogs/bigpicture/venice_12_03/v02_17232273.jpg\"><br>The water levels permanently present in the streets of Venice. Older homes and buildings in the city have collapsed and let in more water due to the saltwater damage. As a result, the first floors of many of Venice’s buildings are now uninhabitable. The city of Venice is declared uninhabitable. Despite this, it is now the most popular tourist spot for water sport enthusiasts.",
+          "ar": "<img width=250  src=\"http://cache.boston.com/universal/site_graphics/blogs/bigpicture/venice_12_03/v02_17232273.jpg\"><br>مستويات المياه الموجودة بشكل دائم في شوارع البندقية. انهيار المنازل والمباني القديمة في المدينة وتسرب المزيد من المياه بسبب تلف المياه المالحة. نتيجة لذلك، أصبحت الطوابق الأولى من العديد من المباني في البندقية غير صالحة للسكن. تم الإعلان عن عدم صلاحية مدينة البندقية للسكن. على الرغم من ذلك، أصبحت الآن أكثر نقاط الجذب السياحي شهرة لهواة رياضات المياه.",
+          "fr": "<img width=250  src=\"http://cache.boston.com/universal/site_graphics/blogs/bigpicture/venice_12_03/v02_17232273.jpg\"><br>Les niveaux d'eau sont en permanence présents dans les rues de Venise. Les maisons et les bâtiments plus anciens de la ville se sont effondrés et ont laissé entrer plus d'eau en raison des dégâts causés par l'eau salée. Par conséquent, les premiers étages de nombreux bâtiments de Venise sont maintenant inhabitables. La ville de Venise est déclarée inhabitée. Malgré cela, elle est maintenant l'endroit le plus populaire pour les amateurs de sports nautiques."
+
+        }
+      }
+    }
+  ]
+}

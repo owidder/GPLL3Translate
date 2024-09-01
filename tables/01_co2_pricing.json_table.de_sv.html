@@ -28,11 +28,14 @@
         .translate {
             background-color: lightblue;
         }
+        .back-translate {
+            background-color: lightgrey;
+        }
         .winner {
             background-color: lightpink;
         }
         .compare {
-            background-color: lightgray;
+            background-color: lightsteelblue;
         }
         .source {
             background-color: palegoldenrod;
@@ -48,23 +51,33 @@
                 
                     <th>--- 1 ---</th>
                 
+                    <th></th>
+                
                     <th>--- 2 ---</th>
+                
+                    <th></th>
                 
                     <th>--- 3 ---</th>
                 
+                    <th></th>
+                
                     <th>--- 4 ---</th>
+                
+                    <th></th>
                 
                     <th>--- 5 ---</th>
                 
-                    <th>Compare via OpenAI</th>
+                    <th></th>
                 
-                    <th>Compare via Gemini</th>
+                    <th>Assess (GPT 4o)</th>
                 
-                    <th>Compare via Claude</th>
+                    <th>Assess (Gemini 1.5 Pro)</th>
                 
-                    <th>Compare via Mistral</th>
+                    <th>Assess (Mistral Large)</th>
                 
-                    <th>Compare via Llama3</th>
+                    <th>Assess (Claude 3.5 Sonnet)</th>
+                
+                    <th>Assess (Claude 3 Haiku)</th>
                 
             </tr>
         </thead>
@@ -72,16 +85,21 @@
             
                 <tr>
                     <td class="endtd source">Abstimmung über den CO₂-Preis</td>
-                    <td class="translate">Omröstning om koldioxidskatten</td>
-                    <td class="winner"><span style = 'color: black;'>  Omröstning</span> <span style = 'color: black;'>  om</span> <span style = 'color: red; font-weight: bold;'> koldioxidpriset</span></td>
-                    <td class="translate"><span style = 'color: black;'>  Omröstning</span> <span style = 'color: black;'>  om</span> <span style = 'color: red; font-weight: bold;'> CO₂-priset</span></td>
+                    <td class="winner">Omröstning om CO₂-priset</td>
+                    <td class="back-translate"><span style = 'color: black;'>  Abstimmung</span> <span style = 'color: black;'>  über</span> <span style = 'color: black;'>  den</span> <span style = 'color: black;'>  CO₂-Preis</span></td>
+                    <td class="translate">Omröstning om CO₂-skatt</td>
+                    <td class="back-translate"></td>
                     <td class="translate"></td>
-                    <td class="endtd translate"></td>
+                    <td class="back-translate"></td>
+                    <td class="translate"></td>
+                    <td class="back-translate"></td>
+                    <td class="translate"></td>
+                    <td class="endtd back-translate"></td>
+                    <td class="compare">1</td>
+                    <td class="compare">1</td>
                     <td class="compare">2</td>
                     <td class="compare">2</td>
-                    <td class="compare">2</td>
-                    <td class="compare">3</td>
-                    <td class="compare">3</td>
+                    <td class="endtd compare">1</td>
                 </tr>
             
                 <tr>
@@ -92,84 +110,127 @@ Die CO₂-Steuer wird auf die fossilen Brennstoffe Kohle, Öl und Gas erhoben, a
 Diese Steuer wirkt sich auf die Preise aller Waren aus, die entweder direkt oder indirekt fossile Brennstoffe verwenden oder für ihre Herstellung fossile Brennstoffe benötigen.
 <br>
 Sie soll einen Anreiz setzen, Energie zu sparen und Waren mit geringen CO₂-Emissionen herzustellen.</td>
-                    <td class="translate">Var vänlig och rösta om utvecklingen av koldioxidskatten.
+                    <td class="translate">Vänligen rösta om utvecklingen av CO₂-skatten.
 <br>
-Koldioxidskatten tas ut på de fossila bränslena kol, olja och gas, beroende på deras kolinnehåll.
+CO₂-skatten tas ut på fossila bränslen som kol, olja och gas, beroende på deras kolinnehåll.
+<br>
+Denna skatt påverkar priserna på alla varor som antingen direkt eller indirekt använder fossila bränslen eller behöver fossila bränslen för sin tillverkning.
+<br>
+Den ska ge ett incitament att spara energi och producera varor med låga CO₂-utsläpp.</td>
+                    <td class="back-translate"></td>
+                    <td class="translate">Röst på utvecklingen av koldioxidskatten.
+<br>
+Koldioxidskatten tas ut på fossila bränslen som kol, olja och gas, beroende på deras kolinnehåll.
+<br>
+Denna skatt påverkar priserna på alla varor som antingen direkt eller indirekt använder fossila bränslen eller kräver fossila bränslen för sin tillverkning.
+<br>
+Den är avsedd att ge incitament att spara energi och producera varor med låga koldioxidutsläpp.</td>
+                    <td class="back-translate"></td>
+                    <td class="winner">Vänligen rösta om utvecklingen av CO₂-skatten.
+<br>
+CO₂-skatten tas ut på de fossila bränslena kol, olja och gas, beroende på deras kolinnehåll.
 <br>
 Denna skatt påverkar priserna på alla varor som antingen direkt eller indirekt använder fossila bränslen eller kräver fossila bränslen för sin produktion.
 <br>
-Den är avsedd att skapa incitament för att spara energi och producera varor med låga koldioxidutsläpp.</td>
-                    <td class="winner"><span style = 'color: red; font-weight: bold;'> Vänligen</span> <span style = 'color: black;'>  rösta</span> <span style = 'color: black;'>  om</span> <span style = 'color: black;'>  utvecklingen</span> <span style = 'color: black;'>  av</span> <span style = 'color: red; font-weight: bold;'> CO₂-skatten.</span> <br/> <span style = 'color: red; font-weight: bold;'> CO₂-skatten</span> <span style = 'color: black;'>  tas</span> <span style = 'color: black;'>  ut</span> <span style = 'color: black;'>  på</span> <span style = 'color: black;'>  de</span> <span style = 'color: black;'>  fossila</span> <span style = 'color: black;'>  bränslena</span> <span style = 'color: black;'>  kol,</span> <span style = 'color: black;'>  olja</span> <span style = 'color: black;'>  och</span> <span style = 'color: black;'>  gas,</span> <span style = 'color: black;'>  beroende</span> <span style = 'color: black;'>  på</span> <span style = 'color: black;'>  deras</span> <span style = 'color: black;'>  kolinnehåll.</span> <br/> <span style = 'color: black;'>  Denna</span> <span style = 'color: black;'>  skatt</span> <span style = 'color: black;'>  påverkar</span> <span style = 'color: black;'>  priserna</span> <span style = 'color: black;'>  på</span> <span style = 'color: black;'>  alla</span> <span style = 'color: black;'>  varor</span> <span style = 'color: black;'>  som</span> <span style = 'color: black;'>  antingen</span> <span style = 'color: black;'>  direkt</span> <span style = 'color: black;'>  eller</span> <span style = 'color: black;'>  indirekt</span> <span style = 'color: black;'>  använder</span> <span style = 'color: black;'>  fossila</span> <span style = 'color: black;'>  bränslen</span> <span style = 'color: black;'>  eller</span> <span style = 'color: red; font-weight: bold;'> behöver</span> <span style = 'color: black;'>  fossila</span> <span style = 'color: black;'>  bränslen</span> <span style = 'color: black;'>  för</span> <span style = 'color: black;'>  sin</span> <span style = 'color: red; font-weight: bold;'> tillverkning.</span> <br/> <span style = 'color: black;'>  Den</span> <span style = 'color: red; font-weight: bold;'> ska</span> <span style = 'color: red; font-weight: bold;'> ge</span> <span style = 'color: red; font-weight: bold;'> ett</span> <span style = 'color: black;'>  incitament</span> <span style = 'color: black;'>  att</span> <span style = 'color: black;'>  spara</span> <span style = 'color: black;'>  energi</span> <span style = 'color: black;'>  och</span> <span style = 'color: red; font-weight: bold;'> tillverka</span> <span style = 'color: black;'>  varor</span> <span style = 'color: black;'>  med</span> <span style = 'color: black;'>  låga</span> <span style = 'color: red; font-weight: bold;'> CO₂-utsläpp.</span></td>
-                    <td class="translate"><span style = 'color: red; font-weight: bold;'> Var</span> <span style = 'color: red; font-weight: bold;'> vänlig</span> <span style = 'color: red; font-weight: bold;'> och</span> <span style = 'color: red; font-weight: bold;'> rösta</span> <span style = 'color: black;'>  om</span> <span style = 'color: black;'>  utvecklingen</span> <span style = 'color: black;'>  av</span> <span style = 'color: black;'>  koldioxidskatten.</span> <span style = 'color: red; font-weight: bold;'> <br></span> <span style = 'color: black;'>  Koldioxidskatten</span> <span style = 'color: black;'>  tas</span> <span style = 'color: black;'>  ut</span> <span style = 'color: black;'>  på</span> <span style = 'color: black;'>  de</span> <span style = 'color: black;'>  fossila</span> <span style = 'color: black;'>  bränslena</span> <span style = 'color: black;'>  kol,</span> <span style = 'color: black;'>  olja</span> <span style = 'color: black;'>  och</span> <span style = 'color: black;'>  gas,</span> <span style = 'color: black;'>  beroende</span> <span style = 'color: black;'>  på</span> <span style = 'color: black;'>  deras</span> <span style = 'color: black;'>  kolinnehåll.</span> <span style = 'color: red; font-weight: bold;'> <br></span> <span style = 'color: black;'>  Denna</span> <span style = 'color: black;'>  skatt</span> <span style = 'color: black;'>  påverkar</span> <span style = 'color: black;'>  priserna</span> <span style = 'color: black;'>  på</span> <span style = 'color: black;'>  alla</span> <span style = 'color: black;'>  varor</span> <span style = 'color: black;'>  som</span> <span style = 'color: black;'>  antingen</span> <span style = 'color: black;'>  direkt</span> <span style = 'color: black;'>  eller</span> <span style = 'color: black;'>  indirekt</span> <span style = 'color: black;'>  använder</span> <span style = 'color: black;'>  fossila</span> <span style = 'color: black;'>  bränslen</span> <span style = 'color: black;'>  eller</span> <span style = 'color: black;'>  kräver</span> <span style = 'color: black;'>  fossila</span> <span style = 'color: black;'>  bränslen</span> <span style = 'color: black;'>  för</span> <span style = 'color: black;'>  sin</span> <span style = 'color: black;'>  produktion.</span> <span style = 'color: red; font-weight: bold;'> <br></span> <span style = 'color: red; font-weight: bold;'> Den</span> <span style = 'color: black;'>  är</span> <span style = 'color: red; font-weight: bold;'> avsedd</span> <span style = 'color: black;'>  att</span> <span style = 'color: red; font-weight: bold;'> skapa</span> <span style = 'color: black;'>  incitament</span> <span style = 'color: red; font-weight: bold;'> för</span> <span style = 'color: black;'>  att</span> <span style = 'color: black;'>  spara</span> <span style = 'color: black;'>  energi</span> <span style = 'color: black;'>  och</span> <span style = 'color: black;'>  producera</span> <span style = 'color: black;'>  varor</span> <span style = 'color: black;'>  med</span> <span style = 'color: black;'>  låga</span> <span style = 'color: black;'>  koldioxidutsläpp.</span></td>
-                    <td class="translate"><span style = 'color: red; font-weight: bold;'> Vänligen</span> <span style = 'color: black;'>  rösta</span> <span style = 'color: black;'>  om</span> <span style = 'color: black;'>  utvecklingen</span> <span style = 'color: black;'>  av</span> <span style = 'color: black;'>  koldioxidskatten.</span> <br/> <span style = 'color: black;'>  Koldioxidskatten</span> <span style = 'color: black;'>  tas</span> <span style = 'color: black;'>  ut</span> <span style = 'color: black;'>  på</span> <span style = 'color: black;'>  fossila</span> <span style = 'color: red; font-weight: bold;'> bränslen</span> <span style = 'color: red; font-weight: bold;'> som</span> <span style = 'color: black;'>  kol,</span> <span style = 'color: black;'>  olja</span> <span style = 'color: black;'>  och</span> <span style = 'color: black;'>  gas,</span> <span style = 'color: black;'>  beroende</span> <span style = 'color: black;'>  på</span> <span style = 'color: black;'>  deras</span> <span style = 'color: red; font-weight: bold;'> koldioxidinnehåll.</span> <br/> <span style = 'color: black;'>  Denna</span> <span style = 'color: black;'>  skatt</span> <span style = 'color: black;'>  påverkar</span> <span style = 'color: red; font-weight: bold;'> priset</span> <span style = 'color: black;'>  på</span> <span style = 'color: black;'>  alla</span> <span style = 'color: black;'>  varor</span> <span style = 'color: black;'>  som</span> <span style = 'color: black;'>  antingen</span> <span style = 'color: black;'>  direkt</span> <span style = 'color: black;'>  eller</span> <span style = 'color: black;'>  indirekt</span> <span style = 'color: black;'>  använder</span> <span style = 'color: black;'>  fossila</span> <span style = 'color: black;'>  bränslen</span> <span style = 'color: black;'>  eller</span> <span style = 'color: red; font-weight: bold;'> behöver</span> <span style = 'color: black;'>  fossila</span> <span style = 'color: black;'>  bränslen</span> <span style = 'color: black;'>  för</span> <span style = 'color: black;'>  sin</span> <span style = 'color: black;'>  produktion.</span> <br/> <span style = 'color: black;'>  Den</span> <span style = 'color: red; font-weight: bold;'> ska</span> <span style = 'color: red; font-weight: bold;'> ge</span> <span style = 'color: red; font-weight: bold;'> en</span> <span style = 'color: black;'>  incitament</span> <span style = 'color: black;'>  att</span> <span style = 'color: black;'>  spara</span> <span style = 'color: black;'>  energi</span> <span style = 'color: black;'>  och</span> <span style = 'color: black;'>  producera</span> <span style = 'color: black;'>  varor</span> <span style = 'color: black;'>  med</span> <span style = 'color: black;'>  låga</span> <span style = 'color: black;'>  koldioxidutsläpp.</span></td>
-                    <td class="endtd translate"></td>
-                    <td class="compare">2</td>
-                    <td class="compare">1</td>
+Den är avsedd att ge ett incitament att spara energi och producera varor med låga CO₂-utsläpp.</td>
+                    <td class="back-translate"><span style = 'color: black;'>  Bitte</span> <span style = 'color: black;'>  stimmen</span> <span style = 'color: black;'>  Sie</span> <span style = 'color: black;'>  über</span> <span style = 'color: black;'>  die</span> <span style = 'color: black;'>  Entwicklung</span> <span style = 'color: black;'>  der</span> <span style = 'color: black;'>  CO₂-Steuer</span> <span style = 'color: black;'>  ab.</span> <br/> <span style = 'color: black;'>  Die</span> <span style = 'color: black;'>  CO₂-Steuer</span> <span style = 'color: black;'>  wird</span> <span style = 'color: black;'>  auf</span> <span style = 'color: black;'>  die</span> <span style = 'color: black;'>  fossilen</span> <span style = 'color: black;'>  Brennstoffe</span> <span style = 'color: black;'>  Kohle,</span> <span style = 'color: black;'>  Öl</span> <span style = 'color: black;'>  und</span> <span style = 'color: black;'>  Gas</span> <span style = 'color: black;'>  erhoben,</span> <span style = 'color: black;'>  abhängig</span> <span style = 'color: black;'>  von</span> <span style = 'color: black;'>  ihrem</span> <span style = 'color: black;'>  Kohlenstoffgehalt.</span> <br/> <span style = 'color: black;'>  Diese</span> <span style = 'color: black;'>  Steuer</span> <span style = 'color: red; font-weight: bold;'> beeinflusst</span> <span style = 'color: black;'>  die</span> <span style = 'color: black;'>  Preise</span> <span style = 'color: black;'>  aller</span> <span style = 'color: red; font-weight: bold;'> Waren,</span> <span style = 'color: black;'>  die</span> <span style = 'color: black;'>  entweder</span> <span style = 'color: black;'>  direkt</span> <span style = 'color: black;'>  oder</span> <span style = 'color: black;'>  indirekt</span> <span style = 'color: black;'>  fossile</span> <span style = 'color: black;'>  Brennstoffe</span> <span style = 'color: black;'>  verwenden</span> <span style = 'color: black;'>  oder</span> <span style = 'color: red; font-weight: bold;'> fossile</span> <span style = 'color: red; font-weight: bold;'> Brennstoffe</span> <span style = 'color: black;'>  für</span> <span style = 'color: black;'>  ihre</span> <span style = 'color: red; font-weight: bold;'> Produktion</span> <span style = 'color: black;'>  benötigen.</span> <br/> <span style = 'color: black;'>  Sie</span> <span style = 'color: black;'>  soll</span> <span style = 'color: black;'>  einen</span> <span style = 'color: black;'>  Anreiz</span> <span style = 'color: red; font-weight: bold;'> bieten,</span> <span style = 'color: black;'>  Energie</span> <span style = 'color: black;'>  zu</span> <span style = 'color: black;'>  sparen</span> <span style = 'color: black;'>  und</span> <span style = 'color: black;'>  Waren</span> <span style = 'color: black;'>  mit</span> <span style = 'color: red; font-weight: bold;'> niedrigen</span> <span style = 'color: black;'>  CO₂-Emissionen</span> <span style = 'color: red; font-weight: bold;'> zu</span> <span style = 'color: red; font-weight: bold;'> produzieren.</span></td>
+                    <td class="translate">Vänligen rösta om utvecklingen av CO₂-skatten.
+<br>
+CO₂-skatten tas ut på fossila bränslen som kol, olja och gas, beroende på deras kolinnehåll.
+<br>
+Denna skatt påverkar priserna på alla varor som antingen direkt eller indirekt använder fossila bränslen eller kräver fossila bränslen för sin produktion.
+<br>
+Den är avsedd att ge incitament till att spara energi och producera varor med låga CO₂-utsläpp.</td>
+                    <td class="back-translate"></td>
+                    <td class="winner">Vänligen rösta om utvecklingen av CO₂-skatten.
+<br>
+CO₂-skatten tas ut på fossila bränslen som kol, olja och gas, beroende på deras kolinnehåll.
+<br>
+Denna skatt påverkar priserna på alla varor som antingen direkt eller indirekt använder fossila bränslen eller kräver fossila bränslen för sin tillverkning.
+<br>
+Den syftar till att ge incitament att spara energi och producera varor med låga CO₂-utsläpp.</td>
+                    <td class="endtd back-translate"><span style = 'color: black;'>  Bitte</span> <span style = 'color: black;'>  stimmen</span> <span style = 'color: black;'>  Sie</span> <span style = 'color: black;'>  über</span> <span style = 'color: black;'>  die</span> <span style = 'color: black;'>  Entwicklung</span> <span style = 'color: black;'>  der</span> <span style = 'color: black;'>  CO₂-Steuer</span> <span style = 'color: black;'>  ab.</span> <br/> <span style = 'color: black;'>  Die</span> <span style = 'color: black;'>  CO₂-Steuer</span> <span style = 'color: black;'>  wird</span> <span style = 'color: black;'>  auf</span> <span style = 'color: red; font-weight: bold;'> fossile</span> <span style = 'color: black;'>  Brennstoffe</span> <span style = 'color: red; font-weight: bold;'> wie</span> <span style = 'color: black;'>  Kohle,</span> <span style = 'color: black;'>  Öl</span> <span style = 'color: black;'>  und</span> <span style = 'color: black;'>  Gas</span> <span style = 'color: black;'>  erhoben,</span> <span style = 'color: black;'>  abhängig</span> <span style = 'color: black;'>  von</span> <span style = 'color: black;'>  ihrem</span> <span style = 'color: black;'>  Kohlenstoffgehalt.</span> <br/> <span style = 'color: black;'>  Diese</span> <span style = 'color: black;'>  Steuer</span> <span style = 'color: red; font-weight: bold;'> beeinflusst</span> <span style = 'color: black;'>  die</span> <span style = 'color: black;'>  Preise</span> <span style = 'color: black;'>  aller</span> <span style = 'color: red; font-weight: bold;'> Waren,</span> <span style = 'color: black;'>  die</span> <span style = 'color: black;'>  entweder</span> <span style = 'color: black;'>  direkt</span> <span style = 'color: black;'>  oder</span> <span style = 'color: black;'>  indirekt</span> <span style = 'color: black;'>  fossile</span> <span style = 'color: black;'>  Brennstoffe</span> <span style = 'color: black;'>  verwenden</span> <span style = 'color: black;'>  oder</span> <span style = 'color: red; font-weight: bold;'> fossile</span> <span style = 'color: red; font-weight: bold;'> Brennstoffe</span> <span style = 'color: black;'>  für</span> <span style = 'color: black;'>  ihre</span> <span style = 'color: red; font-weight: bold;'> Produktion</span> <span style = 'color: black;'>  benötigen.</span> <br/> <span style = 'color: black;'>  Sie</span> <span style = 'color: black;'>  soll</span> <span style = 'color: red; font-weight: bold;'> Anreize</span> <span style = 'color: red; font-weight: bold;'> schaffen,</span> <span style = 'color: black;'>  Energie</span> <span style = 'color: black;'>  zu</span> <span style = 'color: black;'>  sparen</span> <span style = 'color: black;'>  und</span> <span style = 'color: black;'>  Waren</span> <span style = 'color: black;'>  mit</span> <span style = 'color: red; font-weight: bold;'> niedrigen</span> <span style = 'color: black;'>  CO₂-Emissionen</span> <span style = 'color: red; font-weight: bold;'> zu</span> <span style = 'color: red; font-weight: bold;'> produzieren.</span></td>
+                    <td class="compare">5</td>
+                    <td class="compare">3</td>
                     <td class="compare">4</td>
-                    <td class="compare">2</td>
-                    <td class="compare">2</td>
+                    <td class="compare">3</td>
+                    <td class="endtd compare">5</td>
                 </tr>
             
                 <tr>
                     <td class="endtd source">Erhöhen um 25€ pro Tonne</td>
-                    <td class="translate">Höj med 25€ per ton</td>
-                    <td class="translate"><span style = 'color: red; font-weight: bold;'> Öka</span> <span style = 'color: black;'>  med</span> <span style = 'color: black;'>  25€</span> <span style = 'color: black;'>  per</span> <span style = 'color: black;'>  ton</span></td>
-                    <td class="winner"><span style = 'color: red; font-weight: bold;'> Öka</span> <span style = 'color: red; font-weight: bold;'> med</span> <span style = 'color: red; font-weight: bold;'> 25€</span> <span style = 'color: red; font-weight: bold;'> per</span> <span style = 'color: red; font-weight: bold;'> ton</span> <span style = 'color: red; font-weight: bold;'> Translation</span> <span style = 'color: red; font-weight: bold;'> into</span> <span style = 'color: red; font-weight: bold;'> Swedish:</span> <span style = 'color: black;'>  Höj</span> <span style = 'color: black;'>  med</span> <span style = 'color: black;'>  25€</span> <span style = 'color: black;'>  per</span> <span style = 'color: black;'>  ton</span> <span style = 'color: red; font-weight: bold;'> Note:</span> <span style = 'color: red; font-weight: bold;'> The</span> <span style = 'color: red; font-weight: bold;'> translation</span> <span style = 'color: red; font-weight: bold;'> is</span> <span style = 'color: red; font-weight: bold;'> provided</span> <span style = 'color: red; font-weight: bold;'> without</span> <span style = 'color: red; font-weight: bold;'> any</span> <span style = 'color: red; font-weight: bold;'> additional</span> <span style = 'color: red; font-weight: bold;'> explanation,</span> <span style = 'color: red; font-weight: bold;'> as</span> <span style = 'color: red; font-weight: bold;'> per</span> <span style = 'color: red; font-weight: bold;'> the</span> <span style = 'color: red; font-weight: bold;'> instructions.</span></td>
+                    <td class="translate">Höja med 25€ per ton</td>
+                    <td class="back-translate"></td>
+                    <td class="translate">Höj med 25€ per ton (Swedish translation)</td>
+                    <td class="back-translate"></td>
+                    <td class="translate">Öka med 25 euro per ton</td>
+                    <td class="back-translate"></td>
+                    <td class="winner">Höj med 25€ per ton</td>
+                    <td class="back-translate"><span style = 'color: black;'>  Erhöhen</span> <span style = 'color: black;'>  um</span> <span style = 'color: black;'>  25€</span> <span style = 'color: black;'>  pro</span> <span style = 'color: black;'>  Tonne</span></td>
                     <td class="translate"></td>
-                    <td class="endtd translate"></td>
+                    <td class="endtd back-translate"></td>
                     <td class="compare">3</td>
-                    <td class="compare">3</td>
-                    <td class="compare">2</td>
-                    <td class="compare">3</td>
-                    <td class="compare">2</td>
+                    <td class="compare">1</td>
+                    <td class="compare">4</td>
+                    <td class="compare">4</td>
+                    <td class="endtd compare">4</td>
                 </tr>
             
                 <tr>
                     <td class="endtd source">Unverändert lassen</td>
+                    <td class="winner">Lämna oförändrat</td>
+                    <td class="back-translate"><span style = 'color: black;'>  Unverändert</span> <span style = 'color: black;'>  lassen</span></td>
                     <td class="translate">Lämna som det är</td>
-                    <td class="winner"><span style = 'color: black;'>  Lämna</span> <span style = 'color: red; font-weight: bold;'> oförändrad</span></td>
+                    <td class="back-translate"></td>
+                    <td class="translate">Lämna som den är</td>
+                    <td class="back-translate"></td>
+                    <td class="translate">Behåll oförändrad</td>
+                    <td class="back-translate"></td>
                     <td class="translate"></td>
-                    <td class="translate"></td>
-                    <td class="endtd translate"></td>
+                    <td class="endtd back-translate"></td>
+                    <td class="compare">1</td>
                     <td class="compare">2</td>
-                    <td class="compare">2</td>
-                    <td class="compare">2</td>
-                    <td class="compare">2</td>
-                    <td class="compare">2</td>
+                    <td class="compare">1</td>
+                    <td class="compare">1</td>
+                    <td class="endtd compare">2</td>
                 </tr>
             
                 <tr>
                     <td class="endtd source">Verringern um 25€ pro Tonne</td>
-                    <td class="winner">Minska med 25€ per ton
-
-Here's the translation in Swedish:
-
-Minska med 25€ per ton
-
-Note that the euro currency symbol (€) is retained in the translation as it is a universally recognized symbol.</td>
-                    <td class="translate"><span style = 'color: red; font-weight: bold;'> Lägre</span> <span style = 'color: black;'>  med</span> <span style = 'color: red; font-weight: bold;'> 35€</span> <span style = 'color: black;'>  per</span> <span style = 'color: black;'>  ton</span></td>
-                    <td class="translate"><span style = 'color: black;'>  Minska</span> <span style = 'color: black;'>  med</span> <span style = 'color: black;'>  25€</span> <span style = 'color: black;'>  per</span> <span style = 'color: black;'>  ton</span></td>
+                    <td class="translate">Minska med 25€ per ton</td>
+                    <td class="back-translate"></td>
+                    <td class="winner">Sänk med 25€ per ton</td>
+                    <td class="back-translate"><span style = 'color: red; font-weight: bold;'> Senken</span> <span style = 'color: black;'>  um</span> <span style = 'color: black;'>  25€</span> <span style = 'color: black;'>  pro</span> <span style = 'color: black;'>  Tonne</span></td>
                     <td class="translate"></td>
-                    <td class="endtd translate"></td>
+                    <td class="back-translate"></td>
+                    <td class="translate"></td>
+                    <td class="back-translate"></td>
+                    <td class="translate"></td>
+                    <td class="endtd back-translate"></td>
                     <td class="compare">1</td>
+                    <td class="compare">2</td>
                     <td class="compare">1</td>
-                    <td class="compare">1</td>
-                    <td class="compare">3</td>
-                    <td class="compare">1</td>
+                    <td class="compare">2</td>
+                    <td class="endtd compare">2</td>
                 </tr>
             
                 <tr>
                     <td class="endtd source">Enthaltung</td>
                     <td class="winner">Avstå</td>
-                    <td class="winner"><span style = 'color: red; font-weight: bold;'> Avhållsamhet</span> <span style = 'color: red; font-weight: bold;'> (Note:</span> <span style = 'color: red; font-weight: bold;'> This</span> <span style = 'color: red; font-weight: bold;'> is</span> <span style = 'color: red; font-weight: bold;'> the</span> <span style = 'color: red; font-weight: bold;'> only</span> <span style = 'color: red; font-weight: bold;'> Swedish</span> <span style = 'color: red; font-weight: bold;'> translation</span> <span style = 'color: red; font-weight: bold;'> provided</span> <span style = 'color: red; font-weight: bold;'> as</span> <span style = 'color: red; font-weight: bold;'> per</span> <span style = 'color: red; font-weight: bold;'> the</span> <span style = 'color: red; font-weight: bold;'> instructions.</span> <span style = 'color: red; font-weight: bold;'> No</span> <span style = 'color: red; font-weight: bold;'> additional</span> <span style = 'color: red; font-weight: bold;'> explaining</span> <span style = 'color: red; font-weight: bold;'> text</span> <span style = 'color: red; font-weight: bold;'> included.)</span></td>
-                    <td class="translate"><span style = 'color: red; font-weight: bold;'> Avstående</span></td>
+                    <td class="back-translate"><span style = 'color: black;'>  Enthaltung</span></td>
+                    <td class="translate">Avstånd</td>
+                    <td class="back-translate"></td>
                     <td class="translate"></td>
-                    <td class="endtd translate"></td>
-                    <td class="compare">2</td>
-                    <td class="compare">3</td>
+                    <td class="back-translate"></td>
+                    <td class="translate"></td>
+                    <td class="back-translate"></td>
+                    <td class="translate"></td>
+                    <td class="endtd back-translate"></td>
                     <td class="compare">1</td>
-                    <td class="compare">2</td>
                     <td class="compare">1</td>
+                    <td class="compare">1</td>
+                    <td class="compare">1</td>
+                    <td class="endtd compare">1</td>
                 </tr>
             
         </tbody>

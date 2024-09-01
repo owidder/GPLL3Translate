@@ -1,0 +1,21 @@
+I'll give you a text starting with an ID and then just content. The content is in German and should be translated into English, French, Russian and Arabic. Afterward, everything should be put into a JSON syntax following this scheme.
+
+```
+{
+  "_id": "[ID]-info-icon",
+  "elementId': "[ID]",
+  "description": {
+    "de": "",
+    "ru": "",
+    "en": "",
+    "ar": "',
+    "fr": ""
+  }
+},
+```
+Note, that [ID] is the ID given to you. Inside description, the fitting translation, or for the case of German just the received content, should be placed inside the empty string prefixed, with the fitting language. This is the text:
+
+```
+
+```
+Remember, to replace all occurrences of [ID] inside the JSON with the ID in the text, which will be prefixed with "Element Id:". Furthermore, this ID is not part of the content you should translate, or paste into the empty String. You should also replace every '\n' with '<br>

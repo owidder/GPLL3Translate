@@ -1,0 +1,150 @@
+{
+  "emissions": {
+    "total": {
+      "value": 746e9,
+      "unit": "kgCO2e",
+      "sources": [
+        "https://www.umweltbundesamt.de/sites/default/files/medien/361/dokumente/vjs_2022_-_begleitbericht_final_kurzfassung.pdf"
+      ],
+      "year": 2022
+    },
+    "sectorShares": {
+      "industry": {
+        "value": 37.014,
+        "unit": "%",
+        "sources": [
+          "https://www.umweltbundesamt.de/sites/default/files/medien/361/dokumente/vjs_2022_-_begleitbericht_final_kurzfassung.pdf"
+        ],
+        "description": "This fact is a computed fact! The source defines: totalEmissions = 746e9 kgCO2e, industryEmissions = 164e9 kgCO2e, energyEmission = 256e9 kgCO2e. The industryEmission excludes emissions from electricity use. To include it we computed the share as: industryShare = (industryEmissions + energyEmission * electricity.sectorShare.industry) * 100 / totalEmissions)",
+        "year": 2022
+      },
+      "services": {
+        "value": 12.875,
+        "unit": "%",
+        "sources": [
+          "https://www.umweltbundesamt.de/sites/default/files/medien/361/dokumente/vjs_2022_-_begleitbericht_final_kurzfassung.pdf",
+          "https://de.statista.com/statistik/daten/studie/12171/umfrage/treibhausgasemissionen-im-gewerbe-handels-und-dienstleistungssektor/ "
+        ],
+        "description": "This fact is a computed fact! The sources define: totalEmissions = 746e9 kgCO2e, servicesEmissions = 31e9 kgCO2e, energyEmission = 256e9 kgCO2e. The servicesEmission excludes emissions from electricity use. To include it we computed the share as: servicesShare = (servicesEmissions + energyEmission * electricity.sectorShare.services) * 100 / totalEmissions)",
+        "year": 2022
+      }
+    }
+  },
+  "electricity": {
+    "total": {
+      "value": 484e9,
+      "unit": "kWh",
+      "sources": [
+        "https://www.bdew.de/service/daten-und-grafiken/nettostromverbrauch-nach-verbrauchergruppen/"
+      ],
+      "year": 2022
+    },
+    "gridFactor": {
+      "value": 0.498,
+      "unit": "kgCO2e/kWh",
+      "sources": [
+        "https://www.umweltbundesamt.de/themen/klima-energie/energieversorgung/strom-waermeversorgung-in-zahlen#Strommix"
+      ],
+      "year": 2022
+    },
+    "sectorShares": {
+      "industry": {
+        "value": 43.8,
+        "unit": "%",
+        "sources": [
+          "https://www.bdew.de/service/daten-und-grafiken/nettostromverbrauch-nach-verbrauchergruppen/"
+        ],
+        "year": 2022
+      },
+      "services": {
+        "value": 25.41,
+        "unit": "%",
+        "sources": [
+          "https://www.bdew.de/service/daten-und-grafiken/nettostromverbrauch-nach-verbrauchergruppen/"
+        ],
+        "year": 2022
+      },
+      "publicInfrastructure": {
+        "value": 2.89,
+        "unit": "%",
+        "sources": [
+          "https://www.bdew.de/service/daten-und-grafiken/nettostromverbrauch-nach-verbrauchergruppen/"
+        ],
+        "year": 2022
+      }
+    }
+  },
+  "diesel": {
+    "tankToWheelFactor": {
+      "value": 2.65,
+      "unit": "kgCO2e/l",
+      "sources": [
+        "https://www.helmholtz.de/newsroom/artikel/wie-viel-co2-steckt-in-einem-liter-benzin/#:~:text=Warum%20das%20so%20ist%2C%20erkl%C3%A4rt,es%202%2C65%20Kilogramm%20CO2."
+      ],
+      "year": 2020
+    }
+  },
+  "transportation": {
+    "electricUse": {
+      "electricCar": {
+        "value": 0.14,
+        "unit": "kWh/pkm",
+        "sources": [
+          "https://www.umweltbundesamt.de/sites/default/files/medien/5750/publikationen/2021_fb_umweltfreundlich_mobil_bf.pdf"
+        ],
+        "year": 2017
+      },
+      "subway": {
+        "value": 0.14,
+        "unit": "kWh/pkm",
+        "sources": [
+          "https://www.umweltbundesamt.de/sites/default/files/medien/5750/publikationen/2021_fb_umweltfreundlich_mobil_bf.pdf"
+        ],
+        "year": 2017
+      },
+      "cityTrain": {
+        "value": 0.14,
+        "unit": "kWh/pkm",
+        "sources": [
+          "https://www.umweltbundesamt.de/sites/default/files/medien/5750/publikationen/2021_fb_umweltfreundlich_mobil_bf.pdf"
+        ],
+        "description": "This fact is assumed! The assumption is, that city trains have the same electric energy consumption as subway or tram",
+        "year": 2017
+      },
+      "tram": {
+        "value": 0.14,
+        "unit": "kWh/pkm",
+        "sources": [
+          "https://www.umweltbundesamt.de/sites/default/files/medien/5750/publikationen/2021_fb_umweltfreundlich_mobil_bf.pdf"
+        ],
+        "year": 2017
+      },
+      "regionalTrain": {
+        "value": 0.102,
+        "unit": "kWh/pkm",
+        "sources": [
+          "https://www.umweltbundesamt.de/sites/default/files/medien/5750/publikationen/2021_fb_umweltfreundlich_mobil_bf.pdf"
+        ],
+        "year": 2017
+      }
+    },
+    "dieselUse": {
+      "bus": {
+        "value": 33e-3,
+        "unit": "l/pkm",
+        "sources": [
+          "https://www.morgenpost.de/berlin/article214667817/Busse-liegen-bei-Oekobilanz-deutlich-vor-Autoverkehr.html"
+        ],
+        "year": 2017
+      },
+      "regionalTrain": {
+        "value": 59.32e-3,
+        "unit": "l/pkm",
+        "sources": [
+          "https://www.umweltbundesamt.de/sites/default/files/medien/5750/publikationen/2021_fb_umweltfreundlich_mobil_bf.pdf"
+        ],
+        "year": 2017
+      }
+    }
+  }
+}

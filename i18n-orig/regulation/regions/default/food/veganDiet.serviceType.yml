@@ -1,0 +1,16 @@
+serviceType: veganDiet
+unit: kgCO2e/kcal
+serviceVariants:
+  - variant: vegan
+    share:
+      value: 100
+      unit: "%"
+      sources:
+        - https://my.source.org
+      year: 2024
+    emissionFactor:
+      value: 0.00057
+      unit: kgCO2e/kcal
+      sources:
+        - https://my.source.org
+      year: 2024

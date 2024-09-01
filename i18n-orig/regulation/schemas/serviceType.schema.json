@@ -1,0 +1,141 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sciara.de/serviceType.schema.json",
+  "definitions": {
+    "unit": {
+      "type": "string",
+      "enum": [
+        "kWh",
+        "kWh/kg",
+        "kWh/kgkm",
+        "kWh/pkm",
+        "kg",
+        "kg/kWh",
+        "kg/kg",
+        "kgCO2e",
+        "kgCO2e/kWh",
+        "kgCO2e/kg",
+        "kgCO2e/kgkm",
+        "kgCO2e/pkm",
+        "kgCO2e/l",
+        "kgCO2e/kcal",
+        "kgCO2e/currency",
+        "kgCO2e/person",
+        "km",
+        "%",
+        "l",
+        "l/kg",
+        "l/kgkm",
+        "l/pkm"
+      ]
+    },
+    "fact": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "description": "The numerical value of this fact.",
+          "type": "number"
+        },
+        "unit": {
+          "description": "The SI unit of the value.",
+          "$ref": "#/definitions/unit"
+        },
+        "sources": {
+          "description": "The source(es) where the fact is taken from such as a URL to some web resource.",
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string"
+          }
+        },
+        "description": {
+          "description": "A description or explanation of this fact.",
+          "type": "string"
+        },
+        "year": {
+          "description": "The year of which this fact is of.",
+          "type": "integer",
+          "minimum": 2015
+        }
+      },
+      "required": [
+        "value",
+        "unit",
+        "sources",
+        "year"
+      ]
+    }
+  },
+  "title": "Service Type",
+  "description": "A service type describes the emissions made per unit of a service in the real world. A service type can be a resource production, such as cement or steel industry or any other service within a supply chain.",
+  "type": "object",
+  "properties": {
+    "serviceType": {
+      "description": "The name of the service type. Must be unique over all service types.",
+      "type": "string"
+    },
+    "unit": {
+      "description": "The resulting unit of the emission factor e.g. kgCO2e/kWh for electricity service",
+      "$ref": "#/definitions/unit"
+    },
+    "serviceVariants": {
+      "description": "Listing of all possible variants to provide this service. For example electricity can be produced by wind turbines or solar panels.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "variant": {
+            "description": "The name of the service variant. Must be unique within the variants listing.",
+            "type": "string"
+          },
+          "share": {
+            "description": "The percentage share of this variant it provides to the total production of the service type.",
+            "$ref": "#/definitions/fact"
+          },
+          "emissionFactor": {
+            "description": "The kgCO2e emitted per unit. (optional, must be provided if no 'conversion' is specified. This value will be used when both, 'conversion' and 'emissionFactor' are specified)",
+            "$ref": "#/definitions/fact"
+          },
+          "conversion": {
+            "description": "(optional, must be provided if no 'emissionFactor' is specified)",
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "resource": {
+                  "description": "The name of the resource. If this name is a defined service type, the emission factor is computed from the referenced service type model. Otherwise a emissionFactor must be specified.",
+                  "type": "string"
+                },
+                "transportation": {
+                  "description": "The service type which describes the transport service for this resource. Only taken into account if there exists a defined service type model. Otherwise it is ignored.",
+                  "type": "string"
+                },
+                "amount": {
+                  "description": "The amount of resources used to convert it into the one unit of service output. E.g. the amount of coal necessary to get 1 kWh",
+                  "$ref": "#/definitions/fact"
+                },
+                "emissionFactor": {
+                  "description": "The kgCO2e emitted when converting one unit of resource. (optional, must be provided there is no service type model defined for this resource. This value will be used when both, 'resource' and 'emissionFactor' are specified)",
+                  "$ref": "#/definitions/fact"
+                }
+              },
+              "required": [
+                "resource",
+                "amount"
+              ]
+            }
+          }
+        },
+        "required": [
+          "variant",
+          "share"
+        ]
+      }
+    }
+  },
+  "required": [
+    "serviceType",
+    "unit",
+    "serviceVariants"
+  ]
+}

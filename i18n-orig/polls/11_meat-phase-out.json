@@ -1,0 +1,48 @@
+{
+  "_id": "meat-phase-out",
+  "heading": {
+    "de": "Verbot von Fleischkonsum",
+    "en": "Ban on meat production",
+    "fr": "Ban on meat production",
+    "ar": "Ban on meat production"
+  },
+  "description": {
+    "de": "Bitte stimmen Sie über ein Verbot der Produktion von Fleischprodukten für den menschlichen Verzehr ab.\nMit einem Anteil von rund 15 Prozent trägt die Nutztierhaltung signifikant zu den globalen vom Menschen verursachten Treibhausgasemissionen bei. Ihr Anteil ist damit fast genauso groß wie der des weltweiten Verkehrs.\n60% der Anbaufläche wird für Tierfutter verbraucht, mit riesigen Umweltschäden.\nDer häufige Verzehr von Fleisch wird auch mit zahlreichen Gesundheitsrisiken in Verbindung gebracht.\nWie soll in Zukunft mit der Fleischproduktion umgegangen werden?",
+    "en": "Please vote on a ban on the production of meat products for human consumption.\nWith a share of around 15 per cent, livestock farming makes a significant contribution to global greenhouse gas emissions caused by humans. Its share is therefore almost as large as that of global transport.\n60% of arable land is used for animal feed, causing huge environmental damage.\nThe frequent consumption of meat is also associated with numerous health risks.\nHow should meat production be handled in the future?",
+    "fr": "Please vote on a ban on the production of meat products for human consumption.\nWith a share of around 15 per cent, livestock farming makes a significant contribution to global greenhouse gas emissions caused by humans. Its share is therefore almost as large as that of global transport.\n60% of arable land is used for animal feed, causing huge environmental damage.\nThe frequent consumption of meat is also associated with numerous health risks.\nHow should meat production be handled in the future?",
+    "ar": "Please vote on a ban on the production of meat products for human consumption.\nWith a share of around 15 per cent, livestock farming makes a significant contribution to global greenhouse gas emissions caused by humans. Its share is therefore almost as large as that of global transport.\n60% of arable land is used for animal feed, causing huge environmental damage.\nThe frequent consumption of meat is also associated with numerous health risks.\nHow should meat production be handled in the future?"
+  },
+  "multipleChoice": false,
+  "choices": [
+    {
+      "name": "nomeat",
+      "isDefault": false,
+      "uiStrings": {
+        "de": "Fleischkonsum bis 2050 verbieten",
+        "en": "Ban meat consumption by 2050",
+        "fr": "Ban meat consumption by 2050",
+        "ar": "Ban meat consumption by 2050"
+      }
+    },
+    {
+      "name": "expensivemeat",
+      "isDefault": true,
+      "uiStrings": {
+        "de": "Die Kosten für Fleischkonsum deutlich erhöhen",
+        "en": "Make meat consumption significantly more expensive",
+        "fr": "Make meat consumption significantly more expensive",
+        "ar": "Make meat consumption significantly more expensive"
+      }
+    },
+    {
+      "name": "stillmeat",
+      "isDefault": false,
+      "uiStrings": {
+        "de": "Den Fleischkonsum nicht einschränken",
+        "en": "Do not limit meat consumption",
+        "fr": "Do not limit meat consumption",
+        "ar": "Do not limit meat consumption"
+      }
+    }
+  ]
+}

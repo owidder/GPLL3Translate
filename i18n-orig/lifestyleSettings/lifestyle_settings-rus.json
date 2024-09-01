@@ -1,0 +1,78 @@
+{
+  "livingEnvironment": {
+    "peopleInHousehold": 2,
+    "neighborhood": "city",
+    "building": {
+      "type": "newApartmentBuilding",
+      "constructionYear": "1984to1994",
+      "passiveHouse": false,
+      "sqrMeter": 70
+    }
+  },
+  "individualMobility": {
+    "cars": [],
+    "bikes": []
+  },
+  "publicTransport": {
+    "routes": [],
+    "cost": {
+      "amount": 0,
+      "frequency": "monthly"
+    }
+  },
+  "flight": {
+    "shortDistance": 0,
+    "mediumDistance": 2,
+    "longDistance": 0,
+    "cost": {
+      "amount": 0,
+      "frequency": "monthly"
+    }
+  },
+  "heating": {
+    "technology": "condensingBoiler",
+    "fuel": "naturalGas",
+    "kwhPerYear": 12000.0,
+    "cost": {
+      "amount": 0,
+      "frequency": "monthly"
+    }
+  },
+  "electricity": {
+    "renewableEnergiesPercent": 0.0,
+    "kwhPerYear": 3000.0,
+    "cost": {
+      "amount": 0,
+      "frequency": "monthly"
+    }
+  },
+  "recycling": {
+    "glass": true,
+    "plastic": false,
+    "paper": false,
+    "aluminiumAndSteel": false,
+    "newspapers": true,
+    "magazines": false,
+    "cost": {
+      "amount": 0,
+      "frequency": "monthly"
+    }
+  },
+  "consumption": {
+    "servicesCost": {
+      "amount": 1367.0,
+      "frequency": "monthly"
+    },
+    "goodsAndProductsCost": {
+      "amount": 672.0,
+      "frequency": "monthly"
+    }
+  },
+  "food": {
+    "vegan2MeatScale": 0.9,
+    "cost": {
+      "amount": 0,
+      "frequency": "monthly"
+    }
+  }
+}

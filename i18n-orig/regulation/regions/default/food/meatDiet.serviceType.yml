@@ -1,0 +1,16 @@
+serviceType: meatDiet
+unit: kgCO2e/kcal
+serviceVariants:
+  - variant: meat
+    share:
+      value: 100
+      unit: "%"
+      sources:
+        - https://my.source.org
+      year: 2024
+    emissionFactor:
+      value: 0.0014
+      unit: kgCO2e/kcal
+      sources:
+        - https://my.source.org
+      year: 2024

@@ -1,0 +1,35 @@
+{
+  "schedule": {
+    "conditions": [
+      {
+        "path": "..globalMeanTemperature.series.GMT [Kelvins by year]",
+        "configurationType": "PROJECTION_RESULT",
+        "value": 2.0,
+        "operator": "GT"
+      }
+    ]
+  },
+  "name": "Corals are almost extinct due to the ocean temperature increasing (Trigger 2.0 °C)",
+  "actions": [
+    {
+      "notification": {
+        "sendEmail": false,
+        "title": {
+          "de": "Die Welt ist nach dem massiven Aussterben der Korallenriffe verwundbar",
+          "ru": "Мир остался беззащитным после массового исчезновения коралловых рифов",
+          "en": "World is left vulnerable after massive extinction of the coral reefs",
+          "ar": "أصبح العالم غير محمي بعد الانقراض الضخم لشعاب المرجان",
+          "fr": "Le monde est laissé vulnérable après l'extinction massive des récifs coralliens"
+        },
+        "body": {
+          "de": "<img width=250  src=\"https://www.coralgardening.org/nl/files/2016/05/coralbleaching.jpg\"><br> Beinahe alle Korallenriffe der Welt sind durch Korallenbleiche ausgestorben. Wenn das Wasser zu warm ist, stoßen die Korallen die in ihrem Gewebe lebenden Algen (Zooxanthellen) aus, so dass die Koralle ganz weiß wird. Korallen können ein Bleichereignis überleben, aber sie stehen unter größerem Stress und sind einer erhöhten Sterblichkeit ausgesetzt. Korallenriffe bieten Schutz vor Überschwemmungen und der Erosion von Küstenlinien. Wenn sie verschwinden, wird es zu einer raschen Erosion der Küsten kommen, und viele kleine Inselstaaten würden von der Weltkarte verschwinden.",
+          "ru": "<img width=250  src=\"https://www.coralgardening.org/nl/files/2016/05/coralbleaching.jpg\"><br> Почти все коралловые рифы в мире вымерли из-за обесцвечивания кораллов. Когда вода слишком теплая, кораллы выбрасывают водоросли (зооксантеллы), живущие в их тканях, в результате чего коралл становится полностью белым. Кораллы могут пережить обесцвечивание, но они испытывают больший стресс и подвержены повышенной смертности. Коралловые рифы обеспечивают защиту от наводнений и эрозии береговой линии. Если коралловые рифы исчезнут, береговые линии будут стремительно разрушаться, и многие малые островные государства исчезнут с карты мира.",
+          "en": "<img width=250  src=\"https://www.coralgardening.org/nl/files/2016/05/coralbleaching.jpg\"><br> Almost all coral reefs in the world have become extinct due to coral bleaching. When water is too warm, corals will expel the algae (zooxanthellae) living in their tissues causing the coral to turn completely white. Corals can survive a bleaching event, but they are under more stress and are subject to increased mortality. Coral reefs provide protection against flooding and the erosion of coastlines. With them gone, there will be rapid erosion of coastlines and many small island countries would vanish from the world map.",
+          "ar": "<img width=250  src=\"https://www.coralgardening.org/nl/files/2016/05/coralbleaching.jpg\"><br> تواجه معظم شعاب المرجان في العالم الانقراض بسبب تبييض الشعاب المرجانية. عندما يصبح الماء ساخنًا جدًا، يقوم الشعاب المرجانية بطرد الطحالب (الزووكسانثيل) التي تعيش في أنسجتها، مما يجعل الشعاب المرجانية تتحول إلى اللون الأبيض تمامًا. يمكن للشعاب المرجانية البقاء على قيد الحياة بعد حدوث تبييض، ولكنها تتعرض لضغوط أكبر وتكون عرضة لزيادة نسبة الوفيات. توفر شعاب المرجان حماية ضد الفيضانات وتآكل السواحل. بغيابها، سيحدث تآكل سريع للسواحل وسيختفي العديد من الدول الجزرية الصغيرة من الخريطة العالمية.",
+          "fr": "<img width=250  src=\"https://www.coralgardening.org/nl/files/2016/05/coralbleaching.jpg\"><br> Presque tous les récifs coralliens dans le monde sont en voie d'extinction en raison du blanchissement des coraux. Lorsque l'eau devient trop chaude, les coraux expulsent les algues (zooxanthelles) qui vivent dans leurs tissus, ce qui entraîne le blanchissement complet du corail. Les coraux peuvent survivre à un épisode de blanchissement, mais ils subissent davantage de stress et sont plus susceptibles de mourir. Les récifs coralliens jouent un rôle crucial en fournissant une protection contre les inondations et l'érosion des côtes. Sans eux, il y aurait une érosion rapide des côtes et de nombreux petits pays insulaires disparaîtraient de la carte du monde."
+
+        }
+      }
+    }
+  ]
+}

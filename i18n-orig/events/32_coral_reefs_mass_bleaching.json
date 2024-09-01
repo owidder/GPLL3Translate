@@ -1,0 +1,34 @@
+{
+  "schedule": {
+    "conditions": [
+        {
+          "path": "..globalMeanTemperature.series.GMT [Kelvins by year]",
+          "configurationType": "PROJECTION_RESULT",
+          "value": 1.3,
+          "operator": "GTE"
+        }
+    ]
+  },
+  "name": "Coral reefs (Trigger local water T 1°C above summer max: 29.2°C for a long period of time)",
+  "actions": [
+    {
+      "notification": {
+        "sendEmail": false,
+        "title": {
+            "de": "Great Barrier Reef in akuter Gefahr",
+            "ru": "Великий барьерный риф в остром угрозе",
+            "en": "Great Barrier Reef in Acute Danger",
+            "fr": "La Grande Barrière de Corail en danger imminent",
+            "ar": "الحاجز المرجاني العظيم في خطر حاد"
+        },
+        "body": {
+            "de": "<img width=250 src=\"../../../content/images/events/32_coral_reefs_mass_bleaching.jpg\"><br>Aufgrund der hohen Wassertemperaturen in Folge der Erderhitzung kam es erneut zu einer Massenbleiche der Korallen. Damit ist das Überleben des gesamten Ökosystems bedroht. Sämtliche touristische Besuche im gesamten Great Barrier Reef wurden bis auf Weiteres verboten.<br>Text von treibhauspost.de",
+            "ru": "<img width=250 src=\"../../../content/images/events/32_coral_reefs_mass_bleaching.jpg\"><br>Из-за высокой температуры воды, вызванной глобальным потеплением, снова произошло массовое обесцвечивание кораллов. Это угрожает выживанию всей экосистемы. Все туристические посещения на Великом барьерном рифе временно запрещены.<br>Текст с treibhauspost.de",
+            "en": "<img width=250 src=\"../../../content/images/events/32_coral_reefs_mass_bleaching.jpg\"><br>Due to high water temperatures caused by global warming, there has been another mass coral bleaching event. This puts the survival of the entire ecosystem at risk. All tourist visits to the Great Barrier Reef have been temporarily prohibited.<br>Text from treibhauspost.de",
+            "ar": "<img width=250 src=\"../../../content/images/events/32_coral_reefs_mass_bleaching.jpg\"><br>نتيجة لارتفاع درجات حرارة المياه الناجمة عن الاحتباس الحراري، حدث تبييض جماعي آخر للشعاب المرجانية. وهذا يضع بقاء النظام البيئي بأكمله في خطر. تم منع جميع الزيارات السياحية إلى الحاجز المرجاني العظيم مؤقتًا.<br>نص من treibhauspost.de",
+            "fr": "<img width=250 src=\"../../../content/images/events/32_coral_reefs_mass_bleaching.jpg\"><br>En raison des températures élevées de l'eau causées par le réchauffement climatique, un autre épisode de blanchissement massif des coraux s'est produit. Cela met en péril la survie de l'écosystème entier. Toutes les visites touristiques à la Grande Barrière de Corail ont été temporairement interdites.<br>Texte de treibhauspost.de"
+        }
+      }
+    }
+  ]
+}

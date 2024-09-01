@@ -1,0 +1,16 @@
+serviceType: publicSubway
+unit: kgCO2e/pkm
+serviceVariants:
+  - variant: average
+    share:
+      value: 100
+      unit: "%"
+      sources:
+        - "https://my.source.org"
+      year: 2022
+    emissionFactor:
+      value: 0.055
+      unit: kgCO2e/pkm
+      sources:
+        - "https://my.source.org"
+      year: 2022

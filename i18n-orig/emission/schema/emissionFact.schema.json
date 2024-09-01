@@ -1,0 +1,82 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sciara.de/emissionFact.schema.json",
+  "definitions": {
+    "unit": {
+      "type": "string",
+      "enum": [
+        "kcal/year",
+        "km"
+      ]
+    },
+    "fact": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "description": "The numerical value of this fact.",
+          "type": "number"
+        },
+        "unit": {
+          "description": "The SI unit of the value.",
+          "$ref": "#/definitions/unit"
+        },
+        "sources": {
+          "description": "The source(es) where the fact is taken from such as a URL to some web resource.",
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string"
+          }
+        },
+        "description": {
+          "description": "A description or explanation of this fact.",
+          "type": "string"
+        },
+        "year": {
+          "description": "The year of which this fact is of.",
+          "type": "integer",
+          "minimum": 2015
+        }
+      },
+      "required": [
+        "value",
+        "unit",
+        "sources",
+        "year"
+      ]
+    }
+  },
+  "properties": {
+    "averageFoodConsumption": {
+      "description": "The average food consumption of a person in the region",
+      "$ref": "#/definitions/fact"
+    },
+    "averageFlightDistance": {
+      "description": "The average distance of a flight",
+      "type": "object",
+      "properties": {
+        "shortTrip": {
+          "description": "The average distance of a short flight",
+          "$ref": "#/definitions/fact"
+        },
+        "mediumTrip": {
+          "description": "The average distance of a medium distance flight",
+          "$ref": "#/definitions/fact"
+        },
+        "longTrip": {
+          "description": "The average distance of a long distance flight",
+          "$ref": "#/definitions/fact"
+        }
+      },
+      "required": [
+        "shortTrip",
+        "mediumTrip",
+        "longTrip"
+      ]
+    }
+  },
+  "required": [
+    "averageFoodConsumption",
+    "averageFlightDistance"
+  ]
+}

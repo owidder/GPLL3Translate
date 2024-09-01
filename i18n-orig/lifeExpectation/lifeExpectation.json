@@ -1,0 +1,1012 @@
+[
+  {
+    "gender": "MALE",
+    "age": 0,
+    "expectation": 78.33
+  },
+  {
+    "gender": "MALE",
+    "age": 1,
+    "expectation": 77.58
+  },
+  {
+    "gender": "MALE",
+    "age": 2,
+    "expectation": 76.6
+  },
+  {
+    "gender": "MALE",
+    "age": 3,
+    "expectation": 75.61
+  },
+  {
+    "gender": "MALE",
+    "age": 4,
+    "expectation": 74.62
+  },
+  {
+    "gender": "MALE",
+    "age": 5,
+    "expectation": 73.62
+  },
+  {
+    "gender": "MALE",
+    "age": 6,
+    "expectation": 72.63
+  },
+  {
+    "gender": "MALE",
+    "age": 7,
+    "expectation": 71.64
+  },
+  {
+    "gender": "MALE",
+    "age": 8,
+    "expectation": 70.64
+  },
+  {
+    "gender": "MALE",
+    "age": 9,
+    "expectation": 69.65
+  },
+  {
+    "gender": "MALE",
+    "age": 10,
+    "expectation": 68.65
+  },
+  {
+    "gender": "MALE",
+    "age": 11,
+    "expectation": 67.66
+  },
+  {
+    "gender": "MALE",
+    "age": 12,
+    "expectation": 66.66
+  },
+  {
+    "gender": "MALE",
+    "age": 13,
+    "expectation": 65.67
+  },
+  {
+    "gender": "MALE",
+    "age": 14,
+    "expectation": 64.67
+  },
+  {
+    "gender": "MALE",
+    "age": 15,
+    "expectation": 63.68
+  },
+  {
+    "gender": "MALE",
+    "age": 16,
+    "expectation": 62.69
+  },
+  {
+    "gender": "MALE",
+    "age": 17,
+    "expectation": 61.7
+  },
+  {
+    "gender": "MALE",
+    "age": 18,
+    "expectation": 60.72
+  },
+  {
+    "gender": "MALE",
+    "age": 19,
+    "expectation": 59.74
+  },
+  {
+    "gender": "MALE",
+    "age": 20,
+    "expectation": 58.77
+  },
+  {
+    "gender": "MALE",
+    "age": 21,
+    "expectation": 57.79
+  },
+  {
+    "gender": "MALE",
+    "age": 22,
+    "expectation": 56.82
+  },
+  {
+    "gender": "MALE",
+    "age": 23,
+    "expectation": 55.84
+  },
+  {
+    "gender": "MALE",
+    "age": 24,
+    "expectation": 54.87
+  },
+  {
+    "gender": "MALE",
+    "age": 25,
+    "expectation": 53.89
+  },
+  {
+    "gender": "MALE",
+    "age": 26,
+    "expectation": 52.91
+  },
+  {
+    "gender": "MALE",
+    "age": 27,
+    "expectation": 51.94
+  },
+  {
+    "gender": "MALE",
+    "age": 28,
+    "expectation": 50.96
+  },
+  {
+    "gender": "MALE",
+    "age": 29,
+    "expectation": 49.98
+  },
+  {
+    "gender": "MALE",
+    "age": 30,
+    "expectation": 49.01
+  },
+  {
+    "gender": "MALE",
+    "age": 31,
+    "expectation": 48.04
+  },
+  {
+    "gender": "MALE",
+    "age": 32,
+    "expectation": 47.06
+  },
+  {
+    "gender": "MALE",
+    "age": 33,
+    "expectation": 46.09
+  },
+  {
+    "gender": "MALE",
+    "age": 34,
+    "expectation": 45.12
+  },
+  {
+    "gender": "MALE",
+    "age": 35,
+    "expectation": 44.15
+  },
+  {
+    "gender": "MALE",
+    "age": 36,
+    "expectation": 43.19
+  },
+  {
+    "gender": "MALE",
+    "age": 37,
+    "expectation": 42.23
+  },
+  {
+    "gender": "MALE",
+    "age": 38,
+    "expectation": 41.27
+  },
+  {
+    "gender": "MALE",
+    "age": 39,
+    "expectation": 40.32
+  },
+  {
+    "gender": "MALE",
+    "age": 40,
+    "expectation": 39.37
+  },
+  {
+    "gender": "MALE",
+    "age": 41,
+    "expectation": 38.42
+  },
+  {
+    "gender": "MALE",
+    "age": 42,
+    "expectation": 37.47
+  },
+  {
+    "gender": "MALE",
+    "age": 43,
+    "expectation": 36.53
+  },
+  {
+    "gender": "MALE",
+    "age": 44,
+    "expectation": 35.59
+  },
+  {
+    "gender": "MALE",
+    "age": 45,
+    "expectation": 34.65
+  },
+  {
+    "gender": "MALE",
+    "age": 46,
+    "expectation": 33.72
+  },
+  {
+    "gender": "MALE",
+    "age": 47,
+    "expectation": 32.79
+  },
+  {
+    "gender": "MALE",
+    "age": 48,
+    "expectation": 31.87
+  },
+  {
+    "gender": "MALE",
+    "age": 49,
+    "expectation": 30.95
+  },
+  {
+    "gender": "MALE",
+    "age": 50,
+    "expectation": 30.05
+  },
+  {
+    "gender": "MALE",
+    "age": 51,
+    "expectation": 29.15
+  },
+  {
+    "gender": "MALE",
+    "age": 52,
+    "expectation": 28.26
+  },
+  {
+    "gender": "MALE",
+    "age": 53,
+    "expectation": 27.37
+  },
+  {
+    "gender": "MALE",
+    "age": 54,
+    "expectation": 26.49
+  },
+  {
+    "gender": "MALE",
+    "age": 55,
+    "expectation": 25.62
+  },
+  {
+    "gender": "MALE",
+    "age": 56,
+    "expectation": 24.77
+  },
+  {
+    "gender": "MALE",
+    "age": 57,
+    "expectation": 23.92
+  },
+  {
+    "gender": "MALE",
+    "age": 58,
+    "expectation": 23.09
+  },
+  {
+    "gender": "MALE",
+    "age": 59,
+    "expectation": 22.27
+  },
+  {
+    "gender": "MALE",
+    "age": 60,
+    "expectation": 21.46
+  },
+  {
+    "gender": "MALE",
+    "age": 61,
+    "expectation": 20.67
+  },
+  {
+    "gender": "MALE",
+    "age": 62,
+    "expectation": 19.89
+  },
+  {
+    "gender": "MALE",
+    "age": 63,
+    "expectation": 19.12
+  },
+  {
+    "gender": "MALE",
+    "age": 64,
+    "expectation": 18.37
+  },
+  {
+    "gender": "MALE",
+    "age": 65,
+    "expectation": 17.63
+  },
+  {
+    "gender": "MALE",
+    "age": 66,
+    "expectation": 16.91
+  },
+  {
+    "gender": "MALE",
+    "age": 67,
+    "expectation": 16.2
+  },
+  {
+    "gender": "MALE",
+    "age": 68,
+    "expectation": 15.51
+  },
+  {
+    "gender": "MALE",
+    "age": 69,
+    "expectation": 14.82
+  },
+  {
+    "gender": "MALE",
+    "age": 70,
+    "expectation": 14.15
+  },
+  {
+    "gender": "MALE",
+    "age": 71,
+    "expectation": 13.48
+  },
+  {
+    "gender": "MALE",
+    "age": 72,
+    "expectation": 12.83
+  },
+  {
+    "gender": "MALE",
+    "age": 73,
+    "expectation": 12.18
+  },
+  {
+    "gender": "MALE",
+    "age": 74,
+    "expectation": 11.55
+  },
+  {
+    "gender": "MALE",
+    "age": 75,
+    "expectation": 10.92
+  },
+  {
+    "gender": "MALE",
+    "age": 76,
+    "expectation": 10.32
+  },
+  {
+    "gender": "MALE",
+    "age": 77,
+    "expectation": 9.71
+  },
+  {
+    "gender": "MALE",
+    "age": 78,
+    "expectation": 9.12
+  },
+  {
+    "gender": "MALE",
+    "age": 79,
+    "expectation": 8.54
+  },
+  {
+    "gender": "MALE",
+    "age": 80,
+    "expectation": 7.97
+  },
+  {
+    "gender": "MALE",
+    "age": 81,
+    "expectation": 7.43
+  },
+  {
+    "gender": "MALE",
+    "age": 82,
+    "expectation": 6.9
+  },
+  {
+    "gender": "MALE",
+    "age": 83,
+    "expectation": 6.39
+  },
+  {
+    "gender": "MALE",
+    "age": 84,
+    "expectation": 5.9
+  },
+  {
+    "gender": "MALE",
+    "age": 85,
+    "expectation": 5.43
+  },
+  {
+    "gender": "MALE",
+    "age": 86,
+    "expectation": 5
+  },
+  {
+    "gender": "MALE",
+    "age": 87,
+    "expectation": 4.59
+  },
+  {
+    "gender": "MALE",
+    "age": 88,
+    "expectation": 4.22
+  },
+  {
+    "gender": "MALE",
+    "age": 89,
+    "expectation": 3.87
+  },
+  {
+    "gender": "MALE",
+    "age": 90,
+    "expectation": 3.56
+  },
+  {
+    "gender": "MALE",
+    "age": 91,
+    "expectation": 3.27
+  },
+  {
+    "gender": "MALE",
+    "age": 92,
+    "expectation": 3
+  },
+  {
+    "gender": "MALE",
+    "age": 93,
+    "expectation": 2.77
+  },
+  {
+    "gender": "MALE",
+    "age": 94,
+    "expectation": 2.56
+  },
+  {
+    "gender": "MALE",
+    "age": 95,
+    "expectation": 2.38
+  },
+  {
+    "gender": "MALE",
+    "age": 96,
+    "expectation": 2.22
+  },
+  {
+    "gender": "MALE",
+    "age": 97,
+    "expectation": 2.11
+  },
+  {
+    "gender": "MALE",
+    "age": 98,
+    "expectation": 1.99
+  },
+  {
+    "gender": "MALE",
+    "age": 99,
+    "expectation": 1.87
+  },
+  {
+    "gender": "MALE",
+    "age": 100,
+    "expectation": 1.75
+  },
+  {
+    "gender": "FEMALE",
+    "age": 0,
+    "expectation": 83.18
+  },
+  {
+    "gender": "FEMALE",
+    "age": 1,
+    "expectation": 82.42
+  },
+  {
+    "gender": "FEMALE",
+    "age": 2,
+    "expectation": 81.43
+  },
+  {
+    "gender": "FEMALE",
+    "age": 3,
+    "expectation": 80.44
+  },
+  {
+    "gender": "FEMALE",
+    "age": 4,
+    "expectation": 79.45
+  },
+  {
+    "gender": "FEMALE",
+    "age": 5,
+    "expectation": 78.46
+  },
+  {
+    "gender": "FEMALE",
+    "age": 6,
+    "expectation": 77.46
+  },
+  {
+    "gender": "FEMALE",
+    "age": 7,
+    "expectation": 76.47
+  },
+  {
+    "gender": "FEMALE",
+    "age": 8,
+    "expectation": 75.47
+  },
+  {
+    "gender": "FEMALE",
+    "age": 9,
+    "expectation": 74.48
+  },
+  {
+    "gender": "FEMALE",
+    "age": 10,
+    "expectation": 73.48
+  },
+  {
+    "gender": "FEMALE",
+    "age": 11,
+    "expectation": 72.49
+  },
+  {
+    "gender": "FEMALE",
+    "age": 12,
+    "expectation": 71.49
+  },
+  {
+    "gender": "FEMALE",
+    "age": 13,
+    "expectation": 70.5
+  },
+  {
+    "gender": "FEMALE",
+    "age": 14,
+    "expectation": 69.5
+  },
+  {
+    "gender": "FEMALE",
+    "age": 15,
+    "expectation": 68.51
+  },
+  {
+    "gender": "FEMALE",
+    "age": 16,
+    "expectation": 67.52
+  },
+  {
+    "gender": "FEMALE",
+    "age": 17,
+    "expectation": 66.53
+  },
+  {
+    "gender": "FEMALE",
+    "age": 18,
+    "expectation": 65.54
+  },
+  {
+    "gender": "FEMALE",
+    "age": 19,
+    "expectation": 64.55
+  },
+  {
+    "gender": "FEMALE",
+    "age": 20,
+    "expectation": 63.56
+  },
+  {
+    "gender": "FEMALE",
+    "age": 21,
+    "expectation": 62.57
+  },
+  {
+    "gender": "FEMALE",
+    "age": 22,
+    "expectation": 61.58
+  },
+  {
+    "gender": "FEMALE",
+    "age": 23,
+    "expectation": 60.59
+  },
+  {
+    "gender": "FEMALE",
+    "age": 24,
+    "expectation": 59.6
+  },
+  {
+    "gender": "FEMALE",
+    "age": 25,
+    "expectation": 58.61
+  },
+  {
+    "gender": "FEMALE",
+    "age": 26,
+    "expectation": 57.62
+  },
+  {
+    "gender": "FEMALE",
+    "age": 27,
+    "expectation": 56.63
+  },
+  {
+    "gender": "FEMALE",
+    "age": 28,
+    "expectation": 55.65
+  },
+  {
+    "gender": "FEMALE",
+    "age": 29,
+    "expectation": 54.66
+  },
+  {
+    "gender": "FEMALE",
+    "age": 30,
+    "expectation": 53.67
+  },
+  {
+    "gender": "FEMALE",
+    "age": 31,
+    "expectation": 52.68
+  },
+  {
+    "gender": "FEMALE",
+    "age": 32,
+    "expectation": 51.7
+  },
+  {
+    "gender": "FEMALE",
+    "age": 33,
+    "expectation": 50.72
+  },
+  {
+    "gender": "FEMALE",
+    "age": 34,
+    "expectation": 49.74
+  },
+  {
+    "gender": "FEMALE",
+    "age": 35,
+    "expectation": 48.76
+  },
+  {
+    "gender": "FEMALE",
+    "age": 36,
+    "expectation": 47.78
+  },
+  {
+    "gender": "FEMALE",
+    "age": 37,
+    "expectation": 46.8
+  },
+  {
+    "gender": "FEMALE",
+    "age": 38,
+    "expectation": 45.82
+  },
+  {
+    "gender": "FEMALE",
+    "age": 39,
+    "expectation": 44.85
+  },
+  {
+    "gender": "FEMALE",
+    "age": 40,
+    "expectation": 43.88
+  },
+  {
+    "gender": "FEMALE",
+    "age": 41,
+    "expectation": 42.91
+  },
+  {
+    "gender": "FEMALE",
+    "age": 42,
+    "expectation": 41.94
+  },
+  {
+    "gender": "FEMALE",
+    "age": 43,
+    "expectation": 40.98
+  },
+  {
+    "gender": "FEMALE",
+    "age": 44,
+    "expectation": 40.01
+  },
+  {
+    "gender": "FEMALE",
+    "age": 45,
+    "expectation": 39.05
+  },
+  {
+    "gender": "FEMALE",
+    "age": 46,
+    "expectation": 38.09
+  },
+  {
+    "gender": "FEMALE",
+    "age": 47,
+    "expectation": 37.14
+  },
+  {
+    "gender": "FEMALE",
+    "age": 48,
+    "expectation": 36.19
+  },
+  {
+    "gender": "FEMALE",
+    "age": 49,
+    "expectation": 35.24
+  },
+  {
+    "gender": "FEMALE",
+    "age": 50,
+    "expectation": 34.3
+  },
+  {
+    "gender": "FEMALE",
+    "age": 51,
+    "expectation": 33.37
+  },
+  {
+    "gender": "FEMALE",
+    "age": 52,
+    "expectation": 32.43
+  },
+  {
+    "gender": "FEMALE",
+    "age": 53,
+    "expectation": 31.5
+  },
+  {
+    "gender": "FEMALE",
+    "age": 54,
+    "expectation": 30.58
+  },
+  {
+    "gender": "FEMALE",
+    "age": 55,
+    "expectation": 29.66
+  },
+  {
+    "gender": "FEMALE",
+    "age": 56,
+    "expectation": 28.75
+  },
+  {
+    "gender": "FEMALE",
+    "age": 57,
+    "expectation": 27.85
+  },
+  {
+    "gender": "FEMALE",
+    "age": 58,
+    "expectation": 26.95
+  },
+  {
+    "gender": "FEMALE",
+    "age": 59,
+    "expectation": 26.06
+  },
+  {
+    "gender": "FEMALE",
+    "age": 60,
+    "expectation": 25.18
+  },
+  {
+    "gender": "FEMALE",
+    "age": 61,
+    "expectation": 24.3
+  },
+  {
+    "gender": "FEMALE",
+    "age": 62,
+    "expectation": 23.44
+  },
+  {
+    "gender": "FEMALE",
+    "age": 63,
+    "expectation": 22.58
+  },
+  {
+    "gender": "FEMALE",
+    "age": 64,
+    "expectation": 21.74
+  },
+  {
+    "gender": "FEMALE",
+    "age": 65,
+    "expectation": 20.9
+  },
+  {
+    "gender": "FEMALE",
+    "age": 66,
+    "expectation": 20.07
+  },
+  {
+    "gender": "FEMALE",
+    "age": 67,
+    "expectation": 19.25
+  },
+  {
+    "gender": "FEMALE",
+    "age": 68,
+    "expectation": 18.43
+  },
+  {
+    "gender": "FEMALE",
+    "age": 69,
+    "expectation": 17.63
+  },
+  {
+    "gender": "FEMALE",
+    "age": 70,
+    "expectation": 16.84
+  },
+  {
+    "gender": "FEMALE",
+    "age": 71,
+    "expectation": 16.05
+  },
+  {
+    "gender": "FEMALE",
+    "age": 72,
+    "expectation": 15.28
+  },
+  {
+    "gender": "FEMALE",
+    "age": 73,
+    "expectation": 14.51
+  },
+  {
+    "gender": "FEMALE",
+    "age": 74,
+    "expectation": 13.76
+  },
+  {
+    "gender": "FEMALE",
+    "age": 75,
+    "expectation": 13.01
+  },
+  {
+    "gender": "FEMALE",
+    "age": 76,
+    "expectation": 12.28
+  },
+  {
+    "gender": "FEMALE",
+    "age": 77,
+    "expectation": 11.56
+  },
+  {
+    "gender": "FEMALE",
+    "age": 78,
+    "expectation": 10.86
+  },
+  {
+    "gender": "FEMALE",
+    "age": 79,
+    "expectation": 10.17
+  },
+  {
+    "gender": "FEMALE",
+    "age": 80,
+    "expectation": 9.49
+  },
+  {
+    "gender": "FEMALE",
+    "age": 81,
+    "expectation": 8.83
+  },
+  {
+    "gender": "FEMALE",
+    "age": 82,
+    "expectation": 8.19
+  },
+  {
+    "gender": "FEMALE",
+    "age": 83,
+    "expectation": 7.58
+  },
+  {
+    "gender": "FEMALE",
+    "age": 84,
+    "expectation": 6.99
+  },
+  {
+    "gender": "FEMALE",
+    "age": 85,
+    "expectation": 6.43
+  },
+  {
+    "gender": "FEMALE",
+    "age": 86,
+    "expectation": 5.9
+  },
+  {
+    "gender": "FEMALE",
+    "age": 87,
+    "expectation": 5.42
+  },
+  {
+    "gender": "FEMALE",
+    "age": 88,
+    "expectation": 4.97
+  },
+  {
+    "gender": "FEMALE",
+    "age": 89,
+    "expectation": 4.54
+  },
+  {
+    "gender": "FEMALE",
+    "age": 90,
+    "expectation": 4.16
+  },
+  {
+    "gender": "FEMALE",
+    "age": 91,
+    "expectation": 3.81
+  },
+  {
+    "gender": "FEMALE",
+    "age": 92,
+    "expectation": 3.49
+  },
+  {
+    "gender": "FEMALE",
+    "age": 93,
+    "expectation": 3.21
+  },
+  {
+    "gender": "FEMALE",
+    "age": 94,
+    "expectation": 2.95
+  },
+  {
+    "gender": "FEMALE",
+    "age": 95,
+    "expectation": 2.72
+  },
+  {
+    "gender": "FEMALE",
+    "age": 96,
+    "expectation": 2.52
+  },
+  {
+    "gender": "FEMALE",
+    "age": 97,
+    "expectation": 2.35
+  },
+  {
+    "gender": "FEMALE",
+    "age": 98,
+    "expectation": 2.2
+  },
+  {
+    "gender": "FEMALE",
+    "age": 99,
+    "expectation": 2.08
+  },
+  {
+    "gender": "FEMALE",
+    "age": 100,
+    "expectation": 1.97
+  }
+]
