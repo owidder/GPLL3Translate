@@ -30,6 +30,27 @@
             "",
             "",
             "Abstimmung über den CO₂-Preis"
+        ],
+        "_gpt_4_vision_es": "Votación sobre el precio del CO₂",
+        "_gemini_1_5_pro_es": "Votación sobre el precio del CO₂ \n",
+        "_claude_3_5_sonnet_es": "Votación sobre el precio del CO₂",
+        "_mistral_large_es": "Votación sobre el precio del CO₂",
+        "_llama_3_1_70B_es": "Encuesta sobre el precio del CO₂",
+        "_compare_gpt_4_vision_es": "Votación sobre el precio del CO₂",
+        "_compare_gemini_1_5_pro_es": "Votación sobre el precio del CO₂",
+        "_compare_mistral_large_es": "Votación sobre el precio del CO₂",
+        "_compare_claude_3_5_sonnet_es": "Votación sobre el precio del CO₂",
+        "_compare_llama_3_1_70B_es": "Votación sobre el precio del CO₂",
+        "_winners_es": [
+            "Votación sobre el precio del CO₂"
+        ],
+        "_unique_translations_es": [
+            "Encuesta sobre el precio del CO₂",
+            "Votación sobre el precio del CO₂"
+        ],
+        "_unique_translations_back_es": [
+            "",
+            "Abstimmung über den CO₂-Preis"
         ]
     },
     "description": {
@@ -66,6 +87,33 @@
             "",
             "",
             ""
+        ],
+        "_gpt_4_vision_es": "Por favor, vote sobre el desarrollo del impuesto al CO₂.\n<br>\nEl impuesto al CO₂ se aplica a los combustibles fósiles como el carbón, el petróleo y el gas, dependiendo de su contenido de carbono.\n<br>\nEste impuesto afecta los precios de todos los bienes que usan directa o indirectamente combustibles fósiles o que requieren de combustibles fósiles para su producción.\n<br>\nSu objetivo es incentivar el ahorro de energía y la producción de bienes con bajas emisiones de CO₂.",
+        "_gemini_1_5_pro_es": "Por favor, vote sobre el desarrollo del impuesto al CO₂.\n<br>\nEl impuesto al CO₂ se aplica a los combustibles fósiles carbón, petróleo y gas, dependiendo de su contenido de carbono.\n<br>\nEste impuesto afecta a los precios de todos los bienes que utilizan combustibles fósiles directa o indirectamente, o que requieren combustibles fósiles para su producción.\n<br>\nSu objetivo es incentivar el ahorro de energía y la producción de bienes con bajas emisiones de CO₂. \n",
+        "_claude_3_5_sonnet_es": "Por favor, vote sobre el desarrollo del impuesto al CO₂.\n<br>\nEl impuesto al CO₂ se aplica a los combustibles fósiles como el carbón, el petróleo y el gas, dependiendo de su contenido de carbono.\n<br>\nEste impuesto afecta los precios de todos los bienes que utilizan combustibles fósiles directa o indirectamente o que requieren combustibles fósiles para su producción.\n<br>\nSu objetivo es proporcionar un incentivo para ahorrar energía y producir bienes con bajas emisiones de CO₂.",
+        "_mistral_large_es": "Por favor, vote sobre el desarrollo del impuesto al CO₂.\n<br>\nEl impuesto al CO₂ se aplica a los combustibles fósiles como el carbón, el petróleo y el gas, dependiendo de su contenido de carbono.\n<br>\nEste impuesto afecta los precios de todos los productos que utilizan directa o indirectamente combustibles fósiles o que necesitan combustibles fósiles para su producción.\n<br>\nDebe proporcionar un incentivo para ahorrar energía y producir bienes con bajas emisiones de CO₂.",
+        "_llama_3_1_70B_es": "Por favor, vote sobre el desarrollo del impuesto de CO₂.\n<br>\nEl impuesto de CO₂ se aplica a los combustibles fósiles como el carbón, el petróleo y el gas, dependiendo de su contenido de carbono.\n<br>\nEste impuesto afecta los precios de todos los productos que utilizan directa o indirectamente combustibles fósiles o requieren combustibles fósiles para su producción.\n<br>\nEstá destinado a proporcionar un incentivo para ahorrar energía y producir bienes con bajas emisiones de CO₂.",
+        "_compare_gpt_4_vision_es": "Por favor, vote sobre el desarrollo del impuesto al CO₂.\n<br>\nEl impuesto al CO₂ se aplica a los combustibles fósiles como el carbón, el petróleo y el gas, dependiendo de su contenido de carbono.\n<br>\nEste impuesto afecta los precios de todos los productos que utilizan directa o indirectamente combustibles fósiles o que necesitan combustibles fósiles para su producción.\n<br>\nDebe proporcionar un incentivo para ahorrar energía y producir bienes con bajas emisiones de CO₂.",
+        "_compare_gemini_1_5_pro_es": "Por favor, vote sobre el desarrollo del impuesto al CO₂.\n<br>\nEl impuesto al CO₂ se aplica a los combustibles fósiles como el carbón, el petróleo y el gas, dependiendo de su contenido de carbono.\n<br>\nEste impuesto afecta los precios de todos los bienes que usan directa o indirectamente combustibles fósiles o que requieren de combustibles fósiles para su producción.\n<br>\nSu objetivo es incentivar el ahorro de energía y la producción de bienes con bajas emisiones de CO₂.",
+        "_compare_mistral_large_es": "Por favor, vote sobre el desarrollo del impuesto al CO₂.\n<br>\nEl impuesto al CO₂ se aplica a los combustibles fósiles como el carbón, el petróleo y el gas, dependiendo de su contenido de carbono.\n<br>\nEste impuesto afecta los precios de todos los bienes que usan directa o indirectamente combustibles fósiles o que requieren de combustibles fósiles para su producción.\n<br>\nSu objetivo es incentivar el ahorro de energía y la producción de bienes con bajas emisiones de CO₂.",
+        "_compare_claude_3_5_sonnet_es": "Por favor, vote sobre el desarrollo del impuesto al CO₂.\n<br>\nEl impuesto al CO₂ se aplica a los combustibles fósiles carbón, petróleo y gas, dependiendo de su contenido de carbono.\n<br>\nEste impuesto afecta a los precios de todos los bienes que utilizan combustibles fósiles directa o indirectamente, o que requieren combustibles fósiles para su producción.\n<br>\nSu objetivo es incentivar el ahorro de energía y la producción de bienes con bajas emisiones de CO₂.",
+        "_compare_llama_3_1_70B_es": "Por favor, vote sobre el desarrollo del impuesto al CO₂.\n<br>\nEl impuesto al CO₂ se aplica a los combustibles fósiles como el carbón, el petróleo y el gas, dependiendo de su contenido de carbono.\n<br>\nEste impuesto afecta los precios de todos los bienes que usan directa o indirectamente combustibles fósiles o que requieren de combustibles fósiles para su producción.\n<br>\nSu objetivo es incentivar el ahorro de energía y la producción de bienes con bajas emisiones de CO₂.",
+        "_winners_es": [
+            "Por favor, vote sobre el desarrollo del impuesto al CO₂.\n<br>\nEl impuesto al CO₂ se aplica a los combustibles fósiles como el carbón, el petróleo y el gas, dependiendo de su contenido de carbono.\n<br>\nEste impuesto afecta los precios de todos los bienes que usan directa o indirectamente combustibles fósiles o que requieren de combustibles fósiles para su producción.\n<br>\nSu objetivo es incentivar el ahorro de energía y la producción de bienes con bajas emisiones de CO₂."
+        ],
+        "_unique_translations_es": [
+            "Por favor, vote sobre el desarrollo del impuesto de CO₂.\n<br>\nEl impuesto de CO₂ se aplica a los combustibles fósiles como el carbón, el petróleo y el gas, dependiendo de su contenido de carbono.\n<br>\nEste impuesto afecta los precios de todos los productos que utilizan directa o indirectamente combustibles fósiles o requieren combustibles fósiles para su producción.\n<br>\nEstá destinado a proporcionar un incentivo para ahorrar energía y producir bienes con bajas emisiones de CO₂.",
+            "Por favor, vote sobre el desarrollo del impuesto al CO₂.\n<br>\nEl impuesto al CO₂ se aplica a los combustibles fósiles como el carbón, el petróleo y el gas, dependiendo de su contenido de carbono.\n<br>\nEste impuesto afecta los precios de todos los productos que utilizan directa o indirectamente combustibles fósiles o que necesitan combustibles fósiles para su producción.\n<br>\nDebe proporcionar un incentivo para ahorrar energía y producir bienes con bajas emisiones de CO₂.",
+            "Por favor, vote sobre el desarrollo del impuesto al CO₂.\n<br>\nEl impuesto al CO₂ se aplica a los combustibles fósiles como el carbón, el petróleo y el gas, dependiendo de su contenido de carbono.\n<br>\nEste impuesto afecta los precios de todos los bienes que utilizan combustibles fósiles directa o indirectamente o que requieren combustibles fósiles para su producción.\n<br>\nSu objetivo es proporcionar un incentivo para ahorrar energía y producir bienes con bajas emisiones de CO₂.",
+            "Por favor, vote sobre el desarrollo del impuesto al CO₂.\n<br>\nEl impuesto al CO₂ se aplica a los combustibles fósiles carbón, petróleo y gas, dependiendo de su contenido de carbono.\n<br>\nEste impuesto afecta a los precios de todos los bienes que utilizan combustibles fósiles directa o indirectamente, o que requieren combustibles fósiles para su producción.\n<br>\nSu objetivo es incentivar el ahorro de energía y la producción de bienes con bajas emisiones de CO₂.",
+            "Por favor, vote sobre el desarrollo del impuesto al CO₂.\n<br>\nEl impuesto al CO₂ se aplica a los combustibles fósiles como el carbón, el petróleo y el gas, dependiendo de su contenido de carbono.\n<br>\nEste impuesto afecta los precios de todos los bienes que usan directa o indirectamente combustibles fósiles o que requieren de combustibles fósiles para su producción.\n<br>\nSu objetivo es incentivar el ahorro de energía y la producción de bienes con bajas emisiones de CO₂."
+        ],
+        "_unique_translations_back_es": [
+            "",
+            "",
+            "",
+            "",
+            "Bitte stimmen Sie über die Entwicklung der CO₂-Steuer ab.\n<br>\nDie CO₂-Steuer wird auf fossile Brennstoffe wie Kohle, Öl und Gas erhoben, abhängig von ihrem Kohlenstoffgehalt.\n<br>\nDiese Steuer beeinflusst die Preise aller Waren, die entweder direkt oder indirekt fossile Brennstoffe verwenden oder für ihre Produktion fossile Brennstoffe benötigen.\n<br>\nSie soll einen Anreiz schaffen, Energie zu sparen und Waren mit niedrigen CO₂-Emissionen zu produzieren."
         ]
     },
     "multipleChoice": false,
@@ -105,6 +153,27 @@
                     "",
                     "",
                     "Erhöhen um 25€ pro Tonne"
+                ],
+                "_gpt_4_vision_es": "Aumentar en 25€ por tonelada",
+                "_gemini_1_5_pro_es": "Aumentar en 25 € por tonelada \n",
+                "_claude_3_5_sonnet_es": "Aumentar en 25€ por tonelada",
+                "_mistral_large_es": "Aumentar en 25€ por tonelada",
+                "_llama_3_1_70B_es": "Aumentar en 25€ por tonelada",
+                "_compare_gpt_4_vision_es": "Aumentar en 25€ por tonelada",
+                "_compare_gemini_1_5_pro_es": "Aumentar en 25€ por tonelada",
+                "_compare_mistral_large_es": "Aumentar en 25 € por tonelada",
+                "_compare_claude_3_5_sonnet_es": "Aumentar en 25€ por tonelada",
+                "_compare_llama_3_1_70B_es": "Aumentar en 25 € por tonelada",
+                "_winners_es": [
+                    "Aumentar en 25€ por tonelada"
+                ],
+                "_unique_translations_es": [
+                    "Aumentar en 25€ por tonelada",
+                    "Aumentar en 25 € por tonelada"
+                ],
+                "_unique_translations_back_es": [
+                    "Erhöhen um 25€ pro Tonne",
+                    ""
                 ]
             }
         },
@@ -141,6 +210,31 @@
                     "",
                     "",
                     "Original german: \"Unverändert lassen\""
+                ],
+                "_gpt_4_vision_es": "Mantener sin cambios",
+                "_gemini_1_5_pro_es": "Dejar como está. \n",
+                "_claude_3_5_sonnet_es": "Mantener sin cambios",
+                "_mistral_large_es": "Dejar sin estado actual",
+                "_llama_3_1_70B_es": "Dejar sin cambios",
+                "_compare_gpt_4_vision_es": "Dejar como está.",
+                "_compare_gemini_1_5_pro_es": "Dejar sin cambios",
+                "_compare_mistral_large_es": "Dejar como está.",
+                "_compare_claude_3_5_sonnet_es": "Dejar sin cambios",
+                "_compare_llama_3_1_70B_es": "Dejar como está.",
+                "_winners_es": [
+                    "Dejar como está."
+                ],
+                "_unique_translations_es": [
+                    "Dejar sin estado actual",
+                    "Dejar como está.",
+                    "Dejar sin cambios",
+                    "Mantener sin cambios"
+                ],
+                "_unique_translations_back_es": [
+                    "",
+                    "Unverändert lassen.",
+                    "",
+                    ""
                 ]
             }
         },
@@ -173,6 +267,29 @@
                 ],
                 "_unique_translations_back_sv": [
                     "Verringern um 25€ pro Tonne"
+                ],
+                "_gpt_4_vision_es": "Disminuir en 25€ por tonelada",
+                "_gemini_1_5_pro_es": "Reducir en 25€ por tonelada. \n",
+                "_claude_3_5_sonnet_es": "Reducir en 25€ por tonelada",
+                "_mistral_large_es": "Disminuir en 25€ por tonelada",
+                "_llama_3_1_70B_es": "Reducir en 25€ por tonelada",
+                "_compare_gpt_4_vision_es": "Reducir en 25€ por tonelada",
+                "_compare_gemini_1_5_pro_es": "Reducir en 25€ por tonelada",
+                "_compare_mistral_large_es": "Reducir en 25€ por tonelada",
+                "_compare_claude_3_5_sonnet_es": "Reducir en 25€ por tonelada",
+                "_compare_llama_3_1_70B_es": "Disminuir en 25€ por tonelada",
+                "_winners_es": [
+                    "Reducir en 25€ por tonelada"
+                ],
+                "_unique_translations_es": [
+                    "Reducir en 25€ por tonelada",
+                    "Reducir en 25€ por tonelada.",
+                    "Disminuir en 25€ por tonelada"
+                ],
+                "_unique_translations_back_es": [
+                    "Verringern um 25€ pro Tonne",
+                    "",
+                    ""
                 ]
             }
         },
@@ -206,6 +323,27 @@
                 ],
                 "_unique_translations_back_sv": [
                     "Enthaltung",
+                    ""
+                ],
+                "_gpt_4_vision_es": "Abstención",
+                "_gemini_1_5_pro_es": "Abstención. \n",
+                "_claude_3_5_sonnet_es": "Abstención",
+                "_mistral_large_es": "Abstención",
+                "_llama_3_1_70B_es": "Abstención",
+                "_compare_gpt_4_vision_es": "Abstención.",
+                "_compare_gemini_1_5_pro_es": "Abstención",
+                "_compare_mistral_large_es": "Abstención.",
+                "_compare_claude_3_5_sonnet_es": "Abstención",
+                "_compare_llama_3_1_70B_es": "Abstención.",
+                "_winners_es": [
+                    "Abstención."
+                ],
+                "_unique_translations_es": [
+                    "Abstención.",
+                    "Abstención"
+                ],
+                "_unique_translations_back_es": [
+                    "Enthaltung.",
                     ""
                 ]
             }

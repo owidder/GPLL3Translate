@@ -10,21 +10,51 @@
         "_claude_3_5_sonnet_sv": "Omröstning om förbud mot förbränningsmotorer i personbilar",
         "_claude_3_haiku_sv": "Omröstning om förbud mot förbränningsmotorer i personbilar",
         "_mistral_large_sv": "Omröstning om förbud mot förbränningsmotorer i personbilar",
-        "_compare_gpt_4o_sv": "Omröstning om förbud mot förbränningsmotorer i personbilar",
+        "_gpt_4_vision_sv": "Omröstning om ett förbud mot förbränningsmotorer i personbilar",
+        "_llama_3_1_70B_sv": "Omröstning om ett förbud mot förbränningsmotorer i personbilar",
+        "_compare_gpt_4_vision_sv": "Omröstning om förbud mot förbränningsmotorer i personbilar",
         "_compare_gemini_1_5_pro_sv": "Omröstning om ett förbud mot förbränningsmotorer i personbilar",
         "_compare_mistral_large_sv": "Omröstning om ett förbud mot förbränningsmotorer i personbilar",
         "_compare_claude_3_5_sonnet_sv": "Omröstning om förbud mot förbränningsmotorer i personbilar",
-        "_compare_claude_3_haiku_sv": "Omröstning om förbud mot förbränningsmotorer i personbilar",
+        "_compare_llama_3_1_70B_sv": "Omröstning om ett förbud mot förbränningsmotorer i personbilar",
         "_winners_sv": [
-            "Omröstning om förbud mot förbränningsmotorer i personbilar"
+            "Omröstning om ett förbud mot förbränningsmotorer i personbilar"
         ],
         "_unique_translations_sv": [
             "Omröstning om ett förbud mot förbränningsmotorer i personbilar",
             "Omröstning om förbud mot förbränningsmotorer i personbilar"
         ],
         "_unique_translations_back_sv": [
+            "Abstimmung über ein Verbot von Verbrennungsmotoren in Pkw",
+            ""
+        ],
+        "_gpt_4_vision_es": "Votación sobre la prohibición del motor de combustión en coches particulares",
+        "_gemini_1_5_pro_es": "Votación sobre la prohibición de los motores de combustión en turismos. \n",
+        "_claude_3_5_sonnet_es": "Votación sobre la prohibición del motor de combustión en automóviles de pasajeros",
+        "_mistral_large_es": "Votación sobre la prohibición del motor de combustión en automóviles",
+        "_llama_3_1_70B_es": "Votación sobre la prohibición de los motores de combustión en automóviles",
+        "_compare_gpt_4_vision_es": "Votación sobre la prohibición de los motores de combustión en turismos.",
+        "_compare_gemini_1_5_pro_es": "Votación sobre la prohibición del motor de combustión en coches particulares",
+        "_compare_mistral_large_es": "Votación sobre la prohibición del motor de combustión en automóviles de pasajeros",
+        "_compare_claude_3_5_sonnet_es": "Votación sobre la prohibición del motor de combustión en coches particulares",
+        "_compare_llama_3_1_70B_es": "Votación sobre la prohibición del motor de combustión en automóviles de pasajeros",
+        "_winners_es": [
+            "Votación sobre la prohibición del motor de combustión en coches particulares",
+            "Votación sobre la prohibición del motor de combustión en automóviles de pasajeros"
+        ],
+        "_unique_translations_es": [
+            "Votación sobre la prohibición del motor de combustión en automóviles de pasajeros",
+            "Votación sobre la prohibición del motor de combustión en automóviles",
+            "Votación sobre la prohibición del motor de combustión en coches particulares",
+            "Votación sobre la prohibición de los motores de combustión en turismos.",
+            "Votación sobre la prohibición de los motores de combustión en automóviles"
+        ],
+        "_unique_translations_back_es": [
+            "Abstimmung über ein Verbot von Verbrennungsmotoren in Personenkraftwagen",
             "",
-            "Abstimmung über ein Verbot von Verbrennungsmotoren in Personenkraftwagen"
+            "Abstimmung über ein Verbot von Verbrennungsmotoren in Personenkraftwagen \n",
+            "",
+            ""
         ]
     },
     "description": {
@@ -37,27 +67,56 @@
         "_claude_3_5_sonnet_sv": "En betydande källa till växthusgasutsläpp, som står för 20%, är transporter genom förbränning av fossila bränslen som bensin, diesel och gas.\n\nEtt förbud mot personbilar med förbränningsmotorer, som står för cirka 60% av transportsektorns utsläpp, skulle minska utsläppen avsevärt redan innan det träder i kraft, eftersom alla biltillverkare skulle behöva ställa om sina flottor gradvis i förväg.",
         "_claude_3_haiku_sv": "En väsentlig källa för växthusgasutsläpp är med 20% transporter genom förbränning av fossila bränslen som bensin, diesel och gas.\n\nEtt förbud mot personbilar med förbränningsmotor, som står för cirka 60% av utsläppen från transportsektorn, skulle avsevärt minska utsläppen redan innan det träder i kraft, eftersom alla biltillverkare skulle vara tvungna att gradvis ställa om sin fordonsflotta före det.",
         "_mistral_large_sv": "En betydande källa till utsläpp av växthusgaser, som utgör 20%, är transport genom förbränning av fossila bränslen som bensin, diesel och gas.\n\nEtt förbud mot personbilar med förbränningsmotorer, som utgör cirka 60% av transportsektorns utsläpp, skulle minska utsläppen avsevärt redan innan det träder i kraft, eftersom alla biltillverkare skulle behöva omställa sin flotta stegvis innan dess.",
-        "_compare_gpt_4o_sv": "En betydande källa till utsläpp av växthusgaser, som står för 20 %, är trafik genom förbränning av fossila bränslen som bensin, diesel och gas.\n\nEtt förbud mot personbilar med förbränningsmotorer, som står för cirka 60 % av utsläppen från transportsektorn, skulle minska utsläppen avsevärt redan innan det träder i kraft, eftersom alla biltillverkare skulle behöva ställa om sina flottor gradvis innan dess.",
+        "_gpt_4_vision_sv": "En väsentlig källa till växthusgasutsläpp är med 20% transport genom förbränning av fossila bränslen som bensin, diesel och gas.\n\nEtt förbud mot personbilar med förbränningsmotorer, som står för cirka 60% av transportsektorns utsläpp, skulle minska utsläppen avsevärt redan innan det träder i kraft, eftersom alla biltillverkare skulle behöva gradvis omvandla sina flottor innan dess.",
+        "_llama_3_1_70B_sv": "En väsentlig källa till utsläpp av växthusgaser är med 20% transport genom förbränning av fossila bränslen som bensin, diesel och gas.\n\nEtt förbud mot personbilar med förbränningsmotorer, som står för cirka 60% av utsläppen från transportsektorn, skulle minska utsläppen avsevärt redan innan det träder i kraft, eftersom alla biltillverkare skulle behöva ställa om sina flottor gradvis innan dess.",
+        "_compare_gpt_4_vision_sv": "En betydande källa till växthusgasutsläpp, som står för 20%, är transporter genom förbränning av fossila bränslen som bensin, diesel och gas.\n\nEtt förbud mot personbilar med förbränningsmotorer, som står för cirka 60% av transportsektorns utsläpp, skulle minska utsläppen avsevärt redan innan det träder i kraft, eftersom alla biltillverkare skulle behöva ställa om sina flottor gradvis i förväg.",
         "_compare_gemini_1_5_pro_sv": "En betydande källa till utsläpp av växthusgaser, som utgör 20%, är transport genom förbränning av fossila bränslen som bensin, diesel och gas.\n\nEtt förbud mot personbilar med förbränningsmotorer, som utgör cirka 60% av transportsektorns utsläpp, skulle minska utsläppen avsevärt redan innan det träder i kraft, eftersom alla biltillverkare skulle behöva omställa sin flotta stegvis innan dess.",
-        "_compare_mistral_large_sv": "En väsentlig källa till växthusgasutsläpp är med 20% transport genom förbränning av fossila bränslen som bensin, diesel och gas.\n\nEtt förbud mot personbilar med förbränningsmotorer, som står för cirka 60% av transportsektorns utsläpp, skulle minska utsläppen avsevärt redan innan det träder i kraft, eftersom alla biltillverkare skulle behöva gradvis omvandla sina flottor innan dess.",
+        "_compare_mistral_large_sv": "En betydande källa till utsläpp av växthusgaser, som står för 20 %, är trafik genom förbränning av fossila bränslen som bensin, diesel och gas.\n\nEtt förbud mot personbilar med förbränningsmotorer, som står för cirka 60 % av utsläppen från transportsektorn, skulle minska utsläppen avsevärt redan innan det träder i kraft, eftersom alla biltillverkare skulle behöva ställa om sina flottor gradvis innan dess.",
         "_compare_claude_3_5_sonnet_sv": "En betydande källa till utsläpp av växthusgaser, som står för 20 %, är trafik genom förbränning av fossila bränslen som bensin, diesel och gas.\n\nEtt förbud mot personbilar med förbränningsmotorer, som står för cirka 60 % av utsläppen från transportsektorn, skulle minska utsläppen avsevärt redan innan det träder i kraft, eftersom alla biltillverkare skulle behöva ställa om sina flottor gradvis innan dess.",
-        "_compare_claude_3_haiku_sv": "En betydande källa till utsläpp av växthusgaser, som utgör 20%, är transport genom förbränning av fossila bränslen som bensin, diesel och gas.\n\nEtt förbud mot personbilar med förbränningsmotorer, som utgör cirka 60% av transportsektorns utsläpp, skulle minska utsläppen avsevärt redan innan det träder i kraft, eftersom alla biltillverkare skulle behöva omställa sin flotta stegvis innan dess.",
+        "_compare_llama_3_1_70B_sv": "En betydande källa till utsläpp av växthusgaser, som utgör 20%, är transport genom förbränning av fossila bränslen som bensin, diesel och gas.\n\nEtt förbud mot personbilar med förbränningsmotorer, som utgör cirka 60% av transportsektorns utsläpp, skulle minska utsläppen avsevärt redan innan det träder i kraft, eftersom alla biltillverkare skulle behöva omställa sin flotta stegvis innan dess.",
         "_winners_sv": [
-            "En betydande källa till utsläpp av växthusgaser, som står för 20 %, är trafik genom förbränning av fossila bränslen som bensin, diesel och gas.\n\nEtt förbud mot personbilar med förbränningsmotorer, som står för cirka 60 % av utsläppen från transportsektorn, skulle minska utsläppen avsevärt redan innan det träder i kraft, eftersom alla biltillverkare skulle behöva ställa om sina flottor gradvis innan dess.",
-            "En betydande källa till utsläpp av växthusgaser, som utgör 20%, är transport genom förbränning av fossila bränslen som bensin, diesel och gas.\n\nEtt förbud mot personbilar med förbränningsmotorer, som utgör cirka 60% av transportsektorns utsläpp, skulle minska utsläppen avsevärt redan innan det träder i kraft, eftersom alla biltillverkare skulle behöva omställa sin flotta stegvis innan dess."
+            "En betydande källa till utsläpp av växthusgaser, som utgör 20%, är transport genom förbränning av fossila bränslen som bensin, diesel och gas.\n\nEtt förbud mot personbilar med förbränningsmotorer, som utgör cirka 60% av transportsektorns utsläpp, skulle minska utsläppen avsevärt redan innan det träder i kraft, eftersom alla biltillverkare skulle behöva omställa sin flotta stegvis innan dess.",
+            "En betydande källa till utsläpp av växthusgaser, som står för 20 %, är trafik genom förbränning av fossila bränslen som bensin, diesel och gas.\n\nEtt förbud mot personbilar med förbränningsmotorer, som står för cirka 60 % av utsläppen från transportsektorn, skulle minska utsläppen avsevärt redan innan det träder i kraft, eftersom alla biltillverkare skulle behöva ställa om sina flottor gradvis innan dess."
         ],
         "_unique_translations_sv": [
-            "En väsentlig källa till växthusgasutsläpp är med 20% transport genom förbränning av fossila bränslen som bensin, diesel och gas.\n\nEtt förbud mot personbilar med förbränningsmotorer, som står för cirka 60% av transportsektorns utsläpp, skulle minska utsläppen avsevärt redan innan det träder i kraft, eftersom alla biltillverkare skulle behöva gradvis omvandla sina flottor innan dess.",
             "En betydande källa till utsläpp av växthusgaser, som utgör 20%, är transport genom förbränning av fossila bränslen som bensin, diesel och gas.\n\nEtt förbud mot personbilar med förbränningsmotorer, som utgör cirka 60% av transportsektorns utsläpp, skulle minska utsläppen avsevärt redan innan det träder i kraft, eftersom alla biltillverkare skulle behöva omställa sin flotta stegvis innan dess.",
-            "En väsentlig källa för växthusgasutsläpp är med 20% transporter genom förbränning av fossila bränslen som bensin, diesel och gas.\n\nEtt förbud mot personbilar med förbränningsmotor, som står för cirka 60% av utsläppen från transportsektorn, skulle avsevärt minska utsläppen redan innan det träder i kraft, eftersom alla biltillverkare skulle vara tvungna att gradvis ställa om sin fordonsflotta före det.",
-            "En betydande källa till utsläpp av växthusgaser, som står för 20 %, är trafik genom förbränning av fossila bränslen som bensin, diesel och gas.\n\nEtt förbud mot personbilar med förbränningsmotorer, som står för cirka 60 % av utsläppen från transportsektorn, skulle minska utsläppen avsevärt redan innan det träder i kraft, eftersom alla biltillverkare skulle behöva ställa om sina flottor gradvis innan dess.",
-            "En betydande källa till växthusgasutsläpp, som står för 20%, är transporter genom förbränning av fossila bränslen som bensin, diesel och gas.\n\nEtt förbud mot personbilar med förbränningsmotorer, som står för cirka 60% av transportsektorns utsläpp, skulle minska utsläppen avsevärt redan innan det träder i kraft, eftersom alla biltillverkare skulle behöva ställa om sina flottor gradvis i förväg."
+            "En väsentlig källa till utsläpp av växthusgaser är med 20% transport genom förbränning av fossila bränslen som bensin, diesel och gas.\n\nEtt förbud mot personbilar med förbränningsmotorer, som står för cirka 60% av utsläppen från transportsektorn, skulle minska utsläppen avsevärt redan innan det träder i kraft, eftersom alla biltillverkare skulle behöva ställa om sina flottor gradvis innan dess.",
+            "En väsentlig källa till växthusgasutsläpp är med 20% transport genom förbränning av fossila bränslen som bensin, diesel och gas.\n\nEtt förbud mot personbilar med förbränningsmotorer, som står för cirka 60% av transportsektorns utsläpp, skulle minska utsläppen avsevärt redan innan det träder i kraft, eftersom alla biltillverkare skulle behöva gradvis omvandla sina flottor innan dess.",
+            "En betydande källa till växthusgasutsläpp, som står för 20%, är transporter genom förbränning av fossila bränslen som bensin, diesel och gas.\n\nEtt förbud mot personbilar med förbränningsmotorer, som står för cirka 60% av transportsektorns utsläpp, skulle minska utsläppen avsevärt redan innan det träder i kraft, eftersom alla biltillverkare skulle behöva ställa om sina flottor gradvis i förväg.",
+            "En betydande källa till utsläpp av växthusgaser, som står för 20 %, är trafik genom förbränning av fossila bränslen som bensin, diesel och gas.\n\nEtt förbud mot personbilar med förbränningsmotorer, som står för cirka 60 % av utsläppen från transportsektorn, skulle minska utsläppen avsevärt redan innan det träder i kraft, eftersom alla biltillverkare skulle behöva ställa om sina flottor gradvis innan dess."
         ],
         "_unique_translations_back_sv": [
+            "Eine bedeutende Quelle von Treibhausgasemissionen, die 20% ausmacht, ist der Transport durch die Verbrennung fossiler Brennstoffe wie Benzin, Diesel und Gas.\n\nEin Verbot von Personenkraftwagen mit Verbrennungsmotoren, die etwa 60% der Emissionen des Verkehrssektors ausmachen, würde die Emissionen bereits vor seinem Inkrafttreten erheblich reduzieren, da alle Automobilhersteller ihre Flotten schrittweise umstellen müssten.",
             "",
-            "Eine bedeutende Quelle für Treibhausgasemissionen, die 20% ausmacht, ist der Transport durch die Verbrennung fossiler Brennstoffe wie Benzin, Diesel und Gas.\n\nEin Verbot von Personenkraftwagen mit Verbrennungsmotoren, die etwa 60% der Emissionen des Transportsektors ausmachen, würde die Emissionen bereits vor Inkrafttreten erheblich reduzieren, da alle Autohersteller ihre Flotten schrittweise umstellen müssten.",
             "",
-            "Eine bedeutende Quelle von Treibhausgasemissionen, die 20 % ausmacht, ist der Verkehr durch die Verbrennung fossiler Brennstoffe wie Benzin, Diesel und Gas.\n\nEin Verbot von Personenkraftwagen mit Verbrennungsmotoren, die etwa 60 % der Emissionen des Verkehrssektors ausmachen, würde die Emissionen bereits vor Inkrafttreten erheblich reduzieren, da alle Autohersteller ihre Flotten schrittweise umstellen müssten.",
+            "",
+            "Eine bedeutende Quelle von Treibhausgasemissionen, die 20 % ausmacht, ist der Verkehr durch die Verbrennung fossiler Brennstoffe wie Benzin, Diesel und Gas.\n\nEin Verbot von Personenkraftwagen mit Verbrennungsmotoren, die für etwa 60 % der Emissionen des Verkehrssektors verantwortlich sind, würde die Emissionen bereits vor seinem Inkrafttreten erheblich reduzieren, da alle Automobilhersteller ihre Flotten vorher schrittweise umstellen müssten."
+        ],
+        "_gpt_4_vision_es": "Una fuente importante de emisiones de gases de efecto invernadero, que representa el 20%, es el transporte a través de la quema de combustibles fósiles como la gasolina, el diésel y el gas.\n\nUna prohibición de los automóviles de pasajeros con motores de combustión, que representan aproximadamente el 60% de las emisiones del sector del transporte, reduciría significativamente las emisiones incluso antes de que entre en vigor, porque todos los fabricantes de automóviles tendrían que convertir gradualmente sus flotas con antelación.",
+        "_gemini_1_5_pro_es": "Una fuente importante de emisiones de gases de efecto invernadero, que representa el 20%, es el transporte mediante la quema de combustibles fósiles como la gasolina, el diésel y el gas.\n\nLa prohibición de los turismos con motor de combustión, que representan alrededor del 60% de las emisiones del sector del transporte, reduciría considerablemente las emisiones incluso antes de su entrada en vigor, ya que todos los fabricantes de automóviles tendrían que ir adaptando progresivamente su flota. \n",
+        "_claude_3_5_sonnet_es": "Una fuente importante de emisiones de gases de efecto invernadero, que representa el 20%, es el transporte mediante la quema de combustibles fósiles como la gasolina, el diésel y el gas.\n\nUna prohibición de los automóviles con motores de combustión, que representan aproximadamente el 60% de las emisiones del sector del transporte, reduciría significativamente las emisiones incluso antes de su entrada en vigor, ya que todos los fabricantes de automóviles tendrían que convertir gradualmente sus flotas con antelación.",
+        "_mistral_large_es": "Una fuente significativa de emisiones de gases de efecto invernadero es el transporte a través de la quema de combustibles fósiles como la gasolina, el diesel y el gas, representando el 20%.\n\nUna prohibición de automóviles con motores de combustión, que representan aproximadamente el 60% de las emisiones del sector del transporte, reduciría considerablemente las emisiones incluso antes de su entrada en vigor, ya que todos los fabricantes de automóviles tendrían que ir transformando gradualmente su flota antes.",
+        "_llama_3_1_70B_es": "Una fuente importante de emisiones de gases de efecto invernadero es el transporte, que representa el 20%, a través de la quema de combustibles fósiles como gasolina, diésel y gas.\n\nUna prohibición de vehículos de pasajeros con motores de combustión, que representan aproximadamente el 60% de las emisiones del sector del transporte, reduciría significativamente las emisiones incluso antes de su entrada en vigor, ya que todos los fabricantes de automóviles tendrían que reconvertir gradualmente sus flotas antes de esa fecha.",
+        "_compare_gpt_4_vision_es": "Una fuente importante de emisiones de gases de efecto invernadero, que representa el 20%, es el transporte mediante la quema de combustibles fósiles como la gasolina, el diésel y el gas.\n\nUna prohibición de los automóviles con motores de combustión, que representan aproximadamente el 60% de las emisiones del sector del transporte, reduciría significativamente las emisiones incluso antes de su entrada en vigor, ya que todos los fabricantes de automóviles tendrían que convertir gradualmente sus flotas con antelación.",
+        "_compare_gemini_1_5_pro_es": "Una fuente importante de emisiones de gases de efecto invernadero, que representa el 20%, es el transporte a través de la quema de combustibles fósiles como la gasolina, el diésel y el gas.\n\nUna prohibición de los automóviles de pasajeros con motores de combustión, que representan aproximadamente el 60% de las emisiones del sector del transporte, reduciría significativamente las emisiones incluso antes de que entre en vigor, porque todos los fabricantes de automóviles tendrían que convertir gradualmente sus flotas con antelación.",
+        "_compare_mistral_large_es": "Una fuente importante de emisiones de gases de efecto invernadero, que representa el 20%, es el transporte a través de la quema de combustibles fósiles como la gasolina, el diésel y el gas.\n\nUna prohibición de los automóviles de pasajeros con motores de combustión, que representan aproximadamente el 60% de las emisiones del sector del transporte, reduciría significativamente las emisiones incluso antes de que entre en vigor, porque todos los fabricantes de automóviles tendrían que convertir gradualmente sus flotas con antelación.",
+        "_compare_claude_3_5_sonnet_es": "Una fuente importante de emisiones de gases de efecto invernadero, que representa el 20%, es el transporte mediante la quema de combustibles fósiles como la gasolina, el diésel y el gas.\n\nLa prohibición de los turismos con motor de combustión, que representan alrededor del 60% de las emisiones del sector del transporte, reduciría considerablemente las emisiones incluso antes de su entrada en vigor, ya que todos los fabricantes de automóviles tendrían que ir adaptando progresivamente su flota.",
+        "_compare_llama_3_1_70B_es": "Una fuente importante de emisiones de gases de efecto invernadero, que representa el 20%, es el transporte a través de la quema de combustibles fósiles como la gasolina, el diésel y el gas.\n\nUna prohibición de los automóviles de pasajeros con motores de combustión, que representan aproximadamente el 60% de las emisiones del sector del transporte, reduciría significativamente las emisiones incluso antes de que entre en vigor, porque todos los fabricantes de automóviles tendrían que convertir gradualmente sus flotas con antelación.",
+        "_winners_es": [
+            "Una fuente importante de emisiones de gases de efecto invernadero, que representa el 20%, es el transporte a través de la quema de combustibles fósiles como la gasolina, el diésel y el gas.\n\nUna prohibición de los automóviles de pasajeros con motores de combustión, que representan aproximadamente el 60% de las emisiones del sector del transporte, reduciría significativamente las emisiones incluso antes de que entre en vigor, porque todos los fabricantes de automóviles tendrían que convertir gradualmente sus flotas con antelación."
+        ],
+        "_unique_translations_es": [
+            "Una fuente importante de emisiones de gases de efecto invernadero, que representa el 20%, es el transporte mediante la quema de combustibles fósiles como la gasolina, el diésel y el gas.\n\nLa prohibición de los turismos con motor de combustión, que representan alrededor del 60% de las emisiones del sector del transporte, reduciría considerablemente las emisiones incluso antes de su entrada en vigor, ya que todos los fabricantes de automóviles tendrían que ir adaptando progresivamente su flota.",
+            "Una fuente importante de emisiones de gases de efecto invernadero es el transporte, que representa el 20%, a través de la quema de combustibles fósiles como gasolina, diésel y gas.\n\nUna prohibición de vehículos de pasajeros con motores de combustión, que representan aproximadamente el 60% de las emisiones del sector del transporte, reduciría significativamente las emisiones incluso antes de su entrada en vigor, ya que todos los fabricantes de automóviles tendrían que reconvertir gradualmente sus flotas antes de esa fecha.",
+            "Una fuente importante de emisiones de gases de efecto invernadero, que representa el 20%, es el transporte mediante la quema de combustibles fósiles como la gasolina, el diésel y el gas.\n\nUna prohibición de los automóviles con motores de combustión, que representan aproximadamente el 60% de las emisiones del sector del transporte, reduciría significativamente las emisiones incluso antes de su entrada en vigor, ya que todos los fabricantes de automóviles tendrían que convertir gradualmente sus flotas con antelación.",
+            "Una fuente importante de emisiones de gases de efecto invernadero, que representa el 20%, es el transporte a través de la quema de combustibles fósiles como la gasolina, el diésel y el gas.\n\nUna prohibición de los automóviles de pasajeros con motores de combustión, que representan aproximadamente el 60% de las emisiones del sector del transporte, reduciría significativamente las emisiones incluso antes de que entre en vigor, porque todos los fabricantes de automóviles tendrían que convertir gradualmente sus flotas con antelación.",
+            "Una fuente significativa de emisiones de gases de efecto invernadero es el transporte a través de la quema de combustibles fósiles como la gasolina, el diesel y el gas, representando el 20%.\n\nUna prohibición de automóviles con motores de combustión, que representan aproximadamente el 60% de las emisiones del sector del transporte, reduciría considerablemente las emisiones incluso antes de su entrada en vigor, ya que todos los fabricantes de automóviles tendrían que ir transformando gradualmente su flota antes."
+        ],
+        "_unique_translations_back_es": [
+            "",
+            "",
+            "",
+            "Eine bedeutende Quelle von Treibhausgasemissionen, die 20% ausmacht, ist der Transport durch die Verbrennung fossiler Brennstoffe wie Benzin, Diesel und Gas.\n\nEin Verbot von Personenkraftwagen mit Verbrennungsmotoren, die etwa 60% der Emissionen des Verkehrssektors ausmachen, würde die Emissionen bereits vor seinem Inkrafttreten erheblich reduzieren, da alle Automobilhersteller ihre Flotten schrittweise im Voraus umstellen müssten.",
             ""
         ]
     },
@@ -76,23 +135,44 @@
                 "_claude_3_5_sonnet_sv": "Inget förbud",
                 "_claude_3_haiku_sv": "Inget förbud",
                 "_mistral_large_sv": "Inget förbud\n\n(This is the Swedish translation for No ban or Kein Verbot.)",
-                "_compare_gpt_4o_sv": "Inget förbud",
+                "_gpt_4_vision_sv": "Inget förbud",
+                "_llama_3_1_70B_sv": "Inget förbud",
+                "_compare_gpt_4_vision_sv": "Inget förbud",
                 "_compare_gemini_1_5_pro_sv": "Inget förbud",
                 "_compare_mistral_large_sv": "Inget förbud",
                 "_compare_claude_3_5_sonnet_sv": "Inget förbud",
-                "_compare_claude_3_haiku_sv": "Inget förbud\n\n(This is the Swedish translation for No ban or Kein Verbot.)",
+                "_compare_llama_3_1_70B_sv": "Inget förbud\n\n(This is the Swedish translation for No ban or Kein Verbot.)",
                 "_winners_sv": [
                     "Inget förbud"
                 ],
                 "_unique_translations_sv": [
-                    "Inget förbud",
                     "Inget förbud\n\n(This is the Swedish translation for No ban or Kein Verbot.)",
-                    "Ingen förbud"
+                    "Inget förbud"
                 ],
                 "_unique_translations_back_sv": [
-                    "Kein Verbot",
                     "",
-                    ""
+                    "Kein Verbot"
+                ],
+                "_gpt_4_vision_es": "Sin prohibición",
+                "_gemini_1_5_pro_es": "Sin prohibición \n",
+                "_claude_3_5_sonnet_es": "Sin prohibición",
+                "_mistral_large_es": "Sin prohibición",
+                "_llama_3_1_70B_es": "Ninguna prohibición",
+                "_compare_gpt_4_vision_es": "Ninguna prohibición",
+                "_compare_gemini_1_5_pro_es": "Sin prohibición",
+                "_compare_mistral_large_es": "Ninguna prohibición",
+                "_compare_claude_3_5_sonnet_es": "Sin prohibición",
+                "_compare_llama_3_1_70B_es": "Sin prohibición",
+                "_winners_es": [
+                    "Sin prohibición"
+                ],
+                "_unique_translations_es": [
+                    "Ninguna prohibición",
+                    "Sin prohibición"
+                ],
+                "_unique_translations_back_es": [
+                    "",
+                    "Kein Verbot"
                 ]
             }
         },
@@ -110,10 +190,13 @@
                 "_claude_3_haiku_sv": "Förbud från 2025",
                 "_mistral_large_sv": "Förbud från 2025",
                 "_compare_gpt_4o_sv": "Förbud från 2025",
+                "_gpt_4_vision_sv": "Förbud från 2025",
+                "_llama_3_1_70B_sv": "Förbud från 2025",
+                "_compare_gpt_4_vision_sv": "Förbud från 2025",
                 "_compare_gemini_1_5_pro_sv": "Förbud från 2025",
                 "_compare_mistral_large_sv": "Förbud från 2025",
                 "_compare_claude_3_5_sonnet_sv": "Förbud från 2025",
-                "_compare_claude_3_haiku_sv": "Förbud från 2025",
+                "_compare_llama_3_1_70B_sv": "Förbud från 2025",
                 "_winners_sv": [
                     "Förbud från 2025"
                 ],
@@ -121,6 +204,25 @@
                     "Förbud från 2025"
                 ],
                 "_unique_translations_back_sv": [
+                    "Verbot ab 2025"
+                ],
+                "_gpt_4_vision_es": "Prohibición a partir de 2025",
+                "_gemini_1_5_pro_es": "Prohibición a partir de 2025 \n",
+                "_claude_3_5_sonnet_es": "Prohibición a partir de 2025",
+                "_mistral_large_es": "Prohibición a partir de 2025",
+                "_llama_3_1_70B_es": "Prohibición a partir de 2025",
+                "_compare_gpt_4_vision_es": "Prohibición a partir de 2025",
+                "_compare_gemini_1_5_pro_es": "Prohibición a partir de 2025",
+                "_compare_mistral_large_es": "Prohibición a partir de 2025",
+                "_compare_claude_3_5_sonnet_es": "Prohibición a partir de 2025",
+                "_compare_llama_3_1_70B_es": "Prohibición a partir de 2025",
+                "_winners_es": [
+                    "Prohibición a partir de 2025"
+                ],
+                "_unique_translations_es": [
+                    "Prohibición a partir de 2025"
+                ],
+                "_unique_translations_back_es": [
                     "Verbot ab 2025"
                 ]
             }
@@ -138,11 +240,13 @@
                 "_claude_3_5_sonnet_sv": "Förbud från 2030",
                 "_claude_3_haiku_sv": "Förbud från 2030",
                 "_mistral_large_sv": "Förbud från 2030",
-                "_compare_gpt_4o_sv": "Förbud från 2030",
+                "_gpt_4_vision_sv": "Förbud från 2030",
+                "_llama_3_1_70B_sv": "Förbud från 2030",
+                "_compare_gpt_4_vision_sv": "Förbud från 2030",
                 "_compare_gemini_1_5_pro_sv": "Förbud från 2030",
                 "_compare_mistral_large_sv": "Förbud från 2030",
                 "_compare_claude_3_5_sonnet_sv": "Förbud från 2030",
-                "_compare_claude_3_haiku_sv": "Förbud från 2030",
+                "_compare_llama_3_1_70B_sv": "Förbud från 2030",
                 "_winners_sv": [
                     "Förbud från 2030"
                 ],
@@ -150,6 +254,25 @@
                     "Förbud från 2030"
                 ],
                 "_unique_translations_back_sv": [
+                    "Verbot ab 2030"
+                ],
+                "_gpt_4_vision_es": "Prohibición a partir de 2030",
+                "_gemini_1_5_pro_es": "Prohibición a partir de 2030 \n",
+                "_claude_3_5_sonnet_es": "Prohibición a partir de 2030",
+                "_mistral_large_es": "Prohibición a partir de 2030",
+                "_llama_3_1_70B_es": "Prohibición a partir de 2030",
+                "_compare_gpt_4_vision_es": "Prohibición a partir de 2030",
+                "_compare_gemini_1_5_pro_es": "Prohibición a partir de 2030",
+                "_compare_mistral_large_es": "Prohibición a partir de 2030",
+                "_compare_claude_3_5_sonnet_es": "Prohibición a partir de 2030",
+                "_compare_llama_3_1_70B_es": "Prohibición a partir de 2030",
+                "_winners_es": [
+                    "Prohibición a partir de 2030"
+                ],
+                "_unique_translations_es": [
+                    "Prohibición a partir de 2030"
+                ],
+                "_unique_translations_back_es": [
                     "Verbot ab 2030"
                 ]
             }
@@ -167,11 +290,13 @@
                 "_claude_3_5_sonnet_sv": "Förbud från 2035",
                 "_claude_3_haiku_sv": "Förbud från 2035",
                 "_mistral_large_sv": "Förbud från och med 2035",
-                "_compare_gpt_4o_sv": "Förbud från 2035",
-                "_compare_gemini_1_5_pro_sv": "Förbud från 2035",
+                "_gpt_4_vision_sv": "Förbud från och med 2035",
+                "_llama_3_1_70B_sv": "Förbud från 2035",
+                "_compare_gpt_4_vision_sv": "Förbud från och med 2035",
+                "_compare_gemini_1_5_pro_sv": "Förbud från och med 2035",
                 "_compare_mistral_large_sv": "Förbud från 2035",
                 "_compare_claude_3_5_sonnet_sv": "Förbud från 2035",
-                "_compare_claude_3_haiku_sv": "Förbud från 2035",
+                "_compare_llama_3_1_70B_sv": "Förbud från 2035",
                 "_winners_sv": [
                     "Förbud från 2035"
                 ],
@@ -181,6 +306,25 @@
                 ],
                 "_unique_translations_back_sv": [
                     "",
+                    "Verbot ab 2035"
+                ],
+                "_gpt_4_vision_es": "Prohibición a partir de 2035",
+                "_gemini_1_5_pro_es": "Prohibición a partir de 2035 \n",
+                "_claude_3_5_sonnet_es": "Prohibición a partir de 2035",
+                "_mistral_large_es": "Prohibición a partir de 2035",
+                "_llama_3_1_70B_es": "Prohibición a partir de 2035",
+                "_compare_gpt_4_vision_es": "Prohibición a partir de 2035",
+                "_compare_gemini_1_5_pro_es": "Prohibición a partir de 2035",
+                "_compare_mistral_large_es": "Prohibición a partir de 2035",
+                "_compare_claude_3_5_sonnet_es": "Prohibición a partir de 2035",
+                "_compare_llama_3_1_70B_es": "Prohibición a partir de 2035",
+                "_winners_es": [
+                    "Prohibición a partir de 2035"
+                ],
+                "_unique_translations_es": [
+                    "Prohibición a partir de 2035"
+                ],
+                "_unique_translations_back_es": [
                     "Verbot ab 2035"
                 ]
             }
@@ -198,20 +342,41 @@
                 "_claude_3_5_sonnet_sv": "Förbud från 2040",
                 "_claude_3_haiku_sv": "Förbud från 2040",
                 "_mistral_large_sv": "Förbud från och med 2040",
-                "_compare_gpt_4o_sv": "Förbud från och med 2040",
-                "_compare_gemini_1_5_pro_sv": "Förbud från 2040",
+                "_gpt_4_vision_sv": "Förbud från och med 2040",
+                "_llama_3_1_70B_sv": "Förbud från 2040",
+                "_compare_gpt_4_vision_sv": "Förbud från 2040",
+                "_compare_gemini_1_5_pro_sv": "Förbud från och med 2040",
                 "_compare_mistral_large_sv": "Förbud från 2040",
-                "_compare_claude_3_5_sonnet_sv": "Förbud från 2040",
-                "_compare_claude_3_haiku_sv": "Förbud från 2040",
+                "_compare_claude_3_5_sonnet_sv": "Förbud från och med 2040",
+                "_compare_llama_3_1_70B_sv": "Förbud från och med 2040",
                 "_winners_sv": [
-                    "Förbud från 2040"
+                    "Förbud från och med 2040"
                 ],
                 "_unique_translations_sv": [
-                    "Förbud från och med 2040",
-                    "Förbud från 2040"
+                    "Förbud från 2040",
+                    "Förbud från och med 2040"
                 ],
                 "_unique_translations_back_sv": [
                     "",
+                    "Verbot ab 2040"
+                ],
+                "_gpt_4_vision_es": "Prohibición a partir de 2040",
+                "_gemini_1_5_pro_es": "Prohibición a partir de 2040 \n",
+                "_claude_3_5_sonnet_es": "Prohibición a partir de 2040",
+                "_mistral_large_es": "Prohibición a partir de 2040",
+                "_llama_3_1_70B_es": "Prohibición a partir de 2040",
+                "_compare_gpt_4_vision_es": "Prohibición a partir de 2040",
+                "_compare_gemini_1_5_pro_es": "Prohibición a partir de 2040",
+                "_compare_mistral_large_es": "Prohibición a partir de 2040",
+                "_compare_claude_3_5_sonnet_es": "Prohibición a partir de 2040",
+                "_compare_llama_3_1_70B_es": "Prohibición a partir de 2040",
+                "_winners_es": [
+                    "Prohibición a partir de 2040"
+                ],
+                "_unique_translations_es": [
+                    "Prohibición a partir de 2040"
+                ],
+                "_unique_translations_back_es": [
                     "Verbot ab 2040"
                 ]
             }
@@ -229,20 +394,41 @@
                 "_claude_3_5_sonnet_sv": "Förbud från 2045",
                 "_claude_3_haiku_sv": "Förbud från 2045",
                 "_mistral_large_sv": "Förbud från och med 2045",
-                "_compare_gpt_4o_sv": "Förbud från och med 2045",
+                "_gpt_4_vision_sv": "Förbud från och med 2045",
+                "_llama_3_1_70B_sv": "Förbud från 2045",
+                "_compare_gpt_4_vision_sv": "Förbud från och med 2045",
                 "_compare_gemini_1_5_pro_sv": "Förbud från och med 2045",
                 "_compare_mistral_large_sv": "Förbud från 2045",
-                "_compare_claude_3_5_sonnet_sv": "Förbud från och med 2045",
-                "_compare_claude_3_haiku_sv": "Förbud från och med 2045",
+                "_compare_claude_3_5_sonnet_sv": "Förbud från 2045",
+                "_compare_llama_3_1_70B_sv": "Förbud från 2045",
                 "_winners_sv": [
-                    "Förbud från och med 2045"
+                    "Förbud från 2045"
                 ],
                 "_unique_translations_sv": [
-                    "Förbud från 2045",
-                    "Förbud från och med 2045"
+                    "Förbud från och med 2045",
+                    "Förbud från 2045"
                 ],
                 "_unique_translations_back_sv": [
                     "",
+                    "Verbot ab 2045"
+                ],
+                "_gpt_4_vision_es": "Prohibición a partir de 2045",
+                "_gemini_1_5_pro_es": "Prohibición a partir de 2045 \n",
+                "_claude_3_5_sonnet_es": "Prohibición a partir de 2045",
+                "_mistral_large_es": "Prohibición a partir de 2045",
+                "_llama_3_1_70B_es": "Prohibición a partir de 2045",
+                "_compare_gpt_4_vision_es": "Prohibición a partir de 2045",
+                "_compare_gemini_1_5_pro_es": "Prohibición a partir de 2045",
+                "_compare_mistral_large_es": "Prohibición a partir de 2045",
+                "_compare_claude_3_5_sonnet_es": "Prohibición a partir de 2045",
+                "_compare_llama_3_1_70B_es": "Prohibición a partir de 2045",
+                "_winners_es": [
+                    "Prohibición a partir de 2045"
+                ],
+                "_unique_translations_es": [
+                    "Prohibición a partir de 2045"
+                ],
+                "_unique_translations_back_es": [
                     "Verbot ab 2045"
                 ]
             }

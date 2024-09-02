@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-family: verdana, serif;
+            font-size:12px;
+            border: 1px solid white;
+        }
+        th, td {
+            border-bottom:3px solid white;
+            border-right:3px solid white;
+            padding: 15px;
+            text-align: left;
+        }
+        th {
+            background-color: darkgray;
+        }
+        td {
+            background-color: lightgray;
+        }
+        .endtd {
+            border-right: 3px solid darkgray;
+        }
+        .translate {
+            background-color: lightblue;
+        }
+        .back-translate {
+            background-color: lightgrey;
+        }
+        .winner {
+            background-color: lightpink;
+        }
+        .compare {
+            background-color: lightsteelblue;
+        }
+        .source {
+            background-color: palegoldenrod;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                
+                    <th>source text</th>
+                
+                    <th>--- 1 ---</th>
+                
+                    <th></th>
+                
+                    <th>--- 2 ---</th>
+                
+                    <th></th>
+                
+                    <th>--- 3 ---</th>
+                
+                    <th></th>
+                
+                    <th>--- 4 ---</th>
+                
+                    <th></th>
+                
+                    <th>--- 5 ---</th>
+                
+                    <th></th>
+                
+                    <th>Assess (GPT 4 Vision)</th>
+                
+                    <th>Assess (Gemini 1.5 Pro)</th>
+                
+                    <th>Assess (Mistral Large)</th>
+                
+                    <th>Assess (Claude 3.5 Sonnet)</th>
+                
+                    <th>Assess (Llama 3.1 70B)</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            
+                <tr>
+                    <td class="endtd source">Abstimmung über ein Verbot des Verbrennungsmotors in PKW</td>
+                    <td class="winner">Votación sobre la prohibición del motor de combustión en automóviles de pasajeros</td>
+                    <td class="back-translate"><span style = 'color: black;'>  Abstimmung</span> <span style = 'color: black;'>  über</span> <span style = 'color: black;'>  ein</span> <span style = 'color: black;'>  Verbot</span> <span style = 'color: red; font-weight: bold;'> von</span> <span style = 'color: red; font-weight: bold;'> Verbrennungsmotoren</span> <span style = 'color: black;'>  in</span> <span style = 'color: red; font-weight: bold;'> Personenkraftwagen</span></td>
+                    <td class="translate">Votación sobre la prohibición del motor de combustión en automóviles</td>
+                    <td class="back-translate"></td>
+                    <td class="winner">Votación sobre la prohibición del motor de combustión en coches particulares</td>
+                    <td class="back-translate"><span style = 'color: black;'>  Abstimmung</span> <span style = 'color: black;'>  über</span> <span style = 'color: black;'>  ein</span> <span style = 'color: black;'>  Verbot</span> <span style = 'color: red; font-weight: bold;'> von</span> <span style = 'color: red; font-weight: bold;'> Verbrennungsmotoren</span> <span style = 'color: black;'>  in</span> <span style = 'color: red; font-weight: bold;'> Personenkraftwagen</span></td>
+                    <td class="translate">Votación sobre la prohibición de los motores de combustión en turismos.</td>
+                    <td class="back-translate"></td>
+                    <td class="translate">Votación sobre la prohibición de los motores de combustión en automóviles</td>
+                    <td class="endtd back-translate"></td>
+                    <td class="compare">4</td>
+                    <td class="compare">3</td>
+                    <td class="compare">1</td>
+                    <td class="compare">3</td>
+                    <td class="endtd compare">1</td>
+                </tr>
+            
+                <tr>
+                    <td class="endtd source">Eine wesentliche Quelle für Treibhausgasemissionen ist mit 20% der Verkehr durch das Verbrennen fossiler Treibstoffe wie Benzin, Diesel und Gas.
+
+Ein Verbot von PKW mit Verbrennungsmotoren, die ca. 60% Anteil an den Emissionen des Verkehrssektors haben, würde die Emissionen bereits vor Inkrafttreten erheblich reduzieren, weil alle Autohersteller ihre Flotte schon vorher schrittweise umstellen müssten.
+
+</td>
+                    <td class="translate">Una fuente importante de emisiones de gases de efecto invernadero, que representa el 20%, es el transporte mediante la quema de combustibles fósiles como la gasolina, el diésel y el gas.
+
+La prohibición de los turismos con motor de combustión, que representan alrededor del 60% de las emisiones del sector del transporte, reduciría considerablemente las emisiones incluso antes de su entrada en vigor, ya que todos los fabricantes de automóviles tendrían que ir adaptando progresivamente su flota.</td>
+                    <td class="back-translate"></td>
+                    <td class="translate">Una fuente importante de emisiones de gases de efecto invernadero es el transporte, que representa el 20%, a través de la quema de combustibles fósiles como gasolina, diésel y gas.
+
+Una prohibición de vehículos de pasajeros con motores de combustión, que representan aproximadamente el 60% de las emisiones del sector del transporte, reduciría significativamente las emisiones incluso antes de su entrada en vigor, ya que todos los fabricantes de automóviles tendrían que reconvertir gradualmente sus flotas antes de esa fecha.</td>
+                    <td class="back-translate"></td>
+                    <td class="translate">Una fuente importante de emisiones de gases de efecto invernadero, que representa el 20%, es el transporte mediante la quema de combustibles fósiles como la gasolina, el diésel y el gas.
+
+Una prohibición de los automóviles con motores de combustión, que representan aproximadamente el 60% de las emisiones del sector del transporte, reduciría significativamente las emisiones incluso antes de su entrada en vigor, ya que todos los fabricantes de automóviles tendrían que convertir gradualmente sus flotas con antelación.</td>
+                    <td class="back-translate"></td>
+                    <td class="winner">Una fuente importante de emisiones de gases de efecto invernadero, que representa el 20%, es el transporte a través de la quema de combustibles fósiles como la gasolina, el diésel y el gas.
+
+Una prohibición de los automóviles de pasajeros con motores de combustión, que representan aproximadamente el 60% de las emisiones del sector del transporte, reduciría significativamente las emisiones incluso antes de que entre en vigor, porque todos los fabricantes de automóviles tendrían que convertir gradualmente sus flotas con antelación.</td>
+                    <td class="back-translate"><span style = 'color: black;'>  Eine</span> <span style = 'color: red; font-weight: bold;'> bedeutende</span> <span style = 'color: black;'>  Quelle</span> <span style = 'color: red; font-weight: bold;'> von</span> <span style = 'color: red; font-weight: bold;'> Treibhausgasemissionen,</span> <span style = 'color: red; font-weight: bold;'> die</span> <span style = 'color: red; font-weight: bold;'> 20%</span> <span style = 'color: red; font-weight: bold;'> ausmacht,</span> <span style = 'color: black;'>  ist</span> <span style = 'color: black;'>  der</span> <span style = 'color: red; font-weight: bold;'> Transport</span> <span style = 'color: black;'>  durch</span> <span style = 'color: red; font-weight: bold;'> die</span> <span style = 'color: red; font-weight: bold;'> Verbrennung</span> <span style = 'color: black;'>  fossiler</span> <span style = 'color: red; font-weight: bold;'> Brennstoffe</span> <span style = 'color: black;'>  wie</span> <span style = 'color: black;'>  Benzin,</span> <span style = 'color: black;'>  Diesel</span> <span style = 'color: black;'>  und</span> <span style = 'color: black;'>  Gas.</span> <span style = 'color: black;'>  Ein</span> <span style = 'color: black;'>  Verbot</span> <span style = 'color: black;'>  von</span> <span style = 'color: red; font-weight: bold;'> Personenkraftwagen</span> <span style = 'color: black;'>  mit</span> <span style = 'color: black;'>  Verbrennungsmotoren,</span> <span style = 'color: black;'>  die</span> <span style = 'color: red; font-weight: bold;'> etwa</span> <span style = 'color: black;'>  60%</span> <span style = 'color: red; font-weight: bold;'> der</span> <span style = 'color: black;'>  Emissionen</span> <span style = 'color: black;'>  des</span> <span style = 'color: black;'>  Verkehrssektors</span> <span style = 'color: red; font-weight: bold;'> ausmachen,</span> <span style = 'color: black;'>  würde</span> <span style = 'color: black;'>  die</span> <span style = 'color: black;'>  Emissionen</span> <span style = 'color: black;'>  bereits</span> <span style = 'color: black;'>  vor</span> <span style = 'color: red; font-weight: bold;'> seinem</span> <span style = 'color: black;'>  Inkrafttreten</span> <span style = 'color: black;'>  erheblich</span> <span style = 'color: black;'>  reduzieren,</span> <span style = 'color: red; font-weight: bold;'> da</span> <span style = 'color: black;'>  alle</span> <span style = 'color: red; font-weight: bold;'> Automobilhersteller</span> <span style = 'color: black;'>  ihre</span> <span style = 'color: red; font-weight: bold;'> Flotten</span> <span style = 'color: black;'>  schrittweise</span> <span style = 'color: red; font-weight: bold;'> im</span> <span style = 'color: red; font-weight: bold;'> Voraus</span> <span style = 'color: black;'>  umstellen</span> <span style = 'color: black;'>  müssten.</span></td>
+                    <td class="translate">Una fuente significativa de emisiones de gases de efecto invernadero es el transporte a través de la quema de combustibles fósiles como la gasolina, el diesel y el gas, representando el 20%.
+
+Una prohibición de automóviles con motores de combustión, que representan aproximadamente el 60% de las emisiones del sector del transporte, reduciría considerablemente las emisiones incluso antes de su entrada en vigor, ya que todos los fabricantes de automóviles tendrían que ir transformando gradualmente su flota antes.</td>
+                    <td class="endtd back-translate"></td>
+                    <td class="compare">3</td>
+                    <td class="compare">4</td>
+                    <td class="compare">4</td>
+                    <td class="compare">1</td>
+                    <td class="endtd compare">4</td>
+                </tr>
+            
+                <tr>
+                    <td class="endtd source">Kein Verbot</td>
+                    <td class="translate">Ninguna prohibición</td>
+                    <td class="back-translate"></td>
+                    <td class="winner">Sin prohibición</td>
+                    <td class="back-translate"><span style = 'color: black;'>  Kein</span> <span style = 'color: black;'>  Verbot</span></td>
+                    <td class="translate"></td>
+                    <td class="back-translate"></td>
+                    <td class="translate"></td>
+                    <td class="back-translate"></td>
+                    <td class="translate"></td>
+                    <td class="endtd back-translate"></td>
+                    <td class="compare">1</td>
+                    <td class="compare">2</td>
+                    <td class="compare">1</td>
+                    <td class="compare">2</td>
+                    <td class="endtd compare">2</td>
+                </tr>
+            
+                <tr>
+                    <td class="endtd source">Verbot ab 2025</td>
+                    <td class="winner">Prohibición a partir de 2025</td>
+                    <td class="back-translate"><span style = 'color: black;'>  Verbot</span> <span style = 'color: black;'>  ab</span> <span style = 'color: black;'>  2025</span></td>
+                    <td class="translate"></td>
+                    <td class="back-translate"></td>
+                    <td class="translate"></td>
+                    <td class="back-translate"></td>
+                    <td class="translate"></td>
+                    <td class="back-translate"></td>
+                    <td class="translate"></td>
+                    <td class="endtd back-translate"></td>
+                    <td class="compare">1</td>
+                    <td class="compare">1</td>
+                    <td class="compare">1</td>
+                    <td class="compare">1</td>
+                    <td class="endtd compare">1</td>
+                </tr>
+            
+                <tr>
+                    <td class="endtd source">Verbot ab 2030</td>
+                    <td class="winner">Prohibición a partir de 2030</td>
+                    <td class="back-translate"><span style = 'color: black;'>  Verbot</span> <span style = 'color: black;'>  ab</span> <span style = 'color: black;'>  2030</span></td>
+                    <td class="translate"></td>
+                    <td class="back-translate"></td>
+                    <td class="translate"></td>
+                    <td class="back-translate"></td>
+                    <td class="translate"></td>
+                    <td class="back-translate"></td>
+                    <td class="translate"></td>
+                    <td class="endtd back-translate"></td>
+                    <td class="compare">1</td>
+                    <td class="compare">1</td>
+                    <td class="compare">1</td>
+                    <td class="compare">1</td>
+                    <td class="endtd compare">1</td>
+                </tr>
+            
+                <tr>
+                    <td class="endtd source">Verbot ab 2035</td>
+                    <td class="winner">Prohibición a partir de 2035</td>
+                    <td class="back-translate"><span style = 'color: black;'>  Verbot</span> <span style = 'color: black;'>  ab</span> <span style = 'color: black;'>  2035</span></td>
+                    <td class="translate"></td>
+                    <td class="back-translate"></td>
+                    <td class="translate"></td>
+                    <td class="back-translate"></td>
+                    <td class="translate"></td>
+                    <td class="back-translate"></td>
+                    <td class="translate"></td>
+                    <td class="endtd back-translate"></td>
+                    <td class="compare">1</td>
+                    <td class="compare">1</td>
+                    <td class="compare">1</td>
+                    <td class="compare">1</td>
+                    <td class="endtd compare">1</td>
+                </tr>
+            
+                <tr>
+                    <td class="endtd source">Verbot ab 2040</td>
+                    <td class="winner">Prohibición a partir de 2040</td>
+                    <td class="back-translate"><span style = 'color: black;'>  Verbot</span> <span style = 'color: black;'>  ab</span> <span style = 'color: black;'>  2040</span></td>
+                    <td class="translate"></td>
+                    <td class="back-translate"></td>
+                    <td class="translate"></td>
+                    <td class="back-translate"></td>
+                    <td class="translate"></td>
+                    <td class="back-translate"></td>
+                    <td class="translate"></td>
+                    <td class="endtd back-translate"></td>
+                    <td class="compare">1</td>
+                    <td class="compare">1</td>
+                    <td class="compare">1</td>
+                    <td class="compare">1</td>
+                    <td class="endtd compare">1</td>
+                </tr>
+            
+                <tr>
+                    <td class="endtd source">Verbot ab 2045</td>
+                    <td class="winner">Prohibición a partir de 2045</td>
+                    <td class="back-translate"><span style = 'color: black;'>  Verbot</span> <span style = 'color: black;'>  ab</span> <span style = 'color: black;'>  2045</span></td>
+                    <td class="translate"></td>
+                    <td class="back-translate"></td>
+                    <td class="translate"></td>
+                    <td class="back-translate"></td>
+                    <td class="translate"></td>
+                    <td class="back-translate"></td>
+                    <td class="translate"></td>
+                    <td class="endtd back-translate"></td>
+                    <td class="compare">1</td>
+                    <td class="compare">1</td>
+                    <td class="compare">1</td>
+                    <td class="compare">1</td>
+                    <td class="endtd compare">1</td>
+                </tr>
+            
+        </tbody>
+    </table>
+</body>
+</html>
