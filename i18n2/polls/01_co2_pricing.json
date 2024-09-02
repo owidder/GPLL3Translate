@@ -11,21 +11,25 @@
         "_claude_3_5_sonnet_sv": "Omröstning om CO₂-priset",
         "_claude_3_haiku_sv": "Omröstning om CO₂-priset",
         "_mistral_large_sv": "Omröstning om CO₂-priset",
-        "_compare_gpt_4o_sv": "Omröstning om CO₂-priset",
+        "_gpt_4_vision_sv": "Omröstning om CO₂-priset",
+        "_llama_3_1_70B_sv": "Om CO₂-priset",
+        "_compare_gpt_4_vision_sv": "Omröstning om CO₂-priset",
         "_compare_gemini_1_5_pro_sv": "Omröstning om CO₂-priset",
-        "_compare_mistral_large_sv": "Omröstning om CO₂-skatt",
-        "_compare_claude_3_5_sonnet_sv": "Omröstning om CO₂-skatt",
-        "_compare_claude_3_haiku_sv": "Omröstning om CO₂-priset",
+        "_compare_mistral_large_sv": "Omröstning om CO₂-priset",
+        "_compare_claude_3_5_sonnet_sv": "Omröstning om CO₂-priset",
+        "_compare_llama_3_1_70B_sv": "Omröstning om CO₂-skatt",
         "_winners_sv": [
             "Omröstning om CO₂-priset"
         ],
         "_unique_translations_sv": [
-            "Omröstning om CO₂-priset",
-            "Omröstning om CO₂-skatt"
+            "Omröstning om CO₂-skatt",
+            "Om CO₂-priset",
+            "Omröstning om CO₂-priset"
         ],
         "_unique_translations_back_sv": [
-            "Abstimmung über den CO₂-Preis",
-            ""
+            "",
+            "",
+            "Abstimmung über den CO₂-Preis"
         ]
     },
     "description": {
@@ -39,28 +43,29 @@
         "_claude_3_5_sonnet_sv": "Vänligen rösta om utvecklingen av CO₂-skatten.\n<br>\nCO₂-skatten tas ut på fossila bränslen som kol, olja och gas, beroende på deras kolinnehåll.\n<br>\nDenna skatt påverkar priserna på alla varor som antingen direkt eller indirekt använder fossila bränslen eller kräver fossila bränslen för sin produktion.\n<br>\nDen är avsedd att ge incitament till att spara energi och producera varor med låga CO₂-utsläpp.",
         "_claude_3_haiku_sv": "Vänligen rösta om utvecklingen av CO₂-skatten.\n<br>\nCO₂-skatten tas ut på fossila bränslen som kol, olja och gas, beroende på deras kolinnehåll.\n<br>\nDenna skatt påverkar priserna på alla varor som antingen direkt eller indirekt använder fossila bränslen eller kräver fossila bränslen för sin tillverkning.\n<br>\nDen syftar till att ge incitament att spara energi och producera varor med låga CO₂-utsläpp.",
         "_mistral_large_sv": "Vänligen rösta om utvecklingen av CO₂-skatten.\n<br>\nCO₂-skatten tas ut på fossila bränslen som kol, olja och gas, beroende på deras kolinnehåll.\n<br>\nDenna skatt påverkar priserna på alla varor som antingen direkt eller indirekt använder fossila bränslen eller behöver fossila bränslen för sin tillverkning.\n<br>\nDen ska ge ett incitament att spara energi och producera varor med låga CO₂-utsläpp.",
-        "_compare_gpt_4o_sv": "Vänligen rösta om utvecklingen av CO₂-skatten.\n<br>\nCO₂-skatten tas ut på fossila bränslen som kol, olja och gas, beroende på deras kolinnehåll.\n<br>\nDenna skatt påverkar priserna på alla varor som antingen direkt eller indirekt använder fossila bränslen eller kräver fossila bränslen för sin tillverkning.\n<br>\nDen syftar till att ge incitament att spara energi och producera varor med låga CO₂-utsläpp.",
+        "_gpt_4_vision_sv": "Vänligen rösta om utvecklingen av CO₂-skatten.\n<br>\nCO₂-skatten tas ut på de fossila bränslena kol, olja och gas, beroende på deras kolinnehåll.\n<br>\nDenna skatt påverkar priserna på alla varor som antingen direkt eller indirekt använder fossila bränslen eller kräver fossila bränslen för sin produktion.\n<br>\nDen är avsedd att ge ett incitament att spara energi och producera varor med låga CO₂-utsläpp.",
+        "_llama_3_1_70B_sv": "Vänligen rösta om utvecklingen av CO₂-skatten.\n<br>\nCO₂-skatten tas ut på fossila bränslen som kol, olja och gas, beroende på deras kolinnehåll.\n<br>\nDenna skatt påverkar priserna på alla varor som antingen direkt eller indirekt använder fossila bränslen eller kräver fossila bränslen för sin produktion.\n<br>\nDen är avsedd att ge ett incitament att spara energi och producera varor med låga CO₂-utsläpp.",
+        "_compare_gpt_4_vision_sv": "Vänligen rösta om utvecklingen av CO₂-skatten.\n<br>\nCO₂-skatten tas ut på fossila bränslen som kol, olja och gas, beroende på deras kolinnehåll.\n<br>\nDenna skatt påverkar priserna på alla varor som antingen direkt eller indirekt använder fossila bränslen eller kräver fossila bränslen för sin produktion.\n<br>\nDen är avsedd att ge incitament till att spara energi och producera varor med låga CO₂-utsläpp.",
         "_compare_gemini_1_5_pro_sv": "Vänligen rösta om utvecklingen av CO₂-skatten.\n<br>\nCO₂-skatten tas ut på de fossila bränslena kol, olja och gas, beroende på deras kolinnehåll.\n<br>\nDenna skatt påverkar priserna på alla varor som antingen direkt eller indirekt använder fossila bränslen eller kräver fossila bränslen för sin produktion.\n<br>\nDen är avsedd att ge ett incitament att spara energi och producera varor med låga CO₂-utsläpp.",
-        "_compare_mistral_large_sv": "Vänligen rösta om utvecklingen av CO₂-skatten.\n<br>\nCO₂-skatten tas ut på fossila bränslen som kol, olja och gas, beroende på deras kolinnehåll.\n<br>\nDenna skatt påverkar priserna på alla varor som antingen direkt eller indirekt använder fossila bränslen eller kräver fossila bränslen för sin produktion.\n<br>\nDen är avsedd att ge incitament till att spara energi och producera varor med låga CO₂-utsläpp.",
-        "_compare_claude_3_5_sonnet_sv": "Vänligen rösta om utvecklingen av CO₂-skatten.\n<br>\nCO₂-skatten tas ut på de fossila bränslena kol, olja och gas, beroende på deras kolinnehåll.\n<br>\nDenna skatt påverkar priserna på alla varor som antingen direkt eller indirekt använder fossila bränslen eller kräver fossila bränslen för sin produktion.\n<br>\nDen är avsedd att ge ett incitament att spara energi och producera varor med låga CO₂-utsläpp.",
-        "_compare_claude_3_haiku_sv": "Vänligen rösta om utvecklingen av CO₂-skatten.\n<br>\nCO₂-skatten tas ut på fossila bränslen som kol, olja och gas, beroende på deras kolinnehåll.\n<br>\nDenna skatt påverkar priserna på alla varor som antingen direkt eller indirekt använder fossila bränslen eller kräver fossila bränslen för sin tillverkning.\n<br>\nDen syftar till att ge incitament att spara energi och producera varor med låga CO₂-utsläpp.",
+        "_compare_mistral_large_sv": "Vänligen rösta om utvecklingen av CO₂-skatten.\n<br>\nCO₂-skatten tas ut på de fossila bränslena kol, olja och gas, beroende på deras kolinnehåll.\n<br>\nDenna skatt påverkar priserna på alla varor som antingen direkt eller indirekt använder fossila bränslen eller kräver fossila bränslen för sin produktion.\n<br>\nDen är avsedd att ge ett incitament att spara energi och producera varor med låga CO₂-utsläpp.",
+        "_compare_claude_3_5_sonnet_sv": "Vänligen rösta om utvecklingen av CO₂-skatten.\n<br>\nCO₂-skatten tas ut på fossila bränslen som kol, olja och gas, beroende på deras kolinnehåll.\n<br>\nDenna skatt påverkar priserna på alla varor som antingen direkt eller indirekt använder fossila bränslen eller kräver fossila bränslen för sin produktion.\n<br>\nDen är avsedd att ge ett incitament att spara energi och producera varor med låga CO₂-utsläpp.",
+        "_compare_llama_3_1_70B_sv": "Vänligen rösta om utvecklingen av CO₂-skatten.\n<br>\nCO₂-skatten tas ut på de fossila bränslena kol, olja och gas, beroende på deras kolinnehåll.\n<br>\nDenna skatt påverkar priserna på alla varor som antingen direkt eller indirekt använder fossila bränslen eller kräver fossila bränslen för sin produktion.\n<br>\nDen är avsedd att ge ett incitament att spara energi och producera varor med låga CO₂-utsläpp.",
         "_winners_sv": [
-            "Vänligen rösta om utvecklingen av CO₂-skatten.\n<br>\nCO₂-skatten tas ut på fossila bränslen som kol, olja och gas, beroende på deras kolinnehåll.\n<br>\nDenna skatt påverkar priserna på alla varor som antingen direkt eller indirekt använder fossila bränslen eller kräver fossila bränslen för sin tillverkning.\n<br>\nDen syftar till att ge incitament att spara energi och producera varor med låga CO₂-utsläpp.",
             "Vänligen rösta om utvecklingen av CO₂-skatten.\n<br>\nCO₂-skatten tas ut på de fossila bränslena kol, olja och gas, beroende på deras kolinnehåll.\n<br>\nDenna skatt påverkar priserna på alla varor som antingen direkt eller indirekt använder fossila bränslen eller kräver fossila bränslen för sin produktion.\n<br>\nDen är avsedd att ge ett incitament att spara energi och producera varor med låga CO₂-utsläpp."
         ],
         "_unique_translations_sv": [
-            "Vänligen rösta om utvecklingen av CO₂-skatten.\n<br>\nCO₂-skatten tas ut på fossila bränslen som kol, olja och gas, beroende på deras kolinnehåll.\n<br>\nDenna skatt påverkar priserna på alla varor som antingen direkt eller indirekt använder fossila bränslen eller behöver fossila bränslen för sin tillverkning.\n<br>\nDen ska ge ett incitament att spara energi och producera varor med låga CO₂-utsläpp.",
-            "Röst på utvecklingen av koldioxidskatten.\n<br>\nKoldioxidskatten tas ut på fossila bränslen som kol, olja och gas, beroende på deras kolinnehåll.\n<br>\nDenna skatt påverkar priserna på alla varor som antingen direkt eller indirekt använder fossila bränslen eller kräver fossila bränslen för sin tillverkning.\n<br>\nDen är avsedd att ge incitament att spara energi och producera varor med låga koldioxidutsläpp.",
             "Vänligen rösta om utvecklingen av CO₂-skatten.\n<br>\nCO₂-skatten tas ut på de fossila bränslena kol, olja och gas, beroende på deras kolinnehåll.\n<br>\nDenna skatt påverkar priserna på alla varor som antingen direkt eller indirekt använder fossila bränslen eller kräver fossila bränslen för sin produktion.\n<br>\nDen är avsedd att ge ett incitament att spara energi och producera varor med låga CO₂-utsläpp.",
+            "Vänligen rösta om utvecklingen av CO₂-skatten.\n<br>\nCO₂-skatten tas ut på fossila bränslen som kol, olja och gas, beroende på deras kolinnehåll.\n<br>\nDenna skatt påverkar priserna på alla varor som antingen direkt eller indirekt använder fossila bränslen eller kräver fossila bränslen för sin produktion.\n<br>\nDen är avsedd att ge ett incitament att spara energi och producera varor med låga CO₂-utsläpp.",
             "Vänligen rösta om utvecklingen av CO₂-skatten.\n<br>\nCO₂-skatten tas ut på fossila bränslen som kol, olja och gas, beroende på deras kolinnehåll.\n<br>\nDenna skatt påverkar priserna på alla varor som antingen direkt eller indirekt använder fossila bränslen eller kräver fossila bränslen för sin produktion.\n<br>\nDen är avsedd att ge incitament till att spara energi och producera varor med låga CO₂-utsläpp.",
-            "Vänligen rösta om utvecklingen av CO₂-skatten.\n<br>\nCO₂-skatten tas ut på fossila bränslen som kol, olja och gas, beroende på deras kolinnehåll.\n<br>\nDenna skatt påverkar priserna på alla varor som antingen direkt eller indirekt använder fossila bränslen eller kräver fossila bränslen för sin tillverkning.\n<br>\nDen syftar till att ge incitament att spara energi och producera varor med låga CO₂-utsläpp."
+            "Röst på utvecklingen av koldioxidskatten.\n<br>\nKoldioxidskatten tas ut på fossila bränslen som kol, olja och gas, beroende på deras kolinnehåll.\n<br>\nDenna skatt påverkar priserna på alla varor som antingen direkt eller indirekt använder fossila bränslen eller kräver fossila bränslen för sin tillverkning.\n<br>\nDen är avsedd att ge incitament att spara energi och producera varor med låga koldioxidutsläpp.",
+            "Vänligen rösta om utvecklingen av CO₂-skatten.\n<br>\nCO₂-skatten tas ut på fossila bränslen som kol, olja och gas, beroende på deras kolinnehåll.\n<br>\nDenna skatt påverkar priserna på alla varor som antingen direkt eller indirekt använder fossila bränslen eller behöver fossila bränslen för sin tillverkning.\n<br>\nDen ska ge ett incitament att spara energi och producera varor med låga CO₂-utsläpp."
         ],
         "_unique_translations_back_sv": [
+            "Bitte stimmen Sie über die Entwicklung der CO₂-Steuer ab.\n<br>\nDie CO₂-Steuer wird auf die fossilen Brennstoffe Kohle, Öl und Gas erhoben, abhängig von ihrem Kohlenstoffgehalt.\n<br>\nDiese Steuer beeinflusst die Preise aller Waren, die entweder direkt oder indirekt fossile Brennstoffe verwenden oder für ihre Produktion fossile Brennstoffe benötigen.\n<br>\nSie soll einen Anreiz schaffen, Energie zu sparen und Waren mit niedrigen CO₂-Emissionen zu produzieren.",
             "",
             "",
-            "Bitte stimmen Sie über die Entwicklung der CO₂-Steuer ab.\n<br>\nDie CO₂-Steuer wird auf die fossilen Brennstoffe Kohle, Öl und Gas erhoben, abhängig von ihrem Kohlenstoffgehalt.\n<br>\nDiese Steuer beeinflusst die Preise aller Waren, die entweder direkt oder indirekt fossile Brennstoffe verwenden oder fossile Brennstoffe für ihre Produktion benötigen.\n<br>\nSie soll einen Anreiz bieten, Energie zu sparen und Waren mit niedrigen CO₂-Emissionen zu produzieren.",
             "",
-            "Bitte stimmen Sie über die Entwicklung der CO₂-Steuer ab.\n<br>\nDie CO₂-Steuer wird auf fossile Brennstoffe wie Kohle, Öl und Gas erhoben, abhängig von ihrem Kohlenstoffgehalt.\n<br>\nDiese Steuer beeinflusst die Preise aller Waren, die entweder direkt oder indirekt fossile Brennstoffe verwenden oder fossile Brennstoffe für ihre Produktion benötigen.\n<br>\nSie soll Anreize schaffen, Energie zu sparen und Waren mit niedrigen CO₂-Emissionen zu produzieren."
+            ""
         ]
     },
     "multipleChoice": false,
@@ -79,18 +84,20 @@
                 "_claude_3_5_sonnet_sv": "Höja med 25€ per ton",
                 "_claude_3_haiku_sv": "Höj med 25€ per ton",
                 "_mistral_large_sv": "Höj med 25€ per ton (Swedish translation)",
-                "_compare_gpt_4o_sv": "Öka med 25 euro per ton",
-                "_compare_gemini_1_5_pro_sv": "Höja med 25€ per ton",
+                "_gpt_4_vision_sv": "Öka med 25 euro per ton",
+                "_llama_3_1_70B_sv": "Höj med 25€ per ton",
+                "_compare_gpt_4_vision_sv": "Höj med 25€ per ton",
+                "_compare_gemini_1_5_pro_sv": "Höj med 25€ per ton",
                 "_compare_mistral_large_sv": "Höj med 25€ per ton",
                 "_compare_claude_3_5_sonnet_sv": "Höj med 25€ per ton",
-                "_compare_claude_3_haiku_sv": "Höj med 25€ per ton",
+                "_compare_llama_3_1_70B_sv": "Höj med 25€ per ton (Swedish translation)",
                 "_winners_sv": [
                     "Höj med 25€ per ton"
                 ],
                 "_unique_translations_sv": [
-                    "Höja med 25€ per ton",
-                    "Höj med 25€ per ton (Swedish translation)",
                     "Öka med 25 euro per ton",
+                    "Höj med 25€ per ton (Swedish translation)",
+                    "Höja med 25€ per ton",
                     "Höj med 25€ per ton"
                 ],
                 "_unique_translations_back_sv": [
@@ -115,25 +122,25 @@
                 "_claude_3_5_sonnet_sv": "Behåll oförändrad",
                 "_claude_3_haiku_sv": "Lämna som den är",
                 "_mistral_large_sv": "Lämna oförändrat",
-                "_compare_gpt_4o_sv": "Lämna oförändrat",
-                "_compare_gemini_1_5_pro_sv": "Lämna som det är",
+                "_gpt_4_vision_sv": "Oförändrat",
+                "_llama_3_1_70B_sv": "Lämna oförändrat",
+                "_compare_gpt_4_vision_sv": "Lämna oförändrat",
+                "_compare_gemini_1_5_pro_sv": "Lämna oförändrat",
                 "_compare_mistral_large_sv": "Lämna oförändrat",
                 "_compare_claude_3_5_sonnet_sv": "Lämna oförändrat",
-                "_compare_claude_3_haiku_sv": "Lämna som det är",
+                "_compare_llama_3_1_70B_sv": "Behåll oförändrad",
                 "_winners_sv": [
                     "Lämna oförändrat"
                 ],
                 "_unique_translations_sv": [
-                    "Lämna oförändrat",
-                    "Lämna som det är",
-                    "Lämna som den är",
-                    "Behåll oförändrad"
+                    "Oförändrat",
+                    "Behåll oförändrad",
+                    "Lämna oförändrat"
                 ],
                 "_unique_translations_back_sv": [
-                    "Unverändert lassen",
                     "",
                     "",
-                    ""
+                    "Original german: \"Unverändert lassen\""
                 ]
             }
         },
@@ -151,21 +158,21 @@
                 "_claude_3_5_sonnet_sv": "Minska med 25€ per ton",
                 "_claude_3_haiku_sv": "Minska med 25€ per ton",
                 "_mistral_large_sv": "Minska med 25€ per ton",
-                "_compare_gpt_4o_sv": "Minska med 25€ per ton",
-                "_compare_gemini_1_5_pro_sv": "Sänk med 25€ per ton",
+                "_gpt_4_vision_sv": "Minska med 25€ per ton",
+                "_llama_3_1_70B_sv": "Minska med 25€ per ton",
+                "_compare_gpt_4_vision_sv": "Minska med 25€ per ton",
+                "_compare_gemini_1_5_pro_sv": "Minska med 25€ per ton",
                 "_compare_mistral_large_sv": "Minska med 25€ per ton",
-                "_compare_claude_3_5_sonnet_sv": "Sänk med 25€ per ton",
-                "_compare_claude_3_haiku_sv": "Sänk med 25€ per ton",
+                "_compare_claude_3_5_sonnet_sv": "Minska med 25€ per ton",
+                "_compare_llama_3_1_70B_sv": "Minska med 25€ per ton",
                 "_winners_sv": [
-                    "Sänk med 25€ per ton"
+                    "Minska med 25€ per ton"
                 ],
                 "_unique_translations_sv": [
-                    "Minska med 25€ per ton",
-                    "Sänk med 25€ per ton"
+                    "Minska med 25€ per ton"
                 ],
                 "_unique_translations_back_sv": [
-                    "",
-                    "Senken um 25€ pro Tonne"
+                    "Verringern um 25€ pro Tonne"
                 ]
             }
         },
@@ -183,11 +190,13 @@
                 "_claude_3_5_sonnet_sv": "Avstå",
                 "_claude_3_haiku_sv": "Avstå",
                 "_mistral_large_sv": "Avstånd",
-                "_compare_gpt_4o_sv": "Avstå",
+                "_gpt_4_vision_sv": "Avstå",
+                "_llama_3_1_70B_sv": "Avstå",
+                "_compare_gpt_4_vision_sv": "Avstå",
                 "_compare_gemini_1_5_pro_sv": "Avstå",
                 "_compare_mistral_large_sv": "Avstå",
                 "_compare_claude_3_5_sonnet_sv": "Avstå",
-                "_compare_claude_3_haiku_sv": "Avstå",
+                "_compare_llama_3_1_70B_sv": "Avstå",
                 "_winners_sv": [
                     "Avstå"
                 ],
@@ -196,7 +205,7 @@
                     "Avstånd"
                 ],
                 "_unique_translations_back_sv": [
-                    "Enthaltung \n",
+                    "Enthaltung",
                     ""
                 ]
             }
