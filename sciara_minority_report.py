@@ -87,7 +87,10 @@ def create_td(text = "", diff: [str]=[], plusminus="+") -> str:
     return td
 
 
-async def ask_model(system: str, user: str, model: str) -> str:
+async def ask_model(system: str, user: str, model: str, no_of_tries=0) -> str:
+    if no_of_tries > 2:
+        return ""
+
     print(f"ask model: {model}")
     try:
         client = AsyncOpenAI(base_url=OPENAI_BASE_URL)
@@ -120,7 +123,7 @@ async def ask_model(system: str, user: str, model: str) -> str:
             secnum = 1
         print(f"wait for {secnum}")
         time.sleep(secnum)
-        return await ask_model(system, user, model)
+        return await ask_model(system, user, model, no_of_tries=no_of_tries+1)
     except Exception as exc:
         print(f"Exception: {exc}")
         return ""
@@ -129,7 +132,7 @@ async def ask_model(system: str, user: str, model: str) -> str:
         print("No answer!!!! Wait for 1s and try again")
         print("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
         time.sleep(1)
-        return await ask_model(f"{system}\nPLEASE ALWAYS ANSWER WITH A STRING!!!!", user, model)
+        return await ask_model(f"{system}\nPLEASE ALWAYS ANSWER WITH A STRING!!!!", user, model, no_of_tries=no_of_tries+1)
 
     print(f"answer: {answer}")
     return answer
@@ -225,8 +228,11 @@ async def compare_translations(
     print(f"compare_translations for '{source_text}'")
     answer = await ask_model(system=system, user=user, model=model)
     print(f"answer: {answer}")
-    winning_index = int(catch_single_digit(answer))
-    return translations[winning_index - 1]
+    if answer:
+        winning_index = int(catch_single_digit(answer))
+        return normalize_string(translations[winning_index - 1])
+    else:
+        return ""
 
 
 async def get_best_back_translation(
@@ -262,7 +268,7 @@ async def get_best_back_translation(
             file_description=file_description
         ) for model in assess_models
     ]
-    best_translation = find_most_common_strings(best_translations)[0]
+    best_translation = normalize_string(find_most_common_strings(best_translations)[0])
     return best_translation
 
 
@@ -332,7 +338,7 @@ def create_diff_html(target: str, source: str, plusminus="+") -> str:
 
 
 def create_unique_translations(translations: [str], ignored_translation_index=-1) -> [str]:
-    normalized_filtered = [t.strip().strip('\'"') for i, t in enumerate(translations) if i != ignored_translation_index]
+    normalized_filtered = [normalize_string(in_string=t) for i, t in enumerate(translations) if i != ignored_translation_index]
     unique_translations = list(set(normalized_filtered))
     return unique_translations
 
@@ -346,6 +352,15 @@ def delete_key_recursive(data, key_to_delete):
     elif isinstance(data, list):
         for item in data:
             delete_key_recursive(item, key_to_delete)
+
+
+def normalize_string(in_string: str) -> str:
+    norm_with_spaces = in_string.strip().strip('\'"') \
+            .replace("\n", " ") \
+            .replace("<br>", " ") \
+            .rstrip(".")
+    norm = ' '.join(norm_with_spaces.split())
+    return norm
 
 
 async def crawl_json(
@@ -484,7 +499,9 @@ async def crawl_json(
             else:
                 translation_llama_3_1_70B = data[translation_llama_3_1_70B_property]
 
-            translation_list = [translation_gpt_4_vision, translation_gemini_1_5_pro, translation_mistral_large, translation_claude_3_5_sonnet, translation_llama_3_1_70B]
+            translation_list = [
+                t for t in [translation_gpt_4_vision, translation_gemini_1_5_pro, translation_mistral_large, translation_claude_3_5_sonnet, translation_llama_3_1_70B] if t
+            ]
 
             # compare_result_gpt_4o_property = f"_compare_gpt_4o_{target_language}"
             # if not compare_result_gpt_4o_property in data:

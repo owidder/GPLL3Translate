@@ -114,28 +114,6 @@
         "_claude_3_5_sonnet_es": "Por favor, vote sobre el desarrollo del impuesto al CO₂.\n<br>\nEl impuesto al CO₂ se aplica a los combustibles fósiles como el carbón, el petróleo y el gas, dependiendo de su contenido de carbono.\n<br>\nEste impuesto afecta los precios de todos los bienes que utilizan combustibles fósiles directa o indirectamente o que requieren combustibles fósiles para su producción.\n<br>\nSu objetivo es proporcionar un incentivo para ahorrar energía y producir bienes con bajas emisiones de CO₂.",
         "_mistral_large_es": "Por favor, vote sobre el desarrollo del impuesto al CO₂.\n<br>\nEl impuesto al CO₂ se aplica a los combustibles fósiles como el carbón, el petróleo y el gas, dependiendo de su contenido de carbono.\n<br>\nEste impuesto afecta los precios de todos los productos que utilizan directa o indirectamente combustibles fósiles o que necesitan combustibles fósiles para su producción.\n<br>\nDebe proporcionar un incentivo para ahorrar energía y producir bienes con bajas emisiones de CO₂.",
         "_llama_3_1_70B_es": "Por favor, vote sobre el desarrollo del impuesto de CO₂.\n<br>\nEl impuesto de CO₂ se aplica a los combustibles fósiles como el carbón, el petróleo y el gas, dependiendo de su contenido de carbono.\n<br>\nEste impuesto afecta los precios de todos los productos que utilizan directa o indirectamente combustibles fósiles o requieren combustibles fósiles para su producción.\n<br>\nEstá destinado a proporcionar un incentivo para ahorrar energía y producir bienes con bajas emisiones de CO₂.",
-        "_compare_gpt_4_vision_es": "Por favor, vote sobre el desarrollo del impuesto al CO₂.\n<br>\nEl impuesto al CO₂ se aplica a los combustibles fósiles como el carbón, el petróleo y el gas, dependiendo de su contenido de carbono.\n<br>\nEste impuesto afecta los precios de todos los productos que utilizan directa o indirectamente combustibles fósiles o que necesitan combustibles fósiles para su producción.\n<br>\nDebe proporcionar un incentivo para ahorrar energía y producir bienes con bajas emisiones de CO₂.",
-        "_compare_gemini_1_5_pro_es": "Por favor, vote sobre el desarrollo del impuesto al CO₂.\n<br>\nEl impuesto al CO₂ se aplica a los combustibles fósiles como el carbón, el petróleo y el gas, dependiendo de su contenido de carbono.\n<br>\nEste impuesto afecta los precios de todos los bienes que usan directa o indirectamente combustibles fósiles o que requieren de combustibles fósiles para su producción.\n<br>\nSu objetivo es incentivar el ahorro de energía y la producción de bienes con bajas emisiones de CO₂.",
-        "_compare_mistral_large_es": "Por favor, vote sobre el desarrollo del impuesto al CO₂.\n<br>\nEl impuesto al CO₂ se aplica a los combustibles fósiles como el carbón, el petróleo y el gas, dependiendo de su contenido de carbono.\n<br>\nEste impuesto afecta los precios de todos los bienes que usan directa o indirectamente combustibles fósiles o que requieren de combustibles fósiles para su producción.\n<br>\nSu objetivo es incentivar el ahorro de energía y la producción de bienes con bajas emisiones de CO₂.",
-        "_compare_claude_3_5_sonnet_es": "Por favor, vote sobre el desarrollo del impuesto al CO₂.\n<br>\nEl impuesto al CO₂ se aplica a los combustibles fósiles carbón, petróleo y gas, dependiendo de su contenido de carbono.\n<br>\nEste impuesto afecta a los precios de todos los bienes que utilizan combustibles fósiles directa o indirectamente, o que requieren combustibles fósiles para su producción.\n<br>\nSu objetivo es incentivar el ahorro de energía y la producción de bienes con bajas emisiones de CO₂.",
-        "_compare_llama_3_1_70B_es": "Por favor, vote sobre el desarrollo del impuesto al CO₂.\n<br>\nEl impuesto al CO₂ se aplica a los combustibles fósiles como el carbón, el petróleo y el gas, dependiendo de su contenido de carbono.\n<br>\nEste impuesto afecta los precios de todos los bienes que usan directa o indirectamente combustibles fósiles o que requieren de combustibles fósiles para su producción.\n<br>\nSu objetivo es incentivar el ahorro de energía y la producción de bienes con bajas emisiones de CO₂.",
-        "_winners_es": [
-            "Por favor, vote sobre el desarrollo del impuesto al CO₂.\n<br>\nEl impuesto al CO₂ se aplica a los combustibles fósiles como el carbón, el petróleo y el gas, dependiendo de su contenido de carbono.\n<br>\nEste impuesto afecta los precios de todos los bienes que usan directa o indirectamente combustibles fósiles o que requieren de combustibles fósiles para su producción.\n<br>\nSu objetivo es incentivar el ahorro de energía y la producción de bienes con bajas emisiones de CO₂."
-        ],
-        "_unique_translations_es": [
-            "Por favor, vote sobre el desarrollo del impuesto de CO₂.\n<br>\nEl impuesto de CO₂ se aplica a los combustibles fósiles como el carbón, el petróleo y el gas, dependiendo de su contenido de carbono.\n<br>\nEste impuesto afecta los precios de todos los productos que utilizan directa o indirectamente combustibles fósiles o requieren combustibles fósiles para su producción.\n<br>\nEstá destinado a proporcionar un incentivo para ahorrar energía y producir bienes con bajas emisiones de CO₂.",
-            "Por favor, vote sobre el desarrollo del impuesto al CO₂.\n<br>\nEl impuesto al CO₂ se aplica a los combustibles fósiles como el carbón, el petróleo y el gas, dependiendo de su contenido de carbono.\n<br>\nEste impuesto afecta los precios de todos los productos que utilizan directa o indirectamente combustibles fósiles o que necesitan combustibles fósiles para su producción.\n<br>\nDebe proporcionar un incentivo para ahorrar energía y producir bienes con bajas emisiones de CO₂.",
-            "Por favor, vote sobre el desarrollo del impuesto al CO₂.\n<br>\nEl impuesto al CO₂ se aplica a los combustibles fósiles como el carbón, el petróleo y el gas, dependiendo de su contenido de carbono.\n<br>\nEste impuesto afecta los precios de todos los bienes que utilizan combustibles fósiles directa o indirectamente o que requieren combustibles fósiles para su producción.\n<br>\nSu objetivo es proporcionar un incentivo para ahorrar energía y producir bienes con bajas emisiones de CO₂.",
-            "Por favor, vote sobre el desarrollo del impuesto al CO₂.\n<br>\nEl impuesto al CO₂ se aplica a los combustibles fósiles carbón, petróleo y gas, dependiendo de su contenido de carbono.\n<br>\nEste impuesto afecta a los precios de todos los bienes que utilizan combustibles fósiles directa o indirectamente, o que requieren combustibles fósiles para su producción.\n<br>\nSu objetivo es incentivar el ahorro de energía y la producción de bienes con bajas emisiones de CO₂.",
-            "Por favor, vote sobre el desarrollo del impuesto al CO₂.\n<br>\nEl impuesto al CO₂ se aplica a los combustibles fósiles como el carbón, el petróleo y el gas, dependiendo de su contenido de carbono.\n<br>\nEste impuesto afecta los precios de todos los bienes que usan directa o indirectamente combustibles fósiles o que requieren de combustibles fósiles para su producción.\n<br>\nSu objetivo es incentivar el ahorro de energía y la producción de bienes con bajas emisiones de CO₂."
-        ],
-        "_unique_translations_back_es": [
-            "",
-            "",
-            "",
-            "",
-            "Bitte stimmen Sie über die Entwicklung der CO₂-Steuer ab.\n<br>\nDie CO₂-Steuer wird auf fossile Brennstoffe wie Kohle, Öl und Gas erhoben, abhängig von ihrem Kohlenstoffgehalt.\n<br>\nDiese Steuer beeinflusst die Preise aller Waren, die entweder direkt oder indirekt fossile Brennstoffe verwenden oder für ihre Produktion fossile Brennstoffe benötigen.\n<br>\nSie soll einen Anreiz schaffen, Energie zu sparen und Waren mit niedrigen CO₂-Emissionen zu produzieren."
-        ],
         "_gpt_4_vision_nl": "Stem alstublieft over de ontwikkeling van de CO₂-belasting.\n<br>\nDe CO₂-belasting wordt geheven op de fossiele brandstoffen kolen, olie en gas, afhankelijk van hun koolstofgehalte.\n<br>\nDeze belasting beïnvloedt de prijzen van alle goederen die direct of indirect fossiele brandstoffen gebruiken of fossiele brandstoffen nodig hebben voor hun productie.\n<br>\nHet is bedoeld om een stimulans te bieden om energie te besparen en goederen te produceren met lage CO₂-uitstoot.",
         "_gemini_1_5_pro_nl": "Stem alstublieft over de ontwikkeling van de CO₂-belasting.\n<br>\nDe CO₂-belasting wordt geheven op de fossiele brandstoffen kolen, olie en gas, afhankelijk van hun koolstofgehalte.\n<br>\nDeze belasting heeft invloed op de prijzen van alle goederen die direct of indirect fossiele brandstoffen gebruiken of waarvoor fossiele brandstoffen nodig zijn voor de productie.\n<br>\nHet is bedoeld als stimulans om energie te besparen en goederen met lage CO₂-emissies te produceren. \n",
         "_claude_3_5_sonnet_nl": "Stem alstublieft over de ontwikkeling van de CO₂-belasting.\n<br>\nDe CO₂-belasting wordt geheven op fossiele brandstoffen zoals kolen, olie en gas, afhankelijk van hun koolstofgehalte.\n<br>\nDeze belasting beïnvloedt de prijzen van alle goederen die direct of indirect fossiele brandstoffen gebruiken of fossiele brandstoffen nodig hebben voor hun productie.\n<br>\nHet is bedoeld om een stimulans te geven om energie te besparen en goederen te produceren met lage CO₂-uitstoot.",
@@ -162,6 +140,28 @@
             "",
             "",
             ""
+        ],
+        "_unique_translations_es": [
+            "Por favor, vote sobre el desarrollo del impuesto al CO₂. El impuesto al CO₂ se aplica a los combustibles fósiles como el carbón, el petróleo y el gas, dependiendo de su contenido de carbono. Este impuesto afecta los precios de todos los productos que utilizan directa o indirectamente combustibles fósiles o que necesitan combustibles fósiles para su producción. Debe proporcionar un incentivo para ahorrar energía y producir bienes con bajas emisiones de CO₂",
+            "Por favor, vote sobre el desarrollo del impuesto al CO₂. El impuesto al CO₂ se aplica a los combustibles fósiles carbón, petróleo y gas, dependiendo de su contenido de carbono. Este impuesto afecta a los precios de todos los bienes que utilizan combustibles fósiles directa o indirectamente, o que requieren combustibles fósiles para su producción. Su objetivo es incentivar el ahorro de energía y la producción de bienes con bajas emisiones de CO₂",
+            "Por favor, vote sobre el desarrollo del impuesto al CO₂. El impuesto al CO₂ se aplica a los combustibles fósiles como el carbón, el petróleo y el gas, dependiendo de su contenido de carbono. Este impuesto afecta los precios de todos los bienes que utilizan combustibles fósiles directa o indirectamente o que requieren combustibles fósiles para su producción. Su objetivo es proporcionar un incentivo para ahorrar energía y producir bienes con bajas emisiones de CO₂",
+            "Por favor, vote sobre el desarrollo del impuesto de CO₂. El impuesto de CO₂ se aplica a los combustibles fósiles como el carbón, el petróleo y el gas, dependiendo de su contenido de carbono. Este impuesto afecta los precios de todos los productos que utilizan directa o indirectamente combustibles fósiles o requieren combustibles fósiles para su producción. Está destinado a proporcionar un incentivo para ahorrar energía y producir bienes con bajas emisiones de CO₂",
+            "Por favor, vote sobre el desarrollo del impuesto al CO₂. El impuesto al CO₂ se aplica a los combustibles fósiles como el carbón, el petróleo y el gas, dependiendo de su contenido de carbono. Este impuesto afecta los precios de todos los bienes que usan directa o indirectamente combustibles fósiles o que requieren de combustibles fósiles para su producción. Su objetivo es incentivar el ahorro de energía y la producción de bienes con bajas emisiones de CO₂"
+        ],
+        "_compare_gpt_4_vision_es": "Por favor, vote sobre el desarrollo del impuesto al CO₂. El impuesto al CO₂ se aplica a los combustibles fósiles como el carbón, el petróleo y el gas, dependiendo de su contenido de carbono. Este impuesto afecta los precios de todos los productos que utilizan directa o indirectamente combustibles fósiles o que necesitan combustibles fósiles para su producción. Debe proporcionar un incentivo para ahorrar energía y producir bienes con bajas emisiones de CO₂",
+        "_compare_gemini_1_5_pro_es": "Por favor, vote sobre el desarrollo del impuesto al CO₂. El impuesto al CO₂ se aplica a los combustibles fósiles como el carbón, el petróleo y el gas, dependiendo de su contenido de carbono. Este impuesto afecta los precios de todos los bienes que usan directa o indirectamente combustibles fósiles o que requieren de combustibles fósiles para su producción. Su objetivo es incentivar el ahorro de energía y la producción de bienes con bajas emisiones de CO₂",
+        "_compare_mistral_large_es": "Por favor, vote sobre el desarrollo del impuesto al CO₂. El impuesto al CO₂ se aplica a los combustibles fósiles como el carbón, el petróleo y el gas, dependiendo de su contenido de carbono. Este impuesto afecta los precios de todos los bienes que usan directa o indirectamente combustibles fósiles o que requieren de combustibles fósiles para su producción. Su objetivo es incentivar el ahorro de energía y la producción de bienes con bajas emisiones de CO₂",
+        "_compare_claude_3_5_sonnet_es": "Por favor, vote sobre el desarrollo del impuesto al CO₂. El impuesto al CO₂ se aplica a los combustibles fósiles como el carbón, el petróleo y el gas, dependiendo de su contenido de carbono. Este impuesto afecta los precios de todos los bienes que usan directa o indirectamente combustibles fósiles o que requieren de combustibles fósiles para su producción. Su objetivo es incentivar el ahorro de energía y la producción de bienes con bajas emisiones de CO₂",
+        "_compare_llama_3_1_70B_es": "Por favor, vote sobre el desarrollo del impuesto al CO₂. El impuesto al CO₂ se aplica a los combustibles fósiles como el carbón, el petróleo y el gas, dependiendo de su contenido de carbono. Este impuesto afecta los precios de todos los bienes que usan directa o indirectamente combustibles fósiles o que requieren de combustibles fósiles para su producción. Su objetivo es incentivar el ahorro de energía y la producción de bienes con bajas emisiones de CO₂",
+        "_winners_es": [
+            "Por favor, vote sobre el desarrollo del impuesto al CO₂. El impuesto al CO₂ se aplica a los combustibles fósiles como el carbón, el petróleo y el gas, dependiendo de su contenido de carbono. Este impuesto afecta los precios de todos los bienes que usan directa o indirectamente combustibles fósiles o que requieren de combustibles fósiles para su producción. Su objetivo es incentivar el ahorro de energía y la producción de bienes con bajas emisiones de CO₂"
+        ],
+        "_unique_translations_back_es": [
+            "",
+            "",
+            "",
+            "",
+            "Bitte stimmen Sie über die Entwicklung der CO₂-Steuer ab. Die CO₂-Steuer wird auf die fossilen Brennstoffe wie Kohle, Öl und Gas erhoben, abhängig von ihrem Kohlenstoffgehalt. Diese Steuer beeinflusst die Preise aller Waren, die entweder direkt oder indirekt fossile Brennstoffe verwenden oder für ihre Produktion fossile Brennstoffe benötigen. Sie soll einen Anreiz schaffen, Energie zu sparen und Waren mit niedrigen CO₂-Emissionen zu produzieren."
         ]
     },
     "multipleChoice": false,
@@ -301,7 +301,7 @@
                 ],
                 "_unique_translations_back_es": [
                     "",
-                    "Unverändert lassen.",
+                    "Unverändert lassen",
                     "",
                     ""
                 ],
@@ -310,24 +310,21 @@
                 "_claude_3_5_sonnet_nl": "Ongewijzigd laten",
                 "_mistral_large_nl": "Ongewijzigd laten",
                 "_llama_3_1_70B_nl": "Onveranderd laten",
-                "_compare_gpt_4_vision_nl": "Onveranderd laten.",
+                "_compare_gpt_4_vision_nl": "Ongewijzigd laten",
                 "_compare_gemini_1_5_pro_nl": "Onveranderd laten",
-                "_compare_mistral_large_nl": "Ongewijzigd laten",
+                "_compare_mistral_large_nl": "Onveranderd laten",
                 "_compare_claude_3_5_sonnet_nl": "Onveranderd laten",
-                "_compare_llama_3_1_70B_nl": "Onveranderd laten.",
+                "_compare_llama_3_1_70B_nl": "Onveranderd laten",
                 "_winners_nl": [
-                    "Onveranderd laten.",
                     "Onveranderd laten"
                 ],
                 "_unique_translations_nl": [
                     "Ongewijzigd laten",
-                    "Onveranderd laten.",
                     "Onveranderd laten"
                 ],
                 "_unique_translations_back_nl": [
                     "",
-                    "Unverändert lassen.",
-                    "Unverändert lassen."
+                    "Unverändert lassen"
                 ]
             }
         },
@@ -366,24 +363,6 @@
                 "_claude_3_5_sonnet_es": "Reducir en 25€ por tonelada",
                 "_mistral_large_es": "Disminuir en 25€ por tonelada",
                 "_llama_3_1_70B_es": "Reducir en 25€ por tonelada",
-                "_compare_gpt_4_vision_es": "Reducir en 25€ por tonelada",
-                "_compare_gemini_1_5_pro_es": "Reducir en 25€ por tonelada",
-                "_compare_mistral_large_es": "Reducir en 25€ por tonelada",
-                "_compare_claude_3_5_sonnet_es": "Reducir en 25€ por tonelada",
-                "_compare_llama_3_1_70B_es": "Disminuir en 25€ por tonelada",
-                "_winners_es": [
-                    "Reducir en 25€ por tonelada"
-                ],
-                "_unique_translations_es": [
-                    "Reducir en 25€ por tonelada",
-                    "Reducir en 25€ por tonelada.",
-                    "Disminuir en 25€ por tonelada"
-                ],
-                "_unique_translations_back_es": [
-                    "Verringern um 25€ pro Tonne",
-                    "",
-                    ""
-                ],
                 "_gpt_4_vision_nl": "Verminderen met 25€ per ton",
                 "_gemini_1_5_pro_nl": "Verlagen met 25€ per ton",
                 "_claude_3_5_sonnet_nl": "Verlagen met 25€ per ton",
@@ -404,6 +383,22 @@
                 "_unique_translations_back_nl": [
                     "",
                     "Verringern um 25€ pro Tonne"
+                ],
+                "_compare_gpt_4_vision_es": "Disminuir en 25€ por tonelada",
+                "_compare_gemini_1_5_pro_es": "Disminuir en 25€ por tonelada",
+                "_compare_mistral_large_es": "Disminuir en 25€ por tonelada",
+                "_compare_claude_3_5_sonnet_es": "Disminuir en 25€ por tonelada",
+                "_compare_llama_3_1_70B_es": "Disminuir en 25€ por tonelada",
+                "_winners_es": [
+                    "Disminuir en 25€ por tonelada"
+                ],
+                "_unique_translations_es": [
+                    "Disminuir en 25€ por tonelada",
+                    "Reducir en 25€ por tonelada"
+                ],
+                "_unique_translations_back_es": [
+                    "Verringern um 25€ pro Tonne",
+                    ""
                 ]
             }
         },
@@ -444,22 +439,6 @@
                 "_claude_3_5_sonnet_es": "Abstención",
                 "_mistral_large_es": "Abstención",
                 "_llama_3_1_70B_es": "Abstención",
-                "_compare_gpt_4_vision_es": "Abstención.",
-                "_compare_gemini_1_5_pro_es": "Abstención",
-                "_compare_mistral_large_es": "Abstención.",
-                "_compare_claude_3_5_sonnet_es": "Abstención",
-                "_compare_llama_3_1_70B_es": "Abstención.",
-                "_winners_es": [
-                    "Abstención."
-                ],
-                "_unique_translations_es": [
-                    "Abstención.",
-                    "Abstención"
-                ],
-                "_unique_translations_back_es": [
-                    "Enthaltung.",
-                    ""
-                ],
                 "_gpt_4_vision_nl": "Onthouding",
                 "_gemini_1_5_pro_nl": "Onthouding",
                 "_claude_3_5_sonnet_nl": "Onthouding",
@@ -477,6 +456,20 @@
                     "Onthouding"
                 ],
                 "_unique_translations_back_nl": [
+                    "Enthaltung"
+                ],
+                "_compare_gpt_4_vision_es": "Abstención",
+                "_compare_gemini_1_5_pro_es": "Abstención",
+                "_compare_mistral_large_es": "Abstención",
+                "_compare_claude_3_5_sonnet_es": "Abstención",
+                "_compare_llama_3_1_70B_es": "Abstención",
+                "_winners_es": [
+                    "Abstención"
+                ],
+                "_unique_translations_es": [
+                    "Abstención"
+                ],
+                "_unique_translations_back_es": [
                     "Enthaltung"
                 ]
             }
