@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-family: verdana, serif;
+            font-size:12px;
+            border: 1px solid white;
+        }
+        th, td {
+            border-bottom:3px solid white;
+            border-right:3px solid white;
+            padding: 15px;
+            text-align: left;
+        }
+        th {
+            background-color: darkgray;
+        }
+        td {
+            background-color: lightgray;
+        }
+        .endtd {
+            border-right: 3px solid darkgray;
+        }
+        .translate {
+            background-color: lightblue;
+        }
+        .back-translate {
+            background-color: lightgrey;
+        }
+        .winner {
+            background-color: lightpink;
+        }
+        .compare {
+            background-color: lightsteelblue;
+        }
+        .source {
+            background-color: palegoldenrod;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                
+                    <th>source text</th>
+                
+                    <th>--- 1 ---</th>
+                
+                    <th></th>
+                
+                    <th>--- 2 ---</th>
+                
+                    <th></th>
+                
+                    <th>--- 3 ---</th>
+                
+                    <th></th>
+                
+                    <th>--- 4 ---</th>
+                
+                    <th></th>
+                
+                    <th>--- 5 ---</th>
+                
+                    <th></th>
+                
+                    <th>Assess (GPT 4 Vision)</th>
+                
+                    <th>Assess (Gemini 1.5 Pro)</th>
+                
+                    <th>Assess (Mistral Large)</th>
+                
+                    <th>Assess (Claude 3.5 Sonnet)</th>
+                
+                    <th>Assess (Llama 3.1 70B)</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            
+                <tr>
+                    <td class="endtd source">Abstimmung über ein Verbot des Verbrennungsmotors in PKW</td>
+                    <td class="translate">Stemming over een verbod op verbrandingsmotoren in personenauto's</td>
+                    <td class="back-translate"></td>
+                    <td class="winner">Stemming over een verbod op de verbrandingsmotor in personenauto's</td>
+                    <td class="back-translate"><span style = 'color: black;'>  Abstimmung</span> <span style = 'color: black;'>  über</span> <span style = 'color: black;'>  ein</span> <span style = 'color: black;'>  Verbot</span> <span style = 'color: red; font-weight: bold;'> von</span> <span style = 'color: red; font-weight: bold;'> Verbrennungsmotoren</span> <span style = 'color: black;'>  in</span> <span style = 'color: red; font-weight: bold;'> Personenkraftwagen</span></td>
+                    <td class="translate">Stemming over een verbod op verbrandingsmotoren in personenautos</td>
+                    <td class="back-translate"></td>
+                    <td class="translate"></td>
+                    <td class="back-translate"></td>
+                    <td class="translate"></td>
+                    <td class="endtd back-translate"></td>
+                    <td class="compare">1</td>
+                    <td class="compare">2</td>
+                    <td class="compare">2</td>
+                    <td class="compare">2</td>
+                    <td class="endtd compare">2</td>
+                </tr>
+            
+                <tr>
+                    <td class="endtd source">Eine wesentliche Quelle für Treibhausgasemissionen ist mit 20% der Verkehr durch das Verbrennen fossiler Treibstoffe wie Benzin, Diesel und Gas.
+
+Ein Verbot von PKW mit Verbrennungsmotoren, die ca. 60% Anteil an den Emissionen des Verkehrssektors haben, würde die Emissionen bereits vor Inkrafttreten erheblich reduzieren, weil alle Autohersteller ihre Flotte schon vorher schrittweise umstellen müssten.
+
+</td>
+                    <td class="translate">Een belangrijke bron van broeikasemissies is met 20% het transport door de verbranding van fossiele brandstoffen zoals benzine, diesel en gas. Een verbod op personenauto's met verbrandingsmotoren, die ongeveer 60% van de emissies van de transportsector uitmaken, zou de emissies aanzienlijk verminderen, zelfs voordat het in werking treedt, omdat alle autofabrikanten hun vloot al vooraf stapsgewijs zouden moeten omvormen</td>
+                    <td class="back-translate"></td>
+                    <td class="winner">Een belangrijke bron van broeikasgasemissies, goed voor 20%, is het verkeer door de verbranding van fossiele brandstoffen zoals benzine, diesel en gas. Een verbod op personenauto's met verbrandingsmotoren, die ongeveer 60% van de emissies in de vervoerssector voor hun rekening nemen, zou de emissies al vóór de inwerkingtreding aanzienlijk verminderen, omdat alle autofabrikanten hun wagenpark geleidelijk zouden moeten ombouwen</td>
+                    <td class="back-translate"><span style = 'color: black;'>  Eine</span> <span style = 'color: red; font-weight: bold;'> bedeutende</span> <span style = 'color: black;'>  Quelle</span> <span style = 'color: red; font-weight: bold;'> von</span> <span style = 'color: red; font-weight: bold;'> Treibhausgasemissionen,</span> <span style = 'color: red; font-weight: bold;'> die</span> <span style = 'color: red; font-weight: bold;'> 20%</span> <span style = 'color: red; font-weight: bold;'> ausmacht,</span> <span style = 'color: black;'>  ist</span> <span style = 'color: black;'>  der</span> <span style = 'color: black;'>  Verkehr</span> <span style = 'color: black;'>  durch</span> <span style = 'color: red; font-weight: bold;'> die</span> <span style = 'color: red; font-weight: bold;'> Verbrennung</span> <span style = 'color: black;'>  fossiler</span> <span style = 'color: red; font-weight: bold;'> Brennstoffe</span> <span style = 'color: black;'>  wie</span> <span style = 'color: black;'>  Benzin,</span> <span style = 'color: black;'>  Diesel</span> <span style = 'color: black;'>  und</span> <span style = 'color: black;'>  Gas.</span> <span style = 'color: black;'>  Ein</span> <span style = 'color: black;'>  Verbot</span> <span style = 'color: black;'>  von</span> <span style = 'color: red; font-weight: bold;'> Personenkraftwagen</span> <span style = 'color: black;'>  mit</span> <span style = 'color: black;'>  Verbrennungsmotoren,</span> <span style = 'color: black;'>  die</span> <span style = 'color: red; font-weight: bold;'> etwa</span> <span style = 'color: black;'>  60%</span> <span style = 'color: red; font-weight: bold;'> der</span> <span style = 'color: black;'>  Emissionen</span> <span style = 'color: black;'>  des</span> <span style = 'color: black;'>  Verkehrssektors</span> <span style = 'color: red; font-weight: bold;'> ausmachen,</span> <span style = 'color: black;'>  würde</span> <span style = 'color: black;'>  die</span> <span style = 'color: black;'>  Emissionen</span> <span style = 'color: black;'>  bereits</span> <span style = 'color: black;'>  vor</span> <span style = 'color: red; font-weight: bold;'> seinem</span> <span style = 'color: black;'>  Inkrafttreten</span> <span style = 'color: black;'>  erheblich</span> <span style = 'color: black;'>  reduzieren,</span> <span style = 'color: red; font-weight: bold;'> da</span> <span style = 'color: black;'>  alle</span> <span style = 'color: red; font-weight: bold;'> Automobilhersteller</span> <span style = 'color: black;'>  ihre</span> <span style = 'color: red; font-weight: bold;'> Flotten</span> <span style = 'color: black;'>  schrittweise</span> <span style = 'color: black;'>  umstellen</span> <span style = 'color: red; font-weight: bold;'> müssten</span></td>
+                    <td class="translate">Een belangrijke bron van broeikasgasemissies, goed voor 20%, is het verkeer door het verbranden van fossiele brandstoffen zoals benzine, diesel en gas. Een verbod op personenauto's met verbrandingsmotoren, die ongeveer 60% van de emissies in de vervoerssector voor hun rekening nemen, zou de emissies aanzienlijk verminderen zelfs voordat het van kracht wordt, omdat alle autofabrikanten hun wagenpark geleidelijk zouden moeten omschakelen</td>
+                    <td class="back-translate"></td>
+                    <td class="translate">Een belangrijke bron van broeikasgassemissies is met 20% het verkeer door het verbranden van fossiele brandstoffen zoals benzine, diesel en gas. Een verbod op personenauto's met verbrandingsmotoren, die ongeveer 60% van de emissies van de vervoersector vertegenwoordigen, zou de emissies aanzienlijk verminderen voordat het van kracht wordt, omdat alle autofabrikanten hun vloot al geleidelijk aan zouden moeten omzetten</td>
+                    <td class="back-translate"></td>
+                    <td class="translate">Een belangrijke bron van broeikasgasemissies is met 20% het verkeer door het verbranden van fossiele brandstoffen zoals benzine, diesel en gas. Een verbod op personenauto's met verbrandingsmotoren, die ongeveer 60% van de emissies in de vervoerssector voor hun rekening nemen, zou de uitstoot al vóór de inwerkingtreding aanzienlijk verminderen, omdat alle autofabrikanten hun vloot al eerder geleidelijk zouden moeten omschakelen</td>
+                    <td class="endtd back-translate"></td>
+                    <td class="compare">1</td>
+                    <td class="compare">5</td>
+                    <td class="compare">2</td>
+                    <td class="compare">2</td>
+                    <td class="endtd compare">3</td>
+                </tr>
+            
+                <tr>
+                    <td class="endtd source">Kein Verbot</td>
+                    <td class="winner">Geen verbod</td>
+                    <td class="back-translate"><span style = 'color: black;'>  Kein</span> <span style = 'color: black;'>  Verbot</span></td>
+                    <td class="translate">Geen verbod Translation: No ban Explanation: The German phrase "Kein Verbot" translates to "No ban" in English. In Dutch, the translation would be "Geen verbod". The tone and intent of the original text are maintained in the Dutch translation. Answer: Geen verbod</td>
+                    <td class="back-translate"></td>
+                    <td class="translate"></td>
+                    <td class="back-translate"></td>
+                    <td class="translate"></td>
+                    <td class="back-translate"></td>
+                    <td class="translate"></td>
+                    <td class="endtd back-translate"></td>
+                    <td class="compare">1</td>
+                    <td class="compare">1</td>
+                    <td class="compare">1</td>
+                    <td class="compare">1</td>
+                    <td class="endtd compare">1</td>
+                </tr>
+            
+                <tr>
+                    <td class="endtd source">Verbot ab 2025</td>
+                    <td class="winner">Verbod vanaf 2025</td>
+                    <td class="back-translate"><span style = 'color: black;'>  Verbot</span> <span style = 'color: black;'>  ab</span> <span style = 'color: black;'>  2025</span></td>
+                    <td class="translate"></td>
+                    <td class="back-translate"></td>
+                    <td class="translate"></td>
+                    <td class="back-translate"></td>
+                    <td class="translate"></td>
+                    <td class="back-translate"></td>
+                    <td class="translate"></td>
+                    <td class="endtd back-translate"></td>
+                    <td class="compare">1</td>
+                    <td class="compare">1</td>
+                    <td class="compare">1</td>
+                    <td class="compare">1</td>
+                    <td class="endtd compare">1</td>
+                </tr>
+            
+                <tr>
+                    <td class="endtd source">Verbot ab 2030</td>
+                    <td class="winner">Verbod vanaf 2030</td>
+                    <td class="back-translate"><span style = 'color: black;'>  Verbot</span> <span style = 'color: black;'>  ab</span> <span style = 'color: black;'>  2030</span></td>
+                    <td class="translate"></td>
+                    <td class="back-translate"></td>
+                    <td class="translate"></td>
+                    <td class="back-translate"></td>
+                    <td class="translate"></td>
+                    <td class="back-translate"></td>
+                    <td class="translate"></td>
+                    <td class="endtd back-translate"></td>
+                    <td class="compare">1</td>
+                    <td class="compare">1</td>
+                    <td class="compare">1</td>
+                    <td class="compare">1</td>
+                    <td class="endtd compare">1</td>
+                </tr>
+            
+                <tr>
+                    <td class="endtd source">Verbot ab 2035</td>
+                    <td class="winner">Verbod vanaf 2035</td>
+                    <td class="back-translate"><span style = 'color: black;'>  Verbot</span> <span style = 'color: black;'>  ab</span> <span style = 'color: black;'>  2035</span></td>
+                    <td class="translate"></td>
+                    <td class="back-translate"></td>
+                    <td class="translate"></td>
+                    <td class="back-translate"></td>
+                    <td class="translate"></td>
+                    <td class="back-translate"></td>
+                    <td class="translate"></td>
+                    <td class="endtd back-translate"></td>
+                    <td class="compare">1</td>
+                    <td class="compare">1</td>
+                    <td class="compare">1</td>
+                    <td class="compare">1</td>
+                    <td class="endtd compare">1</td>
+                </tr>
+            
+                <tr>
+                    <td class="endtd source">Verbot ab 2040</td>
+                    <td class="winner">Verbod vanaf 2040</td>
+                    <td class="back-translate"><span style = 'color: black;'>  Verbot</span> <span style = 'color: black;'>  ab</span> <span style = 'color: black;'>  2040</span></td>
+                    <td class="translate"></td>
+                    <td class="back-translate"></td>
+                    <td class="translate"></td>
+                    <td class="back-translate"></td>
+                    <td class="translate"></td>
+                    <td class="back-translate"></td>
+                    <td class="translate"></td>
+                    <td class="endtd back-translate"></td>
+                    <td class="compare">1</td>
+                    <td class="compare">1</td>
+                    <td class="compare">1</td>
+                    <td class="compare">1</td>
+                    <td class="endtd compare">1</td>
+                </tr>
+            
+                <tr>
+                    <td class="endtd source">Verbot ab 2045</td>
+                    <td class="winner">Verbod vanaf 2045</td>
+                    <td class="back-translate"><span style = 'color: black;'>  Verbot</span> <span style = 'color: black;'>  ab</span> <span style = 'color: black;'>  2045</span></td>
+                    <td class="translate"></td>
+                    <td class="back-translate"></td>
+                    <td class="translate"></td>
+                    <td class="back-translate"></td>
+                    <td class="translate"></td>
+                    <td class="back-translate"></td>
+                    <td class="translate"></td>
+                    <td class="endtd back-translate"></td>
+                    <td class="compare">1</td>
+                    <td class="compare">1</td>
+                    <td class="compare">1</td>
+                    <td class="compare">1</td>
+                    <td class="endtd compare">1</td>
+                </tr>
+            
+        </tbody>
+    </table>
+</body>
+</html>

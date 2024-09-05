@@ -55,6 +55,29 @@
             "Abstimmung über ein Verbot von Verbrennungsmotoren in Personenkraftwagen \n",
             "",
             ""
+        ],
+        "_gpt_4_vision_nl": "Stemming over een verbod op verbrandingsmotoren in personenauto's",
+        "_gemini_1_5_pro_nl": "Stemming over een verbod op de verbrandingsmotor in personenauto's. \n",
+        "_claude_3_5_sonnet_nl": "Stemming over een verbod op verbrandingsmotoren in personenauto's",
+        "_mistral_large_nl": "Stemming over een verbod op verbrandingsmotoren in personenautos",
+        "_llama_3_1_70B_nl": "Stemming over een verbod op de verbrandingsmotor in personenauto's",
+        "_compare_gpt_4_vision_nl": "Stemming over een verbod op verbrandingsmotoren in personenauto's",
+        "_compare_gemini_1_5_pro_nl": "Stemming over een verbod op de verbrandingsmotor in personenauto's",
+        "_compare_mistral_large_nl": "Stemming over een verbod op de verbrandingsmotor in personenauto's",
+        "_compare_claude_3_5_sonnet_nl": "Stemming over een verbod op de verbrandingsmotor in personenauto's",
+        "_compare_llama_3_1_70B_nl": "Stemming over een verbod op de verbrandingsmotor in personenauto's",
+        "_winners_nl": [
+            "Stemming over een verbod op de verbrandingsmotor in personenauto's"
+        ],
+        "_unique_translations_nl": [
+            "Stemming over een verbod op verbrandingsmotoren in personenauto's",
+            "Stemming over een verbod op de verbrandingsmotor in personenauto's",
+            "Stemming over een verbod op verbrandingsmotoren in personenautos"
+        ],
+        "_unique_translations_back_nl": [
+            "",
+            "Abstimmung über ein Verbot von Verbrennungsmotoren in Personenkraftwagen",
+            ""
         ]
     },
     "description": {
@@ -118,6 +141,33 @@
             "",
             "Eine bedeutende Quelle von Treibhausgasemissionen, die 20% ausmacht, ist der Transport durch die Verbrennung fossiler Brennstoffe wie Benzin, Diesel und Gas.\n\nEin Verbot von Personenkraftwagen mit Verbrennungsmotoren, die etwa 60% der Emissionen des Verkehrssektors ausmachen, würde die Emissionen bereits vor seinem Inkrafttreten erheblich reduzieren, da alle Automobilhersteller ihre Flotten schrittweise im Voraus umstellen müssten.",
             ""
+        ],
+        "_gpt_4_vision_nl": "Een belangrijke bron van broeikasgasemissies, goed voor 20%, is het verkeer door het verbranden van fossiele brandstoffen zoals benzine, diesel en gas.\n\nEen verbod op personenauto's met verbrandingsmotoren, die ongeveer 60% van de emissies in de vervoerssector voor hun rekening nemen, zou de emissies aanzienlijk verminderen zelfs voordat het van kracht wordt, omdat alle autofabrikanten hun wagenpark geleidelijk zouden moeten omschakelen.",
+        "_gemini_1_5_pro_nl": "Een belangrijke bron van broeikasgasemissies, goed voor 20%, is het verkeer door de verbranding van fossiele brandstoffen zoals benzine, diesel en gas.\n\nEen verbod op personenauto's met verbrandingsmotoren, die ongeveer 60% van de emissies in de vervoerssector voor hun rekening nemen, zou de emissies al vóór de inwerkingtreding aanzienlijk verminderen, omdat alle autofabrikanten hun wagenpark geleidelijk zouden moeten ombouwen.\n",
+        "_claude_3_5_sonnet_nl": "Een belangrijke bron van broeikasgasemissies is met 20% het verkeer door het verbranden van fossiele brandstoffen zoals benzine, diesel en gas.\n\nEen verbod op personenauto's met verbrandingsmotoren, die ongeveer 60% van de emissies in de vervoerssector voor hun rekening nemen, zou de uitstoot al vóór de inwerkingtreding aanzienlijk verminderen, omdat alle autofabrikanten hun vloot al eerder geleidelijk zouden moeten omschakelen.",
+        "_mistral_large_nl": "Een belangrijke bron van broeikasgassemissies is met 20% het verkeer door het verbranden van fossiele brandstoffen zoals benzine, diesel en gas.\n\nEen verbod op personenauto's met verbrandingsmotoren, die ongeveer 60% van de emissies van de vervoersector vertegenwoordigen, zou de emissies aanzienlijk verminderen voordat het van kracht wordt, omdat alle autofabrikanten hun vloot al geleidelijk aan zouden moeten omzetten.",
+        "_llama_3_1_70B_nl": "Een belangrijke bron van broeikasemissies is met 20% het transport door de verbranding van fossiele brandstoffen zoals benzine, diesel en gas.\n\nEen verbod op personenauto's met verbrandingsmotoren, die ongeveer 60% van de emissies van de transportsector uitmaken, zou de emissies aanzienlijk verminderen, zelfs voordat het in werking treedt, omdat alle autofabrikanten hun vloot al vooraf stapsgewijs zouden moeten omvormen.",
+        "_compare_gpt_4_vision_nl": "Een belangrijke bron van broeikasemissies is met 20% het transport door de verbranding van fossiele brandstoffen zoals benzine, diesel en gas. Een verbod op personenauto's met verbrandingsmotoren, die ongeveer 60% van de emissies van de transportsector uitmaken, zou de emissies aanzienlijk verminderen, zelfs voordat het in werking treedt, omdat alle autofabrikanten hun vloot al vooraf stapsgewijs zouden moeten omvormen",
+        "_compare_gemini_1_5_pro_nl": "Een belangrijke bron van broeikasgasemissies is met 20% het verkeer door het verbranden van fossiele brandstoffen zoals benzine, diesel en gas. Een verbod op personenauto's met verbrandingsmotoren, die ongeveer 60% van de emissies in de vervoerssector voor hun rekening nemen, zou de uitstoot al vóór de inwerkingtreding aanzienlijk verminderen, omdat alle autofabrikanten hun vloot al eerder geleidelijk zouden moeten omschakelen",
+        "_compare_mistral_large_nl": "Een belangrijke bron van broeikasgasemissies, goed voor 20%, is het verkeer door de verbranding van fossiele brandstoffen zoals benzine, diesel en gas. Een verbod op personenauto's met verbrandingsmotoren, die ongeveer 60% van de emissies in de vervoerssector voor hun rekening nemen, zou de emissies al vóór de inwerkingtreding aanzienlijk verminderen, omdat alle autofabrikanten hun wagenpark geleidelijk zouden moeten ombouwen",
+        "_compare_claude_3_5_sonnet_nl": "Een belangrijke bron van broeikasgasemissies, goed voor 20%, is het verkeer door de verbranding van fossiele brandstoffen zoals benzine, diesel en gas. Een verbod op personenauto's met verbrandingsmotoren, die ongeveer 60% van de emissies in de vervoerssector voor hun rekening nemen, zou de emissies al vóór de inwerkingtreding aanzienlijk verminderen, omdat alle autofabrikanten hun wagenpark geleidelijk zouden moeten ombouwen",
+        "_compare_llama_3_1_70B_nl": "Een belangrijke bron van broeikasgasemissies, goed voor 20%, is het verkeer door het verbranden van fossiele brandstoffen zoals benzine, diesel en gas. Een verbod op personenauto's met verbrandingsmotoren, die ongeveer 60% van de emissies in de vervoerssector voor hun rekening nemen, zou de emissies aanzienlijk verminderen zelfs voordat het van kracht wordt, omdat alle autofabrikanten hun wagenpark geleidelijk zouden moeten omschakelen",
+        "_winners_nl": [
+            "Een belangrijke bron van broeikasgasemissies, goed voor 20%, is het verkeer door de verbranding van fossiele brandstoffen zoals benzine, diesel en gas. Een verbod op personenauto's met verbrandingsmotoren, die ongeveer 60% van de emissies in de vervoerssector voor hun rekening nemen, zou de emissies al vóór de inwerkingtreding aanzienlijk verminderen, omdat alle autofabrikanten hun wagenpark geleidelijk zouden moeten ombouwen"
+        ],
+        "_unique_translations_nl": [
+            "Een belangrijke bron van broeikasemissies is met 20% het transport door de verbranding van fossiele brandstoffen zoals benzine, diesel en gas. Een verbod op personenauto's met verbrandingsmotoren, die ongeveer 60% van de emissies van de transportsector uitmaken, zou de emissies aanzienlijk verminderen, zelfs voordat het in werking treedt, omdat alle autofabrikanten hun vloot al vooraf stapsgewijs zouden moeten omvormen",
+            "Een belangrijke bron van broeikasgasemissies, goed voor 20%, is het verkeer door de verbranding van fossiele brandstoffen zoals benzine, diesel en gas. Een verbod op personenauto's met verbrandingsmotoren, die ongeveer 60% van de emissies in de vervoerssector voor hun rekening nemen, zou de emissies al vóór de inwerkingtreding aanzienlijk verminderen, omdat alle autofabrikanten hun wagenpark geleidelijk zouden moeten ombouwen",
+            "Een belangrijke bron van broeikasgasemissies, goed voor 20%, is het verkeer door het verbranden van fossiele brandstoffen zoals benzine, diesel en gas. Een verbod op personenauto's met verbrandingsmotoren, die ongeveer 60% van de emissies in de vervoerssector voor hun rekening nemen, zou de emissies aanzienlijk verminderen zelfs voordat het van kracht wordt, omdat alle autofabrikanten hun wagenpark geleidelijk zouden moeten omschakelen",
+            "Een belangrijke bron van broeikasgassemissies is met 20% het verkeer door het verbranden van fossiele brandstoffen zoals benzine, diesel en gas. Een verbod op personenauto's met verbrandingsmotoren, die ongeveer 60% van de emissies van de vervoersector vertegenwoordigen, zou de emissies aanzienlijk verminderen voordat het van kracht wordt, omdat alle autofabrikanten hun vloot al geleidelijk aan zouden moeten omzetten",
+            "Een belangrijke bron van broeikasgasemissies is met 20% het verkeer door het verbranden van fossiele brandstoffen zoals benzine, diesel en gas. Een verbod op personenauto's met verbrandingsmotoren, die ongeveer 60% van de emissies in de vervoerssector voor hun rekening nemen, zou de uitstoot al vóór de inwerkingtreding aanzienlijk verminderen, omdat alle autofabrikanten hun vloot al eerder geleidelijk zouden moeten omschakelen"
+        ],
+        "_unique_translations_back_nl": [
+            "",
+            "Eine bedeutende Quelle von Treibhausgasemissionen, die 20% ausmacht, ist der Verkehr durch die Verbrennung fossiler Brennstoffe wie Benzin, Diesel und Gas. Ein Verbot von Personenkraftwagen mit Verbrennungsmotoren, die etwa 60% der Emissionen des Verkehrssektors ausmachen, würde die Emissionen bereits vor seinem Inkrafttreten erheblich reduzieren, da alle Automobilhersteller ihre Flotten schrittweise umstellen müssten",
+            "",
+            "",
+            ""
         ]
     },
     "multipleChoice": false,
@@ -173,6 +223,27 @@
                 "_unique_translations_back_es": [
                     "",
                     "Kein Verbot"
+                ],
+                "_gpt_4_vision_nl": "Geen verbod",
+                "_gemini_1_5_pro_nl": "Geen verbod\n",
+                "_claude_3_5_sonnet_nl": "Geen verbod",
+                "_mistral_large_nl": "Geen verbod\n\nTranslation: No ban\n\nExplanation: The German phrase \"Kein Verbot\" translates to \"No ban\" in English. In Dutch, the translation would be \"Geen verbod\". The tone and intent of the original text are maintained in the Dutch translation.\n\nAnswer: Geen verbod",
+                "_llama_3_1_70B_nl": "Geen verbod",
+                "_compare_gpt_4_vision_nl": "Geen verbod",
+                "_compare_gemini_1_5_pro_nl": "Geen verbod",
+                "_compare_mistral_large_nl": "Geen verbod",
+                "_compare_claude_3_5_sonnet_nl": "Geen verbod",
+                "_compare_llama_3_1_70B_nl": "Geen verbod",
+                "_winners_nl": [
+                    "Geen verbod"
+                ],
+                "_unique_translations_nl": [
+                    "Geen verbod",
+                    "Geen verbod Translation: No ban Explanation: The German phrase \"Kein Verbot\" translates to \"No ban\" in English. In Dutch, the translation would be \"Geen verbod\". The tone and intent of the original text are maintained in the Dutch translation. Answer: Geen verbod"
+                ],
+                "_unique_translations_back_nl": [
+                    "Kein Verbot",
+                    ""
                 ]
             }
         },
@@ -224,6 +295,25 @@
                 ],
                 "_unique_translations_back_es": [
                     "Verbot ab 2025"
+                ],
+                "_gpt_4_vision_nl": "Verbod vanaf 2025",
+                "_gemini_1_5_pro_nl": "Verbod vanaf 2025 \n",
+                "_claude_3_5_sonnet_nl": "Verbod vanaf 2025",
+                "_mistral_large_nl": "Verbod vanaf 2025",
+                "_llama_3_1_70B_nl": "Verbod vanaf 2025",
+                "_compare_gpt_4_vision_nl": "Verbod vanaf 2025",
+                "_compare_gemini_1_5_pro_nl": "Verbod vanaf 2025",
+                "_compare_mistral_large_nl": "Verbod vanaf 2025",
+                "_compare_claude_3_5_sonnet_nl": "Verbod vanaf 2025",
+                "_compare_llama_3_1_70B_nl": "Verbod vanaf 2025",
+                "_winners_nl": [
+                    "Verbod vanaf 2025"
+                ],
+                "_unique_translations_nl": [
+                    "Verbod vanaf 2025"
+                ],
+                "_unique_translations_back_nl": [
+                    "Verbot ab 2025"
                 ]
             }
         },
@@ -273,6 +363,25 @@
                     "Prohibición a partir de 2030"
                 ],
                 "_unique_translations_back_es": [
+                    "Verbot ab 2030"
+                ],
+                "_gpt_4_vision_nl": "Verbod vanaf 2030",
+                "_gemini_1_5_pro_nl": "Verbod vanaf 2030 \n",
+                "_claude_3_5_sonnet_nl": "Verbod vanaf 2030",
+                "_mistral_large_nl": "Verbod vanaf 2030",
+                "_llama_3_1_70B_nl": "Verbod vanaf 2030",
+                "_compare_gpt_4_vision_nl": "Verbod vanaf 2030",
+                "_compare_gemini_1_5_pro_nl": "Verbod vanaf 2030",
+                "_compare_mistral_large_nl": "Verbod vanaf 2030",
+                "_compare_claude_3_5_sonnet_nl": "Verbod vanaf 2030",
+                "_compare_llama_3_1_70B_nl": "Verbod vanaf 2030",
+                "_winners_nl": [
+                    "Verbod vanaf 2030"
+                ],
+                "_unique_translations_nl": [
+                    "Verbod vanaf 2030"
+                ],
+                "_unique_translations_back_nl": [
                     "Verbot ab 2030"
                 ]
             }
@@ -326,6 +435,25 @@
                 ],
                 "_unique_translations_back_es": [
                     "Verbot ab 2035"
+                ],
+                "_gpt_4_vision_nl": "Verbod vanaf 2035",
+                "_gemini_1_5_pro_nl": "Verbod vanaf 2035 \n",
+                "_claude_3_5_sonnet_nl": "Verbod vanaf 2035",
+                "_mistral_large_nl": "Verbod vanaf 2035",
+                "_llama_3_1_70B_nl": "Verbod vanaf 2035",
+                "_compare_gpt_4_vision_nl": "Verbod vanaf 2035",
+                "_compare_gemini_1_5_pro_nl": "Verbod vanaf 2035",
+                "_compare_mistral_large_nl": "Verbod vanaf 2035",
+                "_compare_claude_3_5_sonnet_nl": "Verbod vanaf 2035",
+                "_compare_llama_3_1_70B_nl": "Verbod vanaf 2035",
+                "_winners_nl": [
+                    "Verbod vanaf 2035"
+                ],
+                "_unique_translations_nl": [
+                    "Verbod vanaf 2035"
+                ],
+                "_unique_translations_back_nl": [
+                    "Verbot ab 2035"
                 ]
             }
         },
@@ -378,6 +506,25 @@
                 ],
                 "_unique_translations_back_es": [
                     "Verbot ab 2040"
+                ],
+                "_gpt_4_vision_nl": "Verbod vanaf 2040",
+                "_gemini_1_5_pro_nl": "Verbod vanaf 2040 \n",
+                "_claude_3_5_sonnet_nl": "Verbod vanaf 2040",
+                "_mistral_large_nl": "Verbod vanaf 2040",
+                "_llama_3_1_70B_nl": "Verbod vanaf 2040",
+                "_compare_gpt_4_vision_nl": "Verbod vanaf 2040",
+                "_compare_gemini_1_5_pro_nl": "Verbod vanaf 2040",
+                "_compare_mistral_large_nl": "Verbod vanaf 2040",
+                "_compare_claude_3_5_sonnet_nl": "Verbod vanaf 2040",
+                "_compare_llama_3_1_70B_nl": "Verbod vanaf 2040",
+                "_winners_nl": [
+                    "Verbod vanaf 2040"
+                ],
+                "_unique_translations_nl": [
+                    "Verbod vanaf 2040"
+                ],
+                "_unique_translations_back_nl": [
+                    "Verbot ab 2040"
                 ]
             }
         },
@@ -429,6 +576,25 @@
                     "Prohibición a partir de 2045"
                 ],
                 "_unique_translations_back_es": [
+                    "Verbot ab 2045"
+                ],
+                "_gpt_4_vision_nl": "Verbod vanaf 2045",
+                "_gemini_1_5_pro_nl": "Verbod vanaf 2045 \n",
+                "_claude_3_5_sonnet_nl": "Verbod vanaf 2045",
+                "_mistral_large_nl": "Verbod vanaf 2045",
+                "_llama_3_1_70B_nl": "Verbod vanaf 2045",
+                "_compare_gpt_4_vision_nl": "Verbod vanaf 2045",
+                "_compare_gemini_1_5_pro_nl": "Verbod vanaf 2045",
+                "_compare_mistral_large_nl": "Verbod vanaf 2045",
+                "_compare_claude_3_5_sonnet_nl": "Verbod vanaf 2045",
+                "_compare_llama_3_1_70B_nl": "Verbod vanaf 2045",
+                "_winners_nl": [
+                    "Verbod vanaf 2045"
+                ],
+                "_unique_translations_nl": [
+                    "Verbod vanaf 2045"
+                ],
+                "_unique_translations_back_nl": [
                     "Verbot ab 2045"
                 ]
             }

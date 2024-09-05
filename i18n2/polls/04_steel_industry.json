@@ -55,6 +55,29 @@
         "_unique_translations_back_es": [
             "",
             "Abstimmung über die Umstellung auf CO₂-freien Stahl \n"
+        ],
+        "_gpt_4_vision_nl": "Stemming over de overstap naar CO₂-vrij staal",
+        "_gemini_1_5_pro_nl": "Stem op de omschakeling naar CO₂-vrije staalproductie. \n",
+        "_claude_3_5_sonnet_nl": "Stemming over de overgang naar CO₂-vrij staal",
+        "_mistral_large_nl": "Stemming over de overstap naar CO₂-vrij staal",
+        "_llama_3_1_70B_nl": "Stemming over de overstap naar CO₂-vrij staal",
+        "_compare_gpt_4_vision_nl": "Stemming over de overgang naar CO₂-vrij staal",
+        "_compare_gemini_1_5_pro_nl": "Stemming over de overstap naar CO₂-vrij staal",
+        "_compare_mistral_large_nl": "Stemming over de overgang naar CO₂-vrij staal",
+        "_compare_claude_3_5_sonnet_nl": "Stemming over de overstap naar CO₂-vrij staal",
+        "_compare_llama_3_1_70B_nl": "Stemming over de overstap naar CO₂-vrij staal",
+        "_winners_nl": [
+            "Stemming over de overstap naar CO₂-vrij staal"
+        ],
+        "_unique_translations_nl": [
+            "Stemming over de overgang naar CO₂-vrij staal",
+            "Stemming over de overstap naar CO₂-vrij staal",
+            "Stem op de omschakeling naar CO₂-vrije staalproductie"
+        ],
+        "_unique_translations_back_nl": [
+            "",
+            "Abstimmung über die Umstellung auf CO₂-freien Stahl",
+            ""
         ]
     },
     "description": {
@@ -119,6 +142,33 @@
             "",
             "",
             "Die Stahlproduktion verursacht weltweit etwa 8 % der CO₂-Emissionen.\n<br>\nEine CO₂-freie Stahlproduktion ist grundsätzlich möglich.\n<br>\nDie Regierung hat beschlossen, dass ab 2030 Stahl in unserem Land nur noch CO₂-frei produziert werden darf. Dies ist derzeit jedoch 60-70 Prozent teurer als konventioneller Stahl.\n<br>\nCO₂-neutraler Stahl ist daher auf dem Markt nicht wettbewerbsfähig im Vergleich zu importiertem Stahl. \n\nBitte stimmen Sie über die folgenden politischen Maßnahmen ab, wie damit umgegangen werden soll: \n"
+        ],
+        "_gpt_4_vision_nl": "De staalproductie veroorzaakt wereldwijd ongeveer 8% van de CO₂-uitstoot.\n<br>\nDe koolstofvrije productie van staal is in principe mogelijk.\n<br>\nDe regering heeft besloten dat vanaf 2030 staal in ons land alleen nog maar CO₂-vrij geproduceerd mag worden. Dit is momenteel echter 60-70 procent duurder dan conventioneel staal.\n<br>\nKoolstofneutraal staal is daardoor op de markt niet concurrerend met geïmporteerd staal.\n\nStem alstublieft over de volgende politieke maatregelen over hoe hiermee om te gaan:",
+        "_gemini_1_5_pro_nl": "De staalproductie is wereldwijd verantwoordelijk voor ongeveer 8% van de CO₂-uitstoot.\n<br>\nDe productie van koolstofvrij staal is in principe mogelijk.\n<br>\nDe regering heeft besloten dat vanaf 2030 staal in ons land alleen nog CO₂-vrij geproduceerd mag worden. Deze is momenteel echter 60-70 procent duurder dan conventioneel staal.\n<br>\nKoolstofneutraal staal is daarmee niet concurrerend op de markt ten opzichte van geïmporteerd staal. \n\nStem alstublieft over de volgende politieke maatregelen om hiermee om te gaan: \n",
+        "_claude_3_5_sonnet_nl": "De staalproductie veroorzaakt wereldwijd ongeveer 8% van de CO₂-uitstoot.\n<br>\nKoolstofvrije staalproductie is in principe mogelijk.\n<br>\nDe regering heeft besloten dat vanaf 2030 staal in ons land alleen nog CO₂-vrij geproduceerd mag worden. Dit is momenteel echter 60-70 procent duurder dan conventioneel staal.\n<br>\nKoolstofneutraal staal is daardoor op de markt niet concurrerend ten opzichte van geïmporteerd staal.\n\nStem alstublieft over de volgende politieke maatregelen om hiermee om te gaan:",
+        "_mistral_large_nl": "De staalproductie veroorzaakt wereldwijd ongeveer 8% van de CO₂-uitstoot.\n<br>\nDe productie van koolstofvrij staal is in principe mogelijk.\n<br>\nDe regering heeft besloten dat vanaf 2030 staal in ons land alleen nog maar CO₂-vrij mag worden geproduceerd. Dit is echter momenteel 60-70 procent duurder dan conventioneel staal.\n<br>\nKoolstofneutraal staal is daarom op de markt niet concurrentiekrachtig ten opzichte van geïmporteerd staal.\n\nStem a.u.b. over de volgende politieke maatregelen om hiermee om te gaan:",
+        "_llama_3_1_70B_nl": "De staalproductie veroorzaakt wereldwijd ongeveer 8% van de CO₂-uitstoot.\n<br>\nDe productie van koolstofvrije staal is in principe mogelijk.\n<br>\nDe regering heeft besloten dat vanaf 2030 staal in ons land alleen nog CO₂-vrij mag worden geproduceerd. Dit is echter momenteel 60-70 procent duurder dan conventionele staal.\n<br>\nKoolstofneutraal staal is daarmee niet concurrerend op de markt tegenover geïmporteerd staal.\n\nGelieve te stemmen over de volgende politieke maatregelen om hiermee om te gaan:",
+        "_compare_gpt_4_vision_nl": "De staalproductie is wereldwijd verantwoordelijk voor ongeveer 8% van de CO₂-uitstoot. De productie van koolstofvrij staal is in principe mogelijk. De regering heeft besloten dat vanaf 2030 staal in ons land alleen nog CO₂-vrij geproduceerd mag worden. Deze is momenteel echter 60-70 procent duurder dan conventioneel staal. Koolstofneutraal staal is daarmee niet concurrerend op de markt ten opzichte van geïmporteerd staal. Stem alstublieft over de volgende politieke maatregelen om hiermee om te gaan:",
+        "_compare_gemini_1_5_pro_nl": "De staalproductie veroorzaakt wereldwijd ongeveer 8% van de CO₂-uitstoot. De koolstofvrije productie van staal is in principe mogelijk. De regering heeft besloten dat vanaf 2030 staal in ons land alleen nog maar CO₂-vrij geproduceerd mag worden. Dit is momenteel echter 60-70 procent duurder dan conventioneel staal. Koolstofneutraal staal is daardoor op de markt niet concurrerend met geïmporteerd staal. Stem alstublieft over de volgende politieke maatregelen over hoe hiermee om te gaan:",
+        "_compare_mistral_large_nl": "De staalproductie is wereldwijd verantwoordelijk voor ongeveer 8% van de CO₂-uitstoot. De productie van koolstofvrij staal is in principe mogelijk. De regering heeft besloten dat vanaf 2030 staal in ons land alleen nog CO₂-vrij geproduceerd mag worden. Deze is momenteel echter 60-70 procent duurder dan conventioneel staal. Koolstofneutraal staal is daarmee niet concurrerend op de markt ten opzichte van geïmporteerd staal. Stem alstublieft over de volgende politieke maatregelen om hiermee om te gaan:",
+        "_compare_claude_3_5_sonnet_nl": "De staalproductie veroorzaakt wereldwijd ongeveer 8% van de CO₂-uitstoot. De koolstofvrije productie van staal is in principe mogelijk. De regering heeft besloten dat vanaf 2030 staal in ons land alleen nog maar CO₂-vrij geproduceerd mag worden. Dit is momenteel echter 60-70 procent duurder dan conventioneel staal. Koolstofneutraal staal is daardoor op de markt niet concurrerend met geïmporteerd staal. Stem alstublieft over de volgende politieke maatregelen over hoe hiermee om te gaan:",
+        "_compare_llama_3_1_70B_nl": "De staalproductie veroorzaakt wereldwijd ongeveer 8% van de CO₂-uitstoot. De koolstofvrije productie van staal is in principe mogelijk. De regering heeft besloten dat vanaf 2030 staal in ons land alleen nog maar CO₂-vrij geproduceerd mag worden. Dit is momenteel echter 60-70 procent duurder dan conventioneel staal. Koolstofneutraal staal is daardoor op de markt niet concurrerend met geïmporteerd staal. Stem alstublieft over de volgende politieke maatregelen over hoe hiermee om te gaan:",
+        "_winners_nl": [
+            "De staalproductie veroorzaakt wereldwijd ongeveer 8% van de CO₂-uitstoot. De koolstofvrije productie van staal is in principe mogelijk. De regering heeft besloten dat vanaf 2030 staal in ons land alleen nog maar CO₂-vrij geproduceerd mag worden. Dit is momenteel echter 60-70 procent duurder dan conventioneel staal. Koolstofneutraal staal is daardoor op de markt niet concurrerend met geïmporteerd staal. Stem alstublieft over de volgende politieke maatregelen over hoe hiermee om te gaan:"
+        ],
+        "_unique_translations_nl": [
+            "De staalproductie veroorzaakt wereldwijd ongeveer 8% van de CO₂-uitstoot. De productie van koolstofvrije staal is in principe mogelijk. De regering heeft besloten dat vanaf 2030 staal in ons land alleen nog CO₂-vrij mag worden geproduceerd. Dit is echter momenteel 60-70 procent duurder dan conventionele staal. Koolstofneutraal staal is daarmee niet concurrerend op de markt tegenover geïmporteerd staal. Gelieve te stemmen over de volgende politieke maatregelen om hiermee om te gaan:",
+            "De staalproductie veroorzaakt wereldwijd ongeveer 8% van de CO₂-uitstoot. Koolstofvrije staalproductie is in principe mogelijk. De regering heeft besloten dat vanaf 2030 staal in ons land alleen nog CO₂-vrij geproduceerd mag worden. Dit is momenteel echter 60-70 procent duurder dan conventioneel staal. Koolstofneutraal staal is daardoor op de markt niet concurrerend ten opzichte van geïmporteerd staal. Stem alstublieft over de volgende politieke maatregelen om hiermee om te gaan:",
+            "De staalproductie veroorzaakt wereldwijd ongeveer 8% van de CO₂-uitstoot. De productie van koolstofvrij staal is in principe mogelijk. De regering heeft besloten dat vanaf 2030 staal in ons land alleen nog maar CO₂-vrij mag worden geproduceerd. Dit is echter momenteel 60-70 procent duurder dan conventioneel staal. Koolstofneutraal staal is daarom op de markt niet concurrentiekrachtig ten opzichte van geïmporteerd staal. Stem a.u.b. over de volgende politieke maatregelen om hiermee om te gaan:",
+            "De staalproductie veroorzaakt wereldwijd ongeveer 8% van de CO₂-uitstoot. De koolstofvrije productie van staal is in principe mogelijk. De regering heeft besloten dat vanaf 2030 staal in ons land alleen nog maar CO₂-vrij geproduceerd mag worden. Dit is momenteel echter 60-70 procent duurder dan conventioneel staal. Koolstofneutraal staal is daardoor op de markt niet concurrerend met geïmporteerd staal. Stem alstublieft over de volgende politieke maatregelen over hoe hiermee om te gaan:",
+            "De staalproductie is wereldwijd verantwoordelijk voor ongeveer 8% van de CO₂-uitstoot. De productie van koolstofvrij staal is in principe mogelijk. De regering heeft besloten dat vanaf 2030 staal in ons land alleen nog CO₂-vrij geproduceerd mag worden. Deze is momenteel echter 60-70 procent duurder dan conventioneel staal. Koolstofneutraal staal is daarmee niet concurrerend op de markt ten opzichte van geïmporteerd staal. Stem alstublieft over de volgende politieke maatregelen om hiermee om te gaan:"
+        ],
+        "_unique_translations_back_nl": [
+            "",
+            "",
+            "",
+            "Die Stahlproduktion verursacht weltweit etwa 8% der CO₂-Emissionen. Eine kohlenstofffreie Produktion von Stahl ist grundsätzlich möglich. Die Regierung hat beschlossen, dass ab 2030 Stahl in unserem Land nur noch CO₂-frei produziert werden darf. Dies ist derzeit jedoch 60-70 Prozent teurer als konventioneller Stahl. Kohlenstoffneutraler Stahl ist daher auf dem Markt nicht wettbewerbsfähig im Vergleich zu importiertem Stahl. Bitte stimmen Sie über die folgenden politischen Maßnahmen ab, wie damit umgegangen werden soll:",
+            ""
         ]
     },
     "multipleChoice": false,
@@ -173,6 +223,25 @@
                 ],
                 "_unique_translations_back_es": [
                     "Keine politischen Maßnahmen."
+                ],
+                "_gpt_4_vision_nl": "Geen politieke maatregelen.",
+                "_gemini_1_5_pro_nl": "Geen politieke maatregelen. \n",
+                "_claude_3_5_sonnet_nl": "Geen politieke maatregelen.",
+                "_mistral_large_nl": "Geen politieke maatregelen.",
+                "_llama_3_1_70B_nl": "Geen politieke maatregelen.",
+                "_compare_gpt_4_vision_nl": "Geen politieke maatregelen",
+                "_compare_gemini_1_5_pro_nl": "Geen politieke maatregelen",
+                "_compare_mistral_large_nl": "Geen politieke maatregelen",
+                "_compare_claude_3_5_sonnet_nl": "Geen politieke maatregelen",
+                "_compare_llama_3_1_70B_nl": "Geen politieke maatregelen",
+                "_winners_nl": [
+                    "Geen politieke maatregelen"
+                ],
+                "_unique_translations_nl": [
+                    "Geen politieke maatregelen"
+                ],
+                "_unique_translations_back_nl": [
+                    "Keine politischen Maßnahmen"
                 ]
             }
         },
@@ -239,6 +308,31 @@
                     "Der Staat gleicht die zusätzlichen Kosten für kohlenstofffreien Stahl mit Steuergeldern aus, bis er marktfähig ist (Carbon Contracts for Difference).",
                     "",
                     ""
+                ],
+                "_gpt_4_vision_nl": "De staat compenseert de extra kosten voor koolstofvrij staal met belastinggeld totdat het marktconform is (Carbon Contracts for Difference).",
+                "_gemini_1_5_pro_nl": "De staat compenseert de meerkosten voor CO₂-vrije staalproductie met belastinggeld totdat deze concurrerend is (Carbon Contracts for Difference). \n",
+                "_claude_3_5_sonnet_nl": "De overheid compenseert de extra kosten voor koolstofvrij staal met belastinggeld totdat het marktrijp is (Carbon Contracts for Difference).",
+                "_mistral_large_nl": "De staat compenseert de extra kosten voor staal zonder koolstof uit belastingmiddelen zo lang totdat het marktwaardig is (Carbon Contracts for Difference).",
+                "_llama_3_1_70B_nl": "De staat compenseert de extra kosten voor koolstofvrij staal met belastinggeld totdat het marktconform is (Carbon Contracts for Difference).",
+                "_compare_gpt_4_vision_nl": "De staat compenseert de extra kosten voor staal zonder koolstof uit belastingmiddelen zo lang totdat het marktwaardig is (Carbon Contracts for Difference)",
+                "_compare_gemini_1_5_pro_nl": "De overheid compenseert de extra kosten voor koolstofvrij staal met belastinggeld totdat het marktrijp is (Carbon Contracts for Difference)",
+                "_compare_mistral_large_nl": "De overheid compenseert de extra kosten voor koolstofvrij staal met belastinggeld totdat het marktrijp is (Carbon Contracts for Difference)",
+                "_compare_claude_3_5_sonnet_nl": "De staat compenseert de extra kosten voor koolstofvrij staal met belastinggeld totdat het marktconform is (Carbon Contracts for Difference)",
+                "_compare_llama_3_1_70B_nl": "De staat compenseert de meerkosten voor CO₂-vrije staalproductie met belastinggeld totdat deze concurrerend is (Carbon Contracts for Difference)",
+                "_winners_nl": [
+                    "De overheid compenseert de extra kosten voor koolstofvrij staal met belastinggeld totdat het marktrijp is (Carbon Contracts for Difference)"
+                ],
+                "_unique_translations_nl": [
+                    "De staat compenseert de extra kosten voor staal zonder koolstof uit belastingmiddelen zo lang totdat het marktwaardig is (Carbon Contracts for Difference)",
+                    "De staat compenseert de meerkosten voor CO₂-vrije staalproductie met belastinggeld totdat deze concurrerend is (Carbon Contracts for Difference)",
+                    "De staat compenseert de extra kosten voor koolstofvrij staal met belastinggeld totdat het marktconform is (Carbon Contracts for Difference)",
+                    "De overheid compenseert de extra kosten voor koolstofvrij staal met belastinggeld totdat het marktrijp is (Carbon Contracts for Difference)"
+                ],
+                "_unique_translations_back_nl": [
+                    "",
+                    "",
+                    "",
+                    "Die Regierung gleicht die zusätzlichen Kosten für kohlenstofffreien Stahl mit Steuergeldern aus, bis er marktfähig ist (Carbon Contracts for Difference)"
                 ]
             }
         },
@@ -304,6 +398,33 @@
                 "_unique_translations_back_es": [
                     "Importzölle auf konventionell hergestellten Stahl (CO2-Grenzausgleichsmechanismus).",
                     "",
+                    "",
+                    "",
+                    ""
+                ],
+                "_gpt_4_vision_nl": "Invoerrechten op conventioneel geproduceerd staal (Koolstofgrensaanpassingsmechanisme).",
+                "_gemini_1_5_pro_nl": "Invoerrechten op conventioneel geproduceerd staal (grenscorrectiemechanisme). \n",
+                "_claude_3_5_sonnet_nl": "Invoerheffingen op conventioneel geproduceerd staal (koolstofgrensheffing).",
+                "_mistral_large_nl": "Invoerrechten voor op conventionele wijze geproduceerd staal (grenscorrectieheffing).",
+                "_llama_3_1_70B_nl": "Invoerrechten op conventioneel geproduceerde staal (grenscompensatieregeling).",
+                "_compare_gpt_4_vision_nl": "Invoerheffingen op conventioneel geproduceerd staal (koolstofgrensheffing)",
+                "_compare_gemini_1_5_pro_nl": "Invoerrechten op conventioneel geproduceerd staal (Koolstofgrensaanpassingsmechanisme)",
+                "_compare_mistral_large_nl": "Invoerrechten op conventioneel geproduceerd staal (grenscorrectiemechanisme)",
+                "_compare_claude_3_5_sonnet_nl": "Invoerrechten op conventioneel geproduceerd staal (Koolstofgrensaanpassingsmechanisme)",
+                "_compare_llama_3_1_70B_nl": "Invoerrechten op conventioneel geproduceerd staal (Koolstofgrensaanpassingsmechanisme)",
+                "_winners_nl": [
+                    "Invoerrechten op conventioneel geproduceerd staal (Koolstofgrensaanpassingsmechanisme)"
+                ],
+                "_unique_translations_nl": [
+                    "Invoerrechten voor op conventionele wijze geproduceerd staal (grenscorrectieheffing)",
+                    "Invoerrechten op conventioneel geproduceerd staal (Koolstofgrensaanpassingsmechanisme)",
+                    "Invoerrechten op conventioneel geproduceerde staal (grenscompensatieregeling)",
+                    "Invoerheffingen op conventioneel geproduceerd staal (koolstofgrensheffing)",
+                    "Invoerrechten op conventioneel geproduceerd staal (grenscorrectiemechanisme)"
+                ],
+                "_unique_translations_back_nl": [
+                    "",
+                    "Einfuhrzölle auf konventionell hergestellten Stahl (CO2-Grenzausgleichsmechanismus)",
                     "",
                     "",
                     ""
