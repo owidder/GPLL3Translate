@@ -292,7 +292,7 @@ def create_table(input_file: str, translation_lines: [str], source: str, target:
     ]
 
     env = Environment(loader=FileSystemLoader('./templates'))
-    template = env.get_template('compare_table.html.j2')
+    template = env.get_template('compare_light_table.html.j2')
     html = template.render(headers=headers, translation_lines=translation_lines)
     with open(f"./tables/{input_file}_table.{source}_{target}.light.html", 'w') as f:
         f.write(html)
