@@ -1,55 +1,141 @@
 {
-  "_id": "steel-decarbon-poll",
-  "heading": {
-    "de": "Abstimmung über die Umstellung auf CO₂-freien Stahl",
-    "ru": "Проголосуйте за переход на сталь без CO₂",
-    "en": "Vote on the switch to CO₂-free steel",
-    "ar": "التصويت بشأن التحول إلى الصلب خالي من ثاني أكسيد الكربون",
-    "fr": "Votez pour le passage à l'acier sans CO₂"
-  },
-  "description": {
-    "de": "Die Stahlerzeugung verursacht weltweit ca. 8% der CO₂-Emissionen.\n<br>\nDie kohlenstofffreie Erzeugung von Stahl ist grundsätzlich möglich.\n<br>\nDie Regierung hat beschlossen, dass ab 2030 Stahl in unserem Land nur noch CO₂-frei produziert werden darf. Dieser ist aktuell jedoch 60–70 Prozent teurer als der konventionelle Stahl.\n<br>\nKohlenstoffneutraler Stahl ist damit auf dem Markt gegenüber importiertem Stahl nicht konkurrenzfähig. \n\nBitte stimmen Sie über die folgenden politischen Maßnahmen ab, wie damit umzugehen ist:",
-    "ru": "На производство стали приходится около 8% выбросов CO₂ в мире.\n<br>\nБезуглеродное производство стали в принципе возможно.\n<br>\nПравительство приняло решение, что с 2030 года сталь в нашей стране может производиться только без CO₂. Однако в настоящее время она на 60-70 процентов дороже обычной стали.\n<br>\nТаким образом, углеродистая нейтральная сталь неконкурентоспособна на рынке по сравнению с импортной сталью. \n\nПожалуйста, проголосуйте за следующие политические меры по решению этой проблемы:",
-    "en": "Steel production accounts for about 8% of CO₂ emissions worldwide.\n<br>\nCarbon-free production of steel is possible in principle.\n<br>\nThe government has decided that from 2030 steel in our country may only be produced CO₂-free. However, this is currently 60-70 per cent more expensive than conventional steel.\n<br>\nCarbon neutral steel is thus not competitive in the market against imported steel. \n\nPlease vote on the following policy measures on how to deal with this:\n",
-    "ar": "يسهم إنتاج الصلب بنسبة حوالي 8% من انبعاثات ثاني أكسيد الكربون عالميًا.\n<br>\nإن إنتاج الصلب خالي من الكربون ممكن بشكل أساسي.\n<br>\nقررت الحكومة أن يتم إنتاج الصلب في بلادنا بدون ثاني أكسيد الكربون اعتبارًا من عام 2030. ومع ذلك، يكون هذا الصلب حاليًا أغلى بنسبة 60-70 في المائة من الصلب التقليدي.\n<br>\nبالتالي، الصلب النقي من الكربون غير تنافسي في السوق مقابل الصلب المستورد.\n\nيرجى التصويت على الإجراءات السياسية التالية حول كيفية التعامل مع هذه المسألة:",
-    "fr": "La production d'acier représente environ 8 % des émissions de CO₂ dans le monde.\n<br>\nLa production d'acier sans carbone est possible en principe.\n<br>\nLe gouvernement a décidé qu'à partir de 2030, l'acier dans notre pays ne devra être produit qu'à partir de CO₂. Cependant, cela coûte actuellement 60 à 70 % de plus que l'acier conventionnel.\n<br>\nL'acier neutre en carbone n'est donc pas compétitif sur le marché par rapport à l'acier importé. \n\nVeuillez voter sur les mesures politiques suivantes pour traiter cette question:\n"
-
-  },
-  "multipleChoice": false,
-  "choices": [
-    {
-      "name": "opt-1",
-      "isDefault": false,
-      "uiStrings": {
-        "de": "Keine politischen Maßnahmen.",
-        "ru": "Никаких мер политики.",
-        "en": "No policy measures.",
-        "ar": "لا توجد إجراءات سياسية.",
-        "fr": "Aucune mesure politique."
-      }
+    "_id": "steel-decarbon-poll",
+    "heading": {
+        "de": "Abstimmung über die Umstellung auf CO₂-freien Stahl",
+        "ru": "Проголосуйте за переход на сталь без CO₂",
+        "en": "Vote on the switch to CO₂-free steel",
+        "ar": "التصويت بشأن التحول إلى الصلب خالي من ثاني أكسيد الكربون",
+        "fr": "Votez pour le passage à l'acier sans CO₂",
+        "_gpt_4_vision_sv": "Omröstning om övergången till CO₂-fritt stål",
+        "_gemini_1_5_pro_sv": "Omröstning om övergång till CO₂-fritt stål \n",
+        "_compare_gpt_4_vision_sv": "Omröstning om övergång till CO₂-fritt stål",
+        "_compare_gemini_1_5_pro_sv": "Omröstning om övergången till CO₂-fritt stål",
+        "_compare_claude_3_5_sonnet_sv": "Omröstning om övergången till CO₂-fritt stål",
+        "_winners_sv": [
+            "_compare_gpt_4_vision_sv",
+            "_compare_gemini_1_5_pro_sv",
+            "Omröstning om övergången till CO₂-fritt stål"
+        ],
+        "_unique_translations_sv": [
+            "Omröstning om övergången till CO₂-fritt stål",
+            "Omröstning om övergång till CO₂-fritt stål"
+        ],
+        "_unique_translations_back_sv": [
+            "Abstimmung über die Umstellung auf CO₂-freien Stahl",
+            ""
+        ]
     },
-    {
-      "name": "opt-2",
-      "isDefault": false,
-      "uiStrings": {
-        "de": "Der Staat gleicht die Mehrkosten für den kohlenstofffreien Stahl aus Steuermitteln so lange aus, bis er marktfähig ist (Carbon Contracts for Difference).",
-        "ru": "Правительство компенсирует дополнительную стоимость безуглеродистой стали за счет налогов до тех пор, пока она не станет доступной на рынке (углеродные контракты на разницу).",
-        "en": "Government offsets the extra cost of carbon-free steel from taxes until it is marketable (Carbon Contracts for Difference).",
-        "ar": "يقوم الحكومة بتعويض التكلفة الإضافية للصلب خالي من الكربون من الضرائب حتى يصبح صالحًا للسوق (عقود الكربون للفروق).",
-        "fr": "Le gouvernement compense les coûts supplémentaires de l'acier sans carbone grâce aux taxes jusqu'à ce qu'il soit commercialisable (Contrats carbone pour la différence)."
-      }
+    "description": {
+        "de": "Die Stahlerzeugung verursacht weltweit ca. 8% der CO₂-Emissionen.\n<br>\nDie kohlenstofffreie Erzeugung von Stahl ist grundsätzlich möglich.\n<br>\nDie Regierung hat beschlossen, dass ab 2030 Stahl in unserem Land nur noch CO₂-frei produziert werden darf. Dieser ist aktuell jedoch 60–70 Prozent teurer als der konventionelle Stahl.\n<br>\nKohlenstoffneutraler Stahl ist damit auf dem Markt gegenüber importiertem Stahl nicht konkurrenzfähig. \n\nBitte stimmen Sie über die folgenden politischen Maßnahmen ab, wie damit umzugehen ist:",
+        "ru": "На производство стали приходится около 8% выбросов CO₂ в мире.\n<br>\nБезуглеродное производство стали в принципе возможно.\n<br>\nПравительство приняло решение, что с 2030 года сталь в нашей стране может производиться только без CO₂. Однако в настоящее время она на 60-70 процентов дороже обычной стали.\n<br>\nТаким образом, углеродистая нейтральная сталь неконкурентоспособна на рынке по сравнению с импортной сталью. \n\nПожалуйста, проголосуйте за следующие политические меры по решению этой проблемы:",
+        "en": "Steel production accounts for about 8% of CO₂ emissions worldwide.\n<br>\nCarbon-free production of steel is possible in principle.\n<br>\nThe government has decided that from 2030 steel in our country may only be produced CO₂-free. However, this is currently 60-70 per cent more expensive than conventional steel.\n<br>\nCarbon neutral steel is thus not competitive in the market against imported steel. \n\nPlease vote on the following policy measures on how to deal with this:\n",
+        "ar": "يسهم إنتاج الصلب بنسبة حوالي 8% من انبعاثات ثاني أكسيد الكربون عالميًا.\n<br>\nإن إنتاج الصلب خالي من الكربون ممكن بشكل أساسي.\n<br>\nقررت الحكومة أن يتم إنتاج الصلب في بلادنا بدون ثاني أكسيد الكربون اعتبارًا من عام 2030. ومع ذلك، يكون هذا الصلب حاليًا أغلى بنسبة 60-70 في المائة من الصلب التقليدي.\n<br>\nبالتالي، الصلب النقي من الكربون غير تنافسي في السوق مقابل الصلب المستورد.\n\nيرجى التصويت على الإجراءات السياسية التالية حول كيفية التعامل مع هذه المسألة:",
+        "fr": "La production d'acier représente environ 8 % des émissions de CO₂ dans le monde.\n<br>\nLa production d'acier sans carbone est possible en principe.\n<br>\nLe gouvernement a décidé qu'à partir de 2030, l'acier dans notre pays ne devra être produit qu'à partir de CO₂. Cependant, cela coûte actuellement 60 à 70 % de plus que l'acier conventionnel.\n<br>\nL'acier neutre en carbone n'est donc pas compétitif sur le marché par rapport à l'acier importé. \n\nVeuillez voter sur les mesures politiques suivantes pour traiter cette question:\n",
+        "_gpt_4_vision_sv": "Stålproduktionen orsakar globalt ca 8% av CO₂-utsläppen.\n<br>\nKoldioxidfri produktion av stål är i princip möjlig.\n<br>\nRegeringen har beslutat att från 2030 får stål i vårt land endast produceras CO₂-fritt. Detta är dock för närvarande 60–70 procent dyrare än konventionellt stål.\n<br>\nKoldioxidneutralt stål är därmed inte konkurrenskraftigt på marknaden jämfört med importerat stål.\n\nVänligen rösta på följande politiska åtgärder för hur man ska hantera detta:",
+        "_gemini_1_5_pro_sv": "Stålproduktion står för cirka 8 % av de globala koldioxidutsläppen.\n<br>\nKoldioxidfri stålproduktion är i princip möjlig.\n<br>\nRegeringen har beslutat att från och med 2030 får stål i vårt land endast produceras koldioxidneutralt. Detta är dock för närvarande 60–70 procent dyrare än konventionellt stål.\n<br>\nKoldioxidneutralt stål är därför inte konkurrenskraftigt på marknaden gentemot importerat stål. \n\nVänligen rösta på följande politiska åtgärder för hur man ska hantera detta: \n",
+        "_compare_gpt_4_vision_sv": "Stålproduktion står för cirka 8 % av de globala koldioxidutsläppen. Koldioxidfri stålproduktion är i princip möjlig. Regeringen har beslutat att från och med 2030 får stål i vårt land endast produceras koldioxidneutralt. Detta är dock för närvarande 60–70 procent dyrare än konventionellt stål. Koldioxidneutralt stål är därför inte konkurrenskraftigt på marknaden gentemot importerat stål. Vänligen rösta på följande politiska åtgärder för hur man ska hantera detta:",
+        "_compare_gemini_1_5_pro_sv": "Stålproduktionen orsakar globalt ca 8% av CO₂-utsläppen. Koldioxidfri produktion av stål är i princip möjlig. Regeringen har beslutat att från 2030 får stål i vårt land endast produceras CO₂-fritt. Detta är dock för närvarande 60–70 procent dyrare än konventionellt stål. Koldioxidneutralt stål är därmed inte konkurrenskraftigt på marknaden jämfört med importerat stål. Vänligen rösta på följande politiska åtgärder för hur man ska hantera detta:",
+        "_compare_claude_3_5_sonnet_sv": "Stålproduktionen orsakar globalt ca 8% av CO₂-utsläppen. Koldioxidfri produktion av stål är i princip möjlig. Regeringen har beslutat att från 2030 får stål i vårt land endast produceras CO₂-fritt. Detta är dock för närvarande 60–70 procent dyrare än konventionellt stål. Koldioxidneutralt stål är därmed inte konkurrenskraftigt på marknaden jämfört med importerat stål. Vänligen rösta på följande politiska åtgärder för hur man ska hantera detta:",
+        "_winners_sv": [
+            "_compare_gpt_4_vision_sv",
+            "_compare_gemini_1_5_pro_sv",
+            "Stålproduktionen orsakar globalt ca 8% av CO₂-utsläppen. Koldioxidfri produktion av stål är i princip möjlig. Regeringen har beslutat att från 2030 får stål i vårt land endast produceras CO₂-fritt. Detta är dock för närvarande 60–70 procent dyrare än konventionellt stål. Koldioxidneutralt stål är därmed inte konkurrenskraftigt på marknaden jämfört med importerat stål. Vänligen rösta på följande politiska åtgärder för hur man ska hantera detta:"
+        ],
+        "_unique_translations_sv": [
+            "Stålproduktion står för cirka 8 % av de globala koldioxidutsläppen. Koldioxidfri stålproduktion är i princip möjlig. Regeringen har beslutat att från och med 2030 får stål i vårt land endast produceras koldioxidneutralt. Detta är dock för närvarande 60–70 procent dyrare än konventionellt stål. Koldioxidneutralt stål är därför inte konkurrenskraftigt på marknaden gentemot importerat stål. Vänligen rösta på följande politiska åtgärder för hur man ska hantera detta:",
+            "Stålproduktionen orsakar globalt ca 8% av CO₂-utsläppen. Koldioxidfri produktion av stål är i princip möjlig. Regeringen har beslutat att från 2030 får stål i vårt land endast produceras CO₂-fritt. Detta är dock för närvarande 60–70 procent dyrare än konventionellt stål. Koldioxidneutralt stål är därmed inte konkurrenskraftigt på marknaden jämfört med importerat stål. Vänligen rösta på följande politiska åtgärder för hur man ska hantera detta:"
+        ],
+        "_unique_translations_back_sv": [
+            "",
+            "Die Stahlproduktion verursacht weltweit etwa 8% der CO₂-Emissionen. Eine kohlenstofffreie Produktion von Stahl ist grundsätzlich möglich. Die Regierung hat beschlossen, dass ab 2030 Stahl in unserem Land nur noch CO₂-frei produziert werden darf. Dies ist jedoch derzeit 60-70 Prozent teurer als herkömmlicher Stahl. Kohlenstoffneutraler Stahl ist somit auf dem Markt nicht wettbewerbsfähig im Vergleich zu importiertem Stahl. Bitte stimmen Sie über die folgenden politischen Maßnahmen ab, wie man damit umgehen soll:"
+        ]
     },
-    {
-      "name": "opt-3",
-      "isDefault": false,
-      "uiStrings": {
-        "de": "Einfuhrzölle für konventionell produzierten Stahl (Grenzausgleichsabgabe).",
-        "ru": "Импортные пошлины на сталь обычного производства (пограничный сбор).",
-        "en": "Import duties on conventionally produced steel (Carbon Border Adjustment Mechanism).",
-        "ar": "رسوم الاستيراد على الصلب المنتج تقليديًا (آلية تعديل الكربون الحدودي).",
-        "fr": "Droits d'importation sur l'acier produit de manière conventionnelle (Mécanisme d'ajustement frontalier du carbone)."
-
-      }
-    }
-  ]
+    "multipleChoice": false,
+    "choices": [
+        {
+            "name": "opt-1",
+            "isDefault": false,
+            "uiStrings": {
+                "de": "Keine politischen Maßnahmen.",
+                "ru": "Никаких мер политики.",
+                "en": "No policy measures.",
+                "ar": "لا توجد إجراءات سياسية.",
+                "fr": "Aucune mesure politique.",
+                "_gpt_4_vision_sv": "Inga politiska åtgärder.",
+                "_gemini_1_5_pro_sv": "Inga politiska åtgärder. \n",
+                "_compare_gpt_4_vision_sv": "Inga politiska åtgärder",
+                "_compare_gemini_1_5_pro_sv": "Inga politiska åtgärder",
+                "_compare_claude_3_5_sonnet_sv": "Inga politiska åtgärder",
+                "_winners_sv": [
+                    "_compare_gpt_4_vision_sv",
+                    "_compare_gemini_1_5_pro_sv",
+                    "Inga politiska åtgärder"
+                ],
+                "_unique_translations_sv": [
+                    "Inga politiska åtgärder"
+                ],
+                "_unique_translations_back_sv": [
+                    "Keine politischen Maßnahmen"
+                ]
+            }
+        },
+        {
+            "name": "opt-2",
+            "isDefault": false,
+            "uiStrings": {
+                "de": "Der Staat gleicht die Mehrkosten für den kohlenstofffreien Stahl aus Steuermitteln so lange aus, bis er marktfähig ist (Carbon Contracts for Difference).",
+                "ru": "Правительство компенсирует дополнительную стоимость безуглеродистой стали за счет налогов до тех пор, пока она не станет доступной на рынке (углеродные контракты на разницу).",
+                "en": "Government offsets the extra cost of carbon-free steel from taxes until it is marketable (Carbon Contracts for Difference).",
+                "ar": "يقوم الحكومة بتعويض التكلفة الإضافية للصلب خالي من الكربون من الضرائب حتى يصبح صالحًا للسوق (عقود الكربون للفروق).",
+                "fr": "Le gouvernement compense les coûts supplémentaires de l'acier sans carbone grâce aux taxes jusqu'à ce qu'il soit commercialisable (Contrats carbone pour la différence).",
+                "_gpt_4_vision_sv": "Staten kompenserar för de extra kostnaderna för koldioxidfritt stål med skattemedel tills det är marknadsförbart (Carbon Contracts for Difference).",
+                "_gemini_1_5_pro_sv": "Staten kompenserar merkostnaden för koldioxidfri stål med skattemedel tills den är konkurrenskraftig (Carbon Contracts for Difference). \n",
+                "_compare_gpt_4_vision_sv": "Staten kompenserar merkostnaden för koldioxidfri stål med skattemedel tills den är konkurrenskraftig (Carbon Contracts for Difference)",
+                "_compare_gemini_1_5_pro_sv": "Staten kompenserar merkostnaden för koldioxidfri stål med skattemedel tills den är konkurrenskraftig (Carbon Contracts for Difference)",
+                "_compare_claude_3_5_sonnet_sv": "Staten kompenserar merkostnaden för koldioxidfri stål med skattemedel tills den är konkurrenskraftig (Carbon Contracts for Difference)",
+                "_winners_sv": [
+                    "_compare_gpt_4_vision_sv",
+                    "_compare_gemini_1_5_pro_sv",
+                    "Staten kompenserar merkostnaden för koldioxidfri stål med skattemedel tills den är konkurrenskraftig (Carbon Contracts for Difference)"
+                ],
+                "_unique_translations_sv": [
+                    "Staten kompenserar för de extra kostnaderna för koldioxidfritt stål med skattemedel tills det är marknadsförbart (Carbon Contracts for Difference)",
+                    "Staten kompenserar merkostnaden för koldioxidfri stål med skattemedel tills den är konkurrenskraftig (Carbon Contracts for Difference)"
+                ],
+                "_unique_translations_back_sv": [
+                    "",
+                    "Der Staat gleicht die Mehrkosten für CO₂-freien Stahl aus Steuermitteln aus, bis dieser marktfähig ist (Carbon Contracts for Difference)"
+                ]
+            }
+        },
+        {
+            "name": "opt-3",
+            "isDefault": false,
+            "uiStrings": {
+                "de": "Einfuhrzölle für konventionell produzierten Stahl (Grenzausgleichsabgabe).",
+                "ru": "Импортные пошлины на сталь обычного производства (пограничный сбор).",
+                "en": "Import duties on conventionally produced steel (Carbon Border Adjustment Mechanism).",
+                "ar": "رسوم الاستيراد على الصلب المنتج تقليديًا (آلية تعديل الكربون الحدودي).",
+                "fr": "Droits d'importation sur l'acier produit de manière conventionnelle (Mécanisme d'ajustement frontalier du carbone).",
+                "_gpt_4_vision_sv": "Importtullar på konventionellt producerat stål (Koldioxidgränsjusteringsavgift).",
+                "_gemini_1_5_pro_sv": "Importtullar på konventionellt producerat stål (Gränsutjämningsmekanism). \n",
+                "_compare_gpt_4_vision_sv": "Importtullar på konventionellt producerat stål (Gränsutjämningsmekanism)",
+                "_compare_gemini_1_5_pro_sv": "Importtullar på konventionellt producerat stål (Koldioxidgränsjusteringsavgift)",
+                "_compare_claude_3_5_sonnet_sv": "Importtullar på konventionellt producerat stål (Koldioxidgränsjusteringsavgift)",
+                "_winners_sv": [
+                    "_compare_gpt_4_vision_sv",
+                    "_compare_gemini_1_5_pro_sv",
+                    "Importtullar på konventionellt producerat stål (Koldioxidgränsjusteringsavgift)"
+                ],
+                "_unique_translations_sv": [
+                    "Importtullar på konventionellt producerat stål (Gränsutjämningsmekanism)",
+                    "Importtullar på konventionellt producerat stål (Koldioxidgränsjusteringsavgift)"
+                ],
+                "_unique_translations_back_sv": [
+                    "",
+                    "Einfuhrzölle auf konventionell hergestellten Stahl (CO₂-Grenzausgleichsmechanismus)"
+                ]
+            }
+        }
+    ]
 }
