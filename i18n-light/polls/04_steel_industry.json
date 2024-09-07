@@ -23,6 +23,22 @@
         "_unique_translations_back_sv": [
             "Abstimmung über die Umstellung auf CO₂-freien Stahl",
             ""
+        ],
+        "_gpt_4_vision_es": "Votación sobre la transición al acero libre de CO₂",
+        "_gemini_1_5_pro_es": "Votación sobre la transición al acero libre de CO₂ \n",
+        "_compare_gpt_4_vision_es": "Votación sobre la transición al acero libre de CO₂",
+        "_compare_gemini_1_5_pro_es": "Votación sobre la transición al acero libre de CO₂",
+        "_compare_claude_3_5_sonnet_es": "Votación sobre la transición al acero libre de CO₂",
+        "_winners_es": [
+            "_compare_gpt_4_vision_es",
+            "_compare_gemini_1_5_pro_es",
+            "Votación sobre la transición al acero libre de CO₂"
+        ],
+        "_unique_translations_es": [
+            "Votación sobre la transición al acero libre de CO₂"
+        ],
+        "_unique_translations_back_es": [
+            "Abstimmung über die Umstellung auf CO₂-freien Stahl"
         ]
     },
     "description": {
@@ -46,6 +62,24 @@
             "Stålproduktionen orsakar globalt ca 8% av CO₂-utsläppen. Koldioxidfri produktion av stål är i princip möjlig. Regeringen har beslutat att från 2030 får stål i vårt land endast produceras CO₂-fritt. Detta är dock för närvarande 60–70 procent dyrare än konventionellt stål. Koldioxidneutralt stål är därmed inte konkurrenskraftigt på marknaden jämfört med importerat stål. Vänligen rösta på följande politiska åtgärder för hur man ska hantera detta:"
         ],
         "_unique_translations_back_sv": [
+            "",
+            "Die Stahlproduktion verursacht weltweit etwa 8% der CO₂-Emissionen. Eine kohlenstofffreie Produktion von Stahl ist grundsätzlich möglich. Die Regierung hat beschlossen, dass ab 2030 Stahl in unserem Land nur noch CO₂-frei produziert werden darf. Dies ist jedoch derzeit 60-70 Prozent teurer als herkömmlicher Stahl. Kohlenstoffneutraler Stahl ist somit auf dem Markt nicht wettbewerbsfähig im Vergleich zu importiertem Stahl. Bitte stimmen Sie über die folgenden politischen Maßnahmen ab, wie man damit umgehen soll:"
+        ],
+        "_gpt_4_vision_es": "La producción de acero es responsable de aproximadamente el 8% de las emisiones de CO₂ en todo el mundo.\n<br>\nLa producción de acero libre de carbono es posible en principio.\n<br>\nEl gobierno ha decidido que a partir de 2030 el acero en nuestro país solo podrá producirse sin CO₂. Sin embargo, actualmente es un 60-70 por ciento más caro que el acero convencional.\n<br>\nPor lo tanto, el acero neutro en carbono no es competitivo en el mercado frente al acero importado.\n\nPor favor, vote sobre las siguientes medidas políticas sobre cómo abordar esto:",
+        "_gemini_1_5_pro_es": "La producción de acero causa aproximadamente el 8% de las emisiones globales de CO₂.\n<br>\nLa producción de acero libre de carbono es posible en principio.\n<br>\nEl gobierno ha decidido que a partir de 2030, el acero en nuestro país solo podrá producirse libre de CO₂. Sin embargo, este es actualmente entre un 60% y un 70% más caro que el acero convencional.\n<br>\nPor lo tanto, el acero neutro en carbono no es competitivo en el mercado frente al acero importado. \n\nPor favor, vote sobre las siguientes medidas políticas para abordar esta situación: \n",
+        "_compare_gpt_4_vision_es": "La producción de acero causa aproximadamente el 8% de las emisiones globales de CO₂. La producción de acero libre de carbono es posible en principio. El gobierno ha decidido que a partir de 2030, el acero en nuestro país solo podrá producirse libre de CO₂. Sin embargo, este es actualmente entre un 60% y un 70% más caro que el acero convencional. Por lo tanto, el acero neutro en carbono no es competitivo en el mercado frente al acero importado. Por favor, vote sobre las siguientes medidas políticas para abordar esta situación:",
+        "_compare_gemini_1_5_pro_es": "La producción de acero causa aproximadamente el 8% de las emisiones globales de CO₂. La producción de acero libre de carbono es posible en principio. El gobierno ha decidido que a partir de 2030, el acero en nuestro país solo podrá producirse libre de CO₂. Sin embargo, este es actualmente entre un 60% y un 70% más caro que el acero convencional. Por lo tanto, el acero neutro en carbono no es competitivo en el mercado frente al acero importado. Por favor, vote sobre las siguientes medidas políticas para abordar esta situación:",
+        "_compare_claude_3_5_sonnet_es": "La producción de acero causa aproximadamente el 8% de las emisiones globales de CO₂. La producción de acero libre de carbono es posible en principio. El gobierno ha decidido que a partir de 2030, el acero en nuestro país solo podrá producirse libre de CO₂. Sin embargo, este es actualmente entre un 60% y un 70% más caro que el acero convencional. Por lo tanto, el acero neutro en carbono no es competitivo en el mercado frente al acero importado. Por favor, vote sobre las siguientes medidas políticas para abordar esta situación:",
+        "_winners_es": [
+            "_compare_gpt_4_vision_es",
+            "_compare_gemini_1_5_pro_es",
+            "La producción de acero causa aproximadamente el 8% de las emisiones globales de CO₂. La producción de acero libre de carbono es posible en principio. El gobierno ha decidido que a partir de 2030, el acero en nuestro país solo podrá producirse libre de CO₂. Sin embargo, este es actualmente entre un 60% y un 70% más caro que el acero convencional. Por lo tanto, el acero neutro en carbono no es competitivo en el mercado frente al acero importado. Por favor, vote sobre las siguientes medidas políticas para abordar esta situación:"
+        ],
+        "_unique_translations_es": [
+            "La producción de acero es responsable de aproximadamente el 8% de las emisiones de CO₂ en todo el mundo. La producción de acero libre de carbono es posible en principio. El gobierno ha decidido que a partir de 2030 el acero en nuestro país solo podrá producirse sin CO₂. Sin embargo, actualmente es un 60-70 por ciento más caro que el acero convencional. Por lo tanto, el acero neutro en carbono no es competitivo en el mercado frente al acero importado. Por favor, vote sobre las siguientes medidas políticas sobre cómo abordar esto:",
+            "La producción de acero causa aproximadamente el 8% de las emisiones globales de CO₂. La producción de acero libre de carbono es posible en principio. El gobierno ha decidido que a partir de 2030, el acero en nuestro país solo podrá producirse libre de CO₂. Sin embargo, este es actualmente entre un 60% y un 70% más caro que el acero convencional. Por lo tanto, el acero neutro en carbono no es competitivo en el mercado frente al acero importado. Por favor, vote sobre las siguientes medidas políticas para abordar esta situación:"
+        ],
+        "_unique_translations_back_es": [
             "",
             "Die Stahlproduktion verursacht weltweit etwa 8% der CO₂-Emissionen. Eine kohlenstofffreie Produktion von Stahl ist grundsätzlich möglich. Die Regierung hat beschlossen, dass ab 2030 Stahl in unserem Land nur noch CO₂-frei produziert werden darf. Dies ist jedoch derzeit 60-70 Prozent teurer als herkömmlicher Stahl. Kohlenstoffneutraler Stahl ist somit auf dem Markt nicht wettbewerbsfähig im Vergleich zu importiertem Stahl. Bitte stimmen Sie über die folgenden politischen Maßnahmen ab, wie man damit umgehen soll:"
         ]
@@ -76,6 +110,22 @@
                 ],
                 "_unique_translations_back_sv": [
                     "Keine politischen Maßnahmen"
+                ],
+                "_gpt_4_vision_es": "Ninguna medida política.",
+                "_gemini_1_5_pro_es": "Ninguna medida política. \n",
+                "_compare_gpt_4_vision_es": "Ninguna medida política",
+                "_compare_gemini_1_5_pro_es": "Ninguna medida política",
+                "_compare_claude_3_5_sonnet_es": "Ninguna medida política",
+                "_winners_es": [
+                    "_compare_gpt_4_vision_es",
+                    "_compare_gemini_1_5_pro_es",
+                    "Ninguna medida política"
+                ],
+                "_unique_translations_es": [
+                    "Ninguna medida política"
+                ],
+                "_unique_translations_back_es": [
+                    "Keine politischen Maßnahmen"
                 ]
             }
         },
@@ -105,6 +155,24 @@
                 "_unique_translations_back_sv": [
                     "",
                     "Der Staat gleicht die Mehrkosten für CO₂-freien Stahl aus Steuermitteln aus, bis dieser marktfähig ist (Carbon Contracts for Difference)"
+                ],
+                "_gpt_4_vision_es": "El Estado compensa los costes adicionales del acero libre de carbono con fondos fiscales hasta que sea comercializable (Contratos de Carbono por Diferencias).",
+                "_gemini_1_5_pro_es": "El Estado compensa los costes adicionales del acero libre de carbono con fondos públicos hasta que sea competitivo en el mercado (Contratos por Diferencia de Carbono). \n",
+                "_compare_gpt_4_vision_es": "El Estado compensa los costes adicionales del acero libre de carbono con fondos públicos hasta que sea competitivo en el mercado (Contratos por Diferencia de Carbono)",
+                "_compare_gemini_1_5_pro_es": "El Estado compensa los costes adicionales del acero libre de carbono con fondos públicos hasta que sea competitivo en el mercado (Contratos por Diferencia de Carbono)",
+                "_compare_claude_3_5_sonnet_es": "El Estado compensa los costes adicionales del acero libre de carbono con fondos públicos hasta que sea competitivo en el mercado (Contratos por Diferencia de Carbono)",
+                "_winners_es": [
+                    "_compare_gpt_4_vision_es",
+                    "_compare_gemini_1_5_pro_es",
+                    "El Estado compensa los costes adicionales del acero libre de carbono con fondos públicos hasta que sea competitivo en el mercado (Contratos por Diferencia de Carbono)"
+                ],
+                "_unique_translations_es": [
+                    "El Estado compensa los costes adicionales del acero libre de carbono con fondos fiscales hasta que sea comercializable (Contratos de Carbono por Diferencias)",
+                    "El Estado compensa los costes adicionales del acero libre de carbono con fondos públicos hasta que sea competitivo en el mercado (Contratos por Diferencia de Carbono)"
+                ],
+                "_unique_translations_back_es": [
+                    "",
+                    "Der Staat gleicht die Mehrkosten für CO₂-freien Stahl aus öffentlichen Mitteln aus, bis dieser auf dem Markt wettbewerbsfähig ist (Carbon Contracts for Difference)"
                 ]
             }
         },
@@ -134,6 +202,24 @@
                 "_unique_translations_back_sv": [
                     "",
                     "Einfuhrzölle auf konventionell hergestellten Stahl (CO₂-Grenzausgleichsmechanismus)"
+                ],
+                "_gpt_4_vision_es": "Aranceles de importación para el acero producido convencionalmente (Impuesto de Ajuste Fronterizo de Carbono).",
+                "_gemini_1_5_pro_es": "Aranceles a la importación de acero producido de manera convencional (mecanismo de ajuste en frontera de las emisiones de carbono). \n",
+                "_compare_gpt_4_vision_es": "Aranceles a la importación de acero producido de manera convencional (mecanismo de ajuste en frontera de las emisiones de carbono)",
+                "_compare_gemini_1_5_pro_es": "Aranceles de importación para el acero producido convencionalmente (Impuesto de Ajuste Fronterizo de Carbono)",
+                "_compare_claude_3_5_sonnet_es": "Aranceles a la importación de acero producido de manera convencional (mecanismo de ajuste en frontera de las emisiones de carbono)",
+                "_winners_es": [
+                    "_compare_gpt_4_vision_es",
+                    "_compare_gemini_1_5_pro_es",
+                    "Aranceles a la importación de acero producido de manera convencional (mecanismo de ajuste en frontera de las emisiones de carbono)"
+                ],
+                "_unique_translations_es": [
+                    "Aranceles a la importación de acero producido de manera convencional (mecanismo de ajuste en frontera de las emisiones de carbono)",
+                    "Aranceles de importación para el acero producido convencionalmente (Impuesto de Ajuste Fronterizo de Carbono)"
+                ],
+                "_unique_translations_back_es": [
+                    "Importzölle auf konventionell hergestellten Stahl (CO₂-Grenzausgleichsmechanismus)",
+                    ""
                 ]
             }
         }

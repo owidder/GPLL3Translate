@@ -39,6 +39,22 @@
         ],
         "_unique_translations_back_es": [
             "Abstimmung über den CO₂-Preis"
+        ],
+        "_gpt_4_vision_nl": "Stemming over de CO₂-prijs",
+        "_gemini_1_5_pro_nl": "Stemming over de CO₂-prijs",
+        "_compare_gpt_4_vision_nl": "Stemming over de CO₂-prijs",
+        "_compare_gemini_1_5_pro_nl": "Stemming over de CO₂-prijs",
+        "_compare_claude_3_5_sonnet_nl": "Stemming over de CO₂-prijs",
+        "_winners_nl": [
+            "_compare_gpt_4_vision_nl",
+            "_compare_gemini_1_5_pro_nl",
+            "Stemming over de CO₂-prijs"
+        ],
+        "_unique_translations_nl": [
+            "Stemming over de CO₂-prijs"
+        ],
+        "_unique_translations_back_nl": [
+            "Abstimmung über den CO₂-Preis"
         ]
     },
     "description": {
@@ -80,6 +96,24 @@
             "Por favor, vote sobre la evolución del impuesto al CO₂. El impuesto al CO₂ se aplica a los combustibles fósiles carbón, petróleo y gas, dependiendo de su contenido de carbono. Este impuesto afecta a los precios de todos los bienes que utilizan combustibles fósiles directa o indirectamente o que requieren combustibles fósiles para su producción. Su objetivo es incentivar el ahorro de energía y la producción de bienes con bajas emisiones de CO₂"
         ],
         "_unique_translations_back_es": [
+            "",
+            "Bitte stimmen Sie über die Entwicklung der CO₂-Steuer ab. Die CO₂-Steuer wird auf fossile Brennstoffe wie Kohle, Öl und Gas erhoben, je nach ihrem Kohlenstoffgehalt. Diese Steuer beeinflusst die Preise aller Waren, die entweder direkt oder indirekt fossile Brennstoffe verwenden oder für ihre Produktion fossile Brennstoffe benötigen. Sie soll einen Anreiz bieten, Energie zu sparen und Waren mit niedrigen CO₂-Emissionen zu produzieren"
+        ],
+        "_gpt_4_vision_nl": "Stem alstublieft over de ontwikkeling van de CO₂-belasting.\n<br>\nDe CO₂-belasting wordt geheven op de fossiele brandstoffen kolen, olie en gas, afhankelijk van hun koolstofgehalte.\n<br>\nDeze belasting beïnvloedt de prijzen van alle goederen die direct of indirect fossiele brandstoffen gebruiken of fossiele brandstoffen nodig hebben voor hun productie.\n<br>\nHet is bedoeld om een stimulans te bieden om energie te besparen en goederen te produceren met lage CO₂-uitstoot.",
+        "_gemini_1_5_pro_nl": "Stem alstublieft over de ontwikkeling van de CO₂-belasting.\n<br>\nDe CO₂-belasting wordt geheven op de fossiele brandstoffen kolen, olie en gas, afhankelijk van hun koolstofgehalte.\n<br>\nDeze belasting heeft invloed op de prijzen van alle goederen die direct of indirect fossiele brandstoffen gebruiken of waarvoor fossiele brandstoffen nodig zijn voor de productie.\n<br>\nHet is bedoeld als stimulans om energie te besparen en goederen met lage CO₂-emissies te produceren. \n",
+        "_compare_gpt_4_vision_nl": "Stem alstublieft over de ontwikkeling van de CO₂-belasting. De CO₂-belasting wordt geheven op de fossiele brandstoffen kolen, olie en gas, afhankelijk van hun koolstofgehalte. Deze belasting heeft invloed op de prijzen van alle goederen die direct of indirect fossiele brandstoffen gebruiken of waarvoor fossiele brandstoffen nodig zijn voor de productie. Het is bedoeld als stimulans om energie te besparen en goederen met lage CO₂-emissies te produceren",
+        "_compare_gemini_1_5_pro_nl": "Stem alstublieft over de ontwikkeling van de CO₂-belasting. De CO₂-belasting wordt geheven op de fossiele brandstoffen kolen, olie en gas, afhankelijk van hun koolstofgehalte. Deze belasting heeft invloed op de prijzen van alle goederen die direct of indirect fossiele brandstoffen gebruiken of waarvoor fossiele brandstoffen nodig zijn voor de productie. Het is bedoeld als stimulans om energie te besparen en goederen met lage CO₂-emissies te produceren",
+        "_compare_claude_3_5_sonnet_nl": "Stem alstublieft over de ontwikkeling van de CO₂-belasting. De CO₂-belasting wordt geheven op de fossiele brandstoffen kolen, olie en gas, afhankelijk van hun koolstofgehalte. Deze belasting heeft invloed op de prijzen van alle goederen die direct of indirect fossiele brandstoffen gebruiken of waarvoor fossiele brandstoffen nodig zijn voor de productie. Het is bedoeld als stimulans om energie te besparen en goederen met lage CO₂-emissies te produceren",
+        "_winners_nl": [
+            "_compare_gpt_4_vision_nl",
+            "_compare_gemini_1_5_pro_nl",
+            "Stem alstublieft over de ontwikkeling van de CO₂-belasting. De CO₂-belasting wordt geheven op de fossiele brandstoffen kolen, olie en gas, afhankelijk van hun koolstofgehalte. Deze belasting heeft invloed op de prijzen van alle goederen die direct of indirect fossiele brandstoffen gebruiken of waarvoor fossiele brandstoffen nodig zijn voor de productie. Het is bedoeld als stimulans om energie te besparen en goederen met lage CO₂-emissies te produceren"
+        ],
+        "_unique_translations_nl": [
+            "Stem alstublieft over de ontwikkeling van de CO₂-belasting. De CO₂-belasting wordt geheven op de fossiele brandstoffen kolen, olie en gas, afhankelijk van hun koolstofgehalte. Deze belasting beïnvloedt de prijzen van alle goederen die direct of indirect fossiele brandstoffen gebruiken of fossiele brandstoffen nodig hebben voor hun productie. Het is bedoeld om een stimulans te bieden om energie te besparen en goederen te produceren met lage CO₂-uitstoot",
+            "Stem alstublieft over de ontwikkeling van de CO₂-belasting. De CO₂-belasting wordt geheven op de fossiele brandstoffen kolen, olie en gas, afhankelijk van hun koolstofgehalte. Deze belasting heeft invloed op de prijzen van alle goederen die direct of indirect fossiele brandstoffen gebruiken of waarvoor fossiele brandstoffen nodig zijn voor de productie. Het is bedoeld als stimulans om energie te besparen en goederen met lage CO₂-emissies te produceren"
+        ],
+        "_unique_translations_back_nl": [
             "",
             "Bitte stimmen Sie über die Entwicklung der CO₂-Steuer ab. Die CO₂-Steuer wird auf fossile Brennstoffe wie Kohle, Öl und Gas erhoben, je nach ihrem Kohlenstoffgehalt. Diese Steuer beeinflusst die Preise aller Waren, die entweder direkt oder indirekt fossile Brennstoffe verwenden oder für ihre Produktion fossile Brennstoffe benötigen. Sie soll einen Anreiz bieten, Energie zu sparen und Waren mit niedrigen CO₂-Emissionen zu produzieren"
         ]
@@ -130,6 +164,24 @@
                 "_unique_translations_back_es": [
                     "",
                     "Erhöhen um 25€ pro Tonne"
+                ],
+                "_gpt_4_vision_nl": "Verhogen met 25€ per ton",
+                "_gemini_1_5_pro_nl": "Verhogen met € 25 per ton. \n",
+                "_compare_gpt_4_vision_nl": "Verhogen met € 25 per ton",
+                "_compare_gemini_1_5_pro_nl": "Verhogen met 25€ per ton",
+                "_compare_claude_3_5_sonnet_nl": "Verhogen met 25€ per ton",
+                "_winners_nl": [
+                    "_compare_gpt_4_vision_nl",
+                    "_compare_gemini_1_5_pro_nl",
+                    "Verhogen met 25€ per ton"
+                ],
+                "_unique_translations_nl": [
+                    "Verhogen met 25€ per ton",
+                    "Verhogen met € 25 per ton"
+                ],
+                "_unique_translations_back_nl": [
+                    "Erhöhen um 25€ pro Tonne",
+                    ""
                 ]
             }
         },
@@ -175,6 +227,24 @@
                 ],
                 "_unique_translations_back_es": [
                     "Unverändert lassen"
+                ],
+                "_gpt_4_vision_nl": "Onveranderd laten",
+                "_gemini_1_5_pro_nl": "Ongewijzigd laten. \n",
+                "_compare_gpt_4_vision_nl": "Ongewijzigd laten",
+                "_compare_gemini_1_5_pro_nl": "Onveranderd laten",
+                "_compare_claude_3_5_sonnet_nl": "Onveranderd laten",
+                "_winners_nl": [
+                    "_compare_gpt_4_vision_nl",
+                    "_compare_gemini_1_5_pro_nl",
+                    "Onveranderd laten"
+                ],
+                "_unique_translations_nl": [
+                    "Onveranderd laten",
+                    "Ongewijzigd laten"
+                ],
+                "_unique_translations_back_nl": [
+                    "Unverändert lassen",
+                    ""
                 ]
             }
         },
@@ -222,6 +292,24 @@
                 "_unique_translations_back_es": [
                     "Senken um 25 € pro Tonne",
                     ""
+                ],
+                "_gpt_4_vision_nl": "Verminderen met 25€ per ton",
+                "_gemini_1_5_pro_nl": "Verlagen met 25€ per ton",
+                "_compare_gpt_4_vision_nl": "Verlagen met 25€ per ton",
+                "_compare_gemini_1_5_pro_nl": "Verminderen met 25€ per ton",
+                "_compare_claude_3_5_sonnet_nl": "Verminderen met 25€ per ton",
+                "_winners_nl": [
+                    "_compare_gpt_4_vision_nl",
+                    "_compare_gemini_1_5_pro_nl",
+                    "Verminderen met 25€ per ton"
+                ],
+                "_unique_translations_nl": [
+                    "Verlagen met 25€ per ton",
+                    "Verminderen met 25€ per ton"
+                ],
+                "_unique_translations_back_nl": [
+                    "",
+                    "Verringern um 25€ pro Tonne"
                 ]
             }
         },
@@ -266,6 +354,22 @@
                     "Abstención"
                 ],
                 "_unique_translations_back_es": [
+                    "Enthaltung"
+                ],
+                "_gpt_4_vision_nl": "Onthouding",
+                "_gemini_1_5_pro_nl": "Onthouding",
+                "_compare_gpt_4_vision_nl": "Onthouding",
+                "_compare_gemini_1_5_pro_nl": "Onthouding",
+                "_compare_claude_3_5_sonnet_nl": "Onthouding",
+                "_winners_nl": [
+                    "_compare_gpt_4_vision_nl",
+                    "_compare_gemini_1_5_pro_nl",
+                    "Onthouding"
+                ],
+                "_unique_translations_nl": [
+                    "Onthouding"
+                ],
+                "_unique_translations_back_nl": [
                     "Enthaltung"
                 ]
             }

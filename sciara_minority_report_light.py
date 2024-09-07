@@ -671,7 +671,7 @@ async def crawl_json(
             table_lines.append({
                 "id": path,
                 "source_text": current_translations[source_language],
-                "translation_1": unique_translations[0],
+                "translation_1": create_diff_html(unique_translations[1], unique_translations[0]) if len(unique_translations) > 1 else unique_translations[0],
                 "translation_1_raw": unique_translations[0],
                 "translation_1_back": create_diff_html(current_translations[source_language], unique_translations_back[0]) if len(unique_translations_back[0]) > 0 else "",
                 "translation_2": create_diff_html(unique_translations[0], unique_translations[1]) if len(unique_translations) > 1 else "",
