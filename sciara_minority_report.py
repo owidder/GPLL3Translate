@@ -638,6 +638,23 @@ async def crawl_json(
             else:
                 unique_translations = data[unique_translations_property]
 
+            def get_translation_sources(translation: str) -> [str]:
+                sources = []
+                normalized_translation = normalize_string(translation)
+                if normalized_translation == normalize_string(translation_gpt_4_vision):
+                    sources.append("GPT-4 Vision")
+                if normalized_translation == normalize_string(translation_gemini_1_5_pro):
+                    sources.append("Gemini 1.5 Pro")
+                if normalized_translation == normalize_string(translation_mistral_large):
+                    sources.append("Mistral Large")
+                if normalized_translation == normalize_string(translation_claude_3_5_sonnet):
+                    sources.append("Claude 3.5 Sonnet")
+                if normalized_translation == normalize_string(translation_llama_3_1_70B):
+                    sources.append("Llama 3.1 70B")
+                return ', '.join(sources)
+
+            translation_sources = [get_translation_sources(unique_translation) for unique_translation in unique_translations]
+
             unique_translations_back_property = f"_unique_translations_back_{target_language}"
             if not unique_translations_back_property in data:
                 unique_translations_back = [
@@ -683,6 +700,7 @@ async def crawl_json(
                 "compare_llama_3_1_70B": compare_result_llama_3_1_70B,
                 "winners": winners,
                 "unique_translations": unique_translations,
+                "translation_sources": translation_sources,
             })
             current_translations.clear()
     elif isinstance(data, list):
