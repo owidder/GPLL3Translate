@@ -657,8 +657,8 @@ async def crawl_json(
                         source_text=translation,
                         source_language=target_language,
                         target_language=source_language,
-                        translate_models=[GPT_4_VISION, GEMINI_1_5_PRO, CLAUDE_3_5_SONNET, LLAMA_3_1_70B, MISTRAL_LARGE],
-                        assess_models=[GPT_4_VISION, GEMINI_1_5_PRO, CLAUDE_3_5_SONNET, LLAMA_3_1_70B, MISTRAL_LARGE],
+                        translate_models=[GPT_4_VISION, GEMINI_1_5_PRO, CLAUDE_3_5_SONNET],
+                        assess_models=[GPT_4_VISION, GEMINI_1_5_PRO, CLAUDE_3_5_SONNET],
                         file_content=file_content,
                         file_description=file_description,
                     ) if translation in winners else ""
