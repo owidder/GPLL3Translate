@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{{ title }}</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-family: verdana, serif;
+            font-size:12px;
+            border: 1px solid white;
+        }
+        th, td {
+            border-bottom:3px solid white;
+            border-right:3px solid white;
+            padding: 15px;
+            text-align: left;
+        }
+        th {
+            background-color: darkgray;
+        }
+        td {
+            background-color: lightgray;
+        }
+        .endtd {
+            border-right: 3px solid darkgray;
+        }
+        .translate {
+            background-color: lightblue;
+        }
+        .back-translate {
+            background-color: lightgrey;
+        }
+        .winner {
+            background-color: lightpink;
+        }
+        .compare {
+            background-color: lightsteelblue;
+        }
+        .source {
+            background-color: palegoldenrod;
+        }
+        .sources {
+            font-weight: bold;
+            font-size: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                {% for header in headers %}
+                    <th>{{ header }}</th>
+                {% endfor %}
+            </tr>
+        </thead>
+        <tbody>
+            {% for translation_line in translation_lines %}
+                <tr>
+                    <td class="endtd source">{{ translation_line.source_text }}</td>
+                    <td class="{{ 'winner' if translation_line.translation_1_raw in translation_line.winners else 'translate' }}">{{ translation_line.translation_1_raw }}<br><span class="sources">{{ translation_line.translation_sources[0] }}</span></td>
+                    <td class="back-translate">{{ translation_line.translation_1_back }}</td>
+                    <td class="{{ 'winner' if translation_line.translation_2_raw in translation_line.winners else 'translate' }}">{{ translation_line.translation_2_raw }}<br><span class="sources">{{ translation_line.translation_sources[1] }}</span></td>
+                    <td class="endtd back-translate">{{ translation_line.translation_2_back }}</td>
+                    <td class="compare">{{ translation_line.unique_translations.index(translation_line.compare_gpt_4_vision) + 1 if translation_line.compare_gpt_4_vision else -1}}</td>
+                    <td class="compare">{{ translation_line.unique_translations.index(translation_line.compare_gemini_1_5_pro) + 1 if translation_line.compare_gemini_1_5_pro else -1}}</td>
+                    <td class="endtd compare">{{ translation_line.unique_translations.index(translation_line.compare_claude_3_5_sonnet) + 1 if translation_line.compare_claude_3_5_sonnet else -1}}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>

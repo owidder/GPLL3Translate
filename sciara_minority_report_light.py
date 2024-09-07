@@ -222,17 +222,20 @@ async def compare_translations(
         f"You are a language expert and an expert in climate change. In the following you get a {LANGUAGES[source_language]} text from this language file and {len(translations)} translations in {LANGUAGES[target_language]}.\n"
         "Please decide which translation is the most accurate and the best for this application. Answer only with the number of the translation. Do NOT explain your choice!!! ONLY ONE NUMBER AS ANSWER!!!"
     )
-    original_line = [f"Original {LANGUAGES[source_language]}: \"{source_text}\""]
-    translation_lines = [f"translation {index+1}: \"{translation}\"" for index, translation in enumerate(translations)]
-    user = "\n".join(original_line + translation_lines)
-    print(f"compare_translations for '{source_text}'")
-    answer = await ask_model(system=system, user=user, model=model)
-    print(f"answer: {answer}")
-    if answer:
-        winning_index = int(catch_single_digit(answer))
-        return normalize_string(translations[winning_index - 1])
+    if len(translations) > 1:
+        original_line = [f"Original {LANGUAGES[source_language]}: \"{source_text}\""]
+        translation_lines = [f"translation {index+1}: \"{translation}\"" for index, translation in enumerate(translations)]
+        user = "\n".join(original_line + translation_lines)
+        print(f"compare_translations for '{source_text}'")
+        answer = await ask_model(system=system, user=user, model=model)
+        print(f"answer: {answer}")
+        if answer:
+            winning_index = int(catch_single_digit(answer))
+            return normalize_string(translations[winning_index - 1])
+        else:
+            return ""
     else:
-        return ""
+        return translations[0]
 
 
 async def get_best_back_translation(
@@ -283,17 +286,9 @@ def create_table(input_file: str, translation_lines: [str], source: str, target:
         "",
         "--- 2 ---",
         "",
-        "--- 3 ---",
-        "",
-        "--- 4 ---",
-        "",
-        "--- 5 ---",
-        "",
         "Assess (GPT 4 Vision)",
         "Assess (Gemini 1.5 Pro)",
-        "Assess (Mistral Large)",
         "Assess (Claude 3.5 Sonnet)",
-        "Assess (Llama 3.1 70B)",
     ]
 
     env = Environment(loader=FileSystemLoader('./templates'))
@@ -518,42 +513,42 @@ async def crawl_json(
             # else:
             #     compare_result_gpt_4o = data[compare_result_gpt_4o_property]
 
-            # compare_result_gpt_4_vision_property = f"_compare_gpt_4_vision_{target_language}"
-            # if not compare_result_gpt_4_vision_property in data:
-            #     compare_result_gpt_4_vision = await compare_translations(
-            #         source_text=data[source_language],
-            #         source_language=source_language,
-            #         translations=create_unique_translations(translation_list, 0),
-            #         target_language=target_language,
-            #         model=GPT_4_VISION,
-            #         file_content=file_content,
-            #         file_description=file_description,
-            #     )
-            #     data[compare_result_gpt_4_vision_property] = compare_result_gpt_4_vision
-            # else:
-            #     compare_result_gpt_4_vision = data[compare_result_gpt_4_vision_property]
+            compare_result_gpt_4_vision_property = f"_compare_gpt_4_vision_{target_language}"
+            if not compare_result_gpt_4_vision_property in data:
+                compare_result_gpt_4_vision = await compare_translations(
+                    source_text=data[source_language],
+                    source_language=source_language,
+                    translations=create_unique_translations(translation_list, 0),
+                    target_language=target_language,
+                    model=GPT_4_VISION,
+                    file_content=file_content,
+                    file_description=file_description,
+                )
+                data[compare_result_gpt_4_vision_property] = compare_result_gpt_4_vision
+            else:
+                compare_result_gpt_4_vision = data[compare_result_gpt_4_vision_property]
 
-            # compare_result_gemini_1_5_pro_property = f"_compare_gemini_1_5_pro_{target_language}"
-            # if not compare_result_gemini_1_5_pro_property in data:
-            #     compare_result_gemini_1_5_pro = await compare_translations(
-            #         source_text=data[source_language],
-            #         source_language=source_language,
-            #         translations=create_unique_translations(translation_list, 1),
-            #         target_language=target_language,
-            #         model=GEMINI_1_5_PRO,
-            #         file_content=file_content,
-            #         file_description=file_description,
-            #     )
-            #     data[compare_result_gemini_1_5_pro_property] = compare_result_gemini_1_5_pro
-            # else:
-            #     compare_result_gemini_1_5_pro = data[compare_result_gemini_1_5_pro_property]
+            compare_result_gemini_1_5_pro_property = f"_compare_gemini_1_5_pro_{target_language}"
+            if not compare_result_gemini_1_5_pro_property in data:
+                compare_result_gemini_1_5_pro = await compare_translations(
+                    source_text=data[source_language],
+                    source_language=source_language,
+                    translations=create_unique_translations(translation_list),
+                    target_language=target_language,
+                    model=GEMINI_1_5_PRO,
+                    file_content=file_content,
+                    file_description=file_description,
+                )
+                data[compare_result_gemini_1_5_pro_property] = compare_result_gemini_1_5_pro
+            else:
+                compare_result_gemini_1_5_pro = data[compare_result_gemini_1_5_pro_property]
 
             # compare_result_claude_3_sonnet_property = f"_compare_claude_3_sonnet_{target_language}"
             # if not compare_result_claude_3_sonnet_property in data:
             #     compare_result_claude_3_sonnet = await compare_translations(
             #         source_text=data[source_language],
             #         source_language=source_language,
-            #         translations=create_unique_translations(translation_list, 2),
+            #         translations=create_unique_translations(translation_list),
             #         target_language=target_language,
             #         model=CLAUDE_3_SONNET,
             #         file_content=file_content,
@@ -563,20 +558,20 @@ async def crawl_json(
             # else:
             #     compare_result_claude_3_sonnet = data[compare_result_claude_3_sonnet_property]
 
-            compare_result_mistral_large_property = f"_compare_mistral_large_{target_language}"
-            if not compare_result_mistral_large_property in data:
-                compare_result_mistral_large = await compare_translations(
-                    source_text=data[source_language],
-                    source_language=source_language,
-                    translations=create_unique_translations(translation_list),
-                    target_language=target_language,
-                    model=MISTRAL_LARGE,
-                    file_content=file_content,
-                    file_description=file_description,
-                )
-                data[compare_result_mistral_large_property] = compare_result_mistral_large
-            else:
-                compare_result_mistral_large = data[compare_result_mistral_large_property]
+            # compare_result_mistral_large_property = f"_compare_mistral_large_{target_language}"
+            # if not compare_result_mistral_large_property in data:
+            #     compare_result_mistral_large = await compare_translations(
+            #         source_text=data[source_language],
+            #         source_language=source_language,
+            #         translations=create_unique_translations(translation_list),
+            #         target_language=target_language,
+            #         model=MISTRAL_LARGE,
+            #         file_content=file_content,
+            #         file_description=file_description,
+            #     )
+            #     data[compare_result_mistral_large_property] = compare_result_mistral_large
+            # else:
+            #     compare_result_mistral_large = data[compare_result_mistral_large_property]
 
             compare_result_claude_3_5_sonnet_property = f"_compare_claude_3_5_sonnet_{target_language}"
             if not compare_result_claude_3_5_sonnet_property in data:
@@ -608,25 +603,25 @@ async def crawl_json(
             # else:
             #     compare_result_claude_3_haiku = data[compare_result_claude_3_haiku_property]
 
-            compare_result_llama_3_1_70B_property = f"_compare_llama_3_1_70B_{target_language}"
-            if not compare_result_llama_3_1_70B_property in data:
-                compare_result_llama_3_1_70B = await compare_translations(
-                    source_text=data[source_language],
-                    source_language=source_language,
-                    translations=create_unique_translations(translation_list),
-                    target_language=target_language,
-                    model=LLAMA_3_1_70B,
-                    file_content=file_content,
-                    file_description=file_description,
-                )
-                data[compare_result_llama_3_1_70B_property] = compare_result_llama_3_1_70B
-            else:
-                compare_result_llama_3_1_70B = data[compare_result_llama_3_1_70B_property]
+            # compare_result_llama_3_1_70B_property = f"_compare_llama_3_1_70B_{target_language}"
+            # if not compare_result_llama_3_1_70B_property in data:
+            #     compare_result_llama_3_1_70B = await compare_translations(
+            #         source_text=data[source_language],
+            #         source_language=source_language,
+            #         translations=create_unique_translations(translation_list),
+            #         target_language=target_language,
+            #         model=LLAMA_3_1_70B,
+            #         file_content=file_content,
+            #         file_description=file_description,
+            #     )
+            #     data[compare_result_llama_3_1_70B_property] = compare_result_llama_3_1_70B
+            # else:
+            #     compare_result_llama_3_1_70B = data[compare_result_llama_3_1_70B_property]
 
             winners_property = f"_winners_{target_language}"
             if not winners_property in data:
                 winners = find_most_common_strings(
-                    [compare_result_mistral_large, compare_result_claude_3_5_sonnet, compare_result_llama_3_1_70B])
+                    [compare_result_gpt_4_vision_property, compare_result_gemini_1_5_pro_property, compare_result_claude_3_5_sonnet])
                 data[winners_property] = winners
             else:
                 winners = data[winners_property]
@@ -645,12 +640,12 @@ async def crawl_json(
                     sources.append("GPT-4 Vision")
                 if normalized_translation == normalize_string(translation_gemini_1_5_pro):
                     sources.append("Gemini 1.5 Pro")
-                if normalized_translation == normalize_string(translation_mistral_large):
-                    sources.append("Mistral Large")
-                if normalized_translation == normalize_string(translation_claude_3_5_sonnet):
-                    sources.append("Claude 3.5 Sonnet")
-                if normalized_translation == normalize_string(translation_llama_3_1_70B):
-                    sources.append("Llama 3.1 70B")
+                # if normalized_translation == normalize_string(translation_mistral_large):
+                #     sources.append("Mistral Large")
+                # if normalized_translation == normalize_string(translation_claude_3_5_sonnet):
+                #     sources.append("Claude 3.5 Sonnet")
+                # if normalized_translation == normalize_string(translation_llama_3_1_70B):
+                #     sources.append("Llama 3.1 70B")
                 return ', '.join(sources)
 
             translation_sources = [get_translation_sources(unique_translation) for unique_translation in unique_translations]
@@ -694,10 +689,10 @@ async def crawl_json(
                 # "compare_gpt_4o": compare_result_gpt_4o,
                 "compare_gpt_4_vision": compare_result_gpt_4_vision,
                 "compare_gemini_1_5_pro": compare_result_gemini_1_5_pro,
-                "compare_mistral_large": compare_result_mistral_large,
+                # "compare_mistral_large": compare_result_mistral_large,
                 "compare_claude_3_5_sonnet": compare_result_claude_3_5_sonnet,
                 # "compare_claude_3_haiku": compare_result_claude_3_haiku,
-                "compare_llama_3_1_70B": compare_result_llama_3_1_70B,
+                # "compare_llama_3_1_70B": compare_result_llama_3_1_70B,
                 "winners": winners,
                 "unique_translations": unique_translations,
                 "translation_sources": translation_sources,
