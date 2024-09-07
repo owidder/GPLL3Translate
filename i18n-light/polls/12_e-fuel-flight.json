@@ -1,0 +1,38 @@
+{
+  "_id": "e-fuel-flight",
+  "heading": {
+    "de": "E-Fuels für Flugzeuge",
+    "en": "E-fuels for aircraft",
+    "fr": "E-fuels for aircraft",
+    "ar": "E-fuels for aircraft"
+  },
+  "description": {
+    "de": "Bitte stimmen Sie darüber ab, ob ab 2050 der Betrieb von Flugzeugen nur noch mit E-Fuels und nicht mehr mit Kerosin erlaubt sein soll.\nFür Flugzeuge ist der Ersatz kohlenstoffbasierter Treibstoffe wie Kerosin sehr schwierig, weil sie eine sehr hohe Energiedichte haben, die benötigt wird, um Jets weite Strecken fliegen lassen zu können.\nKerosin kann auch synthetisch aus mit erneuerbarem Strom hergestelltem Wasserstoff und CO<sub>2</sub> hergestellt werden. Allerdings ist dieser Prozess sehr ineffizient. Man bräuchte also sehr viel erneuerbaren Strom, um genügend E-Fuels auch nur für einen Bruchteil der heutigen Flugkilometer herzustellen. Diese Anwendung würde den Strom für alle Bürger und die Wirtschaft teurer machen und erhebliche Flächen beanspruchen.\nFlüge würden um ein Vielfaches teuer.",
+    "en": "Please vote on whether aircraft should only be allowed to run on e-fuels and no longer on jet fuel from 2050 onwards.",
+    "fr": "Please vote on whether aircraft should only be allowed to run on e-fuels and no longer on jet fuel from 2050 onwards.",
+    "ar": "Please vote on whether aircraft should only be allowed to run on e-fuels and no longer on jet fuel from 2050 onwards."
+  },
+  "multipleChoice": false,
+  "choices": [
+    {
+      "name": "justefuels",
+      "isDefault": false,
+      "uiStrings": {
+        "de": "Fliegen ab 2050 nur noch mit E-Fuels erlauben",
+        "en": "Only allow flying with e-fuels from 2050",
+        "fr": "Only allow flying with e-fuels from 2050",
+        "ar": "Only allow flying with e-fuels from 2050"
+      }
+    },
+    {
+      "name": "noefuels",
+      "isDefault": true,
+      "uiStrings": {
+        "de": "Weiterhin fossile Kraftstoffe für Flugzeuge erlauben",
+        "en": "Continue to allow fossil fuels for aircraft",
+        "fr": "Continue to allow fossil fuels for aircraft",
+        "ar": "Continue to allow fossil fuels for aircraft"
+      }
+    }
+  ]
+}

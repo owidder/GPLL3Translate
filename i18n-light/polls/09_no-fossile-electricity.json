@@ -1,0 +1,38 @@
+{
+  "_id": "no-fossile-electricity",
+  "heading": {
+    "de": "Verbot fossiler Stromproduktion",
+    "en": "Ban on fossil-fuelled electricity production",
+    "fr": "Ban on fossil-fuelled electricity production",
+    "ar": "Ban on fossil-fuelled electricity production"
+  },
+  "description": {
+    "de": "Bitte stimmen Sie über ein Auslaufen der Produktion von Elektrizität durch die Verbrennung von fossilen Energieträgern bis zum Jahr 2050 ab.\nIn der Stromproduktion werden enorme Mengen Treibhausgase und Schadstoffe aus Kohle, Erdgas und in kleinem Maße noch aus Erdöl freigesetzt. Zudem werden für deren Förderung riesige Landstriche verwüstet und schon dabei große Mengen Treibhausgase freigesetzt, vor allem das besonders klimawirksame Methan.\nDurch einen harten Anschlag für das Ende der fossilen Stromproduktion gibt es einerseits Klarheit über die Zukunft fossiler Energieträger, andererseits muss der Ausbau nicht-fossiler (also erneuerbarer oder nuklearer) Energiequellen mit dem gestaffelten Abschalten der alten Kraftwerke schritthalten und es müssen ausreichend Speichermöglichkeiten für Elektrizität geschaffen werden, z.B. Batterien, Wasserstoff aus Elektrolyse, Pumpspeicherwerke, Druckluftspeicher usw., um Dunkelflauten (die relativ selten sind) zu überstehen.",
+    "en": "Please vote on phasing out electricity production from fossil fuels by 2050.\nIn power generation, enormous amounts of greenhouse gases and pollutants are released from coal, natural gas, and to a lesser extent, oil. Furthermore, vast areas of land are devastated for their extraction, releasing large amounts of greenhouse gases, particularly methane, which has a significant climate impact.\nBy setting a hard deadline for the end of fossil fuel-based power generation, we can provide clarity on the future of fossil fuels, while also ensuring that the expansion of non-fossil (i.e., renewable or nuclear) energy sources keeps pace with the phased shutdown of old power plants.\nAdditionally, sufficient electricity storage capacities must be created, such as batteries, hydrogen from electrolysis, pumped hydro storage, compressed air storage, etc., to overcome periods of low energy availability (which are relatively rare).",
+    "fr": "Veuillez voter pour mettre fin à la production d'électricité à partir de combustibles fossiles d'ici 2050.\nDans la production d'énergie, des quantités énormes de gaz à effet de serre et de polluants sont libérées à partir du charbon, du gaz naturel et, dans une moindre mesure, du pétrole. De plus, de vastes étendues de terrain sont dévastées pour leur extraction, libérant de grandes quantités de gaz à effet de serre, notamment le méthane, qui a un impact climatique significatif.\nEn fixant une date butoir ferme pour la fin de la production d'énergie à partir de combustibles fossiles, nous pouvons apporter clarté sur l'avenir des combustibles fossiles, tout en veillant à ce que l'expansion des sources d'énergie non fossiles (c'est-à-dire renouvelables ou nucléaires) suive le rythme de la fermeture progressive des anciennes centrales électriques. En outre, des capacités de stockage d'électricité suffisantes doivent être créées, telles que des batteries, de l'hydrogène issu de l'électrolyse, des centrales de pompage-turbinage, des réservoirs de stockage d'air comprimé, etc., pour surmonter les périodes de faible disponibilité énergétique (qui sont relativement rares).",
+    "ar": "Please vote on a ban on the production of electricity by burning fossil fuels."
+  },
+  "multipleChoice": false,
+  "choices": [
+    {
+      "name": "nofossileelec",
+      "isDefault": false,
+      "uiStrings": {
+        "de": "Stromproduktion aus fossilen Energieträgern bis 2050 einstellen",
+        "en": "End electricity production from fossil fuels by 2050",
+        "fr": "End electricity production from fossil fuels by 2050",
+        "ar": "End electricity production from fossil fuels by 2050"
+      }
+    },
+    {
+      "name": "yesfossileelec",
+      "isDefault": true,
+      "uiStrings": {
+        "de": "Stromproduktion aus fossilen Energieträgern weiterhin erlauben",
+        "en": "End electricity production from fossil fuels by 2050",
+        "fr": "End electricity production from fossil fuels by 2050",
+        "ar": "End electricity production from fossil fuels by 2050"
+      }
+    }
+  ]
+}

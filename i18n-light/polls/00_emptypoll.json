@@ -1,0 +1,68 @@
+{
+    "_id": "polltemplate",
+    "heading": {
+      "de": "This is just a template",
+      "en": "This is just a template",
+      "fr": "This is just a template",
+      "ar": "This is just a template"
+    },
+    "description": {
+      "de": "",
+      "en": "",
+      "fr": "",
+      "ar": ""
+    },
+    "multipleChoice": false,
+    "choices": [
+      {
+        "name": "",
+        "isDefault": false,
+        "uiStrings": {
+          "de": "",
+          "en": "",
+          "fr": "",
+          "ar": ""
+        }
+      },
+      {
+        "name": "",
+        "isDefault": false,
+        "uiStrings": {
+          "de": "",
+          "en": "",
+          "fr": "",
+          "ar": ""
+        }
+      },
+      {
+        "name": "",
+        "isDefault": false,
+        "uiStrings": {
+          "de": "",
+          "en": "",
+          "fr": "",
+          "ar": ""
+        }
+      },
+      {
+        "name": "",
+        "isDefault": false,
+        "uiStrings": {
+          "de": "",
+          "en": "",
+          "fr": "",
+          "ar": ""
+        }
+      },
+      {
+        "name": "",
+        "isDefault": false,
+        "uiStrings": {
+          "de": "",
+          "en": "",
+          "fr": "",
+          "ar": ""
+        }
+      }
+    ]
+  }

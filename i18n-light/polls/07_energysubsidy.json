@@ -1,0 +1,68 @@
+{
+  "_id": "energysubsidy",
+  "heading": {
+    "de": "Abstimmung über ein Bürger-Energiegeld",
+    "en": "Vote on a citizen energy subsidy",
+    "fr": "Votez pour une subvention énergétique citoyenne",
+    "ar": "التصويت على دعم الطاقة للمواطنين"
+  },
+  "description": {
+    "de": "Die Preissteigerungen bei Energie treffen vor allem die Geringverdiener hart.\nAnstatt Energie allgemein zu subventionieren könnte der Staat allen Bürgern gleichmäßig den Mindestbedarf an Energie subventionieren. Dadurch würden Geringverdiener entlastet, gleichzeitig die Marktmechanismen erhalten, die Sparsamkeit durch hohe Preise bewirken und die Energiekonzerne daran gehindert, die Subvention selbst einzustreichen.\n\nUm die Kosten dafür zu decken, kommen Steuererhöhungen oder (vor allem bei einer temporären Maßnahme) neue Staatsschulden infrage.",
+    "en": "The price increases for energy hit low-income earners especially hard.\nInstead of subsidising energy in general, the state could subsidise the minimum energy needs of all citizens equally. This would relieve low-income earners, while at the same time preserving the market mechanisms that bring about thrift through high prices and preventing the energy companies from pocketing the subsidy themselves.\n\nTo cover the costs of this, tax increases or (especially in the case of a temporary measure) new public debt are possible options.",
+    "fr": "Les hausses de prix de l'énergie touchent particulièrement les personnes à faible revenu.\nAu lieu de subventionner l'énergie de manière générale, l'État pourrait subventionner de manière égale les besoins énergétiques minimum de tous les citoyens. Cela soulagerait les personnes à faible revenu, tout en préservant les mécanismes du marché qui favorisent l'économie grâce à des prix élevés et en empêchant les sociétés énergétiques de s'approprier la subvention.\n\nPour couvrir les coûts, des augmentations d'impôts ou (surtout dans le cas d'une mesure temporaire) de nouvelles dettes publiques sont des options possibles.",
+    "ar": "تؤثر زيادات أسعار الطاقة بشكل خاص على المتردين الوضع الاقتصادي.\nبدلاً من دعم الطاقة بشكل عام، يمكن للدولة دعم الحد الأدنى من احتياجات الطاقة لجميع المواطنين بالتساوي. وسيؤدي ذلك إلى تخفيف العبء عن المتردين الوضع الاقتصادي، مع الحفاظ في الوقت نفسه على آليات السوق التي تجلب التوفير من خلال رفع الأسعار ومنع شركات الطاقة من الاستحواذ على الدعم.\n\nلتغطية تكاليف ذلك، هناك خيارات ممكنة مثل زيادة الضرائب أو (خاصة في حالة التدابير المؤقتة) الديون العامة الجديدة."
+  },
+  "multipleChoice": false,
+  "choices": [
+    {
+      "name": "level25",
+      "isDefault": false,
+      "uiStrings": {
+        "de": "25% des Grundbedarfs werden vom Staat bezahlt",
+        "en": "25% of the basic needs are paid by the state",
+        "fr": "25 % des besoins de base sont pris en charge par l'État",
+        "ar": "يدفع الدولة 25% من الاحتياجات الأساسية"
+      }
+    },
+    {
+      "name": "level50",
+      "isDefault": false,
+      "uiStrings": {
+        "de": "50% des Grundbedarfs werden vom Staat bezahlt",
+        "en": "50% of the basic needs are paid by the state",
+        "fr": "50 % des besoins de base sont pris en charge par l'État",
+        "ar": "يدفع الدولة 50% من الاحتياجات الأساسية"
+      }
+    },
+    {
+      "name": "level75",
+      "isDefault": false,
+      "uiStrings": {
+        "de": "75% des Grundbedarfs werden vom Staat bezahlt",
+        "en": "75% of the basic needs are paid by the state",
+        "fr": "75 % des besoins de base sont pris en charge par l'État",
+        "ar": "يدفع الدولة 75% من الاحتياجات الأساسية"
+      }
+    },
+    {
+      "name": "level100",
+      "isDefault": false,
+      "uiStrings": {
+        "de": "100% des Grundbedarfs werden vom Staat bezahlt",
+        "en": "100% of the basic needs are paid by the state",
+        "fr": "100 % des besoins de base sont pris en charge par l'État",
+        "ar": "يدفع الدولة 100% من الاحتياجات الأساسية"
+      }
+    },
+    {
+      "name": "nosubsidy",
+      "isDefault": true,
+      "uiStrings": {
+        "de": "Keine Subvention der Energiekosten",
+        "en": "No subsidy",
+        "fr": "Aucune subvention",
+        "ar": "لا دعم"
+      }
+    }
+  ]
+}

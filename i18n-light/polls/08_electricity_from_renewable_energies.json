@@ -1,0 +1,33 @@
+{
+  "_id": "electricity-from-renewable-energies",
+  "heading": {
+    "de": "Abstimmung über die Umstellung auf 100% erneuerbare Stromerzeugung",
+    "en": "Vote on the switch to 100% renewable energy generation"
+  },
+  "description": {
+    "de": "Soll Strom ausschließlich aus erneuerbaren Energien erzeugt werden? \n\nBitte stimmen Sie über die folgenden politischen Maßnahmen ab, wie damit umzugehen ist:",
+    "en": "Should electricity be generated exclusively from renewable energies? \n\nPlease vote on the following policy measures on how to deal with this:\n"
+  },
+  "multipleChoice": false,
+  "choices": [
+    {
+      "name": "opt-1",
+      "isDefault": false,
+      "uiStrings": {
+        "de": "Keine politischen Maßnahmen.",
+        "ru": "Никаких мер политики.",
+        "en": "No policy measures.",
+        "ar": "لا توجد إجراءات سياسية.",
+        "fr": "Aucune mesure politique."
+      }
+    },
+    {
+      "name": "opt-2",
+      "isDefault": false,
+      "uiStrings": {
+        "de": "Strom darf nur noch aus erneuerbaren Energiequellen erzeugt werden.",
+        "en": "Electricity may only be generated from renewable energy sources."
+      }
+    }
+  ]
+}

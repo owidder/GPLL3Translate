@@ -1,0 +1,38 @@
+{
+  "_id": "nuclearrenaissance",
+  "heading": {
+    "de": "Neubau von Kernkraftwerken",
+    "en": "New construction of nuclear power plants",
+    "fr": "New construction of nuclear power plants",
+    "ar": "New construction of nuclear power plants"
+  },
+  "description": {
+    "de": "Deutschland hat sich inzwischen mehrfach von der Kernenergie verabschiedet. Der letzte deutsche Atommeiler wurde am 15. April 2023 abgeschaltet. Ein Weiterbetrieb der alten Anlagen wird selbst von den Betreibern ausgeschlossen.\nDennoch wird immer wieder der Neubau modernster Kernkraftwerke in die Diskussion gebracht. Die Befürworter führen dafür vor allem die Grundlastfähigkeit, die geringen Treibhausgas-Emissionen und die angenommenen niedrigen Stromkosten ins Feld.\nKritiker verweisen auf die extrem langen Genehmigungs- und Bauzeiten (mehr als 10 Jahre pro Reaktor), die einen rechtzeitigen relevanten Beitrag zum Klimaschutz ausschlössen, die Abhängigkeit von Russland für die Brennstäbe, den voraussichtlichen Mangel an Kühlwasser, die Waffenfähigkeit der Spaltprodukte, die Unversicherbarkeit, sowie die ungeklärten Endlager- und Sicherheitsfragen.\nWie sehen Sie diese Frage?",
+    "en": "Germany has now said goodbye to nuclear energy several times. The last German nuclear reactor was shut down on 15 April 2023. Even the operators have ruled out continuing to operate the old plants.\nNevertheless, the construction of new state-of-the-art nuclear power plants is repeatedly brought up for discussion. Those in favour cite their base load capability, low greenhouse gas emissions and the assumed low cost of electricity.\nCritics point to the extremely long approval and construction times (more than 10 years per reactor), which would rule out a timely and relevant contribution to climate protection, the dependence on Russia for the fuel rods, the probable lack of cooling water, the weapons capability of the fission products, the lack of safety, as well as the unresolved final storage and safety issues.\nHow do you see this issue?",
+    "fr": "Germany has now said goodbye to nuclear energy several times. The last German nuclear reactor was shut down on 15 April 2023. Even the operators have ruled out continuing to operate the old plants.\nNevertheless, the construction of new state-of-the-art nuclear power plants is repeatedly brought up for discussion. Those in favour cite their base load capability, low greenhouse gas emissions and the assumed low cost of electricity.\nCritics point to the extremely long approval and construction times (more than 10 years per reactor), which would rule out a timely and relevant contribution to climate protection, the dependence on Russia for the fuel rods, the probable lack of cooling water, the weapons capability of the fission products, the lack of safety, as well as the unresolved final storage and safety issues.\nHow do you see this issue?",
+    "ar": "Germany has now said goodbye to nuclear energy several times. The last German nuclear reactor was shut down on 15 April 2023. Even the operators have ruled out continuing to operate the old plants.\nNevertheless, the construction of new state-of-the-art nuclear power plants is repeatedly brought up for discussion. Those in favour cite their base load capability, low greenhouse gas emissions and the assumed low cost of electricity.\nCritics point to the extremely long approval and construction times (more than 10 years per reactor), which would rule out a timely and relevant contribution to climate protection, the dependence on Russia for the fuel rods, the probable lack of cooling water, the weapons capability of the fission products, the lack of safety, as well as the unresolved final storage and safety issues.\nHow do you see this issue?"
+  },
+  "multipleChoice": false,
+  "choices": [
+    {
+      "name": "option1",
+      "isDefault": false,
+      "uiStrings": {
+        "de": "Bau neuer Kernkraftwerke",
+        "en": "Build new nuclear power plants",
+        "fr": "Build new nuclear power plants",
+        "ar": "Build new nuclear power plants"
+      }
+    },
+    {
+      "name": "option2",
+      "isDefault": true,
+      "uiStrings": {
+        "de": "Keine neuen Kernkraftwerke",
+        "en": "No new nuclear!",
+        "fr": "No new nuclear!",
+        "ar": "No new nuclear!"
+      }
+    }
+  ]
+}
