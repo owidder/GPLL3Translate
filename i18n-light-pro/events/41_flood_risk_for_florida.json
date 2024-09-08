@@ -1,0 +1,27 @@
+{
+  "schedule": {
+    "date": "2050-01-01T00:00:00"
+  },
+  "name": "Increase in flood risk near Florida's coast (Trigger until 2050)",
+  "actions": [
+    {
+      "notification": {
+        "sendEmail": false,
+        "title": {
+          "de": "Flutrisiko an Floridas Küsten",
+          "ru": "Риск наводнения на побережье Флориды",
+          "en": "Flood Risk on Florida's Coasts",
+          "fr": "Risque d'inondation sur les côtes de la Floride",
+          "ar": "مخاطر الفيضانات على سواحل فلوريدا"
+        },
+        "body": {
+          "de": "<img width=250 src=\"../../../content/images/events/41_flood_risk_for_florida.jpg\"><br>In Florida herrscht in Küstennähe akutes Flutrisiko. Evakuierungsmaßnahmen der lokalen Bevölkerung sind bereits im Gange. Das Auswärtige Amt rät ausdrücklich vor Reisen in die Gegend ab. Besondere Vorsicht bestehe in und um Miami, aber auch in allen anderen Regionen seien Reisen besonders riskant.<br>Text von treibhauspost.de",
+          "ru": "<img width=250 src=\"../../../content/images/events/41_flood_risk_for_florida.jpg\"><br>На побережье Флориды существует высокий риск наводнений. Эвакуационные мероприятия для местного населения уже идут. Министерство иностранных дел настоятельно рекомендует избегать путешествий в этот регион. Особенно осторожны следует быть в Майами и его окрестностях, но и в других регионах путешествия также представляют большую опасность.<br>Текст с treibhauspost.de",
+          "en": "<img width=250 src=\"../../../content/images/events/41_flood_risk_for_florida.jpg\"><br>There is an acute flood risk along the coasts of Florida. Evacuation measures for the local population are already in progress. The Foreign Office strongly advises against traveling to the area. Extra caution is advised in and around Miami, but travel is particularly risky in all other regions as well.<br>Text from treibhauspost.de",
+          "ar": "<img width=250 src=\"../../../content/images/events/41_flood_risk_for_florida.jpg\"><br>هناك خطر فيضانات حاد على سواحل فلوريدا. تم اتخاذ إجراءات الإخلاء للسكان المحليين بالفعل. تنصح وزارة الخارجية بشدة بعدم السفر إلى المنطقة. يجب أن يكون الحذر خاصة في ميامي وما حولها، ولكن السفر محفوف بالمخاطر بشكل خاص في جميع الأقاليم الأخرى أيضًا.<br>نص من treibhauspost.de",
+          "fr": "<img width=250 src=\"../../../content/images/events/41_flood_risk_for_florida.jpg\"><br>Un risque d'inondation aigu sévit le long des côtes de la Floride. Les mesures d'évacuation pour la population locale sont déjà en cours. Le ministère des Affaires étrangères déconseille fortement de voyager dans la région. Une vigilance accrue est recommandée à Miami et dans ses environs, mais les voyages sont également particulièrement risqués dans toutes les autres régions.<br>Texte de treibhauspost.de"
+        }
+      }
+    }
+  ]
+}

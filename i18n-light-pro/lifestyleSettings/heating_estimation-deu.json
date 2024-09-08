@@ -1,0 +1,65 @@
+{
+  "efficiencyFactors": {
+    "districtHeat": {
+      "biomass": 0.81,
+      "coal": 0.81,
+      "naturalGas": 0.87
+    },
+    "boiler": {
+      "heatingOil": 0.79,
+      "biogas": 0.83,
+      "wood": 0.7,
+      "naturalGas": 0.83
+    },
+    "condensingBoiler": {
+      "heatingOil": 0.92,
+      "biogas": 0.96,
+      "naturalGas": 0.96
+    },
+    "heatPump": {
+      "electricity": 0.0
+    },
+    "electricHeating": {
+      "electricity": 0.0
+    }
+  },
+  "yearlyKwhPerSqrMeterPassiveHouse": {
+    "newApartmentBuilding": 41.0,
+    "oldApartmentBuilding": 49.0,
+    "singleFamilyHouse": 46.0
+  },
+  "yearlyKwhPerSqrMeter": {
+    "newApartmentBuilding": {
+      "1969to1983": 96.0,
+      "2007to2012": 54.0,
+      "1984to1994": 100.0,
+      "after2012": 47.0,
+      "before1949": 113.0,
+      "1995to2006": 74.0,
+      "1949to1968": 108.0
+    },
+    "oldApartmentBuilding": {
+      "1969to1983": 181.0,
+      "2007to2012": 72.0,
+      "1984to1994": 145.0,
+      "after2012": 60.0,
+      "before1949": 207.0,
+      "1995to2006": 113.0,
+      "1949to1968": 191.0
+    },
+    "singleFamilyHouse": {
+      "1969to1983": 242.0,
+      "2007to2012": 80.0,
+      "1984to1994": 178.0,
+      "after2012": 70.0,
+      "before1949": 307.0,
+      "1995to2006": 141.0,
+      "1949to1968": 281.0
+    }
+  },
+  "yearlyKwhDeductionsPerSqrMeter": {
+    "average": 18.0,
+    "efficient": 11.0,
+    "old": 25.0
+  }
+}

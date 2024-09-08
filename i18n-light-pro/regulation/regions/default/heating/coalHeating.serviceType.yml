@@ -1,0 +1,16 @@
+serviceType: coalHeating
+unit: kgCO2e/kWh
+serviceVariants:
+  - variant: average
+    share:
+      value: 100
+      unit: "%"
+      sources:
+        - https://my.source.org
+      year: 2024
+    emissionFactor:
+      value: 0.438
+      unit: kgCO2e/kWh
+      sources:
+        - https://my.source.org
+      year: 2024

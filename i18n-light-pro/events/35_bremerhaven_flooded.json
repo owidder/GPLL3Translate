@@ -1,0 +1,40 @@
+{
+  "schedule": {
+    "conditions": [
+      {
+        "path": "..globalMeanTemperature.series.GMT [Kelvins by year]",
+        "configurationType": "PROJECTION_RESULT",
+        "value": 1.5,
+        "operator": "EQ"
+      },
+      {
+        "path": "..globalMeanTemperature.series.GMT [Kelvins by year]",
+        "configurationType": "PROJECTION_RESULT",
+        "value": 2.0,
+        "operator": "EQ"
+      }
+    ]
+  },
+  "name": "Floods in Europe (Trigger 1.5 and 2.0°C)",
+  "actions": [
+    {
+      "notification": {
+        "sendEmail": false,
+        "title": {
+            "de": "Bremerhaven ist überflutet",
+            "ru": "Бремерхафен затоплен",
+            "en": "Bremerhaven is Flooded",
+            "fr": "Bremerhaven est inondée",
+            "ar": "بريمرهافن مغمورة بالفيضانات"
+        },
+        "body": {
+            "de": "<img width=250 src=\"\"><br>Tausende Menschen haben durch Überschwemmungen ihr Zuhause in der Hafenstadt verloren. In allen umgebenden Bundesländern wurden Notunterkünfte für die Binnenflüchtlinge eingerichtet.<br>Text von treibhauspost.de",
+            "ru": "<img width=250 src=\"\"><br>Тысячи людей потеряли свой дом из-за наводнений в городе-порту Бремерхафен. Во всех окружающих федеральных землях были организованы временные убежища для внутренних переселенцев.<br>Текст с treibhauspost.de",
+            "en": "<img width=250 src=\"\"><br>Thousands of people have lost their homes in the port city of Bremerhaven due to flooding. Emergency shelters have been set up in all surrounding states for the internally displaced.<br>Text from treibhauspost.de",
+            "ar": "<img width=250 src=\"\"><br>آلاف الأشخاص فقدوا منازلهم في مدينة بريمرهافن بسبب الفيضانات. تم إقامة ملاجئ طوارئ في جميع الولايات المجاورة لاستقبال النازحين داخليًا.<br>نص من treibhauspost.de",
+            "fr": "<img width=250 src=\"\"><br>Des milliers de personnes ont perdu leur domicile dans la ville portuaire en raison des inondations. Des abris d'urgence ont été mis en place dans tous les États fédéraux environnants pour les déplacés internes.<br>Texte de treibhauspost.de"
+        }
+      }
+    }
+  ]
+}

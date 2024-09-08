@@ -1,0 +1,55 @@
+{
+  "_id": "steel-decarbon-poll",
+  "heading": {
+    "de": "Abstimmung über die Umstellung auf CO₂-freien Stahl",
+    "ru": "Проголосуйте за переход на сталь без CO₂",
+    "en": "Vote on the switch to CO₂-free steel",
+    "ar": "التصويت بشأن التحول إلى الصلب خالي من ثاني أكسيد الكربون",
+    "fr": "Votez pour le passage à l'acier sans CO₂"
+  },
+  "description": {
+    "de": "Die Stahlerzeugung verursacht weltweit ca. 8% der CO₂-Emissionen.\n<br>\nDie kohlenstofffreie Erzeugung von Stahl ist grundsätzlich möglich.\n<br>\nDie Regierung hat beschlossen, dass ab 2030 Stahl in unserem Land nur noch CO₂-frei produziert werden darf. Dieser ist aktuell jedoch 60–70 Prozent teurer als der konventionelle Stahl.\n<br>\nKohlenstoffneutraler Stahl ist damit auf dem Markt gegenüber importiertem Stahl nicht konkurrenzfähig. \n\nBitte stimmen Sie über die folgenden politischen Maßnahmen ab, wie damit umzugehen ist:",
+    "ru": "На производство стали приходится около 8% выбросов CO₂ в мире.\n<br>\nБезуглеродное производство стали в принципе возможно.\n<br>\nПравительство приняло решение, что с 2030 года сталь в нашей стране может производиться только без CO₂. Однако в настоящее время она на 60-70 процентов дороже обычной стали.\n<br>\nТаким образом, углеродистая нейтральная сталь неконкурентоспособна на рынке по сравнению с импортной сталью. \n\nПожалуйста, проголосуйте за следующие политические меры по решению этой проблемы:",
+    "en": "Steel production accounts for about 8% of CO₂ emissions worldwide.\n<br>\nCarbon-free production of steel is possible in principle.\n<br>\nThe government has decided that from 2030 steel in our country may only be produced CO₂-free. However, this is currently 60-70 per cent more expensive than conventional steel.\n<br>\nCarbon neutral steel is thus not competitive in the market against imported steel. \n\nPlease vote on the following policy measures on how to deal with this:\n",
+    "ar": "يسهم إنتاج الصلب بنسبة حوالي 8% من انبعاثات ثاني أكسيد الكربون عالميًا.\n<br>\nإن إنتاج الصلب خالي من الكربون ممكن بشكل أساسي.\n<br>\nقررت الحكومة أن يتم إنتاج الصلب في بلادنا بدون ثاني أكسيد الكربون اعتبارًا من عام 2030. ومع ذلك، يكون هذا الصلب حاليًا أغلى بنسبة 60-70 في المائة من الصلب التقليدي.\n<br>\nبالتالي، الصلب النقي من الكربون غير تنافسي في السوق مقابل الصلب المستورد.\n\nيرجى التصويت على الإجراءات السياسية التالية حول كيفية التعامل مع هذه المسألة:",
+    "fr": "La production d'acier représente environ 8 % des émissions de CO₂ dans le monde.\n<br>\nLa production d'acier sans carbone est possible en principe.\n<br>\nLe gouvernement a décidé qu'à partir de 2030, l'acier dans notre pays ne devra être produit qu'à partir de CO₂. Cependant, cela coûte actuellement 60 à 70 % de plus que l'acier conventionnel.\n<br>\nL'acier neutre en carbone n'est donc pas compétitif sur le marché par rapport à l'acier importé. \n\nVeuillez voter sur les mesures politiques suivantes pour traiter cette question:\n"
+
+  },
+  "multipleChoice": false,
+  "choices": [
+    {
+      "name": "opt-1",
+      "isDefault": false,
+      "uiStrings": {
+        "de": "Keine politischen Maßnahmen.",
+        "ru": "Никаких мер политики.",
+        "en": "No policy measures.",
+        "ar": "لا توجد إجراءات سياسية.",
+        "fr": "Aucune mesure politique."
+      }
+    },
+    {
+      "name": "opt-2",
+      "isDefault": false,
+      "uiStrings": {
+        "de": "Der Staat gleicht die Mehrkosten für den kohlenstofffreien Stahl aus Steuermitteln so lange aus, bis er marktfähig ist (Carbon Contracts for Difference).",
+        "ru": "Правительство компенсирует дополнительную стоимость безуглеродистой стали за счет налогов до тех пор, пока она не станет доступной на рынке (углеродные контракты на разницу).",
+        "en": "Government offsets the extra cost of carbon-free steel from taxes until it is marketable (Carbon Contracts for Difference).",
+        "ar": "يقوم الحكومة بتعويض التكلفة الإضافية للصلب خالي من الكربون من الضرائب حتى يصبح صالحًا للسوق (عقود الكربون للفروق).",
+        "fr": "Le gouvernement compense les coûts supplémentaires de l'acier sans carbone grâce aux taxes jusqu'à ce qu'il soit commercialisable (Contrats carbone pour la différence)."
+      }
+    },
+    {
+      "name": "opt-3",
+      "isDefault": false,
+      "uiStrings": {
+        "de": "Einfuhrzölle für konventionell produzierten Stahl (Grenzausgleichsabgabe).",
+        "ru": "Импортные пошлины на сталь обычного производства (пограничный сбор).",
+        "en": "Import duties on conventionally produced steel (Carbon Border Adjustment Mechanism).",
+        "ar": "رسوم الاستيراد على الصلب المنتج تقليديًا (آلية تعديل الكربون الحدودي).",
+        "fr": "Droits d'importation sur l'acier produit de manière conventionnelle (Mécanisme d'ajustement frontalier du carbone)."
+
+      }
+    }
+  ]
+}

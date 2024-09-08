@@ -1,0 +1,26 @@
+averageFoodConsumption:
+  value: 1297210
+  unit: "kcal/year"
+  description: "average consumption per person in europe."
+  year: 2021
+  sources:
+    - https://de.statista.com/statistik/daten/studie/1198137/umfrage/taegliche-kalorienzufuhr-pro-kopf-in-verschiedenen-weltregionen/
+averageFlightDistance:
+  shortTrip:
+    value: 750
+    unit: km
+    sources:
+      - https://my.sources.org
+    year: 2020
+  mediumTrip:
+    value: 2000
+    unit: km
+    sources:
+      - https://my.sources.org
+    year: 2020
+  longTrip:
+    value: 7500
+    unit: km
+    sources:
+      - https://my.sources.org
+    year: 2020

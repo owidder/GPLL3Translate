@@ -1,0 +1,16 @@
+serviceType: publicRegionalTrain
+unit: kgCO2e/pkm
+serviceVariants:
+  - variant: average
+    share:
+      value: 100
+      unit: "%"
+      sources:
+        - "https://my.source.org"
+      year: 2022
+    emissionFactor:
+      value: 0.058
+      unit: kgCO2e/pkm
+      sources:
+        - "https://www.umweltbundesamt.de/bild/vergleich-der-durchschnittlichen-emissionen-0"
+      year: 2022

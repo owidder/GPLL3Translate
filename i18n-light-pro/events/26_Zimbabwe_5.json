@@ -1,0 +1,35 @@
+{
+    "schedule": {
+      "conditions": [
+        {
+          "path": "..globalMeanTemperature.series.GMT [Kelvins by year]",
+          "configurationType": "PROJECTION_RESULT",
+          "value": 4,
+          "operator": "GTE"
+        }
+      ]
+    },
+    "name": "Zimbabwe 5 (Trigger 4 °C)",
+    "actions": [
+      {
+        "notification": {
+          "sendEmail": true,
+          "title": {
+            "de": "Simbabwe - Drei Stunden nördlich von Harare: Waldbrand ist nicht aufzuhalten",
+            "ru": "Зимбабве - Три часа к северу от Хараре: лесной пожар не удается остановить",
+            "en": "Zimbabwe - Three hours north of Harare: forest fire cannot be stopped",
+            "ar": "زيمبابوي - ثلاث ساعات شمال هاراري: لا يمكن إيقاف حريق الغابات",
+            "fr": "Zimbabwe - À trois heures au nord de Harare : l'incendie de forêt ne peut être maîtrisé"
+          },
+          "body": {
+            "de": "Einer der bekanntesten Nationalparks in Simbabwe brennt seit Anfang dieser Woche. Die diesjährige Heiß-Trockenzeit macht dem Gebiet zu schaffen. Simbabwes Agrarministerin teilte in einer gestrigen Pressekonferenz mit, dass das gesamte Waldgebiet und die darin lebenden Menschen und Tiere in Gefahr sind. \n\n Die Klimaverhältnisse rund um den Nationalpark sind in den vergangenen Jahren immer trockener geworden. Die aktuelle Trockenzeit übertrifft jedoch alle bisherigen Aufzeichnungen   . Die lokalen Behörden haben bestätigt, dass über 1.000 Hektar des Nationalsparks vom Feuer aktuell brennen oder schon zerstört wurden. Ein Waldbrand in diesem Ausmaß gab es zuvor noch nie in Simbabwe. \n\n Das Übereinkommen der Vereinten Nationen zur Bekämpfung der Wüstenbildung (UNCCD) teilte nun seine Sorge mit: „Die Gefahren des Waldbrandes sind hoch. Die Wüstenbildung in Simbabwe wird noch mehr beschleunigt und klimatische Bedingungen werden sich deutlich verschlechtern. Es braucht nun akute Bemühungen, den Brand unter Kontrolle zu bringen.“",
+            "en": "One of Zimbabwe's most famous national parks has been on fire since the beginning of this week. This year's hot-dry season is taking its toll on the area. Zimbabwe's Minister of Agriculture announced in a press conference yesterday that the entire forest area and the people and animals living in it are in danger. \n\n The climate conditions around the national park have become increasingly dry in recent years. However, the current dry season exceeds all previous records . Local authorities have confirmed that over 1,000 hectares of the national park are currently burning or have already been destroyed by fire. A forest fire on this scale has never been seen before in Zimbabwe. \n\n The United Nations Convention to Combat Desertification (UNCCD) now communicated its concern: 'The dangers of forest fire are high. Desertification in Zimbabwe will accelerate even more and climatic conditions will deteriorate significantly. Acute efforts are now needed to bring the fire under control.'",
+            "ru": "Один из самых известных национальных парков Зимбабве горит с начала этой недели. В этом году жаркий засушливый сезон принес свои плоды. Министр сельского хозяйства Зимбабве объявил вчера на пресс-конференции, что весь лесной массив и живущие в нем люди и животные находятся в опасности. \n\n В последние годы климатические условия вокруг национального парка становятся все более сухими. Однако нынешний сухой сезон превышает все предыдущие рекорды. Местные власти подтвердили, что более 1 000 гектаров национального парка в настоящее время горят или уже уничтожены огнем. Лесных пожаров такого масштаба в Зимбабве еще не было. \n\n Конвенция ООН по борьбе с опустыниванием (UNCCD) теперь сообщила о своей озабоченности: 'Опасность лесных пожаров высока. Опустынивание в Зимбабве ускорится еще больше, а климатические условия значительно ухудшатся. Сейчас необходимы активные усилия, чтобы взять пожар под контроль'.",
+            "ar": "واحدة من أشهر الحدائق الوطنية في زيمبابوي تشتعل بالنيران منذ بداية هذا الأسبوع. تأثرت المنطقة بشكل كبير خلال فصل الجفاف الحار لهذا العام. أعلن وزير الزراعة في زيمبابوي في مؤتمر صحفي أمس أن المساحة الغابية بأكملها والأشخاص والحيوانات العاشية فيها في خطر.\n\n ازدادت الظروف المناخية الجافة حول الحديقة الوطنية بشكل متزايد في السنوات الأخيرة. ومع ذلك، تفوق فصل الجفاف الحالي جميع السجلات السابقة. أكدت السلطات المحلية أن أكثر من 1,000 هكتار من الحديقة الوطنية يشتعل حاليًا أو تم تدميرها بالفعل بواسطة الحرائق. لم يشهد زيمبابوي من قبل حريق غابات بهذا الحجم.\n\n أعربت اتفاقية الأمم المتحدة لمكافحة التصحر (UNCCD) عن قلقها: 'تزايد خطورة حرائق الغابات. ستتسارع عملية التصحر في زيمبابوي بشكل أكبر وستتدهور الظروف المناخية بشكل كبير. يتطلب الآن بذل جهود عاجلة للسيطرة على الحريق.'",
+            "fr": "Un des parcs nationaux les plus célèbres du Zimbabwe est en proie aux flammes depuis le début de cette semaine. La saison chaude et sèche de cette année fait des ravages dans la région. Le ministre de l'Agriculture du Zimbabwe a annoncé lors d'une conférence de presse hier que toute la zone forestière ainsi que les habitants et les animaux qui y vivent sont en danger.\n\n Les conditions climatiques autour du parc national sont devenues de plus en plus sèches ces dernières années. Cependant, la saison sèche actuelle dépasse tous les records précédents. Les autorités locales ont confirmé que plus de 1 000 hectares du parc national sont actuellement en feu ou ont déjà été détruits par les flammes. Un incendie de forêt d'une telle ampleur n'a jamais été observé auparavant au Zimbabwe.\n\n La Convention des Nations Unies sur la lutte contre la désertification (UNCCD) a exprimé sa préoccupation : « Les dangers des incendies de forêt sont élevés. La désertification au Zimbabwe s'accélérera encore plus et les conditions climatiques se détérioreront considérablement. Des efforts urgents sont maintenant nécessaires pour maîtriser l'incendie. »"
+
+          }
+        }
+      }
+    ]
+  }

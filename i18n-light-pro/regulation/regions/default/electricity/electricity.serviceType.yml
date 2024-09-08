@@ -1,0 +1,31 @@
+serviceType: electricity
+unit: kgCO2e/kWh
+serviceVariants:
+  - variant: conventional
+    share:
+      value: 80
+      unit: "%"
+      sources:
+        - "https://my.source.org"
+      year: 2024
+    emissionFactor:
+      value: 0.4535
+      unit: kgCO2e/kWh
+      sources:
+        - "https://my.source.org"
+      year: 2023
+  - variant: renewable
+    share:
+      value: 20
+      unit: "%"
+      sources:
+        - "https://my.source.org"
+      year: 2024
+    conversion:
+      - resource: renewableElectricity
+        amount:
+          value: 1
+          unit: kWh
+          sources:
+            - https://my.source.org
+          year: 2024

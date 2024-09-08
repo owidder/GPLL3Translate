@@ -1,0 +1,80 @@
+{
+  "emissions": {
+    "total": {
+      "value": 53.78604e12,
+      "unit": "kgCO2e",
+      "sources": [
+        "https://edgar.jrc.ec.europa.eu/report_2023"
+      ],
+      "year": 2022
+    },
+    "sectorShares": {
+      "industry": {
+        "value": 28.4,
+        "unit": "%",
+        "sources": [
+          "https://ourworldindata.org/emissions-by-sector"
+        ],
+        "year": 2016
+      },
+      "services": null,
+      "publicTransport": null
+    }
+  },
+  "electricity": {
+    "total": {
+      "value": 25530e9,
+      "unit": "kWh",
+      "sources": [
+        "https://www.statista.com/statistics/280704/world-power-consumption/"
+      ],
+      "year": 2022
+    },
+    "gridFactor": {
+      "value": 0.459,
+      "unit": "kgCO2e/kWh",
+      "sources": [
+        "https://www.ourworldindata.org"
+      ],
+      "year": 2020
+    },
+    "sectorShares": {
+      "industry": {
+        "value": 41.95,
+        "unit": "%",
+        "sources": [
+          "https://www.statista.com/statistics/859150/world-electricity-consumption-share-by-sector/"
+        ],
+        "year": 2018
+      },
+      "services": {
+        "value": 21.5,
+        "unit": "%",
+        "sources": [
+          "https://www.statista.com/statistics/859150/world-electricity-consumption-share-by-sector/"
+        ],
+        "year": 2018
+      },
+      "publicTransport": {
+        "value": 1.75,
+        "unit": "%",
+        "sources": [
+          "https://www.statista.com/statistics/859150/world-electricity-consumption-share-by-sector/"
+        ],
+        "year": 2018
+      }
+    }
+  },
+  "diesel": {
+    "tankToWheelFactor": {
+      "value": 2.65,
+      "unit": "kgCO2e/l",
+      "sources": [
+        "https://www.helmholtz.de/newsroom/artikel/wie-viel-co2-steckt-in-einem-liter-benzin/"
+      ],
+      "year": 2020
+    }
+  },
+  "transportation": {
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "currency": "RUB",
+  "income": {
+    "salary": {
+      "amount": 3612.0,
+      "frequency": "monthly"
+    }
+  },
+  "costs": {
+    "rent": {
+      "amount": 20000.0,
+      "frequency": "monthly"
+    },
+    "climateMitigation": {
+      "amount": 0.0,
+      "frequency": "monthly"
+    },
+    "climateAdaption": {
+      "amount": 0.0,
+      "frequency": "monthly"
+    },
+    "climateImpact": {
+      "amount": 0.0,
+      "frequency": "monthly"
+    }
+  },
+  "initialCapital": 70000.0
+}

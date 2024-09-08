@@ -1,0 +1,16 @@
+serviceType: naturalGas
+unit: kgCO2e/l
+serviceVariants:
+  - variant: average
+    share:
+      value: 100
+      unit: "%"
+      sources:
+        - "https://my.source.org"
+      year: 2022
+    emissionFactor:
+      value: 2.79
+      unit: kgCO2e/l
+      sources:
+        - "https://my.source.org"
+      year: 2022

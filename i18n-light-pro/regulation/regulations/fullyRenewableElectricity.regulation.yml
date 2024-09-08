@@ -1,0 +1,11 @@
+regulation: electricity-from-renewable-energies
+region: GLOBAL
+impacts:
+  - serviceType: electricity
+    regulate:
+      - serviceVariant: conventional
+        to:
+          - direction: decrease
+            value: 0
+            type: linear
+            timeframe: 15
