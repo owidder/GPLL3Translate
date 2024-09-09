@@ -1,118 +1,64 @@
 {
-    "_id": "co2-pricing-poll",
-    "heading": {
-        "de": "Abstimmung über den CO₂-Preis",
-        "ru": "Опрос о налоге на CO₂",
-        "en": "Poll on the CO₂ tax",
-        "ar": "استطلاع حول ضريبة CO₂",
-        "fr": "Vote sur la taxe CO₂",
-        "_azure/gpt-4-vision_sv": "Omröstning om CO₂-skatten",
-        "_gcp/gemini-1.5-pro_sv": "Omröstning om CO₂-skatt",
-        "_compare_azure/gpt-4-vision_sv": "Omröstning om CO₂-skatten",
-        "_compare_gcp/gemini-1.5-pro_sv": "Omröstning om CO₂-skatten",
-        "_unique_translations_back_sv": [
-            "Abstimmung über die CO₂-Steuer",
-            ""
-        ],
-        "_compare_aws/claude-3.5-sonnet_sv": "Omröstning om CO₂-skatten"
+  "_id": "co2-pricing-poll",
+  "heading": {
+    "de": "Abstimmung über den CO₂-Preis",
+    "ru": "Опрос о налоге на CO₂",
+    "en": "Poll on the CO₂ tax",
+    "ar": "استطلاع حول ضريبة CO₂",
+    "fr": "Vote sur la taxe CO₂"
+  },
+  "description": {
+    "de": "Bitte stimmen Sie über die Entwicklung der CO₂-Steuer ab.\n<br>\nDie CO₂-Steuer wird auf die fossilen Brennstoffe Kohle, Öl und Gas erhoben, abhängig von ihrem Kohlenstoffgehalt.\n<br>\nDiese Steuer wirkt sich auf die Preise aller Waren aus, die entweder direkt oder indirekt fossile Brennstoffe verwenden oder für ihre Herstellung fossile Brennstoffe benötigen.\n<br>\nSie soll einen Anreiz setzen, Energie zu sparen und Waren mit geringen CO₂-Emissionen herzustellen.",
+    "ru": "Пожалуйста, проголосуйте за разработку налога на CO₂.\n\nНалог на CO₂ взимается с ископаемых видов топлива - угля, нефти и газа, в зависимости от содержания в них углерода.\nЭтот налог влияет на цены всех товаров, которые прямо или косвенно используют ископаемое топливо или требуют ископаемого топлива для своего производства.\nОн призван стимулировать экономию энергии и производство товаров с низким уровнем выбросов CO₂.",
+    "en": "Please vote on the development of the CO₂ tax.\n\nThe CO₂ tax is levied on the fossil fuels coal, oil and gas, depending on their carbon content.\nThis tax affects the prices of all goods that either directly or indirectly use fossil fuels or require fossil fuels for their production.\nIt is intended to provide an incentive to save energy and produce goods with low CO₂ emissions.",
+    "ar": "يرجى التصويت على تطوير ضريبة CO₂.\n\nيتم فرض ضريبة CO₂ على الفحم والنفط والغاز من الوقود الأحفوري ، اعتمادا على محتواها من الكربون.\nتؤثر هذه الضريبة على أسعار جميع السلع التي تستخدم الوقود الأحفوري بشكل مباشر أو غير مباشر أو تتطلب الوقود الأحفوري لإنتاجها.\nوتهدف إلى توفير حافز لتوفير الطاقة وإنتاج سلع ذات انبعاثات منخفضة من CO₂.",
+    "fr": "Veuillez voter sur le développement de la taxe CO₂.\n\nLa taxe CO₂ est prélevée sur les combustibles fossiles tels que le charbon, le pétrole et le gaz, en fonction de leur teneur en carbone.\nCette taxe affecte les prix de tous les biens qui utilisent directement ou indirectement des combustibles fossiles ou qui en ont besoin pour leur production.\nElle vise à inciter à économiser l'énergie et à produire des biens à faible émission de CO₂."
+  },
+  "multipleChoice": false,
+  "choices": [
+    {
+      "name": "raise",
+      "isDefault": false,
+      "uiStrings": {
+        "de": "Erhöhen um 25€ pro Tonne",
+        "ru": "Увеличение на 2000 ₽ за тонну",
+        "en": "Raise by 25€ per ton",
+        "ar": "رفع بنسبة 25 € لكل طن",
+        "fr": "Augmenter de 25€ par tonne"
+      }
     },
-    "description": {
-        "de": "Bitte stimmen Sie über die Entwicklung der CO₂-Steuer ab.\n<br>\nDie CO₂-Steuer wird auf die fossilen Brennstoffe Kohle, Öl und Gas erhoben, abhängig von ihrem Kohlenstoffgehalt.\n<br>\nDiese Steuer wirkt sich auf die Preise aller Waren aus, die entweder direkt oder indirekt fossile Brennstoffe verwenden oder für ihre Herstellung fossile Brennstoffe benötigen.\n<br>\nSie soll einen Anreiz setzen, Energie zu sparen und Waren mit geringen CO₂-Emissionen herzustellen.",
-        "ru": "Пожалуйста, проголосуйте за разработку налога на CO₂.\n\nНалог на CO₂ взимается с ископаемых видов топлива - угля, нефти и газа, в зависимости от содержания в них углерода.\nЭтот налог влияет на цены всех товаров, которые прямо или косвенно используют ископаемое топливо или требуют ископаемого топлива для своего производства.\nОн призван стимулировать экономию энергии и производство товаров с низким уровнем выбросов CO₂.",
-        "en": "Please vote on the development of the CO₂ tax.\n\nThe CO₂ tax is levied on the fossil fuels coal, oil and gas, depending on their carbon content.\nThis tax affects the prices of all goods that either directly or indirectly use fossil fuels or require fossil fuels for their production.\nIt is intended to provide an incentive to save energy and produce goods with low CO₂ emissions.",
-        "ar": "يرجى التصويت على تطوير ضريبة CO₂.\n\nيتم فرض ضريبة CO₂ على الفحم والنفط والغاز من الوقود الأحفوري ، اعتمادا على محتواها من الكربون.\nتؤثر هذه الضريبة على أسعار جميع السلع التي تستخدم الوقود الأحفوري بشكل مباشر أو غير مباشر أو تتطلب الوقود الأحفوري لإنتاجها.\nوتهدف إلى توفير حافز لتوفير الطاقة وإنتاج سلع ذات انبعاثات منخفضة من CO₂.",
-        "fr": "Veuillez voter sur le développement de la taxe CO₂.\n\nLa taxe CO₂ est prélevée sur les combustibles fossiles tels que le charbon, le pétrole et le gaz, en fonction de leur teneur en carbone.\nCette taxe affecte les prix de tous les biens qui utilisent directement ou indirectement des combustibles fossiles ou qui en ont besoin pour leur production.\nElle vise à inciter à économiser l'énergie et à produire des biens à faible émission de CO₂.",
-        "_azure/gpt-4-vision_sv": "Var vänlig och rösta om utvecklingen av CO₂-skatten.\n<br>\nCO₂-skatten tas ut på fossila bränslen som kol, olja och gas, beroende på deras kolhalt.\n<br>\nDenna skatt påverkar priserna på alla varor som antingen direkt eller indirekt använder fossila bränslen eller kräver fossila bränslen för sin tillverkning.\n<br>\nDen är avsedd att ge ett incitament för att spara energi och producera varor med låga CO₂-utsläpp.",
-        "_gcp/gemini-1.5-pro_sv": "Röst på utvecklingen av koldioxidskatten.\n<br>\nKoldioxidskatten tas ut på fossila bränslen som kol, olja och gas, beroende på deras kolhalt.\n<br>\nDenna skatt påverkar priserna på alla varor som antingen direkt eller indirekt använder fossila bränslen eller kräver fossila bränslen för sin tillverkning.\n<br>\nDen är avsedd att ge incitament att spara energi och producera varor med låga koldioxidutsläpp. \n",
-        "_compare_azure/gpt-4-vision_sv": "Var vänlig och rösta om utvecklingen av CO₂-skatten. CO₂-skatten tas ut på fossila bränslen som kol, olja och gas, beroende på deras kolhalt. Denna skatt påverkar priserna på alla varor som antingen direkt eller indirekt använder fossila bränslen eller kräver fossila bränslen för sin tillverkning. Den är avsedd att ge ett incitament för att spara energi och producera varor med låga CO₂-utsläpp",
-        "_compare_gcp/gemini-1.5-pro_sv": "Var vänlig och rösta om utvecklingen av CO₂-skatten. CO₂-skatten tas ut på fossila bränslen som kol, olja och gas, beroende på deras kolhalt. Denna skatt påverkar priserna på alla varor som antingen direkt eller indirekt använder fossila bränslen eller kräver fossila bränslen för sin tillverkning. Den är avsedd att ge ett incitament för att spara energi och producera varor med låga CO₂-utsläpp",
-        "_unique_translations_back_sv": [
-            "",
-            "Bitte stimmen Sie über die Entwicklung der CO₂-Steuer ab. Die CO₂-Steuer wird auf fossile Brennstoffe wie Kohle, Öl und Gas erhoben, je nach ihrem Kohlenstoffgehalt. Diese Steuer beeinflusst die Preise aller Waren, die entweder direkt oder indirekt fossile Brennstoffe verwenden oder für ihre Herstellung fossile Brennstoffe benötigen. Sie soll einen Anreiz schaffen, Energie zu sparen und Waren mit niedrigen CO₂-Emissionen zu produzieren"
-        ],
-        "_compare_aws/claude-3.5-sonnet_sv": "Var vänlig och rösta om utvecklingen av CO₂-skatten. CO₂-skatten tas ut på fossila bränslen som kol, olja och gas, beroende på deras kolhalt. Denna skatt påverkar priserna på alla varor som antingen direkt eller indirekt använder fossila bränslen eller kräver fossila bränslen för sin tillverkning. Den är avsedd att ge ett incitament för att spara energi och producera varor med låga CO₂-utsläpp"
+    {
+      "name": "maintain",
+      "isDefault": false,
+      "uiStrings": {
+        "de": "Unverändert lassen",
+        "ru": "Оставить без изменений",
+        "en": "Leave as is",
+        "ar": "اترك كما هي",
+        "fr": "Laisser tel quel"
+      }
     },
-    "multipleChoice": false,
-    "choices": [
-        {
-            "name": "raise",
-            "isDefault": false,
-            "uiStrings": {
-                "de": "Erhöhen um 25€ pro Tonne",
-                "ru": "Увеличение на 2000 ₽ за тонну",
-                "en": "Raise by 25€ per ton",
-                "ar": "رفع بنسبة 25 € لكل طن",
-                "fr": "Augmenter de 25€ par tonne",
-                "_azure/gpt-4-vision_sv": "Höj med 25€ per ton",
-                "_gcp/gemini-1.5-pro_sv": "Öka med 25 € per ton",
-                "_compare_azure/gpt-4-vision_sv": "Höj med 25€ per ton",
-                "_compare_gcp/gemini-1.5-pro_sv": "Öka med 25 € per ton",
-                "_unique_translations_back_sv": [
-                    "Erhöhung um 25€ pro Tonne",
-                    "Erhöhen um 25€ pro Tonne"
-                ],
-                "_compare_aws/claude-3.5-sonnet_sv": "Höj med 25€ per ton"
-            }
-        },
-        {
-            "name": "maintain",
-            "isDefault": false,
-            "uiStrings": {
-                "de": "Unverändert lassen",
-                "ru": "Оставить без изменений",
-                "en": "Leave as is",
-                "ar": "اترك كما هي",
-                "fr": "Laisser tel quel",
-                "_azure/gpt-4-vision_sv": "Lämna som det är",
-                "_gcp/gemini-1.5-pro_sv": "Lämna oförändrat",
-                "_compare_azure/gpt-4-vision_sv": "Lämna som det är",
-                "_compare_gcp/gemini-1.5-pro_sv": "Lämna som det är",
-                "_unique_translations_back_sv": [
-                    "",
-                    "Unverändert lassen"
-                ],
-                "_compare_aws/claude-3.5-sonnet_sv": "Lämna oförändrat"
-            }
-        },
-        {
-            "name": "lower",
-            "isDefault": false,
-            "uiStrings": {
-                "de": "Verringern um 25€ pro Tonne",
-                "ru": "Снижение на 2000 ₽ за тонну",
-                "en": "Lower by 35€ per ton",
-                "ar": "أقل بمقدار 35 يورو للطن",
-                "fr": "Diminuer de 35€ par tonne",
-                "_azure/gpt-4-vision_sv": "Minska med 25€ per ton",
-                "_gcp/gemini-1.5-pro_sv": "Minska med 25 € per ton",
-                "_compare_azure/gpt-4-vision_sv": "Minska med 25 € per ton",
-                "_compare_gcp/gemini-1.5-pro_sv": "Minska med 25€ per ton",
-                "_unique_translations_back_sv": [
-                    "Verringern um 25€ pro Tonne",
-                    "Verringern um 25€ pro Tonne"
-                ],
-                "_compare_aws/claude-3.5-sonnet_sv": "Minska med 25 € per ton"
-            }
-        },
-        {
-            "name": "abstain",
-            "isDefault": true,
-            "uiStrings": {
-                "de": "Enthaltung",
-                "ru": "Воздержался",
-                "en": "Abstain",
-                "ar": "امتنع",
-                "fr": "S'abstenir",
-                "_azure/gpt-4-vision_sv": "Avstånd",
-                "_gcp/gemini-1.5-pro_sv": "Avstå\n",
-                "_compare_azure/gpt-4-vision_sv": "Avstå",
-                "_compare_gcp/gemini-1.5-pro_sv": "Avstå",
-                "_unique_translations_back_sv": [
-                    "",
-                    "Sich enthalten"
-                ],
-                "_compare_aws/claude-3.5-sonnet_sv": "Avstå"
-            }
-        }
-    ]
+    {
+      "name": "lower",
+      "isDefault": false,
+      "uiStrings": {
+        "de": "Verringern um 25€ pro Tonne",
+        "ru": "Снижение на 2000 ₽ за тонну",
+        "en": "Lower by 35€ per ton",
+        "ar": "أقل بمقدار 35 يورو للطن",
+        "fr": "Diminuer de 35€ par tonne"
+      }
+    },
+    {
+      "name": "abstain",
+      "isDefault": true,
+      "uiStrings": {
+        "de": "Enthaltung",
+        "ru": "Воздержался",
+        "en": "Abstain",
+        "ar": "امتنع",
+        "fr": "S'abstenir"
+      }
+    }
+  ]
 }
