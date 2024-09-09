@@ -266,18 +266,19 @@ def is_translation(path: str) -> bool:
 
 def create_table(input_file: str, translation_lines: [str], source: str, target: str):
     translation_headers = []
-    for i in range(len(TRANSLATION_MODELS)):
+    model_names = TRANSLATION_MODELS.split(",")
+    for i in range(len(model_names)):
         translation_headers.append(f"--- {i} ---")
         translation_headers.append("")
 
-    assess_headers = [model_name for model_name in TRANSLATION_ASSESS_MODELS]
+    assess_headers = [model_name for model_name in TRANSLATION_ASSESS_MODELS.split(",")]
 
     headers = ["source text", *translation_headers, *assess_headers]
 
     env = Environment(loader=FileSystemLoader('./templates'))
     template = env.get_template('compare_light_table.html.j2')
     html = template.render(headers=headers, translation_lines=translation_lines)
-    with open(f"./tables/{input_file}_table.{source}_{target}.light.html", 'w') as f:
+    with open(f"./tables/{input_file}_table.{source}_{target}.light.pro.html", 'w') as f:
         f.write(html)
 
 
@@ -414,6 +415,10 @@ async def crawl_json(
                 file_content=file_content,
                 file_description=file_description,
             )
+
+        model_names = TRANSLATION_MODELS.split(",")
+        assess_model_names = TRANSLATION_ASSESS_MODELS.split(",")
+
         if len(current_translations.keys()) > 0:
             translation_list = [
                 await translate(
@@ -424,7 +429,7 @@ async def crawl_json(
                     target_language=target_language,
                     file_content=file_content,
                     file_description=file_description
-                ) for model_name in TRANSLATION_MODELS
+                ) for model_name in model_names
             ]
 
             compare_list = [
@@ -437,7 +442,7 @@ async def crawl_json(
                     file_content=file_content,
                     file_description=file_description,
                     translations=translation_list,
-                ) for model_name in TRANSLATION_ASSESS_MODELS
+                ) for model_name in assess_model_names
             ]
 
             winners = find_most_common_strings(compare_list)
@@ -445,7 +450,8 @@ async def crawl_json(
 
             def get_translation_sources(translation: str) -> [str]:
                 sources = []
-                for i, model_name in enumerate(TRANSLATION_MODELS):
+                model_names = TRANSLATION_MODELS.split(",")
+                for i, model_name in enumerate(model_names):
                     if translation_list[i] == translation:
                         sources.append(model_name)
                 return sources
