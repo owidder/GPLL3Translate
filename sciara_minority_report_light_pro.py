@@ -452,9 +452,9 @@ async def crawl_json(
                 sources = []
                 model_names = TRANSLATION_MODELS.split(",")
                 for i, model_name in enumerate(model_names):
-                    if translation_list[i] == translation:
+                    if normalize_string(translation_list[i]) == normalize_string(translation):
                         sources.append(model_name)
-                return sources
+                return ', '.join(sources)
 
             translation_sources = [get_translation_sources(unique_translation) for unique_translation in unique_translations]
 
@@ -469,8 +469,7 @@ async def crawl_json(
                         assess_models=[GPT_4_VISION, GEMINI_1_5_PRO, CLAUDE_3_5_SONNET],
                         file_content=file_content,
                         file_description=file_description,
-                    ) if translation in winners else ""
-                    for translation in unique_translations
+                    ) for translation in unique_translations
                 ]
                 data[unique_translations_back_property] = unique_translations_back
             else:
