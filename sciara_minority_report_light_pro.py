@@ -485,7 +485,7 @@ async def crawl_json(
                 "source_text": current_translations[source_language],
                 "translations": translations,
                 "translations_raw": unique_translations,
-                "translations_back": [create_diff_html(current_translations[source_language], unique_translation_back) if len(unique_translation_back) > 0 else "" for unique_translation_back in unique_translations_back],
+                "translations_back": [create_diff_html(normalize_string(current_translations[source_language]), normalize_string(unique_translation_back)) if len(unique_translation_back) > 0 else "" for unique_translation_back in unique_translations_back],
                 "compare_list": compare_list,
                 "winners": winners,
                 "unique_translations": unique_translations,
