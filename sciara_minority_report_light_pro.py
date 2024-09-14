@@ -12,10 +12,6 @@ import os
 from jinja2 import Environment, FileSystemLoader
 from bs4 import BeautifulSoup
 
-os.environ['PKG_CONFIG_PATH'] = "/opt/homebrew/opt/libffi/lib/pkgconfig"
-os.environ['LDFLAGS'] = "-L/opt/homebrew/opt/libffi/lib"
-os.environ['CPPFLAGS'] = "-I/opt/homebrew/opt/libffi/include"
-os.environ['DYLD_LIBRARY_PATH'] = "/opt/homebrew/opt/libffi/lib"
 os.environ['DYLD_FALLBACK_LIBRARY_PATH'] = "/opt/homebrew/lib:" + os.environ.get('DYLD_FALLBACK_LIBRARY_PATH', '')
 
 from weasyprint import HTML
