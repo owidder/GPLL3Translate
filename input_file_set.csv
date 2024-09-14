@@ -50,3 +50,6 @@ polls/10_electricity-from-renewable-energies.json, Polling on the switch to 100%
 polls/11_meat-phase-out.json, Polling on ban on meat production
 polls/12_e-fuel-flight.json, Polling on E-fuels for aircrafts
 polls/13_nuclearrenaissance.json, Polling on new construction of nuclear power plants
+projects/01_sustainable_cookers.json, sustainable-cookers
+projects/02_forest_protection.json, forest-protection
+projects/03_solar_plants.json, solar-plants
