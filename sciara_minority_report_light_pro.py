@@ -546,8 +546,9 @@ async def process_one_file(input_file: str, file_description: str):
 async def process_input_file_set(file_set_path: str):
     with open(file_set_path, 'r') as f:
         for line in f:
-            relative_file_path, file_description = line.strip().split(",")
-            await process_one_file(input_file=os.path.join(INPUT_FILE_ROOT_FOLDER, relative_file_path), file_description=file_description)
+            if len(line.strip()) > 0:
+                relative_file_path, file_description = line.strip().split(",")
+                await process_one_file(input_file=os.path.join(INPUT_FILE_ROOT_FOLDER, relative_file_path), file_description=file_description)
 
 
 async def main():
