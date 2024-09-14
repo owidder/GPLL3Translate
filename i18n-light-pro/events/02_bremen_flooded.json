@@ -1,35 +1,51 @@
 {
-  "schedule": {
-    "conditions": [
-      {
-        "path": "..globalMeanTemperature.series.GMT [Kelvins by year]",
-        "configurationType": "PROJECTION_RESULT",
-        "value": 1.15,
-        "operator": "GT"
-      }
-    ]
-  },
-  "name": "Bremen inundated (Trigger 1.15 °C)",
-  "actions": [
-    {
-      "notification": {
-        "sendEmail": false,
-        "title": {
-          "de": "Weite Teile Bremens nach Unwetter überschwemmt",
-          "ru": "Большие районы Бремена затоплены после шторма",
-          "en": "Large parts of Bremen flooded after storms",
-          "ar": "أجزاء كبيرة من بريمن تغرق بعد العواصف.",
-          "fr": "De grandes parties de Brême ont été inondées après les tempêtes."
-        },
-        "body": {
-          "de": "<img width=250  src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"><br>Stundenlange Gewitter mit heftigen Regenfällen haben in der letzten Nacht die Stadt Bremen in Deutschland unter Wasser gesetzt.<br>Bei Polizei und Feuerwehr gingen Hunderte von Hilferufen wegen vollgelaufener Keller und umgestürzter Bäume ein.",
-          "ru": "<img width=250  src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"><br>Многочасовые грозы с проливными дождями затопили город Бремен в Германии прошлой ночью. Полиция и пожарная бригада получили сотни звонков с просьбой о помощи из-за затопленных подвалов и поваленных деревьев.",
-          "en": "<img width=250  src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"><br>Hours of thunderstorms with heavy rainfall flooded the city of Bremen in Germany last night. The police and fire brigade received hundreds of calls for help because of flooded cellars and fallen trees.",
-          "fr": "<img width=250 src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"><br>Des heures d'orages avec de fortes précipitations ont inondé la ville de Brême en Allemagne la nuit dernière. La police et les pompiers ont reçu des centaines d'appels à l'aide en raison de caves inondées et d'arbres tombés.",
-          "ar": "<img width=250 src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"><br>لقد غمرت ساعات من العواصف الرعدية مع هطول أمطار غزيرة مدينة بريمن في ألمانيا الليلة الماضية. تلقت الشرطة وفرق الإطفاء المئات من الاتصالات لطلب المساعدة بسبب السيول في القبو وسقوط الأشجار."
-
+    "schedule": {
+        "conditions": [
+            {
+                "path": "..globalMeanTemperature.series.GMT [Kelvins by year]",
+                "configurationType": "PROJECTION_RESULT",
+                "value": 1.15,
+                "operator": "GT"
+            }
+        ]
+    },
+    "name": "Bremen inundated (Trigger 1.15 °C)",
+    "actions": [
+        {
+            "notification": {
+                "sendEmail": false,
+                "title": {
+                    "de": "Weite Teile Bremens nach Unwetter überschwemmt",
+                    "ru": "Большие районы Бремена затоплены после шторма",
+                    "en": "Large parts of Bremen flooded after storms",
+                    "ar": "أجزاء كبيرة من بريمن تغرق بعد العواصف.",
+                    "fr": "De grandes parties de Brême ont été inondées après les tempêtes.",
+                    "_azure/gpt-4-vision_sv": "Stora delar av Bremen översvämmade efter oväder",
+                    "_gcp/gemini-1.5-pro_sv": "Stora delar av Bremen översvämmade efter oväder \n",
+                    "_compare_azure/gpt-4-vision_sv": "Stora delar av Bremen översvämmade efter oväder",
+                    "_compare_gcp/gemini-1.5-pro_sv": "Stora delar av Bremen översvämmade efter oväder",
+                    "_compare_aws/claude-3.5-sonnet_sv": "Stora delar av Bremen översvämmade efter oväder",
+                    "_unique_translations_back_sv": [
+                        "Große Teile Bremens nach Unwettern überschwemmt"
+                    ]
+                },
+                "body": {
+                    "de": "<img width=250  src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"><br>Stundenlange Gewitter mit heftigen Regenfällen haben in der letzten Nacht die Stadt Bremen in Deutschland unter Wasser gesetzt.<br>Bei Polizei und Feuerwehr gingen Hunderte von Hilferufen wegen vollgelaufener Keller und umgestürzter Bäume ein.",
+                    "ru": "<img width=250  src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"><br>Многочасовые грозы с проливными дождями затопили город Бремен в Германии прошлой ночью. Полиция и пожарная бригада получили сотни звонков с просьбой о помощи из-за затопленных подвалов и поваленных деревьев.",
+                    "en": "<img width=250  src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"><br>Hours of thunderstorms with heavy rainfall flooded the city of Bremen in Germany last night. The police and fire brigade received hundreds of calls for help because of flooded cellars and fallen trees.",
+                    "fr": "<img width=250 src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"><br>Des heures d'orages avec de fortes précipitations ont inondé la ville de Brême en Allemagne la nuit dernière. La police et les pompiers ont reçu des centaines d'appels à l'aide en raison de caves inondées et d'arbres tombés.",
+                    "ar": "<img width=250 src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"><br>لقد غمرت ساعات من العواصف الرعدية مع هطول أمطار غزيرة مدينة بريمن في ألمانيا الليلة الماضية. تلقت الشرطة وفرق الإطفاء المئات من الاتصالات لطلب المساعدة بسبب السيول في القبو وسقوط الأشجار.",
+                    "_azure/gpt-4-vision_sv": "<img width=250 src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"><br>Timmar av åskväder med kraftiga regnfall har översvämmat staden Bremen i Tyskland under natten.<br>Polisen och brandkåren mottog hundratals nödsamtal på grund av översvämmade källare och nedfallna träd.",
+                    "_gcp/gemini-1.5-pro_sv": "<img width=250  src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"><br>Timmar av åskväder med kraftiga regn har under natten satt stora delar av Bremen i Tyskland under vatten.<br>Polisen och brandkåren fick ta emot hundratals samtal om översvämmade källare och fallna träd. \n",
+                    "_compare_azure/gpt-4-vision_sv": "<img width=250 src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"> Timmar av åskväder med kraftiga regn har under natten satt stora delar av Bremen i Tyskland under vatten. Polisen och brandkåren fick ta emot hundratals samtal om översvämmade källare och fallna träd",
+                    "_compare_gcp/gemini-1.5-pro_sv": "<img width=250 src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"> Timmar av åskväder med kraftiga regn har under natten satt stora delar av Bremen i Tyskland under vatten. Polisen och brandkåren fick ta emot hundratals samtal om översvämmade källare och fallna träd",
+                    "_compare_aws/claude-3.5-sonnet_sv": "<img width=250 src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"> Timmar av åskväder med kraftiga regn har under natten satt stora delar av Bremen i Tyskland under vatten. Polisen och brandkåren fick ta emot hundratals samtal om översvämmade källare och fallna träd",
+                    "_unique_translations_back_sv": [
+                        "<img width=250 src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"> Stundenlange Gewitter mit heftigen Regenfällen haben in der vergangenen Nacht die Stadt Bremen in Deutschland überschwemmt. Polizei und Feuerwehr erhielten Hunderte von Notrufen wegen überfluteter Keller und umgestürzter Bäume",
+                        "<img width=250 src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"> Stundenlange Gewitter mit heftigen Regenfällen haben in der vergangenen Nacht große Teile Bremens in Deutschland überschwemmt. Polizei und Feuerwehr erhielten hunderte Hilferufe wegen vollgelaufener Keller und umgestürzter Bäume"
+                    ]
+                }
+            }
         }
-      }
-    }
-  ]
+    ]
 }

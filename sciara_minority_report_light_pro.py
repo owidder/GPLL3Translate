@@ -540,7 +540,7 @@ async def process_i18n_file(file_path: str, file_description:str, target_languag
 async def process_one_file(input_file: str, file_description: str):
     table_lines_dict = await process_i18n_file(file_path=input_file, file_description=file_description, target_language=TARGET_LANGUAGE)
     for target_language in table_lines_dict:
-        create_table(translation_lines=table_lines_dict[target_language], source=SOURCE_LANGUAGE, target=target_language, input_file=os.path.basename(INPUT_FILE))
+        create_table(translation_lines=table_lines_dict[target_language], source=SOURCE_LANGUAGE, target=target_language, input_file=os.path.basename(input_file))
 
 
 async def process_input_file_set(file_set_path: str):

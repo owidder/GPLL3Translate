@@ -1,6 +1,12 @@
 events/01_voting_results_4j.json, Voting Result (every 4 years)
-events/s02_bremen_flooded.json
-events/03_heat_canada.json
-events/04_coral_reefs_dying.json
-events/05_forest_fires.json
-events/06_flood_risk_northern_germany.json
+events/02_bremen_flooded.json, Bremen inundated (Trigger 1.15 °C)
+events/03_heat_canada.json, Extreme heat in Canada takes lives(Trigger 1.3 °C )
+events/04_coral_reefs_dying.json, Coral reefs are dying (Trigger 1.4 °C)
+events/05_forest_fires.json, Forest fires affecting Europe and Africa (Trigger 1.5 °C)
+events/06_flood_risk_northern_germany.json, Flood risks in northern Germany (Trigger 1.7 °C).
+events/07_ground_squirrels_gone.json, Large ground-dwelling squirrels gone extinct (Trigger 1.9 °C).
+events/08_ground_squirrels_postponed.json, Large ground-dwelling squirrels have another few years to live (Trigger 1.9 °C).
+events/09_ground_squirrels_will_be_gone.json, Large ground-dwelling squirrels will go extinct in 5 years (Trigger 1.9 °C).
+events/10_corals_extinct.json, Corals are almost extinct due to the ocean temperature increasing (Trigger 2.0 °C)
+events/11_tuvalu_is_gone.json, Beautiful Tuvalu is gone (Trigger 2.2 °C)
+events/12_invasive_tree_and_plant_species.json, Invasive tree and plant species are taking over (Trigger CO2 concentration exceeds 500ppm).
