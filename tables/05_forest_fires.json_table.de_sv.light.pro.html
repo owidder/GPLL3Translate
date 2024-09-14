@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-family: verdana, serif;
+            font-size:12px;
+            border: 1px solid white;
+        }
+        th, td {
+            border-bottom:3px solid white;
+            border-right:3px solid white;
+            padding: 15px;
+            text-align: left;
+        }
+        th {
+            background-color: darkgray;
+        }
+        td {
+            background-color: lightgray;
+        }
+        .endtd {
+            border-right: 3px solid darkgray;
+        }
+        .translate {
+            background-color: lightblue;
+        }
+        .back-translate {
+            background-color: lightgrey;
+        }
+        .winner {
+            background-color: lightpink;
+        }
+        .compare {
+            background-color: lightsteelblue;
+        }
+        .source {
+            background-color: palegoldenrod;
+        }
+        .sources {
+            font-weight: bold;
+            font-size: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                
+                    <th>source text</th>
+                
+                    <th>--- 0 ---</th>
+                
+                    <th></th>
+                
+                    <th>--- 1 ---</th>
+                
+                    <th></th>
+                
+                    <th>azure/gpt-4-vision</th>
+                
+                    <th>gcp/gemini-1.5-pro</th>
+                
+                    <th>aws/claude-3.5-sonnet</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            
+                <tr>
+                    <td class="endtd source">Roter Himmel des Unheils: Überlegen Sie sich gut, wo Sie Ihren nächsten Urlaub buchen!</td>
+
+                    <td class="winner"><span style = 'color: black;'>  Röd</span> <span style = 'color: black;'>  himmel</span> <span style = 'color: black;'>  av</span> <span style = 'color: red; font-weight: bold;'> fördärv:</span> <span style = 'color: black;'>  Tänk</span> <span style = 'color: black;'>  noga</span> <span style = 'color: black;'>  på</span> <span style = 'color: black;'>  var</span> <span style = 'color: black;'>  du</span> <span style = 'color: black;'>  bokar</span> <span style = 'color: black;'>  din</span> <span style = 'color: black;'>  nästa</span> <span style = 'color: black;'>  semester!</span><br><span class="sources">gcp/gemini-1.5-pro</span></td>
+                    <td class="back-translate"><span style = 'color: black;'>  Roter</span> <span style = 'color: black;'>  Himmel</span> <span style = 'color: black;'>  des</span> <span style = 'color: red; font-weight: bold;'> Verderbens:</span> <span style = 'color: black;'>  Überlegen</span> <span style = 'color: black;'>  Sie</span> <span style = 'color: black;'>  gut,</span> <span style = 'color: black;'>  wo</span> <span style = 'color: black;'>  Sie</span> <span style = 'color: black;'>  Ihren</span> <span style = 'color: black;'>  nächsten</span> <span style = 'color: black;'>  Urlaub</span> <span style = 'color: black;'>  buchen!</span></td>
+
+                    <td class="translate"><span style = 'color: black;'>  Röd</span> <span style = 'color: black;'>  himmel</span> <span style = 'color: black;'>  av</span> <span style = 'color: red; font-weight: bold;'> olycka:</span> <span style = 'color: black;'>  Tänk</span> <span style = 'color: black;'>  noga</span> <span style = 'color: black;'>  på</span> <span style = 'color: black;'>  var</span> <span style = 'color: black;'>  du</span> <span style = 'color: black;'>  bokar</span> <span style = 'color: black;'>  din</span> <span style = 'color: black;'>  nästa</span> <span style = 'color: black;'>  semester!</span><br><span class="sources">azure/gpt-4-vision</span></td>
+                    <td class="back-translate"><span style = 'color: black;'>  Roter</span> <span style = 'color: black;'>  Himmel</span> <span style = 'color: black;'>  des</span> <span style = 'color: black;'>  Unheils:</span> <span style = 'color: black;'>  Überlegen</span> <span style = 'color: black;'>  Sie</span> <span style = 'color: black;'>  gut,</span> <span style = 'color: black;'>  wo</span> <span style = 'color: black;'>  Sie</span> <span style = 'color: black;'>  Ihren</span> <span style = 'color: black;'>  nächsten</span> <span style = 'color: black;'>  Urlaub</span> <span style = 'color: black;'>  buchen!</span></td>
+
+
+                    <td class="compare">1</td>
+
+                    <td class="compare">1</td>
+
+                    <td class="compare">1</td>
+
+                </tr>
+            
+                <tr>
+                    <td class="endtd source"><img width=250  src="https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg "><br>Entlang des Mittelmeeres bedrohen riesige Waldbrände weiterhin beliebte Touristengegenden. Die Auswirkungen auf Flora und Fauna sind verheerend. Bitte seien Sie vorsichtig!</td>
+
+                    <td class="translate"><img src="https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg " width="250"/> <span style = 'color: black;'>  Längs</span> <span style = 'color: black;'>  Medelhavet</span> <span style = 'color: black;'>  fortsätter</span> <span style = 'color: black;'>  enorma</span> <span style = 'color: black;'>  skogsbränder</span> <span style = 'color: black;'>  att</span> <span style = 'color: black;'>  hota</span> <span style = 'color: black;'>  populära</span> <span style = 'color: black;'>  turistområden.</span> <span style = 'color: black;'>  Effekterna</span> <span style = 'color: black;'>  på</span> <span style = 'color: black;'>  flora</span> <span style = 'color: black;'>  och</span> <span style = 'color: black;'>  fauna</span> <span style = 'color: black;'>  är</span> <span style = 'color: black;'>  förödande.</span> <span style = 'color: black;'>  Var</span> <span style = 'color: red; font-weight: bold;'> snälla</span> <span style = 'color: red; font-weight: bold;'> och</span> <span style = 'color: red; font-weight: bold;'> var</span> <span style = 'color: red; font-weight: bold;'> försiktiga!</span><br><span class="sources">azure/gpt-4-vision</span></td>
+                    <td class="back-translate"><img src="https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg " width="250"/> <span style = 'color: black;'>  Entlang</span> <span style = 'color: black;'>  des</span> <span style = 'color: red; font-weight: bold;'> Mittelmeers</span> <span style = 'color: black;'>  bedrohen</span> <span style = 'color: red; font-weight: bold;'> weiterhin</span> <span style = 'color: black;'>  riesige</span> <span style = 'color: black;'>  Waldbrände</span> <span style = 'color: black;'>  beliebte</span> <span style = 'color: red; font-weight: bold;'> Touristengebiete.</span> <span style = 'color: black;'>  Die</span> <span style = 'color: black;'>  Auswirkungen</span> <span style = 'color: black;'>  auf</span> <span style = 'color: black;'>  Flora</span> <span style = 'color: black;'>  und</span> <span style = 'color: black;'>  Fauna</span> <span style = 'color: black;'>  sind</span> <span style = 'color: black;'>  verheerend.</span> <span style = 'color: black;'>  Bitte</span> <span style = 'color: black;'>  seien</span> <span style = 'color: black;'>  Sie</span> <span style = 'color: black;'>  vorsichtig!</span></td>
+
+                    <td class="winner"><img src="https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg " width="250"/> <span style = 'color: black;'>  Längs</span> <span style = 'color: black;'>  Medelhavet</span> <span style = 'color: black;'>  fortsätter</span> <span style = 'color: black;'>  enorma</span> <span style = 'color: black;'>  skogsbränder</span> <span style = 'color: black;'>  att</span> <span style = 'color: black;'>  hota</span> <span style = 'color: black;'>  populära</span> <span style = 'color: black;'>  turistområden.</span> <span style = 'color: black;'>  Effekterna</span> <span style = 'color: black;'>  på</span> <span style = 'color: black;'>  flora</span> <span style = 'color: black;'>  och</span> <span style = 'color: black;'>  fauna</span> <span style = 'color: black;'>  är</span> <span style = 'color: black;'>  förödande.</span> <span style = 'color: black;'>  Var</span> <span style = 'color: red; font-weight: bold;'> försiktig!</span><br><span class="sources">gcp/gemini-1.5-pro</span></td>
+                    <td class="back-translate"><img src="https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg " width="250"/> <span style = 'color: black;'>  Entlang</span> <span style = 'color: black;'>  des</span> <span style = 'color: red; font-weight: bold;'> Mittelmeers</span> <span style = 'color: black;'>  bedrohen</span> <span style = 'color: red; font-weight: bold;'> weiterhin</span> <span style = 'color: black;'>  riesige</span> <span style = 'color: black;'>  Waldbrände</span> <span style = 'color: black;'>  beliebte</span> <span style = 'color: red; font-weight: bold;'> Touristengebiete.</span> <span style = 'color: black;'>  Die</span> <span style = 'color: black;'>  Auswirkungen</span> <span style = 'color: black;'>  auf</span> <span style = 'color: black;'>  Flora</span> <span style = 'color: black;'>  und</span> <span style = 'color: black;'>  Fauna</span> <span style = 'color: black;'>  sind</span> <span style = 'color: black;'>  verheerend.</span> <span style = 'color: black;'>  Bitte</span> <span style = 'color: black;'>  seien</span> <span style = 'color: black;'>  Sie</span> <span style = 'color: black;'>  vorsichtig!</span></td>
+
+
+                    <td class="compare">2</td>
+
+                    <td class="compare">2</td>
+
+                    <td class="compare">2</td>
+
+                </tr>
+            
+        </tbody>
+    </table>
+</body>
+</html>
