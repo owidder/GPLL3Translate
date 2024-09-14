@@ -12,6 +12,13 @@ import os
 from jinja2 import Environment, FileSystemLoader
 from bs4 import BeautifulSoup
 
+os.environ['PKG_CONFIG_PATH'] = "/opt/homebrew/opt/libffi/lib/pkgconfig"
+os.environ['LDFLAGS'] = "-L/opt/homebrew/opt/libffi/lib"
+os.environ['CPPFLAGS'] = "-I/opt/homebrew/opt/libffi/include"
+os.environ['DYLD_LIBRARY_PATH'] = "/opt/homebrew/opt/libffi/lib"
+os.environ['DYLD_FALLBACK_LIBRARY_PATH'] = "/opt/homebrew/lib:" + os.environ.get('DYLD_FALLBACK_LIBRARY_PATH', '')
+
+from weasyprint import HTML
 
 CERTIFIED_LANGUAGES = [
     "de",
@@ -280,8 +287,10 @@ def create_table(input_file: str, translation_lines: [str], source: str, target:
     env = Environment(loader=FileSystemLoader('./templates'))
     template = env.get_template('compare_light_table.html.j2')
     html = template.render(headers=headers, translation_lines=translation_lines, max_translations=len(TRANSLATION_MODELS.split(",")))
-    with open(f"./tables/{input_file}_table.{source}_{target}.light.pro.html", 'w') as f:
+    html_file = f"./tables/{input_file}_table.{source}_{target}.light.pro.html"
+    with open(html_file, 'w') as f:
         f.write(html)
+    HTML(html_file).write_pdf(f"{html_file}.pdf")
 
 
 def create_diff_text(target: str, source: str, plusminus) -> str:
@@ -547,6 +556,7 @@ async def process_input_file_set(file_set_path: str):
     with open(file_set_path, 'r') as f:
         for line in f:
             if len(line.strip()) > 0:
+                print(f"==========> {line.strip()}")
                 relative_file_path, file_description = line.strip().split(",")
                 await process_one_file(input_file=os.path.join(INPUT_FILE_ROOT_FOLDER, relative_file_path), file_description=file_description)
 
