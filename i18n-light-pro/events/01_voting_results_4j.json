@@ -1,232 +1,300 @@
 {
-  "schedule": {
-    "date": "2022-05-01T00:00:00",
-    "interval": {
-      "period": "YEARS",
-      "length": 4
-    }
-  },
-  "name": "Voting Result (every 4 years)",
-  "isPollingEvent": true,
-  "actions": [
-    {
-      "notification": {
-        "sendEmail": false,
-        "title": {
-          "de": "Die Ergebnisse sind da!",
-          "ru": "Результаты подведены!",
-          "en": "The results are in!",
-          "fr": "Les résultats sont là !",
-          "ar": "النتائج جاهزة!"
-        },
-        "body": {
-          "de": "Strom aus 100% erneuerbaren Energiequellen",
-          "en": "Electricity from 100% renewable energy sources"
-        },
-        "conditions": [
-          {
-            "path": "profile.countryOfResidence",
-            "configurationType": "AGENT_VARIABLE",
-            "value": "DEU",
-            "operator": "EQ"
-          }
-        ]
-      },
-      "actionCondition": {
-        "neutralValue": "abstain",
-        "op": "MAX",
-        "variablePath": "electricity-from-renewable-energies",
-        "configurationType": "AGENT_VARIABLE",
-        "value": "opt-2"
-      },
-      "resultConfigurationValue": {
-        "subPathIdentifier": "REGULATION",
-        "valueOrPath": "electricity-from-renewable-energies",
-        "selector": {
-          "value": "DEU",
-          "key": "isoCountryCode"
+    "schedule": {
+        "date": "2022-05-01T00:00:00",
+        "interval": {
+            "period": "YEARS",
+            "length": 4
         }
-      }
     },
-    {
-      "notification": {
-        "sendEmail": false,
-        "title": {
-          "de": "Die Ergebnisse sind da!",
-          "ru": "Результаты подведены!",
-          "en": "The results are in!",
-          "fr": "Les résultats sont là !",
-          "ar": "النتائج جاهزة!"
-        },
-        "body": {
-          "de": "Bei der letzten Wahl wurde für die Erhöhung der CO₂-Steuer gestimmt.<br>Sie ist deshalb um 25€ gestiegen!",
-          "ru": "На последних выборах проголосовали за увеличение налога на CO₂.<br>Таким образом, она подорожала на 25 евро!",
-          "en": "In the last election, the CO₂ tax was voted to increase.<br>It has therefore gone up by €25!",
-          "fr": "Lors des dernières élections, la taxe CO₂ a été votée en augmentation.<br>Elle a donc augmenté de 25 € !",
-          "ar": "في الانتخابات الأخيرة، تم التصويت على زيادة ضريبة ثاني أكسيد الكربون.<br>لذلك، ارتفعت بمقدار 25 يورو!"
-        },
-        "conditions": [
-          {
-            "path": "profile.countryOfResidence",
-            "configurationType": "AGENT_VARIABLE",
-            "value": "DEU",
-            "operator": "EQ"
-          }
-        ]
-      },
-      "actionCondition": {
-        "neutralValue": "abstain",
-        "op": "MAX",
-        "variablePath": "co2-pricing-poll",
-        "configurationType": "AGENT_VARIABLE",
-        "value": "raise"
-      },
-      "expression": {
-        "changeMode": "ADD",
-        "arguments": [
-          {
-            "subPathIdentifier": "SIMULATION_VARIABLE",
-            "valueOrPath": "co2_tax.amount.value",
-            "selector": {
-              "value": "DEU",
-              "key": "isoCountryCode"
+    "name": "Voting Result (every 4 years)",
+    "isPollingEvent": true,
+    "actions": [
+        {
+            "notification": {
+                "sendEmail": false,
+                "title": {
+                    "de": "Die Ergebnisse sind da!",
+                    "ru": "Результаты подведены!",
+                    "en": "The results are in!",
+                    "fr": "Les résultats sont là !",
+                    "ar": "النتائج جاهزة!",
+                    "_azure/gpt-4-vision_sv": "Resultaten är här!",
+                    "_gcp/gemini-1.5-pro_sv": "Resultaten är här! \n",
+                    "_compare_azure/gpt-4-vision_sv": "Resultaten är här!",
+                    "_compare_gcp/gemini-1.5-pro_sv": "Resultaten är här!",
+                    "_compare_aws/claude-3.5-sonnet_sv": "Resultaten är här!",
+                    "_unique_translations_back_sv": [
+                        "Die Ergebnisse sind da!"
+                    ]
+                },
+                "body": {
+                    "de": "Strom aus 100% erneuerbaren Energiequellen",
+                    "en": "Electricity from 100% renewable energy sources",
+                    "_azure/gpt-4-vision_sv": "El från 100% förnybara energikällor",
+                    "_gcp/gemini-1.5-pro_sv": "El från 100 % förnybara energikällor \n",
+                    "_compare_azure/gpt-4-vision_sv": "El från 100 % förnybara energikällor",
+                    "_compare_gcp/gemini-1.5-pro_sv": "El från 100% förnybara energikällor",
+                    "_compare_aws/claude-3.5-sonnet_sv": "El från 100 % förnybara energikällor",
+                    "_unique_translations_back_sv": [
+                        "Strom aus 100% erneuerbaren Energiequellen",
+                        "Strom aus 100% erneuerbaren Energiequellen"
+                    ]
+                },
+                "conditions": [
+                    {
+                        "path": "profile.countryOfResidence",
+                        "configurationType": "AGENT_VARIABLE",
+                        "value": "DEU",
+                        "operator": "EQ"
+                    }
+                ]
+            },
+            "actionCondition": {
+                "neutralValue": "abstain",
+                "op": "MAX",
+                "variablePath": "electricity-from-renewable-energies",
+                "configurationType": "AGENT_VARIABLE",
+                "value": "opt-2"
+            },
+            "resultConfigurationValue": {
+                "subPathIdentifier": "REGULATION",
+                "valueOrPath": "electricity-from-renewable-energies",
+                "selector": {
+                    "value": "DEU",
+                    "key": "isoCountryCode"
+                }
             }
-          },
-          {
-            "subPathIdentifier": "VALUE",
-            "valueOrPath": 25.0
-          }
-        ]
-      },
-      "resultConfigurationValue": {
-        "subPathIdentifier": "SIMULATION_VARIABLE",
-        "valueOrPath": "co2_tax.amount.value",
-        "selector": {
-          "value": "DEU",
-          "key": "isoCountryCode"
+        },
+        {
+            "notification": {
+                "sendEmail": false,
+                "title": {
+                    "de": "Die Ergebnisse sind da!",
+                    "ru": "Результаты подведены!",
+                    "en": "The results are in!",
+                    "fr": "Les résultats sont là !",
+                    "ar": "النتائج جاهزة!",
+                    "_azure/gpt-4-vision_sv": "Resultaten är här!",
+                    "_gcp/gemini-1.5-pro_sv": "Resultaten är här! \n",
+                    "_compare_azure/gpt-4-vision_sv": "Resultaten är här!",
+                    "_compare_gcp/gemini-1.5-pro_sv": "Resultaten är här!",
+                    "_compare_aws/claude-3.5-sonnet_sv": "Resultaten är här!",
+                    "_unique_translations_back_sv": [
+                        "Die Ergebnisse sind da!"
+                    ]
+                },
+                "body": {
+                    "de": "Bei der letzten Wahl wurde für die Erhöhung der CO₂-Steuer gestimmt.<br>Sie ist deshalb um 25€ gestiegen!",
+                    "ru": "На последних выборах проголосовали за увеличение налога на CO₂.<br>Таким образом, она подорожала на 25 евро!",
+                    "en": "In the last election, the CO₂ tax was voted to increase.<br>It has therefore gone up by €25!",
+                    "fr": "Lors des dernières élections, la taxe CO₂ a été votée en augmentation.<br>Elle a donc augmenté de 25 € !",
+                    "ar": "في الانتخابات الأخيرة، تم التصويت على زيادة ضريبة ثاني أكسيد الكربون.<br>لذلك، ارتفعت بمقدار 25 يورو!",
+                    "_azure/gpt-4-vision_sv": "Vid det senaste valet röstades det för att höja CO₂-skatten.<br>Den har därför ökat med 25€!",
+                    "_gcp/gemini-1.5-pro_sv": "Vid det senaste valet röstade man för att höja CO₂-skatten.<br>Den har därför ökat med 25 euro! \n",
+                    "_compare_azure/gpt-4-vision_sv": "Vid det senaste valet röstades det för att höja CO₂-skatten. Den har därför ökat med 25€!",
+                    "_compare_gcp/gemini-1.5-pro_sv": "Vid det senaste valet röstade man för att höja CO₂-skatten. Den har därför ökat med 25 euro!",
+                    "_compare_aws/claude-3.5-sonnet_sv": "Vid det senaste valet röstade man för att höja CO₂-skatten. Den har därför ökat med 25 euro!",
+                    "_unique_translations_back_sv": [
+                        "Bei der letzten Wahl wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25€ gestiegen!",
+                        "Bei der letzten Wahl wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25 Euro gestiegen!"
+                    ]
+                },
+                "conditions": [
+                    {
+                        "path": "profile.countryOfResidence",
+                        "configurationType": "AGENT_VARIABLE",
+                        "value": "DEU",
+                        "operator": "EQ"
+                    }
+                ]
+            },
+            "actionCondition": {
+                "neutralValue": "abstain",
+                "op": "MAX",
+                "variablePath": "co2-pricing-poll",
+                "configurationType": "AGENT_VARIABLE",
+                "value": "raise"
+            },
+            "expression": {
+                "changeMode": "ADD",
+                "arguments": [
+                    {
+                        "subPathIdentifier": "SIMULATION_VARIABLE",
+                        "valueOrPath": "co2_tax.amount.value",
+                        "selector": {
+                            "value": "DEU",
+                            "key": "isoCountryCode"
+                        }
+                    },
+                    {
+                        "subPathIdentifier": "VALUE",
+                        "valueOrPath": 25.0
+                    }
+                ]
+            },
+            "resultConfigurationValue": {
+                "subPathIdentifier": "SIMULATION_VARIABLE",
+                "valueOrPath": "co2_tax.amount.value",
+                "selector": {
+                    "value": "DEU",
+                    "key": "isoCountryCode"
+                }
+            },
+            "upperLimit": 999.0
+        },
+        {
+            "notification": {
+                "sendEmail": false,
+                "title": {
+                    "de": "Die Ergebnisse sind da!",
+                    "ru": "Результаты подведены!",
+                    "en": "The results are in!",
+                    "fr": "Les résultats sont là !",
+                    "ar": "النتائج جاهزة!",
+                    "_azure/gpt-4-vision_sv": "Resultaten är här!",
+                    "_gcp/gemini-1.5-pro_sv": "Resultaten är här! \n",
+                    "_compare_azure/gpt-4-vision_sv": "Resultaten är här!",
+                    "_compare_gcp/gemini-1.5-pro_sv": "Resultaten är här!",
+                    "_compare_aws/claude-3.5-sonnet_sv": "Resultaten är här!",
+                    "_unique_translations_back_sv": [
+                        "Die Ergebnisse sind da!"
+                    ]
+                },
+                "body": {
+                    "de": "Bei der letzten Wahl wurde für die Verringerung der CO₂-Steuer gestimmt.<br>Sie ist deshalb um 25€ gesunken!",
+                    "ru": "На последних выборах люди проголосовали за снижение налога на CO₂.<br>Таким образом, она подешевела на 25 евро!",
+                    "en": "In the last election, people voted to reduce the CO₂ tax.<br>It has therefore gone down by €25!",
+                    "fr": "Lors des dernières élections, les gens ont voté pour réduire la taxe CO₂.<br>Elle a donc diminué de 25 € !",
+                    "ar": "في الانتخابات الأخيرة، صوت الناس لخفض ضريبة ثاني أكسيد الكربون.<br>لذلك، انخفضت بمقدار 25 يورو!",
+                    "_azure/gpt-4-vision_sv": "Vid det senaste valet röstades det för att sänka CO₂-skatten.<br>Den har därför minskat med 25€!",
+                    "_gcp/gemini-1.5-pro_sv": "Vid det senaste valet röstade man för att sänka koldioxidskatten.<br>Den har därför sjunkit med 25 euro! \n",
+                    "_compare_azure/gpt-4-vision_sv": "Vid det senaste valet röstades det för att sänka CO₂-skatten. Den har därför minskat med 25€!",
+                    "_compare_gcp/gemini-1.5-pro_sv": "Vid det senaste valet röstade man för att sänka koldioxidskatten. Den har därför sjunkit med 25 euro!",
+                    "_compare_aws/claude-3.5-sonnet_sv": "Vid det senaste valet röstade man för att sänka koldioxidskatten. Den har därför sjunkit med 25 euro!",
+                    "_unique_translations_back_sv": [
+                        "Bei der letzten Wahl wurde für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25€ gesunken!",
+                        "Bei der letzten Wahl wurde für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25 Euro gesunken!"
+                    ]
+                },
+                "conditions": [
+                    {
+                        "path": "profile.countryOfResidence",
+                        "configurationType": "AGENT_VARIABLE",
+                        "value": "DEU",
+                        "operator": "EQ"
+                    }
+                ]
+            },
+            "actionCondition": {
+                "neutralValue": "abstain",
+                "op": "MAX",
+                "variablePath": "co2-pricing-poll",
+                "configurationType": "AGENT_VARIABLE",
+                "value": "lower"
+            },
+            "expression": {
+                "changeMode": "ADD",
+                "arguments": [
+                    {
+                        "subPathIdentifier": "SIMULATION_VARIABLE",
+                        "valueOrPath": "co2_tax.amount.value",
+                        "selector": {
+                            "value": "DEU",
+                            "key": "isoCountryCode"
+                        }
+                    },
+                    {
+                        "subPathIdentifier": "VALUE",
+                        "valueOrPath": -25.0
+                    }
+                ]
+            },
+            "resultConfigurationValue": {
+                "subPathIdentifier": "SIMULATION_VARIABLE",
+                "valueOrPath": "co2_tax.amount.value",
+                "selector": {
+                    "value": "DEU",
+                    "key": "isoCountryCode"
+                }
+            },
+            "lowerLimit": 0.0
+        },
+        {
+            "notification": {
+                "sendEmail": false,
+                "title": {
+                    "de": "Die Ergebnisse sind da!",
+                    "ru": "Результаты подведены!",
+                    "en": "The results are in!",
+                    "fr": "Les résultats sont là !",
+                    "ar": "النتائج جاهزة!",
+                    "_azure/gpt-4-vision_sv": "Resultaten är här!",
+                    "_gcp/gemini-1.5-pro_sv": "Resultaten är här! \n",
+                    "_compare_azure/gpt-4-vision_sv": "Resultaten är här!",
+                    "_compare_gcp/gemini-1.5-pro_sv": "Resultaten är här!",
+                    "_compare_aws/claude-3.5-sonnet_sv": "Resultaten är här!",
+                    "_unique_translations_back_sv": [
+                        "Die Ergebnisse sind da!"
+                    ]
+                },
+                "body": {
+                    "de": "Bei der letzten Wahl wurde für das Gleichbleiben der CO₂-Steuer gestimmt.<br>Sie bleibt deshalb unverändert!",
+                    "ru": "На последних выборах налог на CO₂ проголосовали за то, чтобы оставить его прежним.<br>Поэтому он остается неизменным!",
+                    "en": "In the last election, the CO₂ tax was voted to remain the same.<br>It therefore remains unchanged!",
+                    "fr": "Lors des dernières élections, la taxe CO₂ a été votée pour rester inchangée.<br>Elle reste donc inchangée !",
+                    "ar": "في الانتخابات الأخيرة، صوت الناس للحفاظ على ضريبة ثاني أكسيد الكربون بنفس المستوى.<br>لذلك، فإنه يظل دون تغيير!",
+                    "_azure/gpt-4-vision_sv": "Vid det senaste valet röstades det för att CO₂-skatten skulle förbli densamma.<br>Den förblir därför oförändrad!",
+                    "_gcp/gemini-1.5-pro_sv": "Vid det senaste valet röstade man för att CO₂-skatten skulle förbli densamma.<br>Den förblir därför oförändrad! \n",
+                    "_compare_azure/gpt-4-vision_sv": "Vid det senaste valet röstade man för att CO₂-skatten skulle förbli densamma. Den förblir därför oförändrad!",
+                    "_compare_gcp/gemini-1.5-pro_sv": "Vid det senaste valet röstades det för att CO₂-skatten skulle förbli densamma. Den förblir därför oförändrad!",
+                    "_compare_aws/claude-3.5-sonnet_sv": "Vid det senaste valet röstades det för att CO₂-skatten skulle förbli densamma. Den förblir därför oförändrad!",
+                    "_unique_translations_back_sv": [
+                        "Bei der letzten Wahl wurde dafür gestimmt, dass die CO₂-Steuer gleich bleibt. Sie bleibt also unverändert!",
+                        "Bei der letzten Wahl wurde dafür gestimmt, dass die CO₂-Steuer unverändert bleibt. Sie bleibt also unverändert!"
+                    ]
+                },
+                "conditions": [
+                    {
+                        "path": "profile.countryOfResidence",
+                        "configurationType": "AGENT_VARIABLE",
+                        "value": "DEU",
+                        "operator": "EQ"
+                    }
+                ]
+            },
+            "actionCondition": {
+                "neutralValue": "abstain",
+                "op": "MAX",
+                "variablePath": "co2-pricing-poll",
+                "configurationType": "AGENT_VARIABLE",
+                "value": "maintain"
+            },
+            "expression": {
+                "changeMode": "ADD",
+                "arguments": [
+                    {
+                        "subPathIdentifier": "SIMULATION_VARIABLE",
+                        "valueOrPath": "co2_tax.amount.value",
+                        "selector": {
+                            "value": "DEU",
+                            "key": "isoCountryCode"
+                        }
+                    },
+                    {
+                        "subPathIdentifier": "VALUE",
+                        "valueOrPath": 0.0
+                    }
+                ]
+            },
+            "resultConfigurationValue": {
+                "subPathIdentifier": "SIMULATION_VARIABLE",
+                "valueOrPath": "co2_tax.amount.value",
+                "selector": {
+                    "value": "DEU",
+                    "key": "isoCountryCode"
+                }
+            },
+            "lowerLimit": 0.0
         }
-      },
-      "upperLimit": 999.0
-    },
-    {
-      "notification": {
-        "sendEmail": false,
-        "title": {
-          "de": "Die Ergebnisse sind da!",
-          "ru": "Результаты подведены!",
-          "en": "The results are in!",
-          "fr": "Les résultats sont là !",
-          "ar": "النتائج جاهزة!"
-        },
-        "body": {
-          "de": "Bei der letzten Wahl wurde für die Verringerung der CO₂-Steuer gestimmt.<br>Sie ist deshalb um 25€ gesunken!",
-          "ru": "На последних выборах люди проголосовали за снижение налога на CO₂.<br>Таким образом, она подешевела на 25 евро!",
-          "en": "In the last election, people voted to reduce the CO₂ tax.<br>It has therefore gone down by €25!",
-          "fr": "Lors des dernières élections, les gens ont voté pour réduire la taxe CO₂.<br>Elle a donc diminué de 25 € !",
-          "ar": "في الانتخابات الأخيرة، صوت الناس لخفض ضريبة ثاني أكسيد الكربون.<br>لذلك، انخفضت بمقدار 25 يورو!"
-        },
-        "conditions": [
-          {
-            "path": "profile.countryOfResidence",
-            "configurationType": "AGENT_VARIABLE",
-            "value": "DEU",
-            "operator": "EQ"
-          }
-        ]
-      },
-      "actionCondition": {
-        "neutralValue": "abstain",
-        "op": "MAX",
-        "variablePath": "co2-pricing-poll",
-        "configurationType": "AGENT_VARIABLE",
-        "value": "lower"
-      },
-      "expression": {
-        "changeMode": "ADD",
-        "arguments": [
-          {
-            "subPathIdentifier": "SIMULATION_VARIABLE",
-            "valueOrPath": "co2_tax.amount.value",
-            "selector": {
-              "value": "DEU",
-              "key": "isoCountryCode"
-            }
-          },
-          {
-            "subPathIdentifier": "VALUE",
-            "valueOrPath": -25.0
-          }
-        ]
-      },
-      "resultConfigurationValue": {
-        "subPathIdentifier": "SIMULATION_VARIABLE",
-        "valueOrPath": "co2_tax.amount.value",
-        "selector": {
-          "value": "DEU",
-          "key": "isoCountryCode"
-        }
-      },
-      "lowerLimit": 0.0
-    },
-    {
-      "notification": {
-        "sendEmail": false,
-        "title": {
-          "de": "Die Ergebnisse sind da!",
-          "ru": "Результаты подведены!",
-          "en": "The results are in!",
-          "fr": "Les résultats sont là !",
-          "ar": "النتائج جاهزة!"
-        },
-        "body": {
-          "de": "Bei der letzten Wahl wurde für das Gleichbleiben der CO₂-Steuer gestimmt.<br>Sie bleibt deshalb unverändert!",
-          "ru": "На последних выборах налог на CO₂ проголосовали за то, чтобы оставить его прежним.<br>Поэтому он остается неизменным!",
-          "en": "In the last election, the CO₂ tax was voted to remain the same.<br>It therefore remains unchanged!",
-          "fr": "Lors des dernières élections, la taxe CO₂ a été votée pour rester inchangée.<br>Elle reste donc inchangée !",
-          "ar": "في الانتخابات الأخيرة، صوت الناس للحفاظ على ضريبة ثاني أكسيد الكربون بنفس المستوى.<br>لذلك، فإنه يظل دون تغيير!"
-        },
-        "conditions": [
-          {
-            "path": "profile.countryOfResidence",
-            "configurationType": "AGENT_VARIABLE",
-            "value": "DEU",
-            "operator": "EQ"
-          }
-        ]
-      },
-      "actionCondition": {
-        "neutralValue": "abstain",
-        "op": "MAX",
-        "variablePath": "co2-pricing-poll",
-        "configurationType": "AGENT_VARIABLE",
-        "value": "maintain"
-      },
-      "expression": {
-        "changeMode": "ADD",
-        "arguments": [
-          {
-            "subPathIdentifier": "SIMULATION_VARIABLE",
-            "valueOrPath": "co2_tax.amount.value",
-            "selector": {
-              "value": "DEU",
-              "key": "isoCountryCode"
-            }
-          },
-          {
-            "subPathIdentifier": "VALUE",
-            "valueOrPath": 0.0
-          }
-        ]
-      },
-      "resultConfigurationValue": {
-        "subPathIdentifier": "SIMULATION_VARIABLE",
-        "valueOrPath": "co2_tax.amount.value",
-        "selector": {
-          "value": "DEU",
-          "key": "isoCountryCode"
-        }
-      },
-      "lowerLimit": 0.0
-    }
-  ]
+    ]
 }

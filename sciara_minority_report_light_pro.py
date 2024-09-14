@@ -61,8 +61,10 @@ CLAUDE_3_5_SONNET = "aws/claude-3.5-sonnet"
 CLAUDE_3_HAIKU = "aws/claude-3-haiku"
 MISTRAL_LARGE = "azure/mistral-large"
 LLAMA_3_1_70B = "iteratec/Llama3.1-70B-Instruct"
-INPUT_FILE = os.getenv("INPUT_FILE")
-INPUT_FILE_DESCRIPTION = os.getenv("INPUT_FILE_DESCRIPTION")
+INPUT_FILE = os.getenv("INPUT_FILE", None)
+INPUT_FILE_SET = os.getenv("INPUT_FILE_SET", None)
+INPUT_FILE_ROOT_FOLDER = os.getenv("INPUT_FILE_ROOT_FOLDER", os.getcwd())
+INPUT_FILE_DESCRIPTION = os.getenv("INPUT_FILE_DESCRIPTION", None)
 RETRY_CHECK = (os.getenv("RETRY_CHECK", "0") == "1")
 TARGET_LANGUAGE = os.getenv("TARGET_LANGUAGE", "")
 SOURCE_LANGUAGE = os.getenv("SOURCE_LANGUAGE", "de")
@@ -475,7 +477,7 @@ async def crawl_json(
             else:
                 unique_translations_back = data[unique_translations_back_property]
 
-            if len(unique_translations) < 3:
+            if len(unique_translations) > 1 and len(unique_translations) < 3:
                 translations = [create_diff_html(unique_translations[1], unique_translations[0]), create_diff_html(unique_translations[0], unique_translations[1])]
             else:
                 translations = unique_translations
@@ -534,10 +536,27 @@ async def process_i18n_file(file_path: str, file_description:str, target_languag
         table_lines_dict[_target_language] = table_lines
     return table_lines_dict
 
-async def main():
-    table_lines_dict = await process_i18n_file(file_path=INPUT_FILE, file_description=INPUT_FILE_DESCRIPTION, target_language=TARGET_LANGUAGE)
+
+async def process_one_file(input_file: str, file_description: str):
+    table_lines_dict = await process_i18n_file(file_path=input_file, file_description=file_description, target_language=TARGET_LANGUAGE)
     for target_language in table_lines_dict:
         create_table(translation_lines=table_lines_dict[target_language], source=SOURCE_LANGUAGE, target=target_language, input_file=os.path.basename(INPUT_FILE))
+
+
+async def process_input_file_set(file_set_path: str):
+    with open(file_set_path, 'r') as f:
+        for line in f:
+            relative_file_path, file_description = line.strip().split(",")
+            await process_one_file(input_file=os.path.join(INPUT_FILE_ROOT_FOLDER, relative_file_path), file_description=file_description)
+
+
+async def main():
+    if INPUT_FILE_SET:
+        await process_input_file_set(file_set_path=INPUT_FILE_SET)
+    elif INPUT_FILE and INPUT_FILE_DESCRIPTION:
+        await process_one_file(input_file=INPUT_FILE, file_description=INPUT_FILE_DESCRIPTION)
+    else:
+        raise RuntimeError("no environment variable set")
 
 
 if __name__ == "__main__":
