@@ -269,7 +269,7 @@ def is_translation(path: str) -> bool:
     return path.split(".")[-1].lower() in LANGUAGES and not "imageRef" in path
 
 
-def create_table(input_file: str, translation_lines: [str], source: str, target: str):
+def create_table(input_file: str, translation_lines: [str], source: str, target: str) -> str:
     translation_headers = []
     model_names = TRANSLATION_MODELS.split(",")
     for i in range(len(model_names)):
@@ -282,11 +282,12 @@ def create_table(input_file: str, translation_lines: [str], source: str, target:
 
     env = Environment(loader=FileSystemLoader('./templates'))
     template = env.get_template('compare_light_table.html.j2')
-    html = template.render(headers=headers, translation_lines=translation_lines, max_translations=len(TRANSLATION_MODELS.split(",")))
+    html = template.render(table_name=input_file, headers=headers, translation_lines=translation_lines, max_translations=len(TRANSLATION_MODELS.split(",")))
     html_file = f"./tables/{input_file}_table.{source}_{target}.light.pro.html"
     with open(html_file, 'w') as f:
         f.write(html)
     HTML(html_file).write_pdf(f"{html_file}.pdf")
+    return(html_file)
 
 
 def create_diff_text(target: str, source: str, plusminus) -> str:
@@ -542,19 +543,35 @@ async def process_i18n_file(file_path: str, file_description:str, target_languag
     return table_lines_dict
 
 
-async def process_one_file(input_file: str, file_description: str):
+async def process_one_file(input_file: str, file_description: str) -> [str]:
     table_lines_dict = await process_i18n_file(file_path=input_file, file_description=file_description, target_language=TARGET_LANGUAGE)
+    html_tables = []
     for target_language in table_lines_dict:
-        create_table(translation_lines=table_lines_dict[target_language], source=SOURCE_LANGUAGE, target=target_language, input_file=os.path.basename(input_file))
+        html_table = create_table(translation_lines=table_lines_dict[target_language], source=SOURCE_LANGUAGE, target=target_language, input_file=os.path.basename(input_file))
+        html_tables.append(html_table)
+    return html_tables
 
 
-async def process_input_file_set(file_set_path: str):
+async def process_input_file_set(file_set_path: str) -> [str]:
+    all_html_tables = []
     with open(file_set_path, 'r') as f:
         for line in f:
             if len(line.strip()) > 0:
                 print(f"==========> {line.strip()}")
                 relative_file_path, file_description = line.strip().split(",")
-                await process_one_file(input_file=os.path.join(INPUT_FILE_ROOT_FOLDER, relative_file_path), file_description=file_description)
+                html_tables = await process_one_file(input_file=os.path.join(INPUT_FILE_ROOT_FOLDER, relative_file_path), file_description=file_description)
+                all_html_tables.extend(html_tables)
+    return all_html_tables
+
+
+def create_all_pdf_file(html_files: [str]):
+    if len(html_files) > 0:
+        html_objects = [HTML(filename=f) for f in html_files]
+        combined_doc = html_objects[0].render()
+        for html in html_objects[1:]:
+            combined_doc.pages.extend(html.render().pages)
+        with open(f"./tables/table.{SOURCE_LANGUAGE}_{TARGET_LANGUAGE if len(TARGET_LANGUAGE) > 0 else 'all'}.light.pro.html", 'wb') as f:
+            combined_doc.write_pdf(f)
 
 
 async def main():
