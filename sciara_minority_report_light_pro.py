@@ -467,7 +467,8 @@ async def crawl_json(
             translation_sources = [get_translation_sources(unique_translation) for unique_translation in unique_translations]
 
             unique_translations_back_property = f"_unique_translations_back_{target_language}"
-            if not unique_translations_back_property in data:
+            if (not unique_translations_back_property in data or
+                    reduce(lambda acc, back_translation: acc and len(back_translation) > 0, data[unique_translations_back_property], True)):
                 unique_translations_back = [
                     await get_best_back_translation(
                         source_text=translation,
@@ -527,19 +528,20 @@ async def process_i18n_file(file_path: str, file_description:str, target_languag
 
     table_lines_dict = {}
     for _target_language in (LANGUAGES.keys() if len(target_language) == 0 else [target_language]):
-        table_lines = []
-        await crawl_json(
-            data,
-            source_language=SOURCE_LANGUAGE,
-            target_language=_target_language,
-            current_translations={},
-            table_lines=table_lines,
-            file_content=content,
-            file_description=file_description,
-        )
-        with open(file_path, "w", encoding="UTF-8") as f:
-            json.dump(data, f, indent=4, ensure_ascii=False)
-        table_lines_dict[_target_language] = table_lines
+        if not _target_language in CERTIFIED_LANGUAGES:
+            table_lines = []
+            await crawl_json(
+                data,
+                source_language=SOURCE_LANGUAGE,
+                target_language=_target_language,
+                current_translations={},
+                table_lines=table_lines,
+                file_content=content,
+                file_description=file_description,
+            )
+            with open(file_path, "w", encoding="UTF-8") as f:
+                json.dump(data, f, indent=4, ensure_ascii=False)
+            table_lines_dict[_target_language] = table_lines
     return table_lines_dict
 
 
