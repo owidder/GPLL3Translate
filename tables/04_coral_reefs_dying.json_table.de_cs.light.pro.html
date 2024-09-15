@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <style>
+        @page {
+            size: A4 landscape;
+        }
+    </style>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-family: verdana, serif;
+            font-size:12px;
+            border: 1px solid white;
+            transform: scale(0.3);
+            transform-origin: top left;
+        }
+        th, td {
+            border-bottom:3px solid white;
+            border-right:3px solid white;
+            padding: 15px;
+            text-align: left;
+        }
+        th {
+            background-color: darkgray;
+        }
+        td {
+            background-color: lightgray;
+        }
+        .endtd {
+            border-right: 3px solid darkgray;
+        }
+        .translate {
+            background-color: lightblue;
+        }
+        .back-translate {
+            background-color: lightgrey;
+        }
+        .winner {
+            background-color: lightpink;
+        }
+        .compare {
+            background-color: lightsteelblue;
+        }
+        .source {
+            background-color: palegoldenrod;
+        }
+        .empty {
+            background-color: lightgrey;
+        }
+        .sources {
+            font-weight: bold;
+            font-size: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>04_coral_reefs_dying.json</h1>
+    <table>
+        <thead>
+            <tr>
+                
+                    <th>source text</th>
+                
+                    <th>--- 0 ---</th>
+                
+                    <th></th>
+                
+                    <th>--- 1 ---</th>
+                
+                    <th></th>
+                
+                    <th>azure/gpt-4-vision</th>
+                
+                    <th>gcp/gemini-1.5-pro</th>
+                
+                    <th>aws/claude-3.5-sonnet</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            
+                <tr>
+                    <td class="endtd source">Hitzewellen im Meer töten Korallenriffe</td>
+
+
+                    <td class="translate"><span style = 'color: red; font-weight: bold;'> Vlny</span> <span style = 'color: black;'>  veder</span> <span style = 'color: red; font-weight: bold;'> v</span> <span style = 'color: red; font-weight: bold;'> moři</span> <span style = 'color: black;'>  zabíjejí</span> <span style = 'color: black;'>  korálové</span> <span style = 'color: black;'>  útesy</span><br><span class="sources">azure/gpt-4-vision</span></td>
+                    <td class="back-translate"><span style = 'color: red; font-weight: bold;'> Meereswärmewellen</span> <span style = 'color: black;'>  töten</span> <span style = 'color: black;'>  Korallenriffe</span></td>
+
+
+
+                    <td class="winner"><span style = 'color: red; font-weight: bold;'> Mořské</span> <span style = 'color: red; font-weight: bold;'> vlny</span> <span style = 'color: black;'>  veder</span> <span style = 'color: black;'>  zabíjejí</span> <span style = 'color: black;'>  korálové</span> <span style = 'color: black;'>  útesy</span><br><span class="sources">gcp/gemini-1.5-pro</span></td>
+                    <td class="back-translate"><span style = 'color: red; font-weight: bold;'> Meereswärmewellen</span> <span style = 'color: black;'>  töten</span> <span style = 'color: black;'>  Korallenriffe</span></td>
+
+
+
+                    <td class="compare">1</td>
+
+                    <td class="compare">2</td>
+
+                    <td class="compare">2</td>
+
+                </tr>
+            
+                <tr>
+                    <td class="endtd source"><img width=250  src="https://static.dw.com/image/46075549_303.jpg "><br>Eine große gemeinsame Bestandaufnahme von Meeresforschungsinstituten mehrerer Länder ergab, dass über zwei Drittel aller Korallen durch zu warme Meerestemperaturen gestorben sind.<br>Dies hat katastrophale Auswirkungen auf den Fischbestand, da die Korallenriffe eine wichtiger Aufzuchtsort für eine große Zahl von Fischen, Schalentieren und Krebstieren sind.</td>
+
+
+                    <td class="winner"><img src="https://static.dw.com/image/46075549_303.jpg" width="250"/> <span style = 'color: red; font-weight: bold;'> Rozsáhlý</span> <span style = 'color: black;'>  společný</span> <span style = 'color: black;'>  průzkum</span> <span style = 'color: black;'>  mořských</span> <span style = 'color: black;'>  výzkumných</span> <span style = 'color: red; font-weight: bold;'> institutů</span> <span style = 'color: black;'>  několika</span> <span style = 'color: black;'>  zemí</span> <span style = 'color: black;'>  zjistil,</span> <span style = 'color: black;'>  že</span> <span style = 'color: black;'>  více</span> <span style = 'color: black;'>  než</span> <span style = 'color: black;'>  dvě</span> <span style = 'color: black;'>  třetiny</span> <span style = 'color: black;'>  všech</span> <span style = 'color: black;'>  korálů</span> <span style = 'color: red; font-weight: bold;'> zahynuly</span> <span style = 'color: red; font-weight: bold;'> kvůli</span> <span style = 'color: black;'>  příliš</span> <span style = 'color: red; font-weight: bold;'> vysokým</span> <span style = 'color: red; font-weight: bold;'> teplotám</span> <span style = 'color: black;'>  oceánu.</span> <span style = 'color: black;'>  To</span> <span style = 'color: black;'>  má</span> <span style = 'color: black;'>  katastrofální</span> <span style = 'color: red; font-weight: bold;'> důsledky</span> <span style = 'color: red; font-weight: bold;'> pro</span> <span style = 'color: black;'>  rybí</span> <span style = 'color: black;'>  populace,</span> <span style = 'color: black;'>  protože</span> <span style = 'color: black;'>  korálové</span> <span style = 'color: black;'>  útesy</span> <span style = 'color: black;'>  jsou</span> <span style = 'color: black;'>  důležitým</span> <span style = 'color: black;'>  místem</span> <span style = 'color: black;'>  pro</span> <span style = 'color: red; font-weight: bold;'> odchov</span> <span style = 'color: black;'>  velkého</span> <span style = 'color: black;'>  množství</span> <span style = 'color: black;'>  ryb,</span> <span style = 'color: black;'>  měkkýšů</span> <span style = 'color: black;'>  a</span> <span style = 'color: black;'>  korýšů</span><br><span class="sources">azure/gpt-4-vision</span></td>
+                    <td class="back-translate"><img src="https://static.dw.com/image/46075549_303.jpg " width="250"/> <span style = 'color: black;'>  Eine</span> <span style = 'color: red; font-weight: bold;'> groß</span> <span style = 'color: red; font-weight: bold;'> angelegte</span> <span style = 'color: black;'>  gemeinsame</span> <span style = 'color: red; font-weight: bold;'> Untersuchung</span> <span style = 'color: black;'>  von</span> <span style = 'color: black;'>  Meeresforschungsinstituten</span> <span style = 'color: red; font-weight: bold;'> aus</span> <span style = 'color: red; font-weight: bold;'> mehreren</span> <span style = 'color: red; font-weight: bold;'> Ländern</span> <span style = 'color: black;'>  ergab,</span> <span style = 'color: black;'>  dass</span> <span style = 'color: black;'>  über</span> <span style = 'color: black;'>  zwei</span> <span style = 'color: black;'>  Drittel</span> <span style = 'color: black;'>  aller</span> <span style = 'color: black;'>  Korallen</span> <span style = 'color: red; font-weight: bold;'> aufgrund</span> <span style = 'color: black;'>  zu</span> <span style = 'color: red; font-weight: bold;'> hoher</span> <span style = 'color: black;'>  Meerestemperaturen</span> <span style = 'color: black;'>  gestorben</span> <span style = 'color: black;'>  sind.</span> <span style = 'color: black;'>  Dies</span> <span style = 'color: black;'>  hat</span> <span style = 'color: black;'>  katastrophale</span> <span style = 'color: red; font-weight: bold;'> Folgen</span> <span style = 'color: red; font-weight: bold;'> für</span> <span style = 'color: red; font-weight: bold;'> die</span> <span style = 'color: red; font-weight: bold;'> Fischbestände,</span> <span style = 'color: black;'>  da</span> <span style = 'color: black;'>  Korallenriffe</span> <span style = 'color: red; font-weight: bold;'> ein</span> <span style = 'color: red; font-weight: bold;'> wichtiges</span> <span style = 'color: red; font-weight: bold;'> Aufzuchtgebiet</span> <span style = 'color: black;'>  für</span> <span style = 'color: black;'>  eine</span> <span style = 'color: red; font-weight: bold;'> Vielzahl</span> <span style = 'color: black;'>  von</span> <span style = 'color: black;'>  Fischen,</span> <span style = 'color: red; font-weight: bold;'> Weichtieren</span> <span style = 'color: black;'>  und</span> <span style = 'color: black;'>  Krebstieren</span> <span style = 'color: black;'>  sind</span></td>
+
+
+
+                    <td class="translate"><img src="https://static.dw.com/image/46075549_303.jpg " width="250"/> <span style = 'color: red; font-weight: bold;'> Velký</span> <span style = 'color: black;'>  společný</span> <span style = 'color: black;'>  průzkum</span> <span style = 'color: black;'>  mořských</span> <span style = 'color: black;'>  výzkumných</span> <span style = 'color: red; font-weight: bold;'> ústavů</span> <span style = 'color: red; font-weight: bold;'> z</span> <span style = 'color: black;'>  několika</span> <span style = 'color: black;'>  zemí</span> <span style = 'color: black;'>  zjistil,</span> <span style = 'color: black;'>  že</span> <span style = 'color: black;'>  více</span> <span style = 'color: black;'>  než</span> <span style = 'color: black;'>  dvě</span> <span style = 'color: black;'>  třetiny</span> <span style = 'color: black;'>  všech</span> <span style = 'color: black;'>  korálů</span> <span style = 'color: red; font-weight: bold;'> zemřely</span> <span style = 'color: red; font-weight: bold;'> v</span> <span style = 'color: red; font-weight: bold;'> důsledku</span> <span style = 'color: black;'>  příliš</span> <span style = 'color: red; font-weight: bold;'> teplé</span> <span style = 'color: red; font-weight: bold;'> teploty</span> <span style = 'color: black;'>  oceánu.</span> <span style = 'color: black;'>  To</span> <span style = 'color: black;'>  má</span> <span style = 'color: black;'>  katastrofální</span> <span style = 'color: red; font-weight: bold;'> dopad</span> <span style = 'color: red; font-weight: bold;'> na</span> <span style = 'color: black;'>  rybí</span> <span style = 'color: black;'>  populace,</span> <span style = 'color: black;'>  protože</span> <span style = 'color: black;'>  korálové</span> <span style = 'color: black;'>  útesy</span> <span style = 'color: black;'>  jsou</span> <span style = 'color: black;'>  důležitým</span> <span style = 'color: black;'>  místem</span> <span style = 'color: black;'>  pro</span> <span style = 'color: red; font-weight: bold;'> rozmnožování</span> <span style = 'color: black;'>  velkého</span> <span style = 'color: black;'>  množství</span> <span style = 'color: black;'>  ryb,</span> <span style = 'color: black;'>  měkkýšů</span> <span style = 'color: black;'>  a</span> <span style = 'color: black;'>  korýšů</span><br><span class="sources">gcp/gemini-1.5-pro</span></td>
+                    <td class="back-translate"><img src="https://static.dw.com/image/46075549_303.jpg " width="250"/> <span style = 'color: black;'>  Eine</span> <span style = 'color: black;'>  große</span> <span style = 'color: black;'>  gemeinsame</span> <span style = 'color: red; font-weight: bold;'> Untersuchung</span> <span style = 'color: black;'>  von</span> <span style = 'color: black;'>  Meeresforschungsinstituten</span> <span style = 'color: red; font-weight: bold;'> aus</span> <span style = 'color: red; font-weight: bold;'> mehreren</span> <span style = 'color: red; font-weight: bold;'> Ländern</span> <span style = 'color: black;'>  ergab,</span> <span style = 'color: black;'>  dass</span> <span style = 'color: black;'>  über</span> <span style = 'color: black;'>  zwei</span> <span style = 'color: black;'>  Drittel</span> <span style = 'color: black;'>  aller</span> <span style = 'color: black;'>  Korallen</span> <span style = 'color: red; font-weight: bold;'> aufgrund</span> <span style = 'color: black;'>  zu</span> <span style = 'color: red; font-weight: bold;'> hoher</span> <span style = 'color: black;'>  Meerestemperaturen</span> <span style = 'color: black;'>  gestorben</span> <span style = 'color: black;'>  sind.</span> <span style = 'color: black;'>  Dies</span> <span style = 'color: black;'>  hat</span> <span style = 'color: black;'>  katastrophale</span> <span style = 'color: red; font-weight: bold;'> Folgen</span> <span style = 'color: red; font-weight: bold;'> für</span> <span style = 'color: red; font-weight: bold;'> die</span> <span style = 'color: red; font-weight: bold;'> Fischbestände,</span> <span style = 'color: black;'>  da</span> <span style = 'color: black;'>  Korallenriffe</span> <span style = 'color: red; font-weight: bold;'> ein</span> <span style = 'color: black;'>  wichtiger</span> <span style = 'color: red; font-weight: bold;'> Aufzuchtort</span> <span style = 'color: black;'>  für</span> <span style = 'color: black;'>  eine</span> <span style = 'color: red; font-weight: bold;'> Vielzahl</span> <span style = 'color: black;'>  von</span> <span style = 'color: black;'>  Fischen,</span> <span style = 'color: black;'>  Schalentieren</span> <span style = 'color: black;'>  und</span> <span style = 'color: black;'>  Krebstieren</span> <span style = 'color: black;'>  sind</span></td>
+
+
+
+                    <td class="compare">1</td>
+
+                    <td class="compare">1</td>
+
+                    <td class="compare">1</td>
+
+                </tr>
+            
+        </tbody>
+    </table>
+</body>
+</html>

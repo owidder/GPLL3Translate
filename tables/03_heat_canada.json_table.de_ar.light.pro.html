@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <style>
+        @page {
+            size: A4 landscape;
+        }
+    </style>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-family: verdana, serif;
+            font-size:12px;
+            border: 1px solid white;
+            transform: scale(0.3);
+            transform-origin: top left;
+        }
+        th, td {
+            border-bottom:3px solid white;
+            border-right:3px solid white;
+            padding: 15px;
+            text-align: left;
+        }
+        th {
+            background-color: darkgray;
+        }
+        td {
+            background-color: lightgray;
+        }
+        .endtd {
+            border-right: 3px solid darkgray;
+        }
+        .translate {
+            background-color: lightblue;
+        }
+        .back-translate {
+            background-color: lightgrey;
+        }
+        .winner {
+            background-color: lightpink;
+        }
+        .compare {
+            background-color: lightsteelblue;
+        }
+        .source {
+            background-color: palegoldenrod;
+        }
+        .empty {
+            background-color: lightgrey;
+        }
+        .sources {
+            font-weight: bold;
+            font-size: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>03_heat_canada.json</h1>
+    <table>
+        <thead>
+            <tr>
+                
+                    <th>source text</th>
+                
+                    <th>--- 0 ---</th>
+                
+                    <th></th>
+                
+                    <th>--- 1 ---</th>
+                
+                    <th></th>
+                
+                    <th>azure/gpt-4-vision</th>
+                
+                    <th>gcp/gemini-1.5-pro</th>
+                
+                    <th>aws/claude-3.5-sonnet</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            
+                <tr>
+                    <td class="endtd source">Extreme Hitze in Kanada fordert Todesopfer</td>
+
+
+                    <td class="translate"><span style = 'color: black;'>  الحرارة</span> <span style = 'color: black;'>  الشديدة</span> <span style = 'color: black;'>  في</span> <span style = 'color: black;'>  كندا</span> <span style = 'color: red; font-weight: bold;'> تتسبب</span> <span style = 'color: black;'>  في</span> <span style = 'color: black;'>  وفيات</span><br><span class="sources">azure/gpt-4-vision</span></td>
+                    <td class="back-translate"><span style = 'color: black;'>  Extreme</span> <span style = 'color: black;'>  Hitze</span> <span style = 'color: black;'>  in</span> <span style = 'color: black;'>  Kanada</span> <span style = 'color: black;'>  fordert</span> <span style = 'color: black;'>  Todesopfer</span></td>
+
+
+
+                    <td class="winner"><span style = 'color: red; font-weight: bold;'> ارتفاع</span> <span style = 'color: red; font-weight: bold;'> درجات</span> <span style = 'color: black;'>  الحرارة</span> <span style = 'color: black;'>  الشديدة</span> <span style = 'color: black;'>  في</span> <span style = 'color: black;'>  كندا</span> <span style = 'color: red; font-weight: bold;'> يتسبب</span> <span style = 'color: black;'>  في</span> <span style = 'color: black;'>  وفيات</span><br><span class="sources">gcp/gemini-1.5-pro</span></td>
+                    <td class="back-translate"><span style = 'color: red; font-weight: bold;'> Extremhitze</span> <span style = 'color: black;'>  in</span> <span style = 'color: black;'>  Kanada</span> <span style = 'color: black;'>  fordert</span> <span style = 'color: black;'>  Todesopfer</span></td>
+
+
+
+                    <td class="compare">1</td>
+
+                    <td class="compare">2</td>
+
+                    <td class="compare">2</td>
+
+                </tr>
+            
+                <tr>
+                    <td class="endtd source"><img width=250  src="https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png"><br>Kanada misst erneut Rekordtemperaturen von knapp 50 Grad Celsius.<br>Nach wochenlangen Temperaturen weit oberhalb von 30 Grad wurden gestern in einigen Gebieten British-Columbias bis zu 49,2 Grad gemessen.<br>Nach Angaben der Behörden starben mehrere Hundert Menschen, die sich nicht mehr ausreichend kühlen konnten.</td>
+
+
+                    <td class="translate"><img src="https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png" width="250"/> <span style = 'color: red; font-weight: bold;'> تقيس</span> <span style = 'color: black;'>  كندا</span> <span style = 'color: red; font-weight: bold;'> مرة</span> <span style = 'color: red; font-weight: bold;'> أخرى</span> <span style = 'color: black;'>  درجات</span> <span style = 'color: black;'>  حرارة</span> <span style = 'color: black;'>  قياسية</span> <span style = 'color: red; font-weight: bold;'> تقارب</span> <span style = 'color: black;'>  50</span> <span style = 'color: black;'>  درجة</span> <span style = 'color: black;'>  مئوية.</span> <span style = 'color: black;'>  بعد</span> <span style = 'color: black;'>  أسابيع</span> <span style = 'color: black;'>  من</span> <span style = 'color: black;'>  درجات</span> <span style = 'color: red; font-weight: bold;'> حرارة</span> <span style = 'color: red; font-weight: bold;'> أعلى</span> <span style = 'color: red; font-weight: bold;'> بكثير</span> <span style = 'color: red; font-weight: bold;'> من</span> <span style = 'color: black;'>  30</span> <span style = 'color: red; font-weight: bold;'> درجة،</span> <span style = 'color: red; font-weight: bold;'> تم</span> <span style = 'color: red; font-weight: bold;'> قياس</span> <span style = 'color: red; font-weight: bold;'> درجات</span> <span style = 'color: black;'>  حرارة</span> <span style = 'color: black;'>  تصل</span> <span style = 'color: black;'>  إلى</span> <span style = 'color: black;'>  49.2</span> <span style = 'color: black;'>  درجة</span> <span style = 'color: red; font-weight: bold;'> في</span> <span style = 'color: red; font-weight: bold;'> بعض</span> <span style = 'color: red; font-weight: bold;'> مناطق</span> <span style = 'color: red; font-weight: bold;'> كولومبيا</span> <span style = 'color: red; font-weight: bold;'> البريطانية</span> <span style = 'color: red; font-weight: bold;'> يوم</span> <span style = 'color: black;'>  أمس.</span> <span style = 'color: red; font-weight: bold;'> وبحسب</span> <span style = 'color: red; font-weight: bold;'> السلطات،</span> <span style = 'color: red; font-weight: bold;'> فقد</span> <span style = 'color: black;'>  توفي</span> <span style = 'color: black;'>  عدة</span> <span style = 'color: black;'>  مئات</span> <span style = 'color: black;'>  من</span> <span style = 'color: black;'>  الأشخاص</span> <span style = 'color: red; font-weight: bold;'> الذين</span> <span style = 'color: red; font-weight: bold;'> لم</span> <span style = 'color: red; font-weight: bold;'> يعودوا</span> <span style = 'color: red; font-weight: bold;'> قادرين</span> <span style = 'color: black;'>  على</span> <span style = 'color: red; font-weight: bold;'> تبريد</span> <span style = 'color: red; font-weight: bold;'> أنفسهم</span> <span style = 'color: black;'>  بشكل</span> <span style = 'color: black;'>  كافٍ</span><br><span class="sources">gcp/gemini-1.5-pro</span></td>
+                    <td class="back-translate"><img src="https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png" width="250"/> <span style = 'color: black;'>  Kanada</span> <span style = 'color: black;'>  misst</span> <span style = 'color: black;'>  erneut</span> <span style = 'color: black;'>  Rekordtemperaturen</span> <span style = 'color: black;'>  von</span> <span style = 'color: red; font-weight: bold;'> fast</span> <span style = 'color: black;'>  50</span> <span style = 'color: black;'>  Grad</span> <span style = 'color: black;'>  Celsius.</span> <span style = 'color: black;'>  Nach</span> <span style = 'color: red; font-weight: bold;'> mehreren</span> <span style = 'color: red; font-weight: bold;'> Wochen</span> <span style = 'color: red; font-weight: bold;'> mit</span> <span style = 'color: black;'>  Temperaturen</span> <span style = 'color: black;'>  weit</span> <span style = 'color: red; font-weight: bold;'> über</span> <span style = 'color: black;'>  30</span> <span style = 'color: black;'>  Grad</span> <span style = 'color: black;'>  wurden</span> <span style = 'color: black;'>  gestern</span> <span style = 'color: black;'>  in</span> <span style = 'color: black;'>  einigen</span> <span style = 'color: black;'>  Gebieten</span> <span style = 'color: red; font-weight: bold;'> von</span> <span style = 'color: red; font-weight: bold;'> British</span> <span style = 'color: red; font-weight: bold;'> Columbia</span> <span style = 'color: red; font-weight: bold;'> Temperaturen</span> <span style = 'color: red; font-weight: bold;'> von</span> <span style = 'color: black;'>  bis</span> <span style = 'color: black;'>  zu</span> <span style = 'color: black;'>  49,2</span> <span style = 'color: black;'>  Grad</span> <span style = 'color: black;'>  gemessen.</span> <span style = 'color: black;'>  Nach</span> <span style = 'color: black;'>  Angaben</span> <span style = 'color: black;'>  der</span> <span style = 'color: black;'>  Behörden</span> <span style = 'color: black;'>  starben</span> <span style = 'color: black;'>  mehrere</span> <span style = 'color: red; font-weight: bold;'> hundert</span> <span style = 'color: black;'>  Menschen,</span> <span style = 'color: red; font-weight: bold;'> weil</span> <span style = 'color: red; font-weight: bold;'> sie</span> <span style = 'color: black;'>  sich</span> <span style = 'color: black;'>  nicht</span> <span style = 'color: black;'>  mehr</span> <span style = 'color: black;'>  ausreichend</span> <span style = 'color: red; font-weight: bold;'> abkühlen</span> <span style = 'color: black;'>  konnten</span></td>
+
+
+
+                    <td class="winner"><img src="https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png" width="250"/> <span style = 'color: red; font-weight: bold;'> كندا</span> <span style = 'color: black;'>  تقيس</span> <span style = 'color: red; font-weight: bold;'> مجددًا</span> <span style = 'color: black;'>  درجات</span> <span style = 'color: black;'>  حرارة</span> <span style = 'color: black;'>  قياسية</span> <span style = 'color: red; font-weight: bold;'> تصل</span> <span style = 'color: red; font-weight: bold;'> إلى</span> <span style = 'color: red; font-weight: bold;'> حوالي</span> <span style = 'color: black;'>  50</span> <span style = 'color: black;'>  درجة</span> <span style = 'color: black;'>  مئوية.</span> <span style = 'color: black;'>  بعد</span> <span style = 'color: black;'>  أسابيع</span> <span style = 'color: black;'>  من</span> <span style = 'color: black;'>  درجات</span> <span style = 'color: red; font-weight: bold;'> الحرارة</span> <span style = 'color: red; font-weight: bold;'> التي</span> <span style = 'color: red; font-weight: bold;'> تتجاوز</span> <span style = 'color: black;'>  30</span> <span style = 'color: red; font-weight: bold;'> درجة</span> <span style = 'color: red; font-weight: bold;'> مئوية،</span> <span style = 'color: red; font-weight: bold;'> قست</span> <span style = 'color: red; font-weight: bold;'> بعض</span> <span style = 'color: red; font-weight: bold;'> مناطق</span> <span style = 'color: red; font-weight: bold;'> كولومبيا</span> <span style = 'color: red; font-weight: bold;'> البريطانية</span> <span style = 'color: red; font-weight: bold;'> درجة</span> <span style = 'color: black;'>  حرارة</span> <span style = 'color: black;'>  تصل</span> <span style = 'color: black;'>  إلى</span> <span style = 'color: black;'>  49.2</span> <span style = 'color: black;'>  درجة</span> <span style = 'color: black;'>  أمس.</span> <span style = 'color: red; font-weight: bold;'> وفقًا</span> <span style = 'color: red; font-weight: bold;'> للسلطات،</span> <span style = 'color: black;'>  توفي</span> <span style = 'color: black;'>  عدة</span> <span style = 'color: black;'>  مئات</span> <span style = 'color: black;'>  من</span> <span style = 'color: black;'>  الأشخاص</span> <span style = 'color: red; font-weight: bold;'> بسبب</span> <span style = 'color: red; font-weight: bold;'> عدم</span> <span style = 'color: red; font-weight: bold;'> قدرتهم</span> <span style = 'color: black;'>  على</span> <span style = 'color: red; font-weight: bold;'> التبريد</span> <span style = 'color: black;'>  بشكل</span> <span style = 'color: black;'>  كافٍ</span><br><span class="sources">azure/gpt-4-vision</span></td>
+                    <td class="back-translate"><img src="https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png" width="250"/> <span style = 'color: black;'>  Kanada</span> <span style = 'color: red; font-weight: bold;'> verzeichnet</span> <span style = 'color: black;'>  erneut</span> <span style = 'color: black;'>  Rekordtemperaturen</span> <span style = 'color: black;'>  von</span> <span style = 'color: red; font-weight: bold;'> fast</span> <span style = 'color: black;'>  50</span> <span style = 'color: black;'>  Grad</span> <span style = 'color: black;'>  Celsius.</span> <span style = 'color: black;'>  Nach</span> <span style = 'color: red; font-weight: bold;'> Wochen</span> <span style = 'color: red; font-weight: bold;'> mit</span> <span style = 'color: black;'>  Temperaturen</span> <span style = 'color: black;'>  weit</span> <span style = 'color: red; font-weight: bold;'> über</span> <span style = 'color: black;'>  30</span> <span style = 'color: black;'>  Grad</span> <span style = 'color: black;'>  wurden</span> <span style = 'color: black;'>  gestern</span> <span style = 'color: black;'>  in</span> <span style = 'color: black;'>  einigen</span> <span style = 'color: black;'>  Gebieten</span> <span style = 'color: red; font-weight: bold;'> von</span> <span style = 'color: red; font-weight: bold;'> British</span> <span style = 'color: red; font-weight: bold;'> Columbia</span> <span style = 'color: black;'>  bis</span> <span style = 'color: black;'>  zu</span> <span style = 'color: black;'>  49,2</span> <span style = 'color: black;'>  Grad</span> <span style = 'color: black;'>  gemessen.</span> <span style = 'color: red; font-weight: bold;'> Laut</span> <span style = 'color: black;'>  Behörden</span> <span style = 'color: red; font-weight: bold;'> sind</span> <span style = 'color: black;'>  mehrere</span> <span style = 'color: red; font-weight: bold;'> hundert</span> <span style = 'color: red; font-weight: bold;'> Menschen</span> <span style = 'color: red; font-weight: bold;'> gestorben,</span> <span style = 'color: red; font-weight: bold;'> weil</span> <span style = 'color: red; font-weight: bold;'> sie</span> <span style = 'color: black;'>  sich</span> <span style = 'color: black;'>  nicht</span> <span style = 'color: black;'>  ausreichend</span> <span style = 'color: red; font-weight: bold;'> abkühlen</span> <span style = 'color: black;'>  konnten</span></td>
+
+
+
+                    <td class="compare">2</td>
+
+                    <td class="compare">2</td>
+
+                    <td class="compare">1</td>
+
+                </tr>
+            
+        </tbody>
+    </table>
+</body>
+</html>

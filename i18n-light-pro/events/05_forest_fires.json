@@ -28,6 +28,254 @@
                     "_unique_translations_back_sv": [
                         "Roter Himmel des Verderbens: Überlegen Sie gut, wo Sie Ihren nächsten Urlaub buchen!",
                         "Roter Himmel des Unheils: Überlegen Sie gut, wo Sie Ihren nächsten Urlaub buchen!"
+                    ],
+                    "_azure/gpt-4-vision_ar": "سماء حمراء من الهلاك: فكروا جيدًا في أي مكان تحجزون فيه عطلتكم القادمة!",
+                    "_gcp/gemini-1.5-pro_ar": "سماء حمراء من الدمار: فكر جيدًا في المكان الذي ستحجز فيه عطلتك القادمة! \n",
+                    "_compare_azure/gpt-4-vision_ar": "سماء حمراء من الهلاك: فكروا جيدًا في أي مكان تحجزون فيه عطلتكم القادمة!",
+                    "_compare_gcp/gemini-1.5-pro_ar": "سماء حمراء من الهلاك: فكروا جيدًا في أي مكان تحجزون فيه عطلتكم القادمة!",
+                    "_compare_aws/claude-3.5-sonnet_ar": "سماء حمراء من الهلاك: فكروا جيدًا في أي مكان تحجزون فيه عطلتكم القادمة!",
+                    "_unique_translations_back_ar": [
+                        "Roter Himmel des Verderbens: Überlegen Sie gut, wo Sie Ihren nächsten Urlaub buchen!",
+                        "Roter Himmel der Zerstörung: Überlegen Sie gut, wo Sie Ihren nächsten Urlaub buchen!"
+                    ],
+                    "_azure/gpt-4-vision_bg": "Червено небе на бедствието: Обмислете внимателно къде да резервирате следващата си ваканция!",
+                    "_gcp/gemini-1.5-pro_bg": "Червено небе на обречеността: Помислете добре къде ще резервирате следващата си почивка! \n",
+                    "_compare_azure/gpt-4-vision_bg": "Червено небе на бедствието: Обмислете внимателно къде да резервирате следващата си ваканция!",
+                    "_compare_gcp/gemini-1.5-pro_bg": "Червено небе на обречеността: Помислете добре къде ще резервирате следващата си почивка!",
+                    "_compare_aws/claude-3.5-sonnet_bg": "Червено небе на обречеността: Помислете добре къде ще резервирате следващата си почивка!",
+                    "_unique_translations_back_bg": [
+                        "Roter Himmel des Unheils: Überlegen Sie gut, wo Sie Ihren nächsten Urlaub buchen!",
+                        "Roter Himmel des Verderbens: Überlegen Sie gut, wo Sie Ihren nächsten Urlaub buchen!"
+                    ],
+                    "_azure/gpt-4-vision_cs": "Červené nebe zkázy: Dobře si rozmyslete, kde si rezervujete svou příští dovolenou!",
+                    "_gcp/gemini-1.5-pro_cs": "Rudá obloha zkázy: Dobře si rozmyslete, kam pojedete na příští dovolenou! \n",
+                    "_compare_azure/gpt-4-vision_cs": "Červené nebe zkázy: Dobře si rozmyslete, kde si rezervujete svou příští dovolenou!",
+                    "_compare_gcp/gemini-1.5-pro_cs": "Červené nebe zkázy: Dobře si rozmyslete, kde si rezervujete svou příští dovolenou!",
+                    "_compare_aws/claude-3.5-sonnet_cs": "Červené nebe zkázy: Dobře si rozmyslete, kde si rezervujete svou příští dovolenou!",
+                    "_unique_translations_back_cs": [
+                        "Roter Himmel des Verderbens: Überlegen Sie gut, wo Sie Ihren nächsten Urlaub buchen!",
+                        "Roter Himmel des Verderbens: Überlegen Sie gut, wo Sie Ihren nächsten Urlaub buchen!"
+                    ],
+                    "_azure/gpt-4-vision_da": "Rød himmel af ulykke: Tænk godt over, hvor du booker din næste ferie!",
+                    "_gcp/gemini-1.5-pro_da": "Rød himmel af undergang: Tænk dig godt om, hvor du booker din næste ferie! \n",
+                    "_compare_azure/gpt-4-vision_da": "Rød himmel af undergang: Tænk dig godt om, hvor du booker din næste ferie!",
+                    "_compare_gcp/gemini-1.5-pro_da": "Rød himmel af ulykke: Tænk godt over, hvor du booker din næste ferie!",
+                    "_compare_aws/claude-3.5-sonnet_da": "Rød himmel af undergang: Tænk dig godt om, hvor du booker din næste ferie!",
+                    "_unique_translations_back_da": [
+                        "Roter Himmel des Untergangs: Überlegen Sie gut, wo Sie Ihren nächsten Urlaub buchen!",
+                        "Roter Himmel des Unheils: Überlegen Sie gut, wo Sie Ihren nächsten Urlaub buchen!"
+                    ],
+                    "_azure/gpt-4-vision_de": "Roter Himmel des Unheils: Überlegen Sie sich gut, wo Sie Ihren nächsten Urlaub buchen!",
+                    "_gcp/gemini-1.5-pro_de": "Roter Himmel des Unheils: Überlegen Sie sich gut, wo Sie Ihren nächsten Urlaub buchen! \n",
+                    "_compare_azure/gpt-4-vision_de": "Roter Himmel des Unheils: Überlegen Sie sich gut, wo Sie Ihren nächsten Urlaub buchen!",
+                    "_compare_gcp/gemini-1.5-pro_de": "Roter Himmel des Unheils: Überlegen Sie sich gut, wo Sie Ihren nächsten Urlaub buchen!",
+                    "_compare_aws/claude-3.5-sonnet_de": "Roter Himmel des Unheils: Überlegen Sie sich gut, wo Sie Ihren nächsten Urlaub buchen!",
+                    "_unique_translations_back_de": [
+                        "Roter Himmel des Unheils: Überlegen Sie gut, wo Sie Ihren nächsten Urlaub buchen!"
+                    ],
+                    "_azure/gpt-4-vision_el": "Κόκκινος ουρανός της καταστροφής: Σκεφτείτε καλά πού θα κάνετε κράτηση για τις επόμενες διακοπές σας!",
+                    "_gcp/gemini-1.5-pro_el": "Κόκκινος ουρανός καταστροφής: Σκεφτείτε καλά πού θα κλείσετε τις επόμενες διακοπές σας! \n",
+                    "_compare_azure/gpt-4-vision_el": "Κόκκινος ουρανός της καταστροφής: Σκεφτείτε καλά πού θα κάνετε κράτηση για τις επόμενες διακοπές σας!",
+                    "_compare_gcp/gemini-1.5-pro_el": "Κόκκινος ουρανός της καταστροφής: Σκεφτείτε καλά πού θα κάνετε κράτηση για τις επόμενες διακοπές σας!",
+                    "_compare_aws/claude-3.5-sonnet_el": "Κόκκινος ουρανός καταστροφής: Σκεφτείτε καλά πού θα κλείσετε τις επόμενες διακοπές σας!",
+                    "_unique_translations_back_el": [
+                        "Roter Himmel des Verderbens: Überlegen Sie gut, wo Sie Ihren nächsten Urlaub buchen!",
+                        "Roter Himmel des Verderbens: Überlegen Sie gut, wo Sie Ihren nächsten Urlaub buchen!"
+                    ],
+                    "_azure/gpt-4-vision_en": "Red sky of doom: Think carefully about where you book your next holiday!",
+                    "_gcp/gemini-1.5-pro_en": "Red sky of doom: Think carefully about where you book your next holiday! \n",
+                    "_compare_azure/gpt-4-vision_en": "Red sky of doom: Think carefully about where you book your next holiday!",
+                    "_compare_gcp/gemini-1.5-pro_en": "Red sky of doom: Think carefully about where you book your next holiday!",
+                    "_compare_aws/claude-3.5-sonnet_en": "Red sky of doom: Think carefully about where you book your next holiday!",
+                    "_unique_translations_back_en": [
+                        "Roter Himmel des Verderbens: Überlegen Sie gut, wo Sie Ihren nächsten Urlaub buchen!"
+                    ],
+                    "_azure/gpt-4-vision_es": "Cielo rojo de la perdición: ¡Piense bien dónde reserva sus próximas vacaciones!",
+                    "_gcp/gemini-1.5-pro_es": "Cielo rojo de fatalidad: ¡Piensa bien dónde reservas tus próximas vacaciones! \n",
+                    "_compare_azure/gpt-4-vision_es": "Cielo rojo de la perdición: ¡Piense bien dónde reserva sus próximas vacaciones!",
+                    "_compare_gcp/gemini-1.5-pro_es": "Cielo rojo de fatalidad: ¡Piensa bien dónde reservas tus próximas vacaciones!",
+                    "_compare_aws/claude-3.5-sonnet_es": "Cielo rojo de la perdición: ¡Piense bien dónde reserva sus próximas vacaciones!",
+                    "_unique_translations_back_es": [
+                        "Roter Himmel des Verderbens: Überlegen Sie gut, wo Sie Ihren nächsten Urlaub buchen!",
+                        "Roter Himmel des Verderbens: Überlegen Sie gut, wo Sie Ihren nächsten Urlaub buchen!"
+                    ],
+                    "_azure/gpt-4-vision_et": "Punane hukatuse taevas: Mõelge hoolikalt, kuhu te oma järgmise puhkuse broneerite!",
+                    "_gcp/gemini-1.5-pro_et": "Punase õuduse taevas: mõelge hoolega, kuhu oma järgmise puhkuse broneerite! \n",
+                    "_compare_azure/gpt-4-vision_et": "Punane hukatuse taevas: Mõelge hoolikalt, kuhu te oma järgmise puhkuse broneerite!",
+                    "_compare_gcp/gemini-1.5-pro_et": "Punane hukatuse taevas: Mõelge hoolikalt, kuhu te oma järgmise puhkuse broneerite!",
+                    "_compare_aws/claude-3.5-sonnet_et": "Punane hukatuse taevas: Mõelge hoolikalt, kuhu te oma järgmise puhkuse broneerite!",
+                    "_unique_translations_back_et": [
+                        "Roter Himmel des Unheils: Überlegen Sie gut, wo Sie Ihren nächsten Urlaub buchen!",
+                        "Roter Himmel des Verderbens: Überlegen Sie gut, wo Sie Ihren nächsten Urlaub buchen!"
+                    ],
+                    "_azure/gpt-4-vision_fi": "Punainen onnettomuuden taivas: Harkitse tarkkaan, minne varaat seuraavan lomasi!",
+                    "_gcp/gemini-1.5-pro_fi": "Tuomion punainen taivas: Mieti tarkkaan, minne varaat seuraavan lomasi! \n",
+                    "_compare_azure/gpt-4-vision_fi": "Punainen onnettomuuden taivas: Harkitse tarkkaan, minne varaat seuraavan lomasi!",
+                    "_compare_gcp/gemini-1.5-pro_fi": "Tuomion punainen taivas: Mieti tarkkaan, minne varaat seuraavan lomasi!",
+                    "_compare_aws/claude-3.5-sonnet_fi": "Tuomion punainen taivas: Mieti tarkkaan, minne varaat seuraavan lomasi!",
+                    "_unique_translations_back_fi": [
+                        "Roter Himmel des Verderbens: Überlegen Sie gut, wo Sie Ihren nächsten Urlaub buchen!",
+                        "Roter Himmel des Unheils: Überlegen Sie gut, wo Sie Ihren nächsten Urlaub buchen!"
+                    ],
+                    "_azure/gpt-4-vision_fr": "Ciel rouge de malheur : Réfléchissez bien à l'endroit où vous réservez vos prochaines vacances !",
+                    "_gcp/gemini-1.5-pro_fr": "Ciel rouge de la fatalité : Réfléchissez bien à l'endroit où vous réservez vos prochaines vacances ! \n",
+                    "_compare_azure/gpt-4-vision_fr": "Ciel rouge de malheur : Réfléchissez bien à l'endroit où vous réservez vos prochaines vacances !",
+                    "_compare_gcp/gemini-1.5-pro_fr": "Ciel rouge de la fatalité : Réfléchissez bien à l'endroit où vous réservez vos prochaines vacances !",
+                    "_compare_aws/claude-3.5-sonnet_fr": "Ciel rouge de malheur : Réfléchissez bien à l'endroit où vous réservez vos prochaines vacances !",
+                    "_unique_translations_back_fr": [
+                        "Roter Himmel des Unheils: Überlegen Sie gut, wo Sie Ihren nächsten Urlaub buchen!",
+                        "Roter Himmel des Verhängnisses: Überlegen Sie gut, wo Sie Ihren nächsten Urlaub buchen!"
+                    ],
+                    "_azure/gpt-4-vision_ga": "Spéir dhearg an tubaiste: Smaoinigh go cúramach cá háit a chuirfidh tú do chéad saoire in áirithe!",
+                    "_gcp/gemini-1.5-pro_ga": "Spéir dhearg tubaiste: Smaoinigh go cúramach cá bhfuil tú ag dul ar saoire! \n",
+                    "_compare_azure/gpt-4-vision_ga": "Spéir dhearg an tubaiste: Smaoinigh go cúramach cá háit a chuirfidh tú do chéad saoire in áirithe!",
+                    "_compare_gcp/gemini-1.5-pro_ga": "Spéir dhearg an tubaiste: Smaoinigh go cúramach cá háit a chuirfidh tú do chéad saoire in áirithe!",
+                    "_compare_aws/claude-3.5-sonnet_ga": "Spéir dhearg an tubaiste: Smaoinigh go cúramach cá háit a chuirfidh tú do chéad saoire in áirithe!",
+                    "_unique_translations_back_ga": [
+                        "Roter Himmel des Unheils: Überlegen Sie gut, wo Sie Ihren nächsten Urlaub buchen!",
+                        "Roter Himmel des Verderbens: Überlegen Sie gut, wo Sie Ihren nächsten Urlaub buchen!"
+                    ],
+                    "_azure/gpt-4-vision_hr": "Crveno nebo nesreće: Dobro razmislite gdje ćete rezervirati svoj sljedeći odmor!",
+                    "_gcp/gemini-1.5-pro_hr": "Crveno nebo propasti: Dobro razmislite gdje ćete rezervirati svoj sljedeći odmor! \n",
+                    "_compare_azure/gpt-4-vision_hr": "Crveno nebo propasti: Dobro razmislite gdje ćete rezervirati svoj sljedeći odmor!",
+                    "_compare_gcp/gemini-1.5-pro_hr": "Crveno nebo propasti: Dobro razmislite gdje ćete rezervirati svoj sljedeći odmor!",
+                    "_compare_aws/claude-3.5-sonnet_hr": "Crveno nebo nesreće: Dobro razmislite gdje ćete rezervirati svoj sljedeći odmor!",
+                    "_unique_translations_back_hr": [
+                        "Roter Himmel des Verderbens: Überlegen Sie gut, wo Sie Ihren nächsten Urlaub buchen!",
+                        "Roter Himmel des Unheils: Überlegen Sie gut, wo Sie Ihren nächsten Urlaub buchen!"
+                    ],
+                    "_azure/gpt-4-vision_hu": "Vörös égbolt veszedelemmel: Gondosan fontolja meg, hova foglalja a következő nyaralását!",
+                    "_gcp/gemini-1.5-pro_hu": "Vészjósló vörös égbolt: Gondolja át alaposan, hova foglalja le a következő nyaralását! \n",
+                    "_compare_azure/gpt-4-vision_hu": "Vészjósló vörös égbolt: Gondolja át alaposan, hova foglalja le a következő nyaralását!",
+                    "_compare_gcp/gemini-1.5-pro_hu": "Vészjósló vörös égbolt: Gondolja át alaposan, hova foglalja le a következő nyaralását!",
+                    "_compare_aws/claude-3.5-sonnet_hu": "Vészjósló vörös égbolt: Gondolja át alaposan, hova foglalja le a következő nyaralását!",
+                    "_unique_translations_back_hu": [
+                        "Unheilverkündender roter Himmel: Überlegen Sie gut, wo Sie Ihren nächsten Urlaub buchen!",
+                        "Roter Himmel des Unheils: Überlegen Sie gut, wo Sie Ihren nächsten Urlaub buchen!"
+                    ],
+                    "_azure/gpt-4-vision_id": "Langit merah bencana: Pikirkan dengan baik di mana Anda akan memesan liburan Anda berikutnya!",
+                    "_gcp/gemini-1.5-pro_id": "Langit merah malapetaka: Pikirkan baik-baik ke mana Anda akan memesan liburan Anda berikutnya! \n",
+                    "_compare_azure/gpt-4-vision_id": "Langit merah malapetaka: Pikirkan baik-baik ke mana Anda akan memesan liburan Anda berikutnya!",
+                    "_compare_gcp/gemini-1.5-pro_id": "Langit merah bencana: Pikirkan dengan baik di mana Anda akan memesan liburan Anda berikutnya!",
+                    "_compare_aws/claude-3.5-sonnet_id": "Langit merah malapetaka: Pikirkan baik-baik ke mana Anda akan memesan liburan Anda berikutnya!",
+                    "_unique_translations_back_id": [
+                        "Roter Himmel des Unheils: Überlegen Sie gut, wo Sie Ihren nächsten Urlaub buchen!",
+                        "Roter Himmel des Unglücks: Überlegen Sie gut, wo Sie Ihren nächsten Urlaub buchen!"
+                    ],
+                    "_azure/gpt-4-vision_it": "Cielo rosso di sventura: Riflettete bene su dove prenotare la vostra prossima vacanza!",
+                    "_gcp/gemini-1.5-pro_it": "Cielo rosso di sventura: pensateci bene prima di prenotare la vostra prossima vacanza! \n",
+                    "_compare_azure/gpt-4-vision_it": "Cielo rosso di sventura: Riflettete bene su dove prenotare la vostra prossima vacanza!",
+                    "_compare_gcp/gemini-1.5-pro_it": "Cielo rosso di sventura: pensateci bene prima di prenotare la vostra prossima vacanza!",
+                    "_compare_aws/claude-3.5-sonnet_it": "Cielo rosso di sventura: Riflettete bene su dove prenotare la vostra prossima vacanza!",
+                    "_unique_translations_back_it": [
+                        "Roter Himmel des Unheils: Überlegen Sie gut, wo Sie Ihren nächsten Urlaub buchen!",
+                        "Roter Himmel des Unheils: Überlegen Sie gut, wo Sie Ihren nächsten Urlaub buchen!"
+                    ],
+                    "_azure/gpt-4-vision_ja": "災いの赤い空：次の休暇をどこに予約するかよく考えてください！",
+                    "_gcp/gemini-1.5-pro_ja": "不吉な赤い空：次の休暇の行き先をよく考えよう！",
+                    "_compare_azure/gpt-4-vision_ja": "災いの赤い空：次の休暇をどこに予約するかよく考えてください！",
+                    "_compare_gcp/gemini-1.5-pro_ja": "不吉な赤い空：次の休暇の行き先をよく考えよう！",
+                    "_compare_aws/claude-3.5-sonnet_ja": "災いの赤い空：次の休暇をどこに予約するかよく考えてください！",
+                    "_unique_translations_back_ja": [
+                        "Roter Himmel des Unheils: Überlegen Sie gut, wo Sie Ihren nächsten Urlaub buchen!",
+                        "Roter Himmel des Unheils: Überlegen Sie gut, wo Sie Ihren nächsten Urlaub buchen!"
+                    ],
+                    "_azure/gpt-4-vision_ko": "재앙의 붉은 하늘: 다음 휴가를 어디에 예약할지 신중히 생각하세요!",
+                    "_gcp/gemini-1.5-pro_ko": "멸망의 붉은 하늘: 다음 휴가를 어디로 예약할지 잘 생각해 보세요! \n",
+                    "_compare_azure/gpt-4-vision_ko": "멸망의 붉은 하늘: 다음 휴가를 어디로 예약할지 잘 생각해 보세요!",
+                    "_compare_gcp/gemini-1.5-pro_ko": "재앙의 붉은 하늘: 다음 휴가를 어디에 예약할지 신중히 생각하세요!",
+                    "_compare_aws/claude-3.5-sonnet_ko": "재앙의 붉은 하늘: 다음 휴가를 어디에 예약할지 신중히 생각하세요!",
+                    "_unique_translations_back_ko": [
+                        "Roter Himmel des Untergangs: Überlegen Sie gut, wo Sie Ihren nächsten Urlaub buchen!",
+                        "Roter Himmel des Verderbens: Überlegen Sie gut, wo Sie Ihren nächsten Urlaub buchen!"
+                    ],
+                    "_azure/gpt-4-vision_lv": "Sarkanā nelaimes debess: Labi apdomājiet, kur rezervējat savu nākamo atvaļinājumu!",
+                    "_gcp/gemini-1.5-pro_lv": "Sarkana nelaime debesīs: rūpīgi pārdomājiet, kur rezervējat savu nākamo atvaļinājumu! \n",
+                    "_compare_azure/gpt-4-vision_lv": "Sarkana nelaime debesīs: rūpīgi pārdomājiet, kur rezervējat savu nākamo atvaļinājumu!",
+                    "_compare_gcp/gemini-1.5-pro_lv": "Sarkanā nelaimes debess: Labi apdomājiet, kur rezervējat savu nākamo atvaļinājumu!",
+                    "_compare_aws/claude-3.5-sonnet_lv": "Sarkanā nelaimes debess: Labi apdomājiet, kur rezervējat savu nākamo atvaļinājumu!",
+                    "_unique_translations_back_lv": [
+                        "Roter Himmel des Unheils: Überlegen Sie gut, wo Sie Ihren nächsten Urlaub buchen!",
+                        "Roter Himmel des Unheils: Überlegen Sie gut, wo Sie Ihren nächsten Urlaub buchen!"
+                    ],
+                    "_azure/gpt-4-vision_lt": "Raudonas nelaimės dangus: Gerai apsvarstykite, kur planuojate užsisakyti savo kitas atostogas!",
+                    "_gcp/gemini-1.5-pro_lt": "Pražūtingas raudonas dangus: gerai pagalvokite, kur užsisakysite kitas atostogas! \n",
+                    "_compare_azure/gpt-4-vision_lt": "Raudonas nelaimės dangus: Gerai apsvarstykite, kur planuojate užsisakyti savo kitas atostogas!",
+                    "_compare_gcp/gemini-1.5-pro_lt": "Raudonas nelaimės dangus: Gerai apsvarstykite, kur planuojate užsisakyti savo kitas atostogas!",
+                    "_compare_aws/claude-3.5-sonnet_lt": "Raudonas nelaimės dangus: Gerai apsvarstykite, kur planuojate užsisakyti savo kitas atostogas!",
+                    "_unique_translations_back_lt": [
+                        "Roter Himmel des Verderbens: Überlegen Sie gut, wo Sie Ihren nächsten Urlaub buchen!",
+                        "Roter Himmel des Unheils: Überlegen Sie gut, wo Sie Ihren nächsten Urlaub buchen!"
+                    ],
+                    "_azure/gpt-4-vision_mt": "Sema ħamra ta' qerda: Aħseb sew fejn se tibbukkja l-vaganza li jmiss tiegħek!",
+                    "_gcp/gemini-1.5-pro_mt": "Sema ħamra ta' qerda: Aħseb sew fejn se tibbukkja l-vaganza li jmiss tiegħek! \n",
+                    "_compare_azure/gpt-4-vision_mt": "Sema ħamra ta' qerda: Aħseb sew fejn se tibbukkja l-vaganza li jmiss tiegħek!",
+                    "_compare_gcp/gemini-1.5-pro_mt": "Sema ħamra ta' qerda: Aħseb sew fejn se tibbukkja l-vaganza li jmiss tiegħek!",
+                    "_compare_aws/claude-3.5-sonnet_mt": "Sema ħamra ta' qerda: Aħseb sew fejn se tibbukkja l-vaganza li jmiss tiegħek!",
+                    "_unique_translations_back_mt": [
+                        "Roter Himmel des Verderbens: Überlegen Sie gut, wo Sie Ihren nächsten Urlaub buchen!"
+                    ],
+                    "_azure/gpt-4-vision_nl": "Rode hemel van onheil: Denk goed na waar u uw volgende vakantie boekt!",
+                    "_gcp/gemini-1.5-pro_nl": "Rode hemel van verdoemenis: Denk goed na over waar u uw volgende vakantie boekt! \n",
+                    "_compare_azure/gpt-4-vision_nl": "Rode hemel van verdoemenis: Denk goed na over waar u uw volgende vakantie boekt!",
+                    "_compare_gcp/gemini-1.5-pro_nl": "Rode hemel van onheil: Denk goed na waar u uw volgende vakantie boekt!",
+                    "_compare_aws/claude-3.5-sonnet_nl": "Rode hemel van onheil: Denk goed na waar u uw volgende vakantie boekt!",
+                    "_unique_translations_back_nl": [
+                        "Roter Himmel des Verderbens: Überlegen Sie gut, wo Sie Ihren nächsten Urlaub buchen!",
+                        "Roter Himmel des Unheils: Überlegen Sie gut, wo Sie Ihren nächsten Urlaub buchen!"
+                    ],
+                    "_azure/gpt-4-vision_pl": "Czerwone niebo zagłady: Dobrze zastanów się, gdzie rezerwujesz swoje następne wakacje!",
+                    "_gcp/gemini-1.5-pro_pl": "Czerwone niebo zagłady: Dobrze się zastanów, gdzie zarezerwujesz swoje następne wakacje! \n",
+                    "_compare_azure/gpt-4-vision_pl": "Czerwone niebo zagłady: Dobrze się zastanów, gdzie zarezerwujesz swoje następne wakacje!",
+                    "_compare_gcp/gemini-1.5-pro_pl": "Czerwone niebo zagłady: Dobrze zastanów się, gdzie rezerwujesz swoje następne wakacje!",
+                    "_compare_aws/claude-3.5-sonnet_pl": "Czerwone niebo zagłady: Dobrze się zastanów, gdzie zarezerwujesz swoje następne wakacje!",
+                    "_unique_translations_back_pl": [
+                        "Roter Himmel des Verderbens: Überlegen Sie gut, wo Sie Ihren nächsten Urlaub buchen!",
+                        "Roter Himmel des Verderbens: Überlegen Sie gut, wo Sie Ihren nächsten Urlaub buchen!"
+                    ],
+                    "_azure/gpt-4-vision_ro": "Cer roșu al nenorocirii: Gândiți-vă bine unde vă rezervați următoarea vacanță!",
+                    "_gcp/gemini-1.5-pro_ro": "Cer roșu al nenorocirii: Gândiți-vă bine unde vă rezervați următoarea vacanță! \n",
+                    "_compare_azure/gpt-4-vision_ro": "Cer roșu al nenorocirii: Gândiți-vă bine unde vă rezervați următoarea vacanță!",
+                    "_compare_gcp/gemini-1.5-pro_ro": "Cer roșu al nenorocirii: Gândiți-vă bine unde vă rezervați următoarea vacanță!",
+                    "_compare_aws/claude-3.5-sonnet_ro": "Cer roșu al nenorocirii: Gândiți-vă bine unde vă rezervați următoarea vacanță!",
+                    "_unique_translations_back_ro": [
+                        "Roter Himmel des Unheils: Überlegen Sie gut, wo Sie Ihren nächsten Urlaub buchen!"
+                    ],
+                    "_azure/gpt-4-vision_ru": "Красное небо бедствия: Хорошо подумайте, куда вы планируете поехать в отпуск!",
+                    "_gcp/gemini-1.5-pro_ru": "Багровое небо беды: хорошо подумайте, где вы бронируете свой следующий отпуск! \n",
+                    "_compare_azure/gpt-4-vision_ru": "Красное небо бедствия: Хорошо подумайте, куда вы планируете поехать в отпуск!",
+                    "_compare_gcp/gemini-1.5-pro_ru": "Багровое небо беды: хорошо подумайте, где вы бронируете свой следующий отпуск!",
+                    "_compare_aws/claude-3.5-sonnet_ru": "Багровое небо беды: хорошо подумайте, где вы бронируете свой следующий отпуск!",
+                    "_unique_translations_back_ru": [
+                        "Roter Himmel des Unglücks: Überlegen Sie gut, wohin Sie in den Urlaub fahren möchten!",
+                        "Roter Himmel des Unheils: Überlegen Sie gut, wo Sie Ihren nächsten Urlaub buchen!"
+                    ],
+                    "_azure/gpt-4-vision_sk": "Červené nebo nešťastia: Dobre si rozmyslite, kde si zarezervujete svoju ďalšiu dovolenku!",
+                    "_gcp/gemini-1.5-pro_sk": "Červená obloha skazy: Dobre si premyslite, kde si rezervujete svoju ďalšiu dovolenku! \n",
+                    "_compare_azure/gpt-4-vision_sk": "Červené nebo nešťastia: Dobre si rozmyslite, kde si zarezervujete svoju ďalšiu dovolenku!",
+                    "_compare_gcp/gemini-1.5-pro_sk": "Červená obloha skazy: Dobre si premyslite, kde si rezervujete svoju ďalšiu dovolenku!",
+                    "_compare_aws/claude-3.5-sonnet_sk": "Červená obloha skazy: Dobre si premyslite, kde si rezervujete svoju ďalšiu dovolenku!",
+                    "_unique_translations_back_sk": [
+                        "Roter Himmel des Unheils: Überlegen Sie gut, wo Sie Ihren nächsten Urlaub buchen!",
+                        "Roter Himmel des Verderbens: Überlegen Sie gut, wo Sie Ihren nächsten Urlaub buchen!"
+                    ],
+                    "_azure/gpt-4-vision_sl": "Rdeče nebo nesreče: Dobro premislite, kam rezervirate svoje naslednje počitnice!",
+                    "_gcp/gemini-1.5-pro_sl": "Rdeče nebo pogubljenja: Dobro premislite, kje boste rezervirali naslednje počitnice! \n",
+                    "_compare_azure/gpt-4-vision_sl": "Rdeče nebo nesreče: Dobro premislite, kam rezervirate svoje naslednje počitnice!",
+                    "_compare_gcp/gemini-1.5-pro_sl": "Rdeče nebo pogubljenja: Dobro premislite, kje boste rezervirali naslednje počitnice!",
+                    "_compare_aws/claude-3.5-sonnet_sl": "Rdeče nebo pogubljenja: Dobro premislite, kje boste rezervirali naslednje počitnice!",
+                    "_unique_translations_back_sl": [
+                        "Roter Himmel des Unheils: Überlegen Sie gut, wo Sie Ihren nächsten Urlaub buchen!",
+                        "Roter Himmel des Verderbens: Überlegen Sie gut, wo Sie Ihren nächsten Urlaub buchen!"
+                    ],
+                    "_azure/gpt-4-vision_zh": "灾难性的红天空：仔细考虑您下一次假期的预订地点！",
+                    "_gcp/gemini-1.5-pro_zh": "厄运的红色天空：仔细考虑您的下一个假期目的地！ \n",
+                    "_compare_azure/gpt-4-vision_zh": "灾难性的红天空：仔细考虑您下一次假期的预订地点！",
+                    "_compare_gcp/gemini-1.5-pro_zh": "厄运的红色天空：仔细考虑您的下一个假期目的地！",
+                    "_compare_aws/claude-3.5-sonnet_zh": "灾难性的红天空：仔细考虑您下一次假期的预订地点！",
+                    "_unique_translations_back_zh": [
+                        "Roter Himmel des Unheils: Überlegen Sie gut, wo Sie Ihren nächsten Urlaub buchen!",
+                        "Roter Himmel des Unheils: Überlegen Sie gut, wo Sie Ihren nächsten Urlaub buchen!"
                     ]
                 },
                 "body": {
@@ -42,6 +290,257 @@
                     "_compare_gcp/gemini-1.5-pro_sv": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Längs Medelhavet fortsätter enorma skogsbränder att hota populära turistområden. Effekterna på flora och fauna är förödande. Var försiktig!",
                     "_compare_aws/claude-3.5-sonnet_sv": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Längs Medelhavet fortsätter enorma skogsbränder att hota populära turistområden. Effekterna på flora och fauna är förödande. Var försiktig!",
                     "_unique_translations_back_sv": [
+                        "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Entlang des Mittelmeers bedrohen weiterhin riesige Waldbrände beliebte Touristengebiete. Die Auswirkungen auf Flora und Fauna sind verheerend. Bitte seien Sie vorsichtig!",
+                        "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Entlang des Mittelmeers bedrohen weiterhin riesige Waldbrände beliebte Touristengebiete. Die Auswirkungen auf Flora und Fauna sind verheerend. Bitte seien Sie vorsichtig!"
+                    ],
+                    "_azure/gpt-4-vision_ar": "<img width=250 src=https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg ><br>على طول البحر الأبيض المتوسط، تستمر الحرائق الضخمة في الغابات في تهديد المناطق السياحية الشهيرة. الآثار المترتبة على النباتات والحيوانات مدمرة. يرجى أخذ الحيطة والحذر!",
+                    "_gcp/gemini-1.5-pro_ar": "<img width=250  src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"><br>لا تزال حرائق الغابات الضخمة تهدد المناطق السياحية الشهيرة على طول البحر الأبيض المتوسط. إن تأثيرها على النباتات والحيوانات كارثي. يرجى توخي الحذر! \n",
+                    "_compare_azure/gpt-4-vision_ar": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> لا تزال حرائق الغابات الضخمة تهدد المناطق السياحية الشهيرة على طول البحر الأبيض المتوسط. إن تأثيرها على النباتات والحيوانات كارثي. يرجى توخي الحذر!",
+                    "_compare_gcp/gemini-1.5-pro_ar": "<img width=250 src=https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg > على طول البحر الأبيض المتوسط، تستمر الحرائق الضخمة في الغابات في تهديد المناطق السياحية الشهيرة. الآثار المترتبة على النباتات والحيوانات مدمرة. يرجى أخذ الحيطة والحذر!",
+                    "_compare_aws/claude-3.5-sonnet_ar": "<img width=250 src=https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg > على طول البحر الأبيض المتوسط، تستمر الحرائق الضخمة في الغابات في تهديد المناطق السياحية الشهيرة. الآثار المترتبة على النباتات والحيوانات مدمرة. يرجى أخذ الحيطة والحذر!",
+                    "_unique_translations_back_ar": [
+                        "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Entlang des Mittelmeers bedrohen weiterhin riesige Waldbrände beliebte Touristengebiete. Die Auswirkungen auf Flora und Fauna sind verheerend. Bitte seien Sie vorsichtig!",
+                        "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg\"> Entlang des Mittelmeers bedrohen weiterhin riesige Waldbrände beliebte Touristengebiete. Die Auswirkungen auf Flora und Fauna sind verheerend. Bitte seien Sie vorsichtig!"
+                    ],
+                    "_azure/gpt-4-vision_bg": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"><br>По крайбрежието на Средиземно море огромни горски пожари продължават да застрашават популярни туристически райони. Въздействието върху флората и фауната е опустошително. Моля, бъдете внимателни!",
+                    "_gcp/gemini-1.5-pro_bg": "<img width=250  src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"><br>Огромни горски пожари продължават да заплашват популярни туристически дестинации по Средиземноморието. Последиците за флората и фауната са опустошителни. Моля, бъдете внимателни! \n",
+                    "_compare_azure/gpt-4-vision_bg": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> По крайбрежието на Средиземно море огромни горски пожари продължават да застрашават популярни туристически райони. Въздействието върху флората и фауната е опустошително. Моля, бъдете внимателни!",
+                    "_compare_gcp/gemini-1.5-pro_bg": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> По крайбрежието на Средиземно море огромни горски пожари продължават да застрашават популярни туристически райони. Въздействието върху флората и фауната е опустошително. Моля, бъдете внимателни!",
+                    "_compare_aws/claude-3.5-sonnet_bg": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Огромни горски пожари продължават да заплашват популярни туристически дестинации по Средиземноморието. Последиците за флората и фауната са опустошителни. Моля, бъдете внимателни!",
+                    "_unique_translations_back_bg": [
+                        "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Entlang der Küste des Mittelmeers bedrohen weiterhin riesige Waldbrände beliebte Touristengebiete. Die Auswirkungen auf Flora und Fauna sind verheerend. Bitte seien Sie vorsichtig!",
+                        "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Entlang des Mittelmeers bedrohen weiterhin riesige Waldbrände beliebte Touristengebiete. Die Auswirkungen auf Flora und Fauna sind verheerend. Bitte seien Sie vorsichtig!"
+                    ],
+                    "_azure/gpt-4-vision_cs": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"><br>Po celém Středomoří nadále hrozí obrovské lesní požáry oblíbeným turistickým oblastem. Dopady na flóru a faunu jsou katastrofální. Prosím, buďte opatrní!",
+                    "_gcp/gemini-1.5-pro_cs": "<img width=250  src=https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg ><br>Obrovské lesní požáry nadále ohrožují oblíbené turistické destinace podél Středozemního moře. Dopady na flóru a faunu jsou zničující. Buďte prosím opatrní!\n",
+                    "_compare_azure/gpt-4-vision_cs": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Po celém Středomoří nadále hrozí obrovské lesní požáry oblíbeným turistickým oblastem. Dopady na flóru a faunu jsou katastrofální. Prosím, buďte opatrní!",
+                    "_compare_gcp/gemini-1.5-pro_cs": "<img width=250 src=https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg > Obrovské lesní požáry nadále ohrožují oblíbené turistické destinace podél Středozemního moře. Dopady na flóru a faunu jsou zničující. Buďte prosím opatrní!",
+                    "_compare_aws/claude-3.5-sonnet_cs": "<img width=250 src=https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg > Obrovské lesní požáry nadále ohrožují oblíbené turistické destinace podél Středozemního moře. Dopady na flóru a faunu jsou zničující. Buďte prosím opatrní!",
+                    "_unique_translations_back_cs": [
+                        "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Entlang des gesamten Mittelmeers bedrohen weiterhin riesige Waldbrände beliebte Touristengebiete. Die Auswirkungen auf Flora und Fauna sind katastrophal. Bitte seien Sie vorsichtig!",
+                        "<img width=250 src=https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg > Entlang des Mittelmeers bedrohen weiterhin riesige Waldbrände beliebte Touristengebiete. Die Auswirkungen auf Flora und Fauna sind verheerend. Bitte seien Sie vorsichtig!"
+                    ],
+                    "_azure/gpt-4-vision_da": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"><br>Længs Middelhavet fortsætter enorme skovbrande med at true populære turistområder. Virkningerne på flora og fauna er ødelæggende. Vær venligst forsigtig!",
+                    "_gcp/gemini-1.5-pro_da": "<img width=250  src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"><br>Langs Middelhavet truer enorme skovbrande fortsat populære turistområder. Konsekvenserne for flora og fauna er ødelæggende. Vær forsigtig! \n",
+                    "_compare_azure/gpt-4-vision_da": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Længs Middelhavet fortsætter enorme skovbrande med at true populære turistområder. Virkningerne på flora og fauna er ødelæggende. Vær venligst forsigtig!",
+                    "_compare_gcp/gemini-1.5-pro_da": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Længs Middelhavet fortsætter enorme skovbrande med at true populære turistområder. Virkningerne på flora og fauna er ødelæggende. Vær venligst forsigtig!",
+                    "_compare_aws/claude-3.5-sonnet_da": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Langs Middelhavet truer enorme skovbrande fortsat populære turistområder. Konsekvenserne for flora og fauna er ødelæggende. Vær forsigtig!",
+                    "_unique_translations_back_da": [
+                        "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Entlang des Mittelmeers bedrohen weiterhin riesige Waldbrände beliebte Touristengebiete. Die Auswirkungen auf Flora und Fauna sind verheerend. Bitte seien Sie vorsichtig!",
+                        "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Entlang des Mittelmeers bedrohen weiterhin riesige Waldbrände beliebte Touristengebiete. Die Auswirkungen auf Flora und Fauna sind verheerend. Bitte seien Sie vorsichtig!"
+                    ],
+                    "_azure/gpt-4-vision_de": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"><br>Entlang des Mittelmeeres bedrohen riesige Waldbrände weiterhin beliebte Touristengegenden. Die Auswirkungen auf Flora und Fauna sind verheerend. Bitte seien Sie vorsichtig!",
+                    "_gcp/gemini-1.5-pro_de": "<img width=250  src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"><br>Entlang des Mittelmeeres bedrohen riesige Waldbrände weiterhin beliebte Touristengegenden. Die Auswirkungen auf Flora und Fauna sind verheerend. Bitte seien Sie vorsichtig! \n",
+                    "_compare_azure/gpt-4-vision_de": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Entlang des Mittelmeeres bedrohen riesige Waldbrände weiterhin beliebte Touristengegenden. Die Auswirkungen auf Flora und Fauna sind verheerend. Bitte seien Sie vorsichtig!",
+                    "_compare_gcp/gemini-1.5-pro_de": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Entlang des Mittelmeeres bedrohen riesige Waldbrände weiterhin beliebte Touristengegenden. Die Auswirkungen auf Flora und Fauna sind verheerend. Bitte seien Sie vorsichtig!",
+                    "_compare_aws/claude-3.5-sonnet_de": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Entlang des Mittelmeeres bedrohen riesige Waldbrände weiterhin beliebte Touristengegenden. Die Auswirkungen auf Flora und Fauna sind verheerend. Bitte seien Sie vorsichtig!",
+                    "_unique_translations_back_de": [
+                        "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Entlang des Mittelmeers bedrohen riesige Waldbrände weiterhin beliebte Touristengebiete. Die Auswirkungen auf Flora und Fauna sind verheerend. Bitte seien Sie vorsichtig!"
+                    ],
+                    "_azure/gpt-4-vision_el": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"><br>Κατά μήκος της Μεσογείου, τεράστιες πυρκαγιές συνεχίζουν να απειλούν δημοφιλείς τουριστικές περιοχές. Οι επιπτώσεις στη χλωρίδα και την πανίδα είναι καταστροφικές. Παρακαλώ, να είστε προσεκτικοί!",
+                    "_gcp/gemini-1.5-pro_el": "<img width=250  src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"><br>Κατά μήκος της Μεσογείου, τεράστιες δασικές πυρκαγιές συνεχίζουν να απειλούν δημοφιλείς τουριστικές περιοχές. Οι επιπτώσεις στην χλωρίδα και την πανίδα είναι καταστροφικές. Παρακαλούμε να είστε προσεκτικοί! \n",
+                    "_compare_azure/gpt-4-vision_el": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Κατά μήκος της Μεσογείου, τεράστιες δασικές πυρκαγιές συνεχίζουν να απειλούν δημοφιλείς τουριστικές περιοχές. Οι επιπτώσεις στην χλωρίδα και την πανίδα είναι καταστροφικές. Παρακαλούμε να είστε προσεκτικοί!",
+                    "_compare_gcp/gemini-1.5-pro_el": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Κατά μήκος της Μεσογείου, τεράστιες δασικές πυρκαγιές συνεχίζουν να απειλούν δημοφιλείς τουριστικές περιοχές. Οι επιπτώσεις στην χλωρίδα και την πανίδα είναι καταστροφικές. Παρακαλούμε να είστε προσεκτικοί!",
+                    "_compare_aws/claude-3.5-sonnet_el": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Κατά μήκος της Μεσογείου, τεράστιες δασικές πυρκαγιές συνεχίζουν να απειλούν δημοφιλείς τουριστικές περιοχές. Οι επιπτώσεις στην χλωρίδα και την πανίδα είναι καταστροφικές. Παρακαλούμε να είστε προσεκτικοί!",
+                    "_unique_translations_back_el": [
+                        "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Entlang des Mittelmeers bedrohen weiterhin riesige Waldbrände beliebte Touristengebiete. Die Auswirkungen auf Flora und Fauna sind verheerend. Bitte seien Sie vorsichtig!",
+                        "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Entlang des Mittelmeers bedrohen weiterhin riesige Waldbrände beliebte Touristengebiete. Die Auswirkungen auf Flora und Fauna sind verheerend. Bitte seien Sie vorsichtig!"
+                    ],
+                    "_azure/gpt-4-vision_en": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"><br>Along the Mediterranean, huge forest fires continue to threaten popular tourist areas. The impact on flora and fauna is devastating. Please be careful!",
+                    "_gcp/gemini-1.5-pro_en": "<img width=250  src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"><br>Along the Mediterranean, huge forest fires continue to threaten popular tourist areas. The effect on flora and fauna is devastating. Please be careful! \n",
+                    "_compare_azure/gpt-4-vision_en": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Along the Mediterranean, huge forest fires continue to threaten popular tourist areas. The impact on flora and fauna is devastating. Please be careful!",
+                    "_compare_gcp/gemini-1.5-pro_en": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Along the Mediterranean, huge forest fires continue to threaten popular tourist areas. The impact on flora and fauna is devastating. Please be careful!",
+                    "_compare_aws/claude-3.5-sonnet_en": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Along the Mediterranean, huge forest fires continue to threaten popular tourist areas. The impact on flora and fauna is devastating. Please be careful!",
+                    "_unique_translations_back_en": [
+                        "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Entlang des Mittelmeers bedrohen weiterhin riesige Waldbrände beliebte Touristengebiete. Die Auswirkungen auf Flora und Fauna sind verheerend. Bitte seien Sie vorsichtig!",
+                        "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Entlang des Mittelmeers bedrohen weiterhin riesige Waldbrände beliebte Touristengebiete. Die Auswirkungen auf Flora und Fauna sind verheerend. Bitte seien Sie vorsichtig!"
+                    ],
+                    "_azure/gpt-4-vision_es": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"><br>A lo largo del Mediterráneo, enormes incendios forestales siguen amenazando zonas turísticas populares. Los efectos sobre la flora y la fauna son devastadores. ¡Por favor, tenga cuidado!",
+                    "_gcp/gemini-1.5-pro_es": "<img width=250  src=https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg ><br>A lo largo del Mediterráneo, enormes incendios forestales siguen amenazando zonas turísticas populares. Los efectos sobre la flora y la fauna son devastadores. ¡Por favor, tenga cuidado! \n",
+                    "_compare_azure/gpt-4-vision_es": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> A lo largo del Mediterráneo, enormes incendios forestales siguen amenazando zonas turísticas populares. Los efectos sobre la flora y la fauna son devastadores. ¡Por favor, tenga cuidado!",
+                    "_compare_gcp/gemini-1.5-pro_es": "<img width=250 src=https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg > A lo largo del Mediterráneo, enormes incendios forestales siguen amenazando zonas turísticas populares. Los efectos sobre la flora y la fauna son devastadores. ¡Por favor, tenga cuidado!",
+                    "_compare_aws/claude-3.5-sonnet_es": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> A lo largo del Mediterráneo, enormes incendios forestales siguen amenazando zonas turísticas populares. Los efectos sobre la flora y la fauna son devastadores. ¡Por favor, tenga cuidado!",
+                    "_unique_translations_back_es": [
+                        "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg\"> Entlang des Mittelmeers bedrohen weiterhin riesige Waldbrände beliebte Touristengebiete. Die Auswirkungen auf Flora und Fauna sind verheerend. Bitte seien Sie vorsichtig!",
+                        "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Entlang des Mittelmeers bedrohen weiterhin riesige Waldbrände beliebte Touristengebiete. Die Auswirkungen auf Flora und Fauna sind verheerend. Bitte seien Sie vorsichtig!"
+                    ],
+                    "_azure/gpt-4-vision_et": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"><br>Vahemere ääres ähvardavad tohutud metsatulekahjud jätkuvalt populaarseid turismipiirkondi. Mõjud taimestikule ja loomastikule on laastavad. Palun olge ettevaatlikud!",
+                    "_gcp/gemini-1.5-pro_et": "<img width=250  src=https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg ><br>Vahemere ääres ohustavad tohutud metsatulekahjud jätkuvalt populaarseid turismisihtkohti. Mõju taimestikule ja loomastikule on laastav. Palun olge ettevaatlikud!\n",
+                    "_compare_azure/gpt-4-vision_et": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Vahemere ääres ähvardavad tohutud metsatulekahjud jätkuvalt populaarseid turismipiirkondi. Mõjud taimestikule ja loomastikule on laastavad. Palun olge ettevaatlikud!",
+                    "_compare_gcp/gemini-1.5-pro_et": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Vahemere ääres ähvardavad tohutud metsatulekahjud jätkuvalt populaarseid turismipiirkondi. Mõjud taimestikule ja loomastikule on laastavad. Palun olge ettevaatlikud!",
+                    "_compare_aws/claude-3.5-sonnet_et": "<img width=250 src=https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg > Vahemere ääres ohustavad tohutud metsatulekahjud jätkuvalt populaarseid turismisihtkohti. Mõju taimestikule ja loomastikule on laastav. Palun olge ettevaatlikud!",
+                    "_unique_translations_back_et": [
+                        "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Entlang des Mittelmeers bedrohen weiterhin riesige Waldbrände beliebte Touristengebiete. Die Auswirkungen auf Flora und Fauna sind verheerend. Bitte seien Sie vorsichtig!",
+                        "<img width=250 src=https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg > Entlang des Mittelmeers bedrohen weiterhin riesige Waldbrände beliebte Touristenziele. Die Auswirkungen auf Flora und Fauna sind verheerend. Bitte seien Sie vorsichtig!"
+                    ],
+                    "_azure/gpt-4-vision_fi": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"><br>Välimeren rannalla valtavat metsäpalot uhkaavat edelleen suosittuja turistialueita. Vaikutukset kasvistoon ja eläimistöön ovat tuhoisat. Olethan varovainen!",
+                    "_gcp/gemini-1.5-pro_fi": "<img width=250  src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"><br>Välimeren rannikolla valtavat metsäpalot uhkaavat edelleen suosittuja matkailualueita. Vaikutukset kasvistoon ja eläimistöön ovat tuhoisia. Olethan varovainen! \n",
+                    "_compare_azure/gpt-4-vision_fi": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Välimeren rannikolla valtavat metsäpalot uhkaavat edelleen suosittuja matkailualueita. Vaikutukset kasvistoon ja eläimistöön ovat tuhoisia. Olethan varovainen!",
+                    "_compare_gcp/gemini-1.5-pro_fi": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Välimeren rannalla valtavat metsäpalot uhkaavat edelleen suosittuja turistialueita. Vaikutukset kasvistoon ja eläimistöön ovat tuhoisat. Olethan varovainen!",
+                    "_compare_aws/claude-3.5-sonnet_fi": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Välimeren rannikolla valtavat metsäpalot uhkaavat edelleen suosittuja matkailualueita. Vaikutukset kasvistoon ja eläimistöön ovat tuhoisia. Olethan varovainen!",
+                    "_unique_translations_back_fi": [
+                        "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Entlang des Mittelmeers bedrohen weiterhin riesige Waldbrände beliebte Touristengebiete. Die Auswirkungen auf Flora und Fauna sind verheerend. Bitte seien Sie vorsichtig!",
+                        "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Entlang des Mittelmeers bedrohen weiterhin riesige Waldbrände beliebte Touristengebiete. Die Auswirkungen auf Flora und Fauna sind verheerend. Bitte seien Sie vorsichtig!"
+                    ],
+                    "_azure/gpt-4-vision_fr": "<img width=250 src=https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg ><br>Le long de la Méditerranée, dimmenses incendies de forêt continuent de menacer les zones touristiques populaires. Les conséquences sur la flore et la faune sont dévastatrices. Soyez prudent(e) !",
+                    "_gcp/gemini-1.5-pro_fr": "<img width=250  src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"><br>Le long de la Méditerranée, d'immenses incendies de forêt continuent de menacer les zones touristiques populaires. Les conséquences sur la flore et la faune sont dévastatrices. Soyez prudent(e) ! \n",
+                    "_compare_azure/gpt-4-vision_fr": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Le long de la Méditerranée, d'immenses incendies de forêt continuent de menacer les zones touristiques populaires. Les conséquences sur la flore et la faune sont dévastatrices. Soyez prudent(e) !",
+                    "_compare_gcp/gemini-1.5-pro_fr": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Le long de la Méditerranée, d'immenses incendies de forêt continuent de menacer les zones touristiques populaires. Les conséquences sur la flore et la faune sont dévastatrices. Soyez prudent(e) !",
+                    "_compare_aws/claude-3.5-sonnet_fr": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Le long de la Méditerranée, d'immenses incendies de forêt continuent de menacer les zones touristiques populaires. Les conséquences sur la flore et la faune sont dévastatrices. Soyez prudent(e) !",
+                    "_unique_translations_back_fr": [
+                        "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg\"> Entlang des Mittelmeers bedrohen weiterhin riesige Waldbrände beliebte Touristengebiete. Die Auswirkungen auf Flora und Fauna sind verheerend. Bitte seien Sie vorsichtig!",
+                        "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Entlang des Mittelmeers bedrohen weiterhin riesige Waldbrände beliebte Touristengebiete. Die Auswirkungen auf Flora und Fauna sind verheerend. Bitte seien Sie vorsichtig!"
+                    ],
+                    "_azure/gpt-4-vision_ga": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"><br>Ar fud na Meánmhara, leanann tinte foraoise ollmhóra ag bagairt ar cheantair thurasóireachta coitianta. Tá an tionchar ar fhásra agus ar ainmhithe tubaisteach. Bí cúramach, le do thoil!",
+                    "_gcp/gemini-1.5-pro_ga": "<img width=250  src=https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg ><br>Feadh chósta na Meánmhara, tá tine foraoise ollmhóra ag bagairt ar cheantair turasóireachta móréilimh. Tá na hiarmhairtí ar fhlóra agus fána tubaisteach. Bígí cúramach!\n",
+                    "_compare_azure/gpt-4-vision_ga": "<img width=250 src=https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg > Feadh chósta na Meánmhara, tá tine foraoise ollmhóra ag bagairt ar cheantair turasóireachta móréilimh. Tá na hiarmhairtí ar fhlóra agus fána tubaisteach. Bígí cúramach!",
+                    "_compare_gcp/gemini-1.5-pro_ga": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Ar fud na Meánmhara, leanann tinte foraoise ollmhóra ag bagairt ar cheantair thurasóireachta coitianta. Tá an tionchar ar fhásra agus ar ainmhithe tubaisteach. Bí cúramach, le do thoil!",
+                    "_compare_aws/claude-3.5-sonnet_ga": "<img width=250 src=https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg > Feadh chósta na Meánmhara, tá tine foraoise ollmhóra ag bagairt ar cheantair turasóireachta móréilimh. Tá na hiarmhairtí ar fhlóra agus fána tubaisteach. Bígí cúramach!",
+                    "_unique_translations_back_ga": [
+                        "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Entlang des Mittelmeers bedrohen weiterhin riesige Waldbrände beliebte Touristengebiete. Die Auswirkungen auf Flora und Fauna sind verheerend. Bitte seien Sie vorsichtig!",
+                        "<img width=250 src=https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg > Entlang der Mittelmeerküste bedrohen riesige Waldbrände weiterhin beliebte Touristengebiete. Die Auswirkungen auf Flora und Fauna sind verheerend. Bitte seien Sie vorsichtig!"
+                    ],
+                    "_azure/gpt-4-vision_hr": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"><br>Duž Sredozemnog mora ogromni šumski požari i dalje prijete popularnim turističkim područjima. Učinci na floru i faunu su razorni. Molimo vas, budite oprezni!",
+                    "_gcp/gemini-1.5-pro_hr": "<img width=250  src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"><br>Ogromni šumski požari i dalje prijete popularnim turističkim odredištima diljem Sredozemlja. Posljedice za floru i faunu su razorne. Molimo vas da budete oprezni! \n",
+                    "_compare_azure/gpt-4-vision_hr": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Ogromni šumski požari i dalje prijete popularnim turističkim odredištima diljem Sredozemlja. Posljedice za floru i faunu su razorne. Molimo vas da budete oprezni!",
+                    "_compare_gcp/gemini-1.5-pro_hr": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Ogromni šumski požari i dalje prijete popularnim turističkim odredištima diljem Sredozemlja. Posljedice za floru i faunu su razorne. Molimo vas da budete oprezni!",
+                    "_compare_aws/claude-3.5-sonnet_hr": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Ogromni šumski požari i dalje prijete popularnim turističkim odredištima diljem Sredozemlja. Posljedice za floru i faunu su razorne. Molimo vas da budete oprezni!",
+                    "_unique_translations_back_hr": [
+                        "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Entlang des Mittelmeers bedrohen weiterhin riesige Waldbrände beliebte Touristengebiete. Die Auswirkungen auf Flora und Fauna sind verheerend. Bitte seien Sie vorsichtig!",
+                        "<img width=250 src=https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg > Entlang des Mittelmeers bedrohen weiterhin riesige Waldbrände beliebte Touristengebiete. Die Auswirkungen auf Flora und Fauna sind verheerend. Bitte seien Sie vorsichtig!"
+                    ],
+                    "_azure/gpt-4-vision_hu": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"><br>A Földközi-tenger mentén hatalmas erdőtüzek továbbra is fenyegetik a népszerű turistaterületeket. A hatások a flórára és faunára pusztítóak. Kérjük, legyen óvatos!",
+                    "_gcp/gemini-1.5-pro_hu": "<img width=250  src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"><br>A Földközi-tenger mentén hatalmas erdőtüzek továbbra is veszélyeztetik a népszerű turistacélpontokat. A növény- és állatvilágra gyakorolt ​​hatásuk pusztító. Kérjük, legyen óvatos! \n",
+                    "_compare_azure/gpt-4-vision_hu": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> A Földközi-tenger mentén hatalmas erdőtüzek továbbra is veszélyeztetik a népszerű turistacélpontokat. A növény- és állatvilágra gyakorolt ​​hatásuk pusztító. Kérjük, legyen óvatos!",
+                    "_compare_gcp/gemini-1.5-pro_hu": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> A Földközi-tenger mentén hatalmas erdőtüzek továbbra is veszélyeztetik a népszerű turistacélpontokat. A növény- és állatvilágra gyakorolt ​​hatásuk pusztító. Kérjük, legyen óvatos!",
+                    "_compare_aws/claude-3.5-sonnet_hu": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> A Földközi-tenger mentén hatalmas erdőtüzek továbbra is veszélyeztetik a népszerű turistacélpontokat. A növény- és állatvilágra gyakorolt ​​hatásuk pusztító. Kérjük, legyen óvatos!",
+                    "_unique_translations_back_hu": [
+                        "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Entlang des Mittelmeers bedrohen weiterhin riesige Waldbrände beliebte Touristengebiete. Die Auswirkungen auf Flora und Fauna sind verheerend. Bitte seien Sie vorsichtig!",
+                        "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Entlang des Mittelmeers bedrohen weiterhin riesige Waldbrände beliebte Touristengebiete. Die Auswirkungen auf Flora und Fauna sind verheerend. Bitte seien Sie vorsichtig!"
+                    ],
+                    "_azure/gpt-4-vision_id": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"><br>Di sepanjang Mediterania, kebakaran hutan besar terus mengancam daerah wisata populer. Dampaknya terhadap flora dan fauna sangat menghancurkan. Tolong berhati-hatilah!",
+                    "_gcp/gemini-1.5-pro_id": "<img width=250  src=https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg ><br>Di sepanjang Mediterania, kebakaran hutan besar terus mengancam kawasan wisata populer. Dampaknya terhadap flora dan fauna sangat menghancurkan. Harap berhati-hati!\n",
+                    "_compare_azure/gpt-4-vision_id": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Di sepanjang Mediterania, kebakaran hutan besar terus mengancam daerah wisata populer. Dampaknya terhadap flora dan fauna sangat menghancurkan. Tolong berhati-hatilah!",
+                    "_compare_gcp/gemini-1.5-pro_id": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Di sepanjang Mediterania, kebakaran hutan besar terus mengancam daerah wisata populer. Dampaknya terhadap flora dan fauna sangat menghancurkan. Tolong berhati-hatilah!",
+                    "_compare_aws/claude-3.5-sonnet_id": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Di sepanjang Mediterania, kebakaran hutan besar terus mengancam daerah wisata populer. Dampaknya terhadap flora dan fauna sangat menghancurkan. Tolong berhati-hatilah!",
+                    "_unique_translations_back_id": [
+                        "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Entlang des Mittelmeers bedrohen weiterhin riesige Waldbrände beliebte Touristengebiete. Die Auswirkungen auf Flora und Fauna sind verheerend. Bitte seien Sie vorsichtig!",
+                        "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg\"> Entlang des Mittelmeers bedrohen weiterhin riesige Waldbrände beliebte Touristengebiete. Die Auswirkungen auf Flora und Fauna sind verheerend. Bitte seien Sie vorsichtig!"
+                    ],
+                    "_azure/gpt-4-vision_it": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"><br>Lungo il Mediterraneo, enormi incendi boschivi continuano a minacciare le popolari aree turistiche. Gli effetti su flora e fauna sono devastanti. Per favore, fate attenzione!",
+                    "_gcp/gemini-1.5-pro_it": "<img width=250  src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"><br>Lungo il Mediterraneo, enormi incendi boschivi continuano a minacciare le destinazioni turistiche più popolari. Gli effetti sulla flora e sulla fauna sono devastanti. Si prega di prestare attenzione! \n",
+                    "_compare_azure/gpt-4-vision_it": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Lungo il Mediterraneo, enormi incendi boschivi continuano a minacciare le popolari aree turistiche. Gli effetti su flora e fauna sono devastanti. Per favore, fate attenzione!",
+                    "_compare_gcp/gemini-1.5-pro_it": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Lungo il Mediterraneo, enormi incendi boschivi continuano a minacciare le popolari aree turistiche. Gli effetti su flora e fauna sono devastanti. Per favore, fate attenzione!",
+                    "_compare_aws/claude-3.5-sonnet_it": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Lungo il Mediterraneo, enormi incendi boschivi continuano a minacciare le destinazioni turistiche più popolari. Gli effetti sulla flora e sulla fauna sono devastanti. Si prega di prestare attenzione!",
+                    "_unique_translations_back_it": [
+                        "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Entlang des Mittelmeers bedrohen weiterhin riesige Waldbrände beliebte Touristengebiete. Die Auswirkungen auf Flora und Fauna sind verheerend. Bitte seien Sie vorsichtig!",
+                        "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Entlang des Mittelmeers bedrohen weiterhin riesige Waldbrände beliebte Touristengebiete. Die Auswirkungen auf Flora und Fauna sind verheerend. Bitte seien Sie vorsichtig!"
+                    ],
+                    "_azure/gpt-4-vision_ja": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"><br>地中海に沿って、巨大な森林火災が引き続き人気の観光地を脅かしています。植物相と動物相への影響は壊滅的です。どうか注意してください！",
+                    "_gcp/gemini-1.5-pro_ja": "<img width=250  src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"><br>地中海沿岸では、大規模な森林火災が依然として人気の観光地を脅かしています。動植物への影響は壊滅的です。ご注意ください！ \n",
+                    "_compare_azure/gpt-4-vision_ja": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> 地中海に沿って、巨大な森林火災が引き続き人気の観光地を脅かしています。植物相と動物相への影響は壊滅的です。どうか注意してください！",
+                    "_compare_gcp/gemini-1.5-pro_ja": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> 地中海に沿って、巨大な森林火災が引き続き人気の観光地を脅かしています。植物相と動物相への影響は壊滅的です。どうか注意してください！",
+                    "_compare_aws/claude-3.5-sonnet_ja": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> 地中海沿岸では、大規模な森林火災が依然として人気の観光地を脅かしています。動植物への影響は壊滅的です。ご注意ください！",
+                    "_unique_translations_back_ja": [
+                        "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Entlang des Mittelmeers bedrohen weiterhin riesige Waldbrände beliebte Touristengebiete. Die Auswirkungen auf Flora und Fauna sind verheerend. Bitte seien Sie vorsichtig!",
+                        "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Entlang des Mittelmeers bedrohen weiterhin riesige Waldbrände beliebte Touristengebiete. Die Auswirkungen auf Flora und Fauna sind verheerend. Bitte seien Sie vorsichtig!"
+                    ],
+                    "_azure/gpt-4-vision_ko": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"><br>지중해를 따라 거대한 산불이 인기 있는 관광지를 계속해서 위협하고 있습니다. 식물과 동물에 미치는 영향은 참혹합니다. 주의하십시오!",
+                    "_gcp/gemini-1.5-pro_ko": "<img width=250  src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"><br>지중해 연안에서 거대한 산불이 계속해서 인기 있는 관광 지역을 위협하고 있습니다. 동식물에 미치는 영향은 파괴적입니다. 주의하십시오! \n",
+                    "_compare_azure/gpt-4-vision_ko": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> 지중해 연안에서 거대한 산불이 계속해서 인기 있는 관광 지역을 위협하고 있습니다. 동식물에 미치는 영향은 파괴적입니다. 주의하십시오!",
+                    "_compare_gcp/gemini-1.5-pro_ko": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> 지중해를 따라 거대한 산불이 인기 있는 관광지를 계속해서 위협하고 있습니다. 식물과 동물에 미치는 영향은 참혹합니다. 주의하십시오!",
+                    "_compare_aws/claude-3.5-sonnet_ko": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> 지중해 연안에서 거대한 산불이 계속해서 인기 있는 관광 지역을 위협하고 있습니다. 동식물에 미치는 영향은 파괴적입니다. 주의하십시오!",
+                    "_unique_translations_back_ko": [
+                        "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Entlang des Mittelmeers bedrohen weiterhin riesige Waldbrände beliebte Touristengebiete. Die Auswirkungen auf Flora und Fauna sind verheerend. Bitte seien Sie vorsichtig!",
+                        "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Entlang des Mittelmeers bedrohen weiterhin riesige Waldbrände beliebte Touristengebiete. Die Auswirkungen auf Flora und Fauna sind verheerend. Bitte seien Sie vorsichtig!"
+                    ],
+                    "_azure/gpt-4-vision_lv": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"><br>Gar Vidusjūru turpina draudēt milzīgi mežu ugunsgrēki, apdraudot populāras tūristu vietas. Ietekme uz floru un faunu ir postījuma. Lūdzu, esiet uzmanīgi!",
+                    "_gcp/gemini-1.5-pro_lv": "<img width=250  src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"><br>Milzīgi meža ugunsgrēki joprojām apdraud populārus tūristu galamērķus gar Vidusjūru. To ietekme uz floru un faunu ir postoša. Lūdzu, esiet uzmanīgi! \n",
+                    "_compare_azure/gpt-4-vision_lv": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Milzīgi meža ugunsgrēki joprojām apdraud populārus tūristu galamērķus gar Vidusjūru. To ietekme uz floru un faunu ir postoša. Lūdzu, esiet uzmanīgi!",
+                    "_compare_gcp/gemini-1.5-pro_lv": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Milzīgi meža ugunsgrēki joprojām apdraud populārus tūristu galamērķus gar Vidusjūru. To ietekme uz floru un faunu ir postoša. Lūdzu, esiet uzmanīgi!",
+                    "_compare_aws/claude-3.5-sonnet_lv": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Milzīgi meža ugunsgrēki joprojām apdraud populārus tūristu galamērķus gar Vidusjūru. To ietekme uz floru un faunu ir postoša. Lūdzu, esiet uzmanīgi!",
+                    "_unique_translations_back_lv": [
+                        "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Entlang des Mittelmeers bedrohen weiterhin riesige Waldbrände beliebte Touristengebiete. Die Auswirkungen auf Flora und Fauna sind verheerend. Bitte seien Sie vorsichtig!",
+                        "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Entlang des Mittelmeers bedrohen weiterhin riesige Waldbrände beliebte Touristengebiete. Die Auswirkungen auf Flora und Fauna sind verheerend. Bitte seien Sie vorsichtig!"
+                    ],
+                    "_azure/gpt-4-vision_lt": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"><br>Prie Viduržemio jūros milžiniški miškų gaisrai ir toliau kelia grėsmę populiarioms turistinėms vietovėms. Poveikis florai ir faunai yra pražūtingas. Prašome būti atsargiems!",
+                    "_gcp/gemini-1.5-pro_lt": "<img width=250  src=https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg ><br>Didžiuliai miškų gaisrai palei Viduržemio jūrą ir toliau kelia grėsmę populiarioms turistinėms vietovėms. Poveikis florai ir faunai yra niokojantis. Prašome būti atsargiems!\n",
+                    "_compare_azure/gpt-4-vision_lt": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Prie Viduržemio jūros milžiniški miškų gaisrai ir toliau kelia grėsmę populiarioms turistinėms vietovėms. Poveikis florai ir faunai yra pražūtingas. Prašome būti atsargiems!",
+                    "_compare_gcp/gemini-1.5-pro_lt": "<img width=250 src=https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg > Didžiuliai miškų gaisrai palei Viduržemio jūrą ir toliau kelia grėsmę populiarioms turistinėms vietovėms. Poveikis florai ir faunai yra niokojantis. Prašome būti atsargiems!",
+                    "_compare_aws/claude-3.5-sonnet_lt": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Prie Viduržemio jūros milžiniški miškų gaisrai ir toliau kelia grėsmę populiarioms turistinėms vietovėms. Poveikis florai ir faunai yra pražūtingas. Prašome būti atsargiems!",
+                    "_unique_translations_back_lt": [
+                        "<img width=250 src=\\https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \\> Entlang des Mittelmeers bedrohen weiterhin riesige Waldbrände beliebte Touristengebiete. Die Auswirkungen auf Flora und Fauna sind verheerend. Bitte seien Sie vorsichtig!",
+                        "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Entlang des Mittelmeers bedrohen weiterhin riesige Waldbrände beliebte Touristengebiete. Die Auswirkungen auf Flora und Fauna sind verheerend. Bitte seien Sie vorsichtig!"
+                    ],
+                    "_azure/gpt-4-vision_mt": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"><br>Madwar il-Mediterran, nirien kbar fil-foresti jkomplu jheddu żoni turistiċi popolari. L-effetti fuq il-flora u l-fawna huma devastanti. Jekk jogħġbok kunu kawti!",
+                    "_gcp/gemini-1.5-pro_mt": "<img width=250  src=https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg ><br>Nirien kbar fil-foresti tul il-Mediterran għadhom qed jheddu żoni turistiċi popolari. L-effetti fuq il-flora u l-fawna huma devastanti. Jekk jogħġbok oqgħodu attenti!\n",
+                    "_compare_azure/gpt-4-vision_mt": "<img width=250 src=https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg > Nirien kbar fil-foresti tul il-Mediterran għadhom qed jheddu żoni turistiċi popolari. L-effetti fuq il-flora u l-fawna huma devastanti. Jekk jogħġbok oqgħodu attenti!",
+                    "_compare_gcp/gemini-1.5-pro_mt": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Madwar il-Mediterran, nirien kbar fil-foresti jkomplu jheddu żoni turistiċi popolari. L-effetti fuq il-flora u l-fawna huma devastanti. Jekk jogħġbok kunu kawti!",
+                    "_compare_aws/claude-3.5-sonnet_mt": "<img width=250 src=https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg > Nirien kbar fil-foresti tul il-Mediterran għadhom qed jheddu żoni turistiċi popolari. L-effetti fuq il-flora u l-fawna huma devastanti. Jekk jogħġbok oqgħodu attenti!",
+                    "_unique_translations_back_mt": [
+                        "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Entlang des Mittelmeers bedrohen weiterhin riesige Waldbrände beliebte Touristengebiete. Die Auswirkungen auf Flora und Fauna sind verheerend. Bitte seien Sie vorsichtig!",
+                        "<img width=250 src=\\https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \\> Entlang des Mittelmeers bedrohen weiterhin riesige Waldbrände beliebte Touristengebiete. Die Auswirkungen auf Flora und Fauna sind verheerend. Bitte seien Sie vorsichtig!"
+                    ],
+                    "_azure/gpt-4-vision_nl": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"><br>Langs de Middellandse Zee blijven enorme bosbranden populaire toeristische gebieden bedreigen. De gevolgen voor flora en fauna zijn verwoestend. Wees alstublieft voorzichtig!",
+                    "_gcp/gemini-1.5-pro_nl": "<img width=250  src=https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg ><br>Langs de Middellandse Zee bedreigen enorme bosbranden nog steeds populaire toeristische gebieden. De gevolgen voor de flora en fauna zijn verwoestend. Wees alsjeblieft voorzichtig!\n",
+                    "_compare_azure/gpt-4-vision_nl": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Langs de Middellandse Zee blijven enorme bosbranden populaire toeristische gebieden bedreigen. De gevolgen voor flora en fauna zijn verwoestend. Wees alstublieft voorzichtig!",
+                    "_compare_gcp/gemini-1.5-pro_nl": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Langs de Middellandse Zee blijven enorme bosbranden populaire toeristische gebieden bedreigen. De gevolgen voor flora en fauna zijn verwoestend. Wees alstublieft voorzichtig!",
+                    "_compare_aws/claude-3.5-sonnet_nl": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Langs de Middellandse Zee blijven enorme bosbranden populaire toeristische gebieden bedreigen. De gevolgen voor flora en fauna zijn verwoestend. Wees alstublieft voorzichtig!",
+                    "_unique_translations_back_nl": [
+                        "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg\"> Entlang des Mittelmeers bedrohen weiterhin riesige Waldbrände beliebte Touristengebiete. Die Auswirkungen auf Flora und Fauna sind verheerend. Bitte seien Sie vorsichtig!",
+                        "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Entlang des Mittelmeers bedrohen weiterhin riesige Waldbrände beliebte Touristengebiete. Die Auswirkungen auf Flora und Fauna sind verheerend. Bitte seien Sie vorsichtig!"
+                    ],
+                    "_azure/gpt-4-vision_pl": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"><br>Wzdłuż Morza Śródziemnego ogromne pożary lasów nadal zagrażają popularnym regionom turystycznym. Skutki dla flory i fauny są niszczycielskie. Proszę zachować ostrożność!",
+                    "_gcp/gemini-1.5-pro_pl": "<img width=250  src=https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg ><br>Wzdłuż Morza Śródziemnego ogromne pożary lasów nadal zagrażają popularnym miejscowościom turystycznym. Skutki dla flory i fauny są katastrofalne. Proszę zachować ostrożność! \n",
+                    "_compare_azure/gpt-4-vision_pl": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Wzdłuż Morza Śródziemnego ogromne pożary lasów nadal zagrażają popularnym regionom turystycznym. Skutki dla flory i fauny są niszczycielskie. Proszę zachować ostrożność!",
+                    "_compare_gcp/gemini-1.5-pro_pl": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Wzdłuż Morza Śródziemnego ogromne pożary lasów nadal zagrażają popularnym regionom turystycznym. Skutki dla flory i fauny są niszczycielskie. Proszę zachować ostrożność!",
+                    "_compare_aws/claude-3.5-sonnet_pl": "<img width=250 src=https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg > Wzdłuż Morza Śródziemnego ogromne pożary lasów nadal zagrażają popularnym miejscowościom turystycznym. Skutki dla flory i fauny są katastrofalne. Proszę zachować ostrożność!",
+                    "_unique_translations_back_pl": [
+                        "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Entlang des Mittelmeers bedrohen weiterhin riesige Waldbrände beliebte Touristengebiete. Die Auswirkungen auf Flora und Fauna sind verheerend. Bitte seien Sie vorsichtig!",
+                        "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Entlang des Mittelmeers bedrohen weiterhin riesige Waldbrände beliebte Touristengebiete. Die Auswirkungen auf Flora und Fauna sind verheerend. Bitte seien Sie vorsichtig!"
+                    ],
+                    "_azure/gpt-4-vision_ro": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"><br>De-a lungul Mediteranei, incendiile forestiere uriașe continuă să amenințe zonele turistice populare. Efectele asupra florei și faunei sunt devastatoare. Vă rugăm să fiți precauți!",
+                    "_gcp/gemini-1.5-pro_ro": "<img width=250  src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"><br>De-a lungul Mediteranei, incendii forestiere uriașe continuă să amenințe zone turistice populare. Impactul asupra florei și faunei este devastator. Vă rugăm să fiți atenți! \n",
+                    "_compare_azure/gpt-4-vision_ro": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> De-a lungul Mediteranei, incendiile forestiere uriașe continuă să amenințe zonele turistice populare. Efectele asupra florei și faunei sunt devastatoare. Vă rugăm să fiți precauți!",
+                    "_compare_gcp/gemini-1.5-pro_ro": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> De-a lungul Mediteranei, incendiile forestiere uriașe continuă să amenințe zonele turistice populare. Efectele asupra florei și faunei sunt devastatoare. Vă rugăm să fiți precauți!",
+                    "_compare_aws/claude-3.5-sonnet_ro": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> De-a lungul Mediteranei, incendii forestiere uriașe continuă să amenințe zone turistice populare. Impactul asupra florei și faunei este devastator. Vă rugăm să fiți atenți!",
+                    "_unique_translations_back_ro": [
+                        "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Entlang des Mittelmeers bedrohen weiterhin riesige Waldbrände beliebte Touristengebiete. Die Auswirkungen auf Flora und Fauna sind verheerend. Bitte seien Sie vorsichtig!",
+                        "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Entlang des Mittelmeers bedrohen weiterhin riesige Waldbrände beliebte Touristengebiete. Die Auswirkungen auf Flora und Fauna sind verheerend. Bitte seien Sie vorsichtig!"
+                    ],
+                    "_azure/gpt-4-vision_ru": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"><br>Вдоль Средиземного моря огромные лесные пожары продолжают угрожать популярным туристическим районам. Воздействие на флору и фауну катастрофическое. Пожалуйста, будьте осторожны!",
+                    "_gcp/gemini-1.5-pro_ru": "<img width=250  src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"><br>Вдоль Средиземного моря огромные лесные пожары продолжают угрожать популярным туристическим районам. Последствия для флоры и фауны катастрофические. Пожалуйста, будьте осторожны! \n",
+                    "_compare_azure/gpt-4-vision_ru": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Вдоль Средиземного моря огромные лесные пожары продолжают угрожать популярным туристическим районам. Воздействие на флору и фауну катастрофическое. Пожалуйста, будьте осторожны!",
+                    "_compare_gcp/gemini-1.5-pro_ru": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Вдоль Средиземного моря огромные лесные пожары продолжают угрожать популярным туристическим районам. Последствия для флоры и фауны катастрофические. Пожалуйста, будьте осторожны!",
+                    "_compare_aws/claude-3.5-sonnet_ru": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Вдоль Средиземного моря огромные лесные пожары продолжают угрожать популярным туристическим районам. Последствия для флоры и фауны катастрофические. Пожалуйста, будьте осторожны!",
+                    "_unique_translations_back_ru": [
+                        "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Entlang des Mittelmeers bedrohen weiterhin riesige Waldbrände beliebte Touristengebiete. Die Auswirkungen auf Flora und Fauna sind verheerend. Bitte seien Sie vorsichtig!",
+                        "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Entlang des Mittelmeers bedrohen weiterhin riesige Waldbrände beliebte Touristengebiete. Die Auswirkungen auf Flora und Fauna sind verheerend. Bitte seien Sie vorsichtig!"
+                    ],
+                    "_azure/gpt-4-vision_sk": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"><br>Po celej dĺžke Stredozemného mora obrovské lesné požiare naďalej ohrozujú obľúbené turistické oblasti. Dôsledky pre flóru a faunu sú katastrofálne. Prosím, buďte opatrní!",
+                    "_gcp/gemini-1.5-pro_sk": "<img width=250  src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"><br>Obrovské lesné požiare naďalej ohrozujú obľúbené turistické oblasti v Stredomorí. Ich vplyv na flóru a faunu je zničujúci. Prosím, buďte opatrní! \n",
+                    "_compare_azure/gpt-4-vision_sk": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Po celej dĺžke Stredozemného mora obrovské lesné požiare naďalej ohrozujú obľúbené turistické oblasti. Dôsledky pre flóru a faunu sú katastrofálne. Prosím, buďte opatrní!",
+                    "_compare_gcp/gemini-1.5-pro_sk": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Po celej dĺžke Stredozemného mora obrovské lesné požiare naďalej ohrozujú obľúbené turistické oblasti. Dôsledky pre flóru a faunu sú katastrofálne. Prosím, buďte opatrní!",
+                    "_compare_aws/claude-3.5-sonnet_sk": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Po celej dĺžke Stredozemného mora obrovské lesné požiare naďalej ohrozujú obľúbené turistické oblasti. Dôsledky pre flóru a faunu sú katastrofálne. Prosím, buďte opatrní!",
+                    "_unique_translations_back_sk": [
+                        "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Entlang des Mittelmeers bedrohen weiterhin riesige Waldbrände beliebte Touristengebiete. Die Auswirkungen auf Flora und Fauna sind verheerend. Bitte seien Sie vorsichtig!",
+                        "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Entlang des gesamten Mittelmeers bedrohen weiterhin riesige Waldbrände beliebte Touristengebiete. Die Auswirkungen auf Flora und Fauna sind verheerend. Bitte seien Sie vorsichtig!"
+                    ],
+                    "_azure/gpt-4-vision_sl": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"><br>Vzdolž Sredozemlja ogromni gozdni požari še naprej ogrožajo priljubljena turistična območja. Posledice za floro in favno so uničujoče. Prosim, bodite previdni!",
+                    "_gcp/gemini-1.5-pro_sl": "<img width=250  src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"><br>Ob Sredozemlju ogromni gozdni požari še naprej ogrožajo priljubljena turistična območja. Posledice za rastlinstvo in živalstvo so katastrofalne. Prosimo, bodite previdni! \n",
+                    "_compare_azure/gpt-4-vision_sl": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Vzdolž Sredozemlja ogromni gozdni požari še naprej ogrožajo priljubljena turistična območja. Posledice za floro in favno so uničujoče. Prosim, bodite previdni!",
+                    "_compare_gcp/gemini-1.5-pro_sl": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Vzdolž Sredozemlja ogromni gozdni požari še naprej ogrožajo priljubljena turistična območja. Posledice za floro in favno so uničujoče. Prosim, bodite previdni!",
+                    "_compare_aws/claude-3.5-sonnet_sl": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Ob Sredozemlju ogromni gozdni požari še naprej ogrožajo priljubljena turistična območja. Posledice za rastlinstvo in živalstvo so katastrofalne. Prosimo, bodite previdni!",
+                    "_unique_translations_back_sl": [
+                        "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Entlang des Mittelmeers bedrohen weiterhin riesige Waldbrände beliebte Touristengebiete. Die Auswirkungen auf Flora und Fauna sind verheerend. Bitte seien Sie vorsichtig!",
+                        "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Entlang des Mittelmeers bedrohen weiterhin riesige Waldbrände beliebte Touristengebiete. Die Auswirkungen auf Flora und Fauna sind verheerend. Bitte seien Sie vorsichtig!"
+                    ],
+                    "_azure/gpt-4-vision_zh": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"><br>地中海沿岸，巨大的森林火灾继续威胁着受欢迎的旅游区。对植物和动物的影响是毁灭性的。请小心！",
+                    "_gcp/gemini-1.5-pro_zh": "<img width=250  src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"><br>地中海沿岸的大规模森林火灾持续威胁着热门旅游区。这对动植物群的影响是毁灭性的。请小心！ \n",
+                    "_compare_azure/gpt-4-vision_zh": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> 地中海沿岸，巨大的森林火灾继续威胁着受欢迎的旅游区。对植物和动物的影响是毁灭性的。请小心！",
+                    "_compare_gcp/gemini-1.5-pro_zh": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> 地中海沿岸的大规模森林火灾持续威胁着热门旅游区。这对动植物群的影响是毁灭性的。请小心！",
+                    "_compare_aws/claude-3.5-sonnet_zh": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> 地中海沿岸的大规模森林火灾持续威胁着热门旅游区。这对动植物群的影响是毁灭性的。请小心！",
+                    "_unique_translations_back_zh": [
                         "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Entlang des Mittelmeers bedrohen weiterhin riesige Waldbrände beliebte Touristengebiete. Die Auswirkungen auf Flora und Fauna sind verheerend. Bitte seien Sie vorsichtig!",
                         "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Entlang des Mittelmeers bedrohen weiterhin riesige Waldbrände beliebte Touristengebiete. Die Auswirkungen auf Flora und Fauna sind verheerend. Bitte seien Sie vorsichtig!"
                     ]

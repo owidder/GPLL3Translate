@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <style>
+        @page {
+            size: A4 landscape;
+        }
+    </style>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-family: verdana, serif;
+            font-size:12px;
+            border: 1px solid white;
+            transform: scale(0.3);
+            transform-origin: top left;
+        }
+        th, td {
+            border-bottom:3px solid white;
+            border-right:3px solid white;
+            padding: 15px;
+            text-align: left;
+        }
+        th {
+            background-color: darkgray;
+        }
+        td {
+            background-color: lightgray;
+        }
+        .endtd {
+            border-right: 3px solid darkgray;
+        }
+        .translate {
+            background-color: lightblue;
+        }
+        .back-translate {
+            background-color: lightgrey;
+        }
+        .winner {
+            background-color: lightpink;
+        }
+        .compare {
+            background-color: lightsteelblue;
+        }
+        .source {
+            background-color: palegoldenrod;
+        }
+        .empty {
+            background-color: lightgrey;
+        }
+        .sources {
+            font-weight: bold;
+            font-size: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>04_coral_reefs_dying.json</h1>
+    <table>
+        <thead>
+            <tr>
+                
+                    <th>source text</th>
+                
+                    <th>--- 0 ---</th>
+                
+                    <th></th>
+                
+                    <th>--- 1 ---</th>
+                
+                    <th></th>
+                
+                    <th>azure/gpt-4-vision</th>
+                
+                    <th>gcp/gemini-1.5-pro</th>
+                
+                    <th>aws/claude-3.5-sonnet</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            
+                <tr>
+                    <td class="endtd source">Hitzewellen im Meer töten Korallenriffe</td>
+
+
+                    <td class="translate"><span style = 'color: red; font-weight: bold;'> Tonn</span> <span style = 'color: black;'>  teasa</span> <span style = 'color: red; font-weight: bold;'> san</span> <span style = 'color: red; font-weight: bold;'> fharraige</span> <span style = 'color: black;'>  ag</span> <span style = 'color: black;'>  marú</span> <span style = 'color: black;'>  sceireacha</span> <span style = 'color: black;'>  coiréil</span><br><span class="sources">azure/gpt-4-vision</span></td>
+                    <td class="back-translate"><span style = 'color: red; font-weight: bold;'> Meereswärmewellen</span> <span style = 'color: black;'>  töten</span> <span style = 'color: black;'>  Korallenriffe</span></td>
+
+
+
+                    <td class="winner"><span style = 'color: red; font-weight: bold;'> Tonnta</span> <span style = 'color: black;'>  teasa</span> <span style = 'color: red; font-weight: bold;'> mara</span> <span style = 'color: black;'>  ag</span> <span style = 'color: black;'>  marú</span> <span style = 'color: black;'>  sceireacha</span> <span style = 'color: black;'>  coiréil</span><br><span class="sources">gcp/gemini-1.5-pro</span></td>
+                    <td class="back-translate"><span style = 'color: red; font-weight: bold;'> Meereswärmewellen</span> <span style = 'color: black;'>  töten</span> <span style = 'color: black;'>  Korallenriffe</span></td>
+
+
+
+                    <td class="compare">2</td>
+
+                    <td class="compare">2</td>
+
+                    <td class="compare">2</td>
+
+                </tr>
+            
+                <tr>
+                    <td class="endtd source"><img width=250  src="https://static.dw.com/image/46075549_303.jpg "><br>Eine große gemeinsame Bestandaufnahme von Meeresforschungsinstituten mehrerer Länder ergab, dass über zwei Drittel aller Korallen durch zu warme Meerestemperaturen gestorben sind.<br>Dies hat katastrophale Auswirkungen auf den Fischbestand, da die Korallenriffe eine wichtiger Aufzuchtsort für eine große Zahl von Fischen, Schalentieren und Krebstieren sind.</td>
+
+
+                    <td class="translate"><img src="https://static.dw.com/image/46075549_303.jpg " width="250"/> <span style = 'color: red; font-weight: bold;'> Fuair</span> <span style = 'color: black;'>  suirbhé</span> <span style = 'color: black;'>  mór</span> <span style = 'color: black;'>  comhpháirteach</span> <span style = 'color: black;'>  institiúidí</span> <span style = 'color: black;'>  taighde</span> <span style = 'color: black;'>  mara</span> <span style = 'color: black;'>  i</span> <span style = 'color: black;'>  roinnt</span> <span style = 'color: black;'>  tíortha</span> <span style = 'color: red; font-weight: bold;'> amach</span> <span style = 'color: red; font-weight: bold;'> gur</span> <span style = 'color: red; font-weight: bold;'> maraíodh</span> <span style = 'color: black;'>  breis</span> <span style = 'color: red; font-weight: bold;'> agus</span> <span style = 'color: black;'>  dhá</span> <span style = 'color: black;'>  thrian</span> <span style = 'color: black;'>  de</span> <span style = 'color: black;'>  na</span> <span style = 'color: black;'>  coiréil</span> <span style = 'color: black;'>  go</span> <span style = 'color: black;'>  léir</span> <span style = 'color: black;'>  mar</span> <span style = 'color: black;'>  gheall</span> <span style = 'color: black;'>  ar</span> <span style = 'color: red; font-weight: bold;'> theocht</span> <span style = 'color: red; font-weight: bold;'> an</span> <span style = 'color: red; font-weight: bold;'> aigéin</span> <span style = 'color: red; font-weight: bold;'> a</span> <span style = 'color: red; font-weight: bold;'> bheith</span> <span style = 'color: red; font-weight: bold;'> ró-ard.</span> <span style = 'color: black;'>  Tá</span> <span style = 'color: red; font-weight: bold;'> iarmhairtí</span> <span style = 'color: black;'>  tubaisteacha</span> <span style = 'color: black;'>  aige</span> <span style = 'color: black;'>  seo</span> <span style = 'color: black;'>  ar</span> <span style = 'color: red; font-weight: bold;'> stoic</span> <span style = 'color: red; font-weight: bold;'> éisc,</span> <span style = 'color: black;'>  ós</span> <span style = 'color: black;'>  rud</span> <span style = 'color: black;'>  é</span> <span style = 'color: red; font-weight: bold;'> gur</span> <span style = 'color: red; font-weight: bold;'> áit</span> <span style = 'color: red; font-weight: bold;'> phórúcháin</span> <span style = 'color: red; font-weight: bold;'> thábhachtach</span> <span style = 'color: red; font-weight: bold;'> iad</span> <span style = 'color: black;'>  na</span> <span style = 'color: red; font-weight: bold;'> sceireacha</span> <span style = 'color: red; font-weight: bold;'> coiréil</span> <span style = 'color: black;'>  do</span> <span style = 'color: black;'>  líon</span> <span style = 'color: black;'>  mór</span> <span style = 'color: black;'>  éisc,</span> <span style = 'color: red; font-weight: bold;'> sliogéisc</span> <span style = 'color: black;'>  agus</span> <span style = 'color: red; font-weight: bold;'> crústaigh</span><br><span class="sources">gcp/gemini-1.5-pro</span></td>
+                    <td class="back-translate"><img src="https://static.dw.com/image/46075549_303.jpg " width="250"/> <span style = 'color: black;'>  Eine</span> <span style = 'color: black;'>  große</span> <span style = 'color: black;'>  gemeinsame</span> <span style = 'color: red; font-weight: bold;'> Untersuchung</span> <span style = 'color: black;'>  von</span> <span style = 'color: black;'>  Meeresforschungsinstituten</span> <span style = 'color: red; font-weight: bold;'> aus</span> <span style = 'color: red; font-weight: bold;'> mehreren</span> <span style = 'color: red; font-weight: bold;'> Ländern</span> <span style = 'color: black;'>  ergab,</span> <span style = 'color: black;'>  dass</span> <span style = 'color: black;'>  über</span> <span style = 'color: black;'>  zwei</span> <span style = 'color: black;'>  Drittel</span> <span style = 'color: black;'>  aller</span> <span style = 'color: black;'>  Korallen</span> <span style = 'color: red; font-weight: bold;'> aufgrund</span> <span style = 'color: black;'>  zu</span> <span style = 'color: red; font-weight: bold;'> hoher</span> <span style = 'color: black;'>  Meerestemperaturen</span> <span style = 'color: black;'>  gestorben</span> <span style = 'color: black;'>  sind.</span> <span style = 'color: black;'>  Dies</span> <span style = 'color: black;'>  hat</span> <span style = 'color: black;'>  katastrophale</span> <span style = 'color: red; font-weight: bold;'> Folgen</span> <span style = 'color: red; font-weight: bold;'> für</span> <span style = 'color: red; font-weight: bold;'> die</span> <span style = 'color: red; font-weight: bold;'> Fischbestände,</span> <span style = 'color: black;'>  da</span> <span style = 'color: black;'>  Korallenriffe</span> <span style = 'color: red; font-weight: bold;'> ein</span> <span style = 'color: black;'>  wichtiger</span> <span style = 'color: red; font-weight: bold;'> Aufzuchtort</span> <span style = 'color: black;'>  für</span> <span style = 'color: black;'>  eine</span> <span style = 'color: red; font-weight: bold;'> Vielzahl</span> <span style = 'color: black;'>  von</span> <span style = 'color: black;'>  Fischen,</span> <span style = 'color: black;'>  Schalentieren</span> <span style = 'color: black;'>  und</span> <span style = 'color: black;'>  Krebstieren</span> <span style = 'color: black;'>  sind</span></td>
+
+
+
+                    <td class="winner"><img src="https://static.dw.com/image/46075549_303.jpg" width="250"/> <span style = 'color: red; font-weight: bold;'> Thug</span> <span style = 'color: black;'>  suirbhé</span> <span style = 'color: black;'>  mór</span> <span style = 'color: black;'>  comhpháirteach</span> <span style = 'color: red; font-weight: bold;'> ó</span> <span style = 'color: black;'>  institiúidí</span> <span style = 'color: black;'>  taighde</span> <span style = 'color: black;'>  mara</span> <span style = 'color: black;'>  i</span> <span style = 'color: black;'>  roinnt</span> <span style = 'color: black;'>  tíortha</span> <span style = 'color: red; font-weight: bold;'> le</span> <span style = 'color: red; font-weight: bold;'> fios</span> <span style = 'color: red; font-weight: bold;'> go</span> <span style = 'color: red; font-weight: bold;'> bhfuil</span> <span style = 'color: black;'>  breis</span> <span style = 'color: red; font-weight: bold;'> is</span> <span style = 'color: black;'>  dhá</span> <span style = 'color: black;'>  thrian</span> <span style = 'color: black;'>  de</span> <span style = 'color: black;'>  na</span> <span style = 'color: black;'>  coiréil</span> <span style = 'color: black;'>  go</span> <span style = 'color: black;'>  léir</span> <span style = 'color: red; font-weight: bold;'> marbh</span> <span style = 'color: black;'>  mar</span> <span style = 'color: black;'>  gheall</span> <span style = 'color: black;'>  ar</span> <span style = 'color: red; font-weight: bold;'> theochtaí</span> <span style = 'color: red; font-weight: bold;'> farraige</span> <span style = 'color: red; font-weight: bold;'> ró-the.</span> <span style = 'color: black;'>  Tá</span> <span style = 'color: red; font-weight: bold;'> éifeachtaí</span> <span style = 'color: black;'>  tubaisteacha</span> <span style = 'color: black;'>  aige</span> <span style = 'color: black;'>  seo</span> <span style = 'color: black;'>  ar</span> <span style = 'color: red; font-weight: bold;'> an</span> <span style = 'color: red; font-weight: bold;'> stoc</span> <span style = 'color: red; font-weight: bold;'> iasc,</span> <span style = 'color: black;'>  ós</span> <span style = 'color: black;'>  rud</span> <span style = 'color: black;'>  é</span> <span style = 'color: red; font-weight: bold;'> go</span> <span style = 'color: red; font-weight: bold;'> bhfuil</span> <span style = 'color: black;'>  na</span> <span style = 'color: red; font-weight: bold;'> cairéalacha</span> <span style = 'color: red; font-weight: bold;'> tábhachtach</span> <span style = 'color: red; font-weight: bold;'> mar</span> <span style = 'color: red; font-weight: bold;'> ionad</span> <span style = 'color: red; font-weight: bold;'> altrama</span> <span style = 'color: black;'>  do</span> <span style = 'color: black;'>  líon</span> <span style = 'color: black;'>  mór</span> <span style = 'color: black;'>  éisc,</span> <span style = 'color: red; font-weight: bold;'> seilidí</span> <span style = 'color: black;'>  agus</span> <span style = 'color: red; font-weight: bold;'> crustacháin</span><br><span class="sources">azure/gpt-4-vision</span></td>
+                    <td class="back-translate"><img src="https://static.dw.com/image/46075549_303.jpg " width="250"/> <span style = 'color: black;'>  Eine</span> <span style = 'color: black;'>  große</span> <span style = 'color: black;'>  gemeinsame</span> <span style = 'color: red; font-weight: bold;'> Untersuchung</span> <span style = 'color: black;'>  von</span> <span style = 'color: black;'>  Meeresforschungsinstituten</span> <span style = 'color: red; font-weight: bold;'> aus</span> <span style = 'color: red; font-weight: bold;'> mehreren</span> <span style = 'color: red; font-weight: bold;'> Ländern</span> <span style = 'color: black;'>  ergab,</span> <span style = 'color: black;'>  dass</span> <span style = 'color: black;'>  über</span> <span style = 'color: black;'>  zwei</span> <span style = 'color: black;'>  Drittel</span> <span style = 'color: black;'>  aller</span> <span style = 'color: black;'>  Korallen</span> <span style = 'color: red; font-weight: bold;'> aufgrund</span> <span style = 'color: black;'>  zu</span> <span style = 'color: red; font-weight: bold;'> hoher</span> <span style = 'color: black;'>  Meerestemperaturen</span> <span style = 'color: black;'>  gestorben</span> <span style = 'color: black;'>  sind.</span> <span style = 'color: black;'>  Dies</span> <span style = 'color: black;'>  hat</span> <span style = 'color: black;'>  katastrophale</span> <span style = 'color: red; font-weight: bold;'> Folgen</span> <span style = 'color: red; font-weight: bold;'> für</span> <span style = 'color: red; font-weight: bold;'> die</span> <span style = 'color: red; font-weight: bold;'> Fischbestände,</span> <span style = 'color: black;'>  da</span> <span style = 'color: black;'>  Korallenriffe</span> <span style = 'color: red; font-weight: bold;'> ein</span> <span style = 'color: black;'>  wichtiger</span> <span style = 'color: red; font-weight: bold;'> Aufzuchtort</span> <span style = 'color: black;'>  für</span> <span style = 'color: black;'>  eine</span> <span style = 'color: red; font-weight: bold;'> Vielzahl</span> <span style = 'color: black;'>  von</span> <span style = 'color: black;'>  Fischen,</span> <span style = 'color: black;'>  Schalentieren</span> <span style = 'color: black;'>  und</span> <span style = 'color: black;'>  Krebstieren</span> <span style = 'color: black;'>  sind</span></td>
+
+
+
+                    <td class="compare">2</td>
+
+                    <td class="compare">2</td>
+
+                    <td class="compare">1</td>
+
+                </tr>
+            
+        </tbody>
+    </table>
+</body>
+</html>

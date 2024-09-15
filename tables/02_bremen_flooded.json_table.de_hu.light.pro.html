@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <style>
+        @page {
+            size: A4 landscape;
+        }
+    </style>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-family: verdana, serif;
+            font-size:12px;
+            border: 1px solid white;
+            transform: scale(0.3);
+            transform-origin: top left;
+        }
+        th, td {
+            border-bottom:3px solid white;
+            border-right:3px solid white;
+            padding: 15px;
+            text-align: left;
+        }
+        th {
+            background-color: darkgray;
+        }
+        td {
+            background-color: lightgray;
+        }
+        .endtd {
+            border-right: 3px solid darkgray;
+        }
+        .translate {
+            background-color: lightblue;
+        }
+        .back-translate {
+            background-color: lightgrey;
+        }
+        .winner {
+            background-color: lightpink;
+        }
+        .compare {
+            background-color: lightsteelblue;
+        }
+        .source {
+            background-color: palegoldenrod;
+        }
+        .empty {
+            background-color: lightgrey;
+        }
+        .sources {
+            font-weight: bold;
+            font-size: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>02_bremen_flooded.json</h1>
+    <table>
+        <thead>
+            <tr>
+                
+                    <th>source text</th>
+                
+                    <th>--- 0 ---</th>
+                
+                    <th></th>
+                
+                    <th>--- 1 ---</th>
+                
+                    <th></th>
+                
+                    <th>azure/gpt-4-vision</th>
+                
+                    <th>gcp/gemini-1.5-pro</th>
+                
+                    <th>aws/claude-3.5-sonnet</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            
+                <tr>
+                    <td class="endtd source">Weite Teile Bremens nach Unwetter überschwemmt</td>
+
+
+                    <td class="winner"><span style = 'color: red; font-weight: bold;'> Bremen</span> <span style = 'color: black;'>  nagy</span> <span style = 'color: red; font-weight: bold;'> részeit</span> <span style = 'color: red; font-weight: bold;'> elárasztotta</span> <span style = 'color: red; font-weight: bold;'> az</span> <span style = 'color: red; font-weight: bold;'> ítéletidő</span><br><span class="sources">azure/gpt-4-vision</span></td>
+                    <td class="back-translate"><span style = 'color: red; font-weight: bold;'> Große</span> <span style = 'color: black;'>  Teile</span> <span style = 'color: black;'>  Bremens</span> <span style = 'color: black;'>  nach</span> <span style = 'color: red; font-weight: bold;'> Unwettern</span> <span style = 'color: black;'>  überschwemmt</span></td>
+
+
+
+                    <td class="translate"><span style = 'color: red; font-weight: bold;'> Bréma</span> <span style = 'color: black;'>  nagy</span> <span style = 'color: red; font-weight: bold;'> részét</span> <span style = 'color: red; font-weight: bold;'> elöntötte</span> <span style = 'color: red; font-weight: bold;'> a</span> <span style = 'color: red; font-weight: bold;'> vihar</span> <span style = 'color: red; font-weight: bold;'> utáni</span> <span style = 'color: red; font-weight: bold;'> árvíz</span><br><span class="sources">gcp/gemini-1.5-pro</span></td>
+                    <td class="back-translate"><span style = 'color: red; font-weight: bold;'> Große</span> <span style = 'color: black;'>  Teile</span> <span style = 'color: black;'>  Bremens</span> <span style = 'color: black;'>  nach</span> <span style = 'color: red; font-weight: bold;'> Unwettern</span> <span style = 'color: black;'>  überschwemmt</span></td>
+
+
+
+                    <td class="compare">1</td>
+
+                    <td class="compare">1</td>
+
+                    <td class="compare">2</td>
+
+                </tr>
+            
+                <tr>
+                    <td class="endtd source"><img width=250  src="https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg"><br>Stundenlange Gewitter mit heftigen Regenfällen haben in der letzten Nacht die Stadt Bremen in Deutschland unter Wasser gesetzt.<br>Bei Polizei und Feuerwehr gingen Hunderte von Hilferufen wegen vollgelaufener Keller und umgestürzter Bäume ein.</td>
+
+
+                    <td class="winner"><img src="https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg" width="250"/> <span style = 'color: red; font-weight: bold;'> Órákon</span> <span style = 'color: black;'>  át</span> <span style = 'color: red; font-weight: bold;'> tartó</span> <span style = 'color: red; font-weight: bold;'> zivatarok</span> <span style = 'color: black;'>  heves</span> <span style = 'color: black;'>  esőzésekkel</span> <span style = 'color: black;'>  árasztották</span> <span style = 'color: black;'>  el</span> <span style = 'color: black;'>  a</span> <span style = 'color: black;'>  németországi</span> <span style = 'color: black;'>  Bréma</span> <span style = 'color: red; font-weight: bold;'> városát</span> <span style = 'color: red; font-weight: bold;'> az</span> <span style = 'color: red; font-weight: bold;'> elmúlt</span> <span style = 'color: red; font-weight: bold;'> éjszaka.</span> <span style = 'color: black;'>  A</span> <span style = 'color: red; font-weight: bold;'> rendőrség</span> <span style = 'color: black;'>  és</span> <span style = 'color: black;'>  a</span> <span style = 'color: red; font-weight: bold;'> tűzoltóság</span> <span style = 'color: red; font-weight: bold;'> százával</span> <span style = 'color: red; font-weight: bold;'> kapott</span> <span style = 'color: red; font-weight: bold;'> segélyhívásokat</span> <span style = 'color: black;'>  elárasztott</span> <span style = 'color: red; font-weight: bold;'> pincék</span> <span style = 'color: black;'>  és</span> <span style = 'color: black;'>  kidőlt</span> <span style = 'color: red; font-weight: bold;'> fák</span> <span style = 'color: red; font-weight: bold;'> miatt</span><br><span class="sources">azure/gpt-4-vision</span></td>
+                    <td class="back-translate"><img src="https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg" width="250"/> <span style = 'color: black;'>  Stundenlange</span> <span style = 'color: black;'>  Gewitter</span> <span style = 'color: black;'>  mit</span> <span style = 'color: black;'>  heftigen</span> <span style = 'color: black;'>  Regenfällen</span> <span style = 'color: black;'>  haben</span> <span style = 'color: black;'>  in</span> <span style = 'color: black;'>  der</span> <span style = 'color: red; font-weight: bold;'> vergangenen</span> <span style = 'color: black;'>  Nacht</span> <span style = 'color: black;'>  die</span> <span style = 'color: black;'>  Stadt</span> <span style = 'color: black;'>  Bremen</span> <span style = 'color: black;'>  in</span> <span style = 'color: black;'>  Deutschland</span> <span style = 'color: red; font-weight: bold;'> überschwemmt.</span> <span style = 'color: red; font-weight: bold;'> Die</span> <span style = 'color: black;'>  Polizei</span> <span style = 'color: black;'>  und</span> <span style = 'color: red; font-weight: bold;'> die</span> <span style = 'color: black;'>  Feuerwehr</span> <span style = 'color: red; font-weight: bold;'> erhielten</span> <span style = 'color: red; font-weight: bold;'> hunderte</span> <span style = 'color: black;'>  von</span> <span style = 'color: red; font-weight: bold;'> Notrufen</span> <span style = 'color: black;'>  wegen</span> <span style = 'color: red; font-weight: bold;'> überfluteter</span> <span style = 'color: black;'>  Keller</span> <span style = 'color: black;'>  und</span> <span style = 'color: black;'>  umgestürzter</span> <span style = 'color: black;'>  Bäume</span></td>
+
+
+
+                    <td class="translate"><img src="https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg" width="250"/> <span style = 'color: red; font-weight: bold;'> Az</span> <span style = 'color: red; font-weight: bold;'> elmúlt</span> <span style = 'color: red; font-weight: bold;'> éjszaka</span> <span style = 'color: red; font-weight: bold;'> órákon</span> <span style = 'color: black;'>  át</span> <span style = 'color: red; font-weight: bold;'> tartó,</span> <span style = 'color: black;'>  heves</span> <span style = 'color: black;'>  esőzésekkel</span> <span style = 'color: red; font-weight: bold;'> tarkított</span> <span style = 'color: red; font-weight: bold;'> zivatarok</span> <span style = 'color: black;'>  árasztották</span> <span style = 'color: black;'>  el</span> <span style = 'color: black;'>  a</span> <span style = 'color: black;'>  németországi</span> <span style = 'color: black;'>  Bréma</span> <span style = 'color: red; font-weight: bold;'> városát.</span> <span style = 'color: black;'>  A</span> <span style = 'color: red; font-weight: bold;'> rendőrséghez</span> <span style = 'color: black;'>  és</span> <span style = 'color: black;'>  a</span> <span style = 'color: red; font-weight: bold;'> tűzoltósághoz</span> <span style = 'color: red; font-weight: bold;'> több</span> <span style = 'color: red; font-weight: bold;'> száz</span> <span style = 'color: red; font-weight: bold;'> segélyhívás</span> <span style = 'color: red; font-weight: bold;'> érkezett</span> <span style = 'color: black;'>  elárasztott</span> <span style = 'color: red; font-weight: bold;'> pincékről</span> <span style = 'color: black;'>  és</span> <span style = 'color: black;'>  kidőlt</span> <span style = 'color: red; font-weight: bold;'> fákról</span><br><span class="sources">gcp/gemini-1.5-pro</span></td>
+                    <td class="back-translate"><img src="https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg" width="250"/> <span style = 'color: black;'>  Stundenlange</span> <span style = 'color: black;'>  Gewitter</span> <span style = 'color: black;'>  mit</span> <span style = 'color: black;'>  heftigen</span> <span style = 'color: black;'>  Regenfällen</span> <span style = 'color: black;'>  haben</span> <span style = 'color: black;'>  in</span> <span style = 'color: black;'>  der</span> <span style = 'color: red; font-weight: bold;'> vergangenen</span> <span style = 'color: black;'>  Nacht</span> <span style = 'color: black;'>  die</span> <span style = 'color: black;'>  Stadt</span> <span style = 'color: black;'>  Bremen</span> <span style = 'color: black;'>  in</span> <span style = 'color: black;'>  Deutschland</span> <span style = 'color: red; font-weight: bold;'> überflutet.</span> <span style = 'color: black;'>  Bei</span> <span style = 'color: black;'>  Polizei</span> <span style = 'color: black;'>  und</span> <span style = 'color: black;'>  Feuerwehr</span> <span style = 'color: black;'>  gingen</span> <span style = 'color: black;'>  Hunderte</span> <span style = 'color: black;'>  von</span> <span style = 'color: red; font-weight: bold;'> Notrufen</span> <span style = 'color: black;'>  wegen</span> <span style = 'color: red; font-weight: bold;'> überfluteter</span> <span style = 'color: black;'>  Keller</span> <span style = 'color: black;'>  und</span> <span style = 'color: black;'>  umgestürzter</span> <span style = 'color: black;'>  Bäume</span> <span style = 'color: black;'>  ein</span></td>
+
+
+
+                    <td class="compare">1</td>
+
+                    <td class="compare">1</td>
+
+                    <td class="compare">2</td>
+
+                </tr>
+            
+        </tbody>
+    </table>
+</body>
+</html>

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <style>
+        @page {
+            size: A4 landscape;
+        }
+    </style>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-family: verdana, serif;
+            font-size:12px;
+            border: 1px solid white;
+            transform: scale(0.3);
+            transform-origin: top left;
+        }
+        th, td {
+            border-bottom:3px solid white;
+            border-right:3px solid white;
+            padding: 15px;
+            text-align: left;
+        }
+        th {
+            background-color: darkgray;
+        }
+        td {
+            background-color: lightgray;
+        }
+        .endtd {
+            border-right: 3px solid darkgray;
+        }
+        .translate {
+            background-color: lightblue;
+        }
+        .back-translate {
+            background-color: lightgrey;
+        }
+        .winner {
+            background-color: lightpink;
+        }
+        .compare {
+            background-color: lightsteelblue;
+        }
+        .source {
+            background-color: palegoldenrod;
+        }
+        .empty {
+            background-color: lightgrey;
+        }
+        .sources {
+            font-weight: bold;
+            font-size: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>04_coral_reefs_dying.json</h1>
+    <table>
+        <thead>
+            <tr>
+                
+                    <th>source text</th>
+                
+                    <th>--- 0 ---</th>
+                
+                    <th></th>
+                
+                    <th>--- 1 ---</th>
+                
+                    <th></th>
+                
+                    <th>azure/gpt-4-vision</th>
+                
+                    <th>gcp/gemini-1.5-pro</th>
+                
+                    <th>aws/claude-3.5-sonnet</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            
+                <tr>
+                    <td class="endtd source">Hitzewellen im Meer töten Korallenriffe</td>
+
+
+                    <td class="translate"><span style = 'color: red; font-weight: bold;'> Le</span> <span style = 'color: red; font-weight: bold;'> ondate</span> <span style = 'color: black;'>  di</span> <span style = 'color: black;'>  calore</span> <span style = 'color: black;'>  marine</span> <span style = 'color: red; font-weight: bold;'> stanno</span> <span style = 'color: red; font-weight: bold;'> uccidendo</span> <span style = 'color: black;'>  le</span> <span style = 'color: black;'>  barriere</span> <span style = 'color: black;'>  coralline</span><br><span class="sources">azure/gpt-4-vision</span></td>
+                    <td class="back-translate"><span style = 'color: red; font-weight: bold;'> Marine</span> <span style = 'color: black;'>  Hitzewellen</span> <span style = 'color: black;'>  töten</span> <span style = 'color: black;'>  Korallenriffe</span></td>
+
+
+
+                    <td class="winner"><span style = 'color: red; font-weight: bold;'> Ondate</span> <span style = 'color: black;'>  di</span> <span style = 'color: black;'>  calore</span> <span style = 'color: black;'>  marine</span> <span style = 'color: red; font-weight: bold;'> uccidono</span> <span style = 'color: black;'>  le</span> <span style = 'color: black;'>  barriere</span> <span style = 'color: black;'>  coralline</span><br><span class="sources">gcp/gemini-1.5-pro</span></td>
+                    <td class="back-translate"><span style = 'color: red; font-weight: bold;'> Marine</span> <span style = 'color: black;'>  Hitzewellen</span> <span style = 'color: black;'>  töten</span> <span style = 'color: black;'>  Korallenriffe</span></td>
+
+
+
+                    <td class="compare">1</td>
+
+                    <td class="compare">2</td>
+
+                    <td class="compare">2</td>
+
+                </tr>
+            
+                <tr>
+                    <td class="endtd source"><img width=250  src="https://static.dw.com/image/46075549_303.jpg "><br>Eine große gemeinsame Bestandaufnahme von Meeresforschungsinstituten mehrerer Länder ergab, dass über zwei Drittel aller Korallen durch zu warme Meerestemperaturen gestorben sind.<br>Dies hat katastrophale Auswirkungen auf den Fischbestand, da die Korallenriffe eine wichtiger Aufzuchtsort für eine große Zahl von Fischen, Schalentieren und Krebstieren sind.</td>
+
+
+                    <td class="translate"><img src="https://static.dw.com/image/46075549_303.jpg " width="250"/> <span style = 'color: red; font-weight: bold;'> Unampia</span> <span style = 'color: black;'>  indagine</span> <span style = 'color: black;'>  congiunta</span> <span style = 'color: red; font-weight: bold;'> condotta</span> <span style = 'color: red; font-weight: bold;'> da</span> <span style = 'color: black;'>  istituti</span> <span style = 'color: black;'>  di</span> <span style = 'color: black;'>  ricerca</span> <span style = 'color: black;'>  marina</span> <span style = 'color: black;'>  di</span> <span style = 'color: black;'>  diversi</span> <span style = 'color: black;'>  paesi</span> <span style = 'color: black;'>  ha</span> <span style = 'color: red; font-weight: bold;'> rilevato</span> <span style = 'color: black;'>  che</span> <span style = 'color: red; font-weight: bold;'> oltre</span> <span style = 'color: black;'>  due</span> <span style = 'color: black;'>  terzi</span> <span style = 'color: black;'>  di</span> <span style = 'color: red; font-weight: bold;'> tutti</span> <span style = 'color: red; font-weight: bold;'> i</span> <span style = 'color: red; font-weight: bold;'> coralli</span> <span style = 'color: black;'>  sono</span> <span style = 'color: red; font-weight: bold;'> morti</span> <span style = 'color: black;'>  a</span> <span style = 'color: black;'>  causa</span> <span style = 'color: red; font-weight: bold;'> delle</span> <span style = 'color: black;'>  temperature</span> <span style = 'color: black;'>  oceaniche</span> <span style = 'color: black;'>  eccessivamente</span> <span style = 'color: red; font-weight: bold;'> elevate.</span> <span style = 'color: red; font-weight: bold;'> Ciò</span> <span style = 'color: black;'>  ha</span> <span style = 'color: black;'>  conseguenze</span> <span style = 'color: black;'>  disastrose</span> <span style = 'color: black;'>  per</span> <span style = 'color: black;'>  le</span> <span style = 'color: red; font-weight: bold;'> popolazioni</span> <span style = 'color: black;'>  ittiche,</span> <span style = 'color: black;'>  poiché</span> <span style = 'color: red; font-weight: bold;'> le</span> <span style = 'color: red; font-weight: bold;'> barriere</span> <span style = 'color: red; font-weight: bold;'> coralline</span> <span style = 'color: black;'>  sono</span> <span style = 'color: black;'>  un</span> <span style = 'color: black;'>  importante</span> <span style = 'color: red; font-weight: bold;'> habitat</span> <span style = 'color: red; font-weight: bold;'> di</span> <span style = 'color: red; font-weight: bold;'> riproduzione</span> <span style = 'color: black;'>  per</span> <span style = 'color: black;'>  un</span> <span style = 'color: black;'>  gran</span> <span style = 'color: black;'>  numero</span> <span style = 'color: black;'>  di</span> <span style = 'color: black;'>  pesci,</span> <span style = 'color: black;'>  molluschi</span> <span style = 'color: black;'>  e</span> <span style = 'color: black;'>  crostacei</span><br><span class="sources">gcp/gemini-1.5-pro</span></td>
+                    <td class="back-translate"><img src="https://static.dw.com/image/46075549_303.jpg " width="250"/> <span style = 'color: black;'>  Eine</span> <span style = 'color: red; font-weight: bold;'> umfangreiche</span> <span style = 'color: black;'>  gemeinsame</span> <span style = 'color: red; font-weight: bold;'> Untersuchung</span> <span style = 'color: black;'>  von</span> <span style = 'color: black;'>  Meeresforschungsinstituten</span> <span style = 'color: red; font-weight: bold;'> aus</span> <span style = 'color: red; font-weight: bold;'> verschiedenen</span> <span style = 'color: red; font-weight: bold;'> Ländern</span> <span style = 'color: red; font-weight: bold;'> hat</span> <span style = 'color: red; font-weight: bold;'> ergeben,</span> <span style = 'color: black;'>  dass</span> <span style = 'color: black;'>  über</span> <span style = 'color: black;'>  zwei</span> <span style = 'color: black;'>  Drittel</span> <span style = 'color: black;'>  aller</span> <span style = 'color: black;'>  Korallen</span> <span style = 'color: red; font-weight: bold;'> aufgrund</span> <span style = 'color: red; font-weight: bold;'> übermäßig</span> <span style = 'color: red; font-weight: bold;'> hoher</span> <span style = 'color: black;'>  Meerestemperaturen</span> <span style = 'color: red; font-weight: bold;'> abgestorben</span> <span style = 'color: black;'>  sind.</span> <span style = 'color: black;'>  Dies</span> <span style = 'color: black;'>  hat</span> <span style = 'color: black;'>  katastrophale</span> <span style = 'color: red; font-weight: bold;'> Folgen</span> <span style = 'color: red; font-weight: bold;'> für</span> <span style = 'color: red; font-weight: bold;'> die</span> <span style = 'color: red; font-weight: bold;'> Fischbestände,</span> <span style = 'color: black;'>  da</span> <span style = 'color: black;'>  Korallenriffe</span> <span style = 'color: red; font-weight: bold;'> ein</span> <span style = 'color: black;'>  wichtiger</span> <span style = 'color: red; font-weight: bold;'> Lebensraum</span> <span style = 'color: red; font-weight: bold;'> und</span> <span style = 'color: red; font-weight: bold;'> Brutstätte</span> <span style = 'color: black;'>  für</span> <span style = 'color: black;'>  eine</span> <span style = 'color: black;'>  große</span> <span style = 'color: red; font-weight: bold;'> Anzahl</span> <span style = 'color: black;'>  von</span> <span style = 'color: black;'>  Fischen,</span> <span style = 'color: red; font-weight: bold;'> Weichtieren</span> <span style = 'color: black;'>  und</span> <span style = 'color: black;'>  Krebstieren</span> <span style = 'color: black;'>  sind</span></td>
+
+
+
+                    <td class="winner"><img src="https://static.dw.com/image/46075549_303.jpg" width="250"/> <span style = 'color: red; font-weight: bold;'> Un'ampia</span> <span style = 'color: black;'>  indagine</span> <span style = 'color: black;'>  congiunta</span> <span style = 'color: red; font-weight: bold;'> di</span> <span style = 'color: black;'>  istituti</span> <span style = 'color: black;'>  di</span> <span style = 'color: black;'>  ricerca</span> <span style = 'color: black;'>  marina</span> <span style = 'color: black;'>  di</span> <span style = 'color: black;'>  diversi</span> <span style = 'color: black;'>  paesi</span> <span style = 'color: black;'>  ha</span> <span style = 'color: red; font-weight: bold;'> rivelato</span> <span style = 'color: black;'>  che</span> <span style = 'color: red; font-weight: bold;'> più</span> <span style = 'color: red; font-weight: bold;'> di</span> <span style = 'color: black;'>  due</span> <span style = 'color: black;'>  terzi</span> <span style = 'color: black;'>  di</span> <span style = 'color: red; font-weight: bold;'> tutte</span> <span style = 'color: red; font-weight: bold;'> le</span> <span style = 'color: red; font-weight: bold;'> barriere</span> <span style = 'color: red; font-weight: bold;'> coralline</span> <span style = 'color: black;'>  sono</span> <span style = 'color: red; font-weight: bold;'> morte</span> <span style = 'color: black;'>  a</span> <span style = 'color: black;'>  causa</span> <span style = 'color: red; font-weight: bold;'> di</span> <span style = 'color: black;'>  temperature</span> <span style = 'color: black;'>  oceaniche</span> <span style = 'color: black;'>  eccessivamente</span> <span style = 'color: red; font-weight: bold;'> calde.</span> <span style = 'color: red; font-weight: bold;'> Questo</span> <span style = 'color: black;'>  ha</span> <span style = 'color: black;'>  conseguenze</span> <span style = 'color: black;'>  disastrose</span> <span style = 'color: black;'>  per</span> <span style = 'color: black;'>  le</span> <span style = 'color: red; font-weight: bold;'> scorte</span> <span style = 'color: black;'>  ittiche,</span> <span style = 'color: black;'>  poiché</span> <span style = 'color: red; font-weight: bold;'> i</span> <span style = 'color: red; font-weight: bold;'> reef</span> <span style = 'color: red; font-weight: bold;'> corallini</span> <span style = 'color: black;'>  sono</span> <span style = 'color: black;'>  un</span> <span style = 'color: black;'>  importante</span> <span style = 'color: red; font-weight: bold;'> vivaio</span> <span style = 'color: black;'>  per</span> <span style = 'color: black;'>  un</span> <span style = 'color: black;'>  gran</span> <span style = 'color: black;'>  numero</span> <span style = 'color: black;'>  di</span> <span style = 'color: black;'>  pesci,</span> <span style = 'color: black;'>  molluschi</span> <span style = 'color: black;'>  e</span> <span style = 'color: black;'>  crostacei</span><br><span class="sources">azure/gpt-4-vision</span></td>
+                    <td class="back-translate"><img src="https://static.dw.com/image/46075549_303.jpg " width="250"/> <span style = 'color: black;'>  Eine</span> <span style = 'color: red; font-weight: bold;'> umfangreiche</span> <span style = 'color: black;'>  gemeinsame</span> <span style = 'color: red; font-weight: bold;'> Untersuchung</span> <span style = 'color: black;'>  von</span> <span style = 'color: black;'>  Meeresforschungsinstituten</span> <span style = 'color: red; font-weight: bold;'> aus</span> <span style = 'color: red; font-weight: bold;'> verschiedenen</span> <span style = 'color: red; font-weight: bold;'> Ländern</span> <span style = 'color: red; font-weight: bold;'> hat</span> <span style = 'color: red; font-weight: bold;'> ergeben,</span> <span style = 'color: black;'>  dass</span> <span style = 'color: red; font-weight: bold;'> mehr</span> <span style = 'color: red; font-weight: bold;'> als</span> <span style = 'color: black;'>  zwei</span> <span style = 'color: black;'>  Drittel</span> <span style = 'color: black;'>  aller</span> <span style = 'color: red; font-weight: bold;'> Korallenriffe</span> <span style = 'color: red; font-weight: bold;'> aufgrund</span> <span style = 'color: red; font-weight: bold;'> übermäßig</span> <span style = 'color: red; font-weight: bold;'> warmer</span> <span style = 'color: black;'>  Meerestemperaturen</span> <span style = 'color: red; font-weight: bold;'> abgestorben</span> <span style = 'color: black;'>  sind.</span> <span style = 'color: black;'>  Dies</span> <span style = 'color: black;'>  hat</span> <span style = 'color: black;'>  katastrophale</span> <span style = 'color: red; font-weight: bold;'> Folgen</span> <span style = 'color: red; font-weight: bold;'> für</span> <span style = 'color: red; font-weight: bold;'> die</span> <span style = 'color: red; font-weight: bold;'> Fischbestände,</span> <span style = 'color: black;'>  da</span> <span style = 'color: black;'>  Korallenriffe</span> <span style = 'color: black;'>  eine</span> <span style = 'color: red; font-weight: bold;'> wichtige</span> <span style = 'color: red; font-weight: bold;'> Kinderstube</span> <span style = 'color: black;'>  für</span> <span style = 'color: black;'>  eine</span> <span style = 'color: black;'>  große</span> <span style = 'color: red; font-weight: bold;'> Anzahl</span> <span style = 'color: black;'>  von</span> <span style = 'color: black;'>  Fischen,</span> <span style = 'color: red; font-weight: bold;'> Weichtieren</span> <span style = 'color: black;'>  und</span> <span style = 'color: black;'>  Krebstieren</span> <span style = 'color: black;'>  sind</span></td>
+
+
+
+                    <td class="compare">2</td>
+
+                    <td class="compare">1</td>
+
+                    <td class="compare">2</td>
+
+                </tr>
+            
+        </tbody>
+    </table>
+</body>
+</html>

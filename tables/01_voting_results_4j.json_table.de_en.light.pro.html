@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <style>
+        @page {
+            size: A4 landscape;
+        }
+    </style>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-family: verdana, serif;
+            font-size:12px;
+            border: 1px solid white;
+            transform: scale(0.3);
+            transform-origin: top left;
+        }
+        th, td {
+            border-bottom:3px solid white;
+            border-right:3px solid white;
+            padding: 15px;
+            text-align: left;
+        }
+        th {
+            background-color: darkgray;
+        }
+        td {
+            background-color: lightgray;
+        }
+        .endtd {
+            border-right: 3px solid darkgray;
+        }
+        .translate {
+            background-color: lightblue;
+        }
+        .back-translate {
+            background-color: lightgrey;
+        }
+        .winner {
+            background-color: lightpink;
+        }
+        .compare {
+            background-color: lightsteelblue;
+        }
+        .source {
+            background-color: palegoldenrod;
+        }
+        .empty {
+            background-color: lightgrey;
+        }
+        .sources {
+            font-weight: bold;
+            font-size: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>01_voting_results_4j.json</h1>
+    <table>
+        <thead>
+            <tr>
+                
+                    <th>source text</th>
+                
+                    <th>--- 0 ---</th>
+                
+                    <th></th>
+                
+                    <th>--- 1 ---</th>
+                
+                    <th></th>
+                
+                    <th>azure/gpt-4-vision</th>
+                
+                    <th>gcp/gemini-1.5-pro</th>
+                
+                    <th>aws/claude-3.5-sonnet</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            
+                <tr>
+                    <td class="endtd source">Die Ergebnisse sind da!</td>
+
+
+                    <td class="winner">The results are in!<br><span class="sources">azure/gpt-4-vision, gcp/gemini-1.5-pro</span></td>
+                    <td class="back-translate"><span style = 'color: black;'>  Die</span> <span style = 'color: black;'>  Ergebnisse</span> <span style = 'color: black;'>  sind</span> <span style = 'color: black;'>  da!</span></td>
+
+
+
+                    <td class="empty"></td>
+                    <td class="empty"></td>
+
+
+
+                    <td class="compare">1</td>
+
+                    <td class="compare">1</td>
+
+                    <td class="compare">1</td>
+
+                </tr>
+            
+                <tr>
+                    <td class="endtd source">Strom aus 100% erneuerbaren Energiequellen</td>
+
+
+                    <td class="winner">Electricity from 100% renewable energy sources<br><span class="sources">azure/gpt-4-vision, gcp/gemini-1.5-pro</span></td>
+                    <td class="back-translate"><span style = 'color: black;'>  Strom</span> <span style = 'color: black;'>  aus</span> <span style = 'color: black;'>  100%</span> <span style = 'color: black;'>  erneuerbaren</span> <span style = 'color: black;'>  Energiequellen</span></td>
+
+
+
+                    <td class="empty"></td>
+                    <td class="empty"></td>
+
+
+
+                    <td class="compare">1</td>
+
+                    <td class="compare">1</td>
+
+                    <td class="compare">1</td>
+
+                </tr>
+            
+                <tr>
+                    <td class="endtd source">Die Ergebnisse sind da!</td>
+
+
+                    <td class="winner">The results are in!<br><span class="sources">azure/gpt-4-vision, gcp/gemini-1.5-pro</span></td>
+                    <td class="back-translate"><span style = 'color: black;'>  Die</span> <span style = 'color: black;'>  Ergebnisse</span> <span style = 'color: black;'>  sind</span> <span style = 'color: black;'>  da!</span></td>
+
+
+
+                    <td class="empty"></td>
+                    <td class="empty"></td>
+
+
+
+                    <td class="compare">1</td>
+
+                    <td class="compare">1</td>
+
+                    <td class="compare">1</td>
+
+                </tr>
+            
+                <tr>
+                    <td class="endtd source">Bei der letzten Wahl wurde für die Erhöhung der CO₂-Steuer gestimmt.<br>Sie ist deshalb um 25€ gestiegen!</td>
+
+
+                    <td class="translate"><span style = 'color: black;'>  In</span> <span style = 'color: black;'>  the</span> <span style = 'color: black;'>  last</span> <span style = 'color: black;'>  election,</span> <span style = 'color: red; font-weight: bold;'> there</span> <span style = 'color: red; font-weight: bold;'> was</span> <span style = 'color: red; font-weight: bold;'> a</span> <span style = 'color: red; font-weight: bold;'> vote</span> <span style = 'color: red; font-weight: bold;'> in</span> <span style = 'color: red; font-weight: bold;'> favor</span> <span style = 'color: red; font-weight: bold;'> of</span> <span style = 'color: red; font-weight: bold;'> increasing</span> <span style = 'color: black;'>  the</span> <span style = 'color: black;'>  CO₂</span> <span style = 'color: red; font-weight: bold;'> tax.</span> <span style = 'color: red; font-weight: bold;'> As</span> <span style = 'color: red; font-weight: bold;'> a</span> <span style = 'color: red; font-weight: bold;'> result,</span> <span style = 'color: red; font-weight: bold;'> it</span> <span style = 'color: black;'>  has</span> <span style = 'color: red; font-weight: bold;'> risen</span> <span style = 'color: black;'>  by</span> <span style = 'color: black;'>  €25!</span><br><span class="sources">azure/gpt-4-vision</span></td>
+                    <td class="back-translate"><span style = 'color: black;'>  Bei</span> <span style = 'color: black;'>  der</span> <span style = 'color: black;'>  letzten</span> <span style = 'color: black;'>  Wahl</span> <span style = 'color: black;'>  wurde</span> <span style = 'color: black;'>  für</span> <span style = 'color: red; font-weight: bold;'> eine</span> <span style = 'color: black;'>  Erhöhung</span> <span style = 'color: black;'>  der</span> <span style = 'color: black;'>  CO₂-Steuer</span> <span style = 'color: black;'>  gestimmt.</span> <span style = 'color: black;'>  Sie</span> <span style = 'color: black;'>  ist</span> <span style = 'color: red; font-weight: bold;'> daher</span> <span style = 'color: black;'>  um</span> <span style = 'color: red; font-weight: bold;'> 25</span> <span style = 'color: red; font-weight: bold;'> €</span> <span style = 'color: black;'>  gestiegen!</span></td>
+
+
+
+                    <td class="winner"><span style = 'color: black;'>  In</span> <span style = 'color: black;'>  the</span> <span style = 'color: black;'>  last</span> <span style = 'color: black;'>  election,</span> <span style = 'color: black;'>  the</span> <span style = 'color: black;'>  CO₂</span> <span style = 'color: red; font-weight: bold;'> tax</span> <span style = 'color: red; font-weight: bold;'> was</span> <span style = 'color: red; font-weight: bold;'> voted</span> <span style = 'color: red; font-weight: bold;'> to</span> <span style = 'color: red; font-weight: bold;'> increase.</span> <span style = 'color: red; font-weight: bold;'> It</span> <span style = 'color: black;'>  has</span> <span style = 'color: red; font-weight: bold;'> therefore</span> <span style = 'color: red; font-weight: bold;'> gone</span> <span style = 'color: red; font-weight: bold;'> up</span> <span style = 'color: black;'>  by</span> <span style = 'color: black;'>  €25!</span><br><span class="sources">gcp/gemini-1.5-pro</span></td>
+                    <td class="back-translate"><span style = 'color: black;'>  Bei</span> <span style = 'color: black;'>  der</span> <span style = 'color: black;'>  letzten</span> <span style = 'color: black;'>  Wahl</span> <span style = 'color: black;'>  wurde</span> <span style = 'color: black;'>  für</span> <span style = 'color: red; font-weight: bold;'> eine</span> <span style = 'color: black;'>  Erhöhung</span> <span style = 'color: black;'>  der</span> <span style = 'color: black;'>  CO₂-Steuer</span> <span style = 'color: black;'>  gestimmt.</span> <span style = 'color: black;'>  Sie</span> <span style = 'color: black;'>  ist</span> <span style = 'color: red; font-weight: bold;'> daher</span> <span style = 'color: black;'>  um</span> <span style = 'color: red; font-weight: bold;'> 25</span> <span style = 'color: red; font-weight: bold;'> €</span> <span style = 'color: black;'>  gestiegen!</span></td>
+
+
+
+                    <td class="compare">1</td>
+
+                    <td class="compare">2</td>
+
+                    <td class="compare">2</td>
+
+                </tr>
+            
+                <tr>
+                    <td class="endtd source">Die Ergebnisse sind da!</td>
+
+
+                    <td class="winner">The results are in!<br><span class="sources">azure/gpt-4-vision, gcp/gemini-1.5-pro</span></td>
+                    <td class="back-translate"><span style = 'color: black;'>  Die</span> <span style = 'color: black;'>  Ergebnisse</span> <span style = 'color: black;'>  sind</span> <span style = 'color: black;'>  da!</span></td>
+
+
+
+                    <td class="empty"></td>
+                    <td class="empty"></td>
+
+
+
+                    <td class="compare">1</td>
+
+                    <td class="compare">1</td>
+
+                    <td class="compare">1</td>
+
+                </tr>
+            
+                <tr>
+                    <td class="endtd source">Bei der letzten Wahl wurde für die Verringerung der CO₂-Steuer gestimmt.<br>Sie ist deshalb um 25€ gesunken!</td>
+
+
+                    <td class="translate"><span style = 'color: black;'>  In</span> <span style = 'color: black;'>  the</span> <span style = 'color: black;'>  last</span> <span style = 'color: black;'>  election,</span> <span style = 'color: red; font-weight: bold;'> there</span> <span style = 'color: red; font-weight: bold;'> was</span> <span style = 'color: red; font-weight: bold;'> a</span> <span style = 'color: red; font-weight: bold;'> vote</span> <span style = 'color: red; font-weight: bold;'> for</span> <span style = 'color: red; font-weight: bold;'> the</span> <span style = 'color: red; font-weight: bold;'> reduction</span> <span style = 'color: red; font-weight: bold;'> of</span> <span style = 'color: black;'>  the</span> <span style = 'color: black;'>  CO₂</span> <span style = 'color: black;'>  tax.</span> <span style = 'color: black;'>  It</span> <span style = 'color: black;'>  has</span> <span style = 'color: black;'>  therefore</span> <span style = 'color: red; font-weight: bold;'> decreased</span> <span style = 'color: black;'>  by</span> <span style = 'color: black;'>  €25!</span><br><span class="sources">azure/gpt-4-vision</span></td>
+                    <td class="back-translate"><span style = 'color: black;'>  Bei</span> <span style = 'color: black;'>  der</span> <span style = 'color: black;'>  letzten</span> <span style = 'color: black;'>  Wahl</span> <span style = 'color: black;'>  wurde</span> <span style = 'color: black;'>  für</span> <span style = 'color: red; font-weight: bold;'> eine</span> <span style = 'color: red; font-weight: bold;'> Senkung</span> <span style = 'color: black;'>  der</span> <span style = 'color: black;'>  CO₂-Steuer</span> <span style = 'color: black;'>  gestimmt.</span> <span style = 'color: black;'>  Sie</span> <span style = 'color: black;'>  ist</span> <span style = 'color: red; font-weight: bold;'> daher</span> <span style = 'color: black;'>  um</span> <span style = 'color: black;'>  25€</span> <span style = 'color: black;'>  gesunken!</span></td>
+
+
+
+                    <td class="winner"><span style = 'color: black;'>  In</span> <span style = 'color: black;'>  the</span> <span style = 'color: black;'>  last</span> <span style = 'color: black;'>  election,</span> <span style = 'color: red; font-weight: bold;'> people</span> <span style = 'color: red; font-weight: bold;'> voted</span> <span style = 'color: red; font-weight: bold;'> to</span> <span style = 'color: red; font-weight: bold;'> reduce</span> <span style = 'color: black;'>  the</span> <span style = 'color: black;'>  CO₂</span> <span style = 'color: black;'>  tax.</span> <span style = 'color: black;'>  It</span> <span style = 'color: black;'>  has</span> <span style = 'color: black;'>  therefore</span> <span style = 'color: red; font-weight: bold;'> gone</span> <span style = 'color: red; font-weight: bold;'> down</span> <span style = 'color: black;'>  by</span> <span style = 'color: black;'>  €25!</span><br><span class="sources">gcp/gemini-1.5-pro</span></td>
+                    <td class="back-translate"><span style = 'color: black;'>  Bei</span> <span style = 'color: black;'>  der</span> <span style = 'color: black;'>  letzten</span> <span style = 'color: black;'>  Wahl</span> <span style = 'color: red; font-weight: bold;'> haben</span> <span style = 'color: red; font-weight: bold;'> die</span> <span style = 'color: red; font-weight: bold;'> Menschen</span> <span style = 'color: black;'>  für</span> <span style = 'color: red; font-weight: bold;'> eine</span> <span style = 'color: red; font-weight: bold;'> Senkung</span> <span style = 'color: black;'>  der</span> <span style = 'color: black;'>  CO₂-Steuer</span> <span style = 'color: black;'>  gestimmt.</span> <span style = 'color: black;'>  Sie</span> <span style = 'color: black;'>  ist</span> <span style = 'color: red; font-weight: bold;'> daher</span> <span style = 'color: black;'>  um</span> <span style = 'color: red; font-weight: bold;'> 25</span> <span style = 'color: red; font-weight: bold;'> €</span> <span style = 'color: black;'>  gesunken!</span></td>
+
+
+
+                    <td class="compare">2</td>
+
+                    <td class="compare">2</td>
+
+                    <td class="compare">2</td>
+
+                </tr>
+            
+                <tr>
+                    <td class="endtd source">Die Ergebnisse sind da!</td>
+
+
+                    <td class="winner">The results are in!<br><span class="sources">azure/gpt-4-vision, gcp/gemini-1.5-pro</span></td>
+                    <td class="back-translate"><span style = 'color: black;'>  Die</span> <span style = 'color: black;'>  Ergebnisse</span> <span style = 'color: black;'>  sind</span> <span style = 'color: black;'>  da!</span></td>
+
+
+
+                    <td class="empty"></td>
+                    <td class="empty"></td>
+
+
+
+                    <td class="compare">1</td>
+
+                    <td class="compare">1</td>
+
+                    <td class="compare">1</td>
+
+                </tr>
+            
+                <tr>
+                    <td class="endtd source">Bei der letzten Wahl wurde für das Gleichbleiben der CO₂-Steuer gestimmt.<br>Sie bleibt deshalb unverändert!</td>
+
+
+                    <td class="winner"><span style = 'color: black;'>  In</span> <span style = 'color: black;'>  the</span> <span style = 'color: black;'>  last</span> <span style = 'color: black;'>  election,</span> <span style = 'color: red; font-weight: bold;'> the</span> <span style = 'color: red; font-weight: bold;'> CO₂</span> <span style = 'color: red; font-weight: bold;'> tax</span> <span style = 'color: black;'>  was</span> <span style = 'color: black;'>  voted</span> <span style = 'color: black;'>  to</span> <span style = 'color: red; font-weight: bold;'> remain</span> <span style = 'color: black;'>  the</span> <span style = 'color: black;'>  same.</span> <span style = 'color: red; font-weight: bold;'> It</span> <span style = 'color: red; font-weight: bold;'> therefore</span> <span style = 'color: black;'>  remains</span> <span style = 'color: black;'>  unchanged!</span><br><span class="sources">gcp/gemini-1.5-pro</span></td>
+                    <td class="back-translate"><span style = 'color: black;'>  Bei</span> <span style = 'color: black;'>  der</span> <span style = 'color: black;'>  letzten</span> <span style = 'color: black;'>  Wahl</span> <span style = 'color: black;'>  wurde</span> <span style = 'color: red; font-weight: bold;'> dafür</span> <span style = 'color: red; font-weight: bold;'> gestimmt,</span> <span style = 'color: red; font-weight: bold;'> dass</span> <span style = 'color: red; font-weight: bold;'> die</span> <span style = 'color: black;'>  CO₂-Steuer</span> <span style = 'color: red; font-weight: bold;'> unverändert</span> <span style = 'color: red; font-weight: bold;'> bleibt.</span> <span style = 'color: black;'>  Sie</span> <span style = 'color: black;'>  bleibt</span> <span style = 'color: red; font-weight: bold;'> daher</span> <span style = 'color: black;'>  unverändert!</span></td>
+
+
+
+                    <td class="translate"><span style = 'color: black;'>  In</span> <span style = 'color: black;'>  the</span> <span style = 'color: black;'>  last</span> <span style = 'color: black;'>  election,</span> <span style = 'color: red; font-weight: bold;'> it</span> <span style = 'color: red; font-weight: bold;'> was</span> <span style = 'color: red; font-weight: bold;'> voted</span> <span style = 'color: red; font-weight: bold;'> to</span> <span style = 'color: red; font-weight: bold;'> keep</span> <span style = 'color: black;'>  the</span> <span style = 'color: black;'>  CO₂</span> <span style = 'color: black;'>  tax</span> <span style = 'color: black;'>  the</span> <span style = 'color: black;'>  same.</span> <span style = 'color: red; font-weight: bold;'> Therefore,</span> <span style = 'color: red; font-weight: bold;'> it</span> <span style = 'color: black;'>  remains</span> <span style = 'color: black;'>  unchanged!</span><br><span class="sources">azure/gpt-4-vision</span></td>
+                    <td class="back-translate"><span style = 'color: black;'>  Bei</span> <span style = 'color: black;'>  der</span> <span style = 'color: black;'>  letzten</span> <span style = 'color: black;'>  Wahl</span> <span style = 'color: black;'>  wurde</span> <span style = 'color: red; font-weight: bold;'> dafür</span> <span style = 'color: red; font-weight: bold;'> gestimmt,</span> <span style = 'color: red; font-weight: bold;'> die</span> <span style = 'color: black;'>  CO₂-Steuer</span> <span style = 'color: red; font-weight: bold;'> unverändert</span> <span style = 'color: red; font-weight: bold;'> zu</span> <span style = 'color: red; font-weight: bold;'> lassen.</span> <span style = 'color: red; font-weight: bold;'> Daher</span> <span style = 'color: black;'>  bleibt</span> <span style = 'color: red; font-weight: bold;'> sie</span> <span style = 'color: black;'>  unverändert!</span></td>
+
+
+
+                    <td class="compare">1</td>
+
+                    <td class="compare">1</td>
+
+                    <td class="compare">1</td>
+
+                </tr>
+            
+        </tbody>
+    </table>
+</body>
+</html>

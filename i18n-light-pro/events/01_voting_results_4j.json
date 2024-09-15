@@ -25,6 +25,244 @@
                     "_compare_aws/claude-3.5-sonnet_sv": "Resultaten är här!",
                     "_unique_translations_back_sv": [
                         "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_ar": "النتائج جاهزة!",
+                    "_gcp/gemini-1.5-pro_ar": "النتائج جاهزة! \n",
+                    "_compare_azure/gpt-4-vision_ar": "النتائج جاهزة!",
+                    "_compare_gcp/gemini-1.5-pro_ar": "النتائج جاهزة!",
+                    "_compare_aws/claude-3.5-sonnet_ar": "النتائج جاهزة!",
+                    "_unique_translations_back_ar": [
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_bg": "Резултатите са тук!",
+                    "_gcp/gemini-1.5-pro_bg": "Резултатите са готови!\n",
+                    "_compare_azure/gpt-4-vision_bg": "Резултатите са тук!",
+                    "_compare_gcp/gemini-1.5-pro_bg": "Резултатите са готови!",
+                    "_compare_aws/claude-3.5-sonnet_bg": "Резултатите са тук!",
+                    "_unique_translations_back_bg": [
+                        "Die Ergebnisse sind da!",
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_cs": "Výsledky jsou tady!",
+                    "_gcp/gemini-1.5-pro_cs": "Výsledky jsou tady! \n",
+                    "_compare_azure/gpt-4-vision_cs": "Výsledky jsou tady!",
+                    "_compare_gcp/gemini-1.5-pro_cs": "Výsledky jsou tady!",
+                    "_compare_aws/claude-3.5-sonnet_cs": "Výsledky jsou tady!",
+                    "_unique_translations_back_cs": [
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_da": "Resultaterne er her!",
+                    "_gcp/gemini-1.5-pro_da": "Resultaterne er klar! \n",
+                    "_compare_azure/gpt-4-vision_da": "Resultaterne er her!",
+                    "_compare_gcp/gemini-1.5-pro_da": "Resultaterne er her!",
+                    "_compare_aws/claude-3.5-sonnet_da": "Resultaterne er her!",
+                    "_unique_translations_back_da": [
+                        "Die Ergebnisse sind da!",
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_de": "Die Ergebnisse sind da!",
+                    "_gcp/gemini-1.5-pro_de": "Die Ergebnisse sind da! \n",
+                    "_compare_azure/gpt-4-vision_de": "Die Ergebnisse sind da!",
+                    "_compare_gcp/gemini-1.5-pro_de": "Die Ergebnisse sind da!",
+                    "_compare_aws/claude-3.5-sonnet_de": "Die Ergebnisse sind da!",
+                    "_unique_translations_back_de": [
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_el": "Τα αποτελέσματα είναι εδώ!",
+                    "_gcp/gemini-1.5-pro_el": "Τα αποτελέσματα βγήκαν! \n",
+                    "_compare_azure/gpt-4-vision_el": "Τα αποτελέσματα είναι εδώ!",
+                    "_compare_gcp/gemini-1.5-pro_el": "Τα αποτελέσματα είναι εδώ!",
+                    "_compare_aws/claude-3.5-sonnet_el": "Τα αποτελέσματα είναι εδώ!",
+                    "_unique_translations_back_el": [
+                        "Die Ergebnisse sind da!",
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_en": "The results are in!",
+                    "_gcp/gemini-1.5-pro_en": "The results are in! \n",
+                    "_compare_azure/gpt-4-vision_en": "The results are in!",
+                    "_compare_gcp/gemini-1.5-pro_en": "The results are in!",
+                    "_compare_aws/claude-3.5-sonnet_en": "The results are in!",
+                    "_unique_translations_back_en": [
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_es": "Los resultados están aquí.",
+                    "_gcp/gemini-1.5-pro_es": "¡Los resultados están aquí! \n",
+                    "_compare_azure/gpt-4-vision_es": "¡Los resultados están aquí!",
+                    "_compare_gcp/gemini-1.5-pro_es": "¡Los resultados están aquí!",
+                    "_compare_aws/claude-3.5-sonnet_es": "¡Los resultados están aquí!",
+                    "_unique_translations_back_es": [
+                        "Die Ergebnisse sind da!",
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_et": "Tulemused on käes!",
+                    "_gcp/gemini-1.5-pro_et": "Tulemused on saabunud! \n",
+                    "_compare_azure/gpt-4-vision_et": "Tulemused on käes!",
+                    "_compare_gcp/gemini-1.5-pro_et": "Tulemused on käes!",
+                    "_compare_aws/claude-3.5-sonnet_et": "Tulemused on käes!",
+                    "_unique_translations_back_et": [
+                        "Die Ergebnisse sind da!",
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_fi": "Tulokset ovat täällä!",
+                    "_gcp/gemini-1.5-pro_fi": "Tulokset ovat tässä! \n",
+                    "_compare_azure/gpt-4-vision_fi": "Tulokset ovat tässä!",
+                    "_compare_gcp/gemini-1.5-pro_fi": "Tulokset ovat tässä!",
+                    "_compare_aws/claude-3.5-sonnet_fi": "Tulokset ovat täällä!",
+                    "_unique_translations_back_fi": [
+                        "Die Ergebnisse sind da!",
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_fr": "Les résultats sont là !",
+                    "_gcp/gemini-1.5-pro_fr": "Les résultats sont là ! \n",
+                    "_compare_azure/gpt-4-vision_fr": "Les résultats sont là !",
+                    "_compare_gcp/gemini-1.5-pro_fr": "Les résultats sont là !",
+                    "_compare_aws/claude-3.5-sonnet_fr": "Les résultats sont là !",
+                    "_unique_translations_back_fr": [
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_ga": "Tá na torthaí istigh!",
+                    "_gcp/gemini-1.5-pro_ga": "Tá na torthaí istigh! \n",
+                    "_compare_azure/gpt-4-vision_ga": "Tá na torthaí istigh!",
+                    "_compare_gcp/gemini-1.5-pro_ga": "Tá na torthaí istigh!",
+                    "_compare_aws/claude-3.5-sonnet_ga": "Tá na torthaí istigh!",
+                    "_unique_translations_back_ga": [
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_hr": "Rezultati su tu!",
+                    "_gcp/gemini-1.5-pro_hr": "Rezultati su tu! \n",
+                    "_compare_azure/gpt-4-vision_hr": "Rezultati su tu!",
+                    "_compare_gcp/gemini-1.5-pro_hr": "Rezultati su tu!",
+                    "_compare_aws/claude-3.5-sonnet_hr": "Rezultati su tu!",
+                    "_unique_translations_back_hr": [
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_hu": "Az eredmények megérkeztek!",
+                    "_gcp/gemini-1.5-pro_hu": "Megérkeztek az eredmények! \n",
+                    "_compare_azure/gpt-4-vision_hu": "Megérkeztek az eredmények!",
+                    "_compare_gcp/gemini-1.5-pro_hu": "Megérkeztek az eredmények!",
+                    "_compare_aws/claude-3.5-sonnet_hu": "Megérkeztek az eredmények!",
+                    "_unique_translations_back_hu": [
+                        "Die Ergebnisse sind da!",
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_id": "Hasilnya sudah keluar!",
+                    "_gcp/gemini-1.5-pro_id": "Hasilnya sudah ada! \n",
+                    "_compare_azure/gpt-4-vision_id": "Hasilnya sudah keluar!",
+                    "_compare_gcp/gemini-1.5-pro_id": "Hasilnya sudah ada!",
+                    "_compare_aws/claude-3.5-sonnet_id": "Hasilnya sudah ada!",
+                    "_unique_translations_back_id": [
+                        "Die Ergebnisse sind da!",
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_it": "I risultati sono arrivati!",
+                    "_gcp/gemini-1.5-pro_it": "I risultati sono arrivati! \n",
+                    "_compare_azure/gpt-4-vision_it": "I risultati sono arrivati!",
+                    "_compare_gcp/gemini-1.5-pro_it": "I risultati sono arrivati!",
+                    "_compare_aws/claude-3.5-sonnet_it": "I risultati sono arrivati!",
+                    "_unique_translations_back_it": [
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_ja": "結果が出ました!",
+                    "_gcp/gemini-1.5-pro_ja": "結果が出ました！ \n",
+                    "_compare_azure/gpt-4-vision_ja": "結果が出ました！",
+                    "_compare_gcp/gemini-1.5-pro_ja": "結果が出ました！",
+                    "_compare_aws/claude-3.5-sonnet_ja": "結果が出ました!",
+                    "_unique_translations_back_ja": [
+                        "Die Ergebnisse sind da!",
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_ko": "결과가 나왔습니다!",
+                    "_gcp/gemini-1.5-pro_ko": "결과가 나왔습니다! \n",
+                    "_compare_azure/gpt-4-vision_ko": "결과가 나왔습니다!",
+                    "_compare_gcp/gemini-1.5-pro_ko": "결과가 나왔습니다!",
+                    "_compare_aws/claude-3.5-sonnet_ko": "결과가 나왔습니다!",
+                    "_unique_translations_back_ko": [
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_lv": "Rezultāti ir klāt!",
+                    "_gcp/gemini-1.5-pro_lv": "Rezultāti ir klāt! \n",
+                    "_compare_azure/gpt-4-vision_lv": "Rezultāti ir klāt!",
+                    "_compare_gcp/gemini-1.5-pro_lv": "Rezultāti ir klāt!",
+                    "_compare_aws/claude-3.5-sonnet_lv": "Rezultāti ir klāt!",
+                    "_unique_translations_back_lv": [
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_lt": "Rezultatai paskelbti!",
+                    "_gcp/gemini-1.5-pro_lt": "Gauti rezultatai! \n",
+                    "_compare_azure/gpt-4-vision_lt": "Rezultatai paskelbti!",
+                    "_compare_gcp/gemini-1.5-pro_lt": "Rezultatai paskelbti!",
+                    "_compare_aws/claude-3.5-sonnet_lt": "Gauti rezultatai!",
+                    "_unique_translations_back_lt": [
+                        "Die Ergebnisse sind da!",
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_mt": "Ir-riżultati waslu!",
+                    "_gcp/gemini-1.5-pro_mt": "Ir-riżultati ħarġu! \n",
+                    "_compare_azure/gpt-4-vision_mt": "Ir-riżultati ħarġu!",
+                    "_compare_gcp/gemini-1.5-pro_mt": "Ir-riżultati ħarġu!",
+                    "_compare_aws/claude-3.5-sonnet_mt": "Ir-riżultati waslu!",
+                    "_unique_translations_back_mt": [
+                        "Die Ergebnisse sind da!",
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_nl": "De resultaten zijn binnen!",
+                    "_gcp/gemini-1.5-pro_nl": "De resultaten zijn bekend! \n",
+                    "_compare_azure/gpt-4-vision_nl": "De resultaten zijn bekend!",
+                    "_compare_gcp/gemini-1.5-pro_nl": "De resultaten zijn bekend!",
+                    "_compare_aws/claude-3.5-sonnet_nl": "De resultaten zijn binnen!",
+                    "_unique_translations_back_nl": [
+                        "Die Ergebnisse sind da!",
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_pl": "Wyniki są już dostępne!",
+                    "_gcp/gemini-1.5-pro_pl": "Wyniki są już dostępne! \n",
+                    "_compare_azure/gpt-4-vision_pl": "Wyniki są już dostępne!",
+                    "_compare_gcp/gemini-1.5-pro_pl": "Wyniki są już dostępne!",
+                    "_compare_aws/claude-3.5-sonnet_pl": "Wyniki są już dostępne!",
+                    "_unique_translations_back_pl": [
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_ro": "Rezultatele au sosit!",
+                    "_gcp/gemini-1.5-pro_ro": "Rezultatele sunt aici! \n",
+                    "_compare_azure/gpt-4-vision_ro": "Rezultatele au sosit!",
+                    "_compare_gcp/gemini-1.5-pro_ro": "Rezultatele sunt aici!",
+                    "_compare_aws/claude-3.5-sonnet_ro": "Rezultatele sunt aici!",
+                    "_unique_translations_back_ro": [
+                        "Die Ergebnisse sind da!",
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_ru": "Результаты подведены!",
+                    "_gcp/gemini-1.5-pro_ru": "Результаты подведены! \n",
+                    "_compare_azure/gpt-4-vision_ru": "Результаты подведены!",
+                    "_compare_gcp/gemini-1.5-pro_ru": "Результаты подведены!",
+                    "_compare_aws/claude-3.5-sonnet_ru": "Результаты подведены!",
+                    "_unique_translations_back_ru": [
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_sk": "Výsledky sú tu!",
+                    "_gcp/gemini-1.5-pro_sk": "Výsledky sú tu! \n",
+                    "_compare_azure/gpt-4-vision_sk": "Výsledky sú tu!",
+                    "_compare_gcp/gemini-1.5-pro_sk": "Výsledky sú tu!",
+                    "_compare_aws/claude-3.5-sonnet_sk": "Výsledky sú tu!",
+                    "_unique_translations_back_sk": [
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_sl": "Rezultati so tu!",
+                    "_gcp/gemini-1.5-pro_sl": "Rezultati so tukaj! \n",
+                    "_compare_azure/gpt-4-vision_sl": "Rezultati so tukaj!",
+                    "_compare_gcp/gemini-1.5-pro_sl": "Rezultati so tukaj!",
+                    "_compare_aws/claude-3.5-sonnet_sl": "Rezultati so tu!",
+                    "_unique_translations_back_sl": [
+                        "Die Ergebnisse sind da!",
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_zh": "结果出来了！",
+                    "_gcp/gemini-1.5-pro_zh": "结果出来了！ \n",
+                    "_compare_azure/gpt-4-vision_zh": "结果出来了！",
+                    "_compare_gcp/gemini-1.5-pro_zh": "结果出来了！",
+                    "_compare_aws/claude-3.5-sonnet_zh": "结果出来了！",
+                    "_unique_translations_back_zh": [
+                        "Die Ergebnisse sind da!"
                     ]
                 },
                 "body": {
@@ -36,6 +274,249 @@
                     "_compare_gcp/gemini-1.5-pro_sv": "El från 100% förnybara energikällor",
                     "_compare_aws/claude-3.5-sonnet_sv": "El från 100 % förnybara energikällor",
                     "_unique_translations_back_sv": [
+                        "Strom aus 100% erneuerbaren Energiequellen",
+                        "Strom aus 100% erneuerbaren Energiequellen"
+                    ],
+                    "_azure/gpt-4-vision_ar": "كهرباء من مصادر الطاقة المتجددة بنسبة 100%",
+                    "_gcp/gemini-1.5-pro_ar": "الكهرباء من مصادر الطاقة المتجددة بنسبة 100٪\n",
+                    "_compare_azure/gpt-4-vision_ar": "كهرباء من مصادر الطاقة المتجددة بنسبة 100%",
+                    "_compare_gcp/gemini-1.5-pro_ar": "الكهرباء من مصادر الطاقة المتجددة بنسبة 100٪",
+                    "_compare_aws/claude-3.5-sonnet_ar": "الكهرباء من مصادر الطاقة المتجددة بنسبة 100٪",
+                    "_unique_translations_back_ar": [
+                        "Strom aus 100% erneuerbaren Energiequellen",
+                        "Strom aus 100% erneuerbaren Energiequellen"
+                    ],
+                    "_azure/gpt-4-vision_bg": "Електричество от 100% възобновяеми енергийни източници",
+                    "_gcp/gemini-1.5-pro_bg": "Електричество от 100% възобновяеми енергийни източници \n",
+                    "_compare_azure/gpt-4-vision_bg": "Електричество от 100% възобновяеми енергийни източници",
+                    "_compare_gcp/gemini-1.5-pro_bg": "Електричество от 100% възобновяеми енергийни източници",
+                    "_compare_aws/claude-3.5-sonnet_bg": "Електричество от 100% възобновяеми енергийни източници",
+                    "_unique_translations_back_bg": [
+                        "Strom aus 100% erneuerbaren Energiequellen"
+                    ],
+                    "_azure/gpt-4-vision_cs": "Elektřina ze 100% obnovitelných zdrojů energie",
+                    "_gcp/gemini-1.5-pro_cs": "Elektřina ze 100% obnovitelných zdrojů energie \n",
+                    "_compare_azure/gpt-4-vision_cs": "Elektřina ze 100% obnovitelných zdrojů energie",
+                    "_compare_gcp/gemini-1.5-pro_cs": "Elektřina ze 100% obnovitelných zdrojů energie",
+                    "_compare_aws/claude-3.5-sonnet_cs": "Elektřina ze 100% obnovitelných zdrojů energie",
+                    "_unique_translations_back_cs": [
+                        "Strom aus 100% erneuerbaren Energiequellen"
+                    ],
+                    "_azure/gpt-4-vision_da": "Strøm fra 100% vedvarende energikilder",
+                    "_gcp/gemini-1.5-pro_da": "El fra 100 % vedvarende energikilder\n",
+                    "_compare_azure/gpt-4-vision_da": "El fra 100 % vedvarende energikilder",
+                    "_compare_gcp/gemini-1.5-pro_da": "Strøm fra 100% vedvarende energikilder",
+                    "_compare_aws/claude-3.5-sonnet_da": "Strøm fra 100% vedvarende energikilder",
+                    "_unique_translations_back_da": [
+                        "Strom aus 100% erneuerbaren Energiequellen",
+                        "Strom aus 100% erneuerbaren Energiequellen"
+                    ],
+                    "_azure/gpt-4-vision_de": "Strom aus 100% erneuerbaren Energiequellen",
+                    "_gcp/gemini-1.5-pro_de": "Strom aus 100 % erneuerbaren Energiequellen \n",
+                    "_compare_azure/gpt-4-vision_de": "Strom aus 100% erneuerbaren Energiequellen",
+                    "_compare_gcp/gemini-1.5-pro_de": "Strom aus 100 % erneuerbaren Energiequellen",
+                    "_compare_aws/claude-3.5-sonnet_de": "Strom aus 100% erneuerbaren Energiequellen",
+                    "_unique_translations_back_de": [
+                        "Strom aus 100% erneuerbaren Energiequellen",
+                        "Strom aus 100 % erneuerbaren Energiequellen"
+                    ],
+                    "_azure/gpt-4-vision_el": "Ηλεκτρισμός από 100% ανανεώσιμες πηγές ενέργειας",
+                    "_gcp/gemini-1.5-pro_el": "Ηλεκτρισμός από 100% ανανεώσιμες πηγές ενέργειας \n",
+                    "_compare_azure/gpt-4-vision_el": "Ηλεκτρισμός από 100% ανανεώσιμες πηγές ενέργειας",
+                    "_compare_gcp/gemini-1.5-pro_el": "Ηλεκτρισμός από 100% ανανεώσιμες πηγές ενέργειας",
+                    "_compare_aws/claude-3.5-sonnet_el": "Ηλεκτρισμός από 100% ανανεώσιμες πηγές ενέργειας",
+                    "_unique_translations_back_el": [
+                        "Strom aus 100% erneuerbaren Energiequellen"
+                    ],
+                    "_azure/gpt-4-vision_en": "Electricity from 100% renewable energy sources",
+                    "_gcp/gemini-1.5-pro_en": "Electricity from 100% renewable energy sources \n",
+                    "_compare_azure/gpt-4-vision_en": "Electricity from 100% renewable energy sources",
+                    "_compare_gcp/gemini-1.5-pro_en": "Electricity from 100% renewable energy sources",
+                    "_compare_aws/claude-3.5-sonnet_en": "Electricity from 100% renewable energy sources",
+                    "_unique_translations_back_en": [
+                        "Strom aus 100% erneuerbaren Energiequellen"
+                    ],
+                    "_azure/gpt-4-vision_es": "Electricidad de fuentes de energía renovables al 100%",
+                    "_gcp/gemini-1.5-pro_es": "Electricidad procedente de fuentes 100% renovables\n",
+                    "_compare_azure/gpt-4-vision_es": "Electricidad procedente de fuentes 100% renovables",
+                    "_compare_gcp/gemini-1.5-pro_es": "Electricidad procedente de fuentes 100% renovables",
+                    "_compare_aws/claude-3.5-sonnet_es": "Electricidad de fuentes de energía renovables al 100%",
+                    "_unique_translations_back_es": [
+                        "Strom aus 100% erneuerbaren Energiequellen",
+                        "Strom aus 100% erneuerbaren Energiequellen"
+                    ],
+                    "_azure/gpt-4-vision_et": "Elekter 100% taastuvatest energiaallikatest",
+                    "_gcp/gemini-1.5-pro_et": "Elekter 100% taastuvatest energiaallikatest\n",
+                    "_compare_azure/gpt-4-vision_et": "Elekter 100% taastuvatest energiaallikatest",
+                    "_compare_gcp/gemini-1.5-pro_et": "Elekter 100% taastuvatest energiaallikatest",
+                    "_compare_aws/claude-3.5-sonnet_et": "Elekter 100% taastuvatest energiaallikatest",
+                    "_unique_translations_back_et": [
+                        "Strom aus 100% erneuerbaren Energiequellen"
+                    ],
+                    "_azure/gpt-4-vision_fi": "Sähkö 100% uusiutuvista energialähteistä",
+                    "_gcp/gemini-1.5-pro_fi": "Sähköä 100-prosenttisesti uusiutuvista energialähteistä \n",
+                    "_compare_azure/gpt-4-vision_fi": "Sähköä 100-prosenttisesti uusiutuvista energialähteistä",
+                    "_compare_gcp/gemini-1.5-pro_fi": "Sähköä 100-prosenttisesti uusiutuvista energialähteistä",
+                    "_compare_aws/claude-3.5-sonnet_fi": "Sähkö 100% uusiutuvista energialähteistä",
+                    "_unique_translations_back_fi": [
+                        "Strom aus 100% erneuerbaren Energiequellen",
+                        "Strom aus 100% erneuerbaren Energiequellen"
+                    ],
+                    "_azure/gpt-4-vision_fr": "Électricité issue de sources d'énergie renouvelables à 100%",
+                    "_gcp/gemini-1.5-pro_fr": "Électricité provenant à 100 % de sources dénergie renouvelables",
+                    "_compare_azure/gpt-4-vision_fr": "Électricité provenant à 100 % de sources dénergie renouvelables",
+                    "_compare_gcp/gemini-1.5-pro_fr": "Électricité issue de sources d'énergie renouvelables à 100%",
+                    "_compare_aws/claude-3.5-sonnet_fr": "Électricité issue de sources d'énergie renouvelables à 100%",
+                    "_unique_translations_back_fr": [
+                        "Strom aus 100% erneuerbaren Energiequellen",
+                        "Strom aus 100% erneuerbaren Energiequellen"
+                    ],
+                    "_azure/gpt-4-vision_ga": "Leictreachas ó 100% foinsí fuinnimh in-athnuaite",
+                    "_gcp/gemini-1.5-pro_ga": "Leictreachas ó fhoinsí fuinnimh 100% in-athnuaite",
+                    "_compare_azure/gpt-4-vision_ga": "Leictreachas ó 100% foinsí fuinnimh in-athnuaite",
+                    "_compare_gcp/gemini-1.5-pro_ga": "Leictreachas ó fhoinsí fuinnimh 100% in-athnuaite",
+                    "_compare_aws/claude-3.5-sonnet_ga": "Leictreachas ó fhoinsí fuinnimh 100% in-athnuaite",
+                    "_unique_translations_back_ga": [
+                        "Strom aus 100% erneuerbaren Energiequellen",
+                        "Strom aus 100% erneuerbaren Energiequellen"
+                    ],
+                    "_azure/gpt-4-vision_hr": "Struja iz 100% obnovljivih izvora energije",
+                    "_gcp/gemini-1.5-pro_hr": "Struja iz 100% obnovljivih izvora energije",
+                    "_compare_azure/gpt-4-vision_hr": "Struja iz 100% obnovljivih izvora energije",
+                    "_compare_gcp/gemini-1.5-pro_hr": "Struja iz 100% obnovljivih izvora energije",
+                    "_compare_aws/claude-3.5-sonnet_hr": "Struja iz 100% obnovljivih izvora energije",
+                    "_unique_translations_back_hr": [
+                        "Strom aus 100% erneuerbaren Energiequellen"
+                    ],
+                    "_azure/gpt-4-vision_hu": "Áram 100%-ban megújuló energiaforrásokból",
+                    "_gcp/gemini-1.5-pro_hu": "100%-ban megújuló energiaforrásokból származó áram \n",
+                    "_compare_azure/gpt-4-vision_hu": "100%-ban megújuló energiaforrásokból származó áram",
+                    "_compare_gcp/gemini-1.5-pro_hu": "Áram 100%-ban megújuló energiaforrásokból",
+                    "_compare_aws/claude-3.5-sonnet_hu": "Áram 100%-ban megújuló energiaforrásokból",
+                    "_unique_translations_back_hu": [
+                        "Strom aus 100% erneuerbaren Energiequellen",
+                        "Strom aus 100% erneuerbaren Energiequellen"
+                    ],
+                    "_azure/gpt-4-vision_id": "Listrik dari 100% sumber energi terbarukan",
+                    "_gcp/gemini-1.5-pro_id": "Listrik dari 100% sumber energi terbarukan",
+                    "_compare_azure/gpt-4-vision_id": "Listrik dari 100% sumber energi terbarukan",
+                    "_compare_gcp/gemini-1.5-pro_id": "Listrik dari 100% sumber energi terbarukan",
+                    "_compare_aws/claude-3.5-sonnet_id": "Listrik dari 100% sumber energi terbarukan",
+                    "_unique_translations_back_id": [
+                        "Strom aus 100% erneuerbaren Energiequellen"
+                    ],
+                    "_azure/gpt-4-vision_it": "Elettricità da fonti energetiche rinnovabili al 100%",
+                    "_gcp/gemini-1.5-pro_it": "Elettricità da fonti rinnovabili al 100%",
+                    "_compare_azure/gpt-4-vision_it": "Elettricità da fonti rinnovabili al 100%",
+                    "_compare_gcp/gemini-1.5-pro_it": "Elettricità da fonti energetiche rinnovabili al 100%",
+                    "_compare_aws/claude-3.5-sonnet_it": "Elettricità da fonti energetiche rinnovabili al 100%",
+                    "_unique_translations_back_it": [
+                        "Strom aus 100% erneuerbaren Energiequellen",
+                        "Strom aus 100% erneuerbaren Energiequellen"
+                    ],
+                    "_azure/gpt-4-vision_ja": "100%再生可能エネルギー源からの電力",
+                    "_gcp/gemini-1.5-pro_ja": "100％再生可能エネルギー由来の電力",
+                    "_compare_azure/gpt-4-vision_ja": "100%再生可能エネルギー源からの電力",
+                    "_compare_gcp/gemini-1.5-pro_ja": "100％再生可能エネルギー由来の電力",
+                    "_compare_aws/claude-3.5-sonnet_ja": "100％再生可能エネルギー由来の電力",
+                    "_unique_translations_back_ja": [
+                        "Strom aus 100% erneuerbaren Energiequellen",
+                        "Strom aus 100% erneuerbaren Energiequellen"
+                    ],
+                    "_azure/gpt-4-vision_ko": "100% 재생 가능한 에너지 원에서 생산된 전기",
+                    "_gcp/gemini-1.5-pro_ko": "100% 재생 가능 에너지원으로 만든 전기",
+                    "_compare_azure/gpt-4-vision_ko": "100% 재생 가능 에너지원으로 만든 전기",
+                    "_compare_gcp/gemini-1.5-pro_ko": "100% 재생 가능한 에너지 원에서 생산된 전기",
+                    "_compare_aws/claude-3.5-sonnet_ko": "100% 재생 가능한 에너지 원에서 생산된 전기",
+                    "_unique_translations_back_ko": [
+                        "Strom aus 100% erneuerbaren Energiequellen",
+                        "Strom aus 100% erneuerbaren Energiequellen"
+                    ],
+                    "_azure/gpt-4-vision_lv": "Elektrība no 100% atjaunojamajiem enerģijas avotiem",
+                    "_gcp/gemini-1.5-pro_lv": "Elektroenerģija no 100% atjaunojamiem enerģijas avotiem \n",
+                    "_compare_azure/gpt-4-vision_lv": "Elektrība no 100% atjaunojamajiem enerģijas avotiem",
+                    "_compare_gcp/gemini-1.5-pro_lv": "Elektroenerģija no 100% atjaunojamiem enerģijas avotiem",
+                    "_compare_aws/claude-3.5-sonnet_lv": "Elektroenerģija no 100% atjaunojamiem enerģijas avotiem",
+                    "_unique_translations_back_lv": [
+                        "Strom aus 100% erneuerbaren Energiequellen",
+                        "Strom aus 100% erneuerbaren Energiequellen"
+                    ],
+                    "_azure/gpt-4-vision_lt": "Elektra iš 100% atsinaujinančių energijos šaltinių",
+                    "_gcp/gemini-1.5-pro_lt": "Elektra iš 100 % atsinaujinančių energijos šaltinių \n",
+                    "_compare_azure/gpt-4-vision_lt": "Elektra iš 100% atsinaujinančių energijos šaltinių",
+                    "_compare_gcp/gemini-1.5-pro_lt": "Elektra iš 100% atsinaujinančių energijos šaltinių",
+                    "_compare_aws/claude-3.5-sonnet_lt": "Elektra iš 100 % atsinaujinančių energijos šaltinių",
+                    "_unique_translations_back_lt": [
+                        "Strom aus 100% erneuerbaren Energiequellen",
+                        "Strom aus 100% erneuerbaren Energiequellen"
+                    ],
+                    "_azure/gpt-4-vision_mt": "Elettriku minn sorsi ta' enerġija rinnovabbli 100%",
+                    "_gcp/gemini-1.5-pro_mt": "Elettriku minn sorsi ta' enerġija 100% rinnovabbli \n",
+                    "_compare_azure/gpt-4-vision_mt": "Elettriku minn sorsi ta' enerġija 100% rinnovabbli",
+                    "_compare_gcp/gemini-1.5-pro_mt": "Elettriku minn sorsi ta' enerġija rinnovabbli 100%",
+                    "_compare_aws/claude-3.5-sonnet_mt": "Elettriku minn sorsi ta' enerġija 100% rinnovabbli",
+                    "_unique_translations_back_mt": [
+                        "Strom aus 100% erneuerbaren Energiequellen",
+                        "Strom aus 100% erneuerbaren Energiequellen"
+                    ],
+                    "_azure/gpt-4-vision_nl": "Stroom uit 100% hernieuwbare energiebronnen",
+                    "_gcp/gemini-1.5-pro_nl": "Stroom uit 100% hernieuwbare energiebronnen \n",
+                    "_compare_azure/gpt-4-vision_nl": "Stroom uit 100% hernieuwbare energiebronnen",
+                    "_compare_gcp/gemini-1.5-pro_nl": "Stroom uit 100% hernieuwbare energiebronnen",
+                    "_compare_aws/claude-3.5-sonnet_nl": "Stroom uit 100% hernieuwbare energiebronnen",
+                    "_unique_translations_back_nl": [
+                        "Strom aus 100% erneuerbaren Energiequellen"
+                    ],
+                    "_azure/gpt-4-vision_pl": "Energia elektryczna z 100% odnawialnych źródeł energii",
+                    "_gcp/gemini-1.5-pro_pl": "Energia elektryczna ze 100% odnawialnych źródeł energii \n",
+                    "_compare_azure/gpt-4-vision_pl": "Energia elektryczna z 100% odnawialnych źródeł energii",
+                    "_compare_gcp/gemini-1.5-pro_pl": "Energia elektryczna z 100% odnawialnych źródeł energii",
+                    "_compare_aws/claude-3.5-sonnet_pl": "Energia elektryczna ze 100% odnawialnych źródeł energii",
+                    "_unique_translations_back_pl": [
+                        "Strom aus 100% erneuerbaren Energiequellen",
+                        "Strom aus 100 % erneuerbaren Energiequellen"
+                    ],
+                    "_azure/gpt-4-vision_ro": "Electricitate din surse de energie regenerabilă 100%",
+                    "_gcp/gemini-1.5-pro_ro": "Electricitate din surse 100% regenerabile",
+                    "_compare_azure/gpt-4-vision_ro": "Electricitate din surse 100% regenerabile",
+                    "_compare_gcp/gemini-1.5-pro_ro": "Electricitate din surse 100% regenerabile",
+                    "_compare_aws/claude-3.5-sonnet_ro": "Electricitate din surse 100% regenerabile",
+                    "_unique_translations_back_ro": [
+                        "Strom aus 100% erneuerbaren Energiequellen",
+                        "Strom aus 100% erneuerbaren Energiequellen"
+                    ],
+                    "_azure/gpt-4-vision_ru": "Электричество из 100% возобновляемых источников энергии",
+                    "_gcp/gemini-1.5-pro_ru": "Электричество из 100% возобновляемых источников энергии \n",
+                    "_compare_azure/gpt-4-vision_ru": "Электричество из 100% возобновляемых источников энергии",
+                    "_compare_gcp/gemini-1.5-pro_ru": "Электричество из 100% возобновляемых источников энергии",
+                    "_compare_aws/claude-3.5-sonnet_ru": "Электричество из 100% возобновляемых источников энергии",
+                    "_unique_translations_back_ru": [
+                        "Strom aus 100% erneuerbaren Energiequellen"
+                    ],
+                    "_azure/gpt-4-vision_sk": "Elektrina zo 100% obnoviteľných zdrojov energie",
+                    "_gcp/gemini-1.5-pro_sk": "Elektrina zo 100 % obnoviteľných zdrojov energie \n",
+                    "_compare_azure/gpt-4-vision_sk": "Elektrina zo 100% obnoviteľných zdrojov energie",
+                    "_compare_gcp/gemini-1.5-pro_sk": "Elektrina zo 100% obnoviteľných zdrojov energie",
+                    "_compare_aws/claude-3.5-sonnet_sk": "Elektrina zo 100 % obnoviteľných zdrojov energie",
+                    "_unique_translations_back_sk": [
+                        "Strom aus 100% erneuerbaren Energiequellen",
+                        "Strom aus 100% erneuerbaren Energiequellen"
+                    ],
+                    "_azure/gpt-4-vision_sl": "Elektrika iz 100% obnovljivih virov energije",
+                    "_gcp/gemini-1.5-pro_sl": "Elektrika iz 100 % obnovljivih virov energije. \n",
+                    "_compare_azure/gpt-4-vision_sl": "Elektrika iz 100% obnovljivih virov energije",
+                    "_compare_gcp/gemini-1.5-pro_sl": "Elektrika iz 100 % obnovljivih virov energije",
+                    "_compare_aws/claude-3.5-sonnet_sl": "Elektrika iz 100 % obnovljivih virov energije",
+                    "_unique_translations_back_sl": [
+                        "Strom aus 100% erneuerbaren Energiequellen",
+                        "Strom aus 100 % erneuerbaren Energiequellen"
+                    ],
+                    "_azure/gpt-4-vision_zh": "来自100%可再生能源的电力",
+                    "_gcp/gemini-1.5-pro_zh": "100%可再生能源发电",
+                    "_compare_azure/gpt-4-vision_zh": "来自100%可再生能源的电力",
+                    "_compare_gcp/gemini-1.5-pro_zh": "来自100%可再生能源的电力",
+                    "_compare_aws/claude-3.5-sonnet_zh": "来自100%可再生能源的电力",
+                    "_unique_translations_back_zh": [
                         "Strom aus 100% erneuerbaren Energiequellen",
                         "Strom aus 100% erneuerbaren Energiequellen"
                     ]
@@ -81,6 +562,244 @@
                     "_compare_aws/claude-3.5-sonnet_sv": "Resultaten är här!",
                     "_unique_translations_back_sv": [
                         "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_ar": "النتائج جاهزة!",
+                    "_gcp/gemini-1.5-pro_ar": "النتائج جاهزة! \n",
+                    "_compare_azure/gpt-4-vision_ar": "النتائج جاهزة!",
+                    "_compare_gcp/gemini-1.5-pro_ar": "النتائج جاهزة!",
+                    "_compare_aws/claude-3.5-sonnet_ar": "النتائج جاهزة!",
+                    "_unique_translations_back_ar": [
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_bg": "Резултатите са тук!",
+                    "_gcp/gemini-1.5-pro_bg": "Резултатите са готови!\n",
+                    "_compare_azure/gpt-4-vision_bg": "Резултатите са тук!",
+                    "_compare_gcp/gemini-1.5-pro_bg": "Резултатите са готови!",
+                    "_compare_aws/claude-3.5-sonnet_bg": "Резултатите са тук!",
+                    "_unique_translations_back_bg": [
+                        "Die Ergebnisse sind da!",
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_cs": "Výsledky jsou tady!",
+                    "_gcp/gemini-1.5-pro_cs": "Výsledky jsou tady! \n",
+                    "_compare_azure/gpt-4-vision_cs": "Výsledky jsou tady!",
+                    "_compare_gcp/gemini-1.5-pro_cs": "Výsledky jsou tady!",
+                    "_compare_aws/claude-3.5-sonnet_cs": "Výsledky jsou tady!",
+                    "_unique_translations_back_cs": [
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_da": "Resultaterne er her!",
+                    "_gcp/gemini-1.5-pro_da": "Resultaterne er klar! \n",
+                    "_compare_azure/gpt-4-vision_da": "Resultaterne er her!",
+                    "_compare_gcp/gemini-1.5-pro_da": "Resultaterne er her!",
+                    "_compare_aws/claude-3.5-sonnet_da": "Resultaterne er her!",
+                    "_unique_translations_back_da": [
+                        "Die Ergebnisse sind da!",
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_de": "Die Ergebnisse sind da!",
+                    "_gcp/gemini-1.5-pro_de": "Die Ergebnisse sind da! \n",
+                    "_compare_azure/gpt-4-vision_de": "Die Ergebnisse sind da!",
+                    "_compare_gcp/gemini-1.5-pro_de": "Die Ergebnisse sind da!",
+                    "_compare_aws/claude-3.5-sonnet_de": "Die Ergebnisse sind da!",
+                    "_unique_translations_back_de": [
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_el": "Τα αποτελέσματα είναι εδώ!",
+                    "_gcp/gemini-1.5-pro_el": "Τα αποτελέσματα βγήκαν! \n",
+                    "_compare_azure/gpt-4-vision_el": "Τα αποτελέσματα είναι εδώ!",
+                    "_compare_gcp/gemini-1.5-pro_el": "Τα αποτελέσματα είναι εδώ!",
+                    "_compare_aws/claude-3.5-sonnet_el": "Τα αποτελέσματα είναι εδώ!",
+                    "_unique_translations_back_el": [
+                        "Die Ergebnisse sind da!",
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_en": "The results are in!",
+                    "_gcp/gemini-1.5-pro_en": "The results are in! \n",
+                    "_compare_azure/gpt-4-vision_en": "The results are in!",
+                    "_compare_gcp/gemini-1.5-pro_en": "The results are in!",
+                    "_compare_aws/claude-3.5-sonnet_en": "The results are in!",
+                    "_unique_translations_back_en": [
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_es": "Los resultados están aquí.",
+                    "_gcp/gemini-1.5-pro_es": "¡Los resultados están aquí! \n",
+                    "_compare_azure/gpt-4-vision_es": "¡Los resultados están aquí!",
+                    "_compare_gcp/gemini-1.5-pro_es": "¡Los resultados están aquí!",
+                    "_compare_aws/claude-3.5-sonnet_es": "¡Los resultados están aquí!",
+                    "_unique_translations_back_es": [
+                        "Die Ergebnisse sind da!",
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_et": "Tulemused on käes!",
+                    "_gcp/gemini-1.5-pro_et": "Tulemused on saabunud! \n",
+                    "_compare_azure/gpt-4-vision_et": "Tulemused on käes!",
+                    "_compare_gcp/gemini-1.5-pro_et": "Tulemused on käes!",
+                    "_compare_aws/claude-3.5-sonnet_et": "Tulemused on käes!",
+                    "_unique_translations_back_et": [
+                        "Die Ergebnisse sind da!",
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_fi": "Tulokset ovat täällä!",
+                    "_gcp/gemini-1.5-pro_fi": "Tulokset ovat tässä! \n",
+                    "_compare_azure/gpt-4-vision_fi": "Tulokset ovat tässä!",
+                    "_compare_gcp/gemini-1.5-pro_fi": "Tulokset ovat tässä!",
+                    "_compare_aws/claude-3.5-sonnet_fi": "Tulokset ovat täällä!",
+                    "_unique_translations_back_fi": [
+                        "Die Ergebnisse sind da!",
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_fr": "Les résultats sont là !",
+                    "_gcp/gemini-1.5-pro_fr": "Les résultats sont là ! \n",
+                    "_compare_azure/gpt-4-vision_fr": "Les résultats sont là !",
+                    "_compare_gcp/gemini-1.5-pro_fr": "Les résultats sont là !",
+                    "_compare_aws/claude-3.5-sonnet_fr": "Les résultats sont là !",
+                    "_unique_translations_back_fr": [
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_ga": "Tá na torthaí istigh!",
+                    "_gcp/gemini-1.5-pro_ga": "Tá na torthaí istigh! \n",
+                    "_compare_azure/gpt-4-vision_ga": "Tá na torthaí istigh!",
+                    "_compare_gcp/gemini-1.5-pro_ga": "Tá na torthaí istigh!",
+                    "_compare_aws/claude-3.5-sonnet_ga": "Tá na torthaí istigh!",
+                    "_unique_translations_back_ga": [
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_hr": "Rezultati su tu!",
+                    "_gcp/gemini-1.5-pro_hr": "Rezultati su tu! \n",
+                    "_compare_azure/gpt-4-vision_hr": "Rezultati su tu!",
+                    "_compare_gcp/gemini-1.5-pro_hr": "Rezultati su tu!",
+                    "_compare_aws/claude-3.5-sonnet_hr": "Rezultati su tu!",
+                    "_unique_translations_back_hr": [
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_hu": "Az eredmények megérkeztek!",
+                    "_gcp/gemini-1.5-pro_hu": "Megérkeztek az eredmények! \n",
+                    "_compare_azure/gpt-4-vision_hu": "Megérkeztek az eredmények!",
+                    "_compare_gcp/gemini-1.5-pro_hu": "Megérkeztek az eredmények!",
+                    "_compare_aws/claude-3.5-sonnet_hu": "Megérkeztek az eredmények!",
+                    "_unique_translations_back_hu": [
+                        "Die Ergebnisse sind da!",
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_id": "Hasilnya sudah keluar!",
+                    "_gcp/gemini-1.5-pro_id": "Hasilnya sudah ada! \n",
+                    "_compare_azure/gpt-4-vision_id": "Hasilnya sudah keluar!",
+                    "_compare_gcp/gemini-1.5-pro_id": "Hasilnya sudah ada!",
+                    "_compare_aws/claude-3.5-sonnet_id": "Hasilnya sudah ada!",
+                    "_unique_translations_back_id": [
+                        "Die Ergebnisse sind da!",
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_it": "I risultati sono arrivati!",
+                    "_gcp/gemini-1.5-pro_it": "I risultati sono arrivati! \n",
+                    "_compare_azure/gpt-4-vision_it": "I risultati sono arrivati!",
+                    "_compare_gcp/gemini-1.5-pro_it": "I risultati sono arrivati!",
+                    "_compare_aws/claude-3.5-sonnet_it": "I risultati sono arrivati!",
+                    "_unique_translations_back_it": [
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_ja": "結果が出ました!",
+                    "_gcp/gemini-1.5-pro_ja": "結果が出ました！ \n",
+                    "_compare_azure/gpt-4-vision_ja": "結果が出ました！",
+                    "_compare_gcp/gemini-1.5-pro_ja": "結果が出ました！",
+                    "_compare_aws/claude-3.5-sonnet_ja": "結果が出ました!",
+                    "_unique_translations_back_ja": [
+                        "Die Ergebnisse sind da!",
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_ko": "결과가 나왔습니다!",
+                    "_gcp/gemini-1.5-pro_ko": "결과가 나왔습니다! \n",
+                    "_compare_azure/gpt-4-vision_ko": "결과가 나왔습니다!",
+                    "_compare_gcp/gemini-1.5-pro_ko": "결과가 나왔습니다!",
+                    "_compare_aws/claude-3.5-sonnet_ko": "결과가 나왔습니다!",
+                    "_unique_translations_back_ko": [
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_lv": "Rezultāti ir klāt!",
+                    "_gcp/gemini-1.5-pro_lv": "Rezultāti ir klāt! \n",
+                    "_compare_azure/gpt-4-vision_lv": "Rezultāti ir klāt!",
+                    "_compare_gcp/gemini-1.5-pro_lv": "Rezultāti ir klāt!",
+                    "_compare_aws/claude-3.5-sonnet_lv": "Rezultāti ir klāt!",
+                    "_unique_translations_back_lv": [
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_lt": "Rezultatai jau čia!",
+                    "_gcp/gemini-1.5-pro_lt": "Gauti rezultatai! \n",
+                    "_compare_azure/gpt-4-vision_lt": "Rezultatai jau čia!",
+                    "_compare_gcp/gemini-1.5-pro_lt": "Rezultatai jau čia!",
+                    "_compare_aws/claude-3.5-sonnet_lt": "Rezultatai jau čia!",
+                    "_unique_translations_back_lt": [
+                        "Die Ergebnisse sind da!",
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_mt": "Ir-riżultati waslu!",
+                    "_gcp/gemini-1.5-pro_mt": "Ir-riżultati ħarġu! \n",
+                    "_compare_azure/gpt-4-vision_mt": "Ir-riżultati waslu!",
+                    "_compare_gcp/gemini-1.5-pro_mt": "Ir-riżultati ħarġu!",
+                    "_compare_aws/claude-3.5-sonnet_mt": "Ir-riżultati waslu!",
+                    "_unique_translations_back_mt": [
+                        "Die Ergebnisse sind da!",
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_nl": "De resultaten zijn binnen!",
+                    "_gcp/gemini-1.5-pro_nl": "De resultaten zijn bekend! \n",
+                    "_compare_azure/gpt-4-vision_nl": "De resultaten zijn bekend!",
+                    "_compare_gcp/gemini-1.5-pro_nl": "De resultaten zijn bekend!",
+                    "_compare_aws/claude-3.5-sonnet_nl": "De resultaten zijn binnen!",
+                    "_unique_translations_back_nl": [
+                        "Die Ergebnisse sind da!",
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_pl": "Wyniki są już dostępne!",
+                    "_gcp/gemini-1.5-pro_pl": "Wyniki są już dostępne!",
+                    "_compare_azure/gpt-4-vision_pl": "Wyniki są już dostępne!",
+                    "_compare_gcp/gemini-1.5-pro_pl": "Wyniki są już dostępne!",
+                    "_compare_aws/claude-3.5-sonnet_pl": "Wyniki są już dostępne!",
+                    "_unique_translations_back_pl": [
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_ro": "Rezultatele au sosit!",
+                    "_gcp/gemini-1.5-pro_ro": "Rezultatele sunt gata! \n",
+                    "_compare_azure/gpt-4-vision_ro": "Rezultatele au sosit!",
+                    "_compare_gcp/gemini-1.5-pro_ro": "Rezultatele sunt gata!",
+                    "_compare_aws/claude-3.5-sonnet_ro": "Rezultatele sunt gata!",
+                    "_unique_translations_back_ro": [
+                        "Die Ergebnisse sind da!",
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_ru": "Результаты подведены!",
+                    "_gcp/gemini-1.5-pro_ru": "Результаты подведены! \n",
+                    "_compare_azure/gpt-4-vision_ru": "Результаты подведены!",
+                    "_compare_gcp/gemini-1.5-pro_ru": "Результаты подведены!",
+                    "_compare_aws/claude-3.5-sonnet_ru": "Результаты подведены!",
+                    "_unique_translations_back_ru": [
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_sk": "Výsledky sú tu!",
+                    "_gcp/gemini-1.5-pro_sk": "Výsledky sú tu! \n",
+                    "_compare_azure/gpt-4-vision_sk": "Výsledky sú tu!",
+                    "_compare_gcp/gemini-1.5-pro_sk": "Výsledky sú tu!",
+                    "_compare_aws/claude-3.5-sonnet_sk": "Výsledky sú tu!",
+                    "_unique_translations_back_sk": [
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_sl": "Rezultati so tu!",
+                    "_gcp/gemini-1.5-pro_sl": "Rezultati so tukaj! \n",
+                    "_compare_azure/gpt-4-vision_sl": "Rezultati so tukaj!",
+                    "_compare_gcp/gemini-1.5-pro_sl": "Rezultati so tukaj!",
+                    "_compare_aws/claude-3.5-sonnet_sl": "Rezultati so tu!",
+                    "_unique_translations_back_sl": [
+                        "Die Ergebnisse sind da!",
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_zh": "结果出来了！",
+                    "_gcp/gemini-1.5-pro_zh": "结果出来了！ \n",
+                    "_compare_azure/gpt-4-vision_zh": "结果出来了！",
+                    "_compare_gcp/gemini-1.5-pro_zh": "结果出来了！",
+                    "_compare_aws/claude-3.5-sonnet_zh": "结果出来了！",
+                    "_unique_translations_back_zh": [
+                        "Die Ergebnisse sind da!"
                     ]
                 },
                 "body": {
@@ -96,6 +815,258 @@
                     "_compare_aws/claude-3.5-sonnet_sv": "Vid det senaste valet röstade man för att höja CO₂-skatten. Den har därför ökat med 25 euro!",
                     "_unique_translations_back_sv": [
                         "Bei der letzten Wahl wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25€ gestiegen!",
+                        "Bei der letzten Wahl wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25 Euro gestiegen!"
+                    ],
+                    "_azure/gpt-4-vision_ar": "في الانتخابات الأخيرة، تم التصويت لصالح زيادة ضريبة ثاني أكسيد الكربون.<br>لذلك، ارتفعت بمقدار 25 يورو!",
+                    "_gcp/gemini-1.5-pro_ar": "في الانتخابات الأخيرة، تم التصويت على زيادة ضريبة ثاني أكسيد الكربون.<br>لذلك، ارتفعت بمقدار 25 يورو! \n",
+                    "_compare_azure/gpt-4-vision_ar": "في الانتخابات الأخيرة، تم التصويت لصالح زيادة ضريبة ثاني أكسيد الكربون. لذلك، ارتفعت بمقدار 25 يورو!",
+                    "_compare_gcp/gemini-1.5-pro_ar": "في الانتخابات الأخيرة، تم التصويت على زيادة ضريبة ثاني أكسيد الكربون. لذلك، ارتفعت بمقدار 25 يورو!",
+                    "_compare_aws/claude-3.5-sonnet_ar": "في الانتخابات الأخيرة، تم التصويت على زيادة ضريبة ثاني أكسيد الكربون. لذلك، ارتفعت بمقدار 25 يورو!",
+                    "_unique_translations_back_ar": [
+                        "Bei der letzten Wahl wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25 Euro gestiegen!",
+                        "Bei der letzten Wahl wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25 Euro gestiegen!"
+                    ],
+                    "_azure/gpt-4-vision_bg": "На последните избори беше гласувано за увеличение на данъка върху CO₂.<br>Затова той се увеличи с 25 евро!",
+                    "_gcp/gemini-1.5-pro_bg": "На последните избори беше гласувано за увеличение на данъка върху CO₂.<br>Поради това той се е увеличил с 25 евро! \n",
+                    "_compare_azure/gpt-4-vision_bg": "На последните избори беше гласувано за увеличение на данъка върху CO₂. Поради това той се е увеличил с 25 евро!",
+                    "_compare_gcp/gemini-1.5-pro_bg": "На последните избори беше гласувано за увеличение на данъка върху CO₂. Затова той се увеличи с 25 евро!",
+                    "_compare_aws/claude-3.5-sonnet_bg": "На последните избори беше гласувано за увеличение на данъка върху CO₂. Поради това той се е увеличил с 25 евро!",
+                    "_unique_translations_back_bg": [
+                        "Bei der letzten Wahl wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25 Euro gestiegen!",
+                        "Bei der letzten Wahl wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25 Euro gestiegen!"
+                    ],
+                    "_azure/gpt-4-vision_cs": "Na posledních volbách bylo hlasováno pro zvýšení daně z CO₂.<br>Proto vzrostla o 25 €!",
+                    "_gcp/gemini-1.5-pro_cs": "V posledních volbách se hlasovalo o zvýšení daně z CO₂.<br>Proto se zvýšila o 25 €! \n",
+                    "_compare_azure/gpt-4-vision_cs": "Na posledních volbách bylo hlasováno pro zvýšení daně z CO₂. Proto vzrostla o 25 €!",
+                    "_compare_gcp/gemini-1.5-pro_cs": "Na posledních volbách bylo hlasováno pro zvýšení daně z CO₂. Proto vzrostla o 25 €!",
+                    "_compare_aws/claude-3.5-sonnet_cs": "V posledních volbách se hlasovalo o zvýšení daně z CO₂. Proto se zvýšila o 25 €!",
+                    "_unique_translations_back_cs": [
+                        "Bei der letzten Wahl wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25 € gestiegen!",
+                        "Bei der letzten Wahl wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25 € gestiegen!"
+                    ],
+                    "_azure/gpt-4-vision_da": "Ved det sidste valg blev der stemt for at hæve CO₂-afgiften.<br>Den er derfor steget med 25€!",
+                    "_gcp/gemini-1.5-pro_da": "Ved det seneste valg blev der stemt for at hæve CO₂-afgiften.<br>Den er derfor steget med 25 €. \n",
+                    "_compare_azure/gpt-4-vision_da": "Ved det sidste valg blev der stemt for at hæve CO₂-afgiften. Den er derfor steget med 25€!",
+                    "_compare_gcp/gemini-1.5-pro_da": "Ved det seneste valg blev der stemt for at hæve CO₂-afgiften. Den er derfor steget med 25 €",
+                    "_compare_aws/claude-3.5-sonnet_da": "Ved det sidste valg blev der stemt for at hæve CO₂-afgiften. Den er derfor steget med 25€!",
+                    "_unique_translations_back_da": [
+                        "Bei der letzten Wahl wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25 € gestiegen!",
+                        "Bei der letzten Wahl wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25€ gestiegen!"
+                    ],
+                    "_azure/gpt-4-vision_de": "Bei der letzten Wahl wurde für die Erhöhung der CO₂-Steuer gestimmt. Sie ist deshalb um 25€ gestiegen!",
+                    "_gcp/gemini-1.5-pro_de": "Bei der letzten Wahl wurde für die Erhöhung der CO₂-Steuer gestimmt.<br>Sie ist deshalb um 25 € gestiegen! \n",
+                    "_compare_azure/gpt-4-vision_de": "Bei der letzten Wahl wurde für die Erhöhung der CO₂-Steuer gestimmt. Sie ist deshalb um 25€ gestiegen!",
+                    "_compare_gcp/gemini-1.5-pro_de": "Bei der letzten Wahl wurde für die Erhöhung der CO₂-Steuer gestimmt. Sie ist deshalb um 25 € gestiegen!",
+                    "_compare_aws/claude-3.5-sonnet_de": "Bei der letzten Wahl wurde für die Erhöhung der CO₂-Steuer gestimmt. Sie ist deshalb um 25 € gestiegen!",
+                    "_unique_translations_back_de": [
+                        "Bei der letzten Wahl wurde für die Erhöhung der CO₂-Steuer gestimmt. Sie ist deshalb um 25€ gestiegen!",
+                        "Bei der letzten Wahl wurde für die Erhöhung der CO₂-Steuer gestimmt. Sie ist deshalb um 25 € gestiegen!"
+                    ],
+                    "_azure/gpt-4-vision_el": "Στις τελευταίες εκλογές ψηφίστηκε υπέρ της αύξησης του φόρου CO₂.<br>Ως εκ τούτου, αυξήθηκε κατά 25€!",
+                    "_gcp/gemini-1.5-pro_el": "Στις τελευταίες εκλογές, ψηφίστηκε η αύξηση του φόρου CO₂.<br>Ως εκ τούτου, έχει αυξηθεί κατά 25€! \n",
+                    "_compare_azure/gpt-4-vision_el": "Στις τελευταίες εκλογές ψηφίστηκε υπέρ της αύξησης του φόρου CO₂. Ως εκ τούτου, αυξήθηκε κατά 25€!",
+                    "_compare_gcp/gemini-1.5-pro_el": "Στις τελευταίες εκλογές, ψηφίστηκε η αύξηση του φόρου CO₂. Ως εκ τούτου, έχει αυξηθεί κατά 25€!",
+                    "_compare_aws/claude-3.5-sonnet_el": "Στις τελευταίες εκλογές ψηφίστηκε υπέρ της αύξησης του φόρου CO₂. Ως εκ τούτου, αυξήθηκε κατά 25€!",
+                    "_unique_translations_back_el": [
+                        "Bei der letzten Wahl wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25€ gestiegen!",
+                        "Bei der letzten Wahl wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25€ gestiegen!"
+                    ],
+                    "_azure/gpt-4-vision_en": "In the last election, there was a vote in favor of increasing the CO₂ tax.<br>As a result, it has risen by €25!",
+                    "_gcp/gemini-1.5-pro_en": "In the last election, the CO₂ tax was voted to increase.<br>It has therefore gone up by €25! \n",
+                    "_compare_azure/gpt-4-vision_en": "In the last election, there was a vote in favor of increasing the CO₂ tax. As a result, it has risen by €25!",
+                    "_compare_gcp/gemini-1.5-pro_en": "In the last election, the CO₂ tax was voted to increase. It has therefore gone up by €25!",
+                    "_compare_aws/claude-3.5-sonnet_en": "In the last election, the CO₂ tax was voted to increase. It has therefore gone up by €25!",
+                    "_unique_translations_back_en": [
+                        "Bei der letzten Wahl wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25 € gestiegen!",
+                        "Bei der letzten Wahl wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25 € gestiegen!"
+                    ],
+                    "_azure/gpt-4-vision_es": "En las últimas elecciones se votó a favor de aumentar el impuesto al CO₂.<br>Por lo tanto, ha aumentado en 25€.",
+                    "_gcp/gemini-1.5-pro_es": "En las últimas elecciones, se votó a favor de aumentar el impuesto sobre el CO₂.<br>¡Por lo tanto, ha subido 25 €! \n",
+                    "_compare_azure/gpt-4-vision_es": "En las últimas elecciones, se votó a favor de aumentar el impuesto sobre el CO₂. ¡Por lo tanto, ha subido 25 €!",
+                    "_compare_gcp/gemini-1.5-pro_es": "En las últimas elecciones se votó a favor de aumentar el impuesto al CO₂. Por lo tanto, ha aumentado en 25€",
+                    "_compare_aws/claude-3.5-sonnet_es": "En las últimas elecciones se votó a favor de aumentar el impuesto al CO₂. Por lo tanto, ha aumentado en 25€",
+                    "_unique_translations_back_es": [
+                        "Bei der letzten Wahl wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25 € gestiegen!",
+                        "Bei den letzten Wahlen wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25€ gestiegen!"
+                    ],
+                    "_azure/gpt-4-vision_et": "Viimasel valimisel hääletati CO₂-maksu tõstmise poolt.<br>Seetõttu on see tõusnud 25 euro võrra!",
+                    "_gcp/gemini-1.5-pro_et": "Viimastel valimistel hääletati CO₂-maksu tõstmise poolt.<br>Seega on see 25 euro võrra tõusnud! \n",
+                    "_compare_azure/gpt-4-vision_et": "Viimasel valimisel hääletati CO₂-maksu tõstmise poolt. Seetõttu on see tõusnud 25 euro võrra!",
+                    "_compare_gcp/gemini-1.5-pro_et": "Viimastel valimistel hääletati CO₂-maksu tõstmise poolt. Seega on see 25 euro võrra tõusnud!",
+                    "_compare_aws/claude-3.5-sonnet_et": "Viimasel valimisel hääletati CO₂-maksu tõstmise poolt. Seetõttu on see tõusnud 25 euro võrra!",
+                    "_unique_translations_back_et": [
+                        "Bei der letzten Wahl wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25 Euro gestiegen!",
+                        "Bei der letzten Wahl wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25 Euro gestiegen!"
+                    ],
+                    "_azure/gpt-4-vision_fi": "Viimeisissä vaaleissa äänestettiin CO₂-veron korottamisen puolesta.<br>Se on siksi noussut 25 eurolla!",
+                    "_gcp/gemini-1.5-pro_fi": "Viime vaaleissa äänestettiin CO₂-veron korottamisen puolesta.<br>Se on siksi noussut 25 €! \n",
+                    "_compare_azure/gpt-4-vision_fi": "Viimeisissä vaaleissa äänestettiin CO₂-veron korottamisen puolesta. Se on siksi noussut 25 eurolla!",
+                    "_compare_gcp/gemini-1.5-pro_fi": "Viime vaaleissa äänestettiin CO₂-veron korottamisen puolesta. Se on siksi noussut 25 €!",
+                    "_compare_aws/claude-3.5-sonnet_fi": "Viimeisissä vaaleissa äänestettiin CO₂-veron korottamisen puolesta. Se on siksi noussut 25 eurolla!",
+                    "_unique_translations_back_fi": [
+                        "Bei der letzten Wahl wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25 € gestiegen!",
+                        "Bei der letzten Wahl wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25 Euro gestiegen!"
+                    ],
+                    "_azure/gpt-4-vision_fr": "Lors des dernières élections, il a été voté pour une augmentation de la taxe sur le CO₂.<br>Elle a donc augmenté de 25 € !",
+                    "_gcp/gemini-1.5-pro_fr": "Lors des dernières élections, la taxe CO₂ a été votée en augmentation.<br>Elle a donc augmenté de 25 € ! \n",
+                    "_compare_azure/gpt-4-vision_fr": "Lors des dernières élections, la taxe CO₂ a été votée en augmentation. Elle a donc augmenté de 25 € !",
+                    "_compare_gcp/gemini-1.5-pro_fr": "Lors des dernières élections, il a été voté pour une augmentation de la taxe sur le CO₂. Elle a donc augmenté de 25 € !",
+                    "_compare_aws/claude-3.5-sonnet_fr": "Lors des dernières élections, il a été voté pour une augmentation de la taxe sur le CO₂. Elle a donc augmenté de 25 € !",
+                    "_unique_translations_back_fr": [
+                        "Bei der letzten Wahl wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25 € gestiegen!",
+                        "Bei der letzten Wahl wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25 € gestiegen!"
+                    ],
+                    "_azure/gpt-4-vision_ga": "Ag an toghchán deireanach, vótáladh le haghaidh méadú ar an gcáin CO₂.<br>Dá bhrí sin, tá sé ardaithe faoi €25!",
+                    "_gcp/gemini-1.5-pro_ga": "Vótáladh sa toghchán deireanach chun an cháin CO₂ a ardú.<br>Dá bhrí sin, tá ardú €25 tagtha uirthi! \n",
+                    "_compare_azure/gpt-4-vision_ga": "Vótáladh sa toghchán deireanach chun an cháin CO₂ a ardú. Dá bhrí sin, tá ardú €25 tagtha uirthi!",
+                    "_compare_gcp/gemini-1.5-pro_ga": "Vótáladh sa toghchán deireanach chun an cháin CO₂ a ardú. Dá bhrí sin, tá ardú €25 tagtha uirthi!",
+                    "_compare_aws/claude-3.5-sonnet_ga": "Vótáladh sa toghchán deireanach chun an cháin CO₂ a ardú. Dá bhrí sin, tá ardú €25 tagtha uirthi!",
+                    "_unique_translations_back_ga": [
+                        "Bei der letzten Wahl wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25€ gestiegen!",
+                        "Bei der letzten Wahl wurde dafür gestimmt, die CO₂-Steuer zu erhöhen. Sie ist daher um 25€ gestiegen!"
+                    ],
+                    "_azure/gpt-4-vision_hr": "Na posljednjim izborima glasalo se za povećanje CO₂ poreza.<br>Stoga je porastao za 25€!",
+                    "_gcp/gemini-1.5-pro_hr": "Na posljednjim izborima izglasano je povećanje poreza na CO₂.<br>Stoga je porastao za 25 €! \n",
+                    "_compare_azure/gpt-4-vision_hr": "Na posljednjim izborima izglasano je povećanje poreza na CO₂. Stoga je porastao za 25 €!",
+                    "_compare_gcp/gemini-1.5-pro_hr": "Na posljednjim izborima izglasano je povećanje poreza na CO₂. Stoga je porastao za 25 €!",
+                    "_compare_aws/claude-3.5-sonnet_hr": "Na posljednjim izborima izglasano je povećanje poreza na CO₂. Stoga je porastao za 25 €!",
+                    "_unique_translations_back_hr": [
+                        "Bei der letzten Wahl wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25€ gestiegen!",
+                        "Bei der letzten Wahl wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25 € gestiegen!"
+                    ],
+                    "_azure/gpt-4-vision_hu": "Az utolsó választáson a CO₂-adó emelésére szavaztak.<br>Emiatt 25 euróval nőtt!",
+                    "_gcp/gemini-1.5-pro_hu": "Az utolsó választáson a CO₂-adó emelésére szavaztak.<br>Ezért 25 euróval emelkedett! \n",
+                    "_compare_azure/gpt-4-vision_hu": "Az utolsó választáson a CO₂-adó emelésére szavaztak. Ezért 25 euróval emelkedett!",
+                    "_compare_gcp/gemini-1.5-pro_hu": "Az utolsó választáson a CO₂-adó emelésére szavaztak. Ezért 25 euróval emelkedett!",
+                    "_compare_aws/claude-3.5-sonnet_hu": "Az utolsó választáson a CO₂-adó emelésére szavaztak. Emiatt 25 euróval nőtt!",
+                    "_unique_translations_back_hu": [
+                        "Bei der letzten Wahl wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25 Euro gestiegen!",
+                        "Bei der letzten Wahl wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25 Euro gestiegen!"
+                    ],
+                    "_azure/gpt-4-vision_id": "Pada pemilihan terakhir, telah dipilih untuk menaikkan pajak CO₂.<br>Oleh karena itu, pajak tersebut telah naik sebesar €25!",
+                    "_gcp/gemini-1.5-pro_id": "Pada pemilihan terakhir, orang-orang memilih untuk menaikkan pajak CO₂.<br>Oleh karena itu, pajak tersebut naik sebesar 25€! \n",
+                    "_compare_azure/gpt-4-vision_id": "Pada pemilihan terakhir, orang-orang memilih untuk menaikkan pajak CO₂. Oleh karena itu, pajak tersebut naik sebesar 25€!",
+                    "_compare_gcp/gemini-1.5-pro_id": "Pada pemilihan terakhir, telah dipilih untuk menaikkan pajak CO₂. Oleh karena itu, pajak tersebut telah naik sebesar €25!",
+                    "_compare_aws/claude-3.5-sonnet_id": "Pada pemilihan terakhir, telah dipilih untuk menaikkan pajak CO₂. Oleh karena itu, pajak tersebut telah naik sebesar €25!",
+                    "_unique_translations_back_id": [
+                        "Bei der letzten Wahl wurde dafür gestimmt, die CO₂-Steuer zu erhöhen. Sie ist daher um 25€ gestiegen!",
+                        "Bei der letzten Wahl wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25€ gestiegen!"
+                    ],
+                    "_azure/gpt-4-vision_it": "Alle ultime elezioni si è votato per l'aumento della tassa sulla CO₂.<br>È quindi aumentata di 25€!",
+                    "_gcp/gemini-1.5-pro_it": "Nelle ultime elezioni si è votato per aumentare la tassa sulla CO₂.<br>Di conseguenza è aumentata di 25€!",
+                    "_compare_azure/gpt-4-vision_it": "Nelle ultime elezioni si è votato per aumentare la tassa sulla CO₂. Di conseguenza è aumentata di 25€!",
+                    "_compare_gcp/gemini-1.5-pro_it": "Nelle ultime elezioni si è votato per aumentare la tassa sulla CO₂. Di conseguenza è aumentata di 25€!",
+                    "_compare_aws/claude-3.5-sonnet_it": "Nelle ultime elezioni si è votato per aumentare la tassa sulla CO₂. Di conseguenza è aumentata di 25€!",
+                    "_unique_translations_back_it": [
+                        "Bei der letzten Wahl wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25€ gestiegen!",
+                        "Bei der letzten Wahl wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25€ gestiegen!"
+                    ],
+                    "_azure/gpt-4-vision_ja": "最後の選挙でCO₂税の増税が決定されました。<br>そのため、25ユーロ上がりました！",
+                    "_gcp/gemini-1.5-pro_ja": "前回の選挙では、CO₂税の増税が決まりました。<br>そのため、25ユーロ値上がりしました！ \n",
+                    "_compare_azure/gpt-4-vision_ja": "前回の選挙では、CO₂税の増税が決まりました。 そのため、25ユーロ値上がりしました！",
+                    "_compare_gcp/gemini-1.5-pro_ja": "前回の選挙では、CO₂税の増税が決まりました。 そのため、25ユーロ値上がりしました！",
+                    "_compare_aws/claude-3.5-sonnet_ja": "前回の選挙では、CO₂税の増税が決まりました。 そのため、25ユーロ値上がりしました！",
+                    "_unique_translations_back_ja": [
+                        "Bei der letzten Wahl wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25 Euro gestiegen!",
+                        "Bei der letzten Wahl wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25 Euro gestiegen!"
+                    ],
+                    "_azure/gpt-4-vision_ko": "마지막 선거에서 이산화탄소 세금 인상에 투표되었습니다.<br>그래서 25유로 올랐습니다!",
+                    "_gcp/gemini-1.5-pro_ko": "지난 선거에서 CO₂세 인상안이 통과되었습니다.<br>따라서 25유로 인상되었습니다! \n",
+                    "_compare_azure/gpt-4-vision_ko": "지난 선거에서 CO₂세 인상안이 통과되었습니다. 따라서 25유로 인상되었습니다!",
+                    "_compare_gcp/gemini-1.5-pro_ko": "마지막 선거에서 이산화탄소 세금 인상에 투표되었습니다. 그래서 25유로 올랐습니다!",
+                    "_compare_aws/claude-3.5-sonnet_ko": "마지막 선거에서 이산화탄소 세금 인상에 투표되었습니다. 그래서 25유로 올랐습니다!",
+                    "_unique_translations_back_ko": [
+                        "Bei der letzten Wahl wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25 Euro gestiegen!",
+                        "Bei der letzten Wahl wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25 Euro gestiegen!"
+                    ],
+                    "_azure/gpt-4-vision_lv": "Pēdējās vēlēšanās tika balsots par CO₂ nodokļa palielināšanu.<br>Tāpēc tas ir pieaudzis par 25€!",
+                    "_gcp/gemini-1.5-pro_lv": "Pēdējās vēlēšanās tika nobalsots par CO₂ nodokļa palielināšanu.<br>Tāpēc tas ir pieaudzis par 25 €! \n",
+                    "_compare_azure/gpt-4-vision_lv": "Pēdējās vēlēšanās tika nobalsots par CO₂ nodokļa palielināšanu. Tāpēc tas ir pieaudzis par 25 €!",
+                    "_compare_gcp/gemini-1.5-pro_lv": "Pēdējās vēlēšanās tika balsots par CO₂ nodokļa palielināšanu. Tāpēc tas ir pieaudzis par 25€!",
+                    "_compare_aws/claude-3.5-sonnet_lv": "Pēdējās vēlēšanās tika balsots par CO₂ nodokļa palielināšanu. Tāpēc tas ir pieaudzis par 25€!",
+                    "_unique_translations_back_lv": [
+                        "Bei der letzten Wahl wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25 € gestiegen!",
+                        "Bei der letzten Wahl wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25€ gestiegen!"
+                    ],
+                    "_azure/gpt-4-vision_lt": "Paskutiniuose rinkimuose buvo balsuota už CO₂ mokesčio padidinimą.<br>Dėl to jis padidėjo 25 eurais!",
+                    "_gcp/gemini-1.5-pro_lt": "Paskutiniuose rinkimuose buvo balsuojama už CO₂ mokesčio padidinimą.<br>Todėl jis padidėjo 25 €.! \n",
+                    "_compare_azure/gpt-4-vision_lt": "Paskutiniuose rinkimuose buvo balsuota už CO₂ mokesčio padidinimą. Dėl to jis padidėjo 25 eurais!",
+                    "_compare_gcp/gemini-1.5-pro_lt": "Paskutiniuose rinkimuose buvo balsuota už CO₂ mokesčio padidinimą. Dėl to jis padidėjo 25 eurais!",
+                    "_compare_aws/claude-3.5-sonnet_lt": "Paskutiniuose rinkimuose buvo balsuota už CO₂ mokesčio padidinimą. Dėl to jis padidėjo 25 eurais!",
+                    "_unique_translations_back_lt": [
+                        "Bei der letzten Wahl wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25 € gestiegen!",
+                        "Bei der letzten Wahl wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25 Euro gestiegen!"
+                    ],
+                    "_azure/gpt-4-vision_mt": "Fl-aħħar elezzjoni, in-nies ivvutaw favur iż-żieda tat-taxxa fuq il-CO₂.<br>Għalhekk, żdiedet b'€25!",
+                    "_gcp/gemini-1.5-pro_mt": "Fl-aħħar elezzjoni, it-taxxa tas-CO₂ ġiet ivvutata biex tiżdied.<br>Għalhekk żdiedet b'€25! \n",
+                    "_compare_azure/gpt-4-vision_mt": "Fl-aħħar elezzjoni, it-taxxa tas-CO₂ ġiet ivvutata biex tiżdied. Għalhekk żdiedet b'€25!",
+                    "_compare_gcp/gemini-1.5-pro_mt": "Fl-aħħar elezzjoni, it-taxxa tas-CO₂ ġiet ivvutata biex tiżdied. Għalhekk żdiedet b'€25!",
+                    "_compare_aws/claude-3.5-sonnet_mt": "Fl-aħħar elezzjoni, it-taxxa tas-CO₂ ġiet ivvutata biex tiżdied. Għalhekk żdiedet b'€25!",
+                    "_unique_translations_back_mt": [
+                        "Bei der letzten Wahl wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25€ gestiegen!",
+                        "Bei der letzten Wahl wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25€ gestiegen!"
+                    ],
+                    "_azure/gpt-4-vision_nl": "Bij de laatste verkiezingen is gestemd voor verhoging van de CO₂-belasting.<br>Daarom is deze met €25 gestegen!",
+                    "_gcp/gemini-1.5-pro_nl": "Bij de laatste verkiezingen is gestemd voor verhoging van de CO₂-belasting.<br>Deze is daarom met € 25 gestegen! \n",
+                    "_compare_azure/gpt-4-vision_nl": "Bij de laatste verkiezingen is gestemd voor verhoging van de CO₂-belasting. Deze is daarom met € 25 gestegen!",
+                    "_compare_gcp/gemini-1.5-pro_nl": "Bij de laatste verkiezingen is gestemd voor verhoging van de CO₂-belasting. Daarom is deze met €25 gestegen!",
+                    "_compare_aws/claude-3.5-sonnet_nl": "Bij de laatste verkiezingen is gestemd voor verhoging van de CO₂-belasting. Daarom is deze met €25 gestegen!",
+                    "_unique_translations_back_nl": [
+                        "Bei der letzten Wahl wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25 € gestiegen!",
+                        "Bei der letzten Wahl wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25€ gestiegen!"
+                    ],
+                    "_azure/gpt-4-vision_pl": "W ostatnich wyborach głosowano za podniesieniem podatku CO₂.<br>W związku z tym wzrósł on o 25€!",
+                    "_gcp/gemini-1.5-pro_pl": "W ostatnich wyborach przegłosowano podwyżkę podatku od CO₂.<br>W związku z tym wzrósł on o 25 euro! \n",
+                    "_compare_azure/gpt-4-vision_pl": "W ostatnich wyborach przegłosowano podwyżkę podatku od CO₂. W związku z tym wzrósł on o 25 euro!",
+                    "_compare_gcp/gemini-1.5-pro_pl": "W ostatnich wyborach głosowano za podniesieniem podatku CO₂. W związku z tym wzrósł on o 25€!",
+                    "_compare_aws/claude-3.5-sonnet_pl": "W ostatnich wyborach głosowano za podniesieniem podatku CO₂. W związku z tym wzrósł on o 25€!",
+                    "_unique_translations_back_pl": [
+                        "Bei der letzten Wahl wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25 Euro gestiegen!",
+                        "Bei der letzten Wahl wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25€ gestiegen!"
+                    ],
+                    "_azure/gpt-4-vision_ro": "La ultimele alegeri s-a votat pentru creșterea taxei pe CO₂.<br>Prin urmare, aceasta a crescut cu 25€!",
+                    "_gcp/gemini-1.5-pro_ro": "La ultimele alegeri s-a votat pentru creșterea taxei pe CO₂.<br>Prin urmare, aceasta a crescut cu 25 €! \n",
+                    "_compare_azure/gpt-4-vision_ro": "La ultimele alegeri s-a votat pentru creșterea taxei pe CO₂. Prin urmare, aceasta a crescut cu 25 €!",
+                    "_compare_gcp/gemini-1.5-pro_ro": "La ultimele alegeri s-a votat pentru creșterea taxei pe CO₂. Prin urmare, aceasta a crescut cu 25 €!",
+                    "_compare_aws/claude-3.5-sonnet_ro": "La ultimele alegeri s-a votat pentru creșterea taxei pe CO₂. Prin urmare, aceasta a crescut cu 25€!",
+                    "_unique_translations_back_ro": [
+                        "Bei der letzten Wahl wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25 € gestiegen!",
+                        "Bei der letzten Wahl wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25€ gestiegen!"
+                    ],
+                    "_azure/gpt-4-vision_ru": "На последних выборах проголосовали за увеличение налога на CO₂.<br>Таким образом, он увеличился на 25 евро!",
+                    "_gcp/gemini-1.5-pro_ru": "На последних выборах проголосовали за увеличение налога на CO₂.<br>Таким образом, она подорожала на 25 евро! \n",
+                    "_compare_azure/gpt-4-vision_ru": "На последних выборах проголосовали за увеличение налога на CO₂. Таким образом, он увеличился на 25 евро!",
+                    "_compare_gcp/gemini-1.5-pro_ru": "На последних выборах проголосовали за увеличение налога на CO₂. Таким образом, она подорожала на 25 евро!",
+                    "_compare_aws/claude-3.5-sonnet_ru": "На последних выборах проголосовали за увеличение налога на CO₂. Таким образом, он увеличился на 25 евро!",
+                    "_unique_translations_back_ru": [
+                        "Bei der letzten Wahl wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25 Euro gestiegen!",
+                        "Bei der letzten Wahl wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25 Euro gestiegen!"
+                    ],
+                    "_azure/gpt-4-vision_sk": "Na posledných voľbách sa hlasovalo za zvýšenie dane z CO₂.<br>Preto stúpla o 25 €!",
+                    "_gcp/gemini-1.5-pro_sk": "V posledných voľbách sa hlasovalo za zvýšenie dane z CO₂.<br>Preto sa zvýšila o 25 €! \n",
+                    "_compare_azure/gpt-4-vision_sk": "V posledných voľbách sa hlasovalo za zvýšenie dane z CO₂. Preto sa zvýšila o 25 €!",
+                    "_compare_gcp/gemini-1.5-pro_sk": "V posledných voľbách sa hlasovalo za zvýšenie dane z CO₂. Preto sa zvýšila o 25 €!",
+                    "_compare_aws/claude-3.5-sonnet_sk": "V posledných voľbách sa hlasovalo za zvýšenie dane z CO₂. Preto sa zvýšila o 25 €!",
+                    "_unique_translations_back_sk": [
+                        "Bei der letzten Wahl wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25 € gestiegen!",
+                        "Bei der letzten Wahl wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25 € gestiegen!"
+                    ],
+                    "_azure/gpt-4-vision_sl": "Na zadnjih volitvah so glasovali za povišanje davka na CO₂.<br>Zato se je povečal za 25 €!",
+                    "_gcp/gemini-1.5-pro_sl": "Na zadnjih volitvah so volivci glasovali za zvišanje davka na CO₂.<br>Zato se je zvišal za 25 €! \n",
+                    "_compare_azure/gpt-4-vision_sl": "Na zadnjih volitvah so volivci glasovali za zvišanje davka na CO₂. Zato se je zvišal za 25 €!",
+                    "_compare_gcp/gemini-1.5-pro_sl": "Na zadnjih volitvah so glasovali za povišanje davka na CO₂. Zato se je povečal za 25 €!",
+                    "_compare_aws/claude-3.5-sonnet_sl": "Na zadnjih volitvah so volivci glasovali za zvišanje davka na CO₂. Zato se je zvišal za 25 €!",
+                    "_unique_translations_back_sl": [
+                        "Bei der letzten Wahl wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25 € gestiegen!",
+                        "Bei der letzten Wahl wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25 € gestiegen!"
+                    ],
+                    "_azure/gpt-4-vision_zh": "在上次选举中，人们投票支持提高二氧化碳税。<br>因此，它增加了25欧元！",
+                    "_gcp/gemini-1.5-pro_zh": "在上次选举中，人们投票决定增加二氧化碳排放税。<br>因此，它上涨了25欧元！ \n",
+                    "_compare_azure/gpt-4-vision_zh": "在上次选举中，人们投票支持提高二氧化碳税。 因此，它增加了25欧元！",
+                    "_compare_gcp/gemini-1.5-pro_zh": "在上次选举中，人们投票支持提高二氧化碳税。 因此，它增加了25欧元！",
+                    "_compare_aws/claude-3.5-sonnet_zh": "在上次选举中，人们投票决定增加二氧化碳排放税。 因此，它上涨了25欧元！",
+                    "_unique_translations_back_zh": [
+                        "Bei der letzten Wahl wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25 Euro gestiegen!",
                         "Bei der letzten Wahl wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25 Euro gestiegen!"
                     ]
                 },
@@ -158,6 +1129,243 @@
                     "_compare_aws/claude-3.5-sonnet_sv": "Resultaten är här!",
                     "_unique_translations_back_sv": [
                         "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_ar": "النتائج جاهزة!",
+                    "_gcp/gemini-1.5-pro_ar": "النتائج جاهزة! \n",
+                    "_compare_azure/gpt-4-vision_ar": "النتائج جاهزة!",
+                    "_compare_gcp/gemini-1.5-pro_ar": "النتائج جاهزة!",
+                    "_compare_aws/claude-3.5-sonnet_ar": "النتائج جاهزة!",
+                    "_unique_translations_back_ar": [
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_bg": "Резултатите са тук!",
+                    "_gcp/gemini-1.5-pro_bg": "Резултатите са готови!\n",
+                    "_compare_azure/gpt-4-vision_bg": "Резултатите са тук!",
+                    "_compare_gcp/gemini-1.5-pro_bg": "Резултатите са готови!",
+                    "_compare_aws/claude-3.5-sonnet_bg": "Резултатите са тук!",
+                    "_unique_translations_back_bg": [
+                        "Die Ergebnisse sind da!",
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_cs": "Výsledky jsou tady!",
+                    "_gcp/gemini-1.5-pro_cs": "Výsledky jsou tady! \n",
+                    "_compare_azure/gpt-4-vision_cs": "Výsledky jsou tady!",
+                    "_compare_gcp/gemini-1.5-pro_cs": "Výsledky jsou tady!",
+                    "_compare_aws/claude-3.5-sonnet_cs": "Výsledky jsou tady!",
+                    "_unique_translations_back_cs": [
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_da": "Resultaterne er her!",
+                    "_gcp/gemini-1.5-pro_da": "Resultaterne er klar! \n",
+                    "_compare_azure/gpt-4-vision_da": "Resultaterne er her!",
+                    "_compare_gcp/gemini-1.5-pro_da": "Resultaterne er her!",
+                    "_compare_aws/claude-3.5-sonnet_da": "Resultaterne er her!",
+                    "_unique_translations_back_da": [
+                        "Die Ergebnisse sind da!",
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_de": "Die Ergebnisse sind da!",
+                    "_gcp/gemini-1.5-pro_de": "Die Ergebnisse sind da! \n",
+                    "_compare_azure/gpt-4-vision_de": "Die Ergebnisse sind da!",
+                    "_compare_gcp/gemini-1.5-pro_de": "Die Ergebnisse sind da!",
+                    "_compare_aws/claude-3.5-sonnet_de": "Die Ergebnisse sind da!",
+                    "_unique_translations_back_de": [
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_el": "Τα αποτελέσματα είναι εδώ!",
+                    "_gcp/gemini-1.5-pro_el": "Τα αποτελέσματα βγήκαν! \n",
+                    "_compare_azure/gpt-4-vision_el": "Τα αποτελέσματα είναι εδώ!",
+                    "_compare_gcp/gemini-1.5-pro_el": "Τα αποτελέσματα είναι εδώ!",
+                    "_compare_aws/claude-3.5-sonnet_el": "Τα αποτελέσματα είναι εδώ!",
+                    "_unique_translations_back_el": [
+                        "Die Ergebnisse sind da!",
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_en": "The results are in!",
+                    "_gcp/gemini-1.5-pro_en": "The results are in! \n",
+                    "_compare_azure/gpt-4-vision_en": "The results are in!",
+                    "_compare_gcp/gemini-1.5-pro_en": "The results are in!",
+                    "_compare_aws/claude-3.5-sonnet_en": "The results are in!",
+                    "_unique_translations_back_en": [
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_es": "Los resultados están aquí.",
+                    "_gcp/gemini-1.5-pro_es": "¡Los resultados están aquí! \n",
+                    "_compare_azure/gpt-4-vision_es": "¡Los resultados están aquí!",
+                    "_compare_gcp/gemini-1.5-pro_es": "¡Los resultados están aquí!",
+                    "_compare_aws/claude-3.5-sonnet_es": "¡Los resultados están aquí!",
+                    "_unique_translations_back_es": [
+                        "Die Ergebnisse sind da!",
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_et": "Tulemused on käes!",
+                    "_gcp/gemini-1.5-pro_et": "Tulemused on selgunud! \n",
+                    "_compare_azure/gpt-4-vision_et": "Tulemused on käes!",
+                    "_compare_gcp/gemini-1.5-pro_et": "Tulemused on käes!",
+                    "_compare_aws/claude-3.5-sonnet_et": "Tulemused on käes!",
+                    "_unique_translations_back_et": [
+                        "Die Ergebnisse sind da!",
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_fi": "Tulokset ovat täällä!",
+                    "_gcp/gemini-1.5-pro_fi": "Tulokset ovat tässä! \n",
+                    "_compare_azure/gpt-4-vision_fi": "Tulokset ovat tässä!",
+                    "_compare_gcp/gemini-1.5-pro_fi": "Tulokset ovat tässä!",
+                    "_compare_aws/claude-3.5-sonnet_fi": "Tulokset ovat täällä!",
+                    "_unique_translations_back_fi": [
+                        "Die Ergebnisse sind da!",
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_fr": "Les résultats sont là !",
+                    "_gcp/gemini-1.5-pro_fr": "Les résultats sont là ! \n",
+                    "_compare_azure/gpt-4-vision_fr": "Les résultats sont là !",
+                    "_compare_gcp/gemini-1.5-pro_fr": "Les résultats sont là !",
+                    "_compare_aws/claude-3.5-sonnet_fr": "Les résultats sont là !",
+                    "_unique_translations_back_fr": [
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_ga": "Tá na torthaí istigh!",
+                    "_gcp/gemini-1.5-pro_ga": "Tá na torthaí istigh! \n",
+                    "_compare_azure/gpt-4-vision_ga": "Tá na torthaí istigh!",
+                    "_compare_gcp/gemini-1.5-pro_ga": "Tá na torthaí istigh!",
+                    "_compare_aws/claude-3.5-sonnet_ga": "Tá na torthaí istigh!",
+                    "_unique_translations_back_ga": [
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_hr": "Rezultati su tu!",
+                    "_gcp/gemini-1.5-pro_hr": "Rezultati su tu! \n",
+                    "_compare_azure/gpt-4-vision_hr": "Rezultati su tu!",
+                    "_compare_gcp/gemini-1.5-pro_hr": "Rezultati su tu!",
+                    "_compare_aws/claude-3.5-sonnet_hr": "Rezultati su tu!",
+                    "_unique_translations_back_hr": [
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_hu": "Az eredmények megérkeztek!",
+                    "_gcp/gemini-1.5-pro_hu": "Megérkeztek az eredmények! \n",
+                    "_compare_azure/gpt-4-vision_hu": "Megérkeztek az eredmények!",
+                    "_compare_gcp/gemini-1.5-pro_hu": "Megérkeztek az eredmények!",
+                    "_compare_aws/claude-3.5-sonnet_hu": "Megérkeztek az eredmények!",
+                    "_unique_translations_back_hu": [
+                        "Die Ergebnisse sind da!",
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_id": "Hasilnya sudah ada!",
+                    "_gcp/gemini-1.5-pro_id": "Hasilnya sudah ada! \n",
+                    "_compare_azure/gpt-4-vision_id": "Hasilnya sudah ada!",
+                    "_compare_gcp/gemini-1.5-pro_id": "Hasilnya sudah ada!",
+                    "_compare_aws/claude-3.5-sonnet_id": "Hasilnya sudah ada!",
+                    "_unique_translations_back_id": [
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_it": "I risultati sono arrivati!",
+                    "_gcp/gemini-1.5-pro_it": "I risultati sono arrivati! \n",
+                    "_compare_azure/gpt-4-vision_it": "I risultati sono arrivati!",
+                    "_compare_gcp/gemini-1.5-pro_it": "I risultati sono arrivati!",
+                    "_compare_aws/claude-3.5-sonnet_it": "I risultati sono arrivati!",
+                    "_unique_translations_back_it": [
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_ja": "結果が出ました!",
+                    "_gcp/gemini-1.5-pro_ja": "結果が出ました！ \n",
+                    "_compare_azure/gpt-4-vision_ja": "結果が出ました！",
+                    "_compare_gcp/gemini-1.5-pro_ja": "結果が出ました！",
+                    "_compare_aws/claude-3.5-sonnet_ja": "結果が出ました!",
+                    "_unique_translations_back_ja": [
+                        "Die Ergebnisse sind da!",
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_ko": "결과가 나왔습니다!",
+                    "_gcp/gemini-1.5-pro_ko": "결과가 나왔습니다! \n",
+                    "_compare_azure/gpt-4-vision_ko": "결과가 나왔습니다!",
+                    "_compare_gcp/gemini-1.5-pro_ko": "결과가 나왔습니다!",
+                    "_compare_aws/claude-3.5-sonnet_ko": "결과가 나왔습니다!",
+                    "_unique_translations_back_ko": [
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_lv": "Rezultāti ir klāt!",
+                    "_gcp/gemini-1.5-pro_lv": "Rezultāti ir klāt! \n",
+                    "_compare_azure/gpt-4-vision_lv": "Rezultāti ir klāt!",
+                    "_compare_gcp/gemini-1.5-pro_lv": "Rezultāti ir klāt!",
+                    "_compare_aws/claude-3.5-sonnet_lv": "Rezultāti ir klāt!",
+                    "_unique_translations_back_lv": [
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_lt": "Rezultatai jau čia!",
+                    "_gcp/gemini-1.5-pro_lt": "Gauti rezultatai! \n",
+                    "_compare_azure/gpt-4-vision_lt": "Rezultatai jau čia!",
+                    "_compare_gcp/gemini-1.5-pro_lt": "Rezultatai jau čia!",
+                    "_compare_aws/claude-3.5-sonnet_lt": "Rezultatai jau čia!",
+                    "_unique_translations_back_lt": [
+                        "Die Ergebnisse sind da!",
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_mt": "Ir-riżultati waslu!",
+                    "_gcp/gemini-1.5-pro_mt": "Ir-riżultati ħarġu! \n",
+                    "_compare_azure/gpt-4-vision_mt": "Ir-riżultati waslu!",
+                    "_compare_gcp/gemini-1.5-pro_mt": "Ir-riżultati ħarġu!",
+                    "_compare_aws/claude-3.5-sonnet_mt": "Ir-riżultati waslu!",
+                    "_unique_translations_back_mt": [
+                        "Die Ergebnisse sind da!",
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_nl": "De resultaten zijn binnen!",
+                    "_gcp/gemini-1.5-pro_nl": "De resultaten zijn bekend! \n",
+                    "_compare_azure/gpt-4-vision_nl": "De resultaten zijn bekend!",
+                    "_compare_gcp/gemini-1.5-pro_nl": "De resultaten zijn bekend!",
+                    "_compare_aws/claude-3.5-sonnet_nl": "De resultaten zijn binnen!",
+                    "_unique_translations_back_nl": [
+                        "Die Ergebnisse sind da!",
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_pl": "Wyniki są już dostępne!",
+                    "_gcp/gemini-1.5-pro_pl": "Wyniki są już dostępne!",
+                    "_compare_azure/gpt-4-vision_pl": "Wyniki są już dostępne!",
+                    "_compare_gcp/gemini-1.5-pro_pl": "Wyniki są już dostępne!",
+                    "_compare_aws/claude-3.5-sonnet_pl": "Wyniki są już dostępne!",
+                    "_unique_translations_back_pl": [
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_ro": "Rezultatele au sosit!",
+                    "_gcp/gemini-1.5-pro_ro": "Rezultatele sunt gata! \n",
+                    "_compare_azure/gpt-4-vision_ro": "Rezultatele au sosit!",
+                    "_compare_gcp/gemini-1.5-pro_ro": "Rezultatele sunt gata!",
+                    "_compare_aws/claude-3.5-sonnet_ro": "Rezultatele sunt gata!",
+                    "_unique_translations_back_ro": [
+                        "Die Ergebnisse sind da!",
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_ru": "Результаты подведены!",
+                    "_gcp/gemini-1.5-pro_ru": "Результаты подведены! \n",
+                    "_compare_azure/gpt-4-vision_ru": "Результаты подведены!",
+                    "_compare_gcp/gemini-1.5-pro_ru": "Результаты подведены!",
+                    "_compare_aws/claude-3.5-sonnet_ru": "Результаты подведены!",
+                    "_unique_translations_back_ru": [
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_sk": "Výsledky sú tu!",
+                    "_gcp/gemini-1.5-pro_sk": "Výsledky sú tu! \n",
+                    "_compare_azure/gpt-4-vision_sk": "Výsledky sú tu!",
+                    "_compare_gcp/gemini-1.5-pro_sk": "Výsledky sú tu!",
+                    "_compare_aws/claude-3.5-sonnet_sk": "Výsledky sú tu!",
+                    "_unique_translations_back_sk": [
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_sl": "Rezultati so tu!",
+                    "_gcp/gemini-1.5-pro_sl": "Rezultati so tukaj! \n",
+                    "_compare_azure/gpt-4-vision_sl": "Rezultati so tukaj!",
+                    "_compare_gcp/gemini-1.5-pro_sl": "Rezultati so tukaj!",
+                    "_compare_aws/claude-3.5-sonnet_sl": "Rezultati so tu!",
+                    "_unique_translations_back_sl": [
+                        "Die Ergebnisse sind da!",
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_zh": "结果出来了！",
+                    "_gcp/gemini-1.5-pro_zh": "结果出来了！ \n",
+                    "_compare_azure/gpt-4-vision_zh": "结果出来了！",
+                    "_compare_gcp/gemini-1.5-pro_zh": "结果出来了！",
+                    "_compare_aws/claude-3.5-sonnet_zh": "结果出来了！",
+                    "_unique_translations_back_zh": [
+                        "Die Ergebnisse sind da!"
                     ]
                 },
                 "body": {
@@ -174,6 +1382,256 @@
                     "_unique_translations_back_sv": [
                         "Bei der letzten Wahl wurde für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25€ gesunken!",
                         "Bei der letzten Wahl wurde für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25 Euro gesunken!"
+                    ],
+                    "_azure/gpt-4-vision_ar": "في الانتخابات الأخيرة، صوت الناس لخفض ضريبة ثاني أكسيد الكربون.<br>لذلك، انخفضت بمقدار 25 يورو!",
+                    "_gcp/gemini-1.5-pro_ar": "في الانتخابات الأخيرة، صوت الناس لخفض ضريبة ثاني أكسيد الكربون.<br>لذلك، انخفضت بمقدار 25 يورو! \n",
+                    "_compare_azure/gpt-4-vision_ar": "في الانتخابات الأخيرة، صوت الناس لخفض ضريبة ثاني أكسيد الكربون. لذلك، انخفضت بمقدار 25 يورو!",
+                    "_compare_gcp/gemini-1.5-pro_ar": "في الانتخابات الأخيرة، صوت الناس لخفض ضريبة ثاني أكسيد الكربون. لذلك، انخفضت بمقدار 25 يورو!",
+                    "_compare_aws/claude-3.5-sonnet_ar": "في الانتخابات الأخيرة، صوت الناس لخفض ضريبة ثاني أكسيد الكربون. لذلك، انخفضت بمقدار 25 يورو!",
+                    "_unique_translations_back_ar": [
+                        "Bei der letzten Wahl haben die Menschen für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25 Euro gesunken!"
+                    ],
+                    "_azure/gpt-4-vision_bg": "На последните избори беше гласувано за намаляване на данъка върху CO₂.<br>Затова той намаля с 25 евро!",
+                    "_gcp/gemini-1.5-pro_bg": "На последните избори беше гласувано за намаляване на данъка върху CO₂.<br>Поради това той е намалял с 25 евро! \n",
+                    "_compare_azure/gpt-4-vision_bg": "На последните избори беше гласувано за намаляване на данъка върху CO₂. Поради това той е намалял с 25 евро!",
+                    "_compare_gcp/gemini-1.5-pro_bg": "На последните избори беше гласувано за намаляване на данъка върху CO₂. Затова той намаля с 25 евро!",
+                    "_compare_aws/claude-3.5-sonnet_bg": "На последните избори беше гласувано за намаляване на данъка върху CO₂. Поради това той е намалял с 25 евро!",
+                    "_unique_translations_back_bg": [
+                        "Bei der letzten Wahl wurde für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25 Euro gesunken!",
+                        "Bei der letzten Wahl wurde für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25 Euro gesunken!"
+                    ],
+                    "_azure/gpt-4-vision_cs": "Na posledních volbách bylo hlasováno pro snížení daně z CO₂.<br>Proto klesla o 25 €!",
+                    "_gcp/gemini-1.5-pro_cs": "V posledních volbách se hlasovalo o snížení daně z CO₂.<br>Proto klesla o 25 €! \n",
+                    "_compare_azure/gpt-4-vision_cs": "Na posledních volbách bylo hlasováno pro snížení daně z CO₂. Proto klesla o 25 €!",
+                    "_compare_gcp/gemini-1.5-pro_cs": "Na posledních volbách bylo hlasováno pro snížení daně z CO₂. Proto klesla o 25 €!",
+                    "_compare_aws/claude-3.5-sonnet_cs": "V posledních volbách se hlasovalo o snížení daně z CO₂. Proto klesla o 25 €!",
+                    "_unique_translations_back_cs": [
+                        "Bei der letzten Wahl wurde für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25 € gesunken!",
+                        "Bei der letzten Wahl wurde für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25 € gesunken!"
+                    ],
+                    "_azure/gpt-4-vision_da": "Ved det sidste valg blev der stemt for at sænke CO₂-afgiften.<br>Den er derfor faldet med 25€!",
+                    "_gcp/gemini-1.5-pro_da": "Ved det seneste valg blev der stemt for at sænke CO₂-afgiften.<br>Den er derfor faldet med 25 €.! \n",
+                    "_compare_azure/gpt-4-vision_da": "Ved det sidste valg blev der stemt for at sænke CO₂-afgiften. Den er derfor faldet med 25€!",
+                    "_compare_gcp/gemini-1.5-pro_da": "Ved det sidste valg blev der stemt for at sænke CO₂-afgiften. Den er derfor faldet med 25€!",
+                    "_compare_aws/claude-3.5-sonnet_da": "Ved det sidste valg blev der stemt for at sænke CO₂-afgiften. Den er derfor faldet med 25€!",
+                    "_unique_translations_back_da": [
+                        "Bei der letzten Wahl wurde für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25 € gesunken!",
+                        "Bei der letzten Wahl wurde für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25€ gesunken!"
+                    ],
+                    "_azure/gpt-4-vision_de": "Bei der letzten Wahl wurde für die Verringerung der CO₂-Steuer gestimmt. Sie ist deshalb um 25€ gesunken!",
+                    "_gcp/gemini-1.5-pro_de": "Bei der letzten Wahl wurde für die Verringerung der CO₂-Steuer gestimmt.<br>Sie ist deshalb um 25€ gesunken! \n",
+                    "_compare_azure/gpt-4-vision_de": "Bei der letzten Wahl wurde für die Verringerung der CO₂-Steuer gestimmt. Sie ist deshalb um 25€ gesunken!",
+                    "_compare_gcp/gemini-1.5-pro_de": "Bei der letzten Wahl wurde für die Verringerung der CO₂-Steuer gestimmt. Sie ist deshalb um 25€ gesunken!",
+                    "_compare_aws/claude-3.5-sonnet_de": "Bei der letzten Wahl wurde für die Verringerung der CO₂-Steuer gestimmt. Sie ist deshalb um 25€ gesunken!",
+                    "_unique_translations_back_de": [
+                        "Bei der letzten Wahl wurde für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25 € gesunken!"
+                    ],
+                    "_azure/gpt-4-vision_el": "Στις τελευταίες εκλογές ψηφίστηκε υπέρ της μείωσης του φόρου CO₂.<br>Ως εκ τούτου, μειώθηκε κατά 25€!",
+                    "_gcp/gemini-1.5-pro_el": "Στις τελευταίες εκλογές, οι άνθρωποι ψήφισαν υπέρ της μείωσης του φόρου CO₂.<br>Ως εκ τούτου, μειώθηκε κατά 25€! \n",
+                    "_compare_azure/gpt-4-vision_el": "Στις τελευταίες εκλογές ψηφίστηκε υπέρ της μείωσης του φόρου CO₂. Ως εκ τούτου, μειώθηκε κατά 25€!",
+                    "_compare_gcp/gemini-1.5-pro_el": "Στις τελευταίες εκλογές ψηφίστηκε υπέρ της μείωσης του φόρου CO₂. Ως εκ τούτου, μειώθηκε κατά 25€!",
+                    "_compare_aws/claude-3.5-sonnet_el": "Στις τελευταίες εκλογές, οι άνθρωποι ψήφισαν υπέρ της μείωσης του φόρου CO₂. Ως εκ τούτου, μειώθηκε κατά 25€!",
+                    "_unique_translations_back_el": [
+                        "Bei der letzten Wahl wurde für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25€ gesunken!",
+                        "Bei der letzten Wahl wurde für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25€ gesunken!"
+                    ],
+                    "_azure/gpt-4-vision_en": "In the last election, there was a vote for the reduction of the CO₂ tax. It has therefore decreased by €25!",
+                    "_gcp/gemini-1.5-pro_en": "In the last election, people voted to reduce the CO₂ tax.<br>It has therefore gone down by €25! \n",
+                    "_compare_azure/gpt-4-vision_en": "In the last election, people voted to reduce the CO₂ tax. It has therefore gone down by €25!",
+                    "_compare_gcp/gemini-1.5-pro_en": "In the last election, people voted to reduce the CO₂ tax. It has therefore gone down by €25!",
+                    "_compare_aws/claude-3.5-sonnet_en": "In the last election, people voted to reduce the CO₂ tax. It has therefore gone down by €25!",
+                    "_unique_translations_back_en": [
+                        "Bei der letzten Wahl wurde für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25€ gesunken!",
+                        "Bei der letzten Wahl haben die Menschen für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25 € gesunken!"
+                    ],
+                    "_azure/gpt-4-vision_es": "En las últimas elecciones se votó por la reducción del impuesto al CO₂.<br>Por lo tanto, ha disminuido en 25€.",
+                    "_gcp/gemini-1.5-pro_es": "En las últimas elecciones, se votó a favor de reducir el impuesto sobre el CO₂.<br>¡Por lo tanto, se ha reducido en 25 €! \n",
+                    "_compare_azure/gpt-4-vision_es": "En las últimas elecciones se votó por la reducción del impuesto al CO₂. Por lo tanto, ha disminuido en 25€",
+                    "_compare_gcp/gemini-1.5-pro_es": "En las últimas elecciones, se votó a favor de reducir el impuesto sobre el CO₂. ¡Por lo tanto, se ha reducido en 25 €!",
+                    "_compare_aws/claude-3.5-sonnet_es": "En las últimas elecciones, se votó a favor de reducir el impuesto sobre el CO₂. ¡Por lo tanto, se ha reducido en 25 €!",
+                    "_unique_translations_back_es": [
+                        "Bei der letzten Wahl wurde für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25€ gesunken",
+                        "Bei der letzten Wahl wurde für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25 € gesunken!"
+                    ],
+                    "_azure/gpt-4-vision_et": "Viimasel valimisel hääletati CO₂ maksu vähendamise poolt.<br>Seetõttu on see langenud 25 euro võrra!",
+                    "_gcp/gemini-1.5-pro_et": "Viimastel valimistel hääletati CO₂-maksu vähendamise poolt.<br>Seega on see 25 euro võrra langenud! \n",
+                    "_compare_azure/gpt-4-vision_et": "Viimastel valimistel hääletati CO₂-maksu vähendamise poolt. Seega on see 25 euro võrra langenud!",
+                    "_compare_gcp/gemini-1.5-pro_et": "Viimastel valimistel hääletati CO₂-maksu vähendamise poolt. Seega on see 25 euro võrra langenud!",
+                    "_compare_aws/claude-3.5-sonnet_et": "Viimastel valimistel hääletati CO₂-maksu vähendamise poolt. Seega on see 25 euro võrra langenud!",
+                    "_unique_translations_back_et": [
+                        "Bei der letzten Wahl wurde für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25 Euro gesunken!",
+                        "Bei der letzten Wahl wurde für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25 Euro gesunken!"
+                    ],
+                    "_azure/gpt-4-vision_fi": "Viimeisissä vaaleissa äänestettiin CO₂-veron alentamisen puolesta.<br>Se on siksi laskenut 25 eurolla!",
+                    "_gcp/gemini-1.5-pro_fi": "Viime vaaleissa äänestettiin CO₂-veron alentamisen puolesta.<br>Se on siksi laskenut 25 €! \n",
+                    "_compare_azure/gpt-4-vision_fi": "Viime vaaleissa äänestettiin CO₂-veron alentamisen puolesta. Se on siksi laskenut 25 €!",
+                    "_compare_gcp/gemini-1.5-pro_fi": "Viime vaaleissa äänestettiin CO₂-veron alentamisen puolesta. Se on siksi laskenut 25 €!",
+                    "_compare_aws/claude-3.5-sonnet_fi": "Viime vaaleissa äänestettiin CO₂-veron alentamisen puolesta. Se on siksi laskenut 25 €!",
+                    "_unique_translations_back_fi": [
+                        "Bei der letzten Wahl wurde für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25 Euro gesunken!",
+                        "Bei der letzten Wahl wurde für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25 € gesunken!"
+                    ],
+                    "_azure/gpt-4-vision_fr": "Lors des dernières élections, il a été voté pour la réduction de la taxe CO₂.<br>Elle a donc diminué de 25 € !",
+                    "_gcp/gemini-1.5-pro_fr": "Lors des dernières élections, les gens ont voté pour réduire la taxe CO₂.<br>Elle a donc diminué de 25 € ! \n",
+                    "_compare_azure/gpt-4-vision_fr": "Lors des dernières élections, les gens ont voté pour réduire la taxe CO₂. Elle a donc diminué de 25 € !",
+                    "_compare_gcp/gemini-1.5-pro_fr": "Lors des dernières élections, les gens ont voté pour réduire la taxe CO₂. Elle a donc diminué de 25 € !",
+                    "_compare_aws/claude-3.5-sonnet_fr": "Lors des dernières élections, il a été voté pour la réduction de la taxe CO₂. Elle a donc diminué de 25 € !",
+                    "_unique_translations_back_fr": [
+                        "Bei der letzten Wahl haben die Menschen für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25 € gesunken!",
+                        "Bei der letzten Wahl wurde für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25 € gesunken!"
+                    ],
+                    "_azure/gpt-4-vision_ga": "Ag an toghchán deireanach, vótáladh le haghaidh laghdú ar an gcáin CO₂.<br>Dá bhrí sin, tá sé laghdaithe faoi €25!",
+                    "_gcp/gemini-1.5-pro_ga": "Vótáladh sa toghchán deireanach chun an cháin CO₂ a laghdú.<br>Dá bhrí sin, tá laghdú €25 tagtha uirthi! \n",
+                    "_compare_azure/gpt-4-vision_ga": "Vótáladh sa toghchán deireanach chun an cháin CO₂ a laghdú. Dá bhrí sin, tá laghdú €25 tagtha uirthi!",
+                    "_compare_gcp/gemini-1.5-pro_ga": "Vótáladh sa toghchán deireanach chun an cháin CO₂ a laghdú. Dá bhrí sin, tá laghdú €25 tagtha uirthi!",
+                    "_compare_aws/claude-3.5-sonnet_ga": "Vótáladh sa toghchán deireanach chun an cháin CO₂ a laghdú. Dá bhrí sin, tá laghdú €25 tagtha uirthi!",
+                    "_unique_translations_back_ga": [
+                        "Bei der letzten Wahl wurde für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25€ gesunken!",
+                        "Bei der letzten Wahl wurde dafür gestimmt, die CO₂-Steuer zu senken. Sie ist daher um 25€ gesunken!"
+                    ],
+                    "_azure/gpt-4-vision_hr": "Na posljednjim izborima glasalo se za smanjenje CO₂ poreza.<br>Stoga je smanjen za 25 eura!",
+                    "_gcp/gemini-1.5-pro_hr": "Na posljednjim izborima ljudi su glasali za smanjenje poreza na CO₂.<br>Stoga je pao za 25 €! \n",
+                    "_compare_azure/gpt-4-vision_hr": "Na posljednjim izborima glasalo se za smanjenje CO₂ poreza. Stoga je smanjen za 25 eura!",
+                    "_compare_gcp/gemini-1.5-pro_hr": "Na posljednjim izborima glasalo se za smanjenje CO₂ poreza. Stoga je smanjen za 25 eura!",
+                    "_compare_aws/claude-3.5-sonnet_hr": "Na posljednjim izborima glasalo se za smanjenje CO₂ poreza. Stoga je smanjen za 25 eura!",
+                    "_unique_translations_back_hr": [
+                        "Bei der letzten Wahl haben die Menschen für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25 € gesunken!",
+                        "Bei der letzten Wahl wurde für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25 Euro gesunken!"
+                    ],
+                    "_azure/gpt-4-vision_hu": "Az utolsó választáson a CO₂-adó csökkentése mellett szavaztak.<br>Emiatt 25 euróval csökkent!",
+                    "_gcp/gemini-1.5-pro_hu": "Az elmúlt választásokon a CO₂-adó csökkentése mellett döntöttek.<br>Ezért 25 euróval csökkent! \n",
+                    "_compare_azure/gpt-4-vision_hu": "Az utolsó választáson a CO₂-adó csökkentése mellett szavaztak. Emiatt 25 euróval csökkent!",
+                    "_compare_gcp/gemini-1.5-pro_hu": "Az utolsó választáson a CO₂-adó csökkentése mellett szavaztak. Emiatt 25 euróval csökkent!",
+                    "_compare_aws/claude-3.5-sonnet_hu": "Az elmúlt választásokon a CO₂-adó csökkentése mellett döntöttek. Ezért 25 euróval csökkent!",
+                    "_unique_translations_back_hu": [
+                        "Bei der letzten Wahl wurde für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25 Euro gesunken!",
+                        "Bei der letzten Wahl wurde für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25 Euro gesunken!"
+                    ],
+                    "_azure/gpt-4-vision_id": "Pada pemilihan terakhir, orang-orang telah memilih untuk mengurangi pajak CO₂.<br>Oleh karena itu, pajak tersebut telah turun sebesar €25!",
+                    "_gcp/gemini-1.5-pro_id": "Dalam pemilihan terakhir, orang-orang memilih untuk mengurangi pajak CO₂.<br>Oleh karena itu, pajak tersebut turun sebesar 25€! \n",
+                    "_compare_azure/gpt-4-vision_id": "Dalam pemilihan terakhir, orang-orang memilih untuk mengurangi pajak CO₂. Oleh karena itu, pajak tersebut turun sebesar 25€!",
+                    "_compare_gcp/gemini-1.5-pro_id": "Pada pemilihan terakhir, orang-orang telah memilih untuk mengurangi pajak CO₂. Oleh karena itu, pajak tersebut telah turun sebesar €25!",
+                    "_compare_aws/claude-3.5-sonnet_id": "Pada pemilihan terakhir, orang-orang telah memilih untuk mengurangi pajak CO₂. Oleh karena itu, pajak tersebut telah turun sebesar €25!",
+                    "_unique_translations_back_id": [
+                        "Bei der letzten Wahl haben die Menschen dafür gestimmt, die CO₂-Steuer zu senken. Sie ist daher um 25 € gesunken!",
+                        "Bei der letzten Wahl haben die Menschen für eine Senkung der CO₂-Steuer gestimmt. Infolgedessen ist sie um 25 € gesunken!"
+                    ],
+                    "_azure/gpt-4-vision_it": "Alle ultime elezioni si è votato per la riduzione della tassa sulla CO₂.<br>È quindi diminuita di 25€!",
+                    "_gcp/gemini-1.5-pro_it": "Alle ultime elezioni si è votato per la riduzione della tassa sulla CO₂.<br>Di conseguenza, è diminuita di 25€!",
+                    "_compare_azure/gpt-4-vision_it": "Alle ultime elezioni si è votato per la riduzione della tassa sulla CO₂. Di conseguenza, è diminuita di 25€!",
+                    "_compare_gcp/gemini-1.5-pro_it": "Alle ultime elezioni si è votato per la riduzione della tassa sulla CO₂. Di conseguenza, è diminuita di 25€!",
+                    "_compare_aws/claude-3.5-sonnet_it": "Alle ultime elezioni si è votato per la riduzione della tassa sulla CO₂. È quindi diminuita di 25€!",
+                    "_unique_translations_back_it": [
+                        "Bei der letzten Wahl wurde für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25€ gesunken!",
+                        "Bei der letzten Wahl wurde für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25€ gesunken!"
+                    ],
+                    "_azure/gpt-4-vision_ja": "最後の選挙でCO₂税の削減に投票されました。<br>そのため、25ユーロ下がりました！",
+                    "_gcp/gemini-1.5-pro_ja": "前回の選挙では、CO₂税の減税が決まりました。<br>そのため、25ユーロ値下げされました！ \n",
+                    "_compare_azure/gpt-4-vision_ja": "前回の選挙では、CO₂税の減税が決まりました。 そのため、25ユーロ値下げされました！",
+                    "_compare_gcp/gemini-1.5-pro_ja": "最後の選挙でCO₂税の削減に投票されました。 そのため、25ユーロ下がりました！",
+                    "_compare_aws/claude-3.5-sonnet_ja": "最後の選挙でCO₂税の削減に投票されました。 そのため、25ユーロ下がりました！",
+                    "_unique_translations_back_ja": [
+                        "Bei der letzten Wahl wurde für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25 Euro gesunken!",
+                        "Bei der letzten Wahl wurde für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25 Euro gesunken!"
+                    ],
+                    "_azure/gpt-4-vision_ko": "마지막 선거에서 이산화탄소 세금을 줄이기로 투표되었습니다.<br>그래서 25유로 감소했습니다!",
+                    "_gcp/gemini-1.5-pro_ko": "지난 선거에서 CO₂세 인하에 대한 투표가 있었습니다.<br>따라서 25유로 인하되었습니다! \n",
+                    "_compare_azure/gpt-4-vision_ko": "지난 선거에서 CO₂세 인하에 대한 투표가 있었습니다. 따라서 25유로 인하되었습니다!",
+                    "_compare_gcp/gemini-1.5-pro_ko": "지난 선거에서 CO₂세 인하에 대한 투표가 있었습니다. 따라서 25유로 인하되었습니다!",
+                    "_compare_aws/claude-3.5-sonnet_ko": "지난 선거에서 CO₂세 인하에 대한 투표가 있었습니다. 따라서 25유로 인하되었습니다!",
+                    "_unique_translations_back_ko": [
+                        "Bei der letzten Wahl wurde für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25 Euro gesunken!",
+                        "Bei der letzten Wahl wurde für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25 Euro gesunken!"
+                    ],
+                    "_azure/gpt-4-vision_lv": "Pēdējās vēlēšanās tika balsots par CO₂ nodokļa samazināšanu.<br>Tāpēc tas ir samazinājies par 25€!",
+                    "_gcp/gemini-1.5-pro_lv": "Pēdējās vēlēšanās tika nobalsots par CO₂ nodokļa samazināšanu.<br>Tāpēc tas ir samazinājies par 25 €! \n",
+                    "_compare_azure/gpt-4-vision_lv": "Pēdējās vēlēšanās tika nobalsots par CO₂ nodokļa samazināšanu. Tāpēc tas ir samazinājies par 25 €!",
+                    "_compare_gcp/gemini-1.5-pro_lv": "Pēdējās vēlēšanās tika balsots par CO₂ nodokļa samazināšanu. Tāpēc tas ir samazinājies par 25€!",
+                    "_compare_aws/claude-3.5-sonnet_lv": "Pēdējās vēlēšanās tika balsots par CO₂ nodokļa samazināšanu. Tāpēc tas ir samazinājies par 25€!",
+                    "_unique_translations_back_lv": [
+                        "Bei der letzten Wahl wurde für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25 € gesunken!",
+                        "Bei der letzten Wahl wurde für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25€ gesunken!"
+                    ],
+                    "_azure/gpt-4-vision_lt": "Paskutiniuose rinkimuose buvo balsuota už CO₂ mokesčio sumažinimą.<br>Dėl to jis sumažėjo 25 eurais!",
+                    "_gcp/gemini-1.5-pro_lt": "Praėjusiuose rinkimuose buvo balsuojama už CO₂ mokesčio sumažinimą.<br>Todėl jis sumažėjo 25 €! \n",
+                    "_compare_azure/gpt-4-vision_lt": "Paskutiniuose rinkimuose buvo balsuota už CO₂ mokesčio sumažinimą. Dėl to jis sumažėjo 25 eurais!",
+                    "_compare_gcp/gemini-1.5-pro_lt": "Paskutiniuose rinkimuose buvo balsuota už CO₂ mokesčio sumažinimą. Dėl to jis sumažėjo 25 eurais!",
+                    "_compare_aws/claude-3.5-sonnet_lt": "Praėjusiuose rinkimuose buvo balsuojama už CO₂ mokesčio sumažinimą. Todėl jis sumažėjo 25 €!",
+                    "_unique_translations_back_lt": [
+                        "Bei der letzten Wahl wurde für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25 Euro gesunken!",
+                        "Bei der letzten Wahl wurde für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25 Euro gesunken!"
+                    ],
+                    "_azure/gpt-4-vision_mt": "Fl-aħħar elezzjoni, in-nies ivvutaw favur it-tnaqqis tat-taxxa fuq il-CO₂.<br>Għalhekk, naqset b'€25!",
+                    "_gcp/gemini-1.5-pro_mt": "Fl-aħħar elezzjoni, in-nies ivvutaw biex titnaqqas it-taxxa tas-CO₂.<br>Għalhekk niżlet b'€25! \n",
+                    "_compare_azure/gpt-4-vision_mt": "Fl-aħħar elezzjoni, in-nies ivvutaw favur it-tnaqqis tat-taxxa fuq il-CO₂. Għalhekk, naqset b'€25!",
+                    "_compare_gcp/gemini-1.5-pro_mt": "Fl-aħħar elezzjoni, in-nies ivvutaw favur it-tnaqqis tat-taxxa fuq il-CO₂. Għalhekk, naqset b'€25!",
+                    "_compare_aws/claude-3.5-sonnet_mt": "Fl-aħħar elezzjoni, in-nies ivvutaw favur it-tnaqqis tat-taxxa fuq il-CO₂. Għalhekk, naqset b'€25!",
+                    "_unique_translations_back_mt": [
+                        "Bei der letzten Wahl stimmten die Menschen für eine Senkung der CO₂-Steuer. Sie ist daher um 25 € gesunken!",
+                        "Bei der letzten Wahl wurde für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25 Euro gesunken!"
+                    ],
+                    "_azure/gpt-4-vision_nl": "Bij de laatste verkiezingen is gestemd voor de vermindering van de CO₂-belasting.<br>Daarom is deze met €25 gedaald!",
+                    "_gcp/gemini-1.5-pro_nl": "Bij de laatste verkiezingen is gestemd voor verlaging van de CO₂-belasting.<br>Deze is daarom met € 25 gedaald! \n",
+                    "_compare_azure/gpt-4-vision_nl": "Bij de laatste verkiezingen is gestemd voor de vermindering van de CO₂-belasting. Daarom is deze met €25 gedaald!",
+                    "_compare_gcp/gemini-1.5-pro_nl": "Bij de laatste verkiezingen is gestemd voor verlaging van de CO₂-belasting. Deze is daarom met € 25 gedaald!",
+                    "_compare_aws/claude-3.5-sonnet_nl": "Bij de laatste verkiezingen is gestemd voor verlaging van de CO₂-belasting. Deze is daarom met € 25 gedaald!",
+                    "_unique_translations_back_nl": [
+                        "Bei der letzten Wahl wurde für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25 € gesunken!",
+                        "Bei der letzten Wahl wurde für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25 € gesunken!"
+                    ],
+                    "_azure/gpt-4-vision_pl": "Na ostatnich wyborach głosowano za obniżeniem podatku CO₂.<br>Dlatego też obniżył się o 25€!",
+                    "_gcp/gemini-1.5-pro_pl": "W ostatnich wyborach zagłosowano za obniżeniem podatku od CO₂.<br>W związku z tym spadł on o 25 euro! \n",
+                    "_compare_azure/gpt-4-vision_pl": "W ostatnich wyborach zagłosowano za obniżeniem podatku od CO₂. W związku z tym spadł on o 25 euro!",
+                    "_compare_gcp/gemini-1.5-pro_pl": "Na ostatnich wyborach głosowano za obniżeniem podatku CO₂. Dlatego też obniżył się o 25€!",
+                    "_compare_aws/claude-3.5-sonnet_pl": "Na ostatnich wyborach głosowano za obniżeniem podatku CO₂. Dlatego też obniżył się o 25€!",
+                    "_unique_translations_back_pl": [
+                        "Bei der letzten Wahl wurde für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25 Euro gesunken!",
+                        "Bei der letzten Wahl wurde für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25€ gesunken!"
+                    ],
+                    "_azure/gpt-4-vision_ro": "La ultimele alegeri s-a votat pentru reducerea taxei pe CO₂.<br>Prin urmare, aceasta a scăzut cu 25 de euro!",
+                    "_gcp/gemini-1.5-pro_ro": "La ultimele alegeri, oamenii au votat pentru reducerea taxei pe CO₂.<br>Prin urmare, aceasta a scăzut cu 25 €! \n",
+                    "_compare_azure/gpt-4-vision_ro": "La ultimele alegeri s-a votat pentru reducerea taxei pe CO₂. Prin urmare, aceasta a scăzut cu 25 de euro!",
+                    "_compare_gcp/gemini-1.5-pro_ro": "La ultimele alegeri, oamenii au votat pentru reducerea taxei pe CO₂. Prin urmare, aceasta a scăzut cu 25 €!",
+                    "_compare_aws/claude-3.5-sonnet_ro": "La ultimele alegeri, oamenii au votat pentru reducerea taxei pe CO₂. Prin urmare, aceasta a scăzut cu 25 €!",
+                    "_unique_translations_back_ro": [
+                        "Bei der letzten Wahl wurde für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25 Euro gesunken!",
+                        "Bei der letzten Wahl haben die Menschen für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25 € gesunken!"
+                    ],
+                    "_azure/gpt-4-vision_ru": "На последних выборах было принято решение о снижении налога на CO₂.<br>Поэтому он уменьшился на 25 евро!",
+                    "_gcp/gemini-1.5-pro_ru": "На последних выборах люди проголосовали за снижение налога на CO₂.<br>Таким образом, она подешевела на 25 евро! \n",
+                    "_compare_azure/gpt-4-vision_ru": "На последних выборах люди проголосовали за снижение налога на CO₂. Таким образом, она подешевела на 25 евро!",
+                    "_compare_gcp/gemini-1.5-pro_ru": "На последних выборах люди проголосовали за снижение налога на CO₂. Таким образом, она подешевела на 25 евро!",
+                    "_compare_aws/claude-3.5-sonnet_ru": "На последних выборах люди проголосовали за снижение налога на CO₂. Таким образом, она подешевела на 25 евро!",
+                    "_unique_translations_back_ru": [
+                        "Bei der letzten Wahl wurde für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25 Euro gesunken!",
+                        "Bei den letzten Wahlen haben die Menschen für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25 Euro gesunken!"
+                    ],
+                    "_azure/gpt-4-vision_sk": "Na posledných voľbách sa hlasovalo za zníženie dane z CO₂.<br>Preto klesla o 25 €!",
+                    "_gcp/gemini-1.5-pro_sk": "V posledných voľbách ľudia hlasovali za zníženie dane z CO₂.<br>Preto klesla o 25 €! \n",
+                    "_compare_azure/gpt-4-vision_sk": "V posledných voľbách ľudia hlasovali za zníženie dane z CO₂. Preto klesla o 25 €!",
+                    "_compare_gcp/gemini-1.5-pro_sk": "V posledných voľbách ľudia hlasovali za zníženie dane z CO₂. Preto klesla o 25 €!",
+                    "_compare_aws/claude-3.5-sonnet_sk": "Na posledných voľbách sa hlasovalo za zníženie dane z CO₂. Preto klesla o 25 €!",
+                    "_unique_translations_back_sk": [
+                        "Bei der letzten Wahl wurde für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25 Euro gesunken!",
+                        "Bei der letzten Wahl wurde für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25 € gesunken!"
+                    ],
+                    "_azure/gpt-4-vision_sl": "Na zadnjih volitvah so glasovali za zmanjšanje davka na CO₂.<br>Zato se je znižal za 25 €!",
+                    "_gcp/gemini-1.5-pro_sl": "Na zadnjih volitvah so volivci glasovali za znižanje davka na CO₂.<br>Zato se je znižal za 25 €! \n",
+                    "_compare_azure/gpt-4-vision_sl": "Na zadnjih volitvah so volivci glasovali za znižanje davka na CO₂. Zato se je znižal za 25 €!",
+                    "_compare_gcp/gemini-1.5-pro_sl": "Na zadnjih volitvah so glasovali za zmanjšanje davka na CO₂. Zato se je znižal za 25 €!",
+                    "_compare_aws/claude-3.5-sonnet_sl": "Na zadnjih volitvah so glasovali za zmanjšanje davka na CO₂. Zato se je znižal za 25 €!",
+                    "_unique_translations_back_sl": [
+                        "Bei der letzten Wahl haben die Wähler für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25 € gesunken!",
+                        "Bei der letzten Wahl wurde für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25 € gesunken!"
+                    ],
+                    "_azure/gpt-4-vision_zh": "在上次选举中，人们投票决定降低二氧化碳税。<br>因此，它下降了25欧元！",
+                    "_gcp/gemini-1.5-pro_zh": "在上届选举中，人们投票决定降低二氧化碳税。<br>因此，它下降了 25 欧元！ \n",
+                    "_compare_azure/gpt-4-vision_zh": "在上次选举中，人们投票决定降低二氧化碳税。 因此，它下降了25欧元！",
+                    "_compare_gcp/gemini-1.5-pro_zh": "在上次选举中，人们投票决定降低二氧化碳税。 因此，它下降了25欧元！",
+                    "_compare_aws/claude-3.5-sonnet_zh": "在上届选举中，人们投票决定降低二氧化碳税。 因此，它下降了 25 欧元！",
+                    "_unique_translations_back_zh": [
+                        "Bei der letzten Wahl wurde dafür gestimmt, die CO₂-Steuer zu senken. Sie ist daher um 25 Euro gefallen!",
+                        "Bei der letzten Wahl wurde dafür gestimmt, die CO₂-Steuer zu senken. Sie ist daher um 25 Euro gefallen!"
                     ]
                 },
                 "conditions": [
@@ -235,6 +1693,243 @@
                     "_compare_aws/claude-3.5-sonnet_sv": "Resultaten är här!",
                     "_unique_translations_back_sv": [
                         "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_ar": "النتائج جاهزة!",
+                    "_gcp/gemini-1.5-pro_ar": "النتائج جاهزة! \n",
+                    "_compare_azure/gpt-4-vision_ar": "النتائج جاهزة!",
+                    "_compare_gcp/gemini-1.5-pro_ar": "النتائج جاهزة!",
+                    "_compare_aws/claude-3.5-sonnet_ar": "النتائج جاهزة!",
+                    "_unique_translations_back_ar": [
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_bg": "Резултатите са тук!",
+                    "_gcp/gemini-1.5-pro_bg": "Резултатите са готови!\n",
+                    "_compare_azure/gpt-4-vision_bg": "Резултатите са тук!",
+                    "_compare_gcp/gemini-1.5-pro_bg": "Резултатите са готови!",
+                    "_compare_aws/claude-3.5-sonnet_bg": "Резултатите са тук!",
+                    "_unique_translations_back_bg": [
+                        "Die Ergebnisse sind da!",
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_cs": "Výsledky jsou tady!",
+                    "_gcp/gemini-1.5-pro_cs": "Výsledky jsou tady! \n",
+                    "_compare_azure/gpt-4-vision_cs": "Výsledky jsou tady!",
+                    "_compare_gcp/gemini-1.5-pro_cs": "Výsledky jsou tady!",
+                    "_compare_aws/claude-3.5-sonnet_cs": "Výsledky jsou tady!",
+                    "_unique_translations_back_cs": [
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_da": "Resultaterne er her!",
+                    "_gcp/gemini-1.5-pro_da": "Resultaterne er klar! \n",
+                    "_compare_azure/gpt-4-vision_da": "Resultaterne er her!",
+                    "_compare_gcp/gemini-1.5-pro_da": "Resultaterne er her!",
+                    "_compare_aws/claude-3.5-sonnet_da": "Resultaterne er her!",
+                    "_unique_translations_back_da": [
+                        "Die Ergebnisse sind da!",
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_de": "Die Ergebnisse sind da!",
+                    "_gcp/gemini-1.5-pro_de": "Die Ergebnisse sind da! \n",
+                    "_compare_azure/gpt-4-vision_de": "Die Ergebnisse sind da!",
+                    "_compare_gcp/gemini-1.5-pro_de": "Die Ergebnisse sind da!",
+                    "_compare_aws/claude-3.5-sonnet_de": "Die Ergebnisse sind da!",
+                    "_unique_translations_back_de": [
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_el": "Τα αποτελέσματα είναι εδώ!",
+                    "_gcp/gemini-1.5-pro_el": "Τα αποτελέσματα βγήκαν! \n",
+                    "_compare_azure/gpt-4-vision_el": "Τα αποτελέσματα είναι εδώ!",
+                    "_compare_gcp/gemini-1.5-pro_el": "Τα αποτελέσματα είναι εδώ!",
+                    "_compare_aws/claude-3.5-sonnet_el": "Τα αποτελέσματα είναι εδώ!",
+                    "_unique_translations_back_el": [
+                        "Die Ergebnisse sind da!",
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_en": "The results are in!",
+                    "_gcp/gemini-1.5-pro_en": "The results are in! \n",
+                    "_compare_azure/gpt-4-vision_en": "The results are in!",
+                    "_compare_gcp/gemini-1.5-pro_en": "The results are in!",
+                    "_compare_aws/claude-3.5-sonnet_en": "The results are in!",
+                    "_unique_translations_back_en": [
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_es": "Los resultados están aquí.",
+                    "_gcp/gemini-1.5-pro_es": "¡Los resultados están aquí! \n",
+                    "_compare_azure/gpt-4-vision_es": "¡Los resultados están aquí!",
+                    "_compare_gcp/gemini-1.5-pro_es": "¡Los resultados están aquí!",
+                    "_compare_aws/claude-3.5-sonnet_es": "¡Los resultados están aquí!",
+                    "_unique_translations_back_es": [
+                        "Die Ergebnisse sind da!",
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_et": "Tulemused on käes!",
+                    "_gcp/gemini-1.5-pro_et": "Tulemused on saabunud! \n",
+                    "_compare_azure/gpt-4-vision_et": "Tulemused on käes!",
+                    "_compare_gcp/gemini-1.5-pro_et": "Tulemused on käes!",
+                    "_compare_aws/claude-3.5-sonnet_et": "Tulemused on käes!",
+                    "_unique_translations_back_et": [
+                        "Die Ergebnisse sind da!",
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_fi": "Tulokset ovat täällä!",
+                    "_gcp/gemini-1.5-pro_fi": "Tulokset ovat tässä! \n",
+                    "_compare_azure/gpt-4-vision_fi": "Tulokset ovat tässä!",
+                    "_compare_gcp/gemini-1.5-pro_fi": "Tulokset ovat tässä!",
+                    "_compare_aws/claude-3.5-sonnet_fi": "Tulokset ovat täällä!",
+                    "_unique_translations_back_fi": [
+                        "Die Ergebnisse sind da!",
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_fr": "Les résultats sont là !",
+                    "_gcp/gemini-1.5-pro_fr": "Les résultats sont là ! \n",
+                    "_compare_azure/gpt-4-vision_fr": "Les résultats sont là !",
+                    "_compare_gcp/gemini-1.5-pro_fr": "Les résultats sont là !",
+                    "_compare_aws/claude-3.5-sonnet_fr": "Les résultats sont là !",
+                    "_unique_translations_back_fr": [
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_ga": "Tá na torthaí istigh!",
+                    "_gcp/gemini-1.5-pro_ga": "Tá na torthaí istigh! \n",
+                    "_compare_azure/gpt-4-vision_ga": "Tá na torthaí istigh!",
+                    "_compare_gcp/gemini-1.5-pro_ga": "Tá na torthaí istigh!",
+                    "_compare_aws/claude-3.5-sonnet_ga": "Tá na torthaí istigh!",
+                    "_unique_translations_back_ga": [
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_hr": "Rezultati su tu!",
+                    "_gcp/gemini-1.5-pro_hr": "Rezultati su tu! \n",
+                    "_compare_azure/gpt-4-vision_hr": "Rezultati su tu!",
+                    "_compare_gcp/gemini-1.5-pro_hr": "Rezultati su tu!",
+                    "_compare_aws/claude-3.5-sonnet_hr": "Rezultati su tu!",
+                    "_unique_translations_back_hr": [
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_hu": "Az eredmények megérkeztek!",
+                    "_gcp/gemini-1.5-pro_hu": "Megvannak az eredmények! \n",
+                    "_compare_azure/gpt-4-vision_hu": "Az eredmények megérkeztek!",
+                    "_compare_gcp/gemini-1.5-pro_hu": "Megvannak az eredmények!",
+                    "_compare_aws/claude-3.5-sonnet_hu": "Megvannak az eredmények!",
+                    "_unique_translations_back_hu": [
+                        "Die Ergebnisse sind da!",
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_id": "Hasilnya sudah keluar!",
+                    "_gcp/gemini-1.5-pro_id": "Hasilnya sudah keluar! \n",
+                    "_compare_azure/gpt-4-vision_id": "Hasilnya sudah keluar!",
+                    "_compare_gcp/gemini-1.5-pro_id": "Hasilnya sudah keluar!",
+                    "_compare_aws/claude-3.5-sonnet_id": "Hasilnya sudah keluar!",
+                    "_unique_translations_back_id": [
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_it": "I risultati sono arrivati!",
+                    "_gcp/gemini-1.5-pro_it": "I risultati sono arrivati! \n",
+                    "_compare_azure/gpt-4-vision_it": "I risultati sono arrivati!",
+                    "_compare_gcp/gemini-1.5-pro_it": "I risultati sono arrivati!",
+                    "_compare_aws/claude-3.5-sonnet_it": "I risultati sono arrivati!",
+                    "_unique_translations_back_it": [
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_ja": "結果が出ました!",
+                    "_gcp/gemini-1.5-pro_ja": "結果が出ました！ \n",
+                    "_compare_azure/gpt-4-vision_ja": "結果が出ました！",
+                    "_compare_gcp/gemini-1.5-pro_ja": "結果が出ました！",
+                    "_compare_aws/claude-3.5-sonnet_ja": "結果が出ました!",
+                    "_unique_translations_back_ja": [
+                        "Die Ergebnisse sind da!",
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_ko": "결과가 나왔습니다!",
+                    "_gcp/gemini-1.5-pro_ko": "결과가 나왔습니다! \n",
+                    "_compare_azure/gpt-4-vision_ko": "결과가 나왔습니다!",
+                    "_compare_gcp/gemini-1.5-pro_ko": "결과가 나왔습니다!",
+                    "_compare_aws/claude-3.5-sonnet_ko": "결과가 나왔습니다!",
+                    "_unique_translations_back_ko": [
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_lv": "Rezultāti ir klāt!",
+                    "_gcp/gemini-1.5-pro_lv": "Rezultāti ir klāt! \n",
+                    "_compare_azure/gpt-4-vision_lv": "Rezultāti ir klāt!",
+                    "_compare_gcp/gemini-1.5-pro_lv": "Rezultāti ir klāt!",
+                    "_compare_aws/claude-3.5-sonnet_lv": "Rezultāti ir klāt!",
+                    "_unique_translations_back_lv": [
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_lt": "Rezultatai jau čia!",
+                    "_gcp/gemini-1.5-pro_lt": "Gauti rezultatai! \n",
+                    "_compare_azure/gpt-4-vision_lt": "Rezultatai jau čia!",
+                    "_compare_gcp/gemini-1.5-pro_lt": "Rezultatai jau čia!",
+                    "_compare_aws/claude-3.5-sonnet_lt": "Rezultatai jau čia!",
+                    "_unique_translations_back_lt": [
+                        "Die Ergebnisse sind da!",
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_mt": "Ir-riżultati waslu!",
+                    "_gcp/gemini-1.5-pro_mt": "Ir-riżultati qegħdin hawn! \n",
+                    "_compare_azure/gpt-4-vision_mt": "Ir-riżultati qegħdin hawn!",
+                    "_compare_gcp/gemini-1.5-pro_mt": "Ir-riżultati waslu!",
+                    "_compare_aws/claude-3.5-sonnet_mt": "Ir-riżultati qegħdin hawn!",
+                    "_unique_translations_back_mt": [
+                        "Die Ergebnisse sind da!",
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_nl": "De resultaten zijn binnen!",
+                    "_gcp/gemini-1.5-pro_nl": "De resultaten zijn bekend! \n",
+                    "_compare_azure/gpt-4-vision_nl": "De resultaten zijn bekend!",
+                    "_compare_gcp/gemini-1.5-pro_nl": "De resultaten zijn bekend!",
+                    "_compare_aws/claude-3.5-sonnet_nl": "De resultaten zijn binnen!",
+                    "_unique_translations_back_nl": [
+                        "Die Ergebnisse sind da!",
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_pl": "Wyniki są już dostępne!",
+                    "_gcp/gemini-1.5-pro_pl": "Wyniki są już dostępne!",
+                    "_compare_azure/gpt-4-vision_pl": "Wyniki są już dostępne!",
+                    "_compare_gcp/gemini-1.5-pro_pl": "Wyniki są już dostępne!",
+                    "_compare_aws/claude-3.5-sonnet_pl": "Wyniki są już dostępne!",
+                    "_unique_translations_back_pl": [
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_ro": "Rezultatele au sosit!",
+                    "_gcp/gemini-1.5-pro_ro": "Rezultatele sunt gata! \n",
+                    "_compare_azure/gpt-4-vision_ro": "Rezultatele au sosit!",
+                    "_compare_gcp/gemini-1.5-pro_ro": "Rezultatele sunt gata!",
+                    "_compare_aws/claude-3.5-sonnet_ro": "Rezultatele sunt gata!",
+                    "_unique_translations_back_ro": [
+                        "Die Ergebnisse sind da!",
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_ru": "Результаты подведены!",
+                    "_gcp/gemini-1.5-pro_ru": "Результаты подведены! \n",
+                    "_compare_azure/gpt-4-vision_ru": "Результаты подведены!",
+                    "_compare_gcp/gemini-1.5-pro_ru": "Результаты подведены!",
+                    "_compare_aws/claude-3.5-sonnet_ru": "Результаты подведены!",
+                    "_unique_translations_back_ru": [
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_sk": "Výsledky sú tu!",
+                    "_gcp/gemini-1.5-pro_sk": "Výsledky sú tu! \n",
+                    "_compare_azure/gpt-4-vision_sk": "Výsledky sú tu!",
+                    "_compare_gcp/gemini-1.5-pro_sk": "Výsledky sú tu!",
+                    "_compare_aws/claude-3.5-sonnet_sk": "Výsledky sú tu!",
+                    "_unique_translations_back_sk": [
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_sl": "Rezultati so tu!",
+                    "_gcp/gemini-1.5-pro_sl": "Rezultati so tukaj! \n",
+                    "_compare_azure/gpt-4-vision_sl": "Rezultati so tukaj!",
+                    "_compare_gcp/gemini-1.5-pro_sl": "Rezultati so tukaj!",
+                    "_compare_aws/claude-3.5-sonnet_sl": "Rezultati so tu!",
+                    "_unique_translations_back_sl": [
+                        "Die Ergebnisse sind da!",
+                        "Die Ergebnisse sind da!"
+                    ],
+                    "_azure/gpt-4-vision_zh": "结果出来了！",
+                    "_gcp/gemini-1.5-pro_zh": "结果出来了！ \n",
+                    "_compare_azure/gpt-4-vision_zh": "结果出来了！",
+                    "_compare_gcp/gemini-1.5-pro_zh": "结果出来了！",
+                    "_compare_aws/claude-3.5-sonnet_zh": "结果出来了！",
+                    "_unique_translations_back_zh": [
+                        "Die Ergebnisse sind da!"
                     ]
                 },
                 "body": {
@@ -251,6 +1946,258 @@
                     "_unique_translations_back_sv": [
                         "Bei der letzten Wahl wurde dafür gestimmt, dass die CO₂-Steuer gleich bleibt. Sie bleibt also unverändert!",
                         "Bei der letzten Wahl wurde dafür gestimmt, dass die CO₂-Steuer unverändert bleibt. Sie bleibt also unverändert!"
+                    ],
+                    "_azure/gpt-4-vision_ar": "في الانتخابات الأخيرة، صوت الناس للحفاظ على ضريبة ثاني أكسيد الكربون كما هي.<br>لذلك، تظل دون تغيير!",
+                    "_gcp/gemini-1.5-pro_ar": "في الانتخابات الأخيرة، تم التصويت على الإبقاء على ضريبة ثاني أكسيد الكربون كما هي.<br>لذلك، ستبقى دون تغيير! \n",
+                    "_compare_azure/gpt-4-vision_ar": "في الانتخابات الأخيرة، صوت الناس للحفاظ على ضريبة ثاني أكسيد الكربون كما هي. لذلك، تظل دون تغيير!",
+                    "_compare_gcp/gemini-1.5-pro_ar": "في الانتخابات الأخيرة، تم التصويت على الإبقاء على ضريبة ثاني أكسيد الكربون كما هي. لذلك، ستبقى دون تغيير!",
+                    "_compare_aws/claude-3.5-sonnet_ar": "في الانتخابات الأخيرة، تم التصويت على الإبقاء على ضريبة ثاني أكسيد الكربون كما هي. لذلك، ستبقى دون تغيير!",
+                    "_unique_translations_back_ar": [
+                        "Bei den letzten Wahlen stimmten die Menschen dafür, die CO₂-Steuer unverändert zu lassen. Sie bleibt also unverändert!",
+                        "Bei der letzten Wahl wurde dafür gestimmt, die CO₂-Steuer unverändert zu lassen. Sie bleibt daher unverändert!"
+                    ],
+                    "_azure/gpt-4-vision_bg": "На последните избори беше гласувано CO₂ данъкът да остане същият.<br>Затова той остава непроменен!",
+                    "_gcp/gemini-1.5-pro_bg": "На последните избори беше гласувано за запазване на CO₂ данъка.<br>Поради това той остава непроменен! \n",
+                    "_compare_azure/gpt-4-vision_bg": "На последните избори беше гласувано CO₂ данъкът да остане същият. Затова той остава непроменен!",
+                    "_compare_gcp/gemini-1.5-pro_bg": "На последните избори беше гласувано за запазване на CO₂ данъка. Поради това той остава непроменен!",
+                    "_compare_aws/claude-3.5-sonnet_bg": "На последните избори беше гласувано за запазване на CO₂ данъка. Поради това той остава непроменен!",
+                    "_unique_translations_back_bg": [
+                        "Bei der letzten Wahl wurde dafür gestimmt, dass die CO₂-Steuer unverändert bleibt. Sie bleibt daher unverändert!",
+                        "Bei der letzten Wahl wurde dafür gestimmt, die CO₂-Steuer beizubehalten. Sie bleibt daher unverändert!"
+                    ],
+                    "_azure/gpt-4-vision_cs": "Na posledních volbách bylo hlasováno pro zachování stávající výše daně z CO₂.<br>Zůstává tedy nezměněna!",
+                    "_gcp/gemini-1.5-pro_cs": "V posledních volbách se hlasovalo pro zachování stávající výše daně z CO₂.<br>Zůstává proto beze změny! \n",
+                    "_compare_azure/gpt-4-vision_cs": "Na posledních volbách bylo hlasováno pro zachování stávající výše daně z CO₂. Zůstává tedy nezměněna!",
+                    "_compare_gcp/gemini-1.5-pro_cs": "Na posledních volbách bylo hlasováno pro zachování stávající výše daně z CO₂. Zůstává tedy nezměněna!",
+                    "_compare_aws/claude-3.5-sonnet_cs": "V posledních volbách se hlasovalo pro zachování stávající výše daně z CO₂. Zůstává proto beze změny!",
+                    "_unique_translations_back_cs": [
+                        "Bei der letzten Wahl wurde für die Beibehaltung der bestehenden CO₂-Steuer gestimmt. Sie bleibt daher unverändert!",
+                        "Bei der letzten Wahl wurde dafür gestimmt, dass die CO₂-Steuer unverändert bleibt. Sie bleibt also unverändert!"
+                    ],
+                    "_azure/gpt-4-vision_da": "Ved det sidste val blev der stemt for at CO₂-afgiften forbliver den samme.<br>Den forbliver derfor uændret!",
+                    "_gcp/gemini-1.5-pro_da": "Ved det seneste valg blev der stemt for at beholde CO₂-afgiften på samme niveau.<br>Den forbliver derfor uændret! \n",
+                    "_compare_azure/gpt-4-vision_da": "Ved det seneste valg blev der stemt for at beholde CO₂-afgiften på samme niveau. Den forbliver derfor uændret!",
+                    "_compare_gcp/gemini-1.5-pro_da": "Ved det seneste valg blev der stemt for at beholde CO₂-afgiften på samme niveau. Den forbliver derfor uændret!",
+                    "_compare_aws/claude-3.5-sonnet_da": "Ved det seneste valg blev der stemt for at beholde CO₂-afgiften på samme niveau. Den forbliver derfor uændret!",
+                    "_unique_translations_back_da": [
+                        "Bei der letzten Wahl wurde dafür gestimmt, die CO₂-Abgabe auf dem gleichen Niveau zu belassen. Sie bleibt daher unverändert!",
+                        "Bei der letzten Wahl wurde dafür gestimmt, dass die CO₂-Steuer unverändert bleibt. Sie bleibt daher unverändert!"
+                    ],
+                    "_azure/gpt-4-vision_de": "Bei der letzten Wahl wurde für das Gleichbleiben der CO₂-Steuer gestimmt. Sie bleibt deshalb unverändert!",
+                    "_gcp/gemini-1.5-pro_de": "Bei der letzten Wahl wurde dafür gestimmt, die CO₂-Steuer beizubehalten.<br>Sie bleibt daher unverändert! \n",
+                    "_compare_azure/gpt-4-vision_de": "Bei der letzten Wahl wurde für das Gleichbleiben der CO₂-Steuer gestimmt. Sie bleibt deshalb unverändert!",
+                    "_compare_gcp/gemini-1.5-pro_de": "Bei der letzten Wahl wurde dafür gestimmt, die CO₂-Steuer beizubehalten. Sie bleibt daher unverändert!",
+                    "_compare_aws/claude-3.5-sonnet_de": "Bei der letzten Wahl wurde für das Gleichbleiben der CO₂-Steuer gestimmt. Sie bleibt deshalb unverändert!",
+                    "_unique_translations_back_de": [
+                        "Bei der letzten Wahl wurde für das Gleichbleiben der CO₂-Steuer gestimmt. Sie bleibt deshalb unverändert!",
+                        "Bei der letzten Wahl wurde dafür gestimmt, die CO₂-Steuer beizubehalten. Sie bleibt daher unverändert!"
+                    ],
+                    "_azure/gpt-4-vision_el": "Στις τελευταίες εκλογές ψηφίστηκε να παραμείνει ίδιος ο φόρος CO₂.<br>Γι' αυτό παραμένει αμετάβλητος!",
+                    "_gcp/gemini-1.5-pro_el": "Στις τελευταίες εκλογές, ψηφίστηκε η διατήρηση του φόρου CO₂.<br>Επομένως, παραμένει αμετάβλητος! \n",
+                    "_compare_azure/gpt-4-vision_el": "Στις τελευταίες εκλογές, ψηφίστηκε η διατήρηση του φόρου CO₂. Επομένως, παραμένει αμετάβλητος!",
+                    "_compare_gcp/gemini-1.5-pro_el": "Στις τελευταίες εκλογές ψηφίστηκε να παραμείνει ίδιος ο φόρος CO₂. Γι' αυτό παραμένει αμετάβλητος!",
+                    "_compare_aws/claude-3.5-sonnet_el": "Στις τελευταίες εκλογές, ψηφίστηκε η διατήρηση του φόρου CO₂. Επομένως, παραμένει αμετάβλητος!",
+                    "_unique_translations_back_el": [
+                        "Bei der letzten Wahl wurde dafür gestimmt, dass die CO₂-Steuer unverändert bleibt. Sie bleibt daher unverändert!",
+                        "Bei der letzten Wahl wurde für die Beibehaltung der CO₂-Steuer gestimmt. Sie bleibt daher unverändert!"
+                    ],
+                    "_azure/gpt-4-vision_en": "In the last election, it was voted to keep the CO₂ tax the same.<br>Therefore, it remains unchanged!",
+                    "_gcp/gemini-1.5-pro_en": "In the last election, the CO₂ tax was voted to remain the same.<br>It therefore remains unchanged! \n",
+                    "_compare_azure/gpt-4-vision_en": "In the last election, the CO₂ tax was voted to remain the same. It therefore remains unchanged!",
+                    "_compare_gcp/gemini-1.5-pro_en": "In the last election, the CO₂ tax was voted to remain the same. It therefore remains unchanged!",
+                    "_compare_aws/claude-3.5-sonnet_en": "In the last election, the CO₂ tax was voted to remain the same. It therefore remains unchanged!",
+                    "_unique_translations_back_en": [
+                        "Bei der letzten Wahl wurde dafür gestimmt, dass die CO₂-Steuer unverändert bleibt. Sie bleibt daher unverändert!",
+                        "Bei der letzten Wahl wurde dafür gestimmt, die CO₂-Steuer unverändert zu lassen. Daher bleibt sie unverändert!"
+                    ],
+                    "_azure/gpt-4-vision_es": "En las últimas elecciones se votó por mantener el impuesto al CO₂ sin cambios.<br>Por lo tanto, permanece inalterado.",
+                    "_gcp/gemini-1.5-pro_es": "En las últimas elecciones, se votó por mantener el impuesto al CO₂ sin cambios.<br>¡Por lo tanto, se mantiene igual! \n",
+                    "_compare_azure/gpt-4-vision_es": "En las últimas elecciones se votó por mantener el impuesto al CO₂ sin cambios. Por lo tanto, permanece inalterado",
+                    "_compare_gcp/gemini-1.5-pro_es": "En las últimas elecciones, se votó por mantener el impuesto al CO₂ sin cambios. ¡Por lo tanto, se mantiene igual!",
+                    "_compare_aws/claude-3.5-sonnet_es": "En las últimas elecciones se votó por mantener el impuesto al CO₂ sin cambios. Por lo tanto, permanece inalterado",
+                    "_unique_translations_back_es": [
+                        "Bei der letzten Wahl wurde dafür gestimmt, die CO₂-Steuer unverändert zu lassen. Sie bleibt daher gleich!",
+                        "Bei den letzten Wahlen wurde dafür gestimmt, die CO₂-Steuer unverändert zu lassen. Sie bleibt also unverändert"
+                    ],
+                    "_azure/gpt-4-vision_et": "Viimasel valimisel hääletati CO₂-maksu samaks jäämise poolt.<br>Seetõttu jääb see muutumatuks!",
+                    "_gcp/gemini-1.5-pro_et": "Viimastel valimistel hääletati CO₂-maksu samaks jätmise poolt.<br>Seega jääb see samaks! \n",
+                    "_compare_azure/gpt-4-vision_et": "Viimasel valimisel hääletati CO₂-maksu samaks jäämise poolt. Seetõttu jääb see muutumatuks!",
+                    "_compare_gcp/gemini-1.5-pro_et": "Viimastel valimistel hääletati CO₂-maksu samaks jätmise poolt. Seega jääb see samaks!",
+                    "_compare_aws/claude-3.5-sonnet_et": "Viimasel valimisel hääletati CO₂-maksu samaks jäämise poolt. Seetõttu jääb see muutumatuks!",
+                    "_unique_translations_back_et": [
+                        "Bei der letzten Wahl wurde dafür gestimmt, dass die CO₂-Steuer unverändert bleibt. Sie bleibt also unverändert!",
+                        "Bei der letzten Wahl wurde dafür gestimmt, dass die CO₂-Steuer unverändert bleibt. Sie bleibt also unverändert!"
+                    ],
+                    "_azure/gpt-4-vision_fi": "Viimeisissä vaaleissa äänestettiin CO₂-veron pitämiseksi ennallaan.<br>Se pysyy siis muuttumattomana!",
+                    "_gcp/gemini-1.5-pro_fi": "Viime vaaleissa äänestettiin CO₂-veron säilyttämisen puolesta.<br>Se pysyy siis ennallaan! \n",
+                    "_compare_azure/gpt-4-vision_fi": "Viimeisissä vaaleissa äänestettiin CO₂-veron pitämiseksi ennallaan. Se pysyy siis muuttumattomana!",
+                    "_compare_gcp/gemini-1.5-pro_fi": "Viimeisissä vaaleissa äänestettiin CO₂-veron pitämiseksi ennallaan. Se pysyy siis muuttumattomana!",
+                    "_compare_aws/claude-3.5-sonnet_fi": "Viime vaaleissa äänestettiin CO₂-veron säilyttämisen puolesta. Se pysyy siis ennallaan!",
+                    "_unique_translations_back_fi": [
+                        "Bei der letzten Wahl wurde dafür gestimmt, dass die CO₂-Steuer unverändert bleibt. Sie bleibt also unverändert!",
+                        "Bei der letzten Wahl wurde dafür gestimmt, die CO₂-Steuer beizubehalten. Sie bleibt also unverändert!"
+                    ],
+                    "_azure/gpt-4-vision_fr": "Lors des dernières élections, il a été voté pour que la taxe CO₂ reste inchangée.<br>Elle reste donc inchangée !",
+                    "_gcp/gemini-1.5-pro_fr": "Lors des dernières élections, la taxe CO₂ a été votée pour rester inchangée.<br>Elle reste donc inchangée !",
+                    "_compare_azure/gpt-4-vision_fr": "Lors des dernières élections, la taxe CO₂ a été votée pour rester inchangée. Elle reste donc inchangée !",
+                    "_compare_gcp/gemini-1.5-pro_fr": "Lors des dernières élections, la taxe CO₂ a été votée pour rester inchangée. Elle reste donc inchangée !",
+                    "_compare_aws/claude-3.5-sonnet_fr": "Lors des dernières élections, il a été voté pour que la taxe CO₂ reste inchangée. Elle reste donc inchangée !",
+                    "_unique_translations_back_fr": [
+                        "Bei der letzten Wahl wurde dafür gestimmt, dass die CO₂-Steuer unverändert bleibt. Sie bleibt also unverändert!",
+                        "Bei der letzten Wahl wurde dafür gestimmt, dass die CO₂-Steuer unverändert bleibt. Sie bleibt also unverändert!"
+                    ],
+                    "_azure/gpt-4-vision_ga": "Ag an toghchán deireanach, vótáladh chun an cháin CO₂ a choinneáil mar an gcéanna.<br>Mar sin, fanann sé gan athrú!",
+                    "_gcp/gemini-1.5-pro_ga": "Sa toghchán deireanach, vótáladh chun an cáin CO₂ a choinneáil mar atá.<br>Dá bhrí sin, fanfaidh sé gan athrú! \n",
+                    "_compare_azure/gpt-4-vision_ga": "Ag an toghchán deireanach, vótáladh chun an cháin CO₂ a choinneáil mar an gcéanna. Mar sin, fanann sé gan athrú!",
+                    "_compare_gcp/gemini-1.5-pro_ga": "Sa toghchán deireanach, vótáladh chun an cáin CO₂ a choinneáil mar atá. Dá bhrí sin, fanfaidh sé gan athrú!",
+                    "_compare_aws/claude-3.5-sonnet_ga": "Sa toghchán deireanach, vótáladh chun an cáin CO₂ a choinneáil mar atá. Dá bhrí sin, fanfaidh sé gan athrú!",
+                    "_unique_translations_back_ga": [
+                        "Bei der letzten Wahl wurde dafür gestimmt, die CO₂-Steuer unverändert zu lassen. Sie bleibt also unverändert!",
+                        "Bei der letzten Wahl wurde dafür gestimmt, die CO₂-Steuer unverändert zu lassen. Sie bleibt also unverändert!"
+                    ],
+                    "_azure/gpt-4-vision_hr": "Na posljednjim izborima glasalo se za ostanak CO₂ poreza nepromijenjenim.<br>Stoga ostaje nepromijenjen!",
+                    "_gcp/gemini-1.5-pro_hr": "Na posljednjim izborima glasovalo se za zadržavanje CO₂ poreza na istoj razini.<br>Stoga ostaje nepromijenjen! \n",
+                    "_compare_azure/gpt-4-vision_hr": "Na posljednjim izborima glasalo se za ostanak CO₂ poreza nepromijenjenim. Stoga ostaje nepromijenjen!",
+                    "_compare_gcp/gemini-1.5-pro_hr": "Na posljednjim izborima glasovalo se za zadržavanje CO₂ poreza na istoj razini. Stoga ostaje nepromijenjen!",
+                    "_compare_aws/claude-3.5-sonnet_hr": "Na posljednjim izborima glasovalo se za zadržavanje CO₂ poreza na istoj razini. Stoga ostaje nepromijenjen!",
+                    "_unique_translations_back_hr": [
+                        "Bei der letzten Wahl wurde dafür gestimmt, dass die CO₂-Steuer unverändert bleibt. Sie bleibt also unverändert!",
+                        "Bei der letzten Wahl wurde dafür gestimmt, die CO₂-Steuer auf dem gleichen Niveau zu belassen. Sie bleibt daher unverändert!"
+                    ],
+                    "_azure/gpt-4-vision_hu": "Az utolsó választáson arra szavaztak, hogy a CO₂-adó változatlan maradjon.<br>Ezért marad változatlan!",
+                    "_gcp/gemini-1.5-pro_hu": "Az utolsó választáson a szén-dioxid-adó változatlansága mellett döntöttek.<br>Így az nem változik! \n",
+                    "_compare_azure/gpt-4-vision_hu": "Az utolsó választáson arra szavaztak, hogy a CO₂-adó változatlan maradjon. Ezért marad változatlan!",
+                    "_compare_gcp/gemini-1.5-pro_hu": "Az utolsó választáson a szén-dioxid-adó változatlansága mellett döntöttek. Így az nem változik!",
+                    "_compare_aws/claude-3.5-sonnet_hu": "Az utolsó választáson arra szavaztak, hogy a CO₂-adó változatlan maradjon. Ezért marad változatlan!",
+                    "_unique_translations_back_hu": [
+                        "Bei der letzten Wahl wurde dafür gestimmt, dass die CO₂-Steuer unverändert bleibt. Sie bleibt daher unverändert!",
+                        "Bei der letzten Wahl wurde dafür gestimmt, dass die CO₂-Steuer unverändert bleibt. Sie bleibt also unverändert!"
+                    ],
+                    "_azure/gpt-4-vision_id": "Pada pemilihan terakhir, orang-orang telah memilih agar pajak CO₂ tetap sama.<br>Oleh karena itu, pajak tersebut tetap tidak berubah!",
+                    "_gcp/gemini-1.5-pro_id": "Pada pemilihan terakhir, orang-orang memilih untuk mempertahankan pajak CO₂.<br>Oleh karena itu, pajak tersebut tetap tidak berubah! \n",
+                    "_compare_azure/gpt-4-vision_id": "Pada pemilihan terakhir, orang-orang memilih untuk mempertahankan pajak CO₂. Oleh karena itu, pajak tersebut tetap tidak berubah!",
+                    "_compare_gcp/gemini-1.5-pro_id": "Pada pemilihan terakhir, orang-orang telah memilih agar pajak CO₂ tetap sama. Oleh karena itu, pajak tersebut tetap tidak berubah!",
+                    "_compare_aws/claude-3.5-sonnet_id": "Pada pemilihan terakhir, orang-orang telah memilih agar pajak CO₂ tetap sama. Oleh karena itu, pajak tersebut tetap tidak berubah!",
+                    "_unique_translations_back_id": [
+                        "Bei der letzten Wahl wurde dafür gestimmt, dass die CO₂-Steuer unverändert bleibt. Sie bleibt also unverändert!",
+                        "Bei der letzten Wahl wurde dafür gestimmt, dass die CO₂-Steuer unverändert bleibt. Sie bleibt also unverändert!"
+                    ],
+                    "_azure/gpt-4-vision_it": "Alle ultime elezioni si è votato per mantenere invariata la tassa sulla CO₂.<br>Pertanto rimane inalterata!",
+                    "_gcp/gemini-1.5-pro_it": "Alle ultime elezioni si è votato per mantenere invariata la tassa sulla CO₂.<br>Rimarrà quindi invariata!",
+                    "_compare_azure/gpt-4-vision_it": "Alle ultime elezioni si è votato per mantenere invariata la tassa sulla CO₂. Pertanto rimane inalterata!",
+                    "_compare_gcp/gemini-1.5-pro_it": "Alle ultime elezioni si è votato per mantenere invariata la tassa sulla CO₂. Pertanto rimane inalterata!",
+                    "_compare_aws/claude-3.5-sonnet_it": "Alle ultime elezioni si è votato per mantenere invariata la tassa sulla CO₂. Rimarrà quindi invariata!",
+                    "_unique_translations_back_it": [
+                        "Bei der letzten Wahl wurde dafür gestimmt, die CO₂-Steuer unverändert zu lassen. Sie bleibt daher unverändert!",
+                        "Bei der letzten Wahl wurde dafür gestimmt, die CO₂-Steuer unverändert zu lassen. Sie bleibt also unverändert!"
+                    ],
+                    "_azure/gpt-4-vision_ja": "最後の選挙でCO₂税の現状維持に投票されました。<br>したがって、それは変わらずに留まります！",
+                    "_gcp/gemini-1.5-pro_ja": "前回の選挙では、CO₂税を据え置くことが決まりました。<br>したがって、CO₂税は変更されません！ \n",
+                    "_compare_azure/gpt-4-vision_ja": "前回の選挙では、CO₂税を据え置くことが決まりました。 したがって、CO₂税は変更されません！",
+                    "_compare_gcp/gemini-1.5-pro_ja": "前回の選挙では、CO₂税を据え置くことが決まりました。 したがって、CO₂税は変更されません！",
+                    "_compare_aws/claude-3.5-sonnet_ja": "前回の選挙では、CO₂税を据え置くことが決まりました。 したがって、CO₂税は変更されません！",
+                    "_unique_translations_back_ja": [
+                        "Bei der letzten Wahl wurde dafür gestimmt, dass die CO₂-Steuer unverändert bleibt. Sie bleibt also unverändert!",
+                        "Bei der letzten Wahl wurde beschlossen, die CO₂-Steuer beizubehalten. Daher bleibt die CO₂-Steuer unverändert!"
+                    ],
+                    "_azure/gpt-4-vision_ko": "마지막 선거에서 이산화탄소 세금을 현행대로 유지하기로 투표되었습니다.<br>그래서 변하지 않고 유지됩니다!",
+                    "_gcp/gemini-1.5-pro_ko": "지난 선거에서 CO₂세를 현행대로 유지하는 안건이 통과되었습니다.<br>따라서 CO₂세는 변경되지 않습니다! \n",
+                    "_compare_azure/gpt-4-vision_ko": "지난 선거에서 CO₂세를 현행대로 유지하는 안건이 통과되었습니다. 따라서 CO₂세는 변경되지 않습니다!",
+                    "_compare_gcp/gemini-1.5-pro_ko": "지난 선거에서 CO₂세를 현행대로 유지하는 안건이 통과되었습니다. 따라서 CO₂세는 변경되지 않습니다!",
+                    "_compare_aws/claude-3.5-sonnet_ko": "마지막 선거에서 이산화탄소 세금을 현행대로 유지하기로 투표되었습니다. 그래서 변하지 않고 유지됩니다!",
+                    "_unique_translations_back_ko": [
+                        "Bei der letzten Wahl wurde dafür gestimmt, dass die CO₂-Steuer unverändert bleibt. Sie bleibt also unverändert!",
+                        "Bei der letzten Wahl wurde dafür gestimmt, dass die CO₂-Steuer unverändert bleibt. Sie bleibt also unverändert!"
+                    ],
+                    "_azure/gpt-4-vision_lv": "Pēdējās vēlēšanās tika balsots par CO₂ nodokļa nemainīšanu.<br>Tāpēc tas paliek nemainīgs!",
+                    "_gcp/gemini-1.5-pro_lv": "Pēdējās vēlēšanās tika nobalsots par CO₂ nodokļa saglabāšanu nemainīgu.<br>Tāpēc tas paliek nemainīgs! \n",
+                    "_compare_azure/gpt-4-vision_lv": "Pēdējās vēlēšanās tika balsots par CO₂ nodokļa nemainīšanu. Tāpēc tas paliek nemainīgs!",
+                    "_compare_gcp/gemini-1.5-pro_lv": "Pēdējās vēlēšanās tika nobalsots par CO₂ nodokļa saglabāšanu nemainīgu. Tāpēc tas paliek nemainīgs!",
+                    "_compare_aws/claude-3.5-sonnet_lv": "Pēdējās vēlēšanās tika nobalsots par CO₂ nodokļa saglabāšanu nemainīgu. Tāpēc tas paliek nemainīgs!",
+                    "_unique_translations_back_lv": [
+                        "Bei der letzten Wahl wurde dafür gestimmt, dass die CO₂-Steuer unverändert bleibt. Sie bleibt also unverändert!",
+                        "Bei der letzten Wahl wurde dafür gestimmt, dass die CO₂-Steuer unverändert bleibt. Sie bleibt also unverändert!"
+                    ],
+                    "_azure/gpt-4-vision_lt": "Paskutiniuose rinkimuose buvo balsuota už tai, kad CO₂ mokestis išliktų nepakitęs.<br>Todėl jis išlieka nepakeistas!",
+                    "_gcp/gemini-1.5-pro_lt": "Paskutiniuose rinkimuose buvo balsuojama už CO₂ mokesčio išlaikymą.<br>Todėl jis lieka nepakitęs! \n",
+                    "_compare_azure/gpt-4-vision_lt": "Paskutiniuose rinkimuose buvo balsuojama už CO₂ mokesčio išlaikymą. Todėl jis lieka nepakitęs!",
+                    "_compare_gcp/gemini-1.5-pro_lt": "Paskutiniuose rinkimuose buvo balsuota už tai, kad CO₂ mokestis išliktų nepakitęs. Todėl jis išlieka nepakeistas!",
+                    "_compare_aws/claude-3.5-sonnet_lt": "Paskutiniuose rinkimuose buvo balsuota už tai, kad CO₂ mokestis išliktų nepakitęs. Todėl jis išlieka nepakeistas!",
+                    "_unique_translations_back_lt": [
+                        "Bei der letzten Wahl wurde dafür gestimmt, die CO₂-Steuer beizubehalten. Sie bleibt daher unverändert!",
+                        "Bei der letzten Wahl wurde dafür gestimmt, dass die CO₂-Steuer unverändert bleibt. Sie bleibt daher unverändert!"
+                    ],
+                    "_azure/gpt-4-vision_mt": "Fl-aħħar elezzjoni, in-nies ivvutaw biex it-taxxa tal-CO₂ tibqa' l-istess.<br>Għalhekk tibqa' mhux mibdula!",
+                    "_gcp/gemini-1.5-pro_mt": "Fl-aħħar elezzjoni, in-nies ivvutaw biex iżommu t-taxxa tas-CO₂ l-istess.<br>Għalhekk tibqa' kif inhi! \n",
+                    "_compare_azure/gpt-4-vision_mt": "Fl-aħħar elezzjoni, in-nies ivvutaw biex it-taxxa tal-CO₂ tibqa' l-istess. Għalhekk tibqa' mhux mibdula!",
+                    "_compare_gcp/gemini-1.5-pro_mt": "Fl-aħħar elezzjoni, in-nies ivvutaw biex iżommu t-taxxa tas-CO₂ l-istess. Għalhekk tibqa' kif inhi!",
+                    "_compare_aws/claude-3.5-sonnet_mt": "Fl-aħħar elezzjoni, in-nies ivvutaw biex it-taxxa tal-CO₂ tibqa' l-istess. Għalhekk tibqa' mhux mibdula!",
+                    "_unique_translations_back_mt": [
+                        "Bei der letzten Wahl wurde dafür gestimmt, dass die CO₂-Steuer unverändert bleibt. Sie bleibt also unverändert!",
+                        "Bei der letzten Wahl wurde dafür gestimmt, dass die CO₂-Steuer unverändert bleibt. Sie bleibt also unverändert!"
+                    ],
+                    "_azure/gpt-4-vision_nl": "Bij de laatste verkiezingen is gestemd voor het gelijk blijven van de CO₂-belasting.<br>Daarom blijft deze ongewijzigd!",
+                    "_gcp/gemini-1.5-pro_nl": "Bij de laatste verkiezingen is gestemd om de CO₂-belasting te handhaven.<br>Deze blijft daarom ongewijzigd! \n",
+                    "_compare_azure/gpt-4-vision_nl": "Bij de laatste verkiezingen is gestemd om de CO₂-belasting te handhaven. Deze blijft daarom ongewijzigd!",
+                    "_compare_gcp/gemini-1.5-pro_nl": "Bij de laatste verkiezingen is gestemd voor het gelijk blijven van de CO₂-belasting. Daarom blijft deze ongewijzigd!",
+                    "_compare_aws/claude-3.5-sonnet_nl": "Bij de laatste verkiezingen is gestemd voor het gelijk blijven van de CO₂-belasting. Daarom blijft deze ongewijzigd!",
+                    "_unique_translations_back_nl": [
+                        "Bei der letzten Wahl wurde dafür gestimmt, die CO₂-Steuer beizubehalten. Sie bleibt daher unverändert!",
+                        "Bei der letzten Wahl wurde dafür gestimmt, dass die CO₂-Steuer unverändert bleibt. Sie bleibt also unverändert!"
+                    ],
+                    "_azure/gpt-4-vision_pl": "Na ostatnich wyborach głosowano za utrzymaniem podatku CO₂ na tym samym poziomie.<br>Dlatego pozostaje on niezmieniony!",
+                    "_gcp/gemini-1.5-pro_pl": "W ostatnich wyborach zagłosowano za utrzymaniem stawki podatku od CO₂.<br>W związku z tym pozostaje ona bez zmian!",
+                    "_compare_azure/gpt-4-vision_pl": "Na ostatnich wyborach głosowano za utrzymaniem podatku CO₂ na tym samym poziomie. Dlatego pozostaje on niezmieniony!",
+                    "_compare_gcp/gemini-1.5-pro_pl": "Na ostatnich wyborach głosowano za utrzymaniem podatku CO₂ na tym samym poziomie. Dlatego pozostaje on niezmieniony!",
+                    "_compare_aws/claude-3.5-sonnet_pl": "W ostatnich wyborach zagłosowano za utrzymaniem stawki podatku od CO₂. W związku z tym pozostaje ona bez zmian!",
+                    "_unique_translations_back_pl": [
+                        "Bei der letzten Wahl wurde dafür gestimmt, die CO₂-Steuer auf dem gleichen Niveau zu belassen. Sie bleibt daher unverändert!",
+                        "Bei der letzten Wahl wurde dafür gestimmt, dass die CO₂-Steuer unverändert bleibt. Sie bleibt also unverändert!"
+                    ],
+                    "_azure/gpt-4-vision_ro": "La ultimele alegeri s-a votat pentru menținerea taxei pe CO₂.<br>Prin urmare, aceasta rămâne neschimbată!",
+                    "_gcp/gemini-1.5-pro_ro": "La ultimele alegeri s-a votat pentru menținerea taxei pe CO₂ la același nivel.<br>Prin urmare, aceasta rămâne neschimbată! \n",
+                    "_compare_azure/gpt-4-vision_ro": "La ultimele alegeri s-a votat pentru menținerea taxei pe CO₂. Prin urmare, aceasta rămâne neschimbată!",
+                    "_compare_gcp/gemini-1.5-pro_ro": "La ultimele alegeri s-a votat pentru menținerea taxei pe CO₂ la același nivel. Prin urmare, aceasta rămâne neschimbată!",
+                    "_compare_aws/claude-3.5-sonnet_ro": "La ultimele alegeri s-a votat pentru menținerea taxei pe CO₂ la același nivel. Prin urmare, aceasta rămâne neschimbată!",
+                    "_unique_translations_back_ro": [
+                        "Bei der letzten Wahl wurde für die Beibehaltung der CO₂-Steuer gestimmt. Sie bleibt daher unverändert!",
+                        "Bei den letzten Wahlen wurde dafür gestimmt, die CO₂-Steuer auf dem gleichen Niveau zu belassen. Sie bleibt also unverändert!"
+                    ],
+                    "_azure/gpt-4-vision_ru": "На последних выборах проголосовали за сохранение налога на CO₂ без изменений.<br>Поэтому он остаётся неизменным!",
+                    "_gcp/gemini-1.5-pro_ru": "На последних выборах налог на CO₂ проголосовали за то, чтобы оставить его прежним.<br>Поэтому он остается неизменным! \n",
+                    "_compare_azure/gpt-4-vision_ru": "На последних выборах проголосовали за сохранение налога на CO₂ без изменений. Поэтому он остаётся неизменным!",
+                    "_compare_gcp/gemini-1.5-pro_ru": "На последних выборах проголосовали за сохранение налога на CO₂ без изменений. Поэтому он остаётся неизменным!",
+                    "_compare_aws/claude-3.5-sonnet_ru": "На последних выборах проголосовали за сохранение налога на CO₂ без изменений. Поэтому он остаётся неизменным!",
+                    "_unique_translations_back_ru": [
+                        "Bei der letzten Wahl wurde dafür gestimmt, die CO₂-Steuer unverändert zu lassen. Sie bleibt daher unverändert!",
+                        "Bei der letzten Wahl wurde dafür gestimmt, die CO₂-Steuer unverändert zu lassen. Daher bleibt sie unverändert!"
+                    ],
+                    "_azure/gpt-4-vision_sk": "Pri posledných voľbách sa hlasovalo za zachovanie súčasnej výšky dane z CO₂.<br>Preto zostáva nezmenená!",
+                    "_gcp/gemini-1.5-pro_sk": "V posledných voľbách sa hlasovalo za zachovanie súčasnej výšky dane z CO₂.<br>Zostáva preto nezmenená! \n",
+                    "_compare_azure/gpt-4-vision_sk": "V posledných voľbách sa hlasovalo za zachovanie súčasnej výšky dane z CO₂. Zostáva preto nezmenená!",
+                    "_compare_gcp/gemini-1.5-pro_sk": "V posledných voľbách sa hlasovalo za zachovanie súčasnej výšky dane z CO₂. Zostáva preto nezmenená!",
+                    "_compare_aws/claude-3.5-sonnet_sk": "Pri posledných voľbách sa hlasovalo za zachovanie súčasnej výšky dane z CO₂. Preto zostáva nezmenená!",
+                    "_unique_translations_back_sk": [
+                        "Bei der letzten Wahl wurde dafür gestimmt, dass die CO₂-Steuer unverändert bleibt. Sie bleibt also unverändert!",
+                        "Bei der letzten Wahl wurde dafür gestimmt, die CO₂-Steuer auf dem aktuellen Niveau zu belassen. Sie bleibt daher unverändert!"
+                    ],
+                    "_azure/gpt-4-vision_sl": "Na zadnjih volitvah so glasovali za ohranitev obstoječe višine davka na CO₂.<br>Zato ostaja nespremenjen!",
+                    "_gcp/gemini-1.5-pro_sl": "Na zadnjih volitvah so volivci glasovali za ohranitev enake višine davka na CO₂.<br>Zato ostaja nespremenjen! \n",
+                    "_compare_azure/gpt-4-vision_sl": "Na zadnjih volitvah so volivci glasovali za ohranitev enake višine davka na CO₂. Zato ostaja nespremenjen!",
+                    "_compare_gcp/gemini-1.5-pro_sl": "Na zadnjih volitvah so glasovali za ohranitev obstoječe višine davka na CO₂. Zato ostaja nespremenjen!",
+                    "_compare_aws/claude-3.5-sonnet_sl": "Na zadnjih volitvah so glasovali za ohranitev obstoječe višine davka na CO₂. Zato ostaja nespremenjen!",
+                    "_unique_translations_back_sl": [
+                        "Bei der letzten Wahl haben die Wähler dafür gestimmt, die Höhe der CO₂-Steuer beizubehalten. Sie bleibt daher unverändert!",
+                        "Bei der letzten Wahl wurde dafür gestimmt, die bestehende Höhe der CO₂-Steuer beizubehalten. Sie bleibt daher unverändert!"
+                    ],
+                    "_azure/gpt-4-vision_zh": "在上次选举中，人们投票决定维持现行的二氧化碳税。<br>因此，它将保持不变！",
+                    "_gcp/gemini-1.5-pro_zh": "在上次选举中，人们投票决定保持二氧化碳税不变。<br>因此，它将保持不变！ \n",
+                    "_compare_azure/gpt-4-vision_zh": "在上次选举中，人们投票决定保持二氧化碳税不变。 因此，它将保持不变！",
+                    "_compare_gcp/gemini-1.5-pro_zh": "在上次选举中，人们投票决定维持现行的二氧化碳税。 因此，它将保持不变！",
+                    "_compare_aws/claude-3.5-sonnet_zh": "在上次选举中，人们投票决定维持现行的二氧化碳税。 因此，它将保持不变！",
+                    "_unique_translations_back_zh": [
+                        "Bei der letzten Wahl wurde dafür gestimmt, dass die CO₂-Steuer unverändert bleibt. Sie bleibt also unverändert!",
+                        "Bei der letzten Wahl wurde dafür gestimmt, die CO₂-Steuer beizubehalten. Sie bleibt also unverändert!"
                     ]
                 },
                 "conditions": [

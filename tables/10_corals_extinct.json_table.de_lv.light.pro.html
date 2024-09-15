@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <style>
+        @page {
+            size: A4 landscape;
+        }
+    </style>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-family: verdana, serif;
+            font-size:12px;
+            border: 1px solid white;
+            transform: scale(0.3);
+            transform-origin: top left;
+        }
+        th, td {
+            border-bottom:3px solid white;
+            border-right:3px solid white;
+            padding: 15px;
+            text-align: left;
+        }
+        th {
+            background-color: darkgray;
+        }
+        td {
+            background-color: lightgray;
+        }
+        .endtd {
+            border-right: 3px solid darkgray;
+        }
+        .translate {
+            background-color: lightblue;
+        }
+        .back-translate {
+            background-color: lightgrey;
+        }
+        .winner {
+            background-color: lightpink;
+        }
+        .compare {
+            background-color: lightsteelblue;
+        }
+        .source {
+            background-color: palegoldenrod;
+        }
+        .empty {
+            background-color: lightgrey;
+        }
+        .sources {
+            font-weight: bold;
+            font-size: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>10_corals_extinct.json</h1>
+    <table>
+        <thead>
+            <tr>
+                
+                    <th>source text</th>
+                
+                    <th>--- 0 ---</th>
+                
+                    <th></th>
+                
+                    <th>--- 1 ---</th>
+                
+                    <th></th>
+                
+                    <th>azure/gpt-4-vision</th>
+                
+                    <th>gcp/gemini-1.5-pro</th>
+                
+                    <th>aws/claude-3.5-sonnet</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            
+                <tr>
+                    <td class="endtd source">Die Welt ist nach dem massiven Aussterben der Korallenriffe verwundbar</td>
+
+
+                    <td class="winner"><span style = 'color: red; font-weight: bold;'> Pasaule</span> <span style = 'color: red; font-weight: bold;'> ir</span> <span style = 'color: red; font-weight: bold;'> neaizsargāta</span> <span style = 'color: black;'>  pēc</span> <span style = 'color: black;'>  masveida</span> <span style = 'color: black;'>  koraļļu</span> <span style = 'color: black;'>  rifu</span> <span style = 'color: black;'>  izmiršanas</span><br><span class="sources">azure/gpt-4-vision</span></td>
+                    <td class="back-translate"><span style = 'color: black;'>  Die</span> <span style = 'color: black;'>  Welt</span> <span style = 'color: black;'>  ist</span> <span style = 'color: black;'>  nach</span> <span style = 'color: black;'>  dem</span> <span style = 'color: black;'>  massiven</span> <span style = 'color: black;'>  Aussterben</span> <span style = 'color: black;'>  der</span> <span style = 'color: black;'>  Korallenriffe</span> <span style = 'color: black;'>  verwundbar</span></td>
+
+
+
+                    <td class="translate"><span style = 'color: red; font-weight: bold;'> Pasaules</span> <span style = 'color: red; font-weight: bold;'> okeāniem</span> <span style = 'color: red; font-weight: bold;'> kļūstot</span> <span style = 'color: red; font-weight: bold;'> neaizsargātākiem</span> <span style = 'color: black;'>  pēc</span> <span style = 'color: black;'>  masveida</span> <span style = 'color: black;'>  koraļļu</span> <span style = 'color: black;'>  rifu</span> <span style = 'color: black;'>  izmiršanas</span><br><span class="sources">gcp/gemini-1.5-pro</span></td>
+                    <td class="back-translate"><span style = 'color: black;'>  Die</span> <span style = 'color: red; font-weight: bold;'> Weltmeere</span> <span style = 'color: red; font-weight: bold;'> werden</span> <span style = 'color: red; font-weight: bold;'> verwundbarer</span> <span style = 'color: black;'>  nach</span> <span style = 'color: black;'>  dem</span> <span style = 'color: black;'>  massiven</span> <span style = 'color: black;'>  Aussterben</span> <span style = 'color: black;'>  der</span> <span style = 'color: black;'>  Korallenriffe</span></td>
+
+
+
+                    <td class="compare">1</td>
+
+                    <td class="compare">1</td>
+
+                    <td class="compare">1</td>
+
+                </tr>
+            
+                <tr>
+                    <td class="endtd source"><img width=250  src="https://www.coralgardening.org/nl/files/2016/05/coralbleaching.jpg"><br> Beinahe alle Korallenriffe der Welt sind durch Korallenbleiche ausgestorben. Wenn das Wasser zu warm ist, stoßen die Korallen die in ihrem Gewebe lebenden Algen (Zooxanthellen) aus, so dass die Koralle ganz weiß wird. Korallen können ein Bleichereignis überleben, aber sie stehen unter größerem Stress und sind einer erhöhten Sterblichkeit ausgesetzt. Korallenriffe bieten Schutz vor Überschwemmungen und der Erosion von Küstenlinien. Wenn sie verschwinden, wird es zu einer raschen Erosion der Küsten kommen, und viele kleine Inselstaaten würden von der Weltkarte verschwinden.</td>
+
+
+                    <td class="winner"><img src="https://www.coralgardening.org/nl/files/2016/05/coralbleaching.jpg" width="250"/> <span style = 'color: black;'>  Gandrīz</span> <span style = 'color: black;'>  visi</span> <span style = 'color: black;'>  pasaules</span> <span style = 'color: black;'>  koraļļu</span> <span style = 'color: black;'>  rifi</span> <span style = 'color: black;'>  ir</span> <span style = 'color: black;'>  izmiruši</span> <span style = 'color: black;'>  koraļļu</span> <span style = 'color: red; font-weight: bold;'> balināšanas</span> <span style = 'color: black;'>  dēļ.</span> <span style = 'color: red; font-weight: bold;'> Ja</span> <span style = 'color: black;'>  ūdens</span> <span style = 'color: red; font-weight: bold;'> ir</span> <span style = 'color: black;'>  pārāk</span> <span style = 'color: black;'>  silts,</span> <span style = 'color: black;'>  koraļļi</span> <span style = 'color: red; font-weight: bold;'> izstumj</span> <span style = 'color: red; font-weight: bold;'> algas</span> <span style = 'color: red; font-weight: bold;'> (zooksantelas),</span> <span style = 'color: black;'>  kas</span> <span style = 'color: black;'>  dzīvo</span> <span style = 'color: black;'>  to</span> <span style = 'color: black;'>  audos,</span> <span style = 'color: red; font-weight: bold;'> tādējādi</span> <span style = 'color: red; font-weight: bold;'> kļūstot</span> <span style = 'color: black;'>  pilnīgi</span> <span style = 'color: black;'>  balti.</span> <span style = 'color: black;'>  Koraļļi</span> <span style = 'color: black;'>  var</span> <span style = 'color: red; font-weight: bold;'> izdzīvot</span> <span style = 'color: red; font-weight: bold;'> balināšanas</span> <span style = 'color: black;'>  notikumu,</span> <span style = 'color: red; font-weight: bold;'> bet</span> <span style = 'color: black;'>  tie</span> <span style = 'color: red; font-weight: bold;'> ir</span> <span style = 'color: red; font-weight: bold;'> lielākā</span> <span style = 'color: red; font-weight: bold;'> stresā</span> <span style = 'color: black;'>  un</span> <span style = 'color: black;'>  pakļauti</span> <span style = 'color: red; font-weight: bold;'> paaugstinātam</span> <span style = 'color: red; font-weight: bold;'> mirstības</span> <span style = 'color: red; font-weight: bold;'> riskam.</span> <span style = 'color: black;'>  Koraļļu</span> <span style = 'color: black;'>  rifi</span> <span style = 'color: black;'>  nodrošina</span> <span style = 'color: black;'>  aizsardzību</span> <span style = 'color: black;'>  pret</span> <span style = 'color: black;'>  plūdiem</span> <span style = 'color: black;'>  un</span> <span style = 'color: black;'>  krasta</span> <span style = 'color: red; font-weight: bold;'> līniju</span> <span style = 'color: black;'>  eroziju.</span> <span style = 'color: black;'>  Ja</span> <span style = 'color: black;'>  tie</span> <span style = 'color: red; font-weight: bold;'> izzūd,</span> <span style = 'color: red; font-weight: bold;'> krasta</span> <span style = 'color: red; font-weight: bold;'> līnijas</span> <span style = 'color: red; font-weight: bold;'> ātri</span> <span style = 'color: red; font-weight: bold;'> erozēsies,</span> <span style = 'color: black;'>  un</span> <span style = 'color: black;'>  daudzas</span> <span style = 'color: black;'>  mazas</span> <span style = 'color: black;'>  salu</span> <span style = 'color: black;'>  valstis</span> <span style = 'color: red; font-weight: bold;'> pazudīs</span> <span style = 'color: black;'>  no</span> <span style = 'color: black;'>  pasaules</span> <span style = 'color: black;'>  kartes</span><br><span class="sources">azure/gpt-4-vision</span></td>
+                    <td class="back-translate"><img src="https://www.coralgardening.org/nl/files/2016/05/coralbleaching.jpg" width="250"/> <span style = 'color: red; font-weight: bold;'> Fast</span> <span style = 'color: black;'>  alle</span> <span style = 'color: black;'>  Korallenriffe</span> <span style = 'color: black;'>  der</span> <span style = 'color: black;'>  Welt</span> <span style = 'color: black;'>  sind</span> <span style = 'color: red; font-weight: bold;'> aufgrund</span> <span style = 'color: red; font-weight: bold;'> von</span> <span style = 'color: black;'>  Korallenbleiche</span> <span style = 'color: black;'>  ausgestorben.</span> <span style = 'color: black;'>  Wenn</span> <span style = 'color: black;'>  das</span> <span style = 'color: black;'>  Wasser</span> <span style = 'color: black;'>  zu</span> <span style = 'color: black;'>  warm</span> <span style = 'color: red; font-weight: bold;'> wird,</span> <span style = 'color: black;'>  stoßen</span> <span style = 'color: black;'>  die</span> <span style = 'color: black;'>  Korallen</span> <span style = 'color: black;'>  die</span> <span style = 'color: red; font-weight: bold;'> Algen</span> <span style = 'color: red; font-weight: bold;'> (Zooxanthellen)</span> <span style = 'color: red; font-weight: bold;'> aus,</span> <span style = 'color: red; font-weight: bold;'> die</span> <span style = 'color: black;'>  in</span> <span style = 'color: black;'>  ihrem</span> <span style = 'color: black;'>  Gewebe</span> <span style = 'color: red; font-weight: bold;'> leben,</span> <span style = 'color: red; font-weight: bold;'> wodurch</span> <span style = 'color: black;'>  die</span> <span style = 'color: black;'>  Koralle</span> <span style = 'color: red; font-weight: bold;'> vollständig</span> <span style = 'color: black;'>  weiß</span> <span style = 'color: black;'>  wird.</span> <span style = 'color: black;'>  Korallen</span> <span style = 'color: black;'>  können</span> <span style = 'color: black;'>  ein</span> <span style = 'color: black;'>  Bleichereignis</span> <span style = 'color: black;'>  überleben,</span> <span style = 'color: red; font-weight: bold;'> sind</span> <span style = 'color: black;'>  aber</span> <span style = 'color: black;'>  größerem</span> <span style = 'color: black;'>  Stress</span> <span style = 'color: red; font-weight: bold;'> ausgesetzt</span> <span style = 'color: black;'>  und</span> <span style = 'color: red; font-weight: bold;'> haben</span> <span style = 'color: red; font-weight: bold;'> ein</span> <span style = 'color: red; font-weight: bold;'> erhöhtes</span> <span style = 'color: red; font-weight: bold;'> Sterberisiko.</span> <span style = 'color: black;'>  Korallenriffe</span> <span style = 'color: black;'>  bieten</span> <span style = 'color: black;'>  Schutz</span> <span style = 'color: black;'>  vor</span> <span style = 'color: black;'>  Überschwemmungen</span> <span style = 'color: black;'>  und</span> <span style = 'color: red; font-weight: bold;'> Küstenerosion.</span> <span style = 'color: black;'>  Wenn</span> <span style = 'color: black;'>  sie</span> <span style = 'color: black;'>  verschwinden,</span> <span style = 'color: black;'>  wird</span> <span style = 'color: black;'>  es</span> <span style = 'color: black;'>  zu</span> <span style = 'color: black;'>  einer</span> <span style = 'color: red; font-weight: bold;'> schnellen</span> <span style = 'color: black;'>  Erosion</span> <span style = 'color: black;'>  der</span> <span style = 'color: black;'>  Küsten</span> <span style = 'color: black;'>  kommen,</span> <span style = 'color: black;'>  und</span> <span style = 'color: black;'>  viele</span> <span style = 'color: black;'>  kleine</span> <span style = 'color: black;'>  Inselstaaten</span> <span style = 'color: black;'>  würden</span> <span style = 'color: black;'>  von</span> <span style = 'color: black;'>  der</span> <span style = 'color: black;'>  Weltkarte</span> <span style = 'color: black;'>  verschwinden</span></td>
+
+
+
+                    <td class="translate"><img src="https://www.coralgardening.org/nl/files/2016/05/coralbleaching.jpg" width="250"/> <span style = 'color: black;'>  Gandrīz</span> <span style = 'color: black;'>  visi</span> <span style = 'color: black;'>  pasaules</span> <span style = 'color: black;'>  koraļļu</span> <span style = 'color: black;'>  rifi</span> <span style = 'color: black;'>  ir</span> <span style = 'color: black;'>  izmiruši</span> <span style = 'color: black;'>  koraļļu</span> <span style = 'color: red; font-weight: bold;'> balēšanas</span> <span style = 'color: black;'>  dēļ.</span> <span style = 'color: red; font-weight: bold;'> Kad</span> <span style = 'color: black;'>  ūdens</span> <span style = 'color: red; font-weight: bold;'> kļūst</span> <span style = 'color: black;'>  pārāk</span> <span style = 'color: black;'>  silts,</span> <span style = 'color: black;'>  koraļļi</span> <span style = 'color: red; font-weight: bold;'> atgrūž</span> <span style = 'color: red; font-weight: bold;'> aļģes</span> <span style = 'color: red; font-weight: bold;'> (zooxanthellae),</span> <span style = 'color: black;'>  kas</span> <span style = 'color: black;'>  dzīvo</span> <span style = 'color: black;'>  to</span> <span style = 'color: black;'>  audos,</span> <span style = 'color: red; font-weight: bold;'> kā</span> <span style = 'color: red; font-weight: bold;'> rezultātā</span> <span style = 'color: red; font-weight: bold;'> koraļļi</span> <span style = 'color: red; font-weight: bold;'> kļūst</span> <span style = 'color: black;'>  pilnīgi</span> <span style = 'color: black;'>  balti.</span> <span style = 'color: black;'>  Koraļļi</span> <span style = 'color: black;'>  var</span> <span style = 'color: red; font-weight: bold;'> pārdzīvot</span> <span style = 'color: red; font-weight: bold;'> balēšanas</span> <span style = 'color: black;'>  notikumu,</span> <span style = 'color: red; font-weight: bold;'> taču</span> <span style = 'color: black;'>  tie</span> <span style = 'color: red; font-weight: bold;'> piedzīvo</span> <span style = 'color: red; font-weight: bold;'> lielāku</span> <span style = 'color: red; font-weight: bold;'> stresu</span> <span style = 'color: red; font-weight: bold;'> un</span> <span style = 'color: black;'>  ir</span> <span style = 'color: black;'>  pakļauti</span> <span style = 'color: red; font-weight: bold;'> paaugstinātai</span> <span style = 'color: red; font-weight: bold;'> mirstībai.</span> <span style = 'color: black;'>  Koraļļu</span> <span style = 'color: black;'>  rifi</span> <span style = 'color: black;'>  nodrošina</span> <span style = 'color: black;'>  aizsardzību</span> <span style = 'color: black;'>  pret</span> <span style = 'color: black;'>  plūdiem</span> <span style = 'color: black;'>  un</span> <span style = 'color: black;'>  krasta</span> <span style = 'color: red; font-weight: bold;'> līnijas</span> <span style = 'color: black;'>  eroziju.</span> <span style = 'color: black;'>  Ja</span> <span style = 'color: black;'>  tie</span> <span style = 'color: red; font-weight: bold;'> izzudīs,</span> <span style = 'color: red; font-weight: bold;'> notiks</span> <span style = 'color: red; font-weight: bold;'> strauja</span> <span style = 'color: red; font-weight: bold;'> piekrastes</span> <span style = 'color: red; font-weight: bold;'> erozija,</span> <span style = 'color: black;'>  un</span> <span style = 'color: black;'>  daudzas</span> <span style = 'color: black;'>  mazas</span> <span style = 'color: black;'>  salu</span> <span style = 'color: black;'>  valstis</span> <span style = 'color: red; font-weight: bold;'> pazustu</span> <span style = 'color: black;'>  no</span> <span style = 'color: black;'>  pasaules</span> <span style = 'color: black;'>  kartes</span><br><span class="sources">gcp/gemini-1.5-pro</span></td>
+                    <td class="back-translate"><img src="https://www.coralgardening.org/nl/files/2016/05/coralbleaching.jpg" width="250"/> <span style = 'color: red; font-weight: bold;'> Fast</span> <span style = 'color: black;'>  alle</span> <span style = 'color: black;'>  Korallenriffe</span> <span style = 'color: black;'>  der</span> <span style = 'color: black;'>  Welt</span> <span style = 'color: black;'>  sind</span> <span style = 'color: red; font-weight: bold;'> aufgrund</span> <span style = 'color: red; font-weight: bold;'> von</span> <span style = 'color: black;'>  Korallenbleiche</span> <span style = 'color: black;'>  ausgestorben.</span> <span style = 'color: black;'>  Wenn</span> <span style = 'color: black;'>  das</span> <span style = 'color: black;'>  Wasser</span> <span style = 'color: black;'>  zu</span> <span style = 'color: black;'>  warm</span> <span style = 'color: red; font-weight: bold;'> wird,</span> <span style = 'color: black;'>  stoßen</span> <span style = 'color: black;'>  die</span> <span style = 'color: black;'>  Korallen</span> <span style = 'color: black;'>  die</span> <span style = 'color: black;'>  in</span> <span style = 'color: black;'>  ihrem</span> <span style = 'color: black;'>  Gewebe</span> <span style = 'color: black;'>  lebenden</span> <span style = 'color: black;'>  Algen</span> <span style = 'color: black;'>  (Zooxanthellen)</span> <span style = 'color: red; font-weight: bold;'> ab,</span> <span style = 'color: red; font-weight: bold;'> wodurch</span> <span style = 'color: black;'>  die</span> <span style = 'color: red; font-weight: bold;'> Korallen</span> <span style = 'color: red; font-weight: bold;'> vollständig</span> <span style = 'color: black;'>  weiß</span> <span style = 'color: red; font-weight: bold;'> werden.</span> <span style = 'color: black;'>  Korallen</span> <span style = 'color: black;'>  können</span> <span style = 'color: black;'>  ein</span> <span style = 'color: black;'>  Bleichereignis</span> <span style = 'color: black;'>  überleben,</span> <span style = 'color: red; font-weight: bold;'> sind</span> <span style = 'color: black;'>  aber</span> <span style = 'color: black;'>  größerem</span> <span style = 'color: black;'>  Stress</span> <span style = 'color: red; font-weight: bold;'> ausgesetzt</span> <span style = 'color: black;'>  und</span> <span style = 'color: red; font-weight: bold;'> haben</span> <span style = 'color: red; font-weight: bold;'> eine</span> <span style = 'color: red; font-weight: bold;'> erhöhte</span> <span style = 'color: red; font-weight: bold;'> Sterblichkeitsrate.</span> <span style = 'color: black;'>  Korallenriffe</span> <span style = 'color: black;'>  bieten</span> <span style = 'color: black;'>  Schutz</span> <span style = 'color: black;'>  vor</span> <span style = 'color: black;'>  Überschwemmungen</span> <span style = 'color: black;'>  und</span> <span style = 'color: red; font-weight: bold;'> Küstenerosion.</span> <span style = 'color: black;'>  Wenn</span> <span style = 'color: black;'>  sie</span> <span style = 'color: black;'>  verschwinden,</span> <span style = 'color: black;'>  wird</span> <span style = 'color: black;'>  es</span> <span style = 'color: black;'>  zu</span> <span style = 'color: black;'>  einer</span> <span style = 'color: black;'>  raschen</span> <span style = 'color: black;'>  Erosion</span> <span style = 'color: black;'>  der</span> <span style = 'color: black;'>  Küsten</span> <span style = 'color: black;'>  kommen,</span> <span style = 'color: black;'>  und</span> <span style = 'color: black;'>  viele</span> <span style = 'color: black;'>  kleine</span> <span style = 'color: black;'>  Inselstaaten</span> <span style = 'color: black;'>  würden</span> <span style = 'color: black;'>  von</span> <span style = 'color: black;'>  der</span> <span style = 'color: black;'>  Weltkarte</span> <span style = 'color: black;'>  verschwinden</span></td>
+
+
+
+                    <td class="compare">1</td>
+
+                    <td class="compare">1</td>
+
+                    <td class="compare">2</td>
+
+                </tr>
+            
+        </tbody>
+    </table>
+</body>
+</html>

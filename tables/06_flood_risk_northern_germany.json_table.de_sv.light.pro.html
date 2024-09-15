@@ -2,6 +2,12 @@
 <html lang="en">
 <head>
     <title></title>
+    <meta charset="UTF-8">
+    <style>
+        @page {
+            size: A4 landscape;
+        }
+    </style>
     <style>
         table {
             width: 100%;
@@ -9,6 +15,8 @@
             font-family: verdana, serif;
             font-size:12px;
             border: 1px solid white;
+            transform: scale(0.3);
+            transform-origin: top left;
         }
         th, td {
             border-bottom:3px solid white;
@@ -51,6 +59,7 @@
     </style>
 </head>
 <body>
+    <h1>06_flood_risk_northern_germany.json</h1>
     <table>
         <thead>
             <tr>
@@ -79,21 +88,21 @@
                     <td class="endtd source">Flutgefahr in Norddeutschland</td>
 
 
-                    <td class="translate"><span style = 'color: red; font-weight: bold;'> Översvämningrisk</span> <span style = 'color: black;'>  i</span> <span style = 'color: black;'>  norra</span> <span style = 'color: black;'>  Tyskland</span><br><span class="sources">azure/gpt-4-vision</span></td>
+                    <td class="winner"><span style = 'color: red; font-weight: bold;'> Översvämningsrisk</span> <span style = 'color: black;'>  i</span> <span style = 'color: black;'>  norra</span> <span style = 'color: black;'>  Tyskland</span><br><span class="sources">gcp/gemini-1.5-pro</span></td>
                     <td class="back-translate"><span style = 'color: red; font-weight: bold;'> Überschwemmungsrisiko</span> <span style = 'color: black;'>  in</span> <span style = 'color: black;'>  Norddeutschland</span></td>
 
 
 
-                    <td class="winner"><span style = 'color: red; font-weight: bold;'> Översvämningsrisk</span> <span style = 'color: black;'>  i</span> <span style = 'color: black;'>  norra</span> <span style = 'color: black;'>  Tyskland</span><br><span class="sources">gcp/gemini-1.5-pro</span></td>
+                    <td class="translate"><span style = 'color: red; font-weight: bold;'> Översvämningrisk</span> <span style = 'color: black;'>  i</span> <span style = 'color: black;'>  norra</span> <span style = 'color: black;'>  Tyskland</span><br><span class="sources">azure/gpt-4-vision</span></td>
                     <td class="back-translate"><span style = 'color: red; font-weight: bold;'> Hochwassergefahr</span> <span style = 'color: black;'>  in</span> <span style = 'color: black;'>  Norddeutschland</span></td>
 
 
 
-                    <td class="compare">2</td>
-
                     <td class="compare">1</td>
 
                     <td class="compare">2</td>
+
+                    <td class="compare">1</td>
 
                 </tr>
             

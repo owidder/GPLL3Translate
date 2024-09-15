@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <style>
+        @page {
+            size: A4 landscape;
+        }
+    </style>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-family: verdana, serif;
+            font-size:12px;
+            border: 1px solid white;
+            transform: scale(0.3);
+            transform-origin: top left;
+        }
+        th, td {
+            border-bottom:3px solid white;
+            border-right:3px solid white;
+            padding: 15px;
+            text-align: left;
+        }
+        th {
+            background-color: darkgray;
+        }
+        td {
+            background-color: lightgray;
+        }
+        .endtd {
+            border-right: 3px solid darkgray;
+        }
+        .translate {
+            background-color: lightblue;
+        }
+        .back-translate {
+            background-color: lightgrey;
+        }
+        .winner {
+            background-color: lightpink;
+        }
+        .compare {
+            background-color: lightsteelblue;
+        }
+        .source {
+            background-color: palegoldenrod;
+        }
+        .empty {
+            background-color: lightgrey;
+        }
+        .sources {
+            font-weight: bold;
+            font-size: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>05_forest_fires.json</h1>
+    <table>
+        <thead>
+            <tr>
+                
+                    <th>source text</th>
+                
+                    <th>--- 0 ---</th>
+                
+                    <th></th>
+                
+                    <th>--- 1 ---</th>
+                
+                    <th></th>
+                
+                    <th>azure/gpt-4-vision</th>
+                
+                    <th>gcp/gemini-1.5-pro</th>
+                
+                    <th>aws/claude-3.5-sonnet</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            
+                <tr>
+                    <td class="endtd source">Roter Himmel des Unheils: Überlegen Sie sich gut, wo Sie Ihren nächsten Urlaub buchen!</td>
+
+
+                    <td class="winner"><span style = 'color: black;'>  Cielo</span> <span style = 'color: black;'>  rosso</span> <span style = 'color: black;'>  di</span> <span style = 'color: black;'>  sventura:</span> <span style = 'color: red; font-weight: bold;'> Riflettete</span> <span style = 'color: black;'>  bene</span> <span style = 'color: red; font-weight: bold;'> su</span> <span style = 'color: red; font-weight: bold;'> dove</span> <span style = 'color: black;'>  prenotare</span> <span style = 'color: black;'>  la</span> <span style = 'color: black;'>  vostra</span> <span style = 'color: black;'>  prossima</span> <span style = 'color: black;'>  vacanza!</span><br><span class="sources">azure/gpt-4-vision</span></td>
+                    <td class="back-translate"><span style = 'color: black;'>  Roter</span> <span style = 'color: black;'>  Himmel</span> <span style = 'color: black;'>  des</span> <span style = 'color: black;'>  Unheils:</span> <span style = 'color: black;'>  Überlegen</span> <span style = 'color: black;'>  Sie</span> <span style = 'color: black;'>  gut,</span> <span style = 'color: black;'>  wo</span> <span style = 'color: black;'>  Sie</span> <span style = 'color: black;'>  Ihren</span> <span style = 'color: black;'>  nächsten</span> <span style = 'color: black;'>  Urlaub</span> <span style = 'color: black;'>  buchen!</span></td>
+
+
+
+                    <td class="translate"><span style = 'color: black;'>  Cielo</span> <span style = 'color: black;'>  rosso</span> <span style = 'color: black;'>  di</span> <span style = 'color: black;'>  sventura:</span> <span style = 'color: red; font-weight: bold;'> pensateci</span> <span style = 'color: black;'>  bene</span> <span style = 'color: red; font-weight: bold;'> prima</span> <span style = 'color: red; font-weight: bold;'> di</span> <span style = 'color: black;'>  prenotare</span> <span style = 'color: black;'>  la</span> <span style = 'color: black;'>  vostra</span> <span style = 'color: black;'>  prossima</span> <span style = 'color: black;'>  vacanza!</span><br><span class="sources">gcp/gemini-1.5-pro</span></td>
+                    <td class="back-translate"><span style = 'color: black;'>  Roter</span> <span style = 'color: black;'>  Himmel</span> <span style = 'color: black;'>  des</span> <span style = 'color: black;'>  Unheils:</span> <span style = 'color: black;'>  Überlegen</span> <span style = 'color: black;'>  Sie</span> <span style = 'color: black;'>  gut,</span> <span style = 'color: black;'>  wo</span> <span style = 'color: black;'>  Sie</span> <span style = 'color: black;'>  Ihren</span> <span style = 'color: black;'>  nächsten</span> <span style = 'color: black;'>  Urlaub</span> <span style = 'color: black;'>  buchen!</span></td>
+
+
+
+                    <td class="compare">1</td>
+
+                    <td class="compare">2</td>
+
+                    <td class="compare">1</td>
+
+                </tr>
+            
+                <tr>
+                    <td class="endtd source"><img width=250  src="https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg "><br>Entlang des Mittelmeeres bedrohen riesige Waldbrände weiterhin beliebte Touristengegenden. Die Auswirkungen auf Flora und Fauna sind verheerend. Bitte seien Sie vorsichtig!</td>
+
+
+                    <td class="winner"><img src="https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg " width="250"/> <span style = 'color: black;'>  Lungo</span> <span style = 'color: black;'>  il</span> <span style = 'color: black;'>  Mediterraneo,</span> <span style = 'color: black;'>  enormi</span> <span style = 'color: black;'>  incendi</span> <span style = 'color: black;'>  boschivi</span> <span style = 'color: black;'>  continuano</span> <span style = 'color: black;'>  a</span> <span style = 'color: black;'>  minacciare</span> <span style = 'color: black;'>  le</span> <span style = 'color: red; font-weight: bold;'> popolari</span> <span style = 'color: red; font-weight: bold;'> aree</span> <span style = 'color: red; font-weight: bold;'> turistiche.</span> <span style = 'color: black;'>  Gli</span> <span style = 'color: black;'>  effetti</span> <span style = 'color: red; font-weight: bold;'> su</span> <span style = 'color: black;'>  flora</span> <span style = 'color: black;'>  e</span> <span style = 'color: black;'>  fauna</span> <span style = 'color: black;'>  sono</span> <span style = 'color: black;'>  devastanti.</span> <span style = 'color: red; font-weight: bold;'> Per</span> <span style = 'color: red; font-weight: bold;'> favore,</span> <span style = 'color: red; font-weight: bold;'> fate</span> <span style = 'color: black;'>  attenzione!</span><br><span class="sources">azure/gpt-4-vision</span></td>
+                    <td class="back-translate"><img src="https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg " width="250"/> <span style = 'color: black;'>  Entlang</span> <span style = 'color: black;'>  des</span> <span style = 'color: red; font-weight: bold;'> Mittelmeers</span> <span style = 'color: black;'>  bedrohen</span> <span style = 'color: red; font-weight: bold;'> weiterhin</span> <span style = 'color: black;'>  riesige</span> <span style = 'color: black;'>  Waldbrände</span> <span style = 'color: black;'>  beliebte</span> <span style = 'color: red; font-weight: bold;'> Touristengebiete.</span> <span style = 'color: black;'>  Die</span> <span style = 'color: black;'>  Auswirkungen</span> <span style = 'color: black;'>  auf</span> <span style = 'color: black;'>  Flora</span> <span style = 'color: black;'>  und</span> <span style = 'color: black;'>  Fauna</span> <span style = 'color: black;'>  sind</span> <span style = 'color: black;'>  verheerend.</span> <span style = 'color: black;'>  Bitte</span> <span style = 'color: black;'>  seien</span> <span style = 'color: black;'>  Sie</span> <span style = 'color: black;'>  vorsichtig!</span></td>
+
+
+
+                    <td class="translate"><img src="https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg " width="250"/> <span style = 'color: black;'>  Lungo</span> <span style = 'color: black;'>  il</span> <span style = 'color: black;'>  Mediterraneo,</span> <span style = 'color: black;'>  enormi</span> <span style = 'color: black;'>  incendi</span> <span style = 'color: black;'>  boschivi</span> <span style = 'color: black;'>  continuano</span> <span style = 'color: black;'>  a</span> <span style = 'color: black;'>  minacciare</span> <span style = 'color: black;'>  le</span> <span style = 'color: red; font-weight: bold;'> destinazioni</span> <span style = 'color: red; font-weight: bold;'> turistiche</span> <span style = 'color: red; font-weight: bold;'> più</span> <span style = 'color: red; font-weight: bold;'> popolari.</span> <span style = 'color: black;'>  Gli</span> <span style = 'color: black;'>  effetti</span> <span style = 'color: red; font-weight: bold;'> sulla</span> <span style = 'color: black;'>  flora</span> <span style = 'color: black;'>  e</span> <span style = 'color: red; font-weight: bold;'> sulla</span> <span style = 'color: black;'>  fauna</span> <span style = 'color: black;'>  sono</span> <span style = 'color: black;'>  devastanti.</span> <span style = 'color: red; font-weight: bold;'> Si</span> <span style = 'color: red; font-weight: bold;'> prega</span> <span style = 'color: red; font-weight: bold;'> di</span> <span style = 'color: red; font-weight: bold;'> prestare</span> <span style = 'color: black;'>  attenzione!</span><br><span class="sources">gcp/gemini-1.5-pro</span></td>
+                    <td class="back-translate"><img src="https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg " width="250"/> <span style = 'color: black;'>  Entlang</span> <span style = 'color: black;'>  des</span> <span style = 'color: red; font-weight: bold;'> Mittelmeers</span> <span style = 'color: black;'>  bedrohen</span> <span style = 'color: red; font-weight: bold;'> weiterhin</span> <span style = 'color: black;'>  riesige</span> <span style = 'color: black;'>  Waldbrände</span> <span style = 'color: black;'>  beliebte</span> <span style = 'color: red; font-weight: bold;'> Touristengebiete.</span> <span style = 'color: black;'>  Die</span> <span style = 'color: black;'>  Auswirkungen</span> <span style = 'color: black;'>  auf</span> <span style = 'color: black;'>  Flora</span> <span style = 'color: black;'>  und</span> <span style = 'color: black;'>  Fauna</span> <span style = 'color: black;'>  sind</span> <span style = 'color: black;'>  verheerend.</span> <span style = 'color: black;'>  Bitte</span> <span style = 'color: black;'>  seien</span> <span style = 'color: black;'>  Sie</span> <span style = 'color: black;'>  vorsichtig!</span></td>
+
+
+
+                    <td class="compare">1</td>
+
+                    <td class="compare">1</td>
+
+                    <td class="compare">2</td>
+
+                </tr>
+            
+        </tbody>
+    </table>
+</body>
+</html>

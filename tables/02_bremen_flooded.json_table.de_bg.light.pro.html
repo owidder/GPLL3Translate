@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <style>
+        @page {
+            size: A4 landscape;
+        }
+    </style>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-family: verdana, serif;
+            font-size:12px;
+            border: 1px solid white;
+            transform: scale(0.3);
+            transform-origin: top left;
+        }
+        th, td {
+            border-bottom:3px solid white;
+            border-right:3px solid white;
+            padding: 15px;
+            text-align: left;
+        }
+        th {
+            background-color: darkgray;
+        }
+        td {
+            background-color: lightgray;
+        }
+        .endtd {
+            border-right: 3px solid darkgray;
+        }
+        .translate {
+            background-color: lightblue;
+        }
+        .back-translate {
+            background-color: lightgrey;
+        }
+        .winner {
+            background-color: lightpink;
+        }
+        .compare {
+            background-color: lightsteelblue;
+        }
+        .source {
+            background-color: palegoldenrod;
+        }
+        .empty {
+            background-color: lightgrey;
+        }
+        .sources {
+            font-weight: bold;
+            font-size: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>02_bremen_flooded.json</h1>
+    <table>
+        <thead>
+            <tr>
+                
+                    <th>source text</th>
+                
+                    <th>--- 0 ---</th>
+                
+                    <th></th>
+                
+                    <th>--- 1 ---</th>
+                
+                    <th></th>
+                
+                    <th>azure/gpt-4-vision</th>
+                
+                    <th>gcp/gemini-1.5-pro</th>
+                
+                    <th>aws/claude-3.5-sonnet</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            
+                <tr>
+                    <td class="endtd source">Weite Teile Bremens nach Unwetter überschwemmt</td>
+
+
+                    <td class="winner"><span style = 'color: black;'>  Големи</span> <span style = 'color: black;'>  части</span> <span style = 'color: black;'>  от</span> <span style = 'color: black;'>  Бремен</span> <span style = 'color: red; font-weight: bold;'> бяха</span> <span style = 'color: black;'>  наводнени</span> <span style = 'color: black;'>  след</span> <span style = 'color: red; font-weight: bold;'> буря</span><br><span class="sources">azure/gpt-4-vision</span></td>
+                    <td class="back-translate"><span style = 'color: red; font-weight: bold;'> Große</span> <span style = 'color: black;'>  Teile</span> <span style = 'color: black;'>  Bremens</span> <span style = 'color: red; font-weight: bold;'> wurden</span> <span style = 'color: black;'>  nach</span> <span style = 'color: red; font-weight: bold;'> Stürmen</span> <span style = 'color: black;'>  überschwemmt</span></td>
+
+
+
+                    <td class="translate"><span style = 'color: black;'>  Големи</span> <span style = 'color: black;'>  части</span> <span style = 'color: black;'>  от</span> <span style = 'color: black;'>  Бремен</span> <span style = 'color: red; font-weight: bold;'> са</span> <span style = 'color: black;'>  наводнени</span> <span style = 'color: black;'>  след</span> <span style = 'color: red; font-weight: bold;'> бурята</span><br><span class="sources">gcp/gemini-1.5-pro</span></td>
+                    <td class="back-translate"><span style = 'color: red; font-weight: bold;'> Große</span> <span style = 'color: black;'>  Teile</span> <span style = 'color: black;'>  Bremens</span> <span style = 'color: black;'>  nach</span> <span style = 'color: red; font-weight: bold;'> dem</span> <span style = 'color: red; font-weight: bold;'> Sturm</span> <span style = 'color: black;'>  überschwemmt</span></td>
+
+
+
+                    <td class="compare">1</td>
+
+                    <td class="compare">1</td>
+
+                    <td class="compare">2</td>
+
+                </tr>
+            
+                <tr>
+                    <td class="endtd source"><img width=250  src="https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg"><br>Stundenlange Gewitter mit heftigen Regenfällen haben in der letzten Nacht die Stadt Bremen in Deutschland unter Wasser gesetzt.<br>Bei Polizei und Feuerwehr gingen Hunderte von Hilferufen wegen vollgelaufener Keller und umgestürzter Bäume ein.</td>
+
+
+                    <td class="translate"><img src="https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg" width="250"/> <span style = 'color: black;'>  Часове</span> <span style = 'color: black;'>  наред</span> <span style = 'color: red; font-weight: bold;'> продължили</span> <span style = 'color: black;'>  бури</span> <span style = 'color: red; font-weight: bold;'> с</span> <span style = 'color: red; font-weight: bold;'> проливни</span> <span style = 'color: red; font-weight: bold;'> дъждове</span> <span style = 'color: red; font-weight: bold;'> снощи</span> <span style = 'color: red; font-weight: bold;'> потопиха</span> <span style = 'color: black;'>  град</span> <span style = 'color: black;'>  Бремен</span> <span style = 'color: black;'>  в</span> <span style = 'color: red; font-weight: bold;'> Германия.</span> <span style = 'color: black;'>  Полицията</span> <span style = 'color: black;'>  и</span> <span style = 'color: black;'>  пожарната</span> <span style = 'color: red; font-weight: bold;'> са</span> <span style = 'color: red; font-weight: bold;'> получили</span> <span style = 'color: black;'>  стотици</span> <span style = 'color: red; font-weight: bold;'> сигнали</span> <span style = 'color: black;'>  за</span> <span style = 'color: black;'>  помощ</span> <span style = 'color: black;'>  заради</span> <span style = 'color: black;'>  наводнени</span> <span style = 'color: black;'>  мазета</span> <span style = 'color: black;'>  и</span> <span style = 'color: black;'>  паднали</span> <span style = 'color: black;'>  дървета</span><br><span class="sources">gcp/gemini-1.5-pro</span></td>
+                    <td class="back-translate"><img src="https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg" width="250"/> <span style = 'color: black;'>  Stundenlange</span> <span style = 'color: black;'>  Gewitter</span> <span style = 'color: black;'>  mit</span> <span style = 'color: black;'>  heftigen</span> <span style = 'color: black;'>  Regenfällen</span> <span style = 'color: black;'>  haben</span> <span style = 'color: black;'>  in</span> <span style = 'color: black;'>  der</span> <span style = 'color: red; font-weight: bold;'> vergangenen</span> <span style = 'color: black;'>  Nacht</span> <span style = 'color: black;'>  die</span> <span style = 'color: black;'>  Stadt</span> <span style = 'color: black;'>  Bremen</span> <span style = 'color: black;'>  in</span> <span style = 'color: black;'>  Deutschland</span> <span style = 'color: red; font-weight: bold;'> überschwemmt.</span> <span style = 'color: black;'>  Polizei</span> <span style = 'color: black;'>  und</span> <span style = 'color: black;'>  Feuerwehr</span> <span style = 'color: red; font-weight: bold;'> erhielten</span> <span style = 'color: black;'>  Hunderte</span> <span style = 'color: black;'>  von</span> <span style = 'color: red; font-weight: bold;'> Notrufen</span> <span style = 'color: black;'>  wegen</span> <span style = 'color: red; font-weight: bold;'> überfluteter</span> <span style = 'color: black;'>  Keller</span> <span style = 'color: black;'>  und</span> <span style = 'color: black;'>  umgestürzter</span> <span style = 'color: black;'>  Bäume</span></td>
+
+
+
+                    <td class="winner"><img src="https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg" width="250"/> <span style = 'color: black;'>  Часове</span> <span style = 'color: black;'>  наред</span> <span style = 'color: black;'>  бури</span> <span style = 'color: red; font-weight: bold;'> със</span> <span style = 'color: red; font-weight: bold;'> силни</span> <span style = 'color: red; font-weight: bold;'> валежи</span> <span style = 'color: red; font-weight: bold;'> наводниха</span> <span style = 'color: black;'>  град</span> <span style = 'color: black;'>  Бремен</span> <span style = 'color: black;'>  в</span> <span style = 'color: red; font-weight: bold;'> Германия</span> <span style = 'color: red; font-weight: bold;'> миналата</span> <span style = 'color: red; font-weight: bold;'> нощ.</span> <span style = 'color: black;'>  Полицията</span> <span style = 'color: black;'>  и</span> <span style = 'color: black;'>  пожарната</span> <span style = 'color: red; font-weight: bold;'> получиха</span> <span style = 'color: black;'>  стотици</span> <span style = 'color: red; font-weight: bold;'> повиквания</span> <span style = 'color: black;'>  за</span> <span style = 'color: black;'>  помощ</span> <span style = 'color: black;'>  заради</span> <span style = 'color: black;'>  наводнени</span> <span style = 'color: black;'>  мазета</span> <span style = 'color: black;'>  и</span> <span style = 'color: black;'>  паднали</span> <span style = 'color: black;'>  дървета</span><br><span class="sources">azure/gpt-4-vision</span></td>
+                    <td class="back-translate"><img src="https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg" width="250"/> <span style = 'color: black;'>  Stundenlange</span> <span style = 'color: black;'>  Gewitter</span> <span style = 'color: black;'>  mit</span> <span style = 'color: black;'>  heftigen</span> <span style = 'color: black;'>  Regenfällen</span> <span style = 'color: black;'>  haben</span> <span style = 'color: black;'>  in</span> <span style = 'color: black;'>  der</span> <span style = 'color: red; font-weight: bold;'> vergangenen</span> <span style = 'color: black;'>  Nacht</span> <span style = 'color: black;'>  die</span> <span style = 'color: black;'>  Stadt</span> <span style = 'color: black;'>  Bremen</span> <span style = 'color: black;'>  in</span> <span style = 'color: black;'>  Deutschland</span> <span style = 'color: red; font-weight: bold;'> überschwemmt.</span> <span style = 'color: black;'>  Polizei</span> <span style = 'color: black;'>  und</span> <span style = 'color: black;'>  Feuerwehr</span> <span style = 'color: red; font-weight: bold;'> erhielten</span> <span style = 'color: black;'>  Hunderte</span> <span style = 'color: black;'>  von</span> <span style = 'color: red; font-weight: bold;'> Notrufen</span> <span style = 'color: black;'>  wegen</span> <span style = 'color: red; font-weight: bold;'> überfluteter</span> <span style = 'color: black;'>  Keller</span> <span style = 'color: black;'>  und</span> <span style = 'color: black;'>  umgestürzter</span> <span style = 'color: black;'>  Bäume</span></td>
+
+
+
+                    <td class="compare">2</td>
+
+                    <td class="compare">2</td>
+
+                    <td class="compare">2</td>
+
+                </tr>
+            
+        </tbody>
+    </table>
+</body>
+</html>

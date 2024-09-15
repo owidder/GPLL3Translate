@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <style>
+        @page {
+            size: A4 landscape;
+        }
+    </style>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-family: verdana, serif;
+            font-size:12px;
+            border: 1px solid white;
+            transform: scale(0.3);
+            transform-origin: top left;
+        }
+        th, td {
+            border-bottom:3px solid white;
+            border-right:3px solid white;
+            padding: 15px;
+            text-align: left;
+        }
+        th {
+            background-color: darkgray;
+        }
+        td {
+            background-color: lightgray;
+        }
+        .endtd {
+            border-right: 3px solid darkgray;
+        }
+        .translate {
+            background-color: lightblue;
+        }
+        .back-translate {
+            background-color: lightgrey;
+        }
+        .winner {
+            background-color: lightpink;
+        }
+        .compare {
+            background-color: lightsteelblue;
+        }
+        .source {
+            background-color: palegoldenrod;
+        }
+        .empty {
+            background-color: lightgrey;
+        }
+        .sources {
+            font-weight: bold;
+            font-size: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>05_forest_fires.json</h1>
+    <table>
+        <thead>
+            <tr>
+                
+                    <th>source text</th>
+                
+                    <th>--- 0 ---</th>
+                
+                    <th></th>
+                
+                    <th>--- 1 ---</th>
+                
+                    <th></th>
+                
+                    <th>azure/gpt-4-vision</th>
+                
+                    <th>gcp/gemini-1.5-pro</th>
+                
+                    <th>aws/claude-3.5-sonnet</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            
+                <tr>
+                    <td class="endtd source">Roter Himmel des Unheils: Überlegen Sie sich gut, wo Sie Ihren nächsten Urlaub buchen!</td>
+
+
+                    <td class="winner"><span style = 'color: black;'>  Crveno</span> <span style = 'color: black;'>  nebo</span> <span style = 'color: red; font-weight: bold;'> propasti:</span> <span style = 'color: black;'>  Dobro</span> <span style = 'color: black;'>  razmislite</span> <span style = 'color: black;'>  gdje</span> <span style = 'color: black;'>  ćete</span> <span style = 'color: black;'>  rezervirati</span> <span style = 'color: black;'>  svoj</span> <span style = 'color: black;'>  sljedeći</span> <span style = 'color: black;'>  odmor!</span><br><span class="sources">gcp/gemini-1.5-pro</span></td>
+                    <td class="back-translate"><span style = 'color: black;'>  Roter</span> <span style = 'color: black;'>  Himmel</span> <span style = 'color: black;'>  des</span> <span style = 'color: red; font-weight: bold;'> Verderbens:</span> <span style = 'color: black;'>  Überlegen</span> <span style = 'color: black;'>  Sie</span> <span style = 'color: black;'>  gut,</span> <span style = 'color: black;'>  wo</span> <span style = 'color: black;'>  Sie</span> <span style = 'color: black;'>  Ihren</span> <span style = 'color: black;'>  nächsten</span> <span style = 'color: black;'>  Urlaub</span> <span style = 'color: black;'>  buchen!</span></td>
+
+
+
+                    <td class="translate"><span style = 'color: black;'>  Crveno</span> <span style = 'color: black;'>  nebo</span> <span style = 'color: red; font-weight: bold;'> nesreće:</span> <span style = 'color: black;'>  Dobro</span> <span style = 'color: black;'>  razmislite</span> <span style = 'color: black;'>  gdje</span> <span style = 'color: black;'>  ćete</span> <span style = 'color: black;'>  rezervirati</span> <span style = 'color: black;'>  svoj</span> <span style = 'color: black;'>  sljedeći</span> <span style = 'color: black;'>  odmor!</span><br><span class="sources">azure/gpt-4-vision</span></td>
+                    <td class="back-translate"><span style = 'color: black;'>  Roter</span> <span style = 'color: black;'>  Himmel</span> <span style = 'color: black;'>  des</span> <span style = 'color: black;'>  Unheils:</span> <span style = 'color: black;'>  Überlegen</span> <span style = 'color: black;'>  Sie</span> <span style = 'color: black;'>  gut,</span> <span style = 'color: black;'>  wo</span> <span style = 'color: black;'>  Sie</span> <span style = 'color: black;'>  Ihren</span> <span style = 'color: black;'>  nächsten</span> <span style = 'color: black;'>  Urlaub</span> <span style = 'color: black;'>  buchen!</span></td>
+
+
+
+                    <td class="compare">1</td>
+
+                    <td class="compare">1</td>
+
+                    <td class="compare">2</td>
+
+                </tr>
+            
+                <tr>
+                    <td class="endtd source"><img width=250  src="https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg "><br>Entlang des Mittelmeeres bedrohen riesige Waldbrände weiterhin beliebte Touristengegenden. Die Auswirkungen auf Flora und Fauna sind verheerend. Bitte seien Sie vorsichtig!</td>
+
+
+                    <td class="translate"><img src="https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg " width="250"/> <span style = 'color: red; font-weight: bold;'> Duž</span> <span style = 'color: red; font-weight: bold;'> Sredozemnog</span> <span style = 'color: red; font-weight: bold;'> mora</span> <span style = 'color: red; font-weight: bold;'> ogromni</span> <span style = 'color: black;'>  šumski</span> <span style = 'color: black;'>  požari</span> <span style = 'color: black;'>  i</span> <span style = 'color: black;'>  dalje</span> <span style = 'color: black;'>  prijete</span> <span style = 'color: black;'>  popularnim</span> <span style = 'color: black;'>  turističkim</span> <span style = 'color: red; font-weight: bold;'> područjima.</span> <span style = 'color: red; font-weight: bold;'> Učinci</span> <span style = 'color: red; font-weight: bold;'> na</span> <span style = 'color: black;'>  floru</span> <span style = 'color: black;'>  i</span> <span style = 'color: black;'>  faunu</span> <span style = 'color: black;'>  su</span> <span style = 'color: red; font-weight: bold;'> razorni.</span> <span style = 'color: black;'>  Molimo</span> <span style = 'color: red; font-weight: bold;'> vas,</span> <span style = 'color: red; font-weight: bold;'> budite</span> <span style = 'color: black;'>  oprezni!</span><br><span class="sources">azure/gpt-4-vision</span></td>
+                    <td class="back-translate"><img src="https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg " width="250"/> <span style = 'color: black;'>  Entlang</span> <span style = 'color: black;'>  des</span> <span style = 'color: red; font-weight: bold;'> Mittelmeers</span> <span style = 'color: black;'>  bedrohen</span> <span style = 'color: red; font-weight: bold;'> weiterhin</span> <span style = 'color: black;'>  riesige</span> <span style = 'color: black;'>  Waldbrände</span> <span style = 'color: black;'>  beliebte</span> <span style = 'color: red; font-weight: bold;'> Touristengebiete.</span> <span style = 'color: black;'>  Die</span> <span style = 'color: black;'>  Auswirkungen</span> <span style = 'color: black;'>  auf</span> <span style = 'color: black;'>  Flora</span> <span style = 'color: black;'>  und</span> <span style = 'color: black;'>  Fauna</span> <span style = 'color: black;'>  sind</span> <span style = 'color: black;'>  verheerend.</span> <span style = 'color: black;'>  Bitte</span> <span style = 'color: black;'>  seien</span> <span style = 'color: black;'>  Sie</span> <span style = 'color: black;'>  vorsichtig!</span></td>
+
+
+
+                    <td class="winner"><img src="https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg " width="250"/> <span style = 'color: red; font-weight: bold;'> Ogromni</span> <span style = 'color: black;'>  šumski</span> <span style = 'color: black;'>  požari</span> <span style = 'color: black;'>  i</span> <span style = 'color: black;'>  dalje</span> <span style = 'color: black;'>  prijete</span> <span style = 'color: black;'>  popularnim</span> <span style = 'color: black;'>  turističkim</span> <span style = 'color: red; font-weight: bold;'> odredištima</span> <span style = 'color: red; font-weight: bold;'> diljem</span> <span style = 'color: red; font-weight: bold;'> Sredozemlja.</span> <span style = 'color: red; font-weight: bold;'> Posljedice</span> <span style = 'color: red; font-weight: bold;'> za</span> <span style = 'color: black;'>  floru</span> <span style = 'color: black;'>  i</span> <span style = 'color: black;'>  faunu</span> <span style = 'color: black;'>  su</span> <span style = 'color: red; font-weight: bold;'> razorne.</span> <span style = 'color: black;'>  Molimo</span> <span style = 'color: red; font-weight: bold;'> vas</span> <span style = 'color: red; font-weight: bold;'> da</span> <span style = 'color: red; font-weight: bold;'> budete</span> <span style = 'color: black;'>  oprezni!</span><br><span class="sources">gcp/gemini-1.5-pro</span></td>
+                    <td class="back-translate"><img src="https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg " width="250"/> <span style = 'color: black;'>  Entlang</span> <span style = 'color: black;'>  des</span> <span style = 'color: red; font-weight: bold;'> Mittelmeers</span> <span style = 'color: black;'>  bedrohen</span> <span style = 'color: red; font-weight: bold;'> weiterhin</span> <span style = 'color: black;'>  riesige</span> <span style = 'color: black;'>  Waldbrände</span> <span style = 'color: black;'>  beliebte</span> <span style = 'color: red; font-weight: bold;'> Touristengebiete.</span> <span style = 'color: black;'>  Die</span> <span style = 'color: black;'>  Auswirkungen</span> <span style = 'color: black;'>  auf</span> <span style = 'color: black;'>  Flora</span> <span style = 'color: black;'>  und</span> <span style = 'color: black;'>  Fauna</span> <span style = 'color: black;'>  sind</span> <span style = 'color: black;'>  verheerend.</span> <span style = 'color: black;'>  Bitte</span> <span style = 'color: black;'>  seien</span> <span style = 'color: black;'>  Sie</span> <span style = 'color: black;'>  vorsichtig!</span></td>
+
+
+
+                    <td class="compare">2</td>
+
+                    <td class="compare">2</td>
+
+                    <td class="compare">2</td>
+
+                </tr>
+            
+        </tbody>
+    </table>
+</body>
+</html>

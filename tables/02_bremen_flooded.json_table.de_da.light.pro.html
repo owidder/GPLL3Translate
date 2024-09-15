@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <style>
+        @page {
+            size: A4 landscape;
+        }
+    </style>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-family: verdana, serif;
+            font-size:12px;
+            border: 1px solid white;
+            transform: scale(0.3);
+            transform-origin: top left;
+        }
+        th, td {
+            border-bottom:3px solid white;
+            border-right:3px solid white;
+            padding: 15px;
+            text-align: left;
+        }
+        th {
+            background-color: darkgray;
+        }
+        td {
+            background-color: lightgray;
+        }
+        .endtd {
+            border-right: 3px solid darkgray;
+        }
+        .translate {
+            background-color: lightblue;
+        }
+        .back-translate {
+            background-color: lightgrey;
+        }
+        .winner {
+            background-color: lightpink;
+        }
+        .compare {
+            background-color: lightsteelblue;
+        }
+        .source {
+            background-color: palegoldenrod;
+        }
+        .empty {
+            background-color: lightgrey;
+        }
+        .sources {
+            font-weight: bold;
+            font-size: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>02_bremen_flooded.json</h1>
+    <table>
+        <thead>
+            <tr>
+                
+                    <th>source text</th>
+                
+                    <th>--- 0 ---</th>
+                
+                    <th></th>
+                
+                    <th>--- 1 ---</th>
+                
+                    <th></th>
+                
+                    <th>azure/gpt-4-vision</th>
+                
+                    <th>gcp/gemini-1.5-pro</th>
+                
+                    <th>aws/claude-3.5-sonnet</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            
+                <tr>
+                    <td class="endtd source">Weite Teile Bremens nach Unwetter überschwemmt</td>
+
+
+                    <td class="winner">Store dele af Bremen oversvømmet efter uvejr<br><span class="sources">azure/gpt-4-vision, gcp/gemini-1.5-pro</span></td>
+                    <td class="back-translate"><span style = 'color: red; font-weight: bold;'> Große</span> <span style = 'color: black;'>  Teile</span> <span style = 'color: black;'>  Bremens</span> <span style = 'color: black;'>  nach</span> <span style = 'color: red; font-weight: bold;'> Unwettern</span> <span style = 'color: black;'>  überschwemmt</span></td>
+
+
+
+                    <td class="empty"></td>
+                    <td class="empty"></td>
+
+
+
+                    <td class="compare">1</td>
+
+                    <td class="compare">1</td>
+
+                    <td class="compare">1</td>
+
+                </tr>
+            
+                <tr>
+                    <td class="endtd source"><img width=250  src="https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg"><br>Stundenlange Gewitter mit heftigen Regenfällen haben in der letzten Nacht die Stadt Bremen in Deutschland unter Wasser gesetzt.<br>Bei Polizei und Feuerwehr gingen Hunderte von Hilferufen wegen vollgelaufener Keller und umgestürzter Bäume ein.</td>
+
+
+                    <td class="translate"><img src="https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg" width="250"/> <span style = 'color: red; font-weight: bold;'> Timelange</span> <span style = 'color: red; font-weight: bold;'> tordenvejr</span> <span style = 'color: black;'>  med</span> <span style = 'color: red; font-weight: bold;'> kraftige</span> <span style = 'color: red; font-weight: bold;'> regnskyl</span> <span style = 'color: red; font-weight: bold;'> har</span> <span style = 'color: red; font-weight: bold;'> sidste</span> <span style = 'color: black;'>  nat</span> <span style = 'color: red; font-weight: bold;'> sat</span> <span style = 'color: black;'>  byen</span> <span style = 'color: black;'>  Bremen</span> <span style = 'color: black;'>  i</span> <span style = 'color: black;'>  Tyskland</span> <span style = 'color: black;'>  under</span> <span style = 'color: black;'>  vand.</span> <span style = 'color: red; font-weight: bold;'> Politi</span> <span style = 'color: black;'>  og</span> <span style = 'color: red; font-weight: bold;'> brandvæsen</span> <span style = 'color: black;'>  modtog</span> <span style = 'color: red; font-weight: bold;'> hundredevis</span> <span style = 'color: black;'>  af</span> <span style = 'color: black;'>  opkald</span> <span style = 'color: black;'>  om</span> <span style = 'color: black;'>  hjælp</span> <span style = 'color: black;'>  på</span> <span style = 'color: black;'>  grund</span> <span style = 'color: black;'>  af</span> <span style = 'color: black;'>  oversvømmede</span> <span style = 'color: black;'>  kældre</span> <span style = 'color: black;'>  og</span> <span style = 'color: black;'>  væltede</span> <span style = 'color: black;'>  træer</span><br><span class="sources">azure/gpt-4-vision</span></td>
+                    <td class="back-translate"><img src="https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg" width="250"/> <span style = 'color: black;'>  Stundenlange</span> <span style = 'color: black;'>  Gewitter</span> <span style = 'color: black;'>  mit</span> <span style = 'color: black;'>  heftigen</span> <span style = 'color: black;'>  Regenfällen</span> <span style = 'color: black;'>  haben</span> <span style = 'color: black;'>  in</span> <span style = 'color: black;'>  der</span> <span style = 'color: red; font-weight: bold;'> vergangenen</span> <span style = 'color: black;'>  Nacht</span> <span style = 'color: black;'>  die</span> <span style = 'color: black;'>  Stadt</span> <span style = 'color: black;'>  Bremen</span> <span style = 'color: black;'>  in</span> <span style = 'color: black;'>  Deutschland</span> <span style = 'color: red; font-weight: bold;'> überschwemmt.</span> <span style = 'color: black;'>  Polizei</span> <span style = 'color: black;'>  und</span> <span style = 'color: black;'>  Feuerwehr</span> <span style = 'color: red; font-weight: bold;'> erhielten</span> <span style = 'color: black;'>  Hunderte</span> <span style = 'color: black;'>  von</span> <span style = 'color: red; font-weight: bold;'> Notrufen</span> <span style = 'color: black;'>  wegen</span> <span style = 'color: red; font-weight: bold;'> überfluteter</span> <span style = 'color: black;'>  Keller</span> <span style = 'color: black;'>  und</span> <span style = 'color: black;'>  umgestürzter</span> <span style = 'color: black;'>  Bäume</span></td>
+
+
+
+                    <td class="winner"><img src="https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg" width="250"/> <span style = 'color: red; font-weight: bold;'> Timer</span> <span style = 'color: red; font-weight: bold;'> med</span> <span style = 'color: black;'>  tordenvejr</span> <span style = 'color: red; font-weight: bold;'> og</span> <span style = 'color: red; font-weight: bold;'> kraftig</span> <span style = 'color: red; font-weight: bold;'> regn</span> <span style = 'color: red; font-weight: bold;'> satte</span> <span style = 'color: red; font-weight: bold;'> i</span> <span style = 'color: black;'>  nat</span> <span style = 'color: black;'>  byen</span> <span style = 'color: black;'>  Bremen</span> <span style = 'color: black;'>  i</span> <span style = 'color: black;'>  Tyskland</span> <span style = 'color: black;'>  under</span> <span style = 'color: black;'>  vand.</span> <span style = 'color: red; font-weight: bold;'> Politiet</span> <span style = 'color: black;'>  og</span> <span style = 'color: red; font-weight: bold;'> brandvæsenet</span> <span style = 'color: black;'>  modtog</span> <span style = 'color: red; font-weight: bold;'> hundredvis</span> <span style = 'color: black;'>  af</span> <span style = 'color: black;'>  opkald</span> <span style = 'color: black;'>  om</span> <span style = 'color: black;'>  hjælp</span> <span style = 'color: black;'>  på</span> <span style = 'color: black;'>  grund</span> <span style = 'color: black;'>  af</span> <span style = 'color: black;'>  oversvømmede</span> <span style = 'color: black;'>  kældre</span> <span style = 'color: black;'>  og</span> <span style = 'color: black;'>  væltede</span> <span style = 'color: black;'>  træer</span><br><span class="sources">gcp/gemini-1.5-pro</span></td>
+                    <td class="back-translate"><img src="https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg" width="250"/> <span style = 'color: black;'>  Stundenlange</span> <span style = 'color: black;'>  Gewitter</span> <span style = 'color: black;'>  mit</span> <span style = 'color: black;'>  heftigen</span> <span style = 'color: black;'>  Regenfällen</span> <span style = 'color: black;'>  haben</span> <span style = 'color: black;'>  in</span> <span style = 'color: black;'>  der</span> <span style = 'color: red; font-weight: bold;'> vergangenen</span> <span style = 'color: black;'>  Nacht</span> <span style = 'color: black;'>  die</span> <span style = 'color: black;'>  Stadt</span> <span style = 'color: black;'>  Bremen</span> <span style = 'color: black;'>  in</span> <span style = 'color: black;'>  Deutschland</span> <span style = 'color: red; font-weight: bold;'> überschwemmt.</span> <span style = 'color: black;'>  Polizei</span> <span style = 'color: black;'>  und</span> <span style = 'color: black;'>  Feuerwehr</span> <span style = 'color: red; font-weight: bold;'> erhielten</span> <span style = 'color: black;'>  Hunderte</span> <span style = 'color: black;'>  von</span> <span style = 'color: red; font-weight: bold;'> Notrufen</span> <span style = 'color: black;'>  wegen</span> <span style = 'color: red; font-weight: bold;'> überfluteter</span> <span style = 'color: black;'>  Keller</span> <span style = 'color: black;'>  und</span> <span style = 'color: black;'>  umgestürzter</span> <span style = 'color: black;'>  Bäume</span></td>
+
+
+
+                    <td class="compare">2</td>
+
+                    <td class="compare">1</td>
+
+                    <td class="compare">2</td>
+
+                </tr>
+            
+        </tbody>
+    </table>
+</body>
+</html>

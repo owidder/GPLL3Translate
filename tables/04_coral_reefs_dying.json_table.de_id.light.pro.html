@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <style>
+        @page {
+            size: A4 landscape;
+        }
+    </style>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-family: verdana, serif;
+            font-size:12px;
+            border: 1px solid white;
+            transform: scale(0.3);
+            transform-origin: top left;
+        }
+        th, td {
+            border-bottom:3px solid white;
+            border-right:3px solid white;
+            padding: 15px;
+            text-align: left;
+        }
+        th {
+            background-color: darkgray;
+        }
+        td {
+            background-color: lightgray;
+        }
+        .endtd {
+            border-right: 3px solid darkgray;
+        }
+        .translate {
+            background-color: lightblue;
+        }
+        .back-translate {
+            background-color: lightgrey;
+        }
+        .winner {
+            background-color: lightpink;
+        }
+        .compare {
+            background-color: lightsteelblue;
+        }
+        .source {
+            background-color: palegoldenrod;
+        }
+        .empty {
+            background-color: lightgrey;
+        }
+        .sources {
+            font-weight: bold;
+            font-size: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>04_coral_reefs_dying.json</h1>
+    <table>
+        <thead>
+            <tr>
+                
+                    <th>source text</th>
+                
+                    <th>--- 0 ---</th>
+                
+                    <th></th>
+                
+                    <th>--- 1 ---</th>
+                
+                    <th></th>
+                
+                    <th>azure/gpt-4-vision</th>
+                
+                    <th>gcp/gemini-1.5-pro</th>
+                
+                    <th>aws/claude-3.5-sonnet</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            
+                <tr>
+                    <td class="endtd source">Hitzewellen im Meer töten Korallenriffe</td>
+
+
+                    <td class="translate"><span style = 'color: black;'>  Gelombang</span> <span style = 'color: black;'>  panas</span> <span style = 'color: black;'>  laut</span> <span style = 'color: black;'>  membunuh</span> <span style = 'color: black;'>  terumbu</span> <span style = 'color: black;'>  karang</span><br><span class="sources">gcp/gemini-1.5-pro</span></td>
+                    <td class="back-translate"><span style = 'color: red; font-weight: bold;'> Meereswärmewellen</span> <span style = 'color: black;'>  töten</span> <span style = 'color: black;'>  Korallenriffe</span></td>
+
+
+
+                    <td class="winner"><span style = 'color: black;'>  Gelombang</span> <span style = 'color: black;'>  panas</span> <span style = 'color: red; font-weight: bold;'> di</span> <span style = 'color: black;'>  laut</span> <span style = 'color: black;'>  membunuh</span> <span style = 'color: black;'>  terumbu</span> <span style = 'color: black;'>  karang</span><br><span class="sources">azure/gpt-4-vision</span></td>
+                    <td class="back-translate"><span style = 'color: red; font-weight: bold;'> Meereswärmewellen</span> <span style = 'color: black;'>  töten</span> <span style = 'color: black;'>  Korallenriffe</span></td>
+
+
+
+                    <td class="compare">1</td>
+
+                    <td class="compare">2</td>
+
+                    <td class="compare">2</td>
+
+                </tr>
+            
+                <tr>
+                    <td class="endtd source"><img width=250  src="https://static.dw.com/image/46075549_303.jpg "><br>Eine große gemeinsame Bestandaufnahme von Meeresforschungsinstituten mehrerer Länder ergab, dass über zwei Drittel aller Korallen durch zu warme Meerestemperaturen gestorben sind.<br>Dies hat katastrophale Auswirkungen auf den Fischbestand, da die Korallenriffe eine wichtiger Aufzuchtsort für eine große Zahl von Fischen, Schalentieren und Krebstieren sind.</td>
+
+
+                    <td class="translate"><img src="https://static.dw.com/image/46075549_303.jpg " width="250"/> <span style = 'color: black;'>  Sebuah</span> <span style = 'color: black;'>  survei</span> <span style = 'color: red; font-weight: bold;'> gabungan</span> <span style = 'color: black;'>  besar</span> <span style = 'color: red; font-weight: bold;'> yang</span> <span style = 'color: red; font-weight: bold;'> dilakukan</span> <span style = 'color: red; font-weight: bold;'> oleh</span> <span style = 'color: red; font-weight: bold;'> lembaga</span> <span style = 'color: black;'>  penelitian</span> <span style = 'color: black;'>  kelautan</span> <span style = 'color: black;'>  dari</span> <span style = 'color: black;'>  beberapa</span> <span style = 'color: black;'>  negara</span> <span style = 'color: black;'>  menemukan</span> <span style = 'color: black;'>  bahwa</span> <span style = 'color: black;'>  lebih</span> <span style = 'color: black;'>  dari</span> <span style = 'color: black;'>  dua</span> <span style = 'color: black;'>  pertiga</span> <span style = 'color: black;'>  dari</span> <span style = 'color: red; font-weight: bold;'> seluruh</span> <span style = 'color: red; font-weight: bold;'> terumbu</span> <span style = 'color: black;'>  karang</span> <span style = 'color: black;'>  telah</span> <span style = 'color: black;'>  mati</span> <span style = 'color: black;'>  karena</span> <span style = 'color: black;'>  suhu</span> <span style = 'color: black;'>  laut</span> <span style = 'color: black;'>  yang</span> <span style = 'color: black;'>  terlalu</span> <span style = 'color: black;'>  hangat.</span> <span style = 'color: black;'>  Ini</span> <span style = 'color: black;'>  memiliki</span> <span style = 'color: red; font-weight: bold;'> konsekuensi</span> <span style = 'color: red; font-weight: bold;'> yang</span> <span style = 'color: red; font-weight: bold;'> mengerikan</span> <span style = 'color: red; font-weight: bold;'> bagi</span> <span style = 'color: black;'>  stok</span> <span style = 'color: black;'>  ikan,</span> <span style = 'color: black;'>  karena</span> <span style = 'color: black;'>  terumbu</span> <span style = 'color: black;'>  karang</span> <span style = 'color: black;'>  merupakan</span> <span style = 'color: black;'>  tempat</span> <span style = 'color: red; font-weight: bold;'> pembibitan</span> <span style = 'color: red; font-weight: bold;'> yang</span> <span style = 'color: black;'>  penting</span> <span style = 'color: red; font-weight: bold;'> bagi</span> <span style = 'color: black;'>  sejumlah</span> <span style = 'color: black;'>  besar</span> <span style = 'color: black;'>  ikan,</span> <span style = 'color: red; font-weight: bold;'> kerang,</span> <span style = 'color: black;'>  dan</span> <span style = 'color: black;'>  krustasea</span><br><span class="sources">gcp/gemini-1.5-pro</span></td>
+                    <td class="back-translate"><img src="https://static.dw.com/image/46075549_303.jpg " width="250"/> <span style = 'color: black;'>  Eine</span> <span style = 'color: black;'>  große</span> <span style = 'color: black;'>  gemeinsame</span> <span style = 'color: red; font-weight: bold;'> Untersuchung</span> <span style = 'color: black;'>  von</span> <span style = 'color: black;'>  Meeresforschungsinstituten</span> <span style = 'color: red; font-weight: bold;'> aus</span> <span style = 'color: red; font-weight: bold;'> mehreren</span> <span style = 'color: red; font-weight: bold;'> Ländern</span> <span style = 'color: black;'>  ergab,</span> <span style = 'color: black;'>  dass</span> <span style = 'color: black;'>  über</span> <span style = 'color: black;'>  zwei</span> <span style = 'color: black;'>  Drittel</span> <span style = 'color: black;'>  aller</span> <span style = 'color: black;'>  Korallen</span> <span style = 'color: red; font-weight: bold;'> aufgrund</span> <span style = 'color: black;'>  zu</span> <span style = 'color: red; font-weight: bold;'> hoher</span> <span style = 'color: black;'>  Meerestemperaturen</span> <span style = 'color: black;'>  gestorben</span> <span style = 'color: black;'>  sind.</span> <span style = 'color: black;'>  Dies</span> <span style = 'color: black;'>  hat</span> <span style = 'color: black;'>  katastrophale</span> <span style = 'color: red; font-weight: bold;'> Folgen</span> <span style = 'color: red; font-weight: bold;'> für</span> <span style = 'color: red; font-weight: bold;'> die</span> <span style = 'color: red; font-weight: bold;'> Fischbestände,</span> <span style = 'color: black;'>  da</span> <span style = 'color: black;'>  Korallenriffe</span> <span style = 'color: red; font-weight: bold;'> ein</span> <span style = 'color: black;'>  wichtiger</span> <span style = 'color: red; font-weight: bold;'> Aufzuchtort</span> <span style = 'color: black;'>  für</span> <span style = 'color: black;'>  eine</span> <span style = 'color: red; font-weight: bold;'> Vielzahl</span> <span style = 'color: black;'>  von</span> <span style = 'color: black;'>  Fischen,</span> <span style = 'color: black;'>  Schalentieren</span> <span style = 'color: black;'>  und</span> <span style = 'color: black;'>  Krebstieren</span> <span style = 'color: black;'>  sind</span></td>
+
+
+
+                    <td class="winner"><img src="https://static.dw.com/image/46075549_303.jpg " width="250"/> <span style = 'color: black;'>  Sebuah</span> <span style = 'color: black;'>  survei</span> <span style = 'color: red; font-weight: bold;'> bersama</span> <span style = 'color: black;'>  besar</span> <span style = 'color: red; font-weight: bold;'> dari</span> <span style = 'color: red; font-weight: bold;'> institut</span> <span style = 'color: black;'>  penelitian</span> <span style = 'color: black;'>  kelautan</span> <span style = 'color: black;'>  dari</span> <span style = 'color: black;'>  beberapa</span> <span style = 'color: black;'>  negara</span> <span style = 'color: black;'>  menemukan</span> <span style = 'color: black;'>  bahwa</span> <span style = 'color: black;'>  lebih</span> <span style = 'color: black;'>  dari</span> <span style = 'color: black;'>  dua</span> <span style = 'color: black;'>  pertiga</span> <span style = 'color: black;'>  dari</span> <span style = 'color: red; font-weight: bold;'> semua</span> <span style = 'color: black;'>  karang</span> <span style = 'color: black;'>  telah</span> <span style = 'color: black;'>  mati</span> <span style = 'color: black;'>  karena</span> <span style = 'color: black;'>  suhu</span> <span style = 'color: black;'>  laut</span> <span style = 'color: black;'>  yang</span> <span style = 'color: black;'>  terlalu</span> <span style = 'color: black;'>  hangat.</span> <span style = 'color: black;'>  Ini</span> <span style = 'color: black;'>  memiliki</span> <span style = 'color: red; font-weight: bold;'> dampak</span> <span style = 'color: red; font-weight: bold;'> bencana</span> <span style = 'color: red; font-weight: bold;'> terhadap</span> <span style = 'color: black;'>  stok</span> <span style = 'color: black;'>  ikan,</span> <span style = 'color: black;'>  karena</span> <span style = 'color: black;'>  terumbu</span> <span style = 'color: black;'>  karang</span> <span style = 'color: black;'>  merupakan</span> <span style = 'color: black;'>  tempat</span> <span style = 'color: black;'>  penting</span> <span style = 'color: red; font-weight: bold;'> untuk</span> <span style = 'color: red; font-weight: bold;'> pemijahan</span> <span style = 'color: black;'>  sejumlah</span> <span style = 'color: black;'>  besar</span> <span style = 'color: black;'>  ikan,</span> <span style = 'color: red; font-weight: bold;'> kerang-kerangan,</span> <span style = 'color: black;'>  dan</span> <span style = 'color: black;'>  krustasea</span><br><span class="sources">azure/gpt-4-vision</span></td>
+                    <td class="back-translate"><img src="https://static.dw.com/image/46075549_303.jpg " width="250"/> <span style = 'color: black;'>  Eine</span> <span style = 'color: black;'>  große</span> <span style = 'color: black;'>  gemeinsame</span> <span style = 'color: red; font-weight: bold;'> Untersuchung</span> <span style = 'color: black;'>  von</span> <span style = 'color: black;'>  Meeresforschungsinstituten</span> <span style = 'color: red; font-weight: bold;'> aus</span> <span style = 'color: red; font-weight: bold;'> mehreren</span> <span style = 'color: red; font-weight: bold;'> Ländern</span> <span style = 'color: black;'>  ergab,</span> <span style = 'color: black;'>  dass</span> <span style = 'color: black;'>  über</span> <span style = 'color: black;'>  zwei</span> <span style = 'color: black;'>  Drittel</span> <span style = 'color: black;'>  aller</span> <span style = 'color: black;'>  Korallen</span> <span style = 'color: red; font-weight: bold;'> aufgrund</span> <span style = 'color: black;'>  zu</span> <span style = 'color: red; font-weight: bold;'> hoher</span> <span style = 'color: black;'>  Meerestemperaturen</span> <span style = 'color: black;'>  gestorben</span> <span style = 'color: black;'>  sind.</span> <span style = 'color: black;'>  Dies</span> <span style = 'color: black;'>  hat</span> <span style = 'color: black;'>  katastrophale</span> <span style = 'color: red; font-weight: bold;'> Folgen</span> <span style = 'color: red; font-weight: bold;'> für</span> <span style = 'color: red; font-weight: bold;'> die</span> <span style = 'color: red; font-weight: bold;'> Fischbestände,</span> <span style = 'color: black;'>  da</span> <span style = 'color: black;'>  Korallenriffe</span> <span style = 'color: red; font-weight: bold;'> ein</span> <span style = 'color: black;'>  wichtiger</span> <span style = 'color: red; font-weight: bold;'> Aufzuchtort</span> <span style = 'color: black;'>  für</span> <span style = 'color: black;'>  eine</span> <span style = 'color: red; font-weight: bold;'> Vielzahl</span> <span style = 'color: black;'>  von</span> <span style = 'color: black;'>  Fischen,</span> <span style = 'color: black;'>  Schalentieren</span> <span style = 'color: black;'>  und</span> <span style = 'color: black;'>  Krebstieren</span> <span style = 'color: black;'>  sind</span></td>
+
+
+
+                    <td class="compare">2</td>
+
+                    <td class="compare">1</td>
+
+                    <td class="compare">2</td>
+
+                </tr>
+            
+        </tbody>
+    </table>
+</body>
+</html>

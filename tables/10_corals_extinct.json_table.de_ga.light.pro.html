@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <style>
+        @page {
+            size: A4 landscape;
+        }
+    </style>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-family: verdana, serif;
+            font-size:12px;
+            border: 1px solid white;
+            transform: scale(0.3);
+            transform-origin: top left;
+        }
+        th, td {
+            border-bottom:3px solid white;
+            border-right:3px solid white;
+            padding: 15px;
+            text-align: left;
+        }
+        th {
+            background-color: darkgray;
+        }
+        td {
+            background-color: lightgray;
+        }
+        .endtd {
+            border-right: 3px solid darkgray;
+        }
+        .translate {
+            background-color: lightblue;
+        }
+        .back-translate {
+            background-color: lightgrey;
+        }
+        .winner {
+            background-color: lightpink;
+        }
+        .compare {
+            background-color: lightsteelblue;
+        }
+        .source {
+            background-color: palegoldenrod;
+        }
+        .empty {
+            background-color: lightgrey;
+        }
+        .sources {
+            font-weight: bold;
+            font-size: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>10_corals_extinct.json</h1>
+    <table>
+        <thead>
+            <tr>
+                
+                    <th>source text</th>
+                
+                    <th>--- 0 ---</th>
+                
+                    <th></th>
+                
+                    <th>--- 1 ---</th>
+                
+                    <th></th>
+                
+                    <th>azure/gpt-4-vision</th>
+                
+                    <th>gcp/gemini-1.5-pro</th>
+                
+                    <th>aws/claude-3.5-sonnet</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            
+                <tr>
+                    <td class="endtd source">Die Welt ist nach dem massiven Aussterben der Korallenriffe verwundbar</td>
+
+
+                    <td class="translate"><span style = 'color: black;'>  Tá</span> <span style = 'color: black;'>  an</span> <span style = 'color: black;'>  domhan</span> <span style = 'color: red; font-weight: bold;'> fágtha</span> <span style = 'color: black;'>  leochaileach</span> <span style = 'color: black;'>  tar</span> <span style = 'color: black;'>  éis</span> <span style = 'color: red; font-weight: bold;'> mór-éag</span> <span style = 'color: black;'>  na</span> <span style = 'color: red; font-weight: bold;'> sceireacha</span> <span style = 'color: black;'>  coiréil</span><br><span class="sources">gcp/gemini-1.5-pro</span></td>
+                    <td class="back-translate"><span style = 'color: black;'>  Die</span> <span style = 'color: black;'>  Welt</span> <span style = 'color: black;'>  ist</span> <span style = 'color: black;'>  nach</span> <span style = 'color: black;'>  dem</span> <span style = 'color: black;'>  massiven</span> <span style = 'color: black;'>  Aussterben</span> <span style = 'color: black;'>  der</span> <span style = 'color: black;'>  Korallenriffe</span> <span style = 'color: black;'>  verwundbar</span></td>
+
+
+
+                    <td class="winner"><span style = 'color: black;'>  Tá</span> <span style = 'color: black;'>  an</span> <span style = 'color: black;'>  domhan</span> <span style = 'color: black;'>  leochaileach</span> <span style = 'color: black;'>  tar</span> <span style = 'color: black;'>  éis</span> <span style = 'color: red; font-weight: bold;'> an</span> <span style = 'color: red; font-weight: bold;'> díothú</span> <span style = 'color: red; font-weight: bold;'> ollmhór</span> <span style = 'color: red; font-weight: bold;'> atá</span> <span style = 'color: red; font-weight: bold;'> tagtha</span> <span style = 'color: red; font-weight: bold;'> ar</span> <span style = 'color: black;'>  na</span> <span style = 'color: red; font-weight: bold;'> cairéalacha</span> <span style = 'color: black;'>  coiréil</span><br><span class="sources">azure/gpt-4-vision</span></td>
+                    <td class="back-translate"><span style = 'color: black;'>  Die</span> <span style = 'color: black;'>  Welt</span> <span style = 'color: black;'>  ist</span> <span style = 'color: black;'>  nach</span> <span style = 'color: black;'>  dem</span> <span style = 'color: black;'>  massiven</span> <span style = 'color: black;'>  Aussterben</span> <span style = 'color: black;'>  der</span> <span style = 'color: black;'>  Korallenriffe</span> <span style = 'color: black;'>  verwundbar</span></td>
+
+
+
+                    <td class="compare">1</td>
+
+                    <td class="compare">2</td>
+
+                    <td class="compare">2</td>
+
+                </tr>
+            
+                <tr>
+                    <td class="endtd source"><img width=250  src="https://www.coralgardening.org/nl/files/2016/05/coralbleaching.jpg"><br> Beinahe alle Korallenriffe der Welt sind durch Korallenbleiche ausgestorben. Wenn das Wasser zu warm ist, stoßen die Korallen die in ihrem Gewebe lebenden Algen (Zooxanthellen) aus, so dass die Koralle ganz weiß wird. Korallen können ein Bleichereignis überleben, aber sie stehen unter größerem Stress und sind einer erhöhten Sterblichkeit ausgesetzt. Korallenriffe bieten Schutz vor Überschwemmungen und der Erosion von Küstenlinien. Wenn sie verschwinden, wird es zu einer raschen Erosion der Küsten kommen, und viele kleine Inselstaaten würden von der Weltkarte verschwinden.</td>
+
+
+                    <td class="translate"><img src="https://www.coralgardening.org/nl/files/2016/05/coralbleaching.jpg" width="250"/> <span style = 'color: black;'>  Tá</span> <span style = 'color: black;'>  beagnach</span> <span style = 'color: black;'>  gach</span> <span style = 'color: red; font-weight: bold;'> sceir</span> <span style = 'color: black;'>  coiréil</span> <span style = 'color: black;'>  ar</span> <span style = 'color: black;'>  domhan</span> <span style = 'color: black;'>  imithe</span> <span style = 'color: black;'>  as</span> <span style = 'color: red; font-weight: bold;'> feidhm</span> <span style = 'color: black;'>  mar</span> <span style = 'color: black;'>  gheall</span> <span style = 'color: black;'>  ar</span> <span style = 'color: red; font-weight: bold;'> thuaradh</span> <span style = 'color: black;'>  coiréil.</span> <span style = 'color: black;'>  Nuair</span> <span style = 'color: black;'>  a</span> <span style = 'color: black;'>  bhíonn</span> <span style = 'color: black;'>  an</span> <span style = 'color: black;'>  t-uisce</span> <span style = 'color: black;'>  ró-the,</span> <span style = 'color: red; font-weight: bold;'> scaoileann</span> <span style = 'color: black;'>  na</span> <span style = 'color: black;'>  coiréil</span> <span style = 'color: black;'>  na</span> <span style = 'color: red; font-weight: bold;'> algaí</span> <span style = 'color: red; font-weight: bold;'> (soicseantailí)</span> <span style = 'color: black;'>  ina</span> <span style = 'color: black;'>  gcónaí</span> <span style = 'color: black;'>  ina</span> <span style = 'color: black;'>  bhfíocháin,</span> <span style = 'color: black;'>  rud</span> <span style = 'color: black;'>  a</span> <span style = 'color: black;'>  fhágann</span> <span style = 'color: black;'>  go</span> <span style = 'color: black;'>  mbíonn</span> <span style = 'color: black;'>  an</span> <span style = 'color: red; font-weight: bold;'> choiréal</span> <span style = 'color: black;'>  bán</span> <span style = 'color: black;'>  go</span> <span style = 'color: black;'>  hiomlán.</span> <span style = 'color: black;'>  Is</span> <span style = 'color: black;'>  féidir</span> <span style = 'color: black;'>  le</span> <span style = 'color: black;'>  coiréil</span> <span style = 'color: red; font-weight: bold;'> maireachtáil</span> <span style = 'color: red; font-weight: bold;'> tar</span> <span style = 'color: red; font-weight: bold;'> éis</span> <span style = 'color: red; font-weight: bold;'> eachtra</span> <span style = 'color: red; font-weight: bold;'> tuaradh,</span> <span style = 'color: black;'>  ach</span> <span style = 'color: red; font-weight: bold;'> bíonn</span> <span style = 'color: black;'>  siad</span> <span style = 'color: black;'>  faoi</span> <span style = 'color: red; font-weight: bold;'> strus</span> <span style = 'color: black;'>  níos</span> <span style = 'color: black;'>  mó</span> <span style = 'color: black;'>  agus</span> <span style = 'color: red; font-weight: bold;'> bíonn</span> <span style = 'color: red; font-weight: bold;'> ráta</span> <span style = 'color: black;'>  báis</span> <span style = 'color: red; font-weight: bold;'> níos</span> <span style = 'color: red; font-weight: bold;'> airde</span> <span style = 'color: red; font-weight: bold;'> acu.</span> <span style = 'color: red; font-weight: bold;'> Soláthraíonn</span> <span style = 'color: red; font-weight: bold;'> sceireacha</span> <span style = 'color: black;'>  coiréil</span> <span style = 'color: black;'>  cosaint</span> <span style = 'color: black;'>  ar</span> <span style = 'color: red; font-weight: bold;'> thuilte</span> <span style = 'color: black;'>  agus</span> <span style = 'color: red; font-weight: bold;'> ar</span> <span style = 'color: red; font-weight: bold;'> chreimeadh</span> <span style = 'color: black;'>  cósta.</span> <span style = 'color: black;'>  Má</span> <span style = 'color: black;'>  imíonn</span> <span style = 'color: black;'>  siad,</span> <span style = 'color: black;'>  beidh</span> <span style = 'color: black;'>  creimeadh</span> <span style = 'color: black;'>  tapa</span> <span style = 'color: black;'>  ar</span> <span style = 'color: red; font-weight: bold;'> chóstaí,</span> <span style = 'color: black;'>  agus</span> <span style = 'color: black;'>  imíonn</span> <span style = 'color: black;'>  go</span> <span style = 'color: black;'>  leor</span> <span style = 'color: red; font-weight: bold;'> stát</span> <span style = 'color: red; font-weight: bold;'> beag</span> <span style = 'color: black;'>  oileáin</span> <span style = 'color: black;'>  as</span> <span style = 'color: black;'>  léarscáil</span> <span style = 'color: black;'>  an</span> <span style = 'color: black;'>  domhain</span><br><span class="sources">gcp/gemini-1.5-pro</span></td>
+                    <td class="back-translate"><img src="https://www.coralgardening.org/nl/files/2016/05/coralbleaching.jpg" width="250"/> <span style = 'color: red; font-weight: bold;'> Fast</span> <span style = 'color: black;'>  alle</span> <span style = 'color: black;'>  Korallenriffe</span> <span style = 'color: black;'>  der</span> <span style = 'color: black;'>  Welt</span> <span style = 'color: black;'>  sind</span> <span style = 'color: red; font-weight: bold;'> aufgrund</span> <span style = 'color: red; font-weight: bold;'> von</span> <span style = 'color: black;'>  Korallenbleiche</span> <span style = 'color: red; font-weight: bold;'> verschwunden.</span> <span style = 'color: black;'>  Wenn</span> <span style = 'color: black;'>  das</span> <span style = 'color: black;'>  Wasser</span> <span style = 'color: black;'>  zu</span> <span style = 'color: black;'>  warm</span> <span style = 'color: red; font-weight: bold;'> wird,</span> <span style = 'color: black;'>  stoßen</span> <span style = 'color: black;'>  die</span> <span style = 'color: black;'>  Korallen</span> <span style = 'color: black;'>  die</span> <span style = 'color: black;'>  in</span> <span style = 'color: black;'>  ihrem</span> <span style = 'color: black;'>  Gewebe</span> <span style = 'color: black;'>  lebenden</span> <span style = 'color: black;'>  Algen</span> <span style = 'color: black;'>  (Zooxanthellen)</span> <span style = 'color: red; font-weight: bold;'> ab,</span> <span style = 'color: red; font-weight: bold;'> wodurch</span> <span style = 'color: black;'>  die</span> <span style = 'color: black;'>  Koralle</span> <span style = 'color: red; font-weight: bold;'> vollständig</span> <span style = 'color: black;'>  weiß</span> <span style = 'color: black;'>  wird.</span> <span style = 'color: black;'>  Korallen</span> <span style = 'color: black;'>  können</span> <span style = 'color: black;'>  ein</span> <span style = 'color: black;'>  Bleichereignis</span> <span style = 'color: black;'>  überleben,</span> <span style = 'color: red; font-weight: bold;'> sind</span> <span style = 'color: black;'>  aber</span> <span style = 'color: red; font-weight: bold;'> stärkerem</span> <span style = 'color: black;'>  Stress</span> <span style = 'color: red; font-weight: bold;'> ausgesetzt</span> <span style = 'color: black;'>  und</span> <span style = 'color: red; font-weight: bold;'> haben</span> <span style = 'color: red; font-weight: bold;'> eine</span> <span style = 'color: red; font-weight: bold;'> höhere</span> <span style = 'color: red; font-weight: bold;'> Sterblichkeitsrate.</span> <span style = 'color: black;'>  Korallenriffe</span> <span style = 'color: black;'>  bieten</span> <span style = 'color: black;'>  Schutz</span> <span style = 'color: black;'>  vor</span> <span style = 'color: black;'>  Überschwemmungen</span> <span style = 'color: black;'>  und</span> <span style = 'color: red; font-weight: bold;'> Küstenerosion.</span> <span style = 'color: black;'>  Wenn</span> <span style = 'color: black;'>  sie</span> <span style = 'color: black;'>  verschwinden,</span> <span style = 'color: black;'>  wird</span> <span style = 'color: black;'>  es</span> <span style = 'color: black;'>  zu</span> <span style = 'color: black;'>  einer</span> <span style = 'color: black;'>  raschen</span> <span style = 'color: black;'>  Erosion</span> <span style = 'color: black;'>  der</span> <span style = 'color: black;'>  Küsten</span> <span style = 'color: black;'>  kommen,</span> <span style = 'color: black;'>  und</span> <span style = 'color: black;'>  viele</span> <span style = 'color: black;'>  kleine</span> <span style = 'color: black;'>  Inselstaaten</span> <span style = 'color: red; font-weight: bold;'> werden</span> <span style = 'color: black;'>  von</span> <span style = 'color: black;'>  der</span> <span style = 'color: black;'>  Weltkarte</span> <span style = 'color: black;'>  verschwinden</span></td>
+
+
+
+                    <td class="winner"><img src="https://www.coralgardening.org/nl/files/2016/05/coralbleaching.jpg" width="250"/> <span style = 'color: black;'>  Tá</span> <span style = 'color: black;'>  beagnach</span> <span style = 'color: black;'>  gach</span> <span style = 'color: red; font-weight: bold;'> ciseal</span> <span style = 'color: black;'>  coiréil</span> <span style = 'color: black;'>  ar</span> <span style = 'color: black;'>  domhan</span> <span style = 'color: black;'>  imithe</span> <span style = 'color: black;'>  as</span> <span style = 'color: black;'>  mar</span> <span style = 'color: black;'>  gheall</span> <span style = 'color: black;'>  ar</span> <span style = 'color: red; font-weight: bold;'> bhlanchadh</span> <span style = 'color: black;'>  coiréil.</span> <span style = 'color: black;'>  Nuair</span> <span style = 'color: black;'>  a</span> <span style = 'color: black;'>  bhíonn</span> <span style = 'color: black;'>  an</span> <span style = 'color: black;'>  t-uisce</span> <span style = 'color: black;'>  ró-the,</span> <span style = 'color: red; font-weight: bold;'> diúltaíonn</span> <span style = 'color: black;'>  na</span> <span style = 'color: black;'>  coiréil</span> <span style = 'color: black;'>  na</span> <span style = 'color: red; font-weight: bold;'> halgaí</span> <span style = 'color: red; font-weight: bold;'> (Zooxanthellae)</span> <span style = 'color: red; font-weight: bold;'> atá</span> <span style = 'color: black;'>  ina</span> <span style = 'color: black;'>  gcónaí</span> <span style = 'color: black;'>  ina</span> <span style = 'color: black;'>  bhfíocháin,</span> <span style = 'color: black;'>  rud</span> <span style = 'color: black;'>  a</span> <span style = 'color: black;'>  fhágann</span> <span style = 'color: black;'>  go</span> <span style = 'color: black;'>  mbíonn</span> <span style = 'color: black;'>  an</span> <span style = 'color: red; font-weight: bold;'> coiréal</span> <span style = 'color: black;'>  bán</span> <span style = 'color: black;'>  go</span> <span style = 'color: black;'>  hiomlán.</span> <span style = 'color: black;'>  Is</span> <span style = 'color: black;'>  féidir</span> <span style = 'color: black;'>  le</span> <span style = 'color: black;'>  coiréil</span> <span style = 'color: red; font-weight: bold;'> imeacht</span> <span style = 'color: red; font-weight: bold;'> blanching</span> <span style = 'color: red; font-weight: bold;'> a</span> <span style = 'color: red; font-weight: bold;'> mhaireachtáil,</span> <span style = 'color: black;'>  ach</span> <span style = 'color: red; font-weight: bold;'> tá</span> <span style = 'color: black;'>  siad</span> <span style = 'color: black;'>  faoi</span> <span style = 'color: black;'>  níos</span> <span style = 'color: black;'>  mó</span> <span style = 'color: red; font-weight: bold;'> strus</span> <span style = 'color: black;'>  agus</span> <span style = 'color: red; font-weight: bold;'> tá</span> <span style = 'color: red; font-weight: bold;'> siad</span> <span style = 'color: red; font-weight: bold;'> i</span> <span style = 'color: red; font-weight: bold;'> mbaol</span> <span style = 'color: black;'>  báis</span> <span style = 'color: red; font-weight: bold;'> méadaithe.</span> <span style = 'color: red; font-weight: bold;'> Cuireann</span> <span style = 'color: red; font-weight: bold;'> ciseal</span> <span style = 'color: black;'>  coiréil</span> <span style = 'color: black;'>  cosaint</span> <span style = 'color: black;'>  ar</span> <span style = 'color: red; font-weight: bold;'> fáil</span> <span style = 'color: red; font-weight: bold;'> i</span> <span style = 'color: red; font-weight: bold;'> gcoinne</span> <span style = 'color: red; font-weight: bold;'> tuilte</span> <span style = 'color: black;'>  agus</span> <span style = 'color: red; font-weight: bold;'> creimeadh</span> <span style = 'color: red; font-weight: bold;'> línte</span> <span style = 'color: black;'>  cósta.</span> <span style = 'color: black;'>  Má</span> <span style = 'color: black;'>  imíonn</span> <span style = 'color: black;'>  siad,</span> <span style = 'color: black;'>  beidh</span> <span style = 'color: black;'>  creimeadh</span> <span style = 'color: black;'>  tapa</span> <span style = 'color: black;'>  ar</span> <span style = 'color: red; font-weight: bold;'> línte</span> <span style = 'color: red; font-weight: bold;'> cósta</span> <span style = 'color: black;'>  agus</span> <span style = 'color: black;'>  imíonn</span> <span style = 'color: black;'>  go</span> <span style = 'color: black;'>  leor</span> <span style = 'color: red; font-weight: bold;'> stáit</span> <span style = 'color: black;'>  oileáin</span> <span style = 'color: red; font-weight: bold;'> bheaga</span> <span style = 'color: black;'>  as</span> <span style = 'color: black;'>  léarscáil</span> <span style = 'color: black;'>  an</span> <span style = 'color: black;'>  domhain</span><br><span class="sources">azure/gpt-4-vision</span></td>
+                    <td class="back-translate"><img src="https://www.coralgardening.org/nl/files/2016/05/coralbleaching.jpg" width="250"/> <span style = 'color: red; font-weight: bold;'> Fast</span> <span style = 'color: black;'>  alle</span> <span style = 'color: black;'>  Korallenriffe</span> <span style = 'color: black;'>  der</span> <span style = 'color: black;'>  Welt</span> <span style = 'color: black;'>  sind</span> <span style = 'color: red; font-weight: bold;'> aufgrund</span> <span style = 'color: red; font-weight: bold;'> von</span> <span style = 'color: black;'>  Korallenbleiche</span> <span style = 'color: black;'>  ausgestorben.</span> <span style = 'color: black;'>  Wenn</span> <span style = 'color: black;'>  das</span> <span style = 'color: black;'>  Wasser</span> <span style = 'color: black;'>  zu</span> <span style = 'color: black;'>  warm</span> <span style = 'color: black;'>  ist,</span> <span style = 'color: black;'>  stoßen</span> <span style = 'color: black;'>  die</span> <span style = 'color: black;'>  Korallen</span> <span style = 'color: black;'>  die</span> <span style = 'color: red; font-weight: bold;'> Algen</span> <span style = 'color: red; font-weight: bold;'> (Zooxanthellen)</span> <span style = 'color: red; font-weight: bold;'> ab,</span> <span style = 'color: red; font-weight: bold;'> die</span> <span style = 'color: black;'>  in</span> <span style = 'color: black;'>  ihrem</span> <span style = 'color: black;'>  Gewebe</span> <span style = 'color: red; font-weight: bold;'> leben,</span> <span style = 'color: red; font-weight: bold;'> was</span> <span style = 'color: red; font-weight: bold;'> dazu</span> <span style = 'color: red; font-weight: bold;'> führt,</span> <span style = 'color: black;'>  dass</span> <span style = 'color: black;'>  die</span> <span style = 'color: black;'>  Koralle</span> <span style = 'color: red; font-weight: bold;'> vollständig</span> <span style = 'color: black;'>  weiß</span> <span style = 'color: black;'>  wird.</span> <span style = 'color: black;'>  Korallen</span> <span style = 'color: black;'>  können</span> <span style = 'color: black;'>  ein</span> <span style = 'color: black;'>  Bleichereignis</span> <span style = 'color: black;'>  überleben,</span> <span style = 'color: black;'>  aber</span> <span style = 'color: black;'>  sie</span> <span style = 'color: red; font-weight: bold;'> sind</span> <span style = 'color: black;'>  größerem</span> <span style = 'color: black;'>  Stress</span> <span style = 'color: red; font-weight: bold;'> ausgesetzt</span> <span style = 'color: black;'>  und</span> <span style = 'color: red; font-weight: bold;'> haben</span> <span style = 'color: red; font-weight: bold;'> eine</span> <span style = 'color: red; font-weight: bold;'> erhöhte</span> <span style = 'color: red; font-weight: bold;'> Sterblichkeitsrate.</span> <span style = 'color: black;'>  Korallenriffe</span> <span style = 'color: black;'>  bieten</span> <span style = 'color: black;'>  Schutz</span> <span style = 'color: black;'>  vor</span> <span style = 'color: black;'>  Überschwemmungen</span> <span style = 'color: black;'>  und</span> <span style = 'color: black;'>  der</span> <span style = 'color: black;'>  Erosion</span> <span style = 'color: black;'>  von</span> <span style = 'color: black;'>  Küstenlinien.</span> <span style = 'color: black;'>  Wenn</span> <span style = 'color: black;'>  sie</span> <span style = 'color: black;'>  verschwinden,</span> <span style = 'color: black;'>  wird</span> <span style = 'color: black;'>  es</span> <span style = 'color: black;'>  zu</span> <span style = 'color: black;'>  einer</span> <span style = 'color: red; font-weight: bold;'> schnellen</span> <span style = 'color: black;'>  Erosion</span> <span style = 'color: black;'>  der</span> <span style = 'color: black;'>  Küsten</span> <span style = 'color: black;'>  kommen,</span> <span style = 'color: black;'>  und</span> <span style = 'color: black;'>  viele</span> <span style = 'color: black;'>  kleine</span> <span style = 'color: red; font-weight: bold;'> Inselnationen</span> <span style = 'color: black;'>  würden</span> <span style = 'color: black;'>  von</span> <span style = 'color: black;'>  der</span> <span style = 'color: black;'>  Weltkarte</span> <span style = 'color: black;'>  verschwinden</span></td>
+
+
+
+                    <td class="compare">1</td>
+
+                    <td class="compare">2</td>
+
+                    <td class="compare">2</td>
+
+                </tr>
+            
+        </tbody>
+    </table>
+</body>
+</html>

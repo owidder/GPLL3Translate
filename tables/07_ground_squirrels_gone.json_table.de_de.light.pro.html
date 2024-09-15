@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <style>
+        @page {
+            size: A4 landscape;
+        }
+    </style>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-family: verdana, serif;
+            font-size:12px;
+            border: 1px solid white;
+            transform: scale(0.3);
+            transform-origin: top left;
+        }
+        th, td {
+            border-bottom:3px solid white;
+            border-right:3px solid white;
+            padding: 15px;
+            text-align: left;
+        }
+        th {
+            background-color: darkgray;
+        }
+        td {
+            background-color: lightgray;
+        }
+        .endtd {
+            border-right: 3px solid darkgray;
+        }
+        .translate {
+            background-color: lightblue;
+        }
+        .back-translate {
+            background-color: lightgrey;
+        }
+        .winner {
+            background-color: lightpink;
+        }
+        .compare {
+            background-color: lightsteelblue;
+        }
+        .source {
+            background-color: palegoldenrod;
+        }
+        .empty {
+            background-color: lightgrey;
+        }
+        .sources {
+            font-weight: bold;
+            font-size: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>07_ground_squirrels_gone.json</h1>
+    <table>
+        <thead>
+            <tr>
+                
+                    <th>source text</th>
+                
+                    <th>--- 0 ---</th>
+                
+                    <th></th>
+                
+                    <th>--- 1 ---</th>
+                
+                    <th></th>
+                
+                    <th>azure/gpt-4-vision</th>
+                
+                    <th>gcp/gemini-1.5-pro</th>
+                
+                    <th>aws/claude-3.5-sonnet</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            
+                <tr>
+                    <td class="endtd source">Alpenmurmeltier ausgestorben</td>
+
+
+                    <td class="winner">Alpenmurmeltier ausgestorben<br><span class="sources">azure/gpt-4-vision, gcp/gemini-1.5-pro</span></td>
+                    <td class="back-translate"><span style = 'color: black;'>  Alpenmurmeltier</span> <span style = 'color: black;'>  ausgestorben</span></td>
+
+
+
+                    <td class="empty"></td>
+                    <td class="empty"></td>
+
+
+
+                    <td class="compare">1</td>
+
+                    <td class="compare">1</td>
+
+                    <td class="compare">1</td>
+
+                </tr>
+            
+                <tr>
+                    <td class="endtd source"><img width=250 src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/alpine-marmot-pair-arterra-picture-library.jpg"><br>Das Alpenmurmeltier ist aufgrund zunehmender Hitze ausgestorben. Das Alpenmurmeltier (Marmota marmota) war ein großes, bodenbewohnendes Eichhörnchen aus der Gattung der Murmeltiere. Es kam in großer Zahl in den Gebirgsregionen Mittel- und Südeuropas vor, in Höhen zwischen 800 und 3.200 m in den Alpen, den Karpaten, der Tatra und dem nördlichen Apennin. Das Alpenmurmeltier galt bisweilen als die schwerste Eichhörnchenart, obwohl einige andere Murmeltierarten einen ähnlichen Gewichtsbereich aufweisen. Das Alpenmurmeltier wurde früher in großem Umfang als Nahrungsquelle gejagt und weil man glaubte, dass sein Fett, wenn es auf die Haut gerieben wurde, Rheuma linderte. Die Jagd auf das Alpenmurmeltier wurde auch als Sport betrieben. Die Jagd war unzureichend reguliert, weshalb sich die Tiere auch relativ langsam vermehrten.</td>
+
+
+                    <td class="winner"><img width=250 src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/alpine-marmot-pair-arterra-picture-library.jpg"> Das Alpenmurmeltier ist aufgrund zunehmender Hitze ausgestorben. Das Alpenmurmeltier (Marmota marmota) war ein großes, bodenbewohnendes Eichhörnchen aus der Gattung der Murmeltiere. Es kam in großer Zahl in den Gebirgsregionen Mittel- und Südeuropas vor, in Höhen zwischen 800 und 3.200 m in den Alpen, den Karpaten, der Tatra und dem nördlichen Apennin. Das Alpenmurmeltier galt bisweilen als die schwerste Eichhörnchenart, obwohl einige andere Murmeltierarten einen ähnlichen Gewichtsbereich aufweisen. Das Alpenmurmeltier wurde früher in großem Umfang als Nahrungsquelle gejagt und weil man glaubte, dass sein Fett, wenn es auf die Haut gerieben wurde, Rheuma linderte. Die Jagd auf das Alpenmurmeltier wurde auch als Sport betrieben. Die Jagd war unzureichend reguliert, weshalb sich die Tiere auch relativ langsam vermehrten<br><span class="sources">azure/gpt-4-vision, gcp/gemini-1.5-pro</span></td>
+                    <td class="back-translate"><img src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/alpine-marmot-pair-arterra-picture-library.jpg" width="250"/> <span style = 'color: black;'>  Das</span> <span style = 'color: black;'>  Alpenmurmeltier</span> <span style = 'color: black;'>  ist</span> <span style = 'color: black;'>  aufgrund</span> <span style = 'color: black;'>  zunehmender</span> <span style = 'color: black;'>  Hitze</span> <span style = 'color: black;'>  ausgestorben.</span> <span style = 'color: black;'>  Das</span> <span style = 'color: black;'>  Alpenmurmeltier</span> <span style = 'color: black;'>  (Marmota</span> <span style = 'color: black;'>  marmota)</span> <span style = 'color: black;'>  war</span> <span style = 'color: black;'>  ein</span> <span style = 'color: black;'>  großes,</span> <span style = 'color: black;'>  bodenbewohnendes</span> <span style = 'color: black;'>  Eichhörnchen</span> <span style = 'color: black;'>  aus</span> <span style = 'color: black;'>  der</span> <span style = 'color: black;'>  Gattung</span> <span style = 'color: black;'>  der</span> <span style = 'color: black;'>  Murmeltiere.</span> <span style = 'color: black;'>  Es</span> <span style = 'color: black;'>  kam</span> <span style = 'color: black;'>  in</span> <span style = 'color: black;'>  großer</span> <span style = 'color: black;'>  Zahl</span> <span style = 'color: black;'>  in</span> <span style = 'color: black;'>  den</span> <span style = 'color: black;'>  Gebirgsregionen</span> <span style = 'color: black;'>  Mittel-</span> <span style = 'color: black;'>  und</span> <span style = 'color: black;'>  Südeuropas</span> <span style = 'color: black;'>  vor,</span> <span style = 'color: black;'>  in</span> <span style = 'color: black;'>  Höhen</span> <span style = 'color: black;'>  zwischen</span> <span style = 'color: black;'>  800</span> <span style = 'color: black;'>  und</span> <span style = 'color: black;'>  3.200</span> <span style = 'color: black;'>  m</span> <span style = 'color: black;'>  in</span> <span style = 'color: black;'>  den</span> <span style = 'color: black;'>  Alpen,</span> <span style = 'color: black;'>  den</span> <span style = 'color: black;'>  Karpaten,</span> <span style = 'color: black;'>  der</span> <span style = 'color: black;'>  Tatra</span> <span style = 'color: black;'>  und</span> <span style = 'color: black;'>  dem</span> <span style = 'color: black;'>  nördlichen</span> <span style = 'color: black;'>  Apennin.</span> <span style = 'color: black;'>  Das</span> <span style = 'color: black;'>  Alpenmurmeltier</span> <span style = 'color: black;'>  galt</span> <span style = 'color: black;'>  bisweilen</span> <span style = 'color: black;'>  als</span> <span style = 'color: black;'>  die</span> <span style = 'color: black;'>  schwerste</span> <span style = 'color: black;'>  Eichhörnchenart,</span> <span style = 'color: black;'>  obwohl</span> <span style = 'color: black;'>  einige</span> <span style = 'color: black;'>  andere</span> <span style = 'color: black;'>  Murmeltierarten</span> <span style = 'color: black;'>  einen</span> <span style = 'color: black;'>  ähnlichen</span> <span style = 'color: black;'>  Gewichtsbereich</span> <span style = 'color: black;'>  aufweisen.</span> <span style = 'color: black;'>  Das</span> <span style = 'color: black;'>  Alpenmurmeltier</span> <span style = 'color: black;'>  wurde</span> <span style = 'color: black;'>  früher</span> <span style = 'color: black;'>  in</span> <span style = 'color: black;'>  großem</span> <span style = 'color: black;'>  Umfang</span> <span style = 'color: black;'>  als</span> <span style = 'color: black;'>  Nahrungsquelle</span> <span style = 'color: black;'>  gejagt</span> <span style = 'color: black;'>  und</span> <span style = 'color: black;'>  weil</span> <span style = 'color: black;'>  man</span> <span style = 'color: black;'>  glaubte,</span> <span style = 'color: black;'>  dass</span> <span style = 'color: black;'>  sein</span> <span style = 'color: black;'>  Fett,</span> <span style = 'color: black;'>  wenn</span> <span style = 'color: black;'>  es</span> <span style = 'color: black;'>  auf</span> <span style = 'color: black;'>  die</span> <span style = 'color: black;'>  Haut</span> <span style = 'color: black;'>  gerieben</span> <span style = 'color: black;'>  wurde,</span> <span style = 'color: black;'>  Rheuma</span> <span style = 'color: black;'>  linderte.</span> <span style = 'color: black;'>  Die</span> <span style = 'color: black;'>  Jagd</span> <span style = 'color: black;'>  auf</span> <span style = 'color: black;'>  das</span> <span style = 'color: black;'>  Alpenmurmeltier</span> <span style = 'color: black;'>  wurde</span> <span style = 'color: black;'>  auch</span> <span style = 'color: black;'>  als</span> <span style = 'color: black;'>  Sport</span> <span style = 'color: black;'>  betrieben.</span> <span style = 'color: black;'>  Die</span> <span style = 'color: black;'>  Jagd</span> <span style = 'color: black;'>  war</span> <span style = 'color: black;'>  unzureichend</span> <span style = 'color: black;'>  reguliert,</span> <span style = 'color: black;'>  weshalb</span> <span style = 'color: black;'>  sich</span> <span style = 'color: black;'>  die</span> <span style = 'color: black;'>  Tiere</span> <span style = 'color: black;'>  auch</span> <span style = 'color: black;'>  relativ</span> <span style = 'color: black;'>  langsam</span> <span style = 'color: black;'>  vermehrten</span></td>
+
+
+
+                    <td class="empty"></td>
+                    <td class="empty"></td>
+
+
+
+                    <td class="compare">1</td>
+
+                    <td class="compare">1</td>
+
+                    <td class="compare">1</td>
+
+                </tr>
+            
+        </tbody>
+    </table>
+</body>
+</html>

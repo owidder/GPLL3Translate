@@ -28,6 +28,250 @@
                     "_unique_translations_back_sv": [
                         "Der wunderschöne pazifische Inselstaat Tuvalu ist verschwunden",
                         "Der wunderschöne Inselstaat Tuvalu im Pazifik ist verschwunden"
+                    ],
+                    "_azure/gpt-4-vision_ar": "اختفت دولة توفالو الجميلة في جزيرة المحيط الهادئ",
+                    "_gcp/gemini-1.5-pro_ar": "اختفت دولة توفالو الجميلة في جزيرة المحيط الهادئ\n",
+                    "_compare_azure/gpt-4-vision_ar": "اختفت دولة توفالو الجميلة في جزيرة المحيط الهادئ",
+                    "_compare_gcp/gemini-1.5-pro_ar": "اختفت دولة توفالو الجميلة في جزيرة المحيط الهادئ",
+                    "_compare_aws/claude-3.5-sonnet_ar": "اختفت دولة توفالو الجميلة في جزيرة المحيط الهادئ",
+                    "_unique_translations_back_ar": [
+                        "Die schöne pazifische Inselnation Tuvalu ist verschwunden"
+                    ],
+                    "_azure/gpt-4-vision_bg": "Прекрасната тихоокеанска островна държава Тувалу вече не съществува.",
+                    "_gcp/gemini-1.5-pro_bg": "Красивата тихоокеанска островна държава Тувалу вече не съществува. \n",
+                    "_compare_azure/gpt-4-vision_bg": "Прекрасната тихоокеанска островна държава Тувалу вече не съществува",
+                    "_compare_gcp/gemini-1.5-pro_bg": "Прекрасната тихоокеанска островна държава Тувалу вече не съществува",
+                    "_compare_aws/claude-3.5-sonnet_bg": "Прекрасната тихоокеанска островна държава Тувалу вече не съществува",
+                    "_unique_translations_back_bg": [
+                        "Der wunderschöne pazifische Inselstaat Tuvalu existiert nicht mehr",
+                        "Die wunderschöne pazifische Inselnation Tuvalu existiert nicht mehr"
+                    ],
+                    "_azure/gpt-4-vision_cs": "",
+                    "_gcp/gemini-1.5-pro_cs": "Nádherný tichomořský ostrovní stát Tuvalu už neexistuje. \n",
+                    "_compare_azure/gpt-4-vision_cs": "Nádherný tichomořský ostrovní stát Tuvalu už neexistuje",
+                    "_compare_gcp/gemini-1.5-pro_cs": "Nádherný tichomořský ostrovní stát Tuvalu už neexistuje",
+                    "_compare_aws/claude-3.5-sonnet_cs": "Nádherný tichomořský ostrovní stát Tuvalu už neexistuje",
+                    "_unique_translations_back_cs": [
+                        "Da der gegebene tschechische Text leer ist, kann ich keine Übersetzung ins Deutsche vornehmen. Ohne Ausgangstext gibt es nichts zu übersetzen",
+                        "Der wunderschöne pazifische Inselstaat Tuvalu ist verschwunden"
+                    ],
+                    "_azure/gpt-4-vision_da": "Den smukke Stillehavsønation Tuvalu er ikke mere.",
+                    "_gcp/gemini-1.5-pro_da": "Den smukke stillehavsøstat Tuvalu er væk. \n",
+                    "_compare_azure/gpt-4-vision_da": "Den smukke stillehavsøstat Tuvalu er væk",
+                    "_compare_gcp/gemini-1.5-pro_da": "Den smukke Stillehavsønation Tuvalu er ikke mere",
+                    "_compare_aws/claude-3.5-sonnet_da": "Den smukke Stillehavsønation Tuvalu er ikke mere",
+                    "_unique_translations_back_da": [
+                        "Der wunderschöne pazifische Inselstaat Tuvalu ist verschwunden",
+                        "Der wunderschöne pazifische Inselstaat Tuvalu ist verschwunden"
+                    ],
+                    "_azure/gpt-4-vision_de": "Der wunderschöne pazifische Inselstaat Tuvalu ist nicht mehr.",
+                    "_gcp/gemini-1.5-pro_de": "Der wunderschöne pazifische Inselstaat Tuvalu ist verschwunden. \n",
+                    "_compare_azure/gpt-4-vision_de": "Der wunderschöne pazifische Inselstaat Tuvalu ist nicht mehr",
+                    "_compare_gcp/gemini-1.5-pro_de": "Der wunderschöne pazifische Inselstaat Tuvalu ist verschwunden",
+                    "_compare_aws/claude-3.5-sonnet_de": "Der wunderschöne pazifische Inselstaat Tuvalu ist nicht mehr",
+                    "_unique_translations_back_de": [
+                        "Der wunderschöne pazifische Inselstaat Tuvalu ist nicht mehr",
+                        "Der wunderschöne pazifische Inselstaat Tuvalu ist verschwunden"
+                    ],
+                    "_azure/gpt-4-vision_el": "Το όμορφο νησιωτικό κράτος του Ειρηνικού, το Τουβαλού, δεν υπάρχει πια.",
+                    "_gcp/gemini-1.5-pro_el": "Το πανέμορφο νησιωτικό κράτος Τουβαλού στον Ειρηνικό δεν υπάρχει πια. \n",
+                    "_compare_azure/gpt-4-vision_el": "Το πανέμορφο νησιωτικό κράτος Τουβαλού στον Ειρηνικό δεν υπάρχει πια",
+                    "_compare_gcp/gemini-1.5-pro_el": "Το πανέμορφο νησιωτικό κράτος Τουβαλού στον Ειρηνικό δεν υπάρχει πια",
+                    "_compare_aws/claude-3.5-sonnet_el": "Το πανέμορφο νησιωτικό κράτος Τουβαλού στον Ειρηνικό δεν υπάρχει πια",
+                    "_unique_translations_back_el": [
+                        "Der wunderschöne pazifische Inselstaat Tuvalu ist verschwunden",
+                        "Der wunderschöne Inselstaat Tuvalu im Pazifik ist verschwunden"
+                    ],
+                    "_azure/gpt-4-vision_en": "The beautiful Pacific island nation of Tuvalu is no more.",
+                    "_gcp/gemini-1.5-pro_en": "The beautiful Pacific island nation of Tuvalu is no more. \n",
+                    "_compare_azure/gpt-4-vision_en": "The beautiful Pacific island nation of Tuvalu is no more",
+                    "_compare_gcp/gemini-1.5-pro_en": "The beautiful Pacific island nation of Tuvalu is no more",
+                    "_compare_aws/claude-3.5-sonnet_en": "The beautiful Pacific island nation of Tuvalu is no more",
+                    "_unique_translations_back_en": [
+                        "Der wunderschöne pazifische Inselstaat Tuvalu ist verschwunden"
+                    ],
+                    "_azure/gpt-4-vision_es": "El hermoso estado insular del Pacífico de Tuvalu ha desaparecido.",
+                    "_gcp/gemini-1.5-pro_es": "La hermosa nación insular de Tuvalu en el Pacífico ya no existe. \n",
+                    "_compare_azure/gpt-4-vision_es": "La hermosa nación insular de Tuvalu en el Pacífico ya no existe",
+                    "_compare_gcp/gemini-1.5-pro_es": "La hermosa nación insular de Tuvalu en el Pacífico ya no existe",
+                    "_compare_aws/claude-3.5-sonnet_es": "La hermosa nación insular de Tuvalu en el Pacífico ya no existe",
+                    "_unique_translations_back_es": [
+                        "Der wunderschöne pazifische Inselstaat Tuvalu ist verschwunden",
+                        "Der wunderschöne pazifische Inselstaat Tuvalu ist verschwunden"
+                    ],
+                    "_azure/gpt-4-vision_et": "Kaunis Vaikse ookeani saareriik Tuvalu on kadunud.",
+                    "_gcp/gemini-1.5-pro_et": "Kaunis Vaikse ookeani saareriik Tuvalu on kadunud. \n",
+                    "_compare_azure/gpt-4-vision_et": "Kaunis Vaikse ookeani saareriik Tuvalu on kadunud",
+                    "_compare_gcp/gemini-1.5-pro_et": "Kaunis Vaikse ookeani saareriik Tuvalu on kadunud",
+                    "_compare_aws/claude-3.5-sonnet_et": "Kaunis Vaikse ookeani saareriik Tuvalu on kadunud",
+                    "_unique_translations_back_et": [
+                        "Der wunderschöne pazifische Inselstaat Tuvalu ist verschwunden"
+                    ],
+                    "_azure/gpt-4-vision_fi": "Kaunis Tyynenmeren saarivaltio Tuvalu on hävinnyt.",
+                    "_gcp/gemini-1.5-pro_fi": "Kaunis Tyynenmeren saarivaltio Tuvalu on poissa. \n",
+                    "_compare_azure/gpt-4-vision_fi": "Kaunis Tyynenmeren saarivaltio Tuvalu on hävinnyt",
+                    "_compare_gcp/gemini-1.5-pro_fi": "Kaunis Tyynenmeren saarivaltio Tuvalu on hävinnyt",
+                    "_compare_aws/claude-3.5-sonnet_fi": "Kaunis Tyynenmeren saarivaltio Tuvalu on poissa",
+                    "_unique_translations_back_fi": [
+                        "Der wunderschöne pazifische Inselstaat Tuvalu ist verschwunden",
+                        "Der wunderschöne pazifische Inselstaat Tuvalu ist verschwunden"
+                    ],
+                    "_azure/gpt-4-vision_fr": "La magnifique nation insulaire du Pacifique de Tuvalu a disparu.",
+                    "_gcp/gemini-1.5-pro_fr": "La magnifique nation insulaire du Pacifique de Tuvalu a disparu. \n",
+                    "_compare_azure/gpt-4-vision_fr": "La magnifique nation insulaire du Pacifique de Tuvalu a disparu",
+                    "_compare_gcp/gemini-1.5-pro_fr": "La magnifique nation insulaire du Pacifique de Tuvalu a disparu",
+                    "_compare_aws/claude-3.5-sonnet_fr": "La magnifique nation insulaire du Pacifique de Tuvalu a disparu",
+                    "_unique_translations_back_fr": [
+                        "Der wunderschöne pazifische Inselstaat Tuvalu ist verschwunden"
+                    ],
+                    "_azure/gpt-4-vision_ga": "Tá an stát álainn oileánach sa Aigéan Ciúin, Tuvalu, imithe ar shlí na fírinne.",
+                    "_gcp/gemini-1.5-pro_ga": "Tá an t-oileán álainn san Aigéan Ciúin, Tuvalu, imithe as feidhm. \n",
+                    "_compare_azure/gpt-4-vision_ga": "Tá an stát álainn oileánach sa Aigéan Ciúin, Tuvalu, imithe ar shlí na fírinne",
+                    "_compare_gcp/gemini-1.5-pro_ga": "Tá an stát álainn oileánach sa Aigéan Ciúin, Tuvalu, imithe ar shlí na fírinne",
+                    "_compare_aws/claude-3.5-sonnet_ga": "Tá an stát álainn oileánach sa Aigéan Ciúin, Tuvalu, imithe ar shlí na fírinne",
+                    "_unique_translations_back_ga": [
+                        "Der wunderschöne pazifische Inselstaat Tuvalu ist verschwunden",
+                        "Der wunderschöne Inselstaat Tuvalu im Pazifik ist verschwunden"
+                    ],
+                    "_azure/gpt-4-vision_hr": "Prekrasna pacifička otočna država Tuvalu više ne postoji.",
+                    "_gcp/gemini-1.5-pro_hr": "Prekrasna pacifička otočna država Tuvalu više ne postoji. \n",
+                    "_compare_azure/gpt-4-vision_hr": "Prekrasna pacifička otočna država Tuvalu više ne postoji",
+                    "_compare_gcp/gemini-1.5-pro_hr": "Prekrasna pacifička otočna država Tuvalu više ne postoji",
+                    "_compare_aws/claude-3.5-sonnet_hr": "Prekrasna pacifička otočna država Tuvalu više ne postoji",
+                    "_unique_translations_back_hr": [
+                        "Der wunderschöne pazifische Inselstaat Tuvalu ist verschwunden"
+                    ],
+                    "_azure/gpt-4-vision_hu": "A gyönyörű csendes-óceáni szigetország, Tuvalu eltűnt.",
+                    "_gcp/gemini-1.5-pro_hu": "A gyönyörű csendes-óceáni szigetország, Tuvalu már nincs többé. \n",
+                    "_compare_azure/gpt-4-vision_hu": "A gyönyörű csendes-óceáni szigetország, Tuvalu már nincs többé",
+                    "_compare_gcp/gemini-1.5-pro_hu": "A gyönyörű csendes-óceáni szigetország, Tuvalu már nincs többé",
+                    "_compare_aws/claude-3.5-sonnet_hu": "A gyönyörű csendes-óceáni szigetország, Tuvalu már nincs többé",
+                    "_unique_translations_back_hu": [
+                        "Der wunderschöne pazifische Inselstaat Tuvalu ist verschwunden",
+                        "Der wunderschöne pazifische Inselstaat Tuvalu ist verschwunden"
+                    ],
+                    "_azure/gpt-4-vision_id": "Negara kepulauan Pasifik yang indah, Tuvalu, telah hilang.",
+                    "_gcp/gemini-1.5-pro_id": "Negara kepulauan Tuvalu yang indah di Pasifik telah lenyap. \n",
+                    "_compare_azure/gpt-4-vision_id": "Negara kepulauan Pasifik yang indah, Tuvalu, telah hilang",
+                    "_compare_gcp/gemini-1.5-pro_id": "Negara kepulauan Tuvalu yang indah di Pasifik telah lenyap",
+                    "_compare_aws/claude-3.5-sonnet_id": "Negara kepulauan Tuvalu yang indah di Pasifik telah lenyap",
+                    "_unique_translations_back_id": [
+                        "Der wunderschöne pazifische Inselstaat Tuvalu ist verschwunden",
+                        "Der wunderschöne pazifische Inselstaat Tuvalu ist verschwunden"
+                    ],
+                    "_azure/gpt-4-vision_it": "La bellissima nazione insulare del Pacifico di Tuvalu non esiste più.",
+                    "_gcp/gemini-1.5-pro_it": "La meravigliosa nazione insulare di Tuvalu nel Pacifico non c'è più. \n",
+                    "_compare_azure/gpt-4-vision_it": "La bellissima nazione insulare del Pacifico di Tuvalu non esiste più",
+                    "_compare_gcp/gemini-1.5-pro_it": "La meravigliosa nazione insulare di Tuvalu nel Pacifico non c'è più",
+                    "_compare_aws/claude-3.5-sonnet_it": "La meravigliosa nazione insulare di Tuvalu nel Pacifico non c'è più",
+                    "_unique_translations_back_it": [
+                        "Der wunderschöne pazifische Inselstaat Tuvalu ist verschwunden",
+                        "Der wunderschöne pazifische Inselstaat Tuvalu ist verschwunden"
+                    ],
+                    "_azure/gpt-4-vision_ja": "美しい太平洋の島国ツバルはもうありません",
+                    "_gcp/gemini-1.5-pro_ja": "",
+                    "_compare_azure/gpt-4-vision_ja": "美しい太平洋の島国ツバルはもうありません",
+                    "_compare_gcp/gemini-1.5-pro_ja": "美しい太平洋の島国ツバルはもうありません",
+                    "_compare_aws/claude-3.5-sonnet_ja": "美しい太平洋の島国ツバルはもうありません",
+                    "_unique_translations_back_ja": [
+                        "Da kein japanischer Text vorhanden ist, kann ich keine Übersetzung ins Deutsche vornehmen",
+                        "Der wunderschöne pazifische Inselstaat Tuvalu ist verschwunden"
+                    ],
+                    "_azure/gpt-4-vision_ko": "아름다웠던 태평양의 섬나라 투발루는 이제 사라졌습니다",
+                    "_gcp/gemini-1.5-pro_ko": "아름다운 태평양 섬나라 투발루가 사라졌습니다. \n",
+                    "_compare_azure/gpt-4-vision_ko": "아름다운 태평양 섬나라 투발루가 사라졌습니다",
+                    "_compare_gcp/gemini-1.5-pro_ko": "아름다웠던 태평양의 섬나라 투발루는 이제 사라졌습니다",
+                    "_compare_aws/claude-3.5-sonnet_ko": "아름다운 태평양 섬나라 투발루가 사라졌습니다",
+                    "_unique_translations_back_ko": [
+                        "Der wunderschöne pazifische Inselstaat Tuvalu ist verschwunden",
+                        "Der wunderschöne pazifische Inselstaat Tuvalu ist verschwunden"
+                    ],
+                    "_azure/gpt-4-vision_lv": "Pacifiskās salu valsts Tuvalu skaistums ir zudis.",
+                    "_gcp/gemini-1.5-pro_lv": "Skaistā Klusā okeāna salu valsts Tuvalu vairs nepastāv. \n",
+                    "_compare_azure/gpt-4-vision_lv": "Skaistā Klusā okeāna salu valsts Tuvalu vairs nepastāv",
+                    "_compare_gcp/gemini-1.5-pro_lv": "Skaistā Klusā okeāna salu valsts Tuvalu vairs nepastāv",
+                    "_compare_aws/claude-3.5-sonnet_lv": "Skaistā Klusā okeāna salu valsts Tuvalu vairs nepastāv",
+                    "_unique_translations_back_lv": [
+                        "Der wunderschöne pazifische Inselstaat Tuvalu existiert nicht mehr",
+                        "Der wunderschöne pazifische Inselstaat Tuvalu ist verschwunden"
+                    ],
+                    "_azure/gpt-4-vision_lt": "Gražioji Ramiojo vandenyno salų valstybė Tuvalu nebėra.",
+                    "_gcp/gemini-1.5-pro_lt": "Gražioji Ramiojo vandenyno salų valstybė Tuvalu nebeegzistuoja. \n",
+                    "_compare_azure/gpt-4-vision_lt": "Gražioji Ramiojo vandenyno salų valstybė Tuvalu nebeegzistuoja",
+                    "_compare_gcp/gemini-1.5-pro_lt": "Gražioji Ramiojo vandenyno salų valstybė Tuvalu nebėra",
+                    "_compare_aws/claude-3.5-sonnet_lt": "Gražioji Ramiojo vandenyno salų valstybė Tuvalu nebėra",
+                    "_unique_translations_back_lt": [
+                        "Der wunderschöne pazifische Inselstaat Tuvalu ist verschwunden",
+                        "Der wunderschöne pazifische Inselstaat Tuvalu ist verschwunden"
+                    ],
+                    "_azure/gpt-4-vision_mt": "L-istat sabiħ tal-gżira fil-Paċifiku ta' Tuvalu m'għadux jeżisti.",
+                    "_gcp/gemini-1.5-pro_mt": "In-nazzjon gżira sabiħa tal-Paċifiku ta' Tuvalu sparixxa. \n",
+                    "_compare_azure/gpt-4-vision_mt": "In-nazzjon gżira sabiħa tal-Paċifiku ta' Tuvalu sparixxa",
+                    "_compare_gcp/gemini-1.5-pro_mt": "L-istat sabiħ tal-gżira fil-Paċifiku ta' Tuvalu m'għadux jeżisti",
+                    "_compare_aws/claude-3.5-sonnet_mt": "In-nazzjon gżira sabiħa tal-Paċifiku ta' Tuvalu sparixxa",
+                    "_unique_translations_back_mt": [
+                        "Der schöne pazifische Inselstaat Tuvalu existiert nicht mehr",
+                        "Der wunderschöne pazifische Inselstaat Tuvalu ist verschwunden"
+                    ],
+                    "_azure/gpt-4-vision_nl": "De prachtige Pacifische eilandstaat Tuvalu bestaat niet meer.",
+                    "_gcp/gemini-1.5-pro_nl": "De prachtige Pacifische eilandstaat Tuvalu bestaat niet meer. \n",
+                    "_compare_azure/gpt-4-vision_nl": "De prachtige Pacifische eilandstaat Tuvalu bestaat niet meer",
+                    "_compare_gcp/gemini-1.5-pro_nl": "De prachtige Pacifische eilandstaat Tuvalu bestaat niet meer",
+                    "_compare_aws/claude-3.5-sonnet_nl": "De prachtige Pacifische eilandstaat Tuvalu bestaat niet meer",
+                    "_unique_translations_back_nl": [
+                        "Der wunderschöne pazifische Inselstaat Tuvalu existiert nicht mehr"
+                    ],
+                    "_azure/gpt-4-vision_pl": "Piękne, położone na Pacyfiku wyspiarskie państwo Tuvalu przestało istnieć.",
+                    "_gcp/gemini-1.5-pro_pl": "Piękne wyspiarskie państwo Tuvalu na Pacyfiku zniknęło. \n",
+                    "_compare_azure/gpt-4-vision_pl": "Piękne, położone na Pacyfiku wyspiarskie państwo Tuvalu przestało istnieć",
+                    "_compare_gcp/gemini-1.5-pro_pl": "Piękne, położone na Pacyfiku wyspiarskie państwo Tuvalu przestało istnieć",
+                    "_compare_aws/claude-3.5-sonnet_pl": "Piękne wyspiarskie państwo Tuvalu na Pacyfiku zniknęło",
+                    "_unique_translations_back_pl": [
+                        "Der wunderschöne pazifische Inselstaat Tuvalu ist verschwunden",
+                        "Der wunderschöne pazifische Inselstaat Tuvalu ist verschwunden"
+                    ],
+                    "_azure/gpt-4-vision_ro": "Frumosul stat insular din Pacific, Tuvalu, nu mai există.",
+                    "_gcp/gemini-1.5-pro_ro": "Minunata națiune insulară Tuvalu din Pacific a dispărut. \n",
+                    "_compare_azure/gpt-4-vision_ro": "Frumosul stat insular din Pacific, Tuvalu, nu mai există",
+                    "_compare_gcp/gemini-1.5-pro_ro": "Frumosul stat insular din Pacific, Tuvalu, nu mai există",
+                    "_compare_aws/claude-3.5-sonnet_ro": "Frumosul stat insular din Pacific, Tuvalu, nu mai există",
+                    "_unique_translations_back_ro": [
+                        "Der wunderschöne pazifische Inselstaat Tuvalu ist verschwunden",
+                        "Der wunderschöne pazifische Inselstaat Tuvalu ist verschwunden"
+                    ],
+                    "_azure/gpt-4-vision_ru": "Прекрасное тихоокеанское островное государство Тувалу исчезло.",
+                    "_gcp/gemini-1.5-pro_ru": "Прекрасное тихоокеанское островное государство Тувалу исчезло. \n",
+                    "_compare_azure/gpt-4-vision_ru": "Прекрасное тихоокеанское островное государство Тувалу исчезло",
+                    "_compare_gcp/gemini-1.5-pro_ru": "Прекрасное тихоокеанское островное государство Тувалу исчезло",
+                    "_compare_aws/claude-3.5-sonnet_ru": "Прекрасное тихоокеанское островное государство Тувалу исчезло",
+                    "_unique_translations_back_ru": [
+                        "Der wunderschöne pazifische Inselstaat Tuvalu ist verschwunden"
+                    ],
+                    "_azure/gpt-4-vision_sk": "Krásny tichomorský ostrovný štát Tuvalu už neexistuje.",
+                    "_gcp/gemini-1.5-pro_sk": "Krásny tichomorský ostrovný štát Tuvalu už neexistuje. \n",
+                    "_compare_azure/gpt-4-vision_sk": "Krásny tichomorský ostrovný štát Tuvalu už neexistuje",
+                    "_compare_gcp/gemini-1.5-pro_sk": "Krásny tichomorský ostrovný štát Tuvalu už neexistuje",
+                    "_compare_aws/claude-3.5-sonnet_sk": "Krásny tichomorský ostrovný štát Tuvalu už neexistuje",
+                    "_unique_translations_back_sk": [
+                        "Der schöne pazifische Inselstaat Tuvalu existiert nicht mehr"
+                    ],
+                    "_azure/gpt-4-vision_sl": "Čudovita pacifiška otoška država Tuvalu je izginila.",
+                    "_gcp/gemini-1.5-pro_sl": "Prelepa pacifiška otoška država Tuvalu je izginila. \n",
+                    "_compare_azure/gpt-4-vision_sl": "Čudovita pacifiška otoška država Tuvalu je izginila",
+                    "_compare_gcp/gemini-1.5-pro_sl": "Čudovita pacifiška otoška država Tuvalu je izginila",
+                    "_compare_aws/claude-3.5-sonnet_sl": "Prelepa pacifiška otoška država Tuvalu je izginila",
+                    "_unique_translations_back_sl": [
+                        "Der wunderschöne pazifische Inselstaat Tuvalu ist verschwunden",
+                        "Der wunderschöne pazifische Inselstaat Tuvalu ist verschwunden"
+                    ],
+                    "_azure/gpt-4-vision_zh": "美丽的太平洋岛国图瓦卢已经消失了",
+                    "_gcp/gemini-1.5-pro_zh": "美丽的太平洋岛国图瓦卢已经不复存在了",
+                    "_compare_azure/gpt-4-vision_zh": "美丽的太平洋岛国图瓦卢已经消失了",
+                    "_compare_gcp/gemini-1.5-pro_zh": "美丽的太平洋岛国图瓦卢已经不复存在了",
+                    "_compare_aws/claude-3.5-sonnet_zh": "美丽的太平洋岛国图瓦卢已经不复存在了",
+                    "_unique_translations_back_zh": [
+                        "Der wunderschöne pazifische Inselstaat Tuvalu ist verschwunden",
+                        "Der wunderschöne pazifische Inselstaat Tuvalu ist verschwunden"
                     ]
                 },
                 "body": {
@@ -44,6 +288,257 @@
                     "_unique_translations_back_sv": [
                         "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> Der pazifische Inselstaat Tuvalu ist komplett überflutet. Seine 11.000 Einwohner haben alles verloren und benötigen Hilfe. Wenden Sie sich an Ihre lokalen Behörden, um zu erfahren, wie Sie helfen können",
                         "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> Der pazifische Inselstaat Tuvalu ist vollständig überflutet. Seine 11.000 Einwohner haben alles verloren und benötigen Hilfe. Wenden Sie sich an Ihre lokalen Behörden, um zu erfahren, wie Sie helfen können"
+                    ],
+                    "_azure/gpt-4-vision_ar": "<img width=250 src=https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg><br>دولة توفالو الجزيرية في المحيط الهادئ قد غمرتها المياه بالكامل. لقد فقد سكانها الـ 11,000 كل شيء وهم بحاجة إلى المساعدة. يرجى التواصل مع السلطات المحلية لمعرفة كيف يمكنك المساعدة.",
+                    "_gcp/gemini-1.5-pro_ar": "<img width=250  src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"><br> غمرت المياه دولة توفالو الجزيرة الواقعة في المحيط الهادئ بالكامل. فقد سكانها البالغ عددهم 11000 نسمة كل شيء ويعتمدون على المساعدة. تواصل مع السلطات المحلية لمعرفة كيف يمكنك المساعدة. \n",
+                    "_compare_azure/gpt-4-vision_ar": "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> غمرت المياه دولة توفالو الجزيرة الواقعة في المحيط الهادئ بالكامل. فقد سكانها البالغ عددهم 11000 نسمة كل شيء ويعتمدون على المساعدة. تواصل مع السلطات المحلية لمعرفة كيف يمكنك المساعدة",
+                    "_compare_gcp/gemini-1.5-pro_ar": "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> غمرت المياه دولة توفالو الجزيرة الواقعة في المحيط الهادئ بالكامل. فقد سكانها البالغ عددهم 11000 نسمة كل شيء ويعتمدون على المساعدة. تواصل مع السلطات المحلية لمعرفة كيف يمكنك المساعدة",
+                    "_compare_aws/claude-3.5-sonnet_ar": "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> غمرت المياه دولة توفالو الجزيرة الواقعة في المحيط الهادئ بالكامل. فقد سكانها البالغ عددهم 11000 نسمة كل شيء ويعتمدون على المساعدة. تواصل مع السلطات المحلية لمعرفة كيف يمكنك المساعدة",
+                    "_unique_translations_back_ar": [
+                        "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> Der pazifische Inselstaat Tuvalu ist vollständig überflutet. Seine 11.000 Einwohner haben alles verloren und benötigen Hilfe. Bitte setzen Sie sich mit den örtlichen Behörden in Verbindung, um herauszufinden, wie Sie helfen können",
+                        "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> Der pazifische Inselstaat Tuvalu ist komplett überflutet. Seine 11.000 Einwohner haben alles verloren und sind auf Hilfe angewiesen. Wenden Sie sich an Ihre lokalen Behörden, um zu erfahren, wie Sie helfen können"
+                    ],
+                    "_azure/gpt-4-vision_bg": "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"><br>Тихоокеанската островна държава Тувалу е напълно наводнена. Нейните 11 000 жители са загубили всичко и се нуждаят от помощ. Обърнете се към местните власти, за да научите как можете да помогнете.",
+                    "_gcp/gemini-1.5-pro_bg": "<img width=250  src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"><br>Тихоокеанската островна държава Тувалу е напълно наводнена. Нейните 11 000 жители са загубили всичко и се нуждаят от помощ. Свържете се с местните власти, за да разберете как можете да помогнете. \n",
+                    "_compare_azure/gpt-4-vision_bg": "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> Тихоокеанската островна държава Тувалу е напълно наводнена. Нейните 11 000 жители са загубили всичко и се нуждаят от помощ. Обърнете се към местните власти, за да научите как можете да помогнете",
+                    "_compare_gcp/gemini-1.5-pro_bg": "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> Тихоокеанската островна държава Тувалу е напълно наводнена. Нейните 11 000 жители са загубили всичко и се нуждаят от помощ. Обърнете се към местните власти, за да научите как можете да помогнете",
+                    "_compare_aws/claude-3.5-sonnet_bg": "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> Тихоокеанската островна държава Тувалу е напълно наводнена. Нейните 11 000 жители са загубили всичко и се нуждаят от помощ. Свържете се с местните власти, за да разберете как можете да помогнете",
+                    "_unique_translations_back_bg": [
+                        "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> Der pazifische Inselstaat Tuvalu ist vollständig überflutet. Seine 11.000 Einwohner haben alles verloren und benötigen Hilfe. Wenden Sie sich an Ihre lokalen Behörden, um zu erfahren, wie Sie helfen können",
+                        "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> Der pazifische Inselstaat Tuvalu ist vollständig überflutet. Seine 11.000 Einwohner haben alles verloren und benötigen Hilfe. Wenden Sie sich an Ihre lokalen Behörden, um zu erfahren, wie Sie helfen können"
+                    ],
+                    "_azure/gpt-4-vision_cs": "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"><br>Tichomořský ostrovní stát Tuvalu je zcela zaplaven. Jeho 11 000 obyvatel přišlo o vše a jsou závislí na pomoci. Obraťte se na místní úřady, abyste zjistili, jak můžete pomoci.",
+                    "_gcp/gemini-1.5-pro_cs": "<img width=250  src=https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg><br>Tichomořský ostrovní stát Tuvalu je zcela zaplaven. Jeho 11 000 obyvatel přišlo o všechno a potřebuje pomoc. Obraťte se na své místní úřady a zjistěte, jak můžete pomoci.\n",
+                    "_compare_azure/gpt-4-vision_cs": "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> Tichomořský ostrovní stát Tuvalu je zcela zaplaven. Jeho 11 000 obyvatel přišlo o vše a jsou závislí na pomoci. Obraťte se na místní úřady, abyste zjistili, jak můžete pomoci",
+                    "_compare_gcp/gemini-1.5-pro_cs": "<img width=250 src=https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg> Tichomořský ostrovní stát Tuvalu je zcela zaplaven. Jeho 11 000 obyvatel přišlo o všechno a potřebuje pomoc. Obraťte se na své místní úřady a zjistěte, jak můžete pomoci",
+                    "_compare_aws/claude-3.5-sonnet_cs": "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> Tichomořský ostrovní stát Tuvalu je zcela zaplaven. Jeho 11 000 obyvatel přišlo o vše a jsou závislí na pomoci. Obraťte se na místní úřady, abyste zjistili, jak můžete pomoci",
+                    "_unique_translations_back_cs": [
+                        "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> Der pazifische Inselstaat Tuvalu ist vollständig überschwemmt. Seine 11.000 Einwohner haben alles verloren und benötigen Hilfe. Wenden Sie sich an Ihre lokalen Behörden, um herauszufinden, wie Sie helfen können",
+                        "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> Der pazifische Inselstaat Tuvalu ist komplett überflutet. Seine 11.000 Einwohner haben alles verloren und sind auf Hilfe angewiesen. Wenden Sie sich an Ihre lokalen Behörden, um zu erfahren, wie Sie helfen können"
+                    ],
+                    "_azure/gpt-4-vision_da": "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"><br>Den stillehavske østat Tuvalu er fuldstændig oversvømmet. De 11.000 indbyggere har mistet alt og er afhængige af hjælp. Kontakt dine lokale myndigheder for at finde ud af, hvordan du kan hjælpe.",
+                    "_gcp/gemini-1.5-pro_da": "<img width=250  src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"><br>Østaten Tuvalu i Stillehavet er fuldstændig oversvømmet. De 11.000 indbyggere har mistet alt og har brug for hjælp. Kontakt dine lokale myndigheder for at finde ud af, hvordan du kan hjælpe. \n",
+                    "_compare_azure/gpt-4-vision_da": "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> Den stillehavske østat Tuvalu er fuldstændig oversvømmet. De 11.000 indbyggere har mistet alt og er afhængige af hjælp. Kontakt dine lokale myndigheder for at finde ud af, hvordan du kan hjælpe",
+                    "_compare_gcp/gemini-1.5-pro_da": "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> Den stillehavske østat Tuvalu er fuldstændig oversvømmet. De 11.000 indbyggere har mistet alt og er afhængige af hjælp. Kontakt dine lokale myndigheder for at finde ud af, hvordan du kan hjælpe",
+                    "_compare_aws/claude-3.5-sonnet_da": "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> Østaten Tuvalu i Stillehavet er fuldstændig oversvømmet. De 11.000 indbyggere har mistet alt og har brug for hjælp. Kontakt dine lokale myndigheder for at finde ud af, hvordan du kan hjælpe",
+                    "_unique_translations_back_da": [
+                        "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> Der pazifische Inselstaat Tuvalu ist vollständig überschwemmt. Seine 11.000 Einwohner haben alles verloren und sind auf Hilfe angewiesen. Wenden Sie sich an Ihre lokalen Behörden, um herauszufinden, wie Sie helfen können",
+                        "<img width=250 src=\\https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\\> Der pazifische Inselstaat Tuvalu ist vollständig überflutet. Seine 11.000 Einwohner haben alles verloren und benötigen Hilfe. Wenden Sie sich an Ihre lokalen Behörden, um zu erfahren, wie Sie helfen können"
+                    ],
+                    "_azure/gpt-4-vision_de": "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"><br>Der pazifische Inselstaat Tuvalu ist völlig überflutet. Die 11.000 Einwohner haben alles verloren und sind auf Hilfe angewiesen. Wenden Sie sich an Ihre örtlichen Behörden, um zu erfahren, wie Sie helfen können.",
+                    "_gcp/gemini-1.5-pro_de": "<img width=250  src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"><br>Der pazifische Inselstaat Tuvalu ist völlig überflutet. Die 11.000 Einwohner haben alles verloren und sind auf Hilfe angewiesen. Wenden Sie sich an Ihre örtlichen Behörden, um zu erfahren, wie Sie helfen können. \n",
+                    "_compare_azure/gpt-4-vision_de": "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> Der pazifische Inselstaat Tuvalu ist völlig überflutet. Die 11.000 Einwohner haben alles verloren und sind auf Hilfe angewiesen. Wenden Sie sich an Ihre örtlichen Behörden, um zu erfahren, wie Sie helfen können",
+                    "_compare_gcp/gemini-1.5-pro_de": "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> Der pazifische Inselstaat Tuvalu ist völlig überflutet. Die 11.000 Einwohner haben alles verloren und sind auf Hilfe angewiesen. Wenden Sie sich an Ihre örtlichen Behörden, um zu erfahren, wie Sie helfen können",
+                    "_compare_aws/claude-3.5-sonnet_de": "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> Der pazifische Inselstaat Tuvalu ist völlig überflutet. Die 11.000 Einwohner haben alles verloren und sind auf Hilfe angewiesen. Wenden Sie sich an Ihre örtlichen Behörden, um zu erfahren, wie Sie helfen können",
+                    "_unique_translations_back_de": [
+                        "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> Der pazifische Inselstaat Tuvalu ist völlig überflutet. Die 11.000 Einwohner haben alles verloren und sind auf Hilfe angewiesen. Wenden Sie sich an Ihre örtlichen Behörden, um zu erfahren, wie Sie helfen können"
+                    ],
+                    "_azure/gpt-4-vision_el": "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"><br>Το ειδυλλιακό νησιωτικό κράτος του Ειρηνικού, το Τουβαλού, έχει πλημμυρίσει εντελώς. Οι 11.000 κάτοικοί του έχουν χάσει τα πάντα και χρειάζονται βοήθεια. Επικοινωνήστε με τις τοπικές αρχές για να μάθετε πώς μπορείτε να βοηθήσετε.",
+                    "_gcp/gemini-1.5-pro_el": "<img width=250  src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"><br>Το νησιωτικό κράτος Τουβαλού στον Ειρηνικό Ωκεανό έχει πλημμυρίσει ολοσχερώς. Οι 11.000 κάτοικοί του έχασαν τα πάντα και χρειάζονται βοήθεια. Επικοινωνήστε με τις τοπικές αρχές για να μάθετε πώς μπορείτε να βοηθήσετε. \n",
+                    "_compare_azure/gpt-4-vision_el": "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> Το νησιωτικό κράτος Τουβαλού στον Ειρηνικό Ωκεανό έχει πλημμυρίσει ολοσχερώς. Οι 11.000 κάτοικοί του έχασαν τα πάντα και χρειάζονται βοήθεια. Επικοινωνήστε με τις τοπικές αρχές για να μάθετε πώς μπορείτε να βοηθήσετε",
+                    "_compare_gcp/gemini-1.5-pro_el": "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> Το νησιωτικό κράτος Τουβαλού στον Ειρηνικό Ωκεανό έχει πλημμυρίσει ολοσχερώς. Οι 11.000 κάτοικοί του έχασαν τα πάντα και χρειάζονται βοήθεια. Επικοινωνήστε με τις τοπικές αρχές για να μάθετε πώς μπορείτε να βοηθήσετε",
+                    "_compare_aws/claude-3.5-sonnet_el": "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> Το ειδυλλιακό νησιωτικό κράτος του Ειρηνικού, το Τουβαλού, έχει πλημμυρίσει εντελώς. Οι 11.000 κάτοικοί του έχουν χάσει τα πάντα και χρειάζονται βοήθεια. Επικοινωνήστε με τις τοπικές αρχές για να μάθετε πώς μπορείτε να βοηθήσετε",
+                    "_unique_translations_back_el": [
+                        "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> Der pazifische Inselstaat Tuvalu ist vollständig überflutet. Seine 11.000 Einwohner haben alles verloren und benötigen Hilfe. Wenden Sie sich an Ihre lokalen Behörden, um zu erfahren, wie Sie helfen können",
+                        "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> Der idyllische Pazifikinselstaat Tuvalu ist vollständig überschwemmt. Seine 11.000 Einwohner haben alles verloren und benötigen Hilfe. Nehmen Sie Kontakt mit den örtlichen Behörden auf, um zu erfahren, wie Sie helfen können"
+                    ],
+                    "_azure/gpt-4-vision_en": "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"><br>The Pacific island nation of Tuvalu is completely flooded. The 11,000 inhabitants have lost everything and are in need of assistance. Contact your local authorities to find out how you can help.",
+                    "_gcp/gemini-1.5-pro_en": "<img width=250  src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"><br> The Pacific island nation of Tuvalu is completely flooded. Its 11,000 inhabitants have lost everything and are in need of rescue. Reach out to your local authorities to learn how you can help. \n",
+                    "_compare_azure/gpt-4-vision_en": "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> The Pacific island nation of Tuvalu is completely flooded. The 11,000 inhabitants have lost everything and are in need of assistance. Contact your local authorities to find out how you can help",
+                    "_compare_gcp/gemini-1.5-pro_en": "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> The Pacific island nation of Tuvalu is completely flooded. The 11,000 inhabitants have lost everything and are in need of assistance. Contact your local authorities to find out how you can help",
+                    "_compare_aws/claude-3.5-sonnet_en": "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> The Pacific island nation of Tuvalu is completely flooded. The 11,000 inhabitants have lost everything and are in need of assistance. Contact your local authorities to find out how you can help",
+                    "_unique_translations_back_en": [
+                        "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> Der pazifische Inselstaat Tuvalu ist vollständig überflutet. Seine 11.000 Einwohner haben alles verloren und benötigen Rettung. Wenden Sie sich an Ihre lokalen Behörden, um zu erfahren, wie Sie helfen können",
+                        "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> Der pazifische Inselstaat Tuvalu ist vollständig überflutet. Die 11.000 Einwohner haben alles verloren und benötigen Hilfe. Wenden Sie sich an Ihre lokalen Behörden, um herauszufinden, wie Sie helfen können"
+                    ],
+                    "_azure/gpt-4-vision_es": "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"><br>El estado insular del Pacífico de Tuvalu está completamente inundado. Sus 11.000 habitantes lo han perdido todo y dependen de la ayuda. Póngase en contacto con sus autoridades locales para saber cómo puede ayudar.",
+                    "_gcp/gemini-1.5-pro_es": "<img width=250  src=https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg><br>La nación insular de Tuvalu, en el Pacífico, está completamente inundada. Sus 11.000 habitantes lo han perdido todo y necesitan ayuda. Póngase en contacto con sus autoridades locales para saber cómo puede ayudar.\n",
+                    "_compare_azure/gpt-4-vision_es": "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> El estado insular del Pacífico de Tuvalu está completamente inundado. Sus 11.000 habitantes lo han perdido todo y dependen de la ayuda. Póngase en contacto con sus autoridades locales para saber cómo puede ayudar",
+                    "_compare_gcp/gemini-1.5-pro_es": "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> El estado insular del Pacífico de Tuvalu está completamente inundado. Sus 11.000 habitantes lo han perdido todo y dependen de la ayuda. Póngase en contacto con sus autoridades locales para saber cómo puede ayudar",
+                    "_compare_aws/claude-3.5-sonnet_es": "<img width=250 src=https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg> La nación insular de Tuvalu, en el Pacífico, está completamente inundada. Sus 11.000 habitantes lo han perdido todo y necesitan ayuda. Póngase en contacto con sus autoridades locales para saber cómo puede ayudar",
+                    "_unique_translations_back_es": [
+                        "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> Der pazifische Inselstaat Tuvalu ist komplett überflutet. Seine 11.000 Einwohner haben alles verloren und sind auf Hilfe angewiesen. Wenden Sie sich an Ihre lokalen Behörden, um zu erfahren, wie Sie helfen können",
+                        "<img width=250 src=https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg> Der pazifische Inselstaat Tuvalu ist vollständig überflutet. Seine 11.000 Einwohner haben alles verloren und benötigen Hilfe. Wenden Sie sich an Ihre örtlichen Behörden, um zu erfahren, wie Sie helfen können"
+                    ],
+                    "_azure/gpt-4-vision_et": "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"><br>Vaikse ookeani saareriik Tuvalu on täielikult üle ujutatud. Selle 11 000 elanikku on kõik kaotanud ja vajavad abi. Pöörduge kohalike ametivõimude poole, et teada saada, kuidas te saate aidata.",
+                    "_gcp/gemini-1.5-pro_et": "<img width=250  src=https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg><br>Vaikse ookeani saareriik Tuvalu on täielikult vee all. Selle 11 000 elanikku on kaotanud kõik ja vajavad abi. Pöörduge oma kohaliku omavalitsuse poole, et teada saada, kuidas saate aidata.\n",
+                    "_compare_azure/gpt-4-vision_et": "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> Vaikse ookeani saareriik Tuvalu on täielikult üle ujutatud. Selle 11 000 elanikku on kõik kaotanud ja vajavad abi. Pöörduge kohalike ametivõimude poole, et teada saada, kuidas te saate aidata",
+                    "_compare_gcp/gemini-1.5-pro_et": "<img width=250 src=https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg> Vaikse ookeani saareriik Tuvalu on täielikult vee all. Selle 11 000 elanikku on kaotanud kõik ja vajavad abi. Pöörduge oma kohaliku omavalitsuse poole, et teada saada, kuidas saate aidata",
+                    "_compare_aws/claude-3.5-sonnet_et": "<img width=250 src=https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg> Vaikse ookeani saareriik Tuvalu on täielikult vee all. Selle 11 000 elanikku on kaotanud kõik ja vajavad abi. Pöörduge oma kohaliku omavalitsuse poole, et teada saada, kuidas saate aidata",
+                    "_unique_translations_back_et": [
+                        "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> Der pazifische Inselstaat Tuvalu ist vollständig überschwemmt. Seine 11.000 Einwohner haben alles verloren und benötigen Hilfe. Wenden Sie sich an Ihre lokalen Behörden, um zu erfahren, wie Sie helfen können",
+                        "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> Der pazifische Inselstaat Tuvalu ist vollständig überschwemmt. Seine 11.000 Einwohner haben alles verloren und benötigen Hilfe. Wenden Sie sich an Ihre lokalen Behörden, um zu erfahren, wie Sie helfen können"
+                    ],
+                    "_azure/gpt-4-vision_fi": "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"><br>Tyynenmeren saarivaltio Tuvalu on täysin tulvinut. Sen 11 000 asukasta ovat menettäneet kaiken ja tarvitsevat apua. Ota yhteyttä paikallisiin viranomaisiisi saadaksesi tietoa siitä, miten voit auttaa.",
+                    "_gcp/gemini-1.5-pro_fi": "<img width=250  src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"><br>Tyynenmeren saarivaltio Tuvalu on kokonaan veden peitossa. Sen 11 000 asukasta ovat menettäneet kotinsa ja omaisuutensa ja tarvitsevat apua. Ota yhteyttä paikallisiin viranomaisiin saadaksesi lisätietoja avustustoimista. \n",
+                    "_compare_azure/gpt-4-vision_fi": "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> Tyynenmeren saarivaltio Tuvalu on täysin tulvinut. Sen 11 000 asukasta ovat menettäneet kaiken ja tarvitsevat apua. Ota yhteyttä paikallisiin viranomaisiisi saadaksesi tietoa siitä, miten voit auttaa",
+                    "_compare_gcp/gemini-1.5-pro_fi": "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> Tyynenmeren saarivaltio Tuvalu on täysin tulvinut. Sen 11 000 asukasta ovat menettäneet kaiken ja tarvitsevat apua. Ota yhteyttä paikallisiin viranomaisiisi saadaksesi tietoa siitä, miten voit auttaa",
+                    "_compare_aws/claude-3.5-sonnet_fi": "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> Tyynenmeren saarivaltio Tuvalu on täysin tulvinut. Sen 11 000 asukasta ovat menettäneet kaiken ja tarvitsevat apua. Ota yhteyttä paikallisiin viranomaisiisi saadaksesi tietoa siitä, miten voit auttaa",
+                    "_unique_translations_back_fi": [
+                        "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> Der pazifische Inselstaat Tuvalu ist vollständig überflutet. Seine 11.000 Einwohner haben alles verloren und benötigen Hilfe. Wenden Sie sich an Ihre lokalen Behörden, um zu erfahren, wie Sie helfen können",
+                        "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> Der pazifische Inselstaat Tuvalu steht vollständig unter Wasser. Seine 11.000 Einwohner haben ihre Heimat und ihr Eigentum verloren und benötigen Hilfe. Setzen Sie sich mit den örtlichen Behörden in Verbindung, um weitere Informationen über Hilfsmaßnahmen zu erhalten"
+                    ],
+                    "_azure/gpt-4-vision_fr": "<img width=250 src=https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg><br>La nation insulaire du Pacifique de Tuvalu est complètement inondée. Ses 11 000 habitants ont tout perdu et ont besoin daide. Contactez les autorités locales pour savoir comment vous pouvez aider.",
+                    "_gcp/gemini-1.5-pro_fr": "<img width=250  src=https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg><br> La nation insulaire de Tuvalu, dans le Pacifique, est complètement inondée. Ses 11 000 habitants ont tout perdu et ont besoin daide. Contactez vos autorités locales pour savoir comment vous pouvez aider. \n",
+                    "_compare_azure/gpt-4-vision_fr": "<img width=250 src=https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg> La nation insulaire du Pacifique de Tuvalu est complètement inondée. Ses 11 000 habitants ont tout perdu et ont besoin daide. Contactez les autorités locales pour savoir comment vous pouvez aider",
+                    "_compare_gcp/gemini-1.5-pro_fr": "<img width=250 src=https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg> La nation insulaire de Tuvalu, dans le Pacifique, est complètement inondée. Ses 11 000 habitants ont tout perdu et ont besoin daide. Contactez vos autorités locales pour savoir comment vous pouvez aider",
+                    "_compare_aws/claude-3.5-sonnet_fr": "<img width=250 src=https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg> La nation insulaire de Tuvalu, dans le Pacifique, est complètement inondée. Ses 11 000 habitants ont tout perdu et ont besoin daide. Contactez vos autorités locales pour savoir comment vous pouvez aider",
+                    "_unique_translations_back_fr": [
+                        "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> Der pazifische Inselstaat Tuvalu ist vollständig überflutet. Seine 11.000 Einwohner haben alles verloren und benötigen Hilfe. Wenden Sie sich an Ihre lokalen Behörden, um zu erfahren, wie Sie helfen können",
+                        "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> Der pazifische Inselstaat Tuvalu ist vollständig überflutet. Seine 11.000 Einwohner haben alles verloren und benötigen Hilfe. Wenden Sie sich an Ihre lokalen Behörden, um zu erfahren, wie Sie helfen können"
+                    ],
+                    "_azure/gpt-4-vision_ga": "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"><br>Tá stát oileán an Aigéin Chiúin, Tuvalu, go hiomlán faoi uisce. Tá gach rud caillte ag an 11,000 cónaitheoir atá ann agus tá siad ag brath ar chabhair. Déan teagmháil le d'údaráis áitiúla le fáil amach conas is féidir leat cabhrú.",
+                    "_gcp/gemini-1.5-pro_ga": "<img width=250  src=https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg><br>Tá Tuvalu, an t-oileánra san Aigéan Ciúin, faoi uisce go hiomlán. Tá gach rud caillte ag a 11,000 áitritheoir agus tá siad ag brath ar chabhair. Téigh i dteagmháil le dúdaráis áitiúla le fáil amach conas is féidir leat cuidiú. \n",
+                    "_compare_azure/gpt-4-vision_ga": "<img width=250 src=https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg> Tá Tuvalu, an t-oileánra san Aigéan Ciúin, faoi uisce go hiomlán. Tá gach rud caillte ag a 11,000 áitritheoir agus tá siad ag brath ar chabhair. Téigh i dteagmháil le dúdaráis áitiúla le fáil amach conas is féidir leat cuidiú",
+                    "_compare_gcp/gemini-1.5-pro_ga": "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> Tá stát oileán an Aigéin Chiúin, Tuvalu, go hiomlán faoi uisce. Tá gach rud caillte ag an 11,000 cónaitheoir atá ann agus tá siad ag brath ar chabhair. Déan teagmháil le d'údaráis áitiúla le fáil amach conas is féidir leat cabhrú",
+                    "_compare_aws/claude-3.5-sonnet_ga": "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> Tá stát oileán an Aigéin Chiúin, Tuvalu, go hiomlán faoi uisce. Tá gach rud caillte ag an 11,000 cónaitheoir atá ann agus tá siad ag brath ar chabhair. Déan teagmháil le d'údaráis áitiúla le fáil amach conas is féidir leat cabhrú",
+                    "_unique_translations_back_ga": [
+                        "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> Der pazifische Inselstaat Tuvalu ist vollständig überschwemmt. Seine 11.000 Einwohner haben alles verloren und sind auf Hilfe angewiesen. Nehmen Sie Kontakt mit den örtlichen Behörden auf, um herauszufinden, wie Sie helfen können",
+                        "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> Der pazifische Inselstaat Tuvalu ist vollständig überflutet. Seine 11.000 Einwohner haben alles verloren und sind auf Hilfe angewiesen. Nehmen Sie Kontakt mit Ihren lokalen Behörden auf, um herauszufinden, wie Sie helfen können"
+                    ],
+                    "_azure/gpt-4-vision_hr": "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"><br>Tihooceanska otočna država Tuvalu je potpuno poplavljena. Njenih 11.000 stanovnika je izgubilo sve i ovisi o pomoći. Obratite se svojim lokalnim vlastima kako biste saznali kako možete pomoći.",
+                    "_gcp/gemini-1.5-pro_hr": "<img width=250  src=https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg><br>Pacifičku otočnu državu Tuvalu potpuno su preplavile poplave. Njenih 11.000 stanovnika izgubilo je sve i treba im pomoć. Obratite se lokalnim vlastima kako biste saznali kako možete pomoći.\n",
+                    "_compare_azure/gpt-4-vision_hr": "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> Tihooceanska otočna država Tuvalu je potpuno poplavljena. Njenih 11.000 stanovnika je izgubilo sve i ovisi o pomoći. Obratite se svojim lokalnim vlastima kako biste saznali kako možete pomoći",
+                    "_compare_gcp/gemini-1.5-pro_hr": "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> Tihooceanska otočna država Tuvalu je potpuno poplavljena. Njenih 11.000 stanovnika je izgubilo sve i ovisi o pomoći. Obratite se svojim lokalnim vlastima kako biste saznali kako možete pomoći",
+                    "_compare_aws/claude-3.5-sonnet_hr": "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> Tihooceanska otočna država Tuvalu je potpuno poplavljena. Njenih 11.000 stanovnika je izgubilo sve i ovisi o pomoći. Obratite se svojim lokalnim vlastima kako biste saznali kako možete pomoći",
+                    "_unique_translations_back_hr": [
+                        "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> Der pazifische Inselstaat Tuvalu ist vollständig überflutet. Seine 11.000 Einwohner haben alles verloren und sind auf Hilfe angewiesen. Wenden Sie sich an Ihre örtlichen Behörden, um zu erfahren, wie Sie helfen können",
+                        "<img width=250 src=https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg> Der pazifische Inselstaat Tuvalu ist vollständig überflutet. Seine 11.000 Einwohner haben alles verloren und benötigen Hilfe. Wenden Sie sich an Ihre örtlichen Behörden, um zu erfahren, wie Sie helfen können"
+                    ],
+                    "_azure/gpt-4-vision_hu": "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"><br>A Csendes-óceáni szigetország, Tuvalu teljesen elárasztva. A 11 000 lakos mindent elveszített és segítségre szorul. Forduljon a helyi hatóságokhoz, hogy megtudja, hogyan segíthet.",
+                    "_gcp/gemini-1.5-pro_hu": "<img width=250  src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"><br>A csendes-óceáni Tuvalu szigetállam teljesen víz alá került. A 11 000 lakos mindenét elvesztette, és segítségre szorul. Forduljon a helyi hatóságokhoz, hogy megtudja, hogyan segíthet. \n",
+                    "_compare_azure/gpt-4-vision_hu": "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> A Csendes-óceáni szigetország, Tuvalu teljesen elárasztva. A 11 000 lakos mindent elveszített és segítségre szorul. Forduljon a helyi hatóságokhoz, hogy megtudja, hogyan segíthet",
+                    "_compare_gcp/gemini-1.5-pro_hu": "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> A csendes-óceáni Tuvalu szigetállam teljesen víz alá került. A 11 000 lakos mindenét elvesztette, és segítségre szorul. Forduljon a helyi hatóságokhoz, hogy megtudja, hogyan segíthet",
+                    "_compare_aws/claude-3.5-sonnet_hu": "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> A csendes-óceáni Tuvalu szigetállam teljesen víz alá került. A 11 000 lakos mindenét elvesztette, és segítségre szorul. Forduljon a helyi hatóságokhoz, hogy megtudja, hogyan segíthet",
+                    "_unique_translations_back_hu": [
+                        "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> Der pazifische Inselstaat Tuvalu ist vollständig überflutet. Die 11.000 Einwohner haben alles verloren und benötigen Hilfe. Wenden Sie sich an Ihre örtlichen Behörden, um zu erfahren, wie Sie helfen können",
+                        "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> Der pazifische Inselstaat Tuvalu ist vollständig überflutet. Die 11.000 Einwohner haben alles verloren und benötigen Hilfe. Wenden Sie sich an Ihre örtlichen Behörden, um zu erfahren, wie Sie helfen können"
+                    ],
+                    "_azure/gpt-4-vision_id": "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"><br>Negara kepulauan Pasifik Tuvalu telah sepenuhnya terendam banjir. Sebanyak 11.000 penduduknya telah kehilangan segalanya dan membutuhkan bantuan. Hubungi otoritas lokal Anda untuk mengetahui bagaimana Anda dapat membantu.",
+                    "_gcp/gemini-1.5-pro_id": "<img width=250  src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"><br>Negara kepulauan Pasifik, Tuvalu, telah sepenuhnya tenggelam. 11.000 penduduknya telah kehilangan segalanya dan membutuhkan bantuan. Hubungi otoritas setempat Anda untuk mengetahui bagaimana Anda dapat membantu. \n",
+                    "_compare_azure/gpt-4-vision_id": "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> Negara kepulauan Pasifik Tuvalu telah sepenuhnya terendam banjir. Sebanyak 11.000 penduduknya telah kehilangan segalanya dan membutuhkan bantuan. Hubungi otoritas lokal Anda untuk mengetahui bagaimana Anda dapat membantu",
+                    "_compare_gcp/gemini-1.5-pro_id": "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> Negara kepulauan Pasifik Tuvalu telah sepenuhnya terendam banjir. Sebanyak 11.000 penduduknya telah kehilangan segalanya dan membutuhkan bantuan. Hubungi otoritas lokal Anda untuk mengetahui bagaimana Anda dapat membantu",
+                    "_compare_aws/claude-3.5-sonnet_id": "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> Negara kepulauan Pasifik Tuvalu telah sepenuhnya terendam banjir. Sebanyak 11.000 penduduknya telah kehilangan segalanya dan membutuhkan bantuan. Hubungi otoritas lokal Anda untuk mengetahui bagaimana Anda dapat membantu",
+                    "_unique_translations_back_id": [
+                        "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> Der pazifische Inselstaat Tuvalu ist vollständig überflutet. Seine 11.000 Einwohner haben alles verloren und benötigen Hilfe. Wenden Sie sich an Ihre lokalen Behörden, um zu erfahren, wie Sie helfen können",
+                        "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> Der pazifische Inselstaat Tuvalu ist vollständig überschwemmt. Seine 11.000 Einwohner haben alles verloren und benötigen Hilfe. Wenden Sie sich an Ihre lokalen Behörden, um zu erfahren, wie Sie helfen können"
+                    ],
+                    "_azure/gpt-4-vision_it": "<img width=250 src=https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg><br>Lo stato insulare del Pacifico di Tuvalu è completamente sommerso. I suoi 11.000 abitanti hanno perso tutto e hanno bisogno di aiuto. Rivolgetevi alle autorità locali per sapere come potete aiutare.",
+                    "_gcp/gemini-1.5-pro_it": "<img width=250  src=https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg><br>Lo stato insulare di Tuvalu, nel Pacifico, è completamente sommerso. I suoi 11.000 abitanti hanno perso tutto e hanno bisogno di aiuto. Contatta le autorità locali per sapere come puoi essere daiuto.",
+                    "_compare_azure/gpt-4-vision_it": "<img width=250 src=https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg> Lo stato insulare del Pacifico di Tuvalu è completamente sommerso. I suoi 11.000 abitanti hanno perso tutto e hanno bisogno di aiuto. Rivolgetevi alle autorità locali per sapere come potete aiutare",
+                    "_compare_gcp/gemini-1.5-pro_it": "<img width=250 src=https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg> Lo stato insulare del Pacifico di Tuvalu è completamente sommerso. I suoi 11.000 abitanti hanno perso tutto e hanno bisogno di aiuto. Rivolgetevi alle autorità locali per sapere come potete aiutare",
+                    "_compare_aws/claude-3.5-sonnet_it": "<img width=250 src=https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg> Lo stato insulare del Pacifico di Tuvalu è completamente sommerso. I suoi 11.000 abitanti hanno perso tutto e hanno bisogno di aiuto. Rivolgetevi alle autorità locali per sapere come potete aiutare",
+                    "_unique_translations_back_it": [
+                        "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> Der pazifische Inselstaat Tuvalu ist vollständig überflutet. Seine 11.000 Einwohner haben alles verloren und benötigen Hilfe. Wenden Sie sich an Ihre lokalen Behörden, um zu erfahren, wie Sie helfen können",
+                        "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> Der pazifische Inselstaat Tuvalu ist vollständig überschwemmt. Seine 11.000 Einwohner haben alles verloren und benötigen Hilfe. Wenden Sie sich an Ihre lokalen Behörden, um zu erfahren, wie Sie helfen können"
+                    ],
+                    "_azure/gpt-4-vision_ja": "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"><br>太平洋にある島国ツバルは完全に洪水によって浸水しました。11,000人の住民は全てを失い、支援を必要としています。どのように援助できるか、地元の当局に問い合わせてください。",
+                    "_gcp/gemini-1.5-pro_ja": "<img width=250  src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"><br>太平洋の島国ツバルは完全に水没しました。1万1000人の住民はすべてを失い、救助を必要としています。どのように支援できるかについては、地方自治体にお問い合わせください。 \n",
+                    "_compare_azure/gpt-4-vision_ja": "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> 太平洋の島国ツバルは完全に水没しました。1万1000人の住民はすべてを失い、救助を必要としています。どのように支援できるかについては、地方自治体にお問い合わせください。",
+                    "_compare_gcp/gemini-1.5-pro_ja": "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> 太平洋にある島国ツバルは完全に洪水によって浸水しました。11,000人の住民は全てを失い、支援を必要としています。どのように援助できるか、地元の当局に問い合わせてください。",
+                    "_compare_aws/claude-3.5-sonnet_ja": "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> 太平洋にある島国ツバルは完全に洪水によって浸水しました。11,000人の住民は全てを失い、支援を必要としています。どのように援助できるか、地元の当局に問い合わせてください。",
+                    "_unique_translations_back_ja": [
+                        "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> Der pazifische Inselstaat Tuvalu ist vollständig überflutet. Seine 11.000 Einwohner haben alles verloren und benötigen Rettung. Wenden Sie sich an Ihre örtlichen Behörden, um zu erfahren, wie Sie helfen können",
+                        "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> Der pazifische Inselstaat Tuvalu ist komplett überflutet. Seine 11.000 Einwohner haben alles verloren und benötigen Hilfe. Wenden Sie sich an Ihre lokalen Behörden, um zu erfahren, wie Sie helfen können"
+                    ],
+                    "_azure/gpt-4-vision_ko": "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"><br>태평양 섬나라 투발루가 완전히 침수되었습니다. 11,000명의 주민들이 모든 것을 잃었고 도움이 필요합니다. 도울 수 있는 방법을 알아보려면 지역 당국에 문의하십시오.",
+                    "_gcp/gemini-1.5-pro_ko": "<img width=250  src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"><br>태평양 섬나라 투발루가 완전히 침수되었습니다. 11,000명의 주민들은 모든 것을 잃고 구조가 필요한 상황입니다. 도움을 줄 수 있는 방법을 알아보려면 지역 당국에 문의하십시오. \n",
+                    "_compare_azure/gpt-4-vision_ko": "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> 태평양 섬나라 투발루가 완전히 침수되었습니다. 11,000명의 주민들은 모든 것을 잃고 구조가 필요한 상황입니다. 도움을 줄 수 있는 방법을 알아보려면 지역 당국에 문의하십시오",
+                    "_compare_gcp/gemini-1.5-pro_ko": "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> 태평양 섬나라 투발루가 완전히 침수되었습니다. 11,000명의 주민들은 모든 것을 잃고 구조가 필요한 상황입니다. 도움을 줄 수 있는 방법을 알아보려면 지역 당국에 문의하십시오",
+                    "_compare_aws/claude-3.5-sonnet_ko": "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> 태평양 섬나라 투발루가 완전히 침수되었습니다. 11,000명의 주민들이 모든 것을 잃었고 도움이 필요합니다. 도울 수 있는 방법을 알아보려면 지역 당국에 문의하십시오",
+                    "_unique_translations_back_ko": [
+                        "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> Der pazifische Inselstaat Tuvalu ist vollständig überflutet. Die 11.000 Einwohner haben alles verloren und benötigen Rettung. Wenden Sie sich an Ihre örtlichen Behörden, um zu erfahren, wie Sie helfen können",
+                        "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> Der pazifische Inselstaat Tuvalu ist vollständig überflutet. Seine 11.000 Einwohner haben alles verloren und benötigen Hilfe. Wenden Sie sich an Ihre lokalen Behörden, um zu erfahren, wie Sie helfen können"
+                    ],
+                    "_azure/gpt-4-vision_lv": "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"><br>Klusā okeāna salu valsts Tuvalu ir pilnībā applūdusi. Tās 11 000 iedzīvotāji ir zaudējuši visu un ir atkarīgi no palīdzības. Sazinieties ar savām vietējām iestādēm, lai uzzinātu, kā jūs varat palīdzēt.",
+                    "_gcp/gemini-1.5-pro_lv": "<img width=250  src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"><br>Klusā okeāna salu valsts Tuvalu ir pilnībā applūdusi. Tās 11 000 iedzīvotāju ir zaudējuši visu un viņiem ir nepieciešama palīdzība. Sazinieties ar vietējām varasiestādēm, lai uzzinātu, kā jūs varat palīdzēt. \n",
+                    "_compare_azure/gpt-4-vision_lv": "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> Klusā okeāna salu valsts Tuvalu ir pilnībā applūdusi. Tās 11 000 iedzīvotāji ir zaudējuši visu un ir atkarīgi no palīdzības. Sazinieties ar savām vietējām iestādēm, lai uzzinātu, kā jūs varat palīdzēt",
+                    "_compare_gcp/gemini-1.5-pro_lv": "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> Klusā okeāna salu valsts Tuvalu ir pilnībā applūdusi. Tās 11 000 iedzīvotāji ir zaudējuši visu un ir atkarīgi no palīdzības. Sazinieties ar savām vietējām iestādēm, lai uzzinātu, kā jūs varat palīdzēt",
+                    "_compare_aws/claude-3.5-sonnet_lv": "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> Klusā okeāna salu valsts Tuvalu ir pilnībā applūdusi. Tās 11 000 iedzīvotāju ir zaudējuši visu un viņiem ir nepieciešama palīdzība. Sazinieties ar vietējām varasiestādēm, lai uzzinātu, kā jūs varat palīdzēt",
+                    "_unique_translations_back_lv": [
+                        "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> Der pazifische Inselstaat Tuvalu ist vollständig überschwemmt. Seine 11.000 Einwohner haben alles verloren und sind auf Hilfe angewiesen. Wenden Sie sich an Ihre lokalen Behörden, um zu erfahren, wie Sie helfen können",
+                        "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> Der pazifische Inselstaat Tuvalu ist vollständig überschwemmt. Seine 11.000 Einwohner haben alles verloren und benötigen Hilfe. Wenden Sie sich an Ihre lokalen Behörden, um zu erfahren, wie Sie helfen können"
+                    ],
+                    "_azure/gpt-4-vision_lt": "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"><br>Ramiojo vandenyno salyno valstybė Tuvalu visiškai užlieta. Jos 11 000 gyventojų viską prarado ir jiems reikia pagalbos. Kreipkitės į savo vietos valdžios institucijas, kad sužinotumėte, kaip galite padėti.",
+                    "_gcp/gemini-1.5-pro_lt": "<img width=250  src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"><br> Ramiojo vandenyno salų valstybę Tuvalu visiškai užliejo vanduo. 11 000 gyventojų prarado viską ir jiems reikia pagalbos. Kreipkitės į vietos valdžios institucijas, kad sužinotumėte, kaip galite padėti. \n",
+                    "_compare_azure/gpt-4-vision_lt": "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> Ramiojo vandenyno salyno valstybė Tuvalu visiškai užlieta. Jos 11 000 gyventojų viską prarado ir jiems reikia pagalbos. Kreipkitės į savo vietos valdžios institucijas, kad sužinotumėte, kaip galite padėti",
+                    "_compare_gcp/gemini-1.5-pro_lt": "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> Ramiojo vandenyno salyno valstybė Tuvalu visiškai užlieta. Jos 11 000 gyventojų viską prarado ir jiems reikia pagalbos. Kreipkitės į savo vietos valdžios institucijas, kad sužinotumėte, kaip galite padėti",
+                    "_compare_aws/claude-3.5-sonnet_lt": "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> Ramiojo vandenyno salų valstybę Tuvalu visiškai užliejo vanduo. 11 000 gyventojų prarado viską ir jiems reikia pagalbos. Kreipkitės į vietos valdžios institucijas, kad sužinotumėte, kaip galite padėti",
+                    "_unique_translations_back_lt": [
+                        "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> Der pazifische Inselstaat Tuvalu ist vollständig überflutet. Seine 11.000 Einwohner haben alles verloren und benötigen Hilfe. Wenden Sie sich an Ihre lokalen Behörden, um zu erfahren, wie Sie helfen können",
+                        "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> Der pazifische Inselstaat Tuvalu ist vollständig überflutet. Seine 11.000 Einwohner haben alles verloren und benötigen Hilfe. Wenden Sie sich an Ihre lokalen Behörden, um zu erfahren, wie Sie helfen können"
+                    ],
+                    "_azure/gpt-4-vision_mt": "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"><br>L-istat tal-gżira tal-Paċifiku Tuvalu huwa kompletament mgħarraq. L-11,000 abitant tilfu kollox u jeħtieġu għajnuna. Ikkuntattja lill-awtoritajiet lokali tiegħek biex titgħallem kif tista' tgħin.",
+                    "_gcp/gemini-1.5-pro_mt": "<img width=250  src=https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg><br>Il-gżira-stat tal-Paċifiku ta Tuvalu hija mgħarrqa għalkollox. L-11,000 abitant tagħha tilfu kollox u għandhom bżonn l-għajnuna. Ikkuntattja lill-awtoritajiet lokali tiegħek biex issir taf kif tista tgħin.\n",
+                    "_compare_azure/gpt-4-vision_mt": "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> L-istat tal-gżira tal-Paċifiku Tuvalu huwa kompletament mgħarraq. L-11,000 abitant tilfu kollox u jeħtieġu għajnuna. Ikkuntattja lill-awtoritajiet lokali tiegħek biex titgħallem kif tista' tgħin",
+                    "_compare_gcp/gemini-1.5-pro_mt": "<img width=250 src=https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg> Il-gżira-stat tal-Paċifiku ta Tuvalu hija mgħarrqa għalkollox. L-11,000 abitant tagħha tilfu kollox u għandhom bżonn l-għajnuna. Ikkuntattja lill-awtoritajiet lokali tiegħek biex issir taf kif tista tgħin",
+                    "_compare_aws/claude-3.5-sonnet_mt": "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> L-istat tal-gżira tal-Paċifiku Tuvalu huwa kompletament mgħarraq. L-11,000 abitant tilfu kollox u jeħtieġu għajnuna. Ikkuntattja lill-awtoritajiet lokali tiegħek biex titgħallem kif tista' tgħin",
+                    "_unique_translations_back_mt": [
+                        "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> Der pazifische Inselstaat Tuvalu ist vollständig überschwemmt. Seine 11.000 Einwohner haben alles verloren und benötigen Hilfe. Wenden Sie sich an Ihre lokalen Behörden, um zu erfahren, wie Sie helfen können",
+                        "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> Der pazifische Inselstaat Tuvalu ist vollständig überschwemmt. Seine 11.000 Einwohner haben alles verloren und benötigen Hilfe. Wenden Sie sich an Ihre lokalen Behörden, um zu erfahren, wie Sie helfen können"
+                    ],
+                    "_azure/gpt-4-vision_nl": "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"><br>De Pacifische eilandstaat Tuvalu is volledig overstroomd. De 11.000 inwoners hebben alles verloren en zijn afhankelijk van hulp. Neem contact op met uw lokale autoriteiten om te weten te komen hoe u kunt helpen.",
+                    "_gcp/gemini-1.5-pro_nl": "<img width=250  src=https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg><br>De eilandstaat Tuvalu in de Stille Oceaan is volledig overstroomd. De 11.000 inwoners zijn alles kwijtgeraakt en hebben dringend hulp nodig. Neem contact op met uw lokale autoriteiten om te weten te komen hoe u kunt helpen.",
+                    "_compare_azure/gpt-4-vision_nl": "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> De Pacifische eilandstaat Tuvalu is volledig overstroomd. De 11.000 inwoners hebben alles verloren en zijn afhankelijk van hulp. Neem contact op met uw lokale autoriteiten om te weten te komen hoe u kunt helpen",
+                    "_compare_gcp/gemini-1.5-pro_nl": "<img width=250 src=https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg> De eilandstaat Tuvalu in de Stille Oceaan is volledig overstroomd. De 11.000 inwoners zijn alles kwijtgeraakt en hebben dringend hulp nodig. Neem contact op met uw lokale autoriteiten om te weten te komen hoe u kunt helpen",
+                    "_compare_aws/claude-3.5-sonnet_nl": "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> De Pacifische eilandstaat Tuvalu is volledig overstroomd. De 11.000 inwoners hebben alles verloren en zijn afhankelijk van hulp. Neem contact op met uw lokale autoriteiten om te weten te komen hoe u kunt helpen",
+                    "_unique_translations_back_nl": [
+                        "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> Der pazifische Inselstaat Tuvalu ist vollständig überschwemmt. Die 11.000 Einwohner haben alles verloren und sind auf Hilfe angewiesen. Nehmen Sie Kontakt mit Ihren lokalen Behörden auf, um herauszufinden, wie Sie helfen können",
+                        "<img width=250 src=https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg> Der pazifische Inselstaat Tuvalu ist komplett überflutet. Seine 11.000 Einwohner haben alles verloren und benötigen dringend Hilfe. Wenden Sie sich an Ihre lokalen Behörden, um zu erfahren, wie Sie helfen können"
+                    ],
+                    "_azure/gpt-4-vision_pl": "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"><br>Państwo wyspiarskie Tuvalu na Pacyfiku jest całkowicie zalane. Jego 11 000 mieszkańców straciło wszystko i potrzebuje pomocy. Skontaktuj się z lokalnymi władzami, aby dowiedzieć się, jak możesz pomóc.",
+                    "_gcp/gemini-1.5-pro_pl": "<img width=250  src=https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg><br>Wyspiarskie państwo Tuvalu na Pacyfiku zostało całkowicie zalane. 11 000 mieszkańców straciło wszystko i potrzebuje pomocy. Skontaktuj się z lokalnymi władzami, aby dowiedzieć się, jak możesz pomóc.",
+                    "_compare_azure/gpt-4-vision_pl": "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> Państwo wyspiarskie Tuvalu na Pacyfiku jest całkowicie zalane. Jego 11 000 mieszkańców straciło wszystko i potrzebuje pomocy. Skontaktuj się z lokalnymi władzami, aby dowiedzieć się, jak możesz pomóc",
+                    "_compare_gcp/gemini-1.5-pro_pl": "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> Państwo wyspiarskie Tuvalu na Pacyfiku jest całkowicie zalane. Jego 11 000 mieszkańców straciło wszystko i potrzebuje pomocy. Skontaktuj się z lokalnymi władzami, aby dowiedzieć się, jak możesz pomóc",
+                    "_compare_aws/claude-3.5-sonnet_pl": "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> Państwo wyspiarskie Tuvalu na Pacyfiku jest całkowicie zalane. Jego 11 000 mieszkańców straciło wszystko i potrzebuje pomocy. Skontaktuj się z lokalnymi władzami, aby dowiedzieć się, jak możesz pomóc",
+                    "_unique_translations_back_pl": [
+                        "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> Der pazifische Inselstaat Tuvalu ist vollständig überflutet. Seine 11.000 Einwohner haben alles verloren und benötigen Hilfe. Wenden Sie sich an Ihre lokalen Behörden, um zu erfahren, wie Sie helfen können",
+                        "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> Der pazifische Inselstaat Tuvalu ist vollständig überflutet. Seine 11.000 Einwohner haben alles verloren und benötigen Hilfe. Wenden Sie sich an Ihre lokalen Behörden, um zu erfahren, wie Sie helfen können"
+                    ],
+                    "_azure/gpt-4-vision_ro": "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"><br>Statul insular din Pacific, Tuvalu, este complet inundat. Cei 11.000 de locuitori și-au pierdut totul și au nevoie de ajutor. Adresați-vă autorităților locale pentru a afla cum puteți ajuta.",
+                    "_gcp/gemini-1.5-pro_ro": "<img width=250  src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"><br>Statul insular Tuvalu din Pacific a fost complet inundat. Cei 11.000 de locuitori au pierdut totul și au nevoie de ajutor. Adresați-vă autorităților locale pentru a afla cum puteți ajuta. \n",
+                    "_compare_azure/gpt-4-vision_ro": "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> Statul insular din Pacific, Tuvalu, este complet inundat. Cei 11.000 de locuitori și-au pierdut totul și au nevoie de ajutor. Adresați-vă autorităților locale pentru a afla cum puteți ajuta",
+                    "_compare_gcp/gemini-1.5-pro_ro": "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> Statul insular din Pacific, Tuvalu, este complet inundat. Cei 11.000 de locuitori și-au pierdut totul și au nevoie de ajutor. Adresați-vă autorităților locale pentru a afla cum puteți ajuta",
+                    "_compare_aws/claude-3.5-sonnet_ro": "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> Statul insular Tuvalu din Pacific a fost complet inundat. Cei 11.000 de locuitori au pierdut totul și au nevoie de ajutor. Adresați-vă autorităților locale pentru a afla cum puteți ajuta",
+                    "_unique_translations_back_ro": [
+                        "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> Der pazifische Inselstaat Tuvalu ist vollständig überflutet. Seine 11.000 Einwohner haben alles verloren und benötigen Hilfe. Wenden Sie sich an Ihre lokalen Behörden, um zu erfahren, wie Sie helfen können",
+                        "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> Der pazifische Inselstaat Tuvalu ist vollständig überflutet. Seine 11.000 Einwohner haben alles verloren und benötigen Hilfe. Wenden Sie sich an Ihre lokalen Behörden, um zu erfahren, wie Sie helfen können"
+                    ],
+                    "_azure/gpt-4-vision_ru": "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"><br>Тихоокеанское островное государство Тувалу полностью затоплено. Его 11 000 жителей потеряли все и нуждаются в помощи. Обратитесь в местные органы власти, чтобы узнать, как вы можете помочь.",
+                    "_gcp/gemini-1.5-pro_ru": "<img width=250  src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"><br>Тихоокеанское островное государство Тувалу полностью затоплено. 11 000 его жителей потеряли всё и нуждаются в помощи. Обратитесь к местным властям, чтобы узнать, как вы можете помочь. \n",
+                    "_compare_azure/gpt-4-vision_ru": "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> Тихоокеанское островное государство Тувалу полностью затоплено. Его 11 000 жителей потеряли все и нуждаются в помощи. Обратитесь в местные органы власти, чтобы узнать, как вы можете помочь",
+                    "_compare_gcp/gemini-1.5-pro_ru": "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> Тихоокеанское островное государство Тувалу полностью затоплено. Его 11 000 жителей потеряли все и нуждаются в помощи. Обратитесь в местные органы власти, чтобы узнать, как вы можете помочь",
+                    "_compare_aws/claude-3.5-sonnet_ru": "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> Тихоокеанское островное государство Тувалу полностью затоплено. Его 11 000 жителей потеряли все и нуждаются в помощи. Обратитесь в местные органы власти, чтобы узнать, как вы можете помочь",
+                    "_unique_translations_back_ru": [
+                        "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> Der pazifische Inselstaat Tuvalu ist vollständig überflutet. Seine 11.000 Einwohner haben alles verloren und benötigen Hilfe. Wenden Sie sich an Ihre lokalen Behörden, um zu erfahren, wie Sie helfen können",
+                        "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> Der pazifische Inselstaat Tuvalu ist vollständig überflutet. Seine 11.000 Einwohner haben alles verloren und benötigen Hilfe. Wenden Sie sich an Ihre lokalen Behörden, um zu erfahren, wie Sie helfen können"
+                    ],
+                    "_azure/gpt-4-vision_sk": "<img width=250 src=https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg><br>Tichomorský ostrovný štát Tuvalu je úplne zaplavený. Jeho 11 000 obyvateľov prišlo o všetko a sú odkázaní na pomoc. Obráťte sa na svoje miestne orgány, aby ste sa dozvedeli, ako môžete pomôcť.",
+                    "_gcp/gemini-1.5-pro_sk": "<img width=250  src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"><br>Tichomorský ostrovný štát Tuvalu je úplne zaplavený. Jeho 11 000 obyvateľov stratilo všetko a potrebuje pomoc. Obráťte sa na miestne úrady a zistite, ako môžete pomôcť. \n",
+                    "_compare_azure/gpt-4-vision_sk": "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> Tichomorský ostrovný štát Tuvalu je úplne zaplavený. Jeho 11 000 obyvateľov stratilo všetko a potrebuje pomoc. Obráťte sa na miestne úrady a zistite, ako môžete pomôcť",
+                    "_compare_gcp/gemini-1.5-pro_sk": "<img width=250 src=https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg> Tichomorský ostrovný štát Tuvalu je úplne zaplavený. Jeho 11 000 obyvateľov prišlo o všetko a sú odkázaní na pomoc. Obráťte sa na svoje miestne orgány, aby ste sa dozvedeli, ako môžete pomôcť",
+                    "_compare_aws/claude-3.5-sonnet_sk": "<img width=250 src=https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg> Tichomorský ostrovný štát Tuvalu je úplne zaplavený. Jeho 11 000 obyvateľov prišlo o všetko a sú odkázaní na pomoc. Obráťte sa na svoje miestne orgány, aby ste sa dozvedeli, ako môžete pomôcť",
+                    "_unique_translations_back_sk": [
+                        "<img width=250 src=\\https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\\> Der pazifische Inselstaat Tuvalu ist vollständig überflutet. Seine 11.000 Einwohner haben alles verloren und benötigen Hilfe. Wenden Sie sich an Ihre lokalen Behörden, um zu erfahren, wie Sie helfen können",
+                        "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> Der pazifische Inselstaat Tuvalu ist vollständig überschwemmt. Seine 11.000 Einwohner haben alles verloren und sind auf Hilfe angewiesen. Wenden Sie sich an Ihre lokalen Behörden, um herauszufinden, wie Sie helfen können"
+                    ],
+                    "_azure/gpt-4-vision_sl": "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"><br>Tihomorska otoška država Tuvalu je popolnoma poplavljena. Njenih 11.000 prebivalcev je izgubilo vse in potrebuje pomoč. Obrnite se na svoje lokalne oblasti, da izveste, kako lahko pomagate.",
+                    "_gcp/gemini-1.5-pro_sl": "<img width=250  src=https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg><br>Pacifiški otoški narod Tuvalu je popolnoma poplavljen. Vseh 11.000 prebivalcev je izgubilo vse in potrebuje pomoč. Obrnite se na lokalne oblasti, da se pozanimate, kako lahko pomagate.\n",
+                    "_compare_azure/gpt-4-vision_sl": "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> Tihomorska otoška država Tuvalu je popolnoma poplavljena. Njenih 11.000 prebivalcev je izgubilo vse in potrebuje pomoč. Obrnite se na svoje lokalne oblasti, da izveste, kako lahko pomagate",
+                    "_compare_gcp/gemini-1.5-pro_sl": "<img width=250 src=https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg> Pacifiški otoški narod Tuvalu je popolnoma poplavljen. Vseh 11.000 prebivalcev je izgubilo vse in potrebuje pomoč. Obrnite se na lokalne oblasti, da se pozanimate, kako lahko pomagate",
+                    "_compare_aws/claude-3.5-sonnet_sl": "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> Tihomorska otoška država Tuvalu je popolnoma poplavljena. Njenih 11.000 prebivalcev je izgubilo vse in potrebuje pomoč. Obrnite se na svoje lokalne oblasti, da izveste, kako lahko pomagate",
+                    "_unique_translations_back_sl": [
+                        "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> Der pazifische Inselstaat Tuvalu ist vollständig überflutet. Seine 11.000 Einwohner haben alles verloren und benötigen Hilfe. Wenden Sie sich an Ihre örtlichen Behörden, um zu erfahren, wie Sie helfen können",
+                        "<img width=250 src=https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg> Der pazifische Inselstaat Tuvalu ist vollständig überflutet. Alle 11.000 Einwohner haben alles verloren und benötigen Hilfe. Wenden Sie sich an die lokalen Behörden, um zu erfahren, wie Sie helfen können"
+                    ],
+                    "_azure/gpt-4-vision_zh": "<img width=250 src=https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg><br>太平洋岛国图瓦卢已经完全被洪水淹没。11000名居民失去了一切，急需救援。请联系当地政府，了解您如何提供帮助。",
+                    "_gcp/gemini-1.5-pro_zh": "<img width=250  src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"><br>太平洋岛国图瓦卢已被完全淹没。1.1万居民失去了一切，急需救援。请联系您当地的政府部门，了解如何提供帮助。 \n",
+                    "_compare_azure/gpt-4-vision_zh": "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> 太平洋岛国图瓦卢已被完全淹没。1.1万居民失去了一切，急需救援。请联系您当地的政府部门，了解如何提供帮助。",
+                    "_compare_gcp/gemini-1.5-pro_zh": "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> 太平洋岛国图瓦卢已被完全淹没。1.1万居民失去了一切，急需救援。请联系您当地的政府部门，了解如何提供帮助。",
+                    "_compare_aws/claude-3.5-sonnet_zh": "<img width=250 src=https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg> 太平洋岛国图瓦卢已经完全被洪水淹没。11000名居民失去了一切，急需救援。请联系当地政府，了解您如何提供帮助。",
+                    "_unique_translations_back_zh": [
+                        "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> Der pazifische Inselstaat Tuvalu ist vollständig überflutet. Seine 11.000 Einwohner haben alles verloren und benötigen dringend Hilfe. Bitte setzen Sie sich mit den örtlichen Behörden in Verbindung, um zu erfahren, wie Sie helfen können",
+                        "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> Der pazifische Inselstaat Tuvalu ist vollständig überflutet. Seine 11.000 Einwohner haben alles verloren und benötigen dringend Hilfe. Bitte setzen Sie sich mit den örtlichen Behörden in Verbindung, um zu erfahren, wie Sie helfen können"
                     ]
                 }
             }

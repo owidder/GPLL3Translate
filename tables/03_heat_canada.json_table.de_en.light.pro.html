@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <style>
+        @page {
+            size: A4 landscape;
+        }
+    </style>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-family: verdana, serif;
+            font-size:12px;
+            border: 1px solid white;
+            transform: scale(0.3);
+            transform-origin: top left;
+        }
+        th, td {
+            border-bottom:3px solid white;
+            border-right:3px solid white;
+            padding: 15px;
+            text-align: left;
+        }
+        th {
+            background-color: darkgray;
+        }
+        td {
+            background-color: lightgray;
+        }
+        .endtd {
+            border-right: 3px solid darkgray;
+        }
+        .translate {
+            background-color: lightblue;
+        }
+        .back-translate {
+            background-color: lightgrey;
+        }
+        .winner {
+            background-color: lightpink;
+        }
+        .compare {
+            background-color: lightsteelblue;
+        }
+        .source {
+            background-color: palegoldenrod;
+        }
+        .empty {
+            background-color: lightgrey;
+        }
+        .sources {
+            font-weight: bold;
+            font-size: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>03_heat_canada.json</h1>
+    <table>
+        <thead>
+            <tr>
+                
+                    <th>source text</th>
+                
+                    <th>--- 0 ---</th>
+                
+                    <th></th>
+                
+                    <th>--- 1 ---</th>
+                
+                    <th></th>
+                
+                    <th>azure/gpt-4-vision</th>
+                
+                    <th>gcp/gemini-1.5-pro</th>
+                
+                    <th>aws/claude-3.5-sonnet</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            
+                <tr>
+                    <td class="endtd source">Extreme Hitze in Kanada fordert Todesopfer</td>
+
+
+                    <td class="winner"><span style = 'color: black;'>  Extreme</span> <span style = 'color: black;'>  heat</span> <span style = 'color: black;'>  in</span> <span style = 'color: black;'>  Canada</span> <span style = 'color: red; font-weight: bold;'> claims</span> <span style = 'color: red; font-weight: bold;'> lives</span><br><span class="sources">azure/gpt-4-vision</span></td>
+                    <td class="back-translate"><span style = 'color: black;'>  Extreme</span> <span style = 'color: black;'>  Hitze</span> <span style = 'color: black;'>  in</span> <span style = 'color: black;'>  Kanada</span> <span style = 'color: black;'>  fordert</span> <span style = 'color: red; font-weight: bold;'> Menschenleben</span></td>
+
+
+
+                    <td class="translate"><span style = 'color: black;'>  Extreme</span> <span style = 'color: black;'>  heat</span> <span style = 'color: black;'>  in</span> <span style = 'color: black;'>  Canada</span> <span style = 'color: red; font-weight: bold;'> causes</span> <span style = 'color: red; font-weight: bold;'> deaths</span><br><span class="sources">gcp/gemini-1.5-pro</span></td>
+                    <td class="back-translate"><span style = 'color: black;'>  Extreme</span> <span style = 'color: black;'>  Hitze</span> <span style = 'color: black;'>  in</span> <span style = 'color: black;'>  Kanada</span> <span style = 'color: red; font-weight: bold;'> verursacht</span> <span style = 'color: red; font-weight: bold;'> Todesfälle</span></td>
+
+
+
+                    <td class="compare">1</td>
+
+                    <td class="compare">2</td>
+
+                    <td class="compare">1</td>
+
+                </tr>
+            
+                <tr>
+                    <td class="endtd source"><img width=250  src="https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png"><br>Kanada misst erneut Rekordtemperaturen von knapp 50 Grad Celsius.<br>Nach wochenlangen Temperaturen weit oberhalb von 30 Grad wurden gestern in einigen Gebieten British-Columbias bis zu 49,2 Grad gemessen.<br>Nach Angaben der Behörden starben mehrere Hundert Menschen, die sich nicht mehr ausreichend kühlen konnten.</td>
+
+
+                    <td class="translate"><img src="https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png" width="250"/> <span style = 'color: black;'>  Canada</span> <span style = 'color: black;'>  is</span> <span style = 'color: red; font-weight: bold;'> once</span> <span style = 'color: black;'>  again</span> <span style = 'color: red; font-weight: bold;'> recording</span> <span style = 'color: black;'>  record</span> <span style = 'color: black;'>  temperatures</span> <span style = 'color: black;'>  of</span> <span style = 'color: red; font-weight: bold;'> just</span> <span style = 'color: red; font-weight: bold;'> under</span> <span style = 'color: black;'>  50</span> <span style = 'color: black;'>  degrees</span> <span style = 'color: black;'>  Celsius.</span> <span style = 'color: black;'>  After</span> <span style = 'color: black;'>  weeks</span> <span style = 'color: black;'>  of</span> <span style = 'color: black;'>  temperatures</span> <span style = 'color: red; font-weight: bold;'> far</span> <span style = 'color: black;'>  above</span> <span style = 'color: black;'>  30</span> <span style = 'color: black;'>  degrees,</span> <span style = 'color: black;'>  some</span> <span style = 'color: black;'>  areas</span> <span style = 'color: black;'>  of</span> <span style = 'color: black;'>  British</span> <span style = 'color: black;'>  Columbia</span> <span style = 'color: red; font-weight: bold;'> reached</span> <span style = 'color: red; font-weight: bold;'> up</span> <span style = 'color: red; font-weight: bold;'> to</span> <span style = 'color: black;'>  49.2</span> <span style = 'color: black;'>  degrees</span> <span style = 'color: black;'>  yesterday.</span> <span style = 'color: black;'>  According</span> <span style = 'color: black;'>  to</span> <span style = 'color: black;'>  authorities,</span> <span style = 'color: black;'>  several</span> <span style = 'color: black;'>  hundred</span> <span style = 'color: black;'>  people</span> <span style = 'color: black;'>  died</span> <span style = 'color: red; font-weight: bold;'> because</span> <span style = 'color: black;'>  they</span> <span style = 'color: red; font-weight: bold;'> could</span> <span style = 'color: red; font-weight: bold;'> not</span> <span style = 'color: black;'>  cool</span> <span style = 'color: black;'>  down</span> <span style = 'color: black;'>  sufficiently</span><br><span class="sources">azure/gpt-4-vision</span></td>
+                    <td class="back-translate"><img src="https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png" width="250"/> <span style = 'color: black;'>  Kanada</span> <span style = 'color: red; font-weight: bold;'> verzeichnet</span> <span style = 'color: black;'>  erneut</span> <span style = 'color: black;'>  Rekordtemperaturen</span> <span style = 'color: black;'>  von</span> <span style = 'color: black;'>  knapp</span> <span style = 'color: red; font-weight: bold;'> unter</span> <span style = 'color: black;'>  50</span> <span style = 'color: black;'>  Grad</span> <span style = 'color: black;'>  Celsius.</span> <span style = 'color: black;'>  Nach</span> <span style = 'color: red; font-weight: bold;'> Wochen</span> <span style = 'color: red; font-weight: bold;'> mit</span> <span style = 'color: black;'>  Temperaturen</span> <span style = 'color: black;'>  weit</span> <span style = 'color: red; font-weight: bold;'> über</span> <span style = 'color: black;'>  30</span> <span style = 'color: black;'>  Grad</span> <span style = 'color: black;'>  wurden</span> <span style = 'color: black;'>  gestern</span> <span style = 'color: black;'>  in</span> <span style = 'color: black;'>  einigen</span> <span style = 'color: black;'>  Gebieten</span> <span style = 'color: red; font-weight: bold;'> von</span> <span style = 'color: red; font-weight: bold;'> British</span> <span style = 'color: red; font-weight: bold;'> Columbia</span> <span style = 'color: black;'>  bis</span> <span style = 'color: black;'>  zu</span> <span style = 'color: black;'>  49,2</span> <span style = 'color: black;'>  Grad</span> <span style = 'color: black;'>  gemessen.</span> <span style = 'color: red; font-weight: bold;'> Laut</span> <span style = 'color: black;'>  Behörden</span> <span style = 'color: red; font-weight: bold;'> sind</span> <span style = 'color: black;'>  mehrere</span> <span style = 'color: red; font-weight: bold;'> hundert</span> <span style = 'color: red; font-weight: bold;'> Menschen</span> <span style = 'color: red; font-weight: bold;'> gestorben,</span> <span style = 'color: red; font-weight: bold;'> weil</span> <span style = 'color: red; font-weight: bold;'> sie</span> <span style = 'color: black;'>  sich</span> <span style = 'color: black;'>  nicht</span> <span style = 'color: black;'>  ausreichend</span> <span style = 'color: red; font-weight: bold;'> abkühlen</span> <span style = 'color: black;'>  konnten</span></td>
+
+
+
+                    <td class="winner"><img src="https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png" width="250"/> <span style = 'color: black;'>  Canada</span> <span style = 'color: black;'>  is</span> <span style = 'color: black;'>  again</span> <span style = 'color: red; font-weight: bold;'> measuring</span> <span style = 'color: black;'>  record</span> <span style = 'color: black;'>  temperatures</span> <span style = 'color: black;'>  of</span> <span style = 'color: red; font-weight: bold;'> nearly</span> <span style = 'color: black;'>  50</span> <span style = 'color: black;'>  degrees</span> <span style = 'color: black;'>  Celsius.</span> <span style = 'color: black;'>  After</span> <span style = 'color: black;'>  weeks</span> <span style = 'color: black;'>  of</span> <span style = 'color: black;'>  temperatures</span> <span style = 'color: red; font-weight: bold;'> well</span> <span style = 'color: black;'>  above</span> <span style = 'color: black;'>  30</span> <span style = 'color: black;'>  degrees,</span> <span style = 'color: black;'>  some</span> <span style = 'color: black;'>  areas</span> <span style = 'color: black;'>  of</span> <span style = 'color: black;'>  British</span> <span style = 'color: black;'>  Columbia</span> <span style = 'color: red; font-weight: bold;'> measured</span> <span style = 'color: red; font-weight: bold;'> as</span> <span style = 'color: red; font-weight: bold;'> high</span> <span style = 'color: red; font-weight: bold;'> as</span> <span style = 'color: black;'>  49.2</span> <span style = 'color: black;'>  degrees</span> <span style = 'color: black;'>  yesterday.</span> <span style = 'color: black;'>  According</span> <span style = 'color: black;'>  to</span> <span style = 'color: black;'>  authorities,</span> <span style = 'color: black;'>  several</span> <span style = 'color: black;'>  hundred</span> <span style = 'color: black;'>  people</span> <span style = 'color: black;'>  died</span> <span style = 'color: red; font-weight: bold;'> when</span> <span style = 'color: black;'>  they</span> <span style = 'color: red; font-weight: bold;'> were</span> <span style = 'color: red; font-weight: bold;'> unable</span> <span style = 'color: red; font-weight: bold;'> to</span> <span style = 'color: black;'>  cool</span> <span style = 'color: black;'>  down</span> <span style = 'color: black;'>  sufficiently</span><br><span class="sources">gcp/gemini-1.5-pro</span></td>
+                    <td class="back-translate"><img src="https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png" width="250"/> <span style = 'color: black;'>  Kanada</span> <span style = 'color: red; font-weight: bold;'> verzeichnet</span> <span style = 'color: black;'>  erneut</span> <span style = 'color: black;'>  Rekordtemperaturen</span> <span style = 'color: black;'>  von</span> <span style = 'color: red; font-weight: bold;'> fast</span> <span style = 'color: black;'>  50</span> <span style = 'color: black;'>  Grad</span> <span style = 'color: black;'>  Celsius.</span> <span style = 'color: black;'>  Nach</span> <span style = 'color: red; font-weight: bold;'> Wochen</span> <span style = 'color: red; font-weight: bold;'> mit</span> <span style = 'color: black;'>  Temperaturen</span> <span style = 'color: black;'>  weit</span> <span style = 'color: red; font-weight: bold;'> über</span> <span style = 'color: black;'>  30</span> <span style = 'color: black;'>  Grad</span> <span style = 'color: black;'>  wurden</span> <span style = 'color: black;'>  gestern</span> <span style = 'color: black;'>  in</span> <span style = 'color: black;'>  einigen</span> <span style = 'color: black;'>  Gebieten</span> <span style = 'color: red; font-weight: bold;'> von</span> <span style = 'color: red; font-weight: bold;'> British</span> <span style = 'color: red; font-weight: bold;'> Columbia</span> <span style = 'color: black;'>  bis</span> <span style = 'color: black;'>  zu</span> <span style = 'color: black;'>  49,2</span> <span style = 'color: black;'>  Grad</span> <span style = 'color: black;'>  gemessen.</span> <span style = 'color: red; font-weight: bold;'> Laut</span> <span style = 'color: black;'>  Behörden</span> <span style = 'color: red; font-weight: bold;'> sind</span> <span style = 'color: black;'>  mehrere</span> <span style = 'color: red; font-weight: bold;'> hundert</span> <span style = 'color: red; font-weight: bold;'> Menschen</span> <span style = 'color: red; font-weight: bold;'> gestorben,</span> <span style = 'color: red; font-weight: bold;'> weil</span> <span style = 'color: red; font-weight: bold;'> sie</span> <span style = 'color: black;'>  sich</span> <span style = 'color: black;'>  nicht</span> <span style = 'color: black;'>  ausreichend</span> <span style = 'color: red; font-weight: bold;'> abkühlen</span> <span style = 'color: black;'>  konnten</span></td>
+
+
+
+                    <td class="compare">2</td>
+
+                    <td class="compare">2</td>
+
+                    <td class="compare">2</td>
+
+                </tr>
+            
+        </tbody>
+    </table>
+</body>
+</html>

@@ -28,6 +28,246 @@
                     "_unique_translations_back_sv": [
                         "Überschwemmungsrisiko in Norddeutschland",
                         "Hochwassergefahr in Norddeutschland"
+                    ],
+                    "_azure/gpt-4-vision_ar": "مخاطر الفيضانات في شمال ألمانيا",
+                    "_gcp/gemini-1.5-pro_ar": "مخاطر الفيضانات في شمال ألمانيا\n",
+                    "_compare_azure/gpt-4-vision_ar": "مخاطر الفيضانات في شمال ألمانيا",
+                    "_compare_gcp/gemini-1.5-pro_ar": "مخاطر الفيضانات في شمال ألمانيا",
+                    "_compare_aws/claude-3.5-sonnet_ar": "مخاطر الفيضانات في شمال ألمانيا",
+                    "_unique_translations_back_ar": [
+                        "Hochwassergefahr in Norddeutschland"
+                    ],
+                    "_azure/gpt-4-vision_bg": "Риск от наводнения в Северна Германия",
+                    "_gcp/gemini-1.5-pro_bg": "Риск от наводнения в Северна Германия \n",
+                    "_compare_azure/gpt-4-vision_bg": "Риск от наводнения в Северна Германия",
+                    "_compare_gcp/gemini-1.5-pro_bg": "Риск от наводнения в Северна Германия",
+                    "_compare_aws/claude-3.5-sonnet_bg": "Риск от наводнения в Северна Германия",
+                    "_unique_translations_back_bg": [
+                        "Überschwemmungsrisiko in Norddeutschland"
+                    ],
+                    "_azure/gpt-4-vision_cs": "Riziko povodní v severním Německu",
+                    "_gcp/gemini-1.5-pro_cs": "Povodňové riziko v severním Německu \n",
+                    "_compare_azure/gpt-4-vision_cs": "Riziko povodní v severním Německu",
+                    "_compare_gcp/gemini-1.5-pro_cs": "Povodňové riziko v severním Německu",
+                    "_compare_aws/claude-3.5-sonnet_cs": "Povodňové riziko v severním Německu",
+                    "_unique_translations_back_cs": [
+                        "Hochwasserrisiko in Norddeutschland",
+                        "Hochwasserrisiko in Norddeutschland"
+                    ],
+                    "_azure/gpt-4-vision_da": "Oversvømmelsesrisiko i Nordtyskland",
+                    "_gcp/gemini-1.5-pro_da": "Oversvømmelsesfare i Nordtyskland \n",
+                    "_compare_azure/gpt-4-vision_da": "Oversvømmelsesrisiko i Nordtyskland",
+                    "_compare_gcp/gemini-1.5-pro_da": "Oversvømmelsesfare i Nordtyskland",
+                    "_compare_aws/claude-3.5-sonnet_da": "Oversvømmelsesfare i Nordtyskland",
+                    "_unique_translations_back_da": [
+                        "Überschwemmungsrisiko in Norddeutschland",
+                        "Überschwemmungsgefahr in Norddeutschland"
+                    ],
+                    "_azure/gpt-4-vision_de": "Flutgefahr in Norddeutschland",
+                    "_gcp/gemini-1.5-pro_de": "Flutgefahr in Norddeutschland \n",
+                    "_compare_azure/gpt-4-vision_de": "Flutgefahr in Norddeutschland",
+                    "_compare_gcp/gemini-1.5-pro_de": "Flutgefahr in Norddeutschland",
+                    "_compare_aws/claude-3.5-sonnet_de": "Flutgefahr in Norddeutschland",
+                    "_unique_translations_back_de": [
+                        "Flutgefahr in Norddeutschland"
+                    ],
+                    "_azure/gpt-4-vision_el": "Κίνδυνος πλημμυρών στη βόρεια Γερμανία",
+                    "_gcp/gemini-1.5-pro_el": "Κίνδυνος πλημμύρας στη Βόρεια Γερμανία \n",
+                    "_compare_azure/gpt-4-vision_el": "Κίνδυνος πλημμυρών στη βόρεια Γερμανία",
+                    "_compare_gcp/gemini-1.5-pro_el": "Κίνδυνος πλημμυρών στη βόρεια Γερμανία",
+                    "_compare_aws/claude-3.5-sonnet_el": "Κίνδυνος πλημμύρας στη Βόρεια Γερμανία",
+                    "_unique_translations_back_el": [
+                        "Hochwasserrisiko in Norddeutschland",
+                        "Hochwassergefahr in Norddeutschland"
+                    ],
+                    "_azure/gpt-4-vision_en": "Flood risks in northern Germany",
+                    "_gcp/gemini-1.5-pro_en": "Flood risk in northern Germany \n",
+                    "_compare_azure/gpt-4-vision_en": "Flood risks in northern Germany",
+                    "_compare_gcp/gemini-1.5-pro_en": "Flood risks in northern Germany",
+                    "_compare_aws/claude-3.5-sonnet_en": "Flood risks in northern Germany",
+                    "_unique_translations_back_en": [
+                        "Hochwasserrisiken in Norddeutschland",
+                        "Überschwemmungsrisiko in Norddeutschland"
+                    ],
+                    "_azure/gpt-4-vision_es": "Riesgo de inundaciones en el norte de Alemania",
+                    "_gcp/gemini-1.5-pro_es": "Riesgo de inundaciones en el norte de Alemania",
+                    "_compare_azure/gpt-4-vision_es": "Riesgo de inundaciones en el norte de Alemania",
+                    "_compare_gcp/gemini-1.5-pro_es": "Riesgo de inundaciones en el norte de Alemania",
+                    "_compare_aws/claude-3.5-sonnet_es": "Riesgo de inundaciones en el norte de Alemania",
+                    "_unique_translations_back_es": [
+                        "Überschwemmungsrisiko in Norddeutschland"
+                    ],
+                    "_azure/gpt-4-vision_et": "Üleujutusoht Põhja-Saksamaal",
+                    "_gcp/gemini-1.5-pro_et": "Üleujutusoht Põhja-Saksamaal \n",
+                    "_compare_azure/gpt-4-vision_et": "Üleujutusoht Põhja-Saksamaal",
+                    "_compare_gcp/gemini-1.5-pro_et": "Üleujutusoht Põhja-Saksamaal",
+                    "_compare_aws/claude-3.5-sonnet_et": "Üleujutusoht Põhja-Saksamaal",
+                    "_unique_translations_back_et": [
+                        "Hochwassergefahr in Norddeutschland"
+                    ],
+                    "_azure/gpt-4-vision_fi": "Tulvariski Pohjois-Saksassa",
+                    "_gcp/gemini-1.5-pro_fi": "Tulvariski Pohjois-Saksassa \n",
+                    "_compare_azure/gpt-4-vision_fi": "Tulvariski Pohjois-Saksassa",
+                    "_compare_gcp/gemini-1.5-pro_fi": "Tulvariski Pohjois-Saksassa",
+                    "_compare_aws/claude-3.5-sonnet_fi": "Tulvariski Pohjois-Saksassa",
+                    "_unique_translations_back_fi": [
+                        "Hochwasserrisiko in Norddeutschland"
+                    ],
+                    "_azure/gpt-4-vision_fr": "Risques d'inondation dans le nord de l'Allemagne",
+                    "_gcp/gemini-1.5-pro_fr": "Risques d'inondation dans le nord de l'Allemagne \n",
+                    "_compare_azure/gpt-4-vision_fr": "Risques d'inondation dans le nord de l'Allemagne",
+                    "_compare_gcp/gemini-1.5-pro_fr": "Risques d'inondation dans le nord de l'Allemagne",
+                    "_compare_aws/claude-3.5-sonnet_fr": "Risques d'inondation dans le nord de l'Allemagne",
+                    "_unique_translations_back_fr": [
+                        "Hochwassergefahr in Norddeutschland"
+                    ],
+                    "_azure/gpt-4-vision_ga": "Baol tuile i dtuaisceart na Gearmáine",
+                    "_gcp/gemini-1.5-pro_ga": "Baol tuilte i dtuaisceart na Gearmáine \n",
+                    "_compare_azure/gpt-4-vision_ga": "Baol tuile i dtuaisceart na Gearmáine",
+                    "_compare_gcp/gemini-1.5-pro_ga": "Baol tuile i dtuaisceart na Gearmáine",
+                    "_compare_aws/claude-3.5-sonnet_ga": "Baol tuile i dtuaisceart na Gearmáine",
+                    "_unique_translations_back_ga": [
+                        "Überschwemmungsrisiko in Norddeutschland",
+                        "Überschwemmungsrisiko in Norddeutschland"
+                    ],
+                    "_azure/gpt-4-vision_hr": "Rizik od poplava u sjevernoj Njemačkoj",
+                    "_gcp/gemini-1.5-pro_hr": "Opasnost od poplava u sjevernoj Njemačkoj \n",
+                    "_compare_azure/gpt-4-vision_hr": "Rizik od poplava u sjevernoj Njemačkoj",
+                    "_compare_gcp/gemini-1.5-pro_hr": "Opasnost od poplava u sjevernoj Njemačkoj",
+                    "_compare_aws/claude-3.5-sonnet_hr": "Opasnost od poplava u sjevernoj Njemačkoj",
+                    "_unique_translations_back_hr": [
+                        "Hochwasserrisiko in Norddeutschland",
+                        "Hochwassergefahr in Norddeutschland"
+                    ],
+                    "_azure/gpt-4-vision_hu": "Árvízveszély Észak-Németországban",
+                    "_gcp/gemini-1.5-pro_hu": "Árvízveszély Észak-Németországban \n",
+                    "_compare_azure/gpt-4-vision_hu": "Árvízveszély Észak-Németországban",
+                    "_compare_gcp/gemini-1.5-pro_hu": "Árvízveszély Észak-Németországban",
+                    "_compare_aws/claude-3.5-sonnet_hu": "Árvízveszély Észak-Németországban",
+                    "_unique_translations_back_hu": [
+                        "Hochwassergefahr in Norddeutschland"
+                    ],
+                    "_azure/gpt-4-vision_id": "Risiko Banjir di Jerman Utara",
+                    "_gcp/gemini-1.5-pro_id": "Risiko banjir di Jerman utara",
+                    "_compare_azure/gpt-4-vision_id": "Risiko Banjir di Jerman Utara",
+                    "_compare_gcp/gemini-1.5-pro_id": "Risiko Banjir di Jerman Utara",
+                    "_compare_aws/claude-3.5-sonnet_id": "Risiko banjir di Jerman utara",
+                    "_unique_translations_back_id": [
+                        "Hochwasserrisiko in Norddeutschland",
+                        "Überschwemmungsrisiko in Norddeutschland"
+                    ],
+                    "_azure/gpt-4-vision_it": "Rischio di inondazioni nel nord della Germania",
+                    "_gcp/gemini-1.5-pro_it": "Rischio di alluvione nella Germania settentrionale",
+                    "_compare_azure/gpt-4-vision_it": "Rischio di inondazioni nel nord della Germania",
+                    "_compare_gcp/gemini-1.5-pro_it": "Rischio di inondazioni nel nord della Germania",
+                    "_compare_aws/claude-3.5-sonnet_it": "Rischio di inondazioni nel nord della Germania",
+                    "_unique_translations_back_it": [
+                        "Überschwemmungsrisiko in Norddeutschland",
+                        "Hochwasserrisiko in Norddeutschland"
+                    ],
+                    "_azure/gpt-4-vision_ja": "北ドイツの洪水リスク",
+                    "_gcp/gemini-1.5-pro_ja": "北ドイツの洪水リスク",
+                    "_compare_azure/gpt-4-vision_ja": "北ドイツの洪水リスク",
+                    "_compare_gcp/gemini-1.5-pro_ja": "北ドイツの洪水リスク",
+                    "_compare_aws/claude-3.5-sonnet_ja": "北ドイツの洪水リスク",
+                    "_unique_translations_back_ja": [
+                        "Hochwasserrisiko in Norddeutschland"
+                    ],
+                    "_azure/gpt-4-vision_ko": "북부 독일의 홍수 위험",
+                    "_gcp/gemini-1.5-pro_ko": "북부 독일의 홍수 위험",
+                    "_compare_azure/gpt-4-vision_ko": "북부 독일의 홍수 위험",
+                    "_compare_gcp/gemini-1.5-pro_ko": "북부 독일의 홍수 위험",
+                    "_compare_aws/claude-3.5-sonnet_ko": "북부 독일의 홍수 위험",
+                    "_unique_translations_back_ko": [
+                        "Hochwassergefahr in Norddeutschland"
+                    ],
+                    "_azure/gpt-4-vision_lv": "Plūdu risks Ziemeļvācijā",
+                    "_gcp/gemini-1.5-pro_lv": "Plūdu risks Ziemeļvācijā \n",
+                    "_compare_azure/gpt-4-vision_lv": "Plūdu risks Ziemeļvācijā",
+                    "_compare_gcp/gemini-1.5-pro_lv": "Plūdu risks Ziemeļvācijā",
+                    "_compare_aws/claude-3.5-sonnet_lv": "Plūdu risks Ziemeļvācijā",
+                    "_unique_translations_back_lv": [
+                        "Hochwasserrisiko in Norddeutschland"
+                    ],
+                    "_azure/gpt-4-vision_lt": "Potvynių rizika Šiaurės Vokietijoje",
+                    "_gcp/gemini-1.5-pro_lt": "Potvynių pavojus Šiaurės Vokietijoje \n",
+                    "_compare_azure/gpt-4-vision_lt": "Potvynių rizika Šiaurės Vokietijoje",
+                    "_compare_gcp/gemini-1.5-pro_lt": "Potvynių rizika Šiaurės Vokietijoje",
+                    "_compare_aws/claude-3.5-sonnet_lt": "Potvynių rizika Šiaurės Vokietijoje",
+                    "_unique_translations_back_lt": [
+                        "Hochwassergefahr in Norddeutschland",
+                        "Hochwasserrisiko in Norddeutschland"
+                    ],
+                    "_azure/gpt-4-vision_mt": "Riżku ta' Għargħar fit-Tramuntana tal-Ġermanja",
+                    "_gcp/gemini-1.5-pro_mt": "Riskju ta' għargħar fit-Tramuntana tal-Ġermanja \n",
+                    "_compare_azure/gpt-4-vision_mt": "Riżku ta' Għargħar fit-Tramuntana tal-Ġermanja",
+                    "_compare_gcp/gemini-1.5-pro_mt": "Riskju ta' għargħar fit-Tramuntana tal-Ġermanja",
+                    "_compare_aws/claude-3.5-sonnet_mt": "Riskju ta' għargħar fit-Tramuntana tal-Ġermanja",
+                    "_unique_translations_back_mt": [
+                        "Überschwemmungsrisiko in Norddeutschland",
+                        "Überschwemmungsrisiko in Norddeutschland"
+                    ],
+                    "_azure/gpt-4-vision_nl": "Overstromingsrisico in Noord-Duitsland",
+                    "_gcp/gemini-1.5-pro_nl": "Overstromingsgevaar in Noord-Duitsland \n",
+                    "_compare_azure/gpt-4-vision_nl": "Overstromingsrisico in Noord-Duitsland",
+                    "_compare_gcp/gemini-1.5-pro_nl": "Overstromingsgevaar in Noord-Duitsland",
+                    "_compare_aws/claude-3.5-sonnet_nl": "Overstromingsgevaar in Noord-Duitsland",
+                    "_unique_translations_back_nl": [
+                        "Überschwemmungsrisiko in Norddeutschland",
+                        "Überschwemmungsgefahr in Norddeutschland"
+                    ],
+                    "_azure/gpt-4-vision_pl": "Ryzyko powodzi w północnych Niemczech",
+                    "_gcp/gemini-1.5-pro_pl": "Zagrożenie powodzią w północnych Niemczech \n",
+                    "_compare_azure/gpt-4-vision_pl": "Zagrożenie powodzią w północnych Niemczech",
+                    "_compare_gcp/gemini-1.5-pro_pl": "Ryzyko powodzi w północnych Niemczech",
+                    "_compare_aws/claude-3.5-sonnet_pl": "Ryzyko powodzi w północnych Niemczech",
+                    "_unique_translations_back_pl": [
+                        "Hochwassergefahr in Norddeutschland",
+                        "Hochwasserrisiko in Norddeutschland"
+                    ],
+                    "_azure/gpt-4-vision_ro": "Riscul de inundații în nordul Germaniei",
+                    "_gcp/gemini-1.5-pro_ro": "Risc de inundații în nordul Germaniei \n",
+                    "_compare_azure/gpt-4-vision_ro": "Riscul de inundații în nordul Germaniei",
+                    "_compare_gcp/gemini-1.5-pro_ro": "Riscul de inundații în nordul Germaniei",
+                    "_compare_aws/claude-3.5-sonnet_ro": "Risc de inundații în nordul Germaniei",
+                    "_unique_translations_back_ro": [
+                        "Hochwasserrisiko in Norddeutschland",
+                        "Überschwemmungsrisiko in Norddeutschland"
+                    ],
+                    "_azure/gpt-4-vision_ru": "Риски наводнений на севере Германии",
+                    "_gcp/gemini-1.5-pro_ru": "Риски наводнений на севере Германии \n",
+                    "_compare_azure/gpt-4-vision_ru": "Риски наводнений на севере Германии",
+                    "_compare_gcp/gemini-1.5-pro_ru": "Риски наводнений на севере Германии",
+                    "_compare_aws/claude-3.5-sonnet_ru": "Риски наводнений на севере Германии",
+                    "_unique_translations_back_ru": [
+                        "Überschwemmungsrisiken in Norddeutschland"
+                    ],
+                    "_azure/gpt-4-vision_sk": "Riziko povodní v severnom Nemecku",
+                    "_gcp/gemini-1.5-pro_sk": "Povodňové riziko v severnom Nemecku \n",
+                    "_compare_azure/gpt-4-vision_sk": "Povodňové riziko v severnom Nemecku",
+                    "_compare_gcp/gemini-1.5-pro_sk": "Povodňové riziko v severnom Nemecku",
+                    "_compare_aws/claude-3.5-sonnet_sk": "Povodňové riziko v severnom Nemecku",
+                    "_unique_translations_back_sk": [
+                        "Hochwasserrisiko in Norddeutschland",
+                        "Hochwasserrisiko in Norddeutschland"
+                    ],
+                    "_azure/gpt-4-vision_sl": "Poplave nevarnost v severni Nemčiji",
+                    "_gcp/gemini-1.5-pro_sl": "Nevarnost poplav v severni Nemčiji\n",
+                    "_compare_azure/gpt-4-vision_sl": "Nevarnost poplav v severni Nemčiji",
+                    "_compare_gcp/gemini-1.5-pro_sl": "Nevarnost poplav v severni Nemčiji",
+                    "_compare_aws/claude-3.5-sonnet_sl": "Nevarnost poplav v severni Nemčiji",
+                    "_unique_translations_back_sl": [
+                        "Hochwassergefahr in Norddeutschland",
+                        "Hochwassergefahr in Norddeutschland"
+                    ],
+                    "_azure/gpt-4-vision_zh": "北德国的洪水风险",
+                    "_gcp/gemini-1.5-pro_zh": "德国北部的洪水风险",
+                    "_compare_azure/gpt-4-vision_zh": "北德国的洪水风险",
+                    "_compare_gcp/gemini-1.5-pro_zh": "德国北部的洪水风险",
+                    "_compare_aws/claude-3.5-sonnet_zh": "德国北部的洪水风险",
+                    "_unique_translations_back_zh": [
+                        "Hochwasserrisiko in Norddeutschland",
+                        "Hochwasserrisiken in Norddeutschland"
                     ]
                 },
                 "body": {
@@ -44,6 +284,257 @@
                     "_unique_translations_back_sv": [
                         "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> Die Deiche in Norddeutschland werden aufgrund des zunehmenden Überschwemmungsrisikos erhöht. Der Meeresspiegel steigt. Die Niederlande und Belgien suchen nach zusätzlichen Lösungen",
                         "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> Deiche in Norddeutschland werden aufgrund des steigenden Hochwasserrisikos erhöht. Der Meeresspiegel steigt. Die Niederlande und Belgien suchen nach zusätzlichen Lösungen"
+                    ],
+                    "_azure/gpt-4-vision_ar": "<img width=250 src=https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg><br>تتم رفع السدود في شمال ألمانيا بسبب زيادة خطر الفيضانات. يرتفع مستوى البحر. هولندا وبلجيكا يبحثان عن حلول إضافية.",
+                    "_gcp/gemini-1.5-pro_ar": "<img width=250  src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"><br>تتم رفع السدود في شمال ألمانيا بسبب زيادة خطر الفيضانات. يرتفع مستوى البحر. هولندا وبلجيكا يبحثان عن حلول إضافية. \n",
+                    "_compare_azure/gpt-4-vision_ar": "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> تتم رفع السدود في شمال ألمانيا بسبب زيادة خطر الفيضانات. يرتفع مستوى البحر. هولندا وبلجيكا يبحثان عن حلول إضافية",
+                    "_compare_gcp/gemini-1.5-pro_ar": "<img width=250 src=https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg> تتم رفع السدود في شمال ألمانيا بسبب زيادة خطر الفيضانات. يرتفع مستوى البحر. هولندا وبلجيكا يبحثان عن حلول إضافية",
+                    "_compare_aws/claude-3.5-sonnet_ar": "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> تتم رفع السدود في شمال ألمانيا بسبب زيادة خطر الفيضانات. يرتفع مستوى البحر. هولندا وبلجيكا يبحثان عن حلول إضافية",
+                    "_unique_translations_back_ar": [
+                        "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> Die Deiche in Norddeutschland werden aufgrund des zunehmenden Hochwasserrisikos erhöht. Der Meeresspiegel steigt. Die Niederlande und Belgien suchen nach zusätzlichen Lösungen",
+                        "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> Die Deiche in Norddeutschland werden aufgrund des zunehmenden Hochwasserrisikos erhöht. Der Meeresspiegel steigt. Die Niederlande und Belgien suchen nach zusätzlichen Lösungen"
+                    ],
+                    "_azure/gpt-4-vision_bg": "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"><br>Дигите в северна Германия се увеличават поради нарастващия риск от наводнения. Морското равнище се повишава. Нидерландия и Белгия търсят допълнителни решения.",
+                    "_gcp/gemini-1.5-pro_bg": "<img width=250  src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"><br>Дигите в Северна Германия се покачват поради нарастващия риск от наводнения. Морското равнище се покачва. Холандия и Белгия търсят допълнителни решения. \n",
+                    "_compare_azure/gpt-4-vision_bg": "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> Дигите в северна Германия се увеличават поради нарастващия риск от наводнения. Морското равнище се повишава. Нидерландия и Белгия търсят допълнителни решения",
+                    "_compare_gcp/gemini-1.5-pro_bg": "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> Дигите в северна Германия се увеличават поради нарастващия риск от наводнения. Морското равнище се повишава. Нидерландия и Белгия търсят допълнителни решения",
+                    "_compare_aws/claude-3.5-sonnet_bg": "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> Дигите в Северна Германия се покачват поради нарастващия риск от наводнения. Морското равнище се покачва. Холандия и Белгия търсят допълнителни решения",
+                    "_unique_translations_back_bg": [
+                        "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> Die Deiche in Norddeutschland werden aufgrund des zunehmenden Risikos von Überschwemmungen erhöht. Der Meeresspiegel steigt. Die Niederlande und Belgien suchen nach zusätzlichen Lösungen",
+                        "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> Die Deiche in Norddeutschland werden aufgrund des zunehmenden Überschwemmungsrisikos erhöht. Der Meeresspiegel steigt. Die Niederlande und Belgien suchen nach zusätzlichen Lösungen"
+                    ],
+                    "_azure/gpt-4-vision_cs": "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"><br>Hráze na severu Německa jsou zvyšovány kvůli rostoucímu riziku povodní. Hladina moře stoupá. Nizozemsko a Belgie hledají další řešení.",
+                    "_gcp/gemini-1.5-pro_cs": "<img width=250  src=https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg><br>Hráze v severním Německu se kvůli rostoucímu riziku záplav zvyšují. Hladina moře stoupá. Nizozemsko a Belgie hledají další řešení.\n",
+                    "_compare_azure/gpt-4-vision_cs": "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> Hráze na severu Německa jsou zvyšovány kvůli rostoucímu riziku povodní. Hladina moře stoupá. Nizozemsko a Belgie hledají další řešení",
+                    "_compare_gcp/gemini-1.5-pro_cs": "<img width=250 src=https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg> Hráze v severním Německu se kvůli rostoucímu riziku záplav zvyšují. Hladina moře stoupá. Nizozemsko a Belgie hledají další řešení",
+                    "_compare_aws/claude-3.5-sonnet_cs": "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> Hráze na severu Německa jsou zvyšovány kvůli rostoucímu riziku povodní. Hladina moře stoupá. Nizozemsko a Belgie hledají další řešení",
+                    "_unique_translations_back_cs": [
+                        "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> Deiche in Norddeutschland werden aufgrund des steigenden Hochwasserrisikos erhöht. Der Meeresspiegel steigt. Die Niederlande und Belgien suchen nach zusätzlichen Lösungen",
+                        "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> Die Deiche in Norddeutschland werden aufgrund des zunehmenden Überschwemmungsrisikos erhöht. Der Meeresspiegel steigt. Die Niederlande und Belgien suchen nach zusätzlichen Lösungen"
+                    ],
+                    "_azure/gpt-4-vision_da": "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"><br>Digene i Nordtyskland hæves på grund af stigende oversvømmelsesrisiko. Havets overflade stiger. Nederlandene og Belgien leder efter yderligere løsninger.",
+                    "_gcp/gemini-1.5-pro_da": "<img width=250  src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"><br>Digene i Nordtyskland hæves på grund af den stigende risiko for oversvømmelser. Havniveauet stiger. Holland og Belgien leder efter yderligere løsninger. \n",
+                    "_compare_azure/gpt-4-vision_da": "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> Digene i Nordtyskland hæves på grund af den stigende risiko for oversvømmelser. Havniveauet stiger. Holland og Belgien leder efter yderligere løsninger",
+                    "_compare_gcp/gemini-1.5-pro_da": "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> Digene i Nordtyskland hæves på grund af den stigende risiko for oversvømmelser. Havniveauet stiger. Holland og Belgien leder efter yderligere løsninger",
+                    "_compare_aws/claude-3.5-sonnet_da": "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> Digene i Nordtyskland hæves på grund af den stigende risiko for oversvømmelser. Havniveauet stiger. Holland og Belgien leder efter yderligere løsninger",
+                    "_unique_translations_back_da": [
+                        "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> Deiche in Norddeutschland werden aufgrund des steigenden Hochwasserrisikos erhöht. Der Meeresspiegel steigt. Die Niederlande und Belgien suchen nach zusätzlichen Lösungen",
+                        "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> Deiche in Norddeutschland werden aufgrund des steigenden Hochwasserrisikos erhöht. Der Meeresspiegel steigt. Die Niederlande und Belgien suchen nach zusätzlichen Lösungen"
+                    ],
+                    "_azure/gpt-4-vision_de": "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"><br>Die Deiche im Norden Deutschlands werden aufgrund zunehmender Flutgefahr erhöht. Der Meeresspiegel steigt. Die Niederlande und Belgien suchen nach zusätzlichen Lösungen.",
+                    "_gcp/gemini-1.5-pro_de": "<img width=250  src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"><br>Die Deiche im Norden Deutschlands werden aufgrund zunehmender Flutgefahr erhöht. Der Meeresspiegel steigt. Die Niederlande und Belgien suchen nach zusätzlichen Lösungen. \n",
+                    "_compare_azure/gpt-4-vision_de": "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> Die Deiche im Norden Deutschlands werden aufgrund zunehmender Flutgefahr erhöht. Der Meeresspiegel steigt. Die Niederlande und Belgien suchen nach zusätzlichen Lösungen",
+                    "_compare_gcp/gemini-1.5-pro_de": "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> Die Deiche im Norden Deutschlands werden aufgrund zunehmender Flutgefahr erhöht. Der Meeresspiegel steigt. Die Niederlande und Belgien suchen nach zusätzlichen Lösungen",
+                    "_compare_aws/claude-3.5-sonnet_de": "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> Die Deiche im Norden Deutschlands werden aufgrund zunehmender Flutgefahr erhöht. Der Meeresspiegel steigt. Die Niederlande und Belgien suchen nach zusätzlichen Lösungen",
+                    "_unique_translations_back_de": [
+                        "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> Die Deiche im Norden Deutschlands werden aufgrund zunehmender Flutgefahr erhöht. Der Meeresspiegel steigt. Die Niederlande und Belgien suchen nach zusätzlichen Lösungen"
+                    ],
+                    "_azure/gpt-4-vision_el": "<img width=250 src=https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg><br>Οι αναχώματα στον βόρειο Γερμανία αυξάνονται λόγω του αυξανόμενου κινδύνου πλημμυρών. Το επίπεδο της θάλασσας ανεβαίνει. Οι Κάτω Χώρες και το Βέλγιο αναζητούν επιπλέον λύσεις.",
+                    "_gcp/gemini-1.5-pro_el": "<img width=250  src=https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg><br>Τα φράγματα στη βόρεια Γερμανία υψώνονται λόγω του αυξανόμενου κινδύνου πλημμύρας. Η στάθμη της θάλασσας ανεβαίνει. Η Ολλανδία και το Βέλγιο αναζητούν πρόσθετες λύσεις.",
+                    "_compare_azure/gpt-4-vision_el": "<img width=250 src=https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg> Τα φράγματα στη βόρεια Γερμανία υψώνονται λόγω του αυξανόμενου κινδύνου πλημμύρας. Η στάθμη της θάλασσας ανεβαίνει. Η Ολλανδία και το Βέλγιο αναζητούν πρόσθετες λύσεις",
+                    "_compare_gcp/gemini-1.5-pro_el": "<img width=250 src=https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg> Τα φράγματα στη βόρεια Γερμανία υψώνονται λόγω του αυξανόμενου κινδύνου πλημμύρας. Η στάθμη της θάλασσας ανεβαίνει. Η Ολλανδία και το Βέλγιο αναζητούν πρόσθετες λύσεις",
+                    "_compare_aws/claude-3.5-sonnet_el": "<img width=250 src=https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg> Τα φράγματα στη βόρεια Γερμανία υψώνονται λόγω του αυξανόμενου κινδύνου πλημμύρας. Η στάθμη της θάλασσας ανεβαίνει. Η Ολλανδία και το Βέλγιο αναζητούν πρόσθετες λύσεις",
+                    "_unique_translations_back_el": [
+                        "<img width=250 src=https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg> Die Deiche in Norddeutschland werden aufgrund des zunehmenden Überschwemmungsrisikos erhöht. Der Meeresspiegel steigt. Die Niederlande und Belgien suchen nach zusätzlichen Lösungen",
+                        "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> Die Deiche in Norddeutschland werden aufgrund des zunehmenden Überschwemmungsrisikos erhöht. Der Meeresspiegel steigt. Die Niederlande und Belgien suchen nach zusätzlichen Lösungen"
+                    ],
+                    "_azure/gpt-4-vision_en": "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"><br>Dikes in northern Germany are being raised due to increasing flood risks. The sea level is rising. The Netherlands and Belgium are looking for additional solutions.",
+                    "_gcp/gemini-1.5-pro_en": "<img width=250  src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"><br>Dikes in northern Germany are being raised due to increasing flood risk. Sea level is rising. The Netherlands and Belgium are looking for additional solutions. \n",
+                    "_compare_azure/gpt-4-vision_en": "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> Dikes in northern Germany are being raised due to increasing flood risk. Sea level is rising. The Netherlands and Belgium are looking for additional solutions",
+                    "_compare_gcp/gemini-1.5-pro_en": "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> Dikes in northern Germany are being raised due to increasing flood risk. Sea level is rising. The Netherlands and Belgium are looking for additional solutions",
+                    "_compare_aws/claude-3.5-sonnet_en": "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> Dikes in northern Germany are being raised due to increasing flood risks. The sea level is rising. The Netherlands and Belgium are looking for additional solutions",
+                    "_unique_translations_back_en": [
+                        "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> Die Deiche in Norddeutschland werden aufgrund des zunehmenden Überschwemmungsrisikos erhöht. Der Meeresspiegel steigt. Die Niederlande und Belgien suchen nach zusätzlichen Lösungen",
+                        "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> Die Deiche in Norddeutschland werden aufgrund des zunehmenden Hochwasserrisikos erhöht. Der Meeresspiegel steigt. Die Niederlande und Belgien suchen nach zusätzlichen Lösungen"
+                    ],
+                    "_azure/gpt-4-vision_es": "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"><br>Los diques en el norte de Alemania se están elevando debido al creciente riesgo de inundaciones. El nivel del mar está subiendo. Países Bajos y Bélgica buscan soluciones adicionales.",
+                    "_gcp/gemini-1.5-pro_es": "<img width=250  src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"><br>Los diques en el norte de Alemania se están elevando debido al aumento del riesgo de inundaciones. El nivel del mar está subiendo. Los Países Bajos y Bélgica están buscando soluciones adicionales. \n",
+                    "_compare_azure/gpt-4-vision_es": "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> Los diques en el norte de Alemania se están elevando debido al aumento del riesgo de inundaciones. El nivel del mar está subiendo. Los Países Bajos y Bélgica están buscando soluciones adicionales",
+                    "_compare_gcp/gemini-1.5-pro_es": "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> Los diques en el norte de Alemania se están elevando debido al aumento del riesgo de inundaciones. El nivel del mar está subiendo. Los Países Bajos y Bélgica están buscando soluciones adicionales",
+                    "_compare_aws/claude-3.5-sonnet_es": "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> Los diques en el norte de Alemania se están elevando debido al aumento del riesgo de inundaciones. El nivel del mar está subiendo. Los Países Bajos y Bélgica están buscando soluciones adicionales",
+                    "_unique_translations_back_es": [
+                        "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> Die Deiche in Norddeutschland werden aufgrund des zunehmenden Hochwasserrisikos erhöht. Der Meeresspiegel steigt. Die Niederlande und Belgien suchen nach zusätzlichen Lösungen",
+                        "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> Die Deiche in Norddeutschland werden aufgrund des zunehmenden Überschwemmungsrisikos erhöht. Der Meeresspiegel steigt. Die Niederlande und Belgien suchen nach zusätzlichen Lösungen"
+                    ],
+                    "_azure/gpt-4-vision_et": "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"><br>Põhja-Saksamaa tammid tõstetakse üles suureneva üleujutusohtu tõttu. Merevee tase tõuseb. Holland ja Belgia otsivad lisalahendusi.",
+                    "_gcp/gemini-1.5-pro_et": "<img width=250  src=https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg><br>Üleujutuste ohu suurenemise tõttu tõstetakse Põhja-Saksamaal tammide kõrgust. Meretase tõuseb. Holland ja Belgia otsivad lisalahendusi.",
+                    "_compare_azure/gpt-4-vision_et": "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> Põhja-Saksamaa tammid tõstetakse üles suureneva üleujutusohtu tõttu. Merevee tase tõuseb. Holland ja Belgia otsivad lisalahendusi",
+                    "_compare_gcp/gemini-1.5-pro_et": "<img width=250 src=https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg> Üleujutuste ohu suurenemise tõttu tõstetakse Põhja-Saksamaal tammide kõrgust. Meretase tõuseb. Holland ja Belgia otsivad lisalahendusi",
+                    "_compare_aws/claude-3.5-sonnet_et": "<img width=250 src=https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg> Üleujutuste ohu suurenemise tõttu tõstetakse Põhja-Saksamaal tammide kõrgust. Meretase tõuseb. Holland ja Belgia otsivad lisalahendusi",
+                    "_unique_translations_back_et": [
+                        "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> Aufgrund des zunehmenden Überschwemmungsrisikos werden die Deiche in Norddeutschland erhöht. Der Meeresspiegel steigt. Die Niederlande und Belgien suchen nach zusätzlichen Lösungen",
+                        "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> Die Deiche in Norddeutschland werden aufgrund des zunehmenden Überschwemmungsrisikos erhöht. Der Meeresspiegel steigt. Die Niederlande und Belgien suchen nach zusätzlichen Lösungen"
+                    ],
+                    "_azure/gpt-4-vision_fi": "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"><br>Patoja Pohjois-Saksassa korotetaan kasvavan tulvariskin vuoksi. Merenpinta nousee. Alankomaat ja Belgia etsivät lisäratkaisuja.",
+                    "_gcp/gemini-1.5-pro_fi": "<img width=250  src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"><br>Pohjois-Saksan patoja korotetaan lisääntyvän tulvariskin vuoksi. Merenpinta nousee. Alankomaat ja Belgia etsivät lisäratkaisuja. \n",
+                    "_compare_azure/gpt-4-vision_fi": "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> Pohjois-Saksan patoja korotetaan lisääntyvän tulvariskin vuoksi. Merenpinta nousee. Alankomaat ja Belgia etsivät lisäratkaisuja",
+                    "_compare_gcp/gemini-1.5-pro_fi": "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> Pohjois-Saksan patoja korotetaan lisääntyvän tulvariskin vuoksi. Merenpinta nousee. Alankomaat ja Belgia etsivät lisäratkaisuja",
+                    "_compare_aws/claude-3.5-sonnet_fi": "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> Patoja Pohjois-Saksassa korotetaan kasvavan tulvariskin vuoksi. Merenpinta nousee. Alankomaat ja Belgia etsivät lisäratkaisuja",
+                    "_unique_translations_back_fi": [
+                        "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> Die Deiche in Norddeutschland werden aufgrund des zunehmenden Überschwemmungsrisikos erhöht. Der Meeresspiegel steigt. Die Niederlande und Belgien suchen nach zusätzlichen Lösungen",
+                        "<img width=250 src=\\https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\\> Deiche in Norddeutschland werden aufgrund des steigenden Hochwasserrisikos erhöht. Der Meeresspiegel steigt. Die Niederlande und Belgien suchen nach zusätzlichen Lösungen"
+                    ],
+                    "_azure/gpt-4-vision_fr": "<img width=250 src=https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg><br>Les digues dans le nord de lAllemagne sont relevées en raison de laugmentation du risque dinondation. Le niveau de la mer monte. Les Pays-Bas et la Belgique recherchent des solutions supplémentaires.",
+                    "_gcp/gemini-1.5-pro_fr": "<img width=250  src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"><br>Les digues dans le nord de l'Allemagne sont relevées en raison de l'augmentation du risque d'inondation. Le niveau de la mer monte. Les Pays-Bas et la Belgique recherchent des solutions supplémentaires. \n",
+                    "_compare_azure/gpt-4-vision_fr": "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> Les digues dans le nord de l'Allemagne sont relevées en raison de l'augmentation du risque d'inondation. Le niveau de la mer monte. Les Pays-Bas et la Belgique recherchent des solutions supplémentaires",
+                    "_compare_gcp/gemini-1.5-pro_fr": "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> Les digues dans le nord de l'Allemagne sont relevées en raison de l'augmentation du risque d'inondation. Le niveau de la mer monte. Les Pays-Bas et la Belgique recherchent des solutions supplémentaires",
+                    "_compare_aws/claude-3.5-sonnet_fr": "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> Les digues dans le nord de l'Allemagne sont relevées en raison de l'augmentation du risque d'inondation. Le niveau de la mer monte. Les Pays-Bas et la Belgique recherchent des solutions supplémentaires",
+                    "_unique_translations_back_fr": [
+                        "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> Die Deiche in Norddeutschland werden aufgrund des zunehmenden Überschwemmungsrisikos erhöht. Der Meeresspiegel steigt. Die Niederlande und Belgien suchen nach zusätzlichen Lösungen",
+                        "<img width=250 src=https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg> Die Deiche in Norddeutschland werden aufgrund des zunehmenden Überschwemmungsrisikos erhöht. Der Meeresspiegel steigt. Die Niederlande und Belgien suchen nach zusätzlichen Lösungen"
+                    ],
+                    "_azure/gpt-4-vision_ga": "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"><br>Tá díoga i dtuaisceart na Gearmáine á n-ardú mar gheall ar an mbaol tuilte atá ag méadú. Tá leibhéal na farraige ag ardú. Tá an Ísiltír agus an Bheilg ag lorg réitigh bhreise.",
+                    "_gcp/gemini-1.5-pro_ga": "<img width=250  src=https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg><br>Tá ardú á chur ar na claífoirt i dtuaisceart na Gearmáine mar gheall ar an mbaol atá ann go dtarlóidh tuilte. Tá leibhéal na farraige ag ardú. Tá an Ísiltír agus an Bheilg ag cuardach réitigh bhreise. \n",
+                    "_compare_azure/gpt-4-vision_ga": "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> Tá díoga i dtuaisceart na Gearmáine á n-ardú mar gheall ar an mbaol tuilte atá ag méadú. Tá leibhéal na farraige ag ardú. Tá an Ísiltír agus an Bheilg ag lorg réitigh bhreise",
+                    "_compare_gcp/gemini-1.5-pro_ga": "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> Tá díoga i dtuaisceart na Gearmáine á n-ardú mar gheall ar an mbaol tuilte atá ag méadú. Tá leibhéal na farraige ag ardú. Tá an Ísiltír agus an Bheilg ag lorg réitigh bhreise",
+                    "_compare_aws/claude-3.5-sonnet_ga": "<img width=250 src=https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg> Tá ardú á chur ar na claífoirt i dtuaisceart na Gearmáine mar gheall ar an mbaol atá ann go dtarlóidh tuilte. Tá leibhéal na farraige ag ardú. Tá an Ísiltír agus an Bheilg ag cuardach réitigh bhreise",
+                    "_unique_translations_back_ga": [
+                        "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> Die Deiche in Norddeutschland werden aufgrund des zunehmenden Hochwasserrisikos erhöht. Der Meeresspiegel steigt. Die Niederlande und Belgien suchen nach zusätzlichen Lösungen",
+                        "<img width=250 src=https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg> Die Deiche in Norddeutschland werden aufgrund des zunehmenden Überschwemmungsrisikos erhöht. Der Meeresspiegel steigt. Die Niederlande und Belgien suchen nach zusätzlichen Lösungen"
+                    ],
+                    "_azure/gpt-4-vision_hr": "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"><br>Nasipi na sjeveru Njemačke se podižu zbog povećanog rizika od poplava. Razina mora raste. Nizozemska i Belgija traže dodatna rješenja.",
+                    "_gcp/gemini-1.5-pro_hr": "<img width=250  src=https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg><br>Nasipi na sjeveru Njemačke se podižu zbog povećanog rizika od poplava. Razina mora raste. Nizozemska i Belgija traže dodatna rješenja.\n",
+                    "_compare_azure/gpt-4-vision_hr": "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> Nasipi na sjeveru Njemačke se podižu zbog povećanog rizika od poplava. Razina mora raste. Nizozemska i Belgija traže dodatna rješenja",
+                    "_compare_gcp/gemini-1.5-pro_hr": "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> Nasipi na sjeveru Njemačke se podižu zbog povećanog rizika od poplava. Razina mora raste. Nizozemska i Belgija traže dodatna rješenja",
+                    "_compare_aws/claude-3.5-sonnet_hr": "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> Nasipi na sjeveru Njemačke se podižu zbog povećanog rizika od poplava. Razina mora raste. Nizozemska i Belgija traže dodatna rješenja",
+                    "_unique_translations_back_hr": [
+                        "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> Deiche in Norddeutschland werden aufgrund des erhöhten Überschwemmungsrisikos erhöht. Der Meeresspiegel steigt. Die Niederlande und Belgien suchen nach zusätzlichen Lösungen",
+                        "<img width=250 src=https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg> Die Deiche in Norddeutschland werden aufgrund des erhöhten Überschwemmungsrisikos angehoben. Der Meeresspiegel steigt. Die Niederlande und Belgien suchen nach zusätzlichen Lösungen"
+                    ],
+                    "_azure/gpt-4-vision_hu": "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"><br>Észak-Németországban a gátakat megemelik a növekvő árvízveszély miatt. A tengerszint emelkedik. Hollandia és Belgium további megoldásokat keres.",
+                    "_gcp/gemini-1.5-pro_hu": "<img width=250  src=https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg><br>Németország északi részén a gátakat megemelik az árvízveszély növekedése miatt. A tengerszint emelkedik. Hollandia és Belgium további megoldásokat keres. \n",
+                    "_compare_azure/gpt-4-vision_hu": "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> Észak-Németországban a gátakat megemelik a növekvő árvízveszély miatt. A tengerszint emelkedik. Hollandia és Belgium további megoldásokat keres",
+                    "_compare_gcp/gemini-1.5-pro_hu": "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> Észak-Németországban a gátakat megemelik a növekvő árvízveszély miatt. A tengerszint emelkedik. Hollandia és Belgium további megoldásokat keres",
+                    "_compare_aws/claude-3.5-sonnet_hu": "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> Észak-Németországban a gátakat megemelik a növekvő árvízveszély miatt. A tengerszint emelkedik. Hollandia és Belgium további megoldásokat keres",
+                    "_unique_translations_back_hu": [
+                        "<img width=250 src=https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg> In Norddeutschland werden die Deiche aufgrund des zunehmenden Hochwasserrisikos erhöht. Der Meeresspiegel steigt. Die Niederlande und Belgien suchen nach zusätzlichen Lösungen",
+                        "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> In Norddeutschland werden die Deiche aufgrund des steigenden Hochwasserrisikos erhöht. Der Meeresspiegel steigt. Die Niederlande und Belgien suchen nach zusätzlichen Lösungen"
+                    ],
+                    "_azure/gpt-4-vision_id": "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"><br>Tanggul di utara Jerman ditinggikan karena risiko banjir yang meningkat. Ketinggian permukaan laut naik. Belanda dan Belgia mencari solusi tambahan.",
+                    "_gcp/gemini-1.5-pro_id": "<img width=250  src=https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg><br>Tanggul di Jerman utara ditinggikan karena meningkatnya risiko banjir. Permukaan air laut naik. Belanda dan Belgia sedang mencari solusi tambahan.\n",
+                    "_compare_azure/gpt-4-vision_id": "<img width=250 src=https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg> Tanggul di Jerman utara ditinggikan karena meningkatnya risiko banjir. Permukaan air laut naik. Belanda dan Belgia sedang mencari solusi tambahan",
+                    "_compare_gcp/gemini-1.5-pro_id": "<img width=250 src=https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg> Tanggul di Jerman utara ditinggikan karena meningkatnya risiko banjir. Permukaan air laut naik. Belanda dan Belgia sedang mencari solusi tambahan",
+                    "_compare_aws/claude-3.5-sonnet_id": "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> Tanggul di utara Jerman ditinggikan karena risiko banjir yang meningkat. Ketinggian permukaan laut naik. Belanda dan Belgia mencari solusi tambahan",
+                    "_unique_translations_back_id": [
+                        "<img width=250 src=https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg> Die Deiche in Norddeutschland werden aufgrund des zunehmenden Hochwasserrisikos erhöht. Der Meeresspiegel steigt. Die Niederlande und Belgien suchen nach zusätzlichen Lösungen",
+                        "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> Die Deiche in Norddeutschland werden aufgrund des zunehmenden Überschwemmungsrisikos erhöht. Der Meeresspiegel steigt. Die Niederlande und Belgien suchen nach zusätzlichen Lösungen"
+                    ],
+                    "_azure/gpt-4-vision_it": "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"><br>I argini nel nord della Germania vengono innalzati a causa dell'aumento del rischio di inondazioni. Il livello del mare sta salendo. Paesi Bassi e Belgio cercano soluzioni aggiuntive.",
+                    "_gcp/gemini-1.5-pro_it": "<img width=250  src=https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg><br>A causa dellaumento del rischio di alluvioni, le dighe nel nord della Germania vengono rialzate. Il livello del mare si sta alzando. I Paesi Bassi e il Belgio sono alla ricerca di soluzioni aggiuntive.",
+                    "_compare_azure/gpt-4-vision_it": "<img width=250 src=https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg> A causa dellaumento del rischio di alluvioni, le dighe nel nord della Germania vengono rialzate. Il livello del mare si sta alzando. I Paesi Bassi e il Belgio sono alla ricerca di soluzioni aggiuntive",
+                    "_compare_gcp/gemini-1.5-pro_it": "<img width=250 src=https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg> A causa dellaumento del rischio di alluvioni, le dighe nel nord della Germania vengono rialzate. Il livello del mare si sta alzando. I Paesi Bassi e il Belgio sono alla ricerca di soluzioni aggiuntive",
+                    "_compare_aws/claude-3.5-sonnet_it": "<img width=250 src=https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg> A causa dellaumento del rischio di alluvioni, le dighe nel nord della Germania vengono rialzate. Il livello del mare si sta alzando. I Paesi Bassi e il Belgio sono alla ricerca di soluzioni aggiuntive",
+                    "_unique_translations_back_it": [
+                        "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> Aufgrund des erhöhten Überschwemmungsrisikos werden die Deiche in Norddeutschland erhöht. Der Meeresspiegel steigt. Die Niederlande und Belgien suchen nach zusätzlichen Lösungen",
+                        "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> Die Deiche in Norddeutschland werden aufgrund des zunehmenden Überschwemmungsrisikos erhöht. Der Meeresspiegel steigt. Die Niederlande und Belgien suchen nach zusätzlichen Lösungen"
+                    ],
+                    "_azure/gpt-4-vision_ja": "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"><br>ドイツ北部の堤防は洪水の危険が増大するため高くなっています。海面が上昇しています。オランダとベルギーは追加の解決策を探しています。",
+                    "_gcp/gemini-1.5-pro_ja": "<img width=250  src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"><br>ドイツ北部では、洪水のリスクが高まっているため、堤防が嵩上げされています。海面が上昇しています。オランダとベルギーは追加の解決策を模索しています。 \n",
+                    "_compare_azure/gpt-4-vision_ja": "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> ドイツ北部では、洪水のリスクが高まっているため、堤防が嵩上げされています。海面が上昇しています。オランダとベルギーは追加の解決策を模索しています。",
+                    "_compare_gcp/gemini-1.5-pro_ja": "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> ドイツ北部では、洪水のリスクが高まっているため、堤防が嵩上げされています。海面が上昇しています。オランダとベルギーは追加の解決策を模索しています。",
+                    "_compare_aws/claude-3.5-sonnet_ja": "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> ドイツ北部の堤防は洪水の危険が増大するため高くなっています。海面が上昇しています。オランダとベルギーは追加の解決策を探しています。",
+                    "_unique_translations_back_ja": [
+                        "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> In Norddeutschland werden die Deiche aufgrund des zunehmenden Hochwasserrisikos erhöht. Der Meeresspiegel steigt. Die Niederlande und Belgien suchen nach zusätzlichen Lösungen",
+                        "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> Die Deiche in Norddeutschland werden aufgrund des zunehmenden Hochwasserrisikos erhöht. Der Meeresspiegel steigt. Die Niederlande und Belgien suchen nach zusätzlichen Lösungen"
+                    ],
+                    "_azure/gpt-4-vision_ko": "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"><br>북부 독일의 제방은 홍수 위험이 증가함에 따라 높아지고 있습니다. 해수면이 상승하고 있습니다. 네덜란드와 벨기에는 추가적인 해결책을 모색하고 있습니다.",
+                    "_gcp/gemini-1.5-pro_ko": "<img width=250  src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"><br>독일 북부의 제방은 홍수 위험 증가로 인해 높아지고 있습니다. 해수면이 상승하고 있습니다. 네덜란드와 벨기에는 추가적인 해결책을 모색하고 있습니다. \n",
+                    "_compare_azure/gpt-4-vision_ko": "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> 독일 북부의 제방은 홍수 위험 증가로 인해 높아지고 있습니다. 해수면이 상승하고 있습니다. 네덜란드와 벨기에는 추가적인 해결책을 모색하고 있습니다",
+                    "_compare_gcp/gemini-1.5-pro_ko": "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> 독일 북부의 제방은 홍수 위험 증가로 인해 높아지고 있습니다. 해수면이 상승하고 있습니다. 네덜란드와 벨기에는 추가적인 해결책을 모색하고 있습니다",
+                    "_compare_aws/claude-3.5-sonnet_ko": "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> 북부 독일의 제방은 홍수 위험이 증가함에 따라 높아지고 있습니다. 해수면이 상승하고 있습니다. 네덜란드와 벨기에는 추가적인 해결책을 모색하고 있습니다",
+                    "_unique_translations_back_ko": [
+                        "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> Die Deiche in Norddeutschland werden aufgrund des zunehmenden Überschwemmungsrisikos erhöht. Der Meeresspiegel steigt. Die Niederlande und Belgien suchen nach zusätzlichen Lösungen",
+                        "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> Die Deiche in Norddeutschland werden aufgrund des zunehmenden Hochwasserrisikos erhöht. Der Meeresspiegel steigt. Die Niederlande und Belgien suchen nach zusätzlichen Lösungen"
+                    ],
+                    "_azure/gpt-4-vision_lv": "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"><br>Ziemeļvācijā dambjus paaugstina, jo pieaug plūdu risks. Jūras līmenis ceļas. Nīderlande un Beļģija meklē papildu risinājumus.",
+                    "_gcp/gemini-1.5-pro_lv": "<img width=250  src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"><br>Dambji Vācijas ziemeļos tiek paaugstināti pieaugošo plūdu draudu dēļ. Jūras līmenis ceļas. Nīderlande un Beļģija meklē papildu risinājumus. \n",
+                    "_compare_azure/gpt-4-vision_lv": "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> Dambji Vācijas ziemeļos tiek paaugstināti pieaugošo plūdu draudu dēļ. Jūras līmenis ceļas. Nīderlande un Beļģija meklē papildu risinājumus",
+                    "_compare_gcp/gemini-1.5-pro_lv": "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> Dambji Vācijas ziemeļos tiek paaugstināti pieaugošo plūdu draudu dēļ. Jūras līmenis ceļas. Nīderlande un Beļģija meklē papildu risinājumus",
+                    "_compare_aws/claude-3.5-sonnet_lv": "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> Ziemeļvācijā dambjus paaugstina, jo pieaug plūdu risks. Jūras līmenis ceļas. Nīderlande un Beļģija meklē papildu risinājumus",
+                    "_unique_translations_back_lv": [
+                        "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> Die Deiche in Norddeutschland werden aufgrund des zunehmenden Überschwemmungsrisikos erhöht. Der Meeresspiegel steigt. Die Niederlande und Belgien suchen nach zusätzlichen Lösungen",
+                        "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> Die Deiche in Norddeutschland werden aufgrund des zunehmenden Hochwasserrisikos erhöht. Der Meeresspiegel steigt. Die Niederlande und Belgien suchen nach zusätzlichen Lösungen"
+                    ],
+                    "_azure/gpt-4-vision_lt": "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"><br>Šiaurės Vokietijoje pylimai keliami dėl didėjančios potvynių grėsmės. Pakyla jūros lygis. Nyderlandai ir Belgija ieško papildomų sprendimų.",
+                    "_gcp/gemini-1.5-pro_lt": "<img width=250  src=https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg><br>Dėl didėjančios potvynių grėsmės Šiaurės Vokietijoje aukštinami pylimai. Kyla jūros lygis. Nyderlandai ir Belgija ieško papildomų sprendimų.",
+                    "_compare_azure/gpt-4-vision_lt": "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> Šiaurės Vokietijoje pylimai keliami dėl didėjančios potvynių grėsmės. Pakyla jūros lygis. Nyderlandai ir Belgija ieško papildomų sprendimų",
+                    "_compare_gcp/gemini-1.5-pro_lt": "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> Šiaurės Vokietijoje pylimai keliami dėl didėjančios potvynių grėsmės. Pakyla jūros lygis. Nyderlandai ir Belgija ieško papildomų sprendimų",
+                    "_compare_aws/claude-3.5-sonnet_lt": "<img width=250 src=https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg> Dėl didėjančios potvynių grėsmės Šiaurės Vokietijoje aukštinami pylimai. Kyla jūros lygis. Nyderlandai ir Belgija ieško papildomų sprendimų",
+                    "_unique_translations_back_lt": [
+                        "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> In Norddeutschland werden die Deiche aufgrund des zunehmenden Hochwasserrisikos erhöht. Der Meeresspiegel steigt. Die Niederlande und Belgien suchen nach zusätzlichen Lösungen",
+                        "<img width=250 src=\\https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\\> Aufgrund des zunehmenden Hochwasserrisikos werden die Deiche in Norddeutschland erhöht. Der Meeresspiegel steigt. Die Niederlande und Belgien suchen nach zusätzlichen Lösungen"
+                    ],
+                    "_azure/gpt-4-vision_mt": "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"><br>Id-digi fil-Majjistral tal-Ġermanja qed jiġu mgħollija minħabba ż-żieda fir-riskju ta' għargħar. Il-livell tal-baħar qed jogħla. In-Netherlands u l-Belġju qed ifittxu soluzzjonijiet addizzjonali.",
+                    "_gcp/gemini-1.5-pro_mt": "<img width=250  src=https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg><br>Il-mollijiet fit-Tramuntana tal-Ġermanja qed jiżdiedu minħabba ż-żieda fir-riskju ta għargħar. Il-livell tal-baħar qed jogħla. L-Olanda u l-Belġju qed ifittxu soluzzjonijiet addizzjonali. \n",
+                    "_compare_azure/gpt-4-vision_mt": "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> Id-digi fil-Majjistral tal-Ġermanja qed jiġu mgħollija minħabba ż-żieda fir-riskju ta' għargħar. Il-livell tal-baħar qed jogħla. In-Netherlands u l-Belġju qed ifittxu soluzzjonijiet addizzjonali",
+                    "_compare_gcp/gemini-1.5-pro_mt": "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> Id-digi fil-Majjistral tal-Ġermanja qed jiġu mgħollija minħabba ż-żieda fir-riskju ta' għargħar. Il-livell tal-baħar qed jogħla. In-Netherlands u l-Belġju qed ifittxu soluzzjonijiet addizzjonali",
+                    "_compare_aws/claude-3.5-sonnet_mt": "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> Id-digi fil-Majjistral tal-Ġermanja qed jiġu mgħollija minħabba ż-żieda fir-riskju ta' għargħar. Il-livell tal-baħar qed jogħla. In-Netherlands u l-Belġju qed ifittxu soluzzjonijiet addizzjonali",
+                    "_unique_translations_back_mt": [
+                        "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> Die Deiche in Norddeutschland werden aufgrund des zunehmenden Überschwemmungsrisikos erhöht. Der Meeresspiegel steigt. Die Niederlande und Belgien suchen nach zusätzlichen Lösungen",
+                        "<img width=250 src=https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg> Die Deiche in Norddeutschland werden aufgrund des zunehmenden Überschwemmungsrisikos erhöht. Der Meeresspiegel steigt. Die Niederlande und Belgien suchen nach zusätzlichen Lösungen"
+                    ],
+                    "_azure/gpt-4-vision_nl": "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"><br>De dijken in het noorden van Duitsland worden verhoogd vanwege het toenemende overstromingsgevaar. De zeespiegel stijgt. Nederland en België zoeken naar aanvullende oplossingen.",
+                    "_gcp/gemini-1.5-pro_nl": "<img width=250  src=https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg><br>De dijken in Noord-Duitsland worden verhoogd vanwege het toenemende risico op overstromingen. De zeespiegel stijgt. Nederland en België zoeken naar extra oplossingen.",
+                    "_compare_azure/gpt-4-vision_nl": "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> De dijken in het noorden van Duitsland worden verhoogd vanwege het toenemende overstromingsgevaar. De zeespiegel stijgt. Nederland en België zoeken naar aanvullende oplossingen",
+                    "_compare_gcp/gemini-1.5-pro_nl": "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> De dijken in het noorden van Duitsland worden verhoogd vanwege het toenemende overstromingsgevaar. De zeespiegel stijgt. Nederland en België zoeken naar aanvullende oplossingen",
+                    "_compare_aws/claude-3.5-sonnet_nl": "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> De dijken in het noorden van Duitsland worden verhoogd vanwege het toenemende overstromingsgevaar. De zeespiegel stijgt. Nederland en België zoeken naar aanvullende oplossingen",
+                    "_unique_translations_back_nl": [
+                        "<img width=250 src=https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg> Die Deiche in Norddeutschland werden aufgrund des zunehmenden Überschwemmungsrisikos erhöht. Der Meeresspiegel steigt. Die Niederlande und Belgien suchen nach zusätzlichen Lösungen",
+                        "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> Die Deiche in Norddeutschland werden aufgrund des zunehmenden Überschwemmungsrisikos erhöht. Der Meeresspiegel steigt. Die Niederlande und Belgien suchen nach zusätzlichen Lösungen"
+                    ],
+                    "_azure/gpt-4-vision_pl": "<img width=250 src=https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg><br>W północnych Niemczech podwyższa się wały przeciwpowodziowe z powodu rosnącego ryzyka powodzi. Poziom morza podnosi się. Holandia i Belgia szukają dodatkowych rozwiązań.",
+                    "_gcp/gemini-1.5-pro_pl": "<img width=250  src=https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg><br>Wały przeciwpowodziowe w północnych Niemczech są podwyższane z powodu rosnącego zagrożenia powodziami. Poziom morza się podnosi. Holandia i Belgia szukają dodatkowych rozwiązań. \n",
+                    "_compare_azure/gpt-4-vision_pl": "<img width=250 src=https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg> W północnych Niemczech podwyższa się wały przeciwpowodziowe z powodu rosnącego ryzyka powodzi. Poziom morza podnosi się. Holandia i Belgia szukają dodatkowych rozwiązań",
+                    "_compare_gcp/gemini-1.5-pro_pl": "<img width=250 src=https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg> Wały przeciwpowodziowe w północnych Niemczech są podwyższane z powodu rosnącego zagrożenia powodziami. Poziom morza się podnosi. Holandia i Belgia szukają dodatkowych rozwiązań",
+                    "_compare_aws/claude-3.5-sonnet_pl": "<img width=250 src=https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg> W północnych Niemczech podwyższa się wały przeciwpowodziowe z powodu rosnącego ryzyka powodzi. Poziom morza podnosi się. Holandia i Belgia szukają dodatkowych rozwiązań",
+                    "_unique_translations_back_pl": [
+                        "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> Deiche in Norddeutschland werden aufgrund des steigenden Hochwasserrisikos erhöht. Der Meeresspiegel steigt. Die Niederlande und Belgien suchen nach zusätzlichen Lösungen",
+                        "<img width=250 src=https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg> In Norddeutschland werden die Deiche aufgrund des steigenden Hochwasserrisikos erhöht. Der Meeresspiegel steigt. Die Niederlande und Belgien suchen nach zusätzlichen Lösungen"
+                    ],
+                    "_azure/gpt-4-vision_ro": "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"><br>Digurile din nordul Germaniei sunt înălțate din cauza creșterii riscului de inundații. Nivelul mării se ridică. Olanda și Belgia caută soluții suplimentare.",
+                    "_gcp/gemini-1.5-pro_ro": "<img width=250  src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"><br>Digurile din nordul Germaniei sunt ridicate din cauza creșterii riscului de inundații. Nivelul mării este în creștere. Olanda și Belgia caută soluții suplimentare. \n",
+                    "_compare_azure/gpt-4-vision_ro": "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> Digurile din nordul Germaniei sunt ridicate din cauza creșterii riscului de inundații. Nivelul mării este în creștere. Olanda și Belgia caută soluții suplimentare",
+                    "_compare_gcp/gemini-1.5-pro_ro": "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> Digurile din nordul Germaniei sunt înălțate din cauza creșterii riscului de inundații. Nivelul mării se ridică. Olanda și Belgia caută soluții suplimentare",
+                    "_compare_aws/claude-3.5-sonnet_ro": "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> Digurile din nordul Germaniei sunt înălțate din cauza creșterii riscului de inundații. Nivelul mării se ridică. Olanda și Belgia caută soluții suplimentare",
+                    "_unique_translations_back_ro": [
+                        "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> Die Deiche in Norddeutschland werden aufgrund des zunehmenden Überschwemmungsrisikos erhöht. Der Meeresspiegel steigt. Die Niederlande und Belgien suchen nach zusätzlichen Lösungen",
+                        "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> Die Deiche in Norddeutschland werden aufgrund des zunehmenden Überschwemmungsrisikos erhöht. Der Meeresspiegel steigt. Die Niederlande und Belgien suchen nach zusätzlichen Lösungen"
+                    ],
+                    "_azure/gpt-4-vision_ru": "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"><br>Дамбы на севере Германии увеличиваются из-за растущей угрозы наводнений. Уровень моря поднимается. Нидерланды и Бельгия ищут дополнительные решения.",
+                    "_gcp/gemini-1.5-pro_ru": "<img width=250  src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"><br>Дамбы на севере Германии поднимаются в связи с повышением риска наводнений. Уровень моря повышается. Нидерланды и Бельгия ищут дополнительные решения. \n",
+                    "_compare_azure/gpt-4-vision_ru": "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> Дамбы на севере Германии поднимаются в связи с повышением риска наводнений. Уровень моря повышается. Нидерланды и Бельгия ищут дополнительные решения",
+                    "_compare_gcp/gemini-1.5-pro_ru": "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> Дамбы на севере Германии поднимаются в связи с повышением риска наводнений. Уровень моря повышается. Нидерланды и Бельгия ищут дополнительные решения",
+                    "_compare_aws/claude-3.5-sonnet_ru": "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> Дамбы на севере Германии поднимаются в связи с повышением риска наводнений. Уровень моря повышается. Нидерланды и Бельгия ищут дополнительные решения",
+                    "_unique_translations_back_ru": [
+                        "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> Die Deiche in Norddeutschland werden aufgrund des zunehmenden Hochwasserrisikos erhöht. Der Meeresspiegel steigt. Die Niederlande und Belgien suchen nach zusätzlichen Lösungen",
+                        "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> Deiche im Norden Deutschlands werden aufgrund des zunehmenden Hochwasserrisikos erhöht. Der Meeresspiegel steigt. Die Niederlande und Belgien suchen nach zusätzlichen Lösungen"
+                    ],
+                    "_azure/gpt-4-vision_sk": "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"><br>Hrádze na severe Nemecka sa zvyšujú kvôli rastúcemu riziku povodní. Hladina mora stúpa. Holandsko a Belgicko hľadajú ďalšie riešenia.",
+                    "_gcp/gemini-1.5-pro_sk": "<img width=250  src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"><br>Hrádze v severnom Nemecku sa zvyšujú z dôvodu rastúceho rizika záplav. Hladina mora stúpa. Holandsko a Belgicko hľadajú ďalšie riešenia. \n",
+                    "_compare_azure/gpt-4-vision_sk": "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> Hrádze v severnom Nemecku sa zvyšujú z dôvodu rastúceho rizika záplav. Hladina mora stúpa. Holandsko a Belgicko hľadajú ďalšie riešenia",
+                    "_compare_gcp/gemini-1.5-pro_sk": "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> Hrádze v severnom Nemecku sa zvyšujú z dôvodu rastúceho rizika záplav. Hladina mora stúpa. Holandsko a Belgicko hľadajú ďalšie riešenia",
+                    "_compare_aws/claude-3.5-sonnet_sk": "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> Hrádze na severe Nemecka sa zvyšujú kvôli rastúcemu riziku povodní. Hladina mora stúpa. Holandsko a Belgicko hľadajú ďalšie riešenia",
+                    "_unique_translations_back_sk": [
+                        "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> Die Deiche in Norddeutschland werden aufgrund des zunehmenden Überschwemmungsrisikos erhöht. Der Meeresspiegel steigt. Die Niederlande und Belgien suchen nach zusätzlichen Lösungen",
+                        "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> Die Deiche in Norddeutschland werden aufgrund des zunehmenden Überschwemmungsrisikos erhöht. Der Meeresspiegel steigt. Die Niederlande und Belgien suchen nach zusätzlichen Lösungen"
+                    ],
+                    "_azure/gpt-4-vision_sl": "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"><br>Na severu Nemčije se zaradi naraščajoče nevarnosti poplav dvigujejo nasipi. Morska gladina se dviga. Nizozemska in Belgija iščeta dodatne rešitve.",
+                    "_gcp/gemini-1.5-pro_sl": "<img width=250  src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"><br>Nasipi na severu Nemčije se zaradi vse večje nevarnosti poplav zvišujejo. Morska gladina se dviguje. Nizozemska in Belgija iščeta dodatne rešitve. \n",
+                    "_compare_azure/gpt-4-vision_sl": "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> Na severu Nemčije se zaradi naraščajoče nevarnosti poplav dvigujejo nasipi. Morska gladina se dviga. Nizozemska in Belgija iščeta dodatne rešitve",
+                    "_compare_gcp/gemini-1.5-pro_sl": "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> Nasipi na severu Nemčije se zaradi vse večje nevarnosti poplav zvišujejo. Morska gladina se dviguje. Nizozemska in Belgija iščeta dodatne rešitve",
+                    "_compare_aws/claude-3.5-sonnet_sl": "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> Na severu Nemčije se zaradi naraščajoče nevarnosti poplav dvigujejo nasipi. Morska gladina se dviga. Nizozemska in Belgija iščeta dodatne rešitve",
+                    "_unique_translations_back_sl": [
+                        "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> Die Deiche in Norddeutschland werden aufgrund des zunehmenden Überschwemmungsrisikos erhöht. Der Meeresspiegel steigt. Die Niederlande und Belgien suchen nach zusätzlichen Lösungen",
+                        "<img width=250 src=\\https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\\> Im Norden Deutschlands werden die Deiche aufgrund der zunehmenden Gefahr von Überschwemmungen erhöht. Der Meeresspiegel steigt. Die Niederlande und Belgien suchen nach zusätzlichen Lösungen"
+                    ],
+                    "_azure/gpt-4-vision_zh": "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"><br>由于洪水风险的增加，德国北部的堤坝正在被提高。海平面正在上升。荷兰和比利时正在寻找额外的解决方案。",
+                    "_gcp/gemini-1.5-pro_zh": "<img width=250  src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"><br>由于洪水风险增加，德国北部的堤坝正在加高。海平面正在上升。荷兰和比利时正在寻求更多解决方案。 \n",
+                    "_compare_azure/gpt-4-vision_zh": "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> 由于洪水风险的增加，德国北部的堤坝正在被提高。海平面正在上升。荷兰和比利时正在寻找额外的解决方案。",
+                    "_compare_gcp/gemini-1.5-pro_zh": "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> 由于洪水风险增加，德国北部的堤坝正在加高。海平面正在上升。荷兰和比利时正在寻求更多解决方案。",
+                    "_compare_aws/claude-3.5-sonnet_zh": "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> 由于洪水风险的增加，德国北部的堤坝正在被提高。海平面正在上升。荷兰和比利时正在寻找额外的解决方案。",
+                    "_unique_translations_back_zh": [
+                        "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> Aufgrund des zunehmenden Hochwasserrisikos werden die Deiche in Norddeutschland erhöht. Der Meeresspiegel steigt. Die Niederlande und Belgien suchen nach zusätzlichen Lösungen",
+                        "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> Aufgrund des zunehmenden Hochwasserrisikos werden die Deiche in Norddeutschland erhöht. Der Meeresspiegel steigt. Die Niederlande und Belgien suchen nach zusätzlichen Lösungen"
                     ]
                 }
             }

@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <style>
+        @page {
+            size: A4 landscape;
+        }
+    </style>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-family: verdana, serif;
+            font-size:12px;
+            border: 1px solid white;
+            transform: scale(0.3);
+            transform-origin: top left;
+        }
+        th, td {
+            border-bottom:3px solid white;
+            border-right:3px solid white;
+            padding: 15px;
+            text-align: left;
+        }
+        th {
+            background-color: darkgray;
+        }
+        td {
+            background-color: lightgray;
+        }
+        .endtd {
+            border-right: 3px solid darkgray;
+        }
+        .translate {
+            background-color: lightblue;
+        }
+        .back-translate {
+            background-color: lightgrey;
+        }
+        .winner {
+            background-color: lightpink;
+        }
+        .compare {
+            background-color: lightsteelblue;
+        }
+        .source {
+            background-color: palegoldenrod;
+        }
+        .empty {
+            background-color: lightgrey;
+        }
+        .sources {
+            font-weight: bold;
+            font-size: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>01_voting_results_4j.json</h1>
+    <table>
+        <thead>
+            <tr>
+                
+                    <th>source text</th>
+                
+                    <th>--- 0 ---</th>
+                
+                    <th></th>
+                
+                    <th>--- 1 ---</th>
+                
+                    <th></th>
+                
+                    <th>azure/gpt-4-vision</th>
+                
+                    <th>gcp/gemini-1.5-pro</th>
+                
+                    <th>aws/claude-3.5-sonnet</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            
+                <tr>
+                    <td class="endtd source">Die Ergebnisse sind da!</td>
+
+
+                    <td class="translate"><span style = 'color: black;'>  Резултатите</span> <span style = 'color: black;'>  са</span> <span style = 'color: red; font-weight: bold;'> готови!</span><br><span class="sources">gcp/gemini-1.5-pro</span></td>
+                    <td class="back-translate"><span style = 'color: black;'>  Die</span> <span style = 'color: black;'>  Ergebnisse</span> <span style = 'color: black;'>  sind</span> <span style = 'color: black;'>  da!</span></td>
+
+
+
+                    <td class="winner"><span style = 'color: black;'>  Резултатите</span> <span style = 'color: black;'>  са</span> <span style = 'color: red; font-weight: bold;'> тук!</span><br><span class="sources">azure/gpt-4-vision</span></td>
+                    <td class="back-translate"><span style = 'color: black;'>  Die</span> <span style = 'color: black;'>  Ergebnisse</span> <span style = 'color: black;'>  sind</span> <span style = 'color: black;'>  da!</span></td>
+
+
+
+                    <td class="compare">2</td>
+
+                    <td class="compare">1</td>
+
+                    <td class="compare">2</td>
+
+                </tr>
+            
+                <tr>
+                    <td class="endtd source">Strom aus 100% erneuerbaren Energiequellen</td>
+
+
+                    <td class="winner">Електричество от 100% възобновяеми енергийни източници<br><span class="sources">azure/gpt-4-vision, gcp/gemini-1.5-pro</span></td>
+                    <td class="back-translate"><span style = 'color: black;'>  Strom</span> <span style = 'color: black;'>  aus</span> <span style = 'color: black;'>  100%</span> <span style = 'color: black;'>  erneuerbaren</span> <span style = 'color: black;'>  Energiequellen</span></td>
+
+
+
+                    <td class="empty"></td>
+                    <td class="empty"></td>
+
+
+
+                    <td class="compare">1</td>
+
+                    <td class="compare">1</td>
+
+                    <td class="compare">1</td>
+
+                </tr>
+            
+                <tr>
+                    <td class="endtd source">Die Ergebnisse sind da!</td>
+
+
+                    <td class="translate"><span style = 'color: black;'>  Резултатите</span> <span style = 'color: black;'>  са</span> <span style = 'color: red; font-weight: bold;'> готови!</span><br><span class="sources">gcp/gemini-1.5-pro</span></td>
+                    <td class="back-translate"><span style = 'color: black;'>  Die</span> <span style = 'color: black;'>  Ergebnisse</span> <span style = 'color: black;'>  sind</span> <span style = 'color: black;'>  da!</span></td>
+
+
+
+                    <td class="winner"><span style = 'color: black;'>  Резултатите</span> <span style = 'color: black;'>  са</span> <span style = 'color: red; font-weight: bold;'> тук!</span><br><span class="sources">azure/gpt-4-vision</span></td>
+                    <td class="back-translate"><span style = 'color: black;'>  Die</span> <span style = 'color: black;'>  Ergebnisse</span> <span style = 'color: black;'>  sind</span> <span style = 'color: black;'>  da!</span></td>
+
+
+
+                    <td class="compare">2</td>
+
+                    <td class="compare">1</td>
+
+                    <td class="compare">2</td>
+
+                </tr>
+            
+                <tr>
+                    <td class="endtd source">Bei der letzten Wahl wurde für die Erhöhung der CO₂-Steuer gestimmt.<br>Sie ist deshalb um 25€ gestiegen!</td>
+
+
+                    <td class="translate"><span style = 'color: black;'>  На</span> <span style = 'color: black;'>  последните</span> <span style = 'color: black;'>  избори</span> <span style = 'color: black;'>  беше</span> <span style = 'color: black;'>  гласувано</span> <span style = 'color: black;'>  за</span> <span style = 'color: black;'>  увеличение</span> <span style = 'color: black;'>  на</span> <span style = 'color: black;'>  данъка</span> <span style = 'color: black;'>  върху</span> <span style = 'color: black;'>  CO₂.</span> <span style = 'color: red; font-weight: bold;'> Затова</span> <span style = 'color: black;'>  той</span> <span style = 'color: black;'>  се</span> <span style = 'color: red; font-weight: bold;'> увеличи</span> <span style = 'color: black;'>  с</span> <span style = 'color: black;'>  25</span> <span style = 'color: black;'>  евро!</span><br><span class="sources">azure/gpt-4-vision</span></td>
+                    <td class="back-translate"><span style = 'color: black;'>  Bei</span> <span style = 'color: black;'>  der</span> <span style = 'color: black;'>  letzten</span> <span style = 'color: black;'>  Wahl</span> <span style = 'color: black;'>  wurde</span> <span style = 'color: black;'>  für</span> <span style = 'color: red; font-weight: bold;'> eine</span> <span style = 'color: black;'>  Erhöhung</span> <span style = 'color: black;'>  der</span> <span style = 'color: black;'>  CO₂-Steuer</span> <span style = 'color: black;'>  gestimmt.</span> <span style = 'color: black;'>  Sie</span> <span style = 'color: black;'>  ist</span> <span style = 'color: red; font-weight: bold;'> daher</span> <span style = 'color: black;'>  um</span> <span style = 'color: red; font-weight: bold;'> 25</span> <span style = 'color: red; font-weight: bold;'> Euro</span> <span style = 'color: black;'>  gestiegen!</span></td>
+
+
+
+                    <td class="winner"><span style = 'color: black;'>  На</span> <span style = 'color: black;'>  последните</span> <span style = 'color: black;'>  избори</span> <span style = 'color: black;'>  беше</span> <span style = 'color: black;'>  гласувано</span> <span style = 'color: black;'>  за</span> <span style = 'color: black;'>  увеличение</span> <span style = 'color: black;'>  на</span> <span style = 'color: black;'>  данъка</span> <span style = 'color: black;'>  върху</span> <span style = 'color: black;'>  CO₂.</span> <span style = 'color: red; font-weight: bold;'> Поради</span> <span style = 'color: red; font-weight: bold;'> това</span> <span style = 'color: black;'>  той</span> <span style = 'color: black;'>  се</span> <span style = 'color: red; font-weight: bold;'> е</span> <span style = 'color: red; font-weight: bold;'> увеличил</span> <span style = 'color: black;'>  с</span> <span style = 'color: black;'>  25</span> <span style = 'color: black;'>  евро!</span><br><span class="sources">gcp/gemini-1.5-pro</span></td>
+                    <td class="back-translate"><span style = 'color: black;'>  Bei</span> <span style = 'color: black;'>  der</span> <span style = 'color: black;'>  letzten</span> <span style = 'color: black;'>  Wahl</span> <span style = 'color: black;'>  wurde</span> <span style = 'color: black;'>  für</span> <span style = 'color: red; font-weight: bold;'> eine</span> <span style = 'color: black;'>  Erhöhung</span> <span style = 'color: black;'>  der</span> <span style = 'color: black;'>  CO₂-Steuer</span> <span style = 'color: black;'>  gestimmt.</span> <span style = 'color: black;'>  Sie</span> <span style = 'color: black;'>  ist</span> <span style = 'color: red; font-weight: bold;'> daher</span> <span style = 'color: black;'>  um</span> <span style = 'color: red; font-weight: bold;'> 25</span> <span style = 'color: red; font-weight: bold;'> Euro</span> <span style = 'color: black;'>  gestiegen!</span></td>
+
+
+
+                    <td class="compare">2</td>
+
+                    <td class="compare">1</td>
+
+                    <td class="compare">2</td>
+
+                </tr>
+            
+                <tr>
+                    <td class="endtd source">Die Ergebnisse sind da!</td>
+
+
+                    <td class="translate"><span style = 'color: black;'>  Резултатите</span> <span style = 'color: black;'>  са</span> <span style = 'color: red; font-weight: bold;'> готови!</span><br><span class="sources">gcp/gemini-1.5-pro</span></td>
+                    <td class="back-translate"><span style = 'color: black;'>  Die</span> <span style = 'color: black;'>  Ergebnisse</span> <span style = 'color: black;'>  sind</span> <span style = 'color: black;'>  da!</span></td>
+
+
+
+                    <td class="winner"><span style = 'color: black;'>  Резултатите</span> <span style = 'color: black;'>  са</span> <span style = 'color: red; font-weight: bold;'> тук!</span><br><span class="sources">azure/gpt-4-vision</span></td>
+                    <td class="back-translate"><span style = 'color: black;'>  Die</span> <span style = 'color: black;'>  Ergebnisse</span> <span style = 'color: black;'>  sind</span> <span style = 'color: black;'>  da!</span></td>
+
+
+
+                    <td class="compare">2</td>
+
+                    <td class="compare">1</td>
+
+                    <td class="compare">2</td>
+
+                </tr>
+            
+                <tr>
+                    <td class="endtd source">Bei der letzten Wahl wurde für die Verringerung der CO₂-Steuer gestimmt.<br>Sie ist deshalb um 25€ gesunken!</td>
+
+
+                    <td class="translate"><span style = 'color: black;'>  На</span> <span style = 'color: black;'>  последните</span> <span style = 'color: black;'>  избори</span> <span style = 'color: black;'>  беше</span> <span style = 'color: black;'>  гласувано</span> <span style = 'color: black;'>  за</span> <span style = 'color: black;'>  намаляване</span> <span style = 'color: black;'>  на</span> <span style = 'color: black;'>  данъка</span> <span style = 'color: black;'>  върху</span> <span style = 'color: black;'>  CO₂.</span> <span style = 'color: red; font-weight: bold;'> Затова</span> <span style = 'color: black;'>  той</span> <span style = 'color: red; font-weight: bold;'> намаля</span> <span style = 'color: black;'>  с</span> <span style = 'color: black;'>  25</span> <span style = 'color: black;'>  евро!</span><br><span class="sources">azure/gpt-4-vision</span></td>
+                    <td class="back-translate"><span style = 'color: black;'>  Bei</span> <span style = 'color: black;'>  der</span> <span style = 'color: black;'>  letzten</span> <span style = 'color: black;'>  Wahl</span> <span style = 'color: black;'>  wurde</span> <span style = 'color: black;'>  für</span> <span style = 'color: red; font-weight: bold;'> eine</span> <span style = 'color: red; font-weight: bold;'> Senkung</span> <span style = 'color: black;'>  der</span> <span style = 'color: black;'>  CO₂-Steuer</span> <span style = 'color: black;'>  gestimmt.</span> <span style = 'color: black;'>  Sie</span> <span style = 'color: black;'>  ist</span> <span style = 'color: red; font-weight: bold;'> daher</span> <span style = 'color: black;'>  um</span> <span style = 'color: red; font-weight: bold;'> 25</span> <span style = 'color: red; font-weight: bold;'> Euro</span> <span style = 'color: black;'>  gesunken!</span></td>
+
+
+
+                    <td class="winner"><span style = 'color: black;'>  На</span> <span style = 'color: black;'>  последните</span> <span style = 'color: black;'>  избори</span> <span style = 'color: black;'>  беше</span> <span style = 'color: black;'>  гласувано</span> <span style = 'color: black;'>  за</span> <span style = 'color: black;'>  намаляване</span> <span style = 'color: black;'>  на</span> <span style = 'color: black;'>  данъка</span> <span style = 'color: black;'>  върху</span> <span style = 'color: black;'>  CO₂.</span> <span style = 'color: red; font-weight: bold;'> Поради</span> <span style = 'color: red; font-weight: bold;'> това</span> <span style = 'color: black;'>  той</span> <span style = 'color: red; font-weight: bold;'> е</span> <span style = 'color: red; font-weight: bold;'> намалял</span> <span style = 'color: black;'>  с</span> <span style = 'color: black;'>  25</span> <span style = 'color: black;'>  евро!</span><br><span class="sources">gcp/gemini-1.5-pro</span></td>
+                    <td class="back-translate"><span style = 'color: black;'>  Bei</span> <span style = 'color: black;'>  der</span> <span style = 'color: black;'>  letzten</span> <span style = 'color: black;'>  Wahl</span> <span style = 'color: black;'>  wurde</span> <span style = 'color: black;'>  für</span> <span style = 'color: red; font-weight: bold;'> eine</span> <span style = 'color: red; font-weight: bold;'> Senkung</span> <span style = 'color: black;'>  der</span> <span style = 'color: black;'>  CO₂-Steuer</span> <span style = 'color: black;'>  gestimmt.</span> <span style = 'color: black;'>  Sie</span> <span style = 'color: black;'>  ist</span> <span style = 'color: red; font-weight: bold;'> daher</span> <span style = 'color: black;'>  um</span> <span style = 'color: red; font-weight: bold;'> 25</span> <span style = 'color: red; font-weight: bold;'> Euro</span> <span style = 'color: black;'>  gesunken!</span></td>
+
+
+
+                    <td class="compare">2</td>
+
+                    <td class="compare">1</td>
+
+                    <td class="compare">2</td>
+
+                </tr>
+            
+                <tr>
+                    <td class="endtd source">Die Ergebnisse sind da!</td>
+
+
+                    <td class="translate"><span style = 'color: black;'>  Резултатите</span> <span style = 'color: black;'>  са</span> <span style = 'color: red; font-weight: bold;'> готови!</span><br><span class="sources">gcp/gemini-1.5-pro</span></td>
+                    <td class="back-translate"><span style = 'color: black;'>  Die</span> <span style = 'color: black;'>  Ergebnisse</span> <span style = 'color: black;'>  sind</span> <span style = 'color: black;'>  da!</span></td>
+
+
+
+                    <td class="winner"><span style = 'color: black;'>  Резултатите</span> <span style = 'color: black;'>  са</span> <span style = 'color: red; font-weight: bold;'> тук!</span><br><span class="sources">azure/gpt-4-vision</span></td>
+                    <td class="back-translate"><span style = 'color: black;'>  Die</span> <span style = 'color: black;'>  Ergebnisse</span> <span style = 'color: black;'>  sind</span> <span style = 'color: black;'>  da!</span></td>
+
+
+
+                    <td class="compare">2</td>
+
+                    <td class="compare">1</td>
+
+                    <td class="compare">2</td>
+
+                </tr>
+            
+                <tr>
+                    <td class="endtd source">Bei der letzten Wahl wurde für das Gleichbleiben der CO₂-Steuer gestimmt.<br>Sie bleibt deshalb unverändert!</td>
+
+
+                    <td class="translate"><span style = 'color: black;'>  На</span> <span style = 'color: black;'>  последните</span> <span style = 'color: black;'>  избори</span> <span style = 'color: black;'>  беше</span> <span style = 'color: black;'>  гласувано</span> <span style = 'color: black;'>  CO₂</span> <span style = 'color: red; font-weight: bold;'> данъкът</span> <span style = 'color: red; font-weight: bold;'> да</span> <span style = 'color: red; font-weight: bold;'> остане</span> <span style = 'color: red; font-weight: bold;'> същият.</span> <span style = 'color: red; font-weight: bold;'> Затова</span> <span style = 'color: black;'>  той</span> <span style = 'color: black;'>  остава</span> <span style = 'color: black;'>  непроменен!</span><br><span class="sources">azure/gpt-4-vision</span></td>
+                    <td class="back-translate"><span style = 'color: black;'>  Bei</span> <span style = 'color: black;'>  der</span> <span style = 'color: black;'>  letzten</span> <span style = 'color: black;'>  Wahl</span> <span style = 'color: black;'>  wurde</span> <span style = 'color: red; font-weight: bold;'> dafür</span> <span style = 'color: red; font-weight: bold;'> gestimmt,</span> <span style = 'color: red; font-weight: bold;'> dass</span> <span style = 'color: red; font-weight: bold;'> die</span> <span style = 'color: black;'>  CO₂-Steuer</span> <span style = 'color: red; font-weight: bold;'> unverändert</span> <span style = 'color: red; font-weight: bold;'> bleibt.</span> <span style = 'color: black;'>  Sie</span> <span style = 'color: black;'>  bleibt</span> <span style = 'color: red; font-weight: bold;'> daher</span> <span style = 'color: black;'>  unverändert!</span></td>
+
+
+
+                    <td class="winner"><span style = 'color: black;'>  На</span> <span style = 'color: black;'>  последните</span> <span style = 'color: black;'>  избори</span> <span style = 'color: black;'>  беше</span> <span style = 'color: black;'>  гласувано</span> <span style = 'color: red; font-weight: bold;'> за</span> <span style = 'color: red; font-weight: bold;'> запазване</span> <span style = 'color: red; font-weight: bold;'> на</span> <span style = 'color: black;'>  CO₂</span> <span style = 'color: red; font-weight: bold;'> данъка.</span> <span style = 'color: red; font-weight: bold;'> Поради</span> <span style = 'color: red; font-weight: bold;'> това</span> <span style = 'color: black;'>  той</span> <span style = 'color: black;'>  остава</span> <span style = 'color: black;'>  непроменен!</span><br><span class="sources">gcp/gemini-1.5-pro</span></td>
+                    <td class="back-translate"><span style = 'color: black;'>  Bei</span> <span style = 'color: black;'>  der</span> <span style = 'color: black;'>  letzten</span> <span style = 'color: black;'>  Wahl</span> <span style = 'color: black;'>  wurde</span> <span style = 'color: red; font-weight: bold;'> dafür</span> <span style = 'color: red; font-weight: bold;'> gestimmt,</span> <span style = 'color: red; font-weight: bold;'> die</span> <span style = 'color: black;'>  CO₂-Steuer</span> <span style = 'color: red; font-weight: bold;'> beizubehalten.</span> <span style = 'color: black;'>  Sie</span> <span style = 'color: black;'>  bleibt</span> <span style = 'color: red; font-weight: bold;'> daher</span> <span style = 'color: black;'>  unverändert!</span></td>
+
+
+
+                    <td class="compare">1</td>
+
+                    <td class="compare">2</td>
+
+                    <td class="compare">2</td>
+
+                </tr>
+            
+        </tbody>
+    </table>
+</body>
+</html>

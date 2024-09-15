@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <style>
+        @page {
+            size: A4 landscape;
+        }
+    </style>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-family: verdana, serif;
+            font-size:12px;
+            border: 1px solid white;
+            transform: scale(0.3);
+            transform-origin: top left;
+        }
+        th, td {
+            border-bottom:3px solid white;
+            border-right:3px solid white;
+            padding: 15px;
+            text-align: left;
+        }
+        th {
+            background-color: darkgray;
+        }
+        td {
+            background-color: lightgray;
+        }
+        .endtd {
+            border-right: 3px solid darkgray;
+        }
+        .translate {
+            background-color: lightblue;
+        }
+        .back-translate {
+            background-color: lightgrey;
+        }
+        .winner {
+            background-color: lightpink;
+        }
+        .compare {
+            background-color: lightsteelblue;
+        }
+        .source {
+            background-color: palegoldenrod;
+        }
+        .empty {
+            background-color: lightgrey;
+        }
+        .sources {
+            font-weight: bold;
+            font-size: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>10_corals_extinct.json</h1>
+    <table>
+        <thead>
+            <tr>
+                
+                    <th>source text</th>
+                
+                    <th>--- 0 ---</th>
+                
+                    <th></th>
+                
+                    <th>--- 1 ---</th>
+                
+                    <th></th>
+                
+                    <th>azure/gpt-4-vision</th>
+                
+                    <th>gcp/gemini-1.5-pro</th>
+                
+                    <th>aws/claude-3.5-sonnet</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            
+                <tr>
+                    <td class="endtd source">Die Welt ist nach dem massiven Aussterben der Korallenriffe verwundbar</td>
+
+
+                    <td class="winner"><span style = 'color: black;'>  Le</span> <span style = 'color: black;'>  monde</span> <span style = 'color: black;'>  est</span> <span style = 'color: red; font-weight: bold;'> laissé</span> <span style = 'color: black;'>  vulnérable</span> <span style = 'color: black;'>  après</span> <span style = 'color: black;'>  l'extinction</span> <span style = 'color: black;'>  massive</span> <span style = 'color: black;'>  des</span> <span style = 'color: black;'>  récifs</span> <span style = 'color: black;'>  coralliens</span><br><span class="sources">gcp/gemini-1.5-pro</span></td>
+                    <td class="back-translate"><span style = 'color: black;'>  Die</span> <span style = 'color: black;'>  Welt</span> <span style = 'color: black;'>  ist</span> <span style = 'color: black;'>  nach</span> <span style = 'color: black;'>  dem</span> <span style = 'color: black;'>  massiven</span> <span style = 'color: black;'>  Aussterben</span> <span style = 'color: black;'>  der</span> <span style = 'color: black;'>  Korallenriffe</span> <span style = 'color: black;'>  verwundbar</span></td>
+
+
+
+                    <td class="translate"><span style = 'color: black;'>  Le</span> <span style = 'color: black;'>  monde</span> <span style = 'color: black;'>  est</span> <span style = 'color: black;'>  vulnérable</span> <span style = 'color: black;'>  après</span> <span style = 'color: black;'>  l'extinction</span> <span style = 'color: black;'>  massive</span> <span style = 'color: black;'>  des</span> <span style = 'color: black;'>  récifs</span> <span style = 'color: black;'>  coralliens</span><br><span class="sources">azure/gpt-4-vision</span></td>
+                    <td class="back-translate"><span style = 'color: black;'>  Die</span> <span style = 'color: black;'>  Welt</span> <span style = 'color: black;'>  ist</span> <span style = 'color: black;'>  nach</span> <span style = 'color: black;'>  dem</span> <span style = 'color: black;'>  massiven</span> <span style = 'color: black;'>  Aussterben</span> <span style = 'color: black;'>  der</span> <span style = 'color: black;'>  Korallenriffe</span> <span style = 'color: black;'>  verwundbar</span></td>
+
+
+
+                    <td class="compare">1</td>
+
+                    <td class="compare">1</td>
+
+                    <td class="compare">1</td>
+
+                </tr>
+            
+                <tr>
+                    <td class="endtd source"><img width=250  src="https://www.coralgardening.org/nl/files/2016/05/coralbleaching.jpg"><br> Beinahe alle Korallenriffe der Welt sind durch Korallenbleiche ausgestorben. Wenn das Wasser zu warm ist, stoßen die Korallen die in ihrem Gewebe lebenden Algen (Zooxanthellen) aus, so dass die Koralle ganz weiß wird. Korallen können ein Bleichereignis überleben, aber sie stehen unter größerem Stress und sind einer erhöhten Sterblichkeit ausgesetzt. Korallenriffe bieten Schutz vor Überschwemmungen und der Erosion von Küstenlinien. Wenn sie verschwinden, wird es zu einer raschen Erosion der Küsten kommen, und viele kleine Inselstaaten würden von der Weltkarte verschwinden.</td>
+
+
+                    <td class="translate"><img src="https://www.coralgardening.org/nl/files/2016/05/coralbleaching.jpg" width="250"/> <span style = 'color: black;'>  Presque</span> <span style = 'color: black;'>  tous</span> <span style = 'color: black;'>  les</span> <span style = 'color: black;'>  récifs</span> <span style = 'color: black;'>  coralliens</span> <span style = 'color: red; font-weight: bold;'> du</span> <span style = 'color: black;'>  monde</span> <span style = 'color: red; font-weight: bold;'> ont</span> <span style = 'color: red; font-weight: bold;'> disparu</span> <span style = 'color: black;'>  en</span> <span style = 'color: black;'>  raison</span> <span style = 'color: black;'>  du</span> <span style = 'color: black;'>  blanchissement</span> <span style = 'color: black;'>  des</span> <span style = 'color: black;'>  coraux.</span> <span style = 'color: black;'>  Lorsque</span> <span style = 'color: black;'>  l'eau</span> <span style = 'color: red; font-weight: bold;'> est</span> <span style = 'color: black;'>  trop</span> <span style = 'color: black;'>  chaude,</span> <span style = 'color: black;'>  les</span> <span style = 'color: black;'>  coraux</span> <span style = 'color: black;'>  expulsent</span> <span style = 'color: black;'>  les</span> <span style = 'color: black;'>  algues</span> <span style = 'color: black;'>  (zooxanthelles)</span> <span style = 'color: black;'>  qui</span> <span style = 'color: black;'>  vivent</span> <span style = 'color: black;'>  dans</span> <span style = 'color: black;'>  leurs</span> <span style = 'color: black;'>  tissus,</span> <span style = 'color: black;'>  ce</span> <span style = 'color: black;'>  qui</span> <span style = 'color: red; font-weight: bold;'> rend</span> <span style = 'color: black;'>  le</span> <span style = 'color: red; font-weight: bold;'> corail</span> <span style = 'color: red; font-weight: bold;'> complètement</span> <span style = 'color: red; font-weight: bold;'> blanc.</span> <span style = 'color: black;'>  Les</span> <span style = 'color: black;'>  coraux</span> <span style = 'color: black;'>  peuvent</span> <span style = 'color: black;'>  survivre</span> <span style = 'color: black;'>  à</span> <span style = 'color: black;'>  un</span> <span style = 'color: black;'>  épisode</span> <span style = 'color: black;'>  de</span> <span style = 'color: black;'>  blanchissement,</span> <span style = 'color: black;'>  mais</span> <span style = 'color: black;'>  ils</span> <span style = 'color: red; font-weight: bold;'> sont</span> <span style = 'color: black;'>  davantage</span> <span style = 'color: red; font-weight: bold;'> stressés</span> <span style = 'color: black;'>  et</span> <span style = 'color: red; font-weight: bold;'> exposés</span> <span style = 'color: red; font-weight: bold;'> à</span> <span style = 'color: red; font-weight: bold;'> une</span> <span style = 'color: red; font-weight: bold;'> mortalité</span> <span style = 'color: red; font-weight: bold;'> accrue.</span> <span style = 'color: black;'>  Les</span> <span style = 'color: black;'>  récifs</span> <span style = 'color: black;'>  coralliens</span> <span style = 'color: red; font-weight: bold;'> offrent</span> <span style = 'color: black;'>  une</span> <span style = 'color: black;'>  protection</span> <span style = 'color: black;'>  contre</span> <span style = 'color: black;'>  les</span> <span style = 'color: black;'>  inondations</span> <span style = 'color: black;'>  et</span> <span style = 'color: black;'>  l'érosion</span> <span style = 'color: black;'>  des</span> <span style = 'color: black;'>  côtes.</span> <span style = 'color: red; font-weight: bold;'> S'ils</span> <span style = 'color: red; font-weight: bold;'> disparaissent,</span> <span style = 'color: red; font-weight: bold;'> l'érosion</span> <span style = 'color: black;'>  des</span> <span style = 'color: black;'>  côtes</span> <span style = 'color: red; font-weight: bold;'> s'accélérera</span> <span style = 'color: black;'>  et</span> <span style = 'color: black;'>  de</span> <span style = 'color: black;'>  nombreux</span> <span style = 'color: black;'>  petits</span> <span style = 'color: red; font-weight: bold;'> États</span> <span style = 'color: black;'>  insulaires</span> <span style = 'color: black;'>  disparaîtraient</span> <span style = 'color: black;'>  de</span> <span style = 'color: black;'>  la</span> <span style = 'color: black;'>  carte</span> <span style = 'color: black;'>  du</span> <span style = 'color: black;'>  monde</span><br><span class="sources">gcp/gemini-1.5-pro</span></td>
+                    <td class="back-translate"><img src="https://www.coralgardening.org/nl/files/2016/05/coralbleaching.jpg" width="250"/> <span style = 'color: red; font-weight: bold;'> Fast</span> <span style = 'color: black;'>  alle</span> <span style = 'color: black;'>  Korallenriffe</span> <span style = 'color: black;'>  der</span> <span style = 'color: black;'>  Welt</span> <span style = 'color: black;'>  sind</span> <span style = 'color: red; font-weight: bold;'> aufgrund</span> <span style = 'color: red; font-weight: bold;'> der</span> <span style = 'color: black;'>  Korallenbleiche</span> <span style = 'color: red; font-weight: bold;'> verschwunden.</span> <span style = 'color: black;'>  Wenn</span> <span style = 'color: black;'>  das</span> <span style = 'color: black;'>  Wasser</span> <span style = 'color: black;'>  zu</span> <span style = 'color: black;'>  warm</span> <span style = 'color: red; font-weight: bold;'> wird,</span> <span style = 'color: black;'>  stoßen</span> <span style = 'color: black;'>  die</span> <span style = 'color: black;'>  Korallen</span> <span style = 'color: black;'>  die</span> <span style = 'color: black;'>  in</span> <span style = 'color: black;'>  ihrem</span> <span style = 'color: black;'>  Gewebe</span> <span style = 'color: black;'>  lebenden</span> <span style = 'color: black;'>  Algen</span> <span style = 'color: black;'>  (Zooxanthellen)</span> <span style = 'color: red; font-weight: bold;'> ab,</span> <span style = 'color: red; font-weight: bold;'> wodurch</span> <span style = 'color: black;'>  die</span> <span style = 'color: black;'>  Koralle</span> <span style = 'color: red; font-weight: bold;'> vollständig</span> <span style = 'color: black;'>  weiß</span> <span style = 'color: black;'>  wird.</span> <span style = 'color: black;'>  Korallen</span> <span style = 'color: black;'>  können</span> <span style = 'color: red; font-weight: bold;'> eine</span> <span style = 'color: red; font-weight: bold;'> Korallenbleiche</span> <span style = 'color: black;'>  überleben,</span> <span style = 'color: red; font-weight: bold;'> sind</span> <span style = 'color: black;'>  aber</span> <span style = 'color: red; font-weight: bold;'> danach</span> <span style = 'color: red; font-weight: bold;'> stärker</span> <span style = 'color: red; font-weight: bold;'> gestresst</span> <span style = 'color: black;'>  und</span> <span style = 'color: red; font-weight: bold;'> einem</span> <span style = 'color: black;'>  erhöhten</span> <span style = 'color: red; font-weight: bold;'> Sterberisiko</span> <span style = 'color: black;'>  ausgesetzt.</span> <span style = 'color: black;'>  Korallenriffe</span> <span style = 'color: black;'>  bieten</span> <span style = 'color: black;'>  Schutz</span> <span style = 'color: black;'>  vor</span> <span style = 'color: black;'>  Überschwemmungen</span> <span style = 'color: black;'>  und</span> <span style = 'color: red; font-weight: bold;'> Küstenerosion.</span> <span style = 'color: red; font-weight: bold;'> Ohne</span> <span style = 'color: black;'>  sie</span> <span style = 'color: red; font-weight: bold;'> würde</span> <span style = 'color: red; font-weight: bold;'> die</span> <span style = 'color: black;'>  Erosion</span> <span style = 'color: black;'>  der</span> <span style = 'color: black;'>  Küsten</span> <span style = 'color: red; font-weight: bold;'> rasant</span> <span style = 'color: red; font-weight: bold;'> zunehmen</span> <span style = 'color: black;'>  und</span> <span style = 'color: black;'>  viele</span> <span style = 'color: black;'>  kleine</span> <span style = 'color: black;'>  Inselstaaten</span> <span style = 'color: black;'>  würden</span> <span style = 'color: black;'>  von</span> <span style = 'color: black;'>  der</span> <span style = 'color: red; font-weight: bold;'> Landkarte</span> <span style = 'color: black;'>  verschwinden</span></td>
+
+
+
+                    <td class="winner"><img src="https://www.coralgardening.org/nl/files/2016/05/coralbleaching.jpg" width="250"/> <span style = 'color: black;'>  Presque</span> <span style = 'color: black;'>  tous</span> <span style = 'color: black;'>  les</span> <span style = 'color: black;'>  récifs</span> <span style = 'color: black;'>  coralliens</span> <span style = 'color: red; font-weight: bold;'> dans</span> <span style = 'color: red; font-weight: bold;'> le</span> <span style = 'color: black;'>  monde</span> <span style = 'color: red; font-weight: bold;'> sont</span> <span style = 'color: red; font-weight: bold;'> en</span> <span style = 'color: red; font-weight: bold;'> voie</span> <span style = 'color: red; font-weight: bold;'> d'extinction</span> <span style = 'color: black;'>  en</span> <span style = 'color: black;'>  raison</span> <span style = 'color: black;'>  du</span> <span style = 'color: black;'>  blanchissement</span> <span style = 'color: black;'>  des</span> <span style = 'color: black;'>  coraux.</span> <span style = 'color: black;'>  Lorsque</span> <span style = 'color: black;'>  l'eau</span> <span style = 'color: red; font-weight: bold;'> devient</span> <span style = 'color: black;'>  trop</span> <span style = 'color: black;'>  chaude,</span> <span style = 'color: black;'>  les</span> <span style = 'color: black;'>  coraux</span> <span style = 'color: black;'>  expulsent</span> <span style = 'color: black;'>  les</span> <span style = 'color: black;'>  algues</span> <span style = 'color: black;'>  (zooxanthelles)</span> <span style = 'color: black;'>  qui</span> <span style = 'color: black;'>  vivent</span> <span style = 'color: black;'>  dans</span> <span style = 'color: black;'>  leurs</span> <span style = 'color: black;'>  tissus,</span> <span style = 'color: black;'>  ce</span> <span style = 'color: black;'>  qui</span> <span style = 'color: red; font-weight: bold;'> entraîne</span> <span style = 'color: black;'>  le</span> <span style = 'color: red; font-weight: bold;'> blanchissement</span> <span style = 'color: red; font-weight: bold;'> complet</span> <span style = 'color: red; font-weight: bold;'> du</span> <span style = 'color: red; font-weight: bold;'> corail.</span> <span style = 'color: black;'>  Les</span> <span style = 'color: black;'>  coraux</span> <span style = 'color: black;'>  peuvent</span> <span style = 'color: black;'>  survivre</span> <span style = 'color: black;'>  à</span> <span style = 'color: black;'>  un</span> <span style = 'color: black;'>  épisode</span> <span style = 'color: black;'>  de</span> <span style = 'color: black;'>  blanchissement,</span> <span style = 'color: black;'>  mais</span> <span style = 'color: black;'>  ils</span> <span style = 'color: red; font-weight: bold;'> subissent</span> <span style = 'color: red; font-weight: bold;'> davantage</span> <span style = 'color: red; font-weight: bold;'> de</span> <span style = 'color: red; font-weight: bold;'> stress</span> <span style = 'color: red; font-weight: bold;'> et</span> <span style = 'color: black;'>  sont</span> <span style = 'color: red; font-weight: bold;'> plus</span> <span style = 'color: red; font-weight: bold;'> susceptibles</span> <span style = 'color: red; font-weight: bold;'> de</span> <span style = 'color: red; font-weight: bold;'> mourir.</span> <span style = 'color: black;'>  Les</span> <span style = 'color: black;'>  récifs</span> <span style = 'color: black;'>  coralliens</span> <span style = 'color: red; font-weight: bold;'> jouent</span> <span style = 'color: red; font-weight: bold;'> un</span> <span style = 'color: red; font-weight: bold;'> rôle</span> <span style = 'color: red; font-weight: bold;'> crucial</span> <span style = 'color: red; font-weight: bold;'> en</span> <span style = 'color: red; font-weight: bold;'> fournissant</span> <span style = 'color: black;'>  une</span> <span style = 'color: black;'>  protection</span> <span style = 'color: black;'>  contre</span> <span style = 'color: black;'>  les</span> <span style = 'color: black;'>  inondations</span> <span style = 'color: black;'>  et</span> <span style = 'color: black;'>  l'érosion</span> <span style = 'color: black;'>  des</span> <span style = 'color: black;'>  côtes.</span> <span style = 'color: red; font-weight: bold;'> Sans</span> <span style = 'color: red; font-weight: bold;'> eux,</span> <span style = 'color: red; font-weight: bold;'> il</span> <span style = 'color: red; font-weight: bold;'> y</span> <span style = 'color: red; font-weight: bold;'> aurait</span> <span style = 'color: red; font-weight: bold;'> une</span> <span style = 'color: red; font-weight: bold;'> érosion</span> <span style = 'color: red; font-weight: bold;'> rapide</span> <span style = 'color: black;'>  des</span> <span style = 'color: black;'>  côtes</span> <span style = 'color: black;'>  et</span> <span style = 'color: black;'>  de</span> <span style = 'color: black;'>  nombreux</span> <span style = 'color: black;'>  petits</span> <span style = 'color: red; font-weight: bold;'> pays</span> <span style = 'color: black;'>  insulaires</span> <span style = 'color: black;'>  disparaîtraient</span> <span style = 'color: black;'>  de</span> <span style = 'color: black;'>  la</span> <span style = 'color: black;'>  carte</span> <span style = 'color: black;'>  du</span> <span style = 'color: black;'>  monde</span><br><span class="sources">azure/gpt-4-vision</span></td>
+                    <td class="back-translate"><img src="https://www.coralgardening.org/nl/files/2016/05/coralbleaching.jpg" width="250"/> <span style = 'color: red; font-weight: bold;'> Fast</span> <span style = 'color: black;'>  alle</span> <span style = 'color: black;'>  Korallenriffe</span> <span style = 'color: black;'>  der</span> <span style = 'color: black;'>  Welt</span> <span style = 'color: black;'>  sind</span> <span style = 'color: red; font-weight: bold;'> vom</span> <span style = 'color: red; font-weight: bold;'> Aussterben</span> <span style = 'color: red; font-weight: bold;'> bedroht</span> <span style = 'color: red; font-weight: bold;'> aufgrund</span> <span style = 'color: red; font-weight: bold;'> der</span> <span style = 'color: red; font-weight: bold;'> Korallenbleiche.</span> <span style = 'color: black;'>  Wenn</span> <span style = 'color: black;'>  das</span> <span style = 'color: black;'>  Wasser</span> <span style = 'color: black;'>  zu</span> <span style = 'color: black;'>  warm</span> <span style = 'color: red; font-weight: bold;'> wird,</span> <span style = 'color: black;'>  stoßen</span> <span style = 'color: black;'>  die</span> <span style = 'color: black;'>  Korallen</span> <span style = 'color: black;'>  die</span> <span style = 'color: red; font-weight: bold;'> Algen</span> <span style = 'color: red; font-weight: bold;'> (Zooxanthellen)</span> <span style = 'color: red; font-weight: bold;'> ab,</span> <span style = 'color: red; font-weight: bold;'> die</span> <span style = 'color: black;'>  in</span> <span style = 'color: black;'>  ihrem</span> <span style = 'color: black;'>  Gewebe</span> <span style = 'color: red; font-weight: bold;'> leben,</span> <span style = 'color: red; font-weight: bold;'> wodurch</span> <span style = 'color: black;'>  die</span> <span style = 'color: black;'>  Koralle</span> <span style = 'color: red; font-weight: bold;'> vollständig</span> <span style = 'color: black;'>  weiß</span> <span style = 'color: black;'>  wird.</span> <span style = 'color: black;'>  Korallen</span> <span style = 'color: black;'>  können</span> <span style = 'color: red; font-weight: bold;'> eine</span> <span style = 'color: red; font-weight: bold;'> Bleichepisode</span> <span style = 'color: black;'>  überleben,</span> <span style = 'color: red; font-weight: bold;'> sind</span> <span style = 'color: black;'>  aber</span> <span style = 'color: red; font-weight: bold;'> danach</span> <span style = 'color: red; font-weight: bold;'> höheren</span> <span style = 'color: red; font-weight: bold;'> Belastungen</span> <span style = 'color: red; font-weight: bold;'> ausgesetzt</span> <span style = 'color: black;'>  und</span> <span style = 'color: red; font-weight: bold;'> sterben</span> <span style = 'color: red; font-weight: bold;'> mit</span> <span style = 'color: red; font-weight: bold;'> höherer</span> <span style = 'color: red; font-weight: bold;'> Wahrscheinlichkeit.</span> <span style = 'color: black;'>  Korallenriffe</span> <span style = 'color: red; font-weight: bold;'> spielen</span> <span style = 'color: red; font-weight: bold;'> eine</span> <span style = 'color: red; font-weight: bold;'> entscheidende</span> <span style = 'color: red; font-weight: bold;'> Rolle</span> <span style = 'color: red; font-weight: bold;'> beim</span> <span style = 'color: black;'>  Schutz</span> <span style = 'color: black;'>  vor</span> <span style = 'color: black;'>  Überschwemmungen</span> <span style = 'color: black;'>  und</span> <span style = 'color: red; font-weight: bold;'> Küstenerosion.</span> <span style = 'color: red; font-weight: bold;'> Ohne</span> <span style = 'color: black;'>  sie</span> <span style = 'color: red; font-weight: bold;'> käme</span> <span style = 'color: black;'>  es</span> <span style = 'color: black;'>  zu</span> <span style = 'color: black;'>  einer</span> <span style = 'color: red; font-weight: bold;'> rasanten</span> <span style = 'color: black;'>  Erosion</span> <span style = 'color: black;'>  der</span> <span style = 'color: red; font-weight: bold;'> Küsten,</span> <span style = 'color: black;'>  und</span> <span style = 'color: black;'>  viele</span> <span style = 'color: black;'>  kleine</span> <span style = 'color: black;'>  Inselstaaten</span> <span style = 'color: black;'>  würden</span> <span style = 'color: black;'>  von</span> <span style = 'color: black;'>  der</span> <span style = 'color: black;'>  Weltkarte</span> <span style = 'color: black;'>  verschwinden</span></td>
+
+
+
+                    <td class="compare">2</td>
+
+                    <td class="compare">2</td>
+
+                    <td class="compare">1</td>
+
+                </tr>
+            
+        </tbody>
+    </table>
+</body>
+</html>

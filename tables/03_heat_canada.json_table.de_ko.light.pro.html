@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <style>
+        @page {
+            size: A4 landscape;
+        }
+    </style>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-family: verdana, serif;
+            font-size:12px;
+            border: 1px solid white;
+            transform: scale(0.3);
+            transform-origin: top left;
+        }
+        th, td {
+            border-bottom:3px solid white;
+            border-right:3px solid white;
+            padding: 15px;
+            text-align: left;
+        }
+        th {
+            background-color: darkgray;
+        }
+        td {
+            background-color: lightgray;
+        }
+        .endtd {
+            border-right: 3px solid darkgray;
+        }
+        .translate {
+            background-color: lightblue;
+        }
+        .back-translate {
+            background-color: lightgrey;
+        }
+        .winner {
+            background-color: lightpink;
+        }
+        .compare {
+            background-color: lightsteelblue;
+        }
+        .source {
+            background-color: palegoldenrod;
+        }
+        .empty {
+            background-color: lightgrey;
+        }
+        .sources {
+            font-weight: bold;
+            font-size: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>03_heat_canada.json</h1>
+    <table>
+        <thead>
+            <tr>
+                
+                    <th>source text</th>
+                
+                    <th>--- 0 ---</th>
+                
+                    <th></th>
+                
+                    <th>--- 1 ---</th>
+                
+                    <th></th>
+                
+                    <th>azure/gpt-4-vision</th>
+                
+                    <th>gcp/gemini-1.5-pro</th>
+                
+                    <th>aws/claude-3.5-sonnet</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            
+                <tr>
+                    <td class="endtd source">Extreme Hitze in Kanada fordert Todesopfer</td>
+
+
+                    <td class="translate"><span style = 'color: red; font-weight: bold;'> 캐나다에서</span> <span style = 'color: red; font-weight: bold;'> 폭염으로</span> <span style = 'color: red; font-weight: bold;'> 인한</span> <span style = 'color: red; font-weight: bold;'> 사망자</span> <span style = 'color: red; font-weight: bold;'> 발생</span><br><span class="sources">gcp/gemini-1.5-pro</span></td>
+                    <td class="back-translate"><span style = 'color: black;'>  Extreme</span> <span style = 'color: black;'>  Hitze</span> <span style = 'color: black;'>  in</span> <span style = 'color: black;'>  Kanada</span> <span style = 'color: black;'>  fordert</span> <span style = 'color: black;'>  Todesopfer</span></td>
+
+
+
+                    <td class="winner"><span style = 'color: red; font-weight: bold;'> 캐나다의</span> <span style = 'color: red; font-weight: bold;'> 극심한</span> <span style = 'color: red; font-weight: bold;'> 더위가</span> <span style = 'color: red; font-weight: bold;'> 목숨을</span> <span style = 'color: red; font-weight: bold;'> 앗아가다</span><br><span class="sources">azure/gpt-4-vision</span></td>
+                    <td class="back-translate"><span style = 'color: black;'>  Extreme</span> <span style = 'color: black;'>  Hitze</span> <span style = 'color: black;'>  in</span> <span style = 'color: black;'>  Kanada</span> <span style = 'color: black;'>  fordert</span> <span style = 'color: red; font-weight: bold;'> Menschenleben</span></td>
+
+
+
+                    <td class="compare">1</td>
+
+                    <td class="compare">2</td>
+
+                    <td class="compare">2</td>
+
+                </tr>
+            
+                <tr>
+                    <td class="endtd source"><img width=250  src="https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png"><br>Kanada misst erneut Rekordtemperaturen von knapp 50 Grad Celsius.<br>Nach wochenlangen Temperaturen weit oberhalb von 30 Grad wurden gestern in einigen Gebieten British-Columbias bis zu 49,2 Grad gemessen.<br>Nach Angaben der Behörden starben mehrere Hundert Menschen, die sich nicht mehr ausreichend kühlen konnten.</td>
+
+
+                    <td class="translate"><img src="https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png" width="250"/> <span style = 'color: red; font-weight: bold;'> 캐나다에서</span> <span style = 'color: red; font-weight: bold;'> 섭씨</span> <span style = 'color: red; font-weight: bold;'> 50도에</span> <span style = 'color: red; font-weight: bold;'> 육박하는</span> <span style = 'color: black;'>  기록적인</span> <span style = 'color: red; font-weight: bold;'> 불볕더위가</span> <span style = 'color: red; font-weight: bold;'> 또다시</span> <span style = 'color: red; font-weight: bold;'> 발생했습니다.</span> <span style = 'color: red; font-weight: bold;'> 수</span> <span style = 'color: red; font-weight: bold;'> 주</span> <span style = 'color: black;'>  동안</span> <span style = 'color: red; font-weight: bold;'> 섭씨</span> <span style = 'color: black;'>  30도를</span> <span style = 'color: black;'>  훨씬</span> <span style = 'color: red; font-weight: bold;'> 웃도는</span> <span style = 'color: red; font-weight: bold;'> 기온이</span> <span style = 'color: black;'>  지속된</span> <span style = 'color: red; font-weight: bold;'> 가운데,</span> <span style = 'color: black;'>  어제</span> <span style = 'color: red; font-weight: bold;'> 브리티시컬럼비아</span> <span style = 'color: black;'>  일부</span> <span style = 'color: black;'>  지역에서는</span> <span style = 'color: red; font-weight: bold;'> 최고</span> <span style = 'color: black;'>  49.2도까지</span> <span style = 'color: red; font-weight: bold;'> 치솟았습니다.</span> <span style = 'color: black;'>  당국에</span> <span style = 'color: black;'>  따르면</span> <span style = 'color: black;'>  수백</span> <span style = 'color: black;'>  명의</span> <span style = 'color: black;'>  사람들이</span> <span style = 'color: red; font-weight: bold;'> 더위를</span> <span style = 'color: red; font-weight: bold;'> 피하지</span> <span style = 'color: red; font-weight: bold;'> 못해</span> <span style = 'color: black;'>  사망했습니다</span><br><span class="sources">gcp/gemini-1.5-pro</span></td>
+                    <td class="back-translate"><img src="https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png" width="250"/> <span style = 'color: red; font-weight: bold;'> In</span> <span style = 'color: black;'>  Kanada</span> <span style = 'color: red; font-weight: bold;'> wurden</span> <span style = 'color: black;'>  erneut</span> <span style = 'color: black;'>  Rekordtemperaturen</span> <span style = 'color: black;'>  von</span> <span style = 'color: red; font-weight: bold;'> fast</span> <span style = 'color: black;'>  50</span> <span style = 'color: black;'>  Grad</span> <span style = 'color: red; font-weight: bold;'> Celsius</span> <span style = 'color: red; font-weight: bold;'> gemessen.</span> <span style = 'color: black;'>  Nach</span> <span style = 'color: red; font-weight: bold;'> mehreren</span> <span style = 'color: red; font-weight: bold;'> Wochen</span> <span style = 'color: red; font-weight: bold;'> mit</span> <span style = 'color: black;'>  Temperaturen</span> <span style = 'color: black;'>  weit</span> <span style = 'color: red; font-weight: bold;'> über</span> <span style = 'color: black;'>  30</span> <span style = 'color: black;'>  Grad</span> <span style = 'color: red; font-weight: bold;'> stiegen</span> <span style = 'color: red; font-weight: bold;'> die</span> <span style = 'color: red; font-weight: bold;'> Werte</span> <span style = 'color: black;'>  gestern</span> <span style = 'color: black;'>  in</span> <span style = 'color: black;'>  einigen</span> <span style = 'color: black;'>  Gebieten</span> <span style = 'color: red; font-weight: bold;'> von</span> <span style = 'color: red; font-weight: bold;'> British</span> <span style = 'color: red; font-weight: bold;'> Columbia</span> <span style = 'color: red; font-weight: bold;'> auf</span> <span style = 'color: black;'>  bis</span> <span style = 'color: black;'>  zu</span> <span style = 'color: black;'>  49,2</span> <span style = 'color: red; font-weight: bold;'> Grad.</span> <span style = 'color: red; font-weight: bold;'> Laut</span> <span style = 'color: black;'>  Behörden</span> <span style = 'color: red; font-weight: bold;'> sind</span> <span style = 'color: black;'>  mehrere</span> <span style = 'color: red; font-weight: bold;'> hundert</span> <span style = 'color: red; font-weight: bold;'> Menschen</span> <span style = 'color: red; font-weight: bold;'> gestorben,</span> <span style = 'color: red; font-weight: bold;'> weil</span> <span style = 'color: red; font-weight: bold;'> sie</span> <span style = 'color: black;'>  sich</span> <span style = 'color: black;'>  nicht</span> <span style = 'color: black;'>  ausreichend</span> <span style = 'color: red; font-weight: bold;'> abkühlen</span> <span style = 'color: black;'>  konnten</span></td>
+
+
+
+                    <td class="winner"><img src="https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png" width="250"/> <span style = 'color: red; font-weight: bold;'> 캐나다가</span> <span style = 'color: red; font-weight: bold;'> 거의</span> <span style = 'color: red; font-weight: bold;'> 50도</span> <span style = 'color: red; font-weight: bold;'> 섭씨에</span> <span style = 'color: red; font-weight: bold;'> 달하는</span> <span style = 'color: black;'>  기록적인</span> <span style = 'color: red; font-weight: bold;'> 온도를</span> <span style = 'color: red; font-weight: bold;'> 다시</span> <span style = 'color: red; font-weight: bold;'> 측정했습니다.</span> <span style = 'color: red; font-weight: bold;'> 수주</span> <span style = 'color: black;'>  동안</span> <span style = 'color: black;'>  30도를</span> <span style = 'color: black;'>  훨씬</span> <span style = 'color: red; font-weight: bold;'> 넘는</span> <span style = 'color: red; font-weight: bold;'> 온도가</span> <span style = 'color: black;'>  지속된</span> <span style = 'color: red; font-weight: bold;'> 후,</span> <span style = 'color: black;'>  어제</span> <span style = 'color: red; font-weight: bold;'> 브리티시</span> <span style = 'color: red; font-weight: bold;'> 컬럼비아의</span> <span style = 'color: black;'>  일부</span> <span style = 'color: black;'>  지역에서는</span> <span style = 'color: black;'>  49.2도까지</span> <span style = 'color: red; font-weight: bold;'> 올라갔습니다.</span> <span style = 'color: black;'>  당국에</span> <span style = 'color: black;'>  따르면</span> <span style = 'color: red; font-weight: bold;'> 충분히</span> <span style = 'color: red; font-weight: bold;'> 식을</span> <span style = 'color: red; font-weight: bold;'> 수</span> <span style = 'color: red; font-weight: bold;'> 없었던</span> <span style = 'color: black;'>  수백</span> <span style = 'color: black;'>  명의</span> <span style = 'color: black;'>  사람들이</span> <span style = 'color: black;'>  사망했습니다</span><br><span class="sources">azure/gpt-4-vision</span></td>
+                    <td class="back-translate"><img src="https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png" width="250"/> <span style = 'color: black;'>  Kanada</span> <span style = 'color: red; font-weight: bold;'> verzeichnet</span> <span style = 'color: black;'>  erneut</span> <span style = 'color: black;'>  Rekordtemperaturen</span> <span style = 'color: black;'>  von</span> <span style = 'color: red; font-weight: bold;'> fast</span> <span style = 'color: black;'>  50</span> <span style = 'color: black;'>  Grad</span> <span style = 'color: black;'>  Celsius.</span> <span style = 'color: black;'>  Nach</span> <span style = 'color: red; font-weight: bold;'> Wochen</span> <span style = 'color: red; font-weight: bold;'> mit</span> <span style = 'color: black;'>  Temperaturen</span> <span style = 'color: black;'>  weit</span> <span style = 'color: red; font-weight: bold;'> über</span> <span style = 'color: black;'>  30</span> <span style = 'color: black;'>  Grad</span> <span style = 'color: black;'>  wurden</span> <span style = 'color: black;'>  gestern</span> <span style = 'color: black;'>  in</span> <span style = 'color: black;'>  einigen</span> <span style = 'color: black;'>  Gebieten</span> <span style = 'color: red; font-weight: bold;'> von</span> <span style = 'color: red; font-weight: bold;'> British</span> <span style = 'color: red; font-weight: bold;'> Columbia</span> <span style = 'color: black;'>  bis</span> <span style = 'color: black;'>  zu</span> <span style = 'color: black;'>  49,2</span> <span style = 'color: black;'>  Grad</span> <span style = 'color: black;'>  gemessen.</span> <span style = 'color: red; font-weight: bold;'> Laut</span> <span style = 'color: black;'>  Behörden</span> <span style = 'color: red; font-weight: bold;'> sind</span> <span style = 'color: black;'>  mehrere</span> <span style = 'color: red; font-weight: bold;'> hundert</span> <span style = 'color: red; font-weight: bold;'> Menschen</span> <span style = 'color: red; font-weight: bold;'> gestorben,</span> <span style = 'color: red; font-weight: bold;'> weil</span> <span style = 'color: red; font-weight: bold;'> sie</span> <span style = 'color: black;'>  sich</span> <span style = 'color: black;'>  nicht</span> <span style = 'color: black;'>  ausreichend</span> <span style = 'color: red; font-weight: bold;'> abkühlen</span> <span style = 'color: black;'>  konnten</span></td>
+
+
+
+                    <td class="compare">2</td>
+
+                    <td class="compare">2</td>
+
+                    <td class="compare">2</td>
+
+                </tr>
+            
+        </tbody>
+    </table>
+</body>
+</html>

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <style>
+        @page {
+            size: A4 landscape;
+        }
+    </style>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-family: verdana, serif;
+            font-size:12px;
+            border: 1px solid white;
+            transform: scale(0.3);
+            transform-origin: top left;
+        }
+        th, td {
+            border-bottom:3px solid white;
+            border-right:3px solid white;
+            padding: 15px;
+            text-align: left;
+        }
+        th {
+            background-color: darkgray;
+        }
+        td {
+            background-color: lightgray;
+        }
+        .endtd {
+            border-right: 3px solid darkgray;
+        }
+        .translate {
+            background-color: lightblue;
+        }
+        .back-translate {
+            background-color: lightgrey;
+        }
+        .winner {
+            background-color: lightpink;
+        }
+        .compare {
+            background-color: lightsteelblue;
+        }
+        .source {
+            background-color: palegoldenrod;
+        }
+        .empty {
+            background-color: lightgrey;
+        }
+        .sources {
+            font-weight: bold;
+            font-size: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>04_coral_reefs_dying.json</h1>
+    <table>
+        <thead>
+            <tr>
+                
+                    <th>source text</th>
+                
+                    <th>--- 0 ---</th>
+                
+                    <th></th>
+                
+                    <th>--- 1 ---</th>
+                
+                    <th></th>
+                
+                    <th>azure/gpt-4-vision</th>
+                
+                    <th>gcp/gemini-1.5-pro</th>
+                
+                    <th>aws/claude-3.5-sonnet</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            
+                <tr>
+                    <td class="endtd source">Hitzewellen im Meer töten Korallenriffe</td>
+
+
+                    <td class="winner"><span style = 'color: black;'>  Jūras</span> <span style = 'color: black;'>  karstuma</span> <span style = 'color: black;'>  viļņi</span> <span style = 'color: red; font-weight: bold;'> nogalina</span> <span style = 'color: black;'>  koraļļu</span> <span style = 'color: red; font-weight: bold;'> rifus</span><br><span class="sources">gcp/gemini-1.5-pro</span></td>
+                    <td class="back-translate"><span style = 'color: red; font-weight: bold;'> Meereswärmewellen</span> <span style = 'color: black;'>  töten</span> <span style = 'color: black;'>  Korallenriffe</span></td>
+
+
+
+                    <td class="translate"><span style = 'color: black;'>  Jūras</span> <span style = 'color: black;'>  karstuma</span> <span style = 'color: black;'>  viļņi</span> <span style = 'color: red; font-weight: bold;'> iznīcina</span> <span style = 'color: black;'>  koraļļu</span> <span style = 'color: red; font-weight: bold;'> rifu</span><br><span class="sources">azure/gpt-4-vision</span></td>
+                    <td class="back-translate"><span style = 'color: red; font-weight: bold;'> Marine</span> <span style = 'color: black;'>  Hitzewellen</span> <span style = 'color: black;'>  töten</span> <span style = 'color: black;'>  Korallenriffe</span></td>
+
+
+
+                    <td class="compare">1</td>
+
+                    <td class="compare">1</td>
+
+                    <td class="compare">1</td>
+
+                </tr>
+            
+                <tr>
+                    <td class="endtd source"><img width=250  src="https://static.dw.com/image/46075549_303.jpg "><br>Eine große gemeinsame Bestandaufnahme von Meeresforschungsinstituten mehrerer Länder ergab, dass über zwei Drittel aller Korallen durch zu warme Meerestemperaturen gestorben sind.<br>Dies hat katastrophale Auswirkungen auf den Fischbestand, da die Korallenriffe eine wichtiger Aufzuchtsort für eine große Zahl von Fischen, Schalentieren und Krebstieren sind.</td>
+
+
+                    <td class="translate"><img src="https://static.dw.com/image/46075549_303.jpg" width="250"/> <span style = 'color: black;'>  Vairāku</span> <span style = 'color: black;'>  valstu</span> <span style = 'color: black;'>  jūras</span> <span style = 'color: black;'>  pētniecības</span> <span style = 'color: black;'>  institūtu</span> <span style = 'color: red; font-weight: bold;'> liela</span> <span style = 'color: red; font-weight: bold;'> kopīga</span> <span style = 'color: red; font-weight: bold;'> inventarizācija</span> <span style = 'color: black;'>  atklāja,</span> <span style = 'color: black;'>  ka</span> <span style = 'color: black;'>  vairāk</span> <span style = 'color: black;'>  nekā</span> <span style = 'color: black;'>  divas</span> <span style = 'color: black;'>  trešdaļas</span> <span style = 'color: red; font-weight: bold;'> no</span> <span style = 'color: red; font-weight: bold;'> visiem</span> <span style = 'color: red; font-weight: bold;'> koraļļiem</span> <span style = 'color: black;'>  ir</span> <span style = 'color: red; font-weight: bold;'> miruši</span> <span style = 'color: black;'>  pārāk</span> <span style = 'color: red; font-weight: bold;'> siltu</span> <span style = 'color: red; font-weight: bold;'> jūras</span> <span style = 'color: red; font-weight: bold;'> temperatūru</span> <span style = 'color: black;'>  dēļ.</span> <span style = 'color: red; font-weight: bold;'> Tas</span> <span style = 'color: black;'>  ir</span> <span style = 'color: red; font-weight: bold;'> katastrofāli</span> <span style = 'color: red; font-weight: bold;'> ietekmējis</span> <span style = 'color: black;'>  zivju</span> <span style = 'color: red; font-weight: bold;'> krājumus,</span> <span style = 'color: black;'>  jo</span> <span style = 'color: black;'>  koraļļu</span> <span style = 'color: black;'>  rifi</span> <span style = 'color: black;'>  ir</span> <span style = 'color: black;'>  svarīga</span> <span style = 'color: red; font-weight: bold;'> audzēšanas</span> <span style = 'color: black;'>  vieta</span> <span style = 'color: red; font-weight: bold;'> lielam</span> <span style = 'color: red; font-weight: bold;'> skaitam</span> <span style = 'color: black;'>  zivju,</span> <span style = 'color: red; font-weight: bold;'> molusku</span> <span style = 'color: red; font-weight: bold;'> un</span> <span style = 'color: black;'>  vēžveidīgo</span><br><span class="sources">azure/gpt-4-vision</span></td>
+                    <td class="back-translate"><img src="https://static.dw.com/image/46075549_303.jpg " width="250"/> <span style = 'color: black;'>  Eine</span> <span style = 'color: black;'>  große</span> <span style = 'color: black;'>  gemeinsame</span> <span style = 'color: red; font-weight: bold;'> Bestandsaufnahme</span> <span style = 'color: black;'>  von</span> <span style = 'color: black;'>  Meeresforschungsinstituten</span> <span style = 'color: black;'>  mehrerer</span> <span style = 'color: black;'>  Länder</span> <span style = 'color: red; font-weight: bold;'> hat</span> <span style = 'color: red; font-weight: bold;'> ergeben,</span> <span style = 'color: black;'>  dass</span> <span style = 'color: red; font-weight: bold;'> mehr</span> <span style = 'color: red; font-weight: bold;'> als</span> <span style = 'color: black;'>  zwei</span> <span style = 'color: black;'>  Drittel</span> <span style = 'color: black;'>  aller</span> <span style = 'color: black;'>  Korallen</span> <span style = 'color: red; font-weight: bold;'> aufgrund</span> <span style = 'color: black;'>  zu</span> <span style = 'color: red; font-weight: bold;'> hoher</span> <span style = 'color: black;'>  Meerestemperaturen</span> <span style = 'color: black;'>  gestorben</span> <span style = 'color: black;'>  sind.</span> <span style = 'color: black;'>  Dies</span> <span style = 'color: black;'>  hat</span> <span style = 'color: black;'>  katastrophale</span> <span style = 'color: black;'>  Auswirkungen</span> <span style = 'color: black;'>  auf</span> <span style = 'color: red; font-weight: bold;'> die</span> <span style = 'color: red; font-weight: bold;'> Fischbestände,</span> <span style = 'color: black;'>  da</span> <span style = 'color: black;'>  Korallenriffe</span> <span style = 'color: black;'>  eine</span> <span style = 'color: red; font-weight: bold;'> wichtige</span> <span style = 'color: red; font-weight: bold;'> Aufzuchtstätte</span> <span style = 'color: black;'>  für</span> <span style = 'color: black;'>  eine</span> <span style = 'color: black;'>  große</span> <span style = 'color: red; font-weight: bold;'> Anzahl</span> <span style = 'color: black;'>  von</span> <span style = 'color: black;'>  Fischen,</span> <span style = 'color: red; font-weight: bold;'> Weichtieren</span> <span style = 'color: black;'>  und</span> <span style = 'color: black;'>  Krebstieren</span> <span style = 'color: black;'>  sind</span></td>
+
+
+
+                    <td class="winner"><img src="https://static.dw.com/image/46075549_303.jpg " width="250"/> <span style = 'color: black;'>  Vairāku</span> <span style = 'color: black;'>  valstu</span> <span style = 'color: black;'>  jūras</span> <span style = 'color: black;'>  pētniecības</span> <span style = 'color: black;'>  institūtu</span> <span style = 'color: red; font-weight: bold;'> veikts</span> <span style = 'color: red; font-weight: bold;'> apjomīgs</span> <span style = 'color: red; font-weight: bold;'> kopīgs</span> <span style = 'color: red; font-weight: bold;'> pētījums</span> <span style = 'color: black;'>  atklāja,</span> <span style = 'color: black;'>  ka</span> <span style = 'color: black;'>  vairāk</span> <span style = 'color: black;'>  nekā</span> <span style = 'color: black;'>  divas</span> <span style = 'color: black;'>  trešdaļas</span> <span style = 'color: red; font-weight: bold;'> visu</span> <span style = 'color: red; font-weight: bold;'> koraļļu</span> <span style = 'color: black;'>  ir</span> <span style = 'color: red; font-weight: bold;'> gājušas</span> <span style = 'color: red; font-weight: bold;'> bojā</span> <span style = 'color: black;'>  pārāk</span> <span style = 'color: red; font-weight: bold;'> augstas</span> <span style = 'color: red; font-weight: bold;'> okeāna</span> <span style = 'color: red; font-weight: bold;'> temperatūras</span> <span style = 'color: black;'>  dēļ.</span> <span style = 'color: red; font-weight: bold;'> Tam</span> <span style = 'color: black;'>  ir</span> <span style = 'color: red; font-weight: bold;'> katastrofālas</span> <span style = 'color: red; font-weight: bold;'> sekas</span> <span style = 'color: red; font-weight: bold;'> uz</span> <span style = 'color: black;'>  zivju</span> <span style = 'color: red; font-weight: bold;'> krājumiem,</span> <span style = 'color: black;'>  jo</span> <span style = 'color: black;'>  koraļļu</span> <span style = 'color: black;'>  rifi</span> <span style = 'color: black;'>  ir</span> <span style = 'color: black;'>  svarīga</span> <span style = 'color: red; font-weight: bold;'> nārsta</span> <span style = 'color: black;'>  vieta</span> <span style = 'color: red; font-weight: bold;'> daudzām</span> <span style = 'color: black;'>  zivju,</span> <span style = 'color: red; font-weight: bold;'> vēžveidīgo</span> <span style = 'color: black;'>  un</span> <span style = 'color: red; font-weight: bold;'> gliemju</span> <span style = 'color: red; font-weight: bold;'> sugām</span><br><span class="sources">gcp/gemini-1.5-pro</span></td>
+                    <td class="back-translate"><img src="https://static.dw.com/image/46075549_303.jpg " width="250"/> <span style = 'color: black;'>  Eine</span> <span style = 'color: red; font-weight: bold;'> umfangreiche</span> <span style = 'color: black;'>  gemeinsame</span> <span style = 'color: red; font-weight: bold;'> Studie</span> <span style = 'color: black;'>  von</span> <span style = 'color: black;'>  Meeresforschungsinstituten</span> <span style = 'color: black;'>  mehrerer</span> <span style = 'color: black;'>  Länder</span> <span style = 'color: red; font-weight: bold;'> hat</span> <span style = 'color: red; font-weight: bold;'> ergeben,</span> <span style = 'color: black;'>  dass</span> <span style = 'color: red; font-weight: bold;'> mehr</span> <span style = 'color: red; font-weight: bold;'> als</span> <span style = 'color: black;'>  zwei</span> <span style = 'color: black;'>  Drittel</span> <span style = 'color: black;'>  aller</span> <span style = 'color: black;'>  Korallen</span> <span style = 'color: red; font-weight: bold;'> aufgrund</span> <span style = 'color: black;'>  zu</span> <span style = 'color: red; font-weight: bold;'> hoher</span> <span style = 'color: red; font-weight: bold;'> Ozeantemperaturen</span> <span style = 'color: red; font-weight: bold;'> abgestorben</span> <span style = 'color: black;'>  sind.</span> <span style = 'color: black;'>  Dies</span> <span style = 'color: black;'>  hat</span> <span style = 'color: black;'>  katastrophale</span> <span style = 'color: black;'>  Auswirkungen</span> <span style = 'color: black;'>  auf</span> <span style = 'color: red; font-weight: bold;'> die</span> <span style = 'color: red; font-weight: bold;'> Fischbestände,</span> <span style = 'color: black;'>  da</span> <span style = 'color: black;'>  Korallenriffe</span> <span style = 'color: red; font-weight: bold;'> ein</span> <span style = 'color: black;'>  wichtiger</span> <span style = 'color: red; font-weight: bold;'> Laichplatz</span> <span style = 'color: black;'>  für</span> <span style = 'color: red; font-weight: bold;'> viele</span> <span style = 'color: red; font-weight: bold;'> Arten</span> <span style = 'color: black;'>  von</span> <span style = 'color: black;'>  Fischen,</span> <span style = 'color: red; font-weight: bold;'> Krebstieren</span> <span style = 'color: black;'>  und</span> <span style = 'color: red; font-weight: bold;'> Weichtieren</span> <span style = 'color: black;'>  sind</span></td>
+
+
+
+                    <td class="compare">2</td>
+
+                    <td class="compare">2</td>
+
+                    <td class="compare">2</td>
+
+                </tr>
+            
+        </tbody>
+    </table>
+</body>
+</html>

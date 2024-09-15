@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <style>
+        @page {
+            size: A4 landscape;
+        }
+    </style>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-family: verdana, serif;
+            font-size:12px;
+            border: 1px solid white;
+            transform: scale(0.3);
+            transform-origin: top left;
+        }
+        th, td {
+            border-bottom:3px solid white;
+            border-right:3px solid white;
+            padding: 15px;
+            text-align: left;
+        }
+        th {
+            background-color: darkgray;
+        }
+        td {
+            background-color: lightgray;
+        }
+        .endtd {
+            border-right: 3px solid darkgray;
+        }
+        .translate {
+            background-color: lightblue;
+        }
+        .back-translate {
+            background-color: lightgrey;
+        }
+        .winner {
+            background-color: lightpink;
+        }
+        .compare {
+            background-color: lightsteelblue;
+        }
+        .source {
+            background-color: palegoldenrod;
+        }
+        .empty {
+            background-color: lightgrey;
+        }
+        .sources {
+            font-weight: bold;
+            font-size: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>11_tuvalu_is_gone.json</h1>
+    <table>
+        <thead>
+            <tr>
+                
+                    <th>source text</th>
+                
+                    <th>--- 0 ---</th>
+                
+                    <th></th>
+                
+                    <th>--- 1 ---</th>
+                
+                    <th></th>
+                
+                    <th>azure/gpt-4-vision</th>
+                
+                    <th>gcp/gemini-1.5-pro</th>
+                
+                    <th>aws/claude-3.5-sonnet</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            
+                <tr>
+                    <td class="endtd source">Der wunderschöne pazifische Inselstaat Tuvalu ist nicht mehr</td>
+
+
+                    <td class="winner"><span style = 'color: red; font-weight: bold;'> Skaistā</span> <span style = 'color: red; font-weight: bold;'> Klusā</span> <span style = 'color: red; font-weight: bold;'> okeāna</span> <span style = 'color: black;'>  salu</span> <span style = 'color: black;'>  valsts</span> <span style = 'color: black;'>  Tuvalu</span> <span style = 'color: red; font-weight: bold;'> vairs</span> <span style = 'color: red; font-weight: bold;'> nepastāv</span><br><span class="sources">gcp/gemini-1.5-pro</span></td>
+                    <td class="back-translate"><span style = 'color: black;'>  Der</span> <span style = 'color: black;'>  wunderschöne</span> <span style = 'color: black;'>  pazifische</span> <span style = 'color: black;'>  Inselstaat</span> <span style = 'color: black;'>  Tuvalu</span> <span style = 'color: red; font-weight: bold;'> existiert</span> <span style = 'color: black;'>  nicht</span> <span style = 'color: black;'>  mehr</span></td>
+
+
+
+                    <td class="translate"><span style = 'color: red; font-weight: bold;'> Pacifiskās</span> <span style = 'color: black;'>  salu</span> <span style = 'color: black;'>  valsts</span> <span style = 'color: black;'>  Tuvalu</span> <span style = 'color: red; font-weight: bold;'> skaistums</span> <span style = 'color: red; font-weight: bold;'> ir</span> <span style = 'color: red; font-weight: bold;'> zudis</span><br><span class="sources">azure/gpt-4-vision</span></td>
+                    <td class="back-translate"><span style = 'color: black;'>  Der</span> <span style = 'color: black;'>  wunderschöne</span> <span style = 'color: black;'>  pazifische</span> <span style = 'color: black;'>  Inselstaat</span> <span style = 'color: black;'>  Tuvalu</span> <span style = 'color: black;'>  ist</span> <span style = 'color: red; font-weight: bold;'> verschwunden</span></td>
+
+
+
+                    <td class="compare">1</td>
+
+                    <td class="compare">1</td>
+
+                    <td class="compare">1</td>
+
+                </tr>
+            
+                <tr>
+                    <td class="endtd source"><img width=250  src="https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg"><br>Der pazifische Inselstaat Tuvalu ist völlig überflutet. Die 11.000 Einwohner haben alles verloren und sind auf Hilfe angewiesen. Wenden Sie sich an Ihre örtlichen Behörden, um zu erfahren, wie Sie helfen können.</td>
+
+
+                    <td class="winner"><img src="https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg" width="250"/> <span style = 'color: black;'>  Klusā</span> <span style = 'color: black;'>  okeāna</span> <span style = 'color: black;'>  salu</span> <span style = 'color: black;'>  valsts</span> <span style = 'color: black;'>  Tuvalu</span> <span style = 'color: black;'>  ir</span> <span style = 'color: black;'>  pilnībā</span> <span style = 'color: black;'>  applūdusi.</span> <span style = 'color: black;'>  Tās</span> <span style = 'color: black;'>  11</span> <span style = 'color: black;'>  000</span> <span style = 'color: red; font-weight: bold;'> iedzīvotāji</span> <span style = 'color: black;'>  ir</span> <span style = 'color: black;'>  zaudējuši</span> <span style = 'color: black;'>  visu</span> <span style = 'color: black;'>  un</span> <span style = 'color: black;'>  ir</span> <span style = 'color: red; font-weight: bold;'> atkarīgi</span> <span style = 'color: red; font-weight: bold;'> no</span> <span style = 'color: red; font-weight: bold;'> palīdzības.</span> <span style = 'color: black;'>  Sazinieties</span> <span style = 'color: black;'>  ar</span> <span style = 'color: red; font-weight: bold;'> savām</span> <span style = 'color: black;'>  vietējām</span> <span style = 'color: red; font-weight: bold;'> iestādēm,</span> <span style = 'color: black;'>  lai</span> <span style = 'color: black;'>  uzzinātu,</span> <span style = 'color: black;'>  kā</span> <span style = 'color: black;'>  jūs</span> <span style = 'color: black;'>  varat</span> <span style = 'color: black;'>  palīdzēt</span><br><span class="sources">azure/gpt-4-vision</span></td>
+                    <td class="back-translate"><img src="https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg" width="250"/> <span style = 'color: black;'>  Der</span> <span style = 'color: black;'>  pazifische</span> <span style = 'color: black;'>  Inselstaat</span> <span style = 'color: black;'>  Tuvalu</span> <span style = 'color: black;'>  ist</span> <span style = 'color: red; font-weight: bold;'> vollständig</span> <span style = 'color: red; font-weight: bold;'> überschwemmt.</span> <span style = 'color: red; font-weight: bold;'> Seine</span> <span style = 'color: black;'>  11.000</span> <span style = 'color: black;'>  Einwohner</span> <span style = 'color: black;'>  haben</span> <span style = 'color: black;'>  alles</span> <span style = 'color: black;'>  verloren</span> <span style = 'color: black;'>  und</span> <span style = 'color: black;'>  sind</span> <span style = 'color: black;'>  auf</span> <span style = 'color: black;'>  Hilfe</span> <span style = 'color: black;'>  angewiesen.</span> <span style = 'color: black;'>  Wenden</span> <span style = 'color: black;'>  Sie</span> <span style = 'color: black;'>  sich</span> <span style = 'color: black;'>  an</span> <span style = 'color: black;'>  Ihre</span> <span style = 'color: red; font-weight: bold;'> lokalen</span> <span style = 'color: black;'>  Behörden,</span> <span style = 'color: black;'>  um</span> <span style = 'color: black;'>  zu</span> <span style = 'color: black;'>  erfahren,</span> <span style = 'color: black;'>  wie</span> <span style = 'color: black;'>  Sie</span> <span style = 'color: black;'>  helfen</span> <span style = 'color: black;'>  können</span></td>
+
+
+
+                    <td class="translate"><img src="https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg" width="250"/> <span style = 'color: black;'>  Klusā</span> <span style = 'color: black;'>  okeāna</span> <span style = 'color: black;'>  salu</span> <span style = 'color: black;'>  valsts</span> <span style = 'color: black;'>  Tuvalu</span> <span style = 'color: black;'>  ir</span> <span style = 'color: black;'>  pilnībā</span> <span style = 'color: black;'>  applūdusi.</span> <span style = 'color: black;'>  Tās</span> <span style = 'color: black;'>  11</span> <span style = 'color: black;'>  000</span> <span style = 'color: red; font-weight: bold;'> iedzīvotāju</span> <span style = 'color: black;'>  ir</span> <span style = 'color: black;'>  zaudējuši</span> <span style = 'color: black;'>  visu</span> <span style = 'color: black;'>  un</span> <span style = 'color: red; font-weight: bold;'> viņiem</span> <span style = 'color: black;'>  ir</span> <span style = 'color: red; font-weight: bold;'> nepieciešama</span> <span style = 'color: red; font-weight: bold;'> palīdzība.</span> <span style = 'color: black;'>  Sazinieties</span> <span style = 'color: black;'>  ar</span> <span style = 'color: black;'>  vietējām</span> <span style = 'color: red; font-weight: bold;'> varasiestādēm,</span> <span style = 'color: black;'>  lai</span> <span style = 'color: black;'>  uzzinātu,</span> <span style = 'color: black;'>  kā</span> <span style = 'color: black;'>  jūs</span> <span style = 'color: black;'>  varat</span> <span style = 'color: black;'>  palīdzēt</span><br><span class="sources">gcp/gemini-1.5-pro</span></td>
+                    <td class="back-translate"><img src="https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg" width="250"/> <span style = 'color: black;'>  Der</span> <span style = 'color: black;'>  pazifische</span> <span style = 'color: black;'>  Inselstaat</span> <span style = 'color: black;'>  Tuvalu</span> <span style = 'color: black;'>  ist</span> <span style = 'color: red; font-weight: bold;'> vollständig</span> <span style = 'color: red; font-weight: bold;'> überschwemmt.</span> <span style = 'color: red; font-weight: bold;'> Seine</span> <span style = 'color: black;'>  11.000</span> <span style = 'color: black;'>  Einwohner</span> <span style = 'color: black;'>  haben</span> <span style = 'color: black;'>  alles</span> <span style = 'color: black;'>  verloren</span> <span style = 'color: black;'>  und</span> <span style = 'color: red; font-weight: bold;'> benötigen</span> <span style = 'color: red; font-weight: bold;'> Hilfe.</span> <span style = 'color: black;'>  Wenden</span> <span style = 'color: black;'>  Sie</span> <span style = 'color: black;'>  sich</span> <span style = 'color: black;'>  an</span> <span style = 'color: black;'>  Ihre</span> <span style = 'color: red; font-weight: bold;'> lokalen</span> <span style = 'color: black;'>  Behörden,</span> <span style = 'color: black;'>  um</span> <span style = 'color: black;'>  zu</span> <span style = 'color: black;'>  erfahren,</span> <span style = 'color: black;'>  wie</span> <span style = 'color: black;'>  Sie</span> <span style = 'color: black;'>  helfen</span> <span style = 'color: black;'>  können</span></td>
+
+
+
+                    <td class="compare">1</td>
+
+                    <td class="compare">1</td>
+
+                    <td class="compare">2</td>
+
+                </tr>
+            
+        </tbody>
+    </table>
+</body>
+</html>
