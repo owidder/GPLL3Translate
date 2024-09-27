@@ -1,34 +1,418 @@
 {
     "schedule": {
-      "conditions": [
-        {
-          "path": "..seaLevel.series.elevation [meters by year]",
-          "configurationType": "PROJECTION_RESULT",
-          "value": 1.8,
-          "operator": "GTE"
-        }
-      ]
+        "conditions": [
+            {
+                "path": "..seaLevel.series.elevation [meters by year]",
+                "configurationType": "PROJECTION_RESULT",
+                "value": 1.8,
+                "operator": "GTE"
+            }
+        ]
     },
     "name": "Egypt 5 (Trigger sea level rise 1.8 m)",
     "actions": [
-      {
-        "notification": {
-          "sendEmail": true,
-          "title": {
-            "de": "Durchschnittliche Lebenserwartung in Ägypten erstmals seit Jahrzehnten gesunken",
-            "ru": "Средняя продолжительность жизни в Египте снизилась впервые за последние десятилетия",
-            "en": "Average life expectancy in Egypt has fallen for the first time in decades",
-            "ar": "تراجع متوسط ​​العمر المتوقع في مصر لأول مرة منذ عقود.",
-            "fr": "L'espérance de vie moyenne en Égypte a diminué pour la première fois depuis des décennies."
-          },
-          "body": {
-            "de": "Die Klimakatastrophe betrifft auch die Gesundheit der Menschen in Ägypten. Laut einer Vorhersage der Vereinten Nationen aus dem Jahr 2021 prognostizierten die vorliegenden Daten eine stetige Steigung der Lebenserwartung in Ägypten bis mindestens 2100. Nun ist das Gegenteil geschehen – die Lebenserwartung ist gesunken. Erste Publikationen von demografischen Forschungsinstituten und Klimafolgenforscher:innen weisen darauf hin, dass die Klimakrise mehr Krankheiten und Tote verursacht, als im Jahr 2021 noch angenommen wurde. Sie sei verantwortlich für die sinkende Lebenserwartung. \n \n Grund dafür ist hauptsächlich die eingebrochene Gesundheitsversorgung und die damit einhergehende Verschlechterung der Gesundheit der ägyptischen Bevölkerung. Durch Flutkatastrophen, Nahrungsmittelknappheit und zunehmende Armut wurde die öffentliche Infrastruktur immer mehr vernachlässigt. Das einst gelobte Gesundheitssystem Ägyptens existiert so nicht mehr. Es kommen vermehrt Krankheiten vor, die nicht mehr behandelt werden können. Ein weiteres Problem, das Krankheiten aller Art beschleunigt, ist das Fehlen einer funktionierenden Versorgung mit sauberem Wasser.",
-            "ru": "Климатическая катастрофа также влияет на здоровье людей в Египте. Согласно прогнозу Организации Объединенных Наций от 2021 года, имеющиеся данные предсказывали устойчивый рост продолжительности жизни в Египте по крайней мере до 2100 г. Сейчас произошло обратное - продолжительность жизни упала. Первые публикации институтов демографических исследований и исследователей воздействия климата показывают, что климатический кризис вызывает больше заболеваний и смертей, чем предполагалось в 2021 году. Он несет ответственность за снижение продолжительности жизни. \n \n Основной причиной этого является развал системы здравоохранения и вызванное им ухудшение здоровья египетского населения. Из-за наводнений, нехватки продовольствия и растущей бедности общественной инфраструктуре уделяется все меньше внимания. Некогда хваленая система здравоохранения Египта больше не существует. Все чаще встречаются заболевания, которые уже не поддаются лечению. Еще одна проблема, ускоряющая развитие болезней всех видов, - отсутствие нормального снабжения чистой водой.",
-            "en": "The climate catastrophe also affects the health of the people in Egypt. According to a United Nations forecast from 2021, the available data predicted a steady increase in life expectancy in Egypt until at least 2100. Now the opposite has happened - life expectancy has fallen. Initial publications by demographic research institutes and climate impact researchers indicate that the climate crisis is causing more illnesses and deaths than was assumed in 2021. It is responsible for the declining life expectancy. \n \n The main reason for this is the collapse in health care and the resulting deterioration in the health of the Egyptian population. Due to flood disasters, food shortages and increasing poverty, the public infrastructure has been neglected more and more. Egypt's once praised health system no longer exists. There is an increasing incidence of diseases that can no longer be treated. Another problem that accelerates diseases of all kinds is the lack of a functioning supply of clean water.",
-            "ar": "تؤثر الكارثة المناخية أيضًا على صحة السكان في مصر. وفقًا لتوقعات الأمم المتحدة من عام 2021 ، كانت البيانات المتاحة تتنبأ بزيادة مطردة في متوسط ​​العمر المتوقع في مصر حتى عام 2100 على الأقل. والآن حدث العكس - تراجع متوسط ​​العمر المتوقع. تشير الدراسات الأولية التي أجريتها معاهد البحوث الديمغرافية والباحثين في تأثيرات المناخ إلى أن أزمة المناخ تسببت في المزيد من الأمراض والوفيات مما كان مفترضًا في عام 2021. وهو المسؤول عن انخفاض متوسط ​​العمر المتوقع.\n\nالسبب الرئيسي في ذلك هو انهيار الرعاية الصحية والتدهور الناتج عنه في صحة السكان المصريين. بسبب الكوارث المتعلقة بالفيضانات ونقص الغذاء والفقر المتزايد ، تم إهمال البنية التحتية العامة بشكل متزايد. لم يعد النظام الصحي المشهود له في مصر موجودًا. هناك زيادة في حدوث الأمراض التي لم يعد بإمكانها علاجها. مشكلة أخرى تسرع من حدوث الأمراض من جميع الأنواع هي نقص الإمدادات النظيفة للمياه.",
-            "fr": "La catastrophe climatique affecte également la santé de la population en Égypte. Selon une prévision des Nations Unies de 2021, les données disponibles prévoyaient une augmentation constante de l'espérance de vie en Égypte au moins jusqu'en 2100. Maintenant, c'est le contraire qui s'est produit - l'espérance de vie a diminué. Les premières publications des instituts de recherche démographique et des chercheurs sur les impacts climatiques indiquent que la crise climatique provoque plus de maladies et de décès que ce qui était prévu en 2021. Elle est responsable de la baisse de l'espérance de vie.\n\nLa raison principale en est l'effondrement des soins de santé et la détérioration de la santé de la population égyptienne. En raison des catastrophes d'inondations, des pénuries alimentaires et de la pauvreté croissante, les infrastructures publiques ont été de plus en plus négligées. Le système de santé autrefois salué de l'Égypte n'existe plus. On observe une augmentation des maladies qui ne peuvent plus être traitées. Un autre problème qui accélère les maladies de toutes sortes est le manque d'un approvisionnement fonctionnel en eau potable."
-          }
+        {
+            "notification": {
+                "sendEmail": true,
+                "title": {
+                    "de": "Durchschnittliche Lebenserwartung in Ägypten erstmals seit Jahrzehnten gesunken",
+                    "ru": "Средняя продолжительность жизни в Египте снизилась впервые за последние десятилетия",
+                    "en": "Average life expectancy in Egypt has fallen for the first time in decades",
+                    "ar": "تراجع متوسط ​​العمر المتوقع في مصر لأول مرة منذ عقود.",
+                    "fr": "L'espérance de vie moyenne en Égypte a diminué pour la première fois depuis des décennies.",
+                    "_azure/gpt-4-vision_bg": "",
+                    "_gcp/gemini-1.5-pro_bg": "",
+                    "_compare_azure/gpt-4-vision_bg": "",
+                    "_compare_gcp/gemini-1.5-pro_bg": "",
+                    "_compare_aws/claude-3.5-sonnet_bg": "",
+                    "_unique_translations_back_bg": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_cs": "",
+                    "_gcp/gemini-1.5-pro_cs": "",
+                    "_compare_azure/gpt-4-vision_cs": "",
+                    "_compare_gcp/gemini-1.5-pro_cs": "",
+                    "_compare_aws/claude-3.5-sonnet_cs": "",
+                    "_unique_translations_back_cs": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_da": "",
+                    "_gcp/gemini-1.5-pro_da": "",
+                    "_compare_azure/gpt-4-vision_da": "",
+                    "_compare_gcp/gemini-1.5-pro_da": "",
+                    "_compare_aws/claude-3.5-sonnet_da": "",
+                    "_unique_translations_back_da": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_el": "",
+                    "_gcp/gemini-1.5-pro_el": "",
+                    "_compare_azure/gpt-4-vision_el": "",
+                    "_compare_gcp/gemini-1.5-pro_el": "",
+                    "_compare_aws/claude-3.5-sonnet_el": "",
+                    "_unique_translations_back_el": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_es": "",
+                    "_gcp/gemini-1.5-pro_es": "",
+                    "_compare_azure/gpt-4-vision_es": "",
+                    "_compare_gcp/gemini-1.5-pro_es": "",
+                    "_compare_aws/claude-3.5-sonnet_es": "",
+                    "_unique_translations_back_es": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_et": "",
+                    "_gcp/gemini-1.5-pro_et": "",
+                    "_compare_azure/gpt-4-vision_et": "",
+                    "_compare_gcp/gemini-1.5-pro_et": "",
+                    "_compare_aws/claude-3.5-sonnet_et": "",
+                    "_unique_translations_back_et": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_fi": "",
+                    "_gcp/gemini-1.5-pro_fi": "",
+                    "_compare_azure/gpt-4-vision_fi": "",
+                    "_compare_gcp/gemini-1.5-pro_fi": "",
+                    "_compare_aws/claude-3.5-sonnet_fi": "",
+                    "_unique_translations_back_fi": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_ga": "",
+                    "_gcp/gemini-1.5-pro_ga": "",
+                    "_compare_azure/gpt-4-vision_ga": "",
+                    "_compare_gcp/gemini-1.5-pro_ga": "",
+                    "_compare_aws/claude-3.5-sonnet_ga": "",
+                    "_unique_translations_back_ga": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_hr": "",
+                    "_gcp/gemini-1.5-pro_hr": "",
+                    "_compare_azure/gpt-4-vision_hr": "",
+                    "_compare_gcp/gemini-1.5-pro_hr": "",
+                    "_compare_aws/claude-3.5-sonnet_hr": "",
+                    "_unique_translations_back_hr": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_hu": "",
+                    "_gcp/gemini-1.5-pro_hu": "",
+                    "_compare_azure/gpt-4-vision_hu": "",
+                    "_compare_gcp/gemini-1.5-pro_hu": "",
+                    "_compare_aws/claude-3.5-sonnet_hu": "",
+                    "_unique_translations_back_hu": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_id": "",
+                    "_gcp/gemini-1.5-pro_id": "",
+                    "_compare_azure/gpt-4-vision_id": "",
+                    "_compare_gcp/gemini-1.5-pro_id": "",
+                    "_compare_aws/claude-3.5-sonnet_id": "",
+                    "_unique_translations_back_id": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_it": "",
+                    "_gcp/gemini-1.5-pro_it": "",
+                    "_compare_azure/gpt-4-vision_it": "",
+                    "_compare_gcp/gemini-1.5-pro_it": "",
+                    "_compare_aws/claude-3.5-sonnet_it": "",
+                    "_unique_translations_back_it": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_ja": "",
+                    "_gcp/gemini-1.5-pro_ja": "",
+                    "_compare_azure/gpt-4-vision_ja": "",
+                    "_compare_gcp/gemini-1.5-pro_ja": "",
+                    "_compare_aws/claude-3.5-sonnet_ja": "",
+                    "_unique_translations_back_ja": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_ko": "",
+                    "_gcp/gemini-1.5-pro_ko": "",
+                    "_compare_azure/gpt-4-vision_ko": "",
+                    "_compare_gcp/gemini-1.5-pro_ko": "",
+                    "_compare_aws/claude-3.5-sonnet_ko": "",
+                    "_unique_translations_back_ko": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_lv": "",
+                    "_gcp/gemini-1.5-pro_lv": "",
+                    "_compare_azure/gpt-4-vision_lv": "",
+                    "_compare_gcp/gemini-1.5-pro_lv": "",
+                    "_compare_aws/claude-3.5-sonnet_lv": "",
+                    "_unique_translations_back_lv": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_lt": "",
+                    "_gcp/gemini-1.5-pro_lt": "",
+                    "_compare_azure/gpt-4-vision_lt": "",
+                    "_compare_gcp/gemini-1.5-pro_lt": "",
+                    "_compare_aws/claude-3.5-sonnet_lt": "",
+                    "_unique_translations_back_lt": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_mt": "",
+                    "_gcp/gemini-1.5-pro_mt": "",
+                    "_compare_azure/gpt-4-vision_mt": "",
+                    "_compare_gcp/gemini-1.5-pro_mt": "",
+                    "_compare_aws/claude-3.5-sonnet_mt": "",
+                    "_unique_translations_back_mt": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_nl": "",
+                    "_gcp/gemini-1.5-pro_nl": "",
+                    "_compare_azure/gpt-4-vision_nl": "",
+                    "_compare_gcp/gemini-1.5-pro_nl": "",
+                    "_compare_aws/claude-3.5-sonnet_nl": "",
+                    "_unique_translations_back_nl": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_pl": "",
+                    "_gcp/gemini-1.5-pro_pl": "",
+                    "_compare_azure/gpt-4-vision_pl": "",
+                    "_compare_gcp/gemini-1.5-pro_pl": "",
+                    "_compare_aws/claude-3.5-sonnet_pl": "",
+                    "_unique_translations_back_pl": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_ro": "",
+                    "_gcp/gemini-1.5-pro_ro": "",
+                    "_compare_azure/gpt-4-vision_ro": "",
+                    "_compare_gcp/gemini-1.5-pro_ro": "",
+                    "_compare_aws/claude-3.5-sonnet_ro": "",
+                    "_unique_translations_back_ro": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_sk": "",
+                    "_gcp/gemini-1.5-pro_sk": "",
+                    "_compare_azure/gpt-4-vision_sk": "",
+                    "_compare_gcp/gemini-1.5-pro_sk": "",
+                    "_compare_aws/claude-3.5-sonnet_sk": "",
+                    "_unique_translations_back_sk": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_sl": "",
+                    "_gcp/gemini-1.5-pro_sl": "",
+                    "_compare_azure/gpt-4-vision_sl": "",
+                    "_compare_gcp/gemini-1.5-pro_sl": "",
+                    "_compare_aws/claude-3.5-sonnet_sl": "",
+                    "_unique_translations_back_sl": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_sv": "",
+                    "_gcp/gemini-1.5-pro_sv": "",
+                    "_compare_azure/gpt-4-vision_sv": "",
+                    "_compare_gcp/gemini-1.5-pro_sv": "",
+                    "_compare_aws/claude-3.5-sonnet_sv": "",
+                    "_unique_translations_back_sv": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_zh": "",
+                    "_gcp/gemini-1.5-pro_zh": "",
+                    "_compare_azure/gpt-4-vision_zh": "",
+                    "_compare_gcp/gemini-1.5-pro_zh": "",
+                    "_compare_aws/claude-3.5-sonnet_zh": "",
+                    "_unique_translations_back_zh": [
+                        ""
+                    ]
+                },
+                "body": {
+                    "de": "Die Klimakatastrophe betrifft auch die Gesundheit der Menschen in Ägypten. Laut einer Vorhersage der Vereinten Nationen aus dem Jahr 2021 prognostizierten die vorliegenden Daten eine stetige Steigung der Lebenserwartung in Ägypten bis mindestens 2100. Nun ist das Gegenteil geschehen – die Lebenserwartung ist gesunken. Erste Publikationen von demografischen Forschungsinstituten und Klimafolgenforscher:innen weisen darauf hin, dass die Klimakrise mehr Krankheiten und Tote verursacht, als im Jahr 2021 noch angenommen wurde. Sie sei verantwortlich für die sinkende Lebenserwartung. \n \n Grund dafür ist hauptsächlich die eingebrochene Gesundheitsversorgung und die damit einhergehende Verschlechterung der Gesundheit der ägyptischen Bevölkerung. Durch Flutkatastrophen, Nahrungsmittelknappheit und zunehmende Armut wurde die öffentliche Infrastruktur immer mehr vernachlässigt. Das einst gelobte Gesundheitssystem Ägyptens existiert so nicht mehr. Es kommen vermehrt Krankheiten vor, die nicht mehr behandelt werden können. Ein weiteres Problem, das Krankheiten aller Art beschleunigt, ist das Fehlen einer funktionierenden Versorgung mit sauberem Wasser.",
+                    "ru": "Климатическая катастрофа также влияет на здоровье людей в Египте. Согласно прогнозу Организации Объединенных Наций от 2021 года, имеющиеся данные предсказывали устойчивый рост продолжительности жизни в Египте по крайней мере до 2100 г. Сейчас произошло обратное - продолжительность жизни упала. Первые публикации институтов демографических исследований и исследователей воздействия климата показывают, что климатический кризис вызывает больше заболеваний и смертей, чем предполагалось в 2021 году. Он несет ответственность за снижение продолжительности жизни. \n \n Основной причиной этого является развал системы здравоохранения и вызванное им ухудшение здоровья египетского населения. Из-за наводнений, нехватки продовольствия и растущей бедности общественной инфраструктуре уделяется все меньше внимания. Некогда хваленая система здравоохранения Египта больше не существует. Все чаще встречаются заболевания, которые уже не поддаются лечению. Еще одна проблема, ускоряющая развитие болезней всех видов, - отсутствие нормального снабжения чистой водой.",
+                    "en": "The climate catastrophe also affects the health of the people in Egypt. According to a United Nations forecast from 2021, the available data predicted a steady increase in life expectancy in Egypt until at least 2100. Now the opposite has happened - life expectancy has fallen. Initial publications by demographic research institutes and climate impact researchers indicate that the climate crisis is causing more illnesses and deaths than was assumed in 2021. It is responsible for the declining life expectancy. \n \n The main reason for this is the collapse in health care and the resulting deterioration in the health of the Egyptian population. Due to flood disasters, food shortages and increasing poverty, the public infrastructure has been neglected more and more. Egypt's once praised health system no longer exists. There is an increasing incidence of diseases that can no longer be treated. Another problem that accelerates diseases of all kinds is the lack of a functioning supply of clean water.",
+                    "ar": "تؤثر الكارثة المناخية أيضًا على صحة السكان في مصر. وفقًا لتوقعات الأمم المتحدة من عام 2021 ، كانت البيانات المتاحة تتنبأ بزيادة مطردة في متوسط ​​العمر المتوقع في مصر حتى عام 2100 على الأقل. والآن حدث العكس - تراجع متوسط ​​العمر المتوقع. تشير الدراسات الأولية التي أجريتها معاهد البحوث الديمغرافية والباحثين في تأثيرات المناخ إلى أن أزمة المناخ تسببت في المزيد من الأمراض والوفيات مما كان مفترضًا في عام 2021. وهو المسؤول عن انخفاض متوسط ​​العمر المتوقع.\n\nالسبب الرئيسي في ذلك هو انهيار الرعاية الصحية والتدهور الناتج عنه في صحة السكان المصريين. بسبب الكوارث المتعلقة بالفيضانات ونقص الغذاء والفقر المتزايد ، تم إهمال البنية التحتية العامة بشكل متزايد. لم يعد النظام الصحي المشهود له في مصر موجودًا. هناك زيادة في حدوث الأمراض التي لم يعد بإمكانها علاجها. مشكلة أخرى تسرع من حدوث الأمراض من جميع الأنواع هي نقص الإمدادات النظيفة للمياه.",
+                    "fr": "La catastrophe climatique affecte également la santé de la population en Égypte. Selon une prévision des Nations Unies de 2021, les données disponibles prévoyaient une augmentation constante de l'espérance de vie en Égypte au moins jusqu'en 2100. Maintenant, c'est le contraire qui s'est produit - l'espérance de vie a diminué. Les premières publications des instituts de recherche démographique et des chercheurs sur les impacts climatiques indiquent que la crise climatique provoque plus de maladies et de décès que ce qui était prévu en 2021. Elle est responsable de la baisse de l'espérance de vie.\n\nLa raison principale en est l'effondrement des soins de santé et la détérioration de la santé de la population égyptienne. En raison des catastrophes d'inondations, des pénuries alimentaires et de la pauvreté croissante, les infrastructures publiques ont été de plus en plus négligées. Le système de santé autrefois salué de l'Égypte n'existe plus. On observe une augmentation des maladies qui ne peuvent plus être traitées. Un autre problème qui accélère les maladies de toutes sortes est le manque d'un approvisionnement fonctionnel en eau potable.",
+                    "_azure/gpt-4-vision_bg": "",
+                    "_gcp/gemini-1.5-pro_bg": "",
+                    "_compare_azure/gpt-4-vision_bg": "",
+                    "_compare_gcp/gemini-1.5-pro_bg": "",
+                    "_compare_aws/claude-3.5-sonnet_bg": "",
+                    "_unique_translations_back_bg": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_cs": "",
+                    "_gcp/gemini-1.5-pro_cs": "",
+                    "_compare_azure/gpt-4-vision_cs": "",
+                    "_compare_gcp/gemini-1.5-pro_cs": "",
+                    "_compare_aws/claude-3.5-sonnet_cs": "",
+                    "_unique_translations_back_cs": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_da": "",
+                    "_gcp/gemini-1.5-pro_da": "",
+                    "_compare_azure/gpt-4-vision_da": "",
+                    "_compare_gcp/gemini-1.5-pro_da": "",
+                    "_compare_aws/claude-3.5-sonnet_da": "",
+                    "_unique_translations_back_da": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_el": "",
+                    "_gcp/gemini-1.5-pro_el": "",
+                    "_compare_azure/gpt-4-vision_el": "",
+                    "_compare_gcp/gemini-1.5-pro_el": "",
+                    "_compare_aws/claude-3.5-sonnet_el": "",
+                    "_unique_translations_back_el": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_es": "",
+                    "_gcp/gemini-1.5-pro_es": "",
+                    "_compare_azure/gpt-4-vision_es": "",
+                    "_compare_gcp/gemini-1.5-pro_es": "",
+                    "_compare_aws/claude-3.5-sonnet_es": "",
+                    "_unique_translations_back_es": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_et": "",
+                    "_gcp/gemini-1.5-pro_et": "",
+                    "_compare_azure/gpt-4-vision_et": "",
+                    "_compare_gcp/gemini-1.5-pro_et": "",
+                    "_compare_aws/claude-3.5-sonnet_et": "",
+                    "_unique_translations_back_et": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_fi": "",
+                    "_gcp/gemini-1.5-pro_fi": "",
+                    "_compare_azure/gpt-4-vision_fi": "",
+                    "_compare_gcp/gemini-1.5-pro_fi": "",
+                    "_compare_aws/claude-3.5-sonnet_fi": "",
+                    "_unique_translations_back_fi": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_ga": "",
+                    "_gcp/gemini-1.5-pro_ga": "",
+                    "_compare_azure/gpt-4-vision_ga": "",
+                    "_compare_gcp/gemini-1.5-pro_ga": "",
+                    "_compare_aws/claude-3.5-sonnet_ga": "",
+                    "_unique_translations_back_ga": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_hr": "",
+                    "_gcp/gemini-1.5-pro_hr": "",
+                    "_compare_azure/gpt-4-vision_hr": "",
+                    "_compare_gcp/gemini-1.5-pro_hr": "",
+                    "_compare_aws/claude-3.5-sonnet_hr": "",
+                    "_unique_translations_back_hr": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_hu": "",
+                    "_gcp/gemini-1.5-pro_hu": "",
+                    "_compare_azure/gpt-4-vision_hu": "",
+                    "_compare_gcp/gemini-1.5-pro_hu": "",
+                    "_compare_aws/claude-3.5-sonnet_hu": "",
+                    "_unique_translations_back_hu": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_id": "",
+                    "_gcp/gemini-1.5-pro_id": "",
+                    "_compare_azure/gpt-4-vision_id": "",
+                    "_compare_gcp/gemini-1.5-pro_id": "",
+                    "_compare_aws/claude-3.5-sonnet_id": "",
+                    "_unique_translations_back_id": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_it": "",
+                    "_gcp/gemini-1.5-pro_it": "",
+                    "_compare_azure/gpt-4-vision_it": "",
+                    "_compare_gcp/gemini-1.5-pro_it": "",
+                    "_compare_aws/claude-3.5-sonnet_it": "",
+                    "_unique_translations_back_it": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_ja": "",
+                    "_gcp/gemini-1.5-pro_ja": "",
+                    "_compare_azure/gpt-4-vision_ja": "",
+                    "_compare_gcp/gemini-1.5-pro_ja": "",
+                    "_compare_aws/claude-3.5-sonnet_ja": "",
+                    "_unique_translations_back_ja": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_ko": "",
+                    "_gcp/gemini-1.5-pro_ko": "",
+                    "_compare_azure/gpt-4-vision_ko": "",
+                    "_compare_gcp/gemini-1.5-pro_ko": "",
+                    "_compare_aws/claude-3.5-sonnet_ko": "",
+                    "_unique_translations_back_ko": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_lv": "",
+                    "_gcp/gemini-1.5-pro_lv": "",
+                    "_compare_azure/gpt-4-vision_lv": "",
+                    "_compare_gcp/gemini-1.5-pro_lv": "",
+                    "_compare_aws/claude-3.5-sonnet_lv": "",
+                    "_unique_translations_back_lv": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_lt": "",
+                    "_gcp/gemini-1.5-pro_lt": "",
+                    "_compare_azure/gpt-4-vision_lt": "",
+                    "_compare_gcp/gemini-1.5-pro_lt": "",
+                    "_compare_aws/claude-3.5-sonnet_lt": "",
+                    "_unique_translations_back_lt": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_mt": "",
+                    "_gcp/gemini-1.5-pro_mt": "",
+                    "_compare_azure/gpt-4-vision_mt": "",
+                    "_compare_gcp/gemini-1.5-pro_mt": "",
+                    "_compare_aws/claude-3.5-sonnet_mt": "",
+                    "_unique_translations_back_mt": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_nl": "",
+                    "_gcp/gemini-1.5-pro_nl": "",
+                    "_compare_azure/gpt-4-vision_nl": "",
+                    "_compare_gcp/gemini-1.5-pro_nl": "",
+                    "_compare_aws/claude-3.5-sonnet_nl": "",
+                    "_unique_translations_back_nl": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_pl": "",
+                    "_gcp/gemini-1.5-pro_pl": "",
+                    "_compare_azure/gpt-4-vision_pl": "",
+                    "_compare_gcp/gemini-1.5-pro_pl": "",
+                    "_compare_aws/claude-3.5-sonnet_pl": "",
+                    "_unique_translations_back_pl": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_ro": "",
+                    "_gcp/gemini-1.5-pro_ro": "",
+                    "_compare_azure/gpt-4-vision_ro": "",
+                    "_compare_gcp/gemini-1.5-pro_ro": "",
+                    "_compare_aws/claude-3.5-sonnet_ro": "",
+                    "_unique_translations_back_ro": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_sk": "",
+                    "_gcp/gemini-1.5-pro_sk": "",
+                    "_compare_azure/gpt-4-vision_sk": "",
+                    "_compare_gcp/gemini-1.5-pro_sk": "",
+                    "_compare_aws/claude-3.5-sonnet_sk": "",
+                    "_unique_translations_back_sk": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_sl": "",
+                    "_gcp/gemini-1.5-pro_sl": "",
+                    "_compare_azure/gpt-4-vision_sl": "",
+                    "_compare_gcp/gemini-1.5-pro_sl": "",
+                    "_compare_aws/claude-3.5-sonnet_sl": "",
+                    "_unique_translations_back_sl": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_sv": "",
+                    "_gcp/gemini-1.5-pro_sv": "",
+                    "_compare_azure/gpt-4-vision_sv": "",
+                    "_compare_gcp/gemini-1.5-pro_sv": "",
+                    "_compare_aws/claude-3.5-sonnet_sv": "",
+                    "_unique_translations_back_sv": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_zh": "",
+                    "_gcp/gemini-1.5-pro_zh": "",
+                    "_compare_azure/gpt-4-vision_zh": "",
+                    "_compare_gcp/gemini-1.5-pro_zh": "",
+                    "_compare_aws/claude-3.5-sonnet_zh": "",
+                    "_unique_translations_back_zh": [
+                        ""
+                    ]
+                }
+            }
         }
-      }
     ]
-  }
+}

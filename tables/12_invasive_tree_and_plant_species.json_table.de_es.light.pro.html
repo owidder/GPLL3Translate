@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <style>
+        @page {
+            size: A4 landscape;
+        }
+    </style>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-family: verdana, serif;
+            font-size:12px;
+            border: 1px solid white;
+            transform: scale(0.3);
+            transform-origin: top left;
+        }
+        th, td {
+            border-bottom:3px solid white;
+            border-right:3px solid white;
+            padding: 15px;
+            text-align: left;
+        }
+        th {
+            background-color: darkgray;
+        }
+        td {
+            background-color: lightgray;
+        }
+        .endtd {
+            border-right: 3px solid darkgray;
+        }
+        .translate {
+            background-color: lightblue;
+        }
+        .back-translate {
+            background-color: lightgrey;
+        }
+        .winner {
+            background-color: lightpink;
+        }
+        .compare {
+            background-color: lightsteelblue;
+        }
+        .source {
+            background-color: palegoldenrod;
+        }
+        .empty {
+            background-color: lightgrey;
+        }
+        .sources {
+            font-weight: bold;
+            font-size: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>12_invasive_tree_and_plant_species.json</h1>
+    <table>
+        <thead>
+            <tr>
+                
+                    <th>source text</th>
+                
+                    <th>--- 0 ---</th>
+                
+                    <th></th>
+                
+                    <th>--- 1 ---</th>
+                
+                    <th></th>
+                
+                    <th>azure/gpt-4-vision</th>
+                
+                    <th>gcp/gemini-1.5-pro</th>
+                
+                    <th>aws/claude-3.5-sonnet</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            
+                <tr>
+                    <td class="endtd source">Invasive Baum- und Pflanzenarten nehmen überhand - einige sind sogar giftig</td>
+
+
+                    <td class="winner"><span style = 'color: red; font-weight: bold;'> Especies</span> <span style = 'color: red; font-weight: bold;'> invasoras</span> <span style = 'color: black;'>  de</span> <span style = 'color: black;'>  árboles</span> <span style = 'color: black;'>  y</span> <span style = 'color: black;'>  plantas</span> <span style = 'color: black;'>  están</span> <span style = 'color: red; font-weight: bold;'> predominando</span> <span style = 'color: red; font-weight: bold;'> -</span> <span style = 'color: black;'>  algunas</span> <span style = 'color: black;'>  incluso</span> <span style = 'color: red; font-weight: bold;'> se</span> <span style = 'color: red; font-weight: bold;'> vuelven</span> <span style = 'color: red; font-weight: bold;'> tóxicas</span><br><span class="sources">azure/gpt-4-vision</span></td>
+                    <td class="back-translate"></td>
+
+
+
+                    <td class="translate"><span style = 'color: red; font-weight: bold;'> Las</span> <span style = 'color: red; font-weight: bold;'> especies</span> <span style = 'color: black;'>  de</span> <span style = 'color: black;'>  árboles</span> <span style = 'color: black;'>  y</span> <span style = 'color: black;'>  plantas</span> <span style = 'color: red; font-weight: bold;'> invasoras</span> <span style = 'color: black;'>  están</span> <span style = 'color: red; font-weight: bold;'> proliferando,</span> <span style = 'color: black;'>  algunas</span> <span style = 'color: black;'>  incluso</span> <span style = 'color: red; font-weight: bold;'> son</span> <span style = 'color: red; font-weight: bold;'> venenosas</span><br><span class="sources">gcp/gemini-1.5-pro</span></td>
+                    <td class="back-translate"></td>
+
+
+
+                    <td class="compare">1</td>
+
+                    <td class="compare">-1</td>
+
+                    <td class="compare">1</td>
+
+                </tr>
+            
+                <tr>
+                    <td class="endtd source"><img width=250  src="https://i0.wp.com/eos.org/wp-content/uploads/2021/09/famine-weed.jpg"><br>Aufgrund des steigenden CO₂-Gehalts in der Luft und des dadurch beschleunigten Wachstums einiger Baumarten breiten sich invasive Arten in den deutschen Wäldern immer weiter aus. Die Pflanzen reagieren besonders empfindlich auf Schwankungen des CO₂-Gehalts. Sie benötigen das Gas zum Überleben, und wechselnde Kohlenstoffkonzentrationen können sich auf alles auswirken, von ihrer Wachstumsrate über ihren Nährwert bis hin zu ihrer Toxizität. Einige Pflanzenarten profitieren von den derzeitigen Bedingungen, darunter auch eine invasive Pflanze, die als <i>Hungerkraut (Parthenium hysterophorus)</i> bekannt ist. Eine in <i>Nature Plants veröffentlichte Studie</i> zeigt, dass eine Art dieses <b>schädlichen</b> Unkrauts unter den derzeitigen CO₂-Werten besonders konkurrenzfähig und invasiv wird.</td>
+
+
+                    <td class="translate"><img src="https://i0.wp.com/eos.org/wp-content/uploads/2021/09/famine-weed.jpg" width="250"/> <span style = 'color: black;'>  Debido</span> <span style = 'color: black;'>  al</span> <span style = 'color: black;'>  aumento</span> <span style = 'color: red; font-weight: bold;'> de</span> <span style = 'color: red; font-weight: bold;'> los</span> <span style = 'color: red; font-weight: bold;'> niveles</span> <span style = 'color: black;'>  de</span> <span style = 'color: black;'>  CO₂</span> <span style = 'color: black;'>  en</span> <span style = 'color: black;'>  el</span> <span style = 'color: black;'>  aire</span> <span style = 'color: black;'>  y</span> <span style = 'color: black;'>  al</span> <span style = 'color: red; font-weight: bold;'> consiguiente</span> <span style = 'color: black;'>  crecimiento</span> <span style = 'color: black;'>  acelerado</span> <span style = 'color: black;'>  de</span> <span style = 'color: black;'>  algunas</span> <span style = 'color: black;'>  especies</span> <span style = 'color: black;'>  de</span> <span style = 'color: black;'>  árboles,</span> <span style = 'color: black;'>  las</span> <span style = 'color: black;'>  especies</span> <span style = 'color: black;'>  invasoras</span> <span style = 'color: black;'>  se</span> <span style = 'color: black;'>  están</span> <span style = 'color: black;'>  extendiendo</span> <span style = 'color: black;'>  cada</span> <span style = 'color: black;'>  vez</span> <span style = 'color: black;'>  más</span> <span style = 'color: black;'>  en</span> <span style = 'color: black;'>  los</span> <span style = 'color: black;'>  bosques</span> <span style = 'color: black;'>  alemanes.</span> <span style = 'color: black;'>  Las</span> <span style = 'color: black;'>  plantas</span> <span style = 'color: black;'>  son</span> <span style = 'color: red; font-weight: bold;'> particularmente</span> <span style = 'color: black;'>  sensibles</span> <span style = 'color: black;'>  a</span> <span style = 'color: black;'>  las</span> <span style = 'color: black;'>  fluctuaciones</span> <span style = 'color: black;'>  en</span> <span style = 'color: black;'>  los</span> <span style = 'color: black;'>  niveles</span> <span style = 'color: black;'>  de</span> <span style = 'color: black;'>  CO₂.</span> <span style = 'color: red; font-weight: bold;'> Dependen</span> <span style = 'color: red; font-weight: bold;'> de</span> <span style = 'color: black;'>  este</span> <span style = 'color: black;'>  gas</span> <span style = 'color: black;'>  para</span> <span style = 'color: black;'>  sobrevivir,</span> <span style = 'color: black;'>  y</span> <span style = 'color: red; font-weight: bold;'> las</span> <span style = 'color: red; font-weight: bold;'> variaciones</span> <span style = 'color: black;'>  en</span> <span style = 'color: black;'>  las</span> <span style = 'color: black;'>  concentraciones</span> <span style = 'color: black;'>  de</span> <span style = 'color: black;'>  carbono</span> <span style = 'color: black;'>  pueden</span> <span style = 'color: black;'>  afectar</span> <span style = 'color: red; font-weight: bold;'> a</span> <span style = 'color: black;'>  todo,</span> <span style = 'color: black;'>  desde</span> <span style = 'color: black;'>  su</span> <span style = 'color: black;'>  tasa</span> <span style = 'color: black;'>  de</span> <span style = 'color: black;'>  crecimiento</span> <span style = 'color: black;'>  hasta</span> <span style = 'color: black;'>  su</span> <span style = 'color: black;'>  valor</span> <span style = 'color: black;'>  nutricional</span> <span style = 'color: black;'>  y</span> <span style = 'color: black;'>  su</span> <span style = 'color: black;'>  toxicidad.</span> <span style = 'color: black;'>  Algunas</span> <span style = 'color: black;'>  especies</span> <span style = 'color: black;'>  de</span> <span style = 'color: black;'>  plantas</span> <span style = 'color: black;'>  se</span> <span style = 'color: red; font-weight: bold;'> están</span> <span style = 'color: red; font-weight: bold;'> beneficiando</span> <span style = 'color: black;'>  de</span> <span style = 'color: black;'>  las</span> <span style = 'color: black;'>  condiciones</span> <span style = 'color: black;'>  actuales,</span> <span style = 'color: black;'>  incluida</span> <span style = 'color: black;'>  una</span> <span style = 'color: black;'>  planta</span> <span style = 'color: black;'>  invasora</span> <span style = 'color: black;'>  conocida</span> <span style = 'color: black;'>  como</span> <i>hierba de la hambruna (Parthenium hysterophorus)</i> <span style = 'color: black;'>  hierba</span> <span style = 'color: red; font-weight: bold;'> del</span> <span style = 'color: red; font-weight: bold;'> hambre</span> <span style = 'color: black;'>  (Parthenium</span> <span style = 'color: black;'>  hysterophorus)</span> <span style = 'color: black;'>  .</span> <span style = 'color: black;'>  Un</span> <i>Nature Plants</i> <span style = 'color: red; font-weight: bold;'> estudio</span> <span style = 'color: red; font-weight: bold;'> publicado</span> <span style = 'color: red; font-weight: bold;'> en</span> <span style = 'color: black;'>  Nature</span> <span style = 'color: black;'>  Plants</span> <span style = 'color: black;'>  muestra</span> <span style = 'color: black;'>  que</span> <span style = 'color: black;'>  un</span> <span style = 'color: black;'>  tipo</span> <span style = 'color: black;'>  de</span> <span style = 'color: black;'>  esta</span> <b>dañina</b> <span style = 'color: red; font-weight: bold;'> maleza</span> <span style = 'color: red; font-weight: bold;'> nociva</span> <span style = 'color: black;'>  se</span> <span style = 'color: black;'>  vuelve</span> <span style = 'color: black;'>  particularmente</span> <span style = 'color: black;'>  competitiva</span> <span style = 'color: black;'>  e</span> <span style = 'color: black;'>  invasiva</span> <span style = 'color: red; font-weight: bold;'> en</span> <span style = 'color: black;'>  los</span> <span style = 'color: red; font-weight: bold;'> niveles</span> <span style = 'color: black;'>  actuales</span> <span style = 'color: black;'>  de</span> <span style = 'color: black;'>  CO₂</span><br><span class="sources">gcp/gemini-1.5-pro</span></td>
+                    <td class="back-translate"></td>
+
+
+
+                    <td class="winner"><img src="https://i0.wp.com/eos.org/wp-content/uploads/2021/09/famine-weed.jpg" width="250"/> <span style = 'color: black;'>  Debido</span> <span style = 'color: black;'>  al</span> <span style = 'color: black;'>  aumento</span> <span style = 'color: red; font-weight: bold;'> del</span> <span style = 'color: red; font-weight: bold;'> contenido</span> <span style = 'color: black;'>  de</span> <span style = 'color: black;'>  CO₂</span> <span style = 'color: black;'>  en</span> <span style = 'color: black;'>  el</span> <span style = 'color: black;'>  aire</span> <span style = 'color: black;'>  y</span> <span style = 'color: black;'>  al</span> <span style = 'color: black;'>  crecimiento</span> <span style = 'color: black;'>  acelerado</span> <span style = 'color: black;'>  de</span> <span style = 'color: black;'>  algunas</span> <span style = 'color: black;'>  especies</span> <span style = 'color: black;'>  de</span> <span style = 'color: black;'>  árboles,</span> <span style = 'color: black;'>  las</span> <span style = 'color: black;'>  especies</span> <span style = 'color: black;'>  invasoras</span> <span style = 'color: black;'>  se</span> <span style = 'color: black;'>  están</span> <span style = 'color: black;'>  extendiendo</span> <span style = 'color: black;'>  cada</span> <span style = 'color: black;'>  vez</span> <span style = 'color: black;'>  más</span> <span style = 'color: black;'>  en</span> <span style = 'color: black;'>  los</span> <span style = 'color: black;'>  bosques</span> <span style = 'color: black;'>  alemanes.</span> <span style = 'color: black;'>  Las</span> <span style = 'color: black;'>  plantas</span> <span style = 'color: black;'>  son</span> <span style = 'color: red; font-weight: bold;'> especialmente</span> <span style = 'color: black;'>  sensibles</span> <span style = 'color: black;'>  a</span> <span style = 'color: black;'>  las</span> <span style = 'color: black;'>  fluctuaciones</span> <span style = 'color: black;'>  en</span> <span style = 'color: black;'>  los</span> <span style = 'color: black;'>  niveles</span> <span style = 'color: black;'>  de</span> <span style = 'color: black;'>  CO₂.</span> <span style = 'color: red; font-weight: bold;'> Necesitan</span> <span style = 'color: black;'>  este</span> <span style = 'color: black;'>  gas</span> <span style = 'color: black;'>  para</span> <span style = 'color: black;'>  sobrevivir,</span> <span style = 'color: black;'>  y</span> <span style = 'color: red; font-weight: bold;'> los</span> <span style = 'color: red; font-weight: bold;'> cambios</span> <span style = 'color: black;'>  en</span> <span style = 'color: black;'>  las</span> <span style = 'color: black;'>  concentraciones</span> <span style = 'color: black;'>  de</span> <span style = 'color: black;'>  carbono</span> <span style = 'color: black;'>  pueden</span> <span style = 'color: black;'>  afectar</span> <span style = 'color: black;'>  todo,</span> <span style = 'color: black;'>  desde</span> <span style = 'color: black;'>  su</span> <span style = 'color: black;'>  tasa</span> <span style = 'color: black;'>  de</span> <span style = 'color: black;'>  crecimiento</span> <span style = 'color: black;'>  hasta</span> <span style = 'color: black;'>  su</span> <span style = 'color: black;'>  valor</span> <span style = 'color: black;'>  nutricional</span> <span style = 'color: black;'>  y</span> <span style = 'color: black;'>  su</span> <span style = 'color: black;'>  toxicidad.</span> <span style = 'color: black;'>  Algunas</span> <span style = 'color: black;'>  especies</span> <span style = 'color: black;'>  de</span> <span style = 'color: black;'>  plantas</span> <span style = 'color: black;'>  se</span> <span style = 'color: red; font-weight: bold;'> benefician</span> <span style = 'color: black;'>  de</span> <span style = 'color: black;'>  las</span> <span style = 'color: black;'>  condiciones</span> <span style = 'color: black;'>  actuales,</span> <span style = 'color: black;'>  incluida</span> <span style = 'color: black;'>  una</span> <span style = 'color: black;'>  planta</span> <span style = 'color: black;'>  invasora</span> <span style = 'color: black;'>  conocida</span> <span style = 'color: black;'>  como</span> <i>hierba del hambre (Parthenium hysterophorus)</i> <span style = 'color: black;'>  hierba</span> <span style = 'color: red; font-weight: bold;'> de</span> <span style = 'color: red; font-weight: bold;'> la</span> <span style = 'color: red; font-weight: bold;'> hambruna</span> <span style = 'color: black;'>  (Parthenium</span> <span style = 'color: black;'>  hysterophorus)</span> <span style = 'color: black;'>  .</span> <span style = 'color: black;'>  Un</span> <span style = 'color: red; font-weight: bold;'> estudio</span> <span style = 'color: red; font-weight: bold;'> publicado</span> <span style = 'color: red; font-weight: bold;'> en</span> <i>estudio publicado en Nature Plants</i> <span style = 'color: black;'>  Nature</span> <span style = 'color: black;'>  Plants</span> <span style = 'color: black;'>  muestra</span> <span style = 'color: black;'>  que</span> <span style = 'color: black;'>  un</span> <span style = 'color: black;'>  tipo</span> <span style = 'color: black;'>  de</span> <span style = 'color: black;'>  esta</span> <b>maleza nociva</b> <span style = 'color: red; font-weight: bold;'> dañina</span> <span style = 'color: red; font-weight: bold;'> hierba</span> <span style = 'color: black;'>  se</span> <span style = 'color: black;'>  vuelve</span> <span style = 'color: black;'>  particularmente</span> <span style = 'color: black;'>  competitiva</span> <span style = 'color: black;'>  e</span> <span style = 'color: black;'>  invasiva</span> <span style = 'color: red; font-weight: bold;'> con</span> <span style = 'color: black;'>  los</span> <span style = 'color: red; font-weight: bold;'> actuales</span> <span style = 'color: black;'>  niveles</span> <span style = 'color: black;'>  de</span> <span style = 'color: black;'>  CO₂</span><br><span class="sources">azure/gpt-4-vision</span></td>
+                    <td class="back-translate"></td>
+
+
+
+                    <td class="compare">2</td>
+
+                    <td class="compare">1</td>
+
+                    <td class="compare">2</td>
+
+                </tr>
+            
+        </tbody>
+    </table>
+</body>
+</html>

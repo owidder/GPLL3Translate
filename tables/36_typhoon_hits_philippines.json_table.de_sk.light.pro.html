@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <style>
+        @page {
+            size: A4 landscape;
+        }
+    </style>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-family: verdana, serif;
+            font-size:12px;
+            border: 1px solid white;
+            transform: scale(0.3);
+            transform-origin: top left;
+        }
+        th, td {
+            border-bottom:3px solid white;
+            border-right:3px solid white;
+            padding: 15px;
+            text-align: left;
+        }
+        th {
+            background-color: darkgray;
+        }
+        td {
+            background-color: lightgray;
+        }
+        .endtd {
+            border-right: 3px solid darkgray;
+        }
+        .translate {
+            background-color: lightblue;
+        }
+        .back-translate {
+            background-color: lightgrey;
+        }
+        .winner {
+            background-color: lightpink;
+        }
+        .compare {
+            background-color: lightsteelblue;
+        }
+        .source {
+            background-color: palegoldenrod;
+        }
+        .empty {
+            background-color: lightgrey;
+        }
+        .sources {
+            font-weight: bold;
+            font-size: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>36_typhoon_hits_philippines.json</h1>
+    <table>
+        <thead>
+            <tr>
+                
+                    <th>source text</th>
+                
+                    <th>--- 0 ---</th>
+                
+                    <th></th>
+                
+                    <th>--- 1 ---</th>
+                
+                    <th></th>
+                
+                    <th>azure/gpt-4-vision</th>
+                
+                    <th>gcp/gemini-1.5-pro</th>
+                
+                    <th>aws/claude-3.5-sonnet</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            
+                <tr>
+                    <td class="endtd source">Taifun trifft Philippinen</td>
+
+
+                    <td class="winner"><br><span class="sources">azure/gpt-4-vision, gcp/gemini-1.5-pro</span></td>
+                    <td class="back-translate"></td>
+
+
+
+                    <td class="empty"></td>
+                    <td class="empty"></td>
+
+
+
+                    <td class="compare">-1</td>
+
+                    <td class="compare">-1</td>
+
+                    <td class="compare">-1</td>
+
+                </tr>
+            
+                <tr>
+                    <td class="endtd source"><img width=250 src="../../../content/images/events/36_typhoon_hits_philippines.jpg"><br>Mitten in der Nacht klingelt Dein Handy. Du schreckst auf und gehst sofort ran, als Du siehst wer anruft: Deine beste Freundin, von der Du schon seit Tagen nichts mehr gehört hast. Sie ist gerade auf einer Reise auf den Philippinen und Du hast Dir schon schreckliche Sorgen gemacht. Sie konnte sich nicht melden, sagt sie, sie liege im Krankenhaus. Als der Taifun auf die Inselkette getroffen ist, sei sie verwundet worden. Sie habe aber noch Glück gehabt und es gehe ihr schon besser. 95 Prozent der Bevölkerung waren von dem Taifun betroffen. Aufgrund der Erderhitzung ist der Wirbelsturm deutlich stärker ausgefallen, als es ohne Klimawandel der Fall gewesen wäre.<br>Text von treibhauspost.de</td>
+
+
+                    <td class="winner"><br><span class="sources">azure/gpt-4-vision, gcp/gemini-1.5-pro</span></td>
+                    <td class="back-translate"></td>
+
+
+
+                    <td class="empty"></td>
+                    <td class="empty"></td>
+
+
+
+                    <td class="compare">-1</td>
+
+                    <td class="compare">-1</td>
+
+                    <td class="compare">-1</td>
+
+                </tr>
+            
+        </tbody>
+    </table>
+</body>
+</html>

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <style>
+        @page {
+            size: A4 landscape;
+        }
+    </style>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-family: verdana, serif;
+            font-size:12px;
+            border: 1px solid white;
+            transform: scale(0.3);
+            transform-origin: top left;
+        }
+        th, td {
+            border-bottom:3px solid white;
+            border-right:3px solid white;
+            padding: 15px;
+            text-align: left;
+        }
+        th {
+            background-color: darkgray;
+        }
+        td {
+            background-color: lightgray;
+        }
+        .endtd {
+            border-right: 3px solid darkgray;
+        }
+        .translate {
+            background-color: lightblue;
+        }
+        .back-translate {
+            background-color: lightgrey;
+        }
+        .winner {
+            background-color: lightpink;
+        }
+        .compare {
+            background-color: lightsteelblue;
+        }
+        .source {
+            background-color: palegoldenrod;
+        }
+        .empty {
+            background-color: lightgrey;
+        }
+        .sources {
+            font-weight: bold;
+            font-size: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>13_bremerhaven_flooded.json</h1>
+    <table>
+        <thead>
+            <tr>
+                
+                    <th>source text</th>
+                
+                    <th>--- 0 ---</th>
+                
+                    <th></th>
+                
+                    <th>--- 1 ---</th>
+                
+                    <th></th>
+                
+                    <th>azure/gpt-4-vision</th>
+                
+                    <th>gcp/gemini-1.5-pro</th>
+                
+                    <th>aws/claude-3.5-sonnet</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            
+                <tr>
+                    <td class="endtd source">Die Seestadt Bremerhaven wird zum fünften Mal in diesem Jahr überflutet</td>
+
+
+                    <td class="winner"><br><span class="sources">azure/gpt-4-vision, gcp/gemini-1.5-pro</span></td>
+                    <td class="back-translate"></td>
+
+
+
+                    <td class="empty"></td>
+                    <td class="empty"></td>
+
+
+
+                    <td class="compare">-1</td>
+
+                    <td class="compare">-1</td>
+
+                    <td class="compare">-1</td>
+
+                </tr>
+            
+                <tr>
+                    <td class="endtd source"><img width=250  src="https://static.dw.com/image/58274551_403.jpg"><br>Die Seestadt Bremerhaven wurde in diesem Jahr bereits zum fünften Mal überflutet. Die Deiche sind nicht mehr die beste Lösung. Auch Finnland und die Niederlande verlieren ihr Land an das Meer. Die Bürger fordern Maßnahmen und Unterstützung.</td>
+
+
+                    <td class="winner"><br><span class="sources">azure/gpt-4-vision, gcp/gemini-1.5-pro</span></td>
+                    <td class="back-translate"></td>
+
+
+
+                    <td class="empty"></td>
+                    <td class="empty"></td>
+
+
+
+                    <td class="compare">-1</td>
+
+                    <td class="compare">-1</td>
+
+                    <td class="compare">-1</td>
+
+                </tr>
+            
+        </tbody>
+    </table>
+</body>
+</html>

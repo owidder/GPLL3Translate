@@ -24,7 +24,7 @@
                     "_compare_gcp/gemini-1.5-pro_sv": "Resultaten är här!",
                     "_compare_aws/claude-3.5-sonnet_sv": "Resultaten är här!",
                     "_unique_translations_back_sv": [
-                        "Die Ergebnisse sind da!"
+                        ""
                     ],
                     "_azure/gpt-4-vision_ar": "النتائج جاهزة!",
                     "_gcp/gemini-1.5-pro_ar": "النتائج جاهزة! \n",
@@ -262,7 +262,7 @@
                     "_compare_gcp/gemini-1.5-pro_zh": "结果出来了！",
                     "_compare_aws/claude-3.5-sonnet_zh": "结果出来了！",
                     "_unique_translations_back_zh": [
-                        "Die Ergebnisse sind da!"
+                        ""
                     ]
                 },
                 "body": {
@@ -274,8 +274,8 @@
                     "_compare_gcp/gemini-1.5-pro_sv": "El från 100% förnybara energikällor",
                     "_compare_aws/claude-3.5-sonnet_sv": "El från 100 % förnybara energikällor",
                     "_unique_translations_back_sv": [
-                        "Strom aus 100% erneuerbaren Energiequellen",
-                        "Strom aus 100% erneuerbaren Energiequellen"
+                        "",
+                        ""
                     ],
                     "_azure/gpt-4-vision_ar": "كهرباء من مصادر الطاقة المتجددة بنسبة 100%",
                     "_gcp/gemini-1.5-pro_ar": "الكهرباء من مصادر الطاقة المتجددة بنسبة 100٪\n",
@@ -308,7 +308,7 @@
                     "_compare_gcp/gemini-1.5-pro_da": "Strøm fra 100% vedvarende energikilder",
                     "_compare_aws/claude-3.5-sonnet_da": "Strøm fra 100% vedvarende energikilder",
                     "_unique_translations_back_da": [
-                        "Strom aus 100% erneuerbaren Energiequellen",
+                        "Strom aus 100 % erneuerbaren Energiequellen",
                         "Strom aus 100% erneuerbaren Energiequellen"
                     ],
                     "_azure/gpt-4-vision_de": "Strom aus 100% erneuerbaren Energiequellen",
@@ -448,7 +448,7 @@
                     "_compare_aws/claude-3.5-sonnet_lt": "Elektra iš 100 % atsinaujinančių energijos šaltinių",
                     "_unique_translations_back_lt": [
                         "Strom aus 100% erneuerbaren Energiequellen",
-                        "Strom aus 100% erneuerbaren Energiequellen"
+                        "Strom aus 100 % erneuerbaren Energiequellen"
                     ],
                     "_azure/gpt-4-vision_mt": "Elettriku minn sorsi ta' enerġija rinnovabbli 100%",
                     "_gcp/gemini-1.5-pro_mt": "Elettriku minn sorsi ta' enerġija 100% rinnovabbli \n",
@@ -474,7 +474,7 @@
                     "_compare_aws/claude-3.5-sonnet_pl": "Energia elektryczna ze 100% odnawialnych źródeł energii",
                     "_unique_translations_back_pl": [
                         "Strom aus 100% erneuerbaren Energiequellen",
-                        "Strom aus 100 % erneuerbaren Energiequellen"
+                        "Strom aus 100% erneuerbaren Energiequellen"
                     ],
                     "_azure/gpt-4-vision_ro": "Electricitate din surse de energie regenerabilă 100%",
                     "_gcp/gemini-1.5-pro_ro": "Electricitate din surse 100% regenerabile",
@@ -508,8 +508,8 @@
                     "_compare_gcp/gemini-1.5-pro_sl": "Elektrika iz 100 % obnovljivih virov energije",
                     "_compare_aws/claude-3.5-sonnet_sl": "Elektrika iz 100 % obnovljivih virov energije",
                     "_unique_translations_back_sl": [
-                        "Strom aus 100% erneuerbaren Energiequellen",
-                        "Strom aus 100 % erneuerbaren Energiequellen"
+                        "",
+                        ""
                     ],
                     "_azure/gpt-4-vision_zh": "来自100%可再生能源的电力",
                     "_gcp/gemini-1.5-pro_zh": "100%可再生能源发电",
@@ -517,8 +517,8 @@
                     "_compare_gcp/gemini-1.5-pro_zh": "来自100%可再生能源的电力",
                     "_compare_aws/claude-3.5-sonnet_zh": "来自100%可再生能源的电力",
                     "_unique_translations_back_zh": [
-                        "Strom aus 100% erneuerbaren Energiequellen",
-                        "Strom aus 100% erneuerbaren Energiequellen"
+                        "",
+                        ""
                     ]
                 },
                 "conditions": [
@@ -561,7 +561,7 @@
                     "_compare_gcp/gemini-1.5-pro_sv": "Resultaten är här!",
                     "_compare_aws/claude-3.5-sonnet_sv": "Resultaten är här!",
                     "_unique_translations_back_sv": [
-                        "Die Ergebnisse sind da!"
+                        ""
                     ],
                     "_azure/gpt-4-vision_ar": "النتائج جاهزة!",
                     "_gcp/gemini-1.5-pro_ar": "النتائج جاهزة! \n",
@@ -790,8 +790,8 @@
                     "_compare_gcp/gemini-1.5-pro_sl": "Rezultati so tukaj!",
                     "_compare_aws/claude-3.5-sonnet_sl": "Rezultati so tu!",
                     "_unique_translations_back_sl": [
-                        "Die Ergebnisse sind da!",
-                        "Die Ergebnisse sind da!"
+                        "",
+                        ""
                     ],
                     "_azure/gpt-4-vision_zh": "结果出来了！",
                     "_gcp/gemini-1.5-pro_zh": "结果出来了！ \n",
@@ -799,7 +799,7 @@
                     "_compare_gcp/gemini-1.5-pro_zh": "结果出来了！",
                     "_compare_aws/claude-3.5-sonnet_zh": "结果出来了！",
                     "_unique_translations_back_zh": [
-                        "Die Ergebnisse sind da!"
+                        ""
                     ]
                 },
                 "body": {
@@ -814,8 +814,8 @@
                     "_compare_gcp/gemini-1.5-pro_sv": "Vid det senaste valet röstade man för att höja CO₂-skatten. Den har därför ökat med 25 euro!",
                     "_compare_aws/claude-3.5-sonnet_sv": "Vid det senaste valet röstade man för att höja CO₂-skatten. Den har därför ökat med 25 euro!",
                     "_unique_translations_back_sv": [
-                        "Bei der letzten Wahl wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25€ gestiegen!",
-                        "Bei der letzten Wahl wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25 Euro gestiegen!"
+                        "",
+                        ""
                     ],
                     "_azure/gpt-4-vision_ar": "في الانتخابات الأخيرة، تم التصويت لصالح زيادة ضريبة ثاني أكسيد الكربون.<br>لذلك، ارتفعت بمقدار 25 يورو!",
                     "_gcp/gemini-1.5-pro_ar": "في الانتخابات الأخيرة، تم التصويت على زيادة ضريبة ثاني أكسيد الكربون.<br>لذلك، ارتفعت بمقدار 25 يورو! \n",
@@ -833,7 +833,7 @@
                     "_compare_aws/claude-3.5-sonnet_bg": "На последните избори беше гласувано за увеличение на данъка върху CO₂. Поради това той се е увеличил с 25 евро!",
                     "_unique_translations_back_bg": [
                         "Bei der letzten Wahl wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25 Euro gestiegen!",
-                        "Bei der letzten Wahl wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25 Euro gestiegen!"
+                        "Bei den letzten Wahlen wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25 Euro gestiegen!"
                     ],
                     "_azure/gpt-4-vision_cs": "Na posledních volbách bylo hlasováno pro zvýšení daně z CO₂.<br>Proto vzrostla o 25 €!",
                     "_gcp/gemini-1.5-pro_cs": "V posledních volbách se hlasovalo o zvýšení daně z CO₂.<br>Proto se zvýšila o 25 €! \n",
@@ -850,8 +850,8 @@
                     "_compare_gcp/gemini-1.5-pro_da": "Ved det seneste valg blev der stemt for at hæve CO₂-afgiften. Den er derfor steget med 25 €",
                     "_compare_aws/claude-3.5-sonnet_da": "Ved det sidste valg blev der stemt for at hæve CO₂-afgiften. Den er derfor steget med 25€!",
                     "_unique_translations_back_da": [
-                        "Bei der letzten Wahl wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25 € gestiegen!",
-                        "Bei der letzten Wahl wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25€ gestiegen!"
+                        "Bei der letzten Wahl wurde für die Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25€ gestiegen!",
+                        "Bei der letzten Wahl wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25 € gestiegen"
                     ],
                     "_azure/gpt-4-vision_de": "Bei der letzten Wahl wurde für die Erhöhung der CO₂-Steuer gestimmt. Sie ist deshalb um 25€ gestiegen!",
                     "_gcp/gemini-1.5-pro_de": "Bei der letzten Wahl wurde für die Erhöhung der CO₂-Steuer gestimmt.<br>Sie ist deshalb um 25 € gestiegen! \n",
@@ -886,8 +886,8 @@
                     "_compare_gcp/gemini-1.5-pro_es": "En las últimas elecciones se votó a favor de aumentar el impuesto al CO₂. Por lo tanto, ha aumentado en 25€",
                     "_compare_aws/claude-3.5-sonnet_es": "En las últimas elecciones se votó a favor de aumentar el impuesto al CO₂. Por lo tanto, ha aumentado en 25€",
                     "_unique_translations_back_es": [
-                        "Bei der letzten Wahl wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25 € gestiegen!",
-                        "Bei den letzten Wahlen wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25€ gestiegen!"
+                        "Bei den letzten Wahlen wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25€ gestiegen!",
+                        "Bei den letzten Wahlen wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25 € gestiegen!"
                     ],
                     "_azure/gpt-4-vision_et": "Viimasel valimisel hääletati CO₂-maksu tõstmise poolt.<br>Seetõttu on see tõusnud 25 euro võrra!",
                     "_gcp/gemini-1.5-pro_et": "Viimastel valimistel hääletati CO₂-maksu tõstmise poolt.<br>Seega on see 25 euro võrra tõusnud! \n",
@@ -896,7 +896,7 @@
                     "_compare_aws/claude-3.5-sonnet_et": "Viimasel valimisel hääletati CO₂-maksu tõstmise poolt. Seetõttu on see tõusnud 25 euro võrra!",
                     "_unique_translations_back_et": [
                         "Bei der letzten Wahl wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25 Euro gestiegen!",
-                        "Bei der letzten Wahl wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25 Euro gestiegen!"
+                        "Bei den letzten Wahlen wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25 Euro gestiegen!"
                     ],
                     "_azure/gpt-4-vision_fi": "Viimeisissä vaaleissa äänestettiin CO₂-veron korottamisen puolesta.<br>Se on siksi noussut 25 eurolla!",
                     "_gcp/gemini-1.5-pro_fi": "Viime vaaleissa äänestettiin CO₂-veron korottamisen puolesta.<br>Se on siksi noussut 25 €! \n",
@@ -904,7 +904,7 @@
                     "_compare_gcp/gemini-1.5-pro_fi": "Viime vaaleissa äänestettiin CO₂-veron korottamisen puolesta. Se on siksi noussut 25 €!",
                     "_compare_aws/claude-3.5-sonnet_fi": "Viimeisissä vaaleissa äänestettiin CO₂-veron korottamisen puolesta. Se on siksi noussut 25 eurolla!",
                     "_unique_translations_back_fi": [
-                        "Bei der letzten Wahl wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25 € gestiegen!",
+                        "Bei den letzten Wahlen wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25 € gestiegen!",
                         "Bei der letzten Wahl wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25 Euro gestiegen!"
                     ],
                     "_azure/gpt-4-vision_fr": "Lors des dernières élections, il a été voté pour une augmentation de la taxe sur le CO₂.<br>Elle a donc augmenté de 25 € !",
@@ -922,8 +922,8 @@
                     "_compare_gcp/gemini-1.5-pro_ga": "Vótáladh sa toghchán deireanach chun an cháin CO₂ a ardú. Dá bhrí sin, tá ardú €25 tagtha uirthi!",
                     "_compare_aws/claude-3.5-sonnet_ga": "Vótáladh sa toghchán deireanach chun an cháin CO₂ a ardú. Dá bhrí sin, tá ardú €25 tagtha uirthi!",
                     "_unique_translations_back_ga": [
-                        "Bei der letzten Wahl wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25€ gestiegen!",
-                        "Bei der letzten Wahl wurde dafür gestimmt, die CO₂-Steuer zu erhöhen. Sie ist daher um 25€ gestiegen!"
+                        "Bei der letzten Wahl wurde dafür gestimmt, die CO₂-Steuer zu erhöhen. Sie ist daher um 25 € gestiegen!",
+                        "Bei der letzten Wahl wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25€ gestiegen!"
                     ],
                     "_azure/gpt-4-vision_hr": "Na posljednjim izborima glasalo se za povećanje CO₂ poreza.<br>Stoga je porastao za 25€!",
                     "_gcp/gemini-1.5-pro_hr": "Na posljednjim izborima izglasano je povećanje poreza na CO₂.<br>Stoga je porastao za 25 €! \n",
@@ -931,8 +931,8 @@
                     "_compare_gcp/gemini-1.5-pro_hr": "Na posljednjim izborima izglasano je povećanje poreza na CO₂. Stoga je porastao za 25 €!",
                     "_compare_aws/claude-3.5-sonnet_hr": "Na posljednjim izborima izglasano je povećanje poreza na CO₂. Stoga je porastao za 25 €!",
                     "_unique_translations_back_hr": [
-                        "Bei der letzten Wahl wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25€ gestiegen!",
-                        "Bei der letzten Wahl wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25 € gestiegen!"
+                        "Bei den letzten Wahlen wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25€ gestiegen!",
+                        "Bei der letzten Wahl wurde für die Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25 € gestiegen!"
                     ],
                     "_azure/gpt-4-vision_hu": "Az utolsó választáson a CO₂-adó emelésére szavaztak.<br>Emiatt 25 euróval nőtt!",
                     "_gcp/gemini-1.5-pro_hu": "Az utolsó választáson a CO₂-adó emelésére szavaztak.<br>Ezért 25 euróval emelkedett! \n",
@@ -949,7 +949,7 @@
                     "_compare_gcp/gemini-1.5-pro_id": "Pada pemilihan terakhir, telah dipilih untuk menaikkan pajak CO₂. Oleh karena itu, pajak tersebut telah naik sebesar €25!",
                     "_compare_aws/claude-3.5-sonnet_id": "Pada pemilihan terakhir, telah dipilih untuk menaikkan pajak CO₂. Oleh karena itu, pajak tersebut telah naik sebesar €25!",
                     "_unique_translations_back_id": [
-                        "Bei der letzten Wahl wurde dafür gestimmt, die CO₂-Steuer zu erhöhen. Sie ist daher um 25€ gestiegen!",
+                        "Bei der letzten Wahl haben die Menschen dafür gestimmt, die CO₂-Steuer zu erhöhen. Sie ist daher um 25€ gestiegen!",
                         "Bei der letzten Wahl wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25€ gestiegen!"
                     ],
                     "_azure/gpt-4-vision_it": "Alle ultime elezioni si è votato per l'aumento della tassa sulla CO₂.<br>È quindi aumentata di 25€!",
@@ -958,8 +958,8 @@
                     "_compare_gcp/gemini-1.5-pro_it": "Nelle ultime elezioni si è votato per aumentare la tassa sulla CO₂. Di conseguenza è aumentata di 25€!",
                     "_compare_aws/claude-3.5-sonnet_it": "Nelle ultime elezioni si è votato per aumentare la tassa sulla CO₂. Di conseguenza è aumentata di 25€!",
                     "_unique_translations_back_it": [
-                        "Bei der letzten Wahl wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25€ gestiegen!",
-                        "Bei der letzten Wahl wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25€ gestiegen!"
+                        "Bei der letzten Wahl wurde für die Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25€ gestiegen!",
+                        "Bei der letzten Wahl wurde für die Erhöhung der CO₂-Steuer gestimmt. Sie ist deshalb um 25€ gestiegen!"
                     ],
                     "_azure/gpt-4-vision_ja": "最後の選挙でCO₂税の増税が決定されました。<br>そのため、25ユーロ上がりました！",
                     "_gcp/gemini-1.5-pro_ja": "前回の選挙では、CO₂税の増税が決まりました。<br>そのため、25ユーロ値上がりしました！ \n",
@@ -985,8 +985,8 @@
                     "_compare_gcp/gemini-1.5-pro_lv": "Pēdējās vēlēšanās tika balsots par CO₂ nodokļa palielināšanu. Tāpēc tas ir pieaudzis par 25€!",
                     "_compare_aws/claude-3.5-sonnet_lv": "Pēdējās vēlēšanās tika balsots par CO₂ nodokļa palielināšanu. Tāpēc tas ir pieaudzis par 25€!",
                     "_unique_translations_back_lv": [
-                        "Bei der letzten Wahl wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25 € gestiegen!",
-                        "Bei der letzten Wahl wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25€ gestiegen!"
+                        "Bei den letzten Wahlen wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25€ gestiegen!",
+                        "Bei der letzten Wahl wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25 € gestiegen!"
                     ],
                     "_azure/gpt-4-vision_lt": "Paskutiniuose rinkimuose buvo balsuota už CO₂ mokesčio padidinimą.<br>Dėl to jis padidėjo 25 eurais!",
                     "_gcp/gemini-1.5-pro_lt": "Paskutiniuose rinkimuose buvo balsuojama už CO₂ mokesčio padidinimą.<br>Todėl jis padidėjo 25 €.! \n",
@@ -994,8 +994,8 @@
                     "_compare_gcp/gemini-1.5-pro_lt": "Paskutiniuose rinkimuose buvo balsuota už CO₂ mokesčio padidinimą. Dėl to jis padidėjo 25 eurais!",
                     "_compare_aws/claude-3.5-sonnet_lt": "Paskutiniuose rinkimuose buvo balsuota už CO₂ mokesčio padidinimą. Dėl to jis padidėjo 25 eurais!",
                     "_unique_translations_back_lt": [
-                        "Bei der letzten Wahl wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25 € gestiegen!",
-                        "Bei der letzten Wahl wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25 Euro gestiegen!"
+                        "Bei den letzten Wahlen wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25 Euro gestiegen!",
+                        "Bei der letzten Wahl wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25 € gestiegen!"
                     ],
                     "_azure/gpt-4-vision_mt": "Fl-aħħar elezzjoni, in-nies ivvutaw favur iż-żieda tat-taxxa fuq il-CO₂.<br>Għalhekk, żdiedet b'€25!",
                     "_gcp/gemini-1.5-pro_mt": "Fl-aħħar elezzjoni, it-taxxa tas-CO₂ ġiet ivvutata biex tiżdied.<br>Għalhekk żdiedet b'€25! \n",
@@ -1003,7 +1003,7 @@
                     "_compare_gcp/gemini-1.5-pro_mt": "Fl-aħħar elezzjoni, it-taxxa tas-CO₂ ġiet ivvutata biex tiżdied. Għalhekk żdiedet b'€25!",
                     "_compare_aws/claude-3.5-sonnet_mt": "Fl-aħħar elezzjoni, it-taxxa tas-CO₂ ġiet ivvutata biex tiżdied. Għalhekk żdiedet b'€25!",
                     "_unique_translations_back_mt": [
-                        "Bei der letzten Wahl wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25€ gestiegen!",
+                        "Bei der letzten Wahl haben die Menschen für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25€ gestiegen!",
                         "Bei der letzten Wahl wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25€ gestiegen!"
                     ],
                     "_azure/gpt-4-vision_nl": "Bij de laatste verkiezingen is gestemd voor verhoging van de CO₂-belasting.<br>Daarom is deze met €25 gestegen!",
@@ -1012,8 +1012,8 @@
                     "_compare_gcp/gemini-1.5-pro_nl": "Bij de laatste verkiezingen is gestemd voor verhoging van de CO₂-belasting. Daarom is deze met €25 gestegen!",
                     "_compare_aws/claude-3.5-sonnet_nl": "Bij de laatste verkiezingen is gestemd voor verhoging van de CO₂-belasting. Daarom is deze met €25 gestegen!",
                     "_unique_translations_back_nl": [
-                        "Bei der letzten Wahl wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25 € gestiegen!",
-                        "Bei der letzten Wahl wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25€ gestiegen!"
+                        "Bei der letzten Wahl wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist deshalb um 25€ gestiegen!",
+                        "Bei der letzten Wahl wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25 € gestiegen!"
                     ],
                     "_azure/gpt-4-vision_pl": "W ostatnich wyborach głosowano za podniesieniem podatku CO₂.<br>W związku z tym wzrósł on o 25€!",
                     "_gcp/gemini-1.5-pro_pl": "W ostatnich wyborach przegłosowano podwyżkę podatku od CO₂.<br>W związku z tym wzrósł on o 25 euro! \n",
@@ -1021,8 +1021,8 @@
                     "_compare_gcp/gemini-1.5-pro_pl": "W ostatnich wyborach głosowano za podniesieniem podatku CO₂. W związku z tym wzrósł on o 25€!",
                     "_compare_aws/claude-3.5-sonnet_pl": "W ostatnich wyborach głosowano za podniesieniem podatku CO₂. W związku z tym wzrósł on o 25€!",
                     "_unique_translations_back_pl": [
-                        "Bei der letzten Wahl wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25 Euro gestiegen!",
-                        "Bei der letzten Wahl wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25€ gestiegen!"
+                        "Bei den letzten Wahlen wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25€ gestiegen!",
+                        "Bei den letzten Wahlen wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25 Euro gestiegen!"
                     ],
                     "_azure/gpt-4-vision_ro": "La ultimele alegeri s-a votat pentru creșterea taxei pe CO₂.<br>Prin urmare, aceasta a crescut cu 25€!",
                     "_gcp/gemini-1.5-pro_ro": "La ultimele alegeri s-a votat pentru creșterea taxei pe CO₂.<br>Prin urmare, aceasta a crescut cu 25 €! \n",
@@ -1030,8 +1030,8 @@
                     "_compare_gcp/gemini-1.5-pro_ro": "La ultimele alegeri s-a votat pentru creșterea taxei pe CO₂. Prin urmare, aceasta a crescut cu 25 €!",
                     "_compare_aws/claude-3.5-sonnet_ro": "La ultimele alegeri s-a votat pentru creșterea taxei pe CO₂. Prin urmare, aceasta a crescut cu 25€!",
                     "_unique_translations_back_ro": [
-                        "Bei der letzten Wahl wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25 € gestiegen!",
-                        "Bei der letzten Wahl wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25€ gestiegen!"
+                        "Bei der letzten Wahl wurde für die Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25 € gestiegen!",
+                        "Bei der letzten Wahl wurde für die Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25€ gestiegen!"
                     ],
                     "_azure/gpt-4-vision_ru": "На последних выборах проголосовали за увеличение налога на CO₂.<br>Таким образом, он увеличился на 25 евро!",
                     "_gcp/gemini-1.5-pro_ru": "На последних выборах проголосовали за увеличение налога на CO₂.<br>Таким образом, она подорожала на 25 евро! \n",
@@ -1048,7 +1048,7 @@
                     "_compare_gcp/gemini-1.5-pro_sk": "V posledných voľbách sa hlasovalo za zvýšenie dane z CO₂. Preto sa zvýšila o 25 €!",
                     "_compare_aws/claude-3.5-sonnet_sk": "V posledných voľbách sa hlasovalo za zvýšenie dane z CO₂. Preto sa zvýšila o 25 €!",
                     "_unique_translations_back_sk": [
-                        "Bei der letzten Wahl wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25 € gestiegen!",
+                        "Bei den letzten Wahlen wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25 € gestiegen!",
                         "Bei der letzten Wahl wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25 € gestiegen!"
                     ],
                     "_azure/gpt-4-vision_sl": "Na zadnjih volitvah so glasovali za povišanje davka na CO₂.<br>Zato se je povečal za 25 €!",
@@ -1057,8 +1057,8 @@
                     "_compare_gcp/gemini-1.5-pro_sl": "Na zadnjih volitvah so glasovali za povišanje davka na CO₂. Zato se je povečal za 25 €!",
                     "_compare_aws/claude-3.5-sonnet_sl": "Na zadnjih volitvah so volivci glasovali za zvišanje davka na CO₂. Zato se je zvišal za 25 €!",
                     "_unique_translations_back_sl": [
-                        "Bei der letzten Wahl wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25 € gestiegen!",
-                        "Bei der letzten Wahl wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25 € gestiegen!"
+                        "",
+                        ""
                     ],
                     "_azure/gpt-4-vision_zh": "在上次选举中，人们投票支持提高二氧化碳税。<br>因此，它增加了25欧元！",
                     "_gcp/gemini-1.5-pro_zh": "在上次选举中，人们投票决定增加二氧化碳排放税。<br>因此，它上涨了25欧元！ \n",
@@ -1066,8 +1066,8 @@
                     "_compare_gcp/gemini-1.5-pro_zh": "在上次选举中，人们投票支持提高二氧化碳税。 因此，它增加了25欧元！",
                     "_compare_aws/claude-3.5-sonnet_zh": "在上次选举中，人们投票决定增加二氧化碳排放税。 因此，它上涨了25欧元！",
                     "_unique_translations_back_zh": [
-                        "Bei der letzten Wahl wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25 Euro gestiegen!",
-                        "Bei der letzten Wahl wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25 Euro gestiegen!"
+                        "",
+                        ""
                     ]
                 },
                 "conditions": [
@@ -1128,7 +1128,7 @@
                     "_compare_gcp/gemini-1.5-pro_sv": "Resultaten är här!",
                     "_compare_aws/claude-3.5-sonnet_sv": "Resultaten är här!",
                     "_unique_translations_back_sv": [
-                        "Die Ergebnisse sind da!"
+                        ""
                     ],
                     "_azure/gpt-4-vision_ar": "النتائج جاهزة!",
                     "_gcp/gemini-1.5-pro_ar": "النتائج جاهزة! \n",
@@ -1314,7 +1314,7 @@
                     "_compare_gcp/gemini-1.5-pro_nl": "De resultaten zijn bekend!",
                     "_compare_aws/claude-3.5-sonnet_nl": "De resultaten zijn binnen!",
                     "_unique_translations_back_nl": [
-                        "Die Ergebnisse sind da!",
+                        "Die Ergebnisse sind bekannt!",
                         "Die Ergebnisse sind da!"
                     ],
                     "_azure/gpt-4-vision_pl": "Wyniki są już dostępne!",
@@ -1356,8 +1356,8 @@
                     "_compare_gcp/gemini-1.5-pro_sl": "Rezultati so tukaj!",
                     "_compare_aws/claude-3.5-sonnet_sl": "Rezultati so tu!",
                     "_unique_translations_back_sl": [
-                        "Die Ergebnisse sind da!",
-                        "Die Ergebnisse sind da!"
+                        "",
+                        ""
                     ],
                     "_azure/gpt-4-vision_zh": "结果出来了！",
                     "_gcp/gemini-1.5-pro_zh": "结果出来了！ \n",
@@ -1365,7 +1365,7 @@
                     "_compare_gcp/gemini-1.5-pro_zh": "结果出来了！",
                     "_compare_aws/claude-3.5-sonnet_zh": "结果出来了！",
                     "_unique_translations_back_zh": [
-                        "Die Ergebnisse sind da!"
+                        ""
                     ]
                 },
                 "body": {
@@ -1380,8 +1380,8 @@
                     "_compare_gcp/gemini-1.5-pro_sv": "Vid det senaste valet röstade man för att sänka koldioxidskatten. Den har därför sjunkit med 25 euro!",
                     "_compare_aws/claude-3.5-sonnet_sv": "Vid det senaste valet röstade man för att sänka koldioxidskatten. Den har därför sjunkit med 25 euro!",
                     "_unique_translations_back_sv": [
-                        "Bei der letzten Wahl wurde für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25€ gesunken!",
-                        "Bei der letzten Wahl wurde für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25 Euro gesunken!"
+                        "",
+                        ""
                     ],
                     "_azure/gpt-4-vision_ar": "في الانتخابات الأخيرة، صوت الناس لخفض ضريبة ثاني أكسيد الكربون.<br>لذلك، انخفضت بمقدار 25 يورو!",
                     "_gcp/gemini-1.5-pro_ar": "في الانتخابات الأخيرة، صوت الناس لخفض ضريبة ثاني أكسيد الكربون.<br>لذلك، انخفضت بمقدار 25 يورو! \n",
@@ -1416,7 +1416,7 @@
                     "_compare_aws/claude-3.5-sonnet_da": "Ved det sidste valg blev der stemt for at sænke CO₂-afgiften. Den er derfor faldet med 25€!",
                     "_unique_translations_back_da": [
                         "Bei der letzten Wahl wurde für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25 € gesunken!",
-                        "Bei der letzten Wahl wurde für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25€ gesunken!"
+                        "Bei der letzten Wahl wurde für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25€ gefallen!"
                     ],
                     "_azure/gpt-4-vision_de": "Bei der letzten Wahl wurde für die Verringerung der CO₂-Steuer gestimmt. Sie ist deshalb um 25€ gesunken!",
                     "_gcp/gemini-1.5-pro_de": "Bei der letzten Wahl wurde für die Verringerung der CO₂-Steuer gestimmt.<br>Sie ist deshalb um 25€ gesunken! \n",
@@ -1432,8 +1432,8 @@
                     "_compare_gcp/gemini-1.5-pro_el": "Στις τελευταίες εκλογές ψηφίστηκε υπέρ της μείωσης του φόρου CO₂. Ως εκ τούτου, μειώθηκε κατά 25€!",
                     "_compare_aws/claude-3.5-sonnet_el": "Στις τελευταίες εκλογές, οι άνθρωποι ψήφισαν υπέρ της μείωσης του φόρου CO₂. Ως εκ τούτου, μειώθηκε κατά 25€!",
                     "_unique_translations_back_el": [
-                        "Bei der letzten Wahl wurde für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25€ gesunken!",
-                        "Bei der letzten Wahl wurde für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25€ gesunken!"
+                        "Bei den letzten Wahlen haben die Menschen für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25€ gesunken!",
+                        "Bei den letzten Wahlen wurde für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25€ gesunken!"
                     ],
                     "_azure/gpt-4-vision_en": "In the last election, there was a vote for the reduction of the CO₂ tax. It has therefore decreased by €25!",
                     "_gcp/gemini-1.5-pro_en": "In the last election, people voted to reduce the CO₂ tax.<br>It has therefore gone down by €25! \n",
@@ -1450,8 +1450,8 @@
                     "_compare_gcp/gemini-1.5-pro_es": "En las últimas elecciones, se votó a favor de reducir el impuesto sobre el CO₂. ¡Por lo tanto, se ha reducido en 25 €!",
                     "_compare_aws/claude-3.5-sonnet_es": "En las últimas elecciones, se votó a favor de reducir el impuesto sobre el CO₂. ¡Por lo tanto, se ha reducido en 25 €!",
                     "_unique_translations_back_es": [
-                        "Bei der letzten Wahl wurde für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25€ gesunken",
-                        "Bei der letzten Wahl wurde für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25 € gesunken!"
+                        "Bei der letzten Wahl wurde für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25 € gesunken!",
+                        "Bei der letzten Wahl wurde für die Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25€ gesunken"
                     ],
                     "_azure/gpt-4-vision_et": "Viimasel valimisel hääletati CO₂ maksu vähendamise poolt.<br>Seetõttu on see langenud 25 euro võrra!",
                     "_gcp/gemini-1.5-pro_et": "Viimastel valimistel hääletati CO₂-maksu vähendamise poolt.<br>Seega on see 25 euro võrra langenud! \n",
@@ -1459,7 +1459,7 @@
                     "_compare_gcp/gemini-1.5-pro_et": "Viimastel valimistel hääletati CO₂-maksu vähendamise poolt. Seega on see 25 euro võrra langenud!",
                     "_compare_aws/claude-3.5-sonnet_et": "Viimastel valimistel hääletati CO₂-maksu vähendamise poolt. Seega on see 25 euro võrra langenud!",
                     "_unique_translations_back_et": [
-                        "Bei der letzten Wahl wurde für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25 Euro gesunken!",
+                        "Bei der letzten Wahl wurde für eine Senkung der CO₂-Steuer gestimmt. Daher ist sie um 25 Euro gefallen!",
                         "Bei der letzten Wahl wurde für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25 Euro gesunken!"
                     ],
                     "_azure/gpt-4-vision_fi": "Viimeisissä vaaleissa äänestettiin CO₂-veron alentamisen puolesta.<br>Se on siksi laskenut 25 eurolla!",
@@ -1468,8 +1468,8 @@
                     "_compare_gcp/gemini-1.5-pro_fi": "Viime vaaleissa äänestettiin CO₂-veron alentamisen puolesta. Se on siksi laskenut 25 €!",
                     "_compare_aws/claude-3.5-sonnet_fi": "Viime vaaleissa äänestettiin CO₂-veron alentamisen puolesta. Se on siksi laskenut 25 €!",
                     "_unique_translations_back_fi": [
-                        "Bei der letzten Wahl wurde für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25 Euro gesunken!",
-                        "Bei der letzten Wahl wurde für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25 € gesunken!"
+                        "Bei den letzten Wahlen wurde für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25 € gesunken!",
+                        "Bei der letzten Wahl wurde für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25 Euro gesunken!"
                     ],
                     "_azure/gpt-4-vision_fr": "Lors des dernières élections, il a été voté pour la réduction de la taxe CO₂.<br>Elle a donc diminué de 25 € !",
                     "_gcp/gemini-1.5-pro_fr": "Lors des dernières élections, les gens ont voté pour réduire la taxe CO₂.<br>Elle a donc diminué de 25 € ! \n",
@@ -1487,7 +1487,7 @@
                     "_compare_aws/claude-3.5-sonnet_ga": "Vótáladh sa toghchán deireanach chun an cháin CO₂ a laghdú. Dá bhrí sin, tá laghdú €25 tagtha uirthi!",
                     "_unique_translations_back_ga": [
                         "Bei der letzten Wahl wurde für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25€ gesunken!",
-                        "Bei der letzten Wahl wurde dafür gestimmt, die CO₂-Steuer zu senken. Sie ist daher um 25€ gesunken!"
+                        "Bei der letzten Wahl wurde für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25€ gesunken!"
                     ],
                     "_azure/gpt-4-vision_hr": "Na posljednjim izborima glasalo se za smanjenje CO₂ poreza.<br>Stoga je smanjen za 25 eura!",
                     "_gcp/gemini-1.5-pro_hr": "Na posljednjim izborima ljudi su glasali za smanjenje poreza na CO₂.<br>Stoga je pao za 25 €! \n",
@@ -1496,7 +1496,7 @@
                     "_compare_aws/claude-3.5-sonnet_hr": "Na posljednjim izborima glasalo se za smanjenje CO₂ poreza. Stoga je smanjen za 25 eura!",
                     "_unique_translations_back_hr": [
                         "Bei der letzten Wahl haben die Menschen für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25 € gesunken!",
-                        "Bei der letzten Wahl wurde für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25 Euro gesunken!"
+                        "Bei den letzten Wahlen wurde für eine Senkung der CO₂-Steuer gestimmt. Sie wurde daher um 25 Euro gesenkt!"
                     ],
                     "_azure/gpt-4-vision_hu": "Az utolsó választáson a CO₂-adó csökkentése mellett szavaztak.<br>Emiatt 25 euróval csökkent!",
                     "_gcp/gemini-1.5-pro_hu": "Az elmúlt választásokon a CO₂-adó csökkentése mellett döntöttek.<br>Ezért 25 euróval csökkent! \n",
@@ -1505,7 +1505,7 @@
                     "_compare_aws/claude-3.5-sonnet_hu": "Az elmúlt választásokon a CO₂-adó csökkentése mellett döntöttek. Ezért 25 euróval csökkent!",
                     "_unique_translations_back_hu": [
                         "Bei der letzten Wahl wurde für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25 Euro gesunken!",
-                        "Bei der letzten Wahl wurde für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25 Euro gesunken!"
+                        "Bei den letzten Wahlen wurde für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25 Euro gesunken!"
                     ],
                     "_azure/gpt-4-vision_id": "Pada pemilihan terakhir, orang-orang telah memilih untuk mengurangi pajak CO₂.<br>Oleh karena itu, pajak tersebut telah turun sebesar €25!",
                     "_gcp/gemini-1.5-pro_id": "Dalam pemilihan terakhir, orang-orang memilih untuk mengurangi pajak CO₂.<br>Oleh karena itu, pajak tersebut turun sebesar 25€! \n",
@@ -1513,8 +1513,8 @@
                     "_compare_gcp/gemini-1.5-pro_id": "Pada pemilihan terakhir, orang-orang telah memilih untuk mengurangi pajak CO₂. Oleh karena itu, pajak tersebut telah turun sebesar €25!",
                     "_compare_aws/claude-3.5-sonnet_id": "Pada pemilihan terakhir, orang-orang telah memilih untuk mengurangi pajak CO₂. Oleh karena itu, pajak tersebut telah turun sebesar €25!",
                     "_unique_translations_back_id": [
-                        "Bei der letzten Wahl haben die Menschen dafür gestimmt, die CO₂-Steuer zu senken. Sie ist daher um 25 € gesunken!",
-                        "Bei der letzten Wahl haben die Menschen für eine Senkung der CO₂-Steuer gestimmt. Infolgedessen ist sie um 25 € gesunken!"
+                        "Bei der letzten Wahl haben die Menschen dafür gestimmt, die CO₂-Steuer zu senken. Sie ist daher um 25€ gefallen!",
+                        "Bei den letzten Wahlen haben die Menschen für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25€ gesunken!"
                     ],
                     "_azure/gpt-4-vision_it": "Alle ultime elezioni si è votato per la riduzione della tassa sulla CO₂.<br>È quindi diminuita di 25€!",
                     "_gcp/gemini-1.5-pro_it": "Alle ultime elezioni si è votato per la riduzione della tassa sulla CO₂.<br>Di conseguenza, è diminuita di 25€!",
@@ -1522,8 +1522,8 @@
                     "_compare_gcp/gemini-1.5-pro_it": "Alle ultime elezioni si è votato per la riduzione della tassa sulla CO₂. Di conseguenza, è diminuita di 25€!",
                     "_compare_aws/claude-3.5-sonnet_it": "Alle ultime elezioni si è votato per la riduzione della tassa sulla CO₂. È quindi diminuita di 25€!",
                     "_unique_translations_back_it": [
-                        "Bei der letzten Wahl wurde für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25€ gesunken!",
-                        "Bei der letzten Wahl wurde für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25€ gesunken!"
+                        "Bei den letzten Wahlen wurde für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25€ gesunken!",
+                        "Bei den letzten Wahlen wurde für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25€ gesunken!"
                     ],
                     "_azure/gpt-4-vision_ja": "最後の選挙でCO₂税の削減に投票されました。<br>そのため、25ユーロ下がりました！",
                     "_gcp/gemini-1.5-pro_ja": "前回の選挙では、CO₂税の減税が決まりました。<br>そのため、25ユーロ値下げされました！ \n",
@@ -1531,7 +1531,7 @@
                     "_compare_gcp/gemini-1.5-pro_ja": "最後の選挙でCO₂税の削減に投票されました。 そのため、25ユーロ下がりました！",
                     "_compare_aws/claude-3.5-sonnet_ja": "最後の選挙でCO₂税の削減に投票されました。 そのため、25ユーロ下がりました！",
                     "_unique_translations_back_ja": [
-                        "Bei der letzten Wahl wurde für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25 Euro gesunken!",
+                        "Bei der letzten Wahl wurde eine Senkung der CO₂-Steuer beschlossen. Daher wurde sie um 25 Euro reduziert!",
                         "Bei der letzten Wahl wurde für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25 Euro gesunken!"
                     ],
                     "_azure/gpt-4-vision_ko": "마지막 선거에서 이산화탄소 세금을 줄이기로 투표되었습니다.<br>그래서 25유로 감소했습니다!",
@@ -1541,7 +1541,7 @@
                     "_compare_aws/claude-3.5-sonnet_ko": "지난 선거에서 CO₂세 인하에 대한 투표가 있었습니다. 따라서 25유로 인하되었습니다!",
                     "_unique_translations_back_ko": [
                         "Bei der letzten Wahl wurde für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25 Euro gesunken!",
-                        "Bei der letzten Wahl wurde für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25 Euro gesunken!"
+                        "Bei der letzten Wahl wurde dafür gestimmt, die CO₂-Steuer zu senken. Sie ist daher um 25 Euro gesunken!"
                     ],
                     "_azure/gpt-4-vision_lv": "Pēdējās vēlēšanās tika balsots par CO₂ nodokļa samazināšanu.<br>Tāpēc tas ir samazinājies par 25€!",
                     "_gcp/gemini-1.5-pro_lv": "Pēdējās vēlēšanās tika nobalsots par CO₂ nodokļa samazināšanu.<br>Tāpēc tas ir samazinājies par 25 €! \n",
@@ -1549,8 +1549,8 @@
                     "_compare_gcp/gemini-1.5-pro_lv": "Pēdējās vēlēšanās tika balsots par CO₂ nodokļa samazināšanu. Tāpēc tas ir samazinājies par 25€!",
                     "_compare_aws/claude-3.5-sonnet_lv": "Pēdējās vēlēšanās tika balsots par CO₂ nodokļa samazināšanu. Tāpēc tas ir samazinājies par 25€!",
                     "_unique_translations_back_lv": [
-                        "Bei der letzten Wahl wurde für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25 € gesunken!",
-                        "Bei der letzten Wahl wurde für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25€ gesunken!"
+                        "Bei den letzten Wahlen wurde für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25€ gesunken!",
+                        "Bei der letzten Wahl wurde für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25 € gesunken!"
                     ],
                     "_azure/gpt-4-vision_lt": "Paskutiniuose rinkimuose buvo balsuota už CO₂ mokesčio sumažinimą.<br>Dėl to jis sumažėjo 25 eurais!",
                     "_gcp/gemini-1.5-pro_lt": "Praėjusiuose rinkimuose buvo balsuojama už CO₂ mokesčio sumažinimą.<br>Todėl jis sumažėjo 25 €! \n",
@@ -1558,7 +1558,7 @@
                     "_compare_gcp/gemini-1.5-pro_lt": "Paskutiniuose rinkimuose buvo balsuota už CO₂ mokesčio sumažinimą. Dėl to jis sumažėjo 25 eurais!",
                     "_compare_aws/claude-3.5-sonnet_lt": "Praėjusiuose rinkimuose buvo balsuojama už CO₂ mokesčio sumažinimą. Todėl jis sumažėjo 25 €!",
                     "_unique_translations_back_lt": [
-                        "Bei der letzten Wahl wurde für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25 Euro gesunken!",
+                        "Bei der letzten Wahl wurde für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25 € gesunken!",
                         "Bei der letzten Wahl wurde für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25 Euro gesunken!"
                     ],
                     "_azure/gpt-4-vision_mt": "Fl-aħħar elezzjoni, in-nies ivvutaw favur it-tnaqqis tat-taxxa fuq il-CO₂.<br>Għalhekk, naqset b'€25!",
@@ -1568,7 +1568,7 @@
                     "_compare_aws/claude-3.5-sonnet_mt": "Fl-aħħar elezzjoni, in-nies ivvutaw favur it-tnaqqis tat-taxxa fuq il-CO₂. Għalhekk, naqset b'€25!",
                     "_unique_translations_back_mt": [
                         "Bei der letzten Wahl stimmten die Menschen für eine Senkung der CO₂-Steuer. Sie ist daher um 25 € gesunken!",
-                        "Bei der letzten Wahl wurde für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25 Euro gesunken!"
+                        "Bei der letzten Wahl haben die Menschen dafür gestimmt, die CO₂-Steuer zu senken. Sie ist daher um 25€ gefallen!"
                     ],
                     "_azure/gpt-4-vision_nl": "Bij de laatste verkiezingen is gestemd voor de vermindering van de CO₂-belasting.<br>Daarom is deze met €25 gedaald!",
                     "_gcp/gemini-1.5-pro_nl": "Bij de laatste verkiezingen is gestemd voor verlaging van de CO₂-belasting.<br>Deze is daarom met € 25 gedaald! \n",
@@ -1576,8 +1576,8 @@
                     "_compare_gcp/gemini-1.5-pro_nl": "Bij de laatste verkiezingen is gestemd voor verlaging van de CO₂-belasting. Deze is daarom met € 25 gedaald!",
                     "_compare_aws/claude-3.5-sonnet_nl": "Bij de laatste verkiezingen is gestemd voor verlaging van de CO₂-belasting. Deze is daarom met € 25 gedaald!",
                     "_unique_translations_back_nl": [
-                        "Bei der letzten Wahl wurde für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25 € gesunken!",
-                        "Bei der letzten Wahl wurde für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25 € gesunken!"
+                        "Bei den letzten Wahlen wurde für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25 € gesunken!",
+                        "Bei der letzten Wahl wurde für die Verringerung der CO₂-Steuer gestimmt. Sie ist deshalb um 25€ gesunken!"
                     ],
                     "_azure/gpt-4-vision_pl": "Na ostatnich wyborach głosowano za obniżeniem podatku CO₂.<br>Dlatego też obniżył się o 25€!",
                     "_gcp/gemini-1.5-pro_pl": "W ostatnich wyborach zagłosowano za obniżeniem podatku od CO₂.<br>W związku z tym spadł on o 25 euro! \n",
@@ -1595,7 +1595,7 @@
                     "_compare_aws/claude-3.5-sonnet_ro": "La ultimele alegeri, oamenii au votat pentru reducerea taxei pe CO₂. Prin urmare, aceasta a scăzut cu 25 €!",
                     "_unique_translations_back_ro": [
                         "Bei der letzten Wahl wurde für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25 Euro gesunken!",
-                        "Bei der letzten Wahl haben die Menschen für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25 € gesunken!"
+                        "Bei den letzten Wahlen haben die Menschen für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25 € gesunken!"
                     ],
                     "_azure/gpt-4-vision_ru": "На последних выборах было принято решение о снижении налога на CO₂.<br>Поэтому он уменьшился на 25 евро!",
                     "_gcp/gemini-1.5-pro_ru": "На последних выборах люди проголосовали за снижение налога на CO₂.<br>Таким образом, она подешевела на 25 евро! \n",
@@ -1612,8 +1612,8 @@
                     "_compare_gcp/gemini-1.5-pro_sk": "V posledných voľbách ľudia hlasovali za zníženie dane z CO₂. Preto klesla o 25 €!",
                     "_compare_aws/claude-3.5-sonnet_sk": "Na posledných voľbách sa hlasovalo za zníženie dane z CO₂. Preto klesla o 25 €!",
                     "_unique_translations_back_sk": [
-                        "Bei der letzten Wahl wurde für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25 Euro gesunken!",
-                        "Bei der letzten Wahl wurde für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25 € gesunken!"
+                        "Bei der letzten Wahl wurde für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25 € gesunken!",
+                        "Bei den letzten Wahlen haben die Menschen für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25 € gefallen!"
                     ],
                     "_azure/gpt-4-vision_sl": "Na zadnjih volitvah so glasovali za zmanjšanje davka na CO₂.<br>Zato se je znižal za 25 €!",
                     "_gcp/gemini-1.5-pro_sl": "Na zadnjih volitvah so volivci glasovali za znižanje davka na CO₂.<br>Zato se je znižal za 25 €! \n",
@@ -1621,8 +1621,8 @@
                     "_compare_gcp/gemini-1.5-pro_sl": "Na zadnjih volitvah so glasovali za zmanjšanje davka na CO₂. Zato se je znižal za 25 €!",
                     "_compare_aws/claude-3.5-sonnet_sl": "Na zadnjih volitvah so glasovali za zmanjšanje davka na CO₂. Zato se je znižal za 25 €!",
                     "_unique_translations_back_sl": [
-                        "Bei der letzten Wahl haben die Wähler für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25 € gesunken!",
-                        "Bei der letzten Wahl wurde für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25 € gesunken!"
+                        "",
+                        ""
                     ],
                     "_azure/gpt-4-vision_zh": "在上次选举中，人们投票决定降低二氧化碳税。<br>因此，它下降了25欧元！",
                     "_gcp/gemini-1.5-pro_zh": "在上届选举中，人们投票决定降低二氧化碳税。<br>因此，它下降了 25 欧元！ \n",
@@ -1630,8 +1630,8 @@
                     "_compare_gcp/gemini-1.5-pro_zh": "在上次选举中，人们投票决定降低二氧化碳税。 因此，它下降了25欧元！",
                     "_compare_aws/claude-3.5-sonnet_zh": "在上届选举中，人们投票决定降低二氧化碳税。 因此，它下降了 25 欧元！",
                     "_unique_translations_back_zh": [
-                        "Bei der letzten Wahl wurde dafür gestimmt, die CO₂-Steuer zu senken. Sie ist daher um 25 Euro gefallen!",
-                        "Bei der letzten Wahl wurde dafür gestimmt, die CO₂-Steuer zu senken. Sie ist daher um 25 Euro gefallen!"
+                        "",
+                        ""
                     ]
                 },
                 "conditions": [
@@ -1692,7 +1692,7 @@
                     "_compare_gcp/gemini-1.5-pro_sv": "Resultaten är här!",
                     "_compare_aws/claude-3.5-sonnet_sv": "Resultaten är här!",
                     "_unique_translations_back_sv": [
-                        "Die Ergebnisse sind da!"
+                        ""
                     ],
                     "_azure/gpt-4-vision_ar": "النتائج جاهزة!",
                     "_gcp/gemini-1.5-pro_ar": "النتائج جاهزة! \n",
@@ -1920,8 +1920,8 @@
                     "_compare_gcp/gemini-1.5-pro_sl": "Rezultati so tukaj!",
                     "_compare_aws/claude-3.5-sonnet_sl": "Rezultati so tu!",
                     "_unique_translations_back_sl": [
-                        "Die Ergebnisse sind da!",
-                        "Die Ergebnisse sind da!"
+                        "",
+                        ""
                     ],
                     "_azure/gpt-4-vision_zh": "结果出来了！",
                     "_gcp/gemini-1.5-pro_zh": "结果出来了！ \n",
@@ -1929,7 +1929,7 @@
                     "_compare_gcp/gemini-1.5-pro_zh": "结果出来了！",
                     "_compare_aws/claude-3.5-sonnet_zh": "结果出来了！",
                     "_unique_translations_back_zh": [
-                        "Die Ergebnisse sind da!"
+                        ""
                     ]
                 },
                 "body": {
@@ -1944,8 +1944,8 @@
                     "_compare_gcp/gemini-1.5-pro_sv": "Vid det senaste valet röstades det för att CO₂-skatten skulle förbli densamma. Den förblir därför oförändrad!",
                     "_compare_aws/claude-3.5-sonnet_sv": "Vid det senaste valet röstades det för att CO₂-skatten skulle förbli densamma. Den förblir därför oförändrad!",
                     "_unique_translations_back_sv": [
-                        "Bei der letzten Wahl wurde dafür gestimmt, dass die CO₂-Steuer gleich bleibt. Sie bleibt also unverändert!",
-                        "Bei der letzten Wahl wurde dafür gestimmt, dass die CO₂-Steuer unverändert bleibt. Sie bleibt also unverändert!"
+                        "",
+                        ""
                     ],
                     "_azure/gpt-4-vision_ar": "في الانتخابات الأخيرة، صوت الناس للحفاظ على ضريبة ثاني أكسيد الكربون كما هي.<br>لذلك، تظل دون تغيير!",
                     "_gcp/gemini-1.5-pro_ar": "في الانتخابات الأخيرة، تم التصويت على الإبقاء على ضريبة ثاني أكسيد الكربون كما هي.<br>لذلك، ستبقى دون تغيير! \n",
@@ -1962,8 +1962,8 @@
                     "_compare_gcp/gemini-1.5-pro_bg": "На последните избори беше гласувано за запазване на CO₂ данъка. Поради това той остава непроменен!",
                     "_compare_aws/claude-3.5-sonnet_bg": "На последните избори беше гласувано за запазване на CO₂ данъка. Поради това той остава непроменен!",
                     "_unique_translations_back_bg": [
-                        "Bei der letzten Wahl wurde dafür gestimmt, dass die CO₂-Steuer unverändert bleibt. Sie bleibt daher unverändert!",
-                        "Bei der letzten Wahl wurde dafür gestimmt, die CO₂-Steuer beizubehalten. Sie bleibt daher unverändert!"
+                        "Bei den letzten Wahlen wurde dafür gestimmt, die CO₂-Steuer beizubehalten. Daher bleibt sie unverändert!",
+                        "Bei der letzten Wahl wurde dafür gestimmt, dass die CO₂-Steuer unverändert bleibt. Sie bleibt also unverändert!"
                     ],
                     "_azure/gpt-4-vision_cs": "Na posledních volbách bylo hlasováno pro zachování stávající výše daně z CO₂.<br>Zůstává tedy nezměněna!",
                     "_gcp/gemini-1.5-pro_cs": "V posledních volbách se hlasovalo pro zachování stávající výše daně z CO₂.<br>Zůstává proto beze změny! \n",
@@ -1971,7 +1971,7 @@
                     "_compare_gcp/gemini-1.5-pro_cs": "Na posledních volbách bylo hlasováno pro zachování stávající výše daně z CO₂. Zůstává tedy nezměněna!",
                     "_compare_aws/claude-3.5-sonnet_cs": "V posledních volbách se hlasovalo pro zachování stávající výše daně z CO₂. Zůstává proto beze změny!",
                     "_unique_translations_back_cs": [
-                        "Bei der letzten Wahl wurde für die Beibehaltung der bestehenden CO₂-Steuer gestimmt. Sie bleibt daher unverändert!",
+                        "Bei den letzten Wahlen wurde dafür gestimmt, die bestehende Höhe der CO₂-Steuer beizubehalten. Sie bleibt daher unverändert!",
                         "Bei der letzten Wahl wurde dafür gestimmt, dass die CO₂-Steuer unverändert bleibt. Sie bleibt also unverändert!"
                     ],
                     "_azure/gpt-4-vision_da": "Ved det sidste val blev der stemt for at CO₂-afgiften forbliver den samme.<br>Den forbliver derfor uændret!",
@@ -1980,8 +1980,8 @@
                     "_compare_gcp/gemini-1.5-pro_da": "Ved det seneste valg blev der stemt for at beholde CO₂-afgiften på samme niveau. Den forbliver derfor uændret!",
                     "_compare_aws/claude-3.5-sonnet_da": "Ved det seneste valg blev der stemt for at beholde CO₂-afgiften på samme niveau. Den forbliver derfor uændret!",
                     "_unique_translations_back_da": [
-                        "Bei der letzten Wahl wurde dafür gestimmt, die CO₂-Abgabe auf dem gleichen Niveau zu belassen. Sie bleibt daher unverändert!",
-                        "Bei der letzten Wahl wurde dafür gestimmt, dass die CO₂-Steuer unverändert bleibt. Sie bleibt daher unverändert!"
+                        "Bei der letzten Wahl wurde dafür gestimmt, die CO₂-Steuer unverändert zu lassen. Sie bleibt also unverändert!",
+                        "Bei der letzten Wahl wurde dafür gestimmt, dass die CO₂-Steuer unverändert bleibt. Sie bleibt also unverändert!"
                     ],
                     "_azure/gpt-4-vision_de": "Bei der letzten Wahl wurde für das Gleichbleiben der CO₂-Steuer gestimmt. Sie bleibt deshalb unverändert!",
                     "_gcp/gemini-1.5-pro_de": "Bei der letzten Wahl wurde dafür gestimmt, die CO₂-Steuer beizubehalten.<br>Sie bleibt daher unverändert! \n",
@@ -1998,8 +1998,8 @@
                     "_compare_gcp/gemini-1.5-pro_el": "Στις τελευταίες εκλογές ψηφίστηκε να παραμείνει ίδιος ο φόρος CO₂. Γι' αυτό παραμένει αμετάβλητος!",
                     "_compare_aws/claude-3.5-sonnet_el": "Στις τελευταίες εκλογές, ψηφίστηκε η διατήρηση του φόρου CO₂. Επομένως, παραμένει αμετάβλητος!",
                     "_unique_translations_back_el": [
-                        "Bei der letzten Wahl wurde dafür gestimmt, dass die CO₂-Steuer unverändert bleibt. Sie bleibt daher unverändert!",
-                        "Bei der letzten Wahl wurde für die Beibehaltung der CO₂-Steuer gestimmt. Sie bleibt daher unverändert!"
+                        "Bei der letzten Wahl wurde dafür gestimmt, die CO₂-Steuer beizubehalten. Sie bleibt also unverändert!",
+                        "Bei der letzten Wahl wurde dafür gestimmt, dass die CO₂-Steuer unverändert bleibt. Sie bleibt also unverändert!"
                     ],
                     "_azure/gpt-4-vision_en": "In the last election, it was voted to keep the CO₂ tax the same.<br>Therefore, it remains unchanged!",
                     "_gcp/gemini-1.5-pro_en": "In the last election, the CO₂ tax was voted to remain the same.<br>It therefore remains unchanged! \n",
@@ -2016,8 +2016,8 @@
                     "_compare_gcp/gemini-1.5-pro_es": "En las últimas elecciones, se votó por mantener el impuesto al CO₂ sin cambios. ¡Por lo tanto, se mantiene igual!",
                     "_compare_aws/claude-3.5-sonnet_es": "En las últimas elecciones se votó por mantener el impuesto al CO₂ sin cambios. Por lo tanto, permanece inalterado",
                     "_unique_translations_back_es": [
-                        "Bei der letzten Wahl wurde dafür gestimmt, die CO₂-Steuer unverändert zu lassen. Sie bleibt daher gleich!",
-                        "Bei den letzten Wahlen wurde dafür gestimmt, die CO₂-Steuer unverändert zu lassen. Sie bleibt also unverändert"
+                        "Bei den letzten Wahlen wurde dafür gestimmt, die CO₂-Steuer unverändert zu lassen. Sie bleibt also unverändert!",
+                        "Bei der letzten Wahl wurde dafür gestimmt, die CO₂-Steuer unverändert zu lassen. Sie bleibt daher unverändert"
                     ],
                     "_azure/gpt-4-vision_et": "Viimasel valimisel hääletati CO₂-maksu samaks jäämise poolt.<br>Seetõttu jääb see muutumatuks!",
                     "_gcp/gemini-1.5-pro_et": "Viimastel valimistel hääletati CO₂-maksu samaks jätmise poolt.<br>Seega jääb see samaks! \n",
@@ -2026,7 +2026,7 @@
                     "_compare_aws/claude-3.5-sonnet_et": "Viimasel valimisel hääletati CO₂-maksu samaks jäämise poolt. Seetõttu jääb see muutumatuks!",
                     "_unique_translations_back_et": [
                         "Bei der letzten Wahl wurde dafür gestimmt, dass die CO₂-Steuer unverändert bleibt. Sie bleibt also unverändert!",
-                        "Bei der letzten Wahl wurde dafür gestimmt, dass die CO₂-Steuer unverändert bleibt. Sie bleibt also unverändert!"
+                        "Bei der letzten Wahl wurde dafür gestimmt, die CO₂-Steuer beizubehalten. Sie bleibt also unverändert!"
                     ],
                     "_azure/gpt-4-vision_fi": "Viimeisissä vaaleissa äänestettiin CO₂-veron pitämiseksi ennallaan.<br>Se pysyy siis muuttumattomana!",
                     "_gcp/gemini-1.5-pro_fi": "Viime vaaleissa äänestettiin CO₂-veron säilyttämisen puolesta.<br>Se pysyy siis ennallaan! \n",
@@ -2034,7 +2034,7 @@
                     "_compare_gcp/gemini-1.5-pro_fi": "Viimeisissä vaaleissa äänestettiin CO₂-veron pitämiseksi ennallaan. Se pysyy siis muuttumattomana!",
                     "_compare_aws/claude-3.5-sonnet_fi": "Viime vaaleissa äänestettiin CO₂-veron säilyttämisen puolesta. Se pysyy siis ennallaan!",
                     "_unique_translations_back_fi": [
-                        "Bei der letzten Wahl wurde dafür gestimmt, dass die CO₂-Steuer unverändert bleibt. Sie bleibt also unverändert!",
+                        "Bei der letzten Wahl wurde dafür gestimmt, die CO₂-Steuer unverändert zu lassen. Sie bleibt also unverändert!",
                         "Bei der letzten Wahl wurde dafür gestimmt, die CO₂-Steuer beizubehalten. Sie bleibt also unverändert!"
                     ],
                     "_azure/gpt-4-vision_fr": "Lors des dernières élections, il a été voté pour que la taxe CO₂ reste inchangée.<br>Elle reste donc inchangée !",
@@ -2061,8 +2061,8 @@
                     "_compare_gcp/gemini-1.5-pro_hr": "Na posljednjim izborima glasovalo se za zadržavanje CO₂ poreza na istoj razini. Stoga ostaje nepromijenjen!",
                     "_compare_aws/claude-3.5-sonnet_hr": "Na posljednjim izborima glasovalo se za zadržavanje CO₂ poreza na istoj razini. Stoga ostaje nepromijenjen!",
                     "_unique_translations_back_hr": [
-                        "Bei der letzten Wahl wurde dafür gestimmt, dass die CO₂-Steuer unverändert bleibt. Sie bleibt also unverändert!",
-                        "Bei der letzten Wahl wurde dafür gestimmt, die CO₂-Steuer auf dem gleichen Niveau zu belassen. Sie bleibt daher unverändert!"
+                        "Bei den letzten Wahlen wurde dafür gestimmt, die CO₂-Steuer auf dem gleichen Niveau zu belassen. Sie bleibt daher unverändert!",
+                        "Bei der letzten Wahl wurde dafür gestimmt, dass die CO₂-Steuer unverändert bleibt. Sie bleibt also unverändert!"
                     ],
                     "_azure/gpt-4-vision_hu": "Az utolsó választáson arra szavaztak, hogy a CO₂-adó változatlan maradjon.<br>Ezért marad változatlan!",
                     "_gcp/gemini-1.5-pro_hu": "Az utolsó választáson a szén-dioxid-adó változatlansága mellett döntöttek.<br>Így az nem változik! \n",
@@ -2070,7 +2070,7 @@
                     "_compare_gcp/gemini-1.5-pro_hu": "Az utolsó választáson a szén-dioxid-adó változatlansága mellett döntöttek. Így az nem változik!",
                     "_compare_aws/claude-3.5-sonnet_hu": "Az utolsó választáson arra szavaztak, hogy a CO₂-adó változatlan maradjon. Ezért marad változatlan!",
                     "_unique_translations_back_hu": [
-                        "Bei der letzten Wahl wurde dafür gestimmt, dass die CO₂-Steuer unverändert bleibt. Sie bleibt daher unverändert!",
+                        "Bei der letzten Wahl wurde dafür gestimmt, dass die CO₂-Steuer unverändert bleibt. Sie bleibt also unverändert!",
                         "Bei der letzten Wahl wurde dafür gestimmt, dass die CO₂-Steuer unverändert bleibt. Sie bleibt also unverändert!"
                     ],
                     "_azure/gpt-4-vision_id": "Pada pemilihan terakhir, orang-orang telah memilih agar pajak CO₂ tetap sama.<br>Oleh karena itu, pajak tersebut tetap tidak berubah!",
@@ -2079,8 +2079,8 @@
                     "_compare_gcp/gemini-1.5-pro_id": "Pada pemilihan terakhir, orang-orang telah memilih agar pajak CO₂ tetap sama. Oleh karena itu, pajak tersebut tetap tidak berubah!",
                     "_compare_aws/claude-3.5-sonnet_id": "Pada pemilihan terakhir, orang-orang telah memilih agar pajak CO₂ tetap sama. Oleh karena itu, pajak tersebut tetap tidak berubah!",
                     "_unique_translations_back_id": [
-                        "Bei der letzten Wahl wurde dafür gestimmt, dass die CO₂-Steuer unverändert bleibt. Sie bleibt also unverändert!",
-                        "Bei der letzten Wahl wurde dafür gestimmt, dass die CO₂-Steuer unverändert bleibt. Sie bleibt also unverändert!"
+                        "Bei der letzten Wahl haben die Menschen dafür gestimmt, die CO₂-Steuer beizubehalten. Sie bleibt also unverändert!",
+                        "Bei der letzten Wahl haben die Menschen dafür gestimmt, dass die CO₂-Steuer unverändert bleibt. Sie bleibt also unverändert!"
                     ],
                     "_azure/gpt-4-vision_it": "Alle ultime elezioni si è votato per mantenere invariata la tassa sulla CO₂.<br>Pertanto rimane inalterata!",
                     "_gcp/gemini-1.5-pro_it": "Alle ultime elezioni si è votato per mantenere invariata la tassa sulla CO₂.<br>Rimarrà quindi invariata!",
@@ -2088,7 +2088,7 @@
                     "_compare_gcp/gemini-1.5-pro_it": "Alle ultime elezioni si è votato per mantenere invariata la tassa sulla CO₂. Pertanto rimane inalterata!",
                     "_compare_aws/claude-3.5-sonnet_it": "Alle ultime elezioni si è votato per mantenere invariata la tassa sulla CO₂. Rimarrà quindi invariata!",
                     "_unique_translations_back_it": [
-                        "Bei der letzten Wahl wurde dafür gestimmt, die CO₂-Steuer unverändert zu lassen. Sie bleibt daher unverändert!",
+                        "Bei der letzten Wahl wurde dafür gestimmt, die CO₂-Steuer unverändert zu lassen. Sie bleibt also unverändert!",
                         "Bei der letzten Wahl wurde dafür gestimmt, die CO₂-Steuer unverändert zu lassen. Sie bleibt also unverändert!"
                     ],
                     "_azure/gpt-4-vision_ja": "最後の選挙でCO₂税の現状維持に投票されました。<br>したがって、それは変わらずに留まります！",
@@ -2097,8 +2097,8 @@
                     "_compare_gcp/gemini-1.5-pro_ja": "前回の選挙では、CO₂税を据え置くことが決まりました。 したがって、CO₂税は変更されません！",
                     "_compare_aws/claude-3.5-sonnet_ja": "前回の選挙では、CO₂税を据え置くことが決まりました。 したがって、CO₂税は変更されません！",
                     "_unique_translations_back_ja": [
-                        "Bei der letzten Wahl wurde dafür gestimmt, dass die CO₂-Steuer unverändert bleibt. Sie bleibt also unverändert!",
-                        "Bei der letzten Wahl wurde beschlossen, die CO₂-Steuer beizubehalten. Daher bleibt die CO₂-Steuer unverändert!"
+                        "Bei der letzten Wahl wurde beschlossen, die CO₂-Steuer beizubehalten. Daher bleibt die CO₂-Steuer unverändert!",
+                        "Bei der letzten Wahl wurde dafür gestimmt, dass die CO₂-Steuer unverändert bleibt. Sie bleibt also unverändert!"
                     ],
                     "_azure/gpt-4-vision_ko": "마지막 선거에서 이산화탄소 세금을 현행대로 유지하기로 투표되었습니다.<br>그래서 변하지 않고 유지됩니다!",
                     "_gcp/gemini-1.5-pro_ko": "지난 선거에서 CO₂세를 현행대로 유지하는 안건이 통과되었습니다.<br>따라서 CO₂세는 변경되지 않습니다! \n",
@@ -2106,7 +2106,7 @@
                     "_compare_gcp/gemini-1.5-pro_ko": "지난 선거에서 CO₂세를 현행대로 유지하는 안건이 통과되었습니다. 따라서 CO₂세는 변경되지 않습니다!",
                     "_compare_aws/claude-3.5-sonnet_ko": "마지막 선거에서 이산화탄소 세금을 현행대로 유지하기로 투표되었습니다. 그래서 변하지 않고 유지됩니다!",
                     "_unique_translations_back_ko": [
-                        "Bei der letzten Wahl wurde dafür gestimmt, dass die CO₂-Steuer unverändert bleibt. Sie bleibt also unverändert!",
+                        "Bei der letzten Wahl wurde dafür gestimmt, die CO₂-Steuer unverändert zu lassen. Sie bleibt also unverändert!",
                         "Bei der letzten Wahl wurde dafür gestimmt, dass die CO₂-Steuer unverändert bleibt. Sie bleibt also unverändert!"
                     ],
                     "_azure/gpt-4-vision_lv": "Pēdējās vēlēšanās tika balsots par CO₂ nodokļa nemainīšanu.<br>Tāpēc tas paliek nemainīgs!",
@@ -2115,7 +2115,7 @@
                     "_compare_gcp/gemini-1.5-pro_lv": "Pēdējās vēlēšanās tika nobalsots par CO₂ nodokļa saglabāšanu nemainīgu. Tāpēc tas paliek nemainīgs!",
                     "_compare_aws/claude-3.5-sonnet_lv": "Pēdējās vēlēšanās tika nobalsots par CO₂ nodokļa saglabāšanu nemainīgu. Tāpēc tas paliek nemainīgs!",
                     "_unique_translations_back_lv": [
-                        "Bei der letzten Wahl wurde dafür gestimmt, dass die CO₂-Steuer unverändert bleibt. Sie bleibt also unverändert!",
+                        "Bei der letzten Wahl wurde dafür gestimmt, die CO₂-Steuer unverändert zu lassen. Sie bleibt also unverändert!",
                         "Bei der letzten Wahl wurde dafür gestimmt, dass die CO₂-Steuer unverändert bleibt. Sie bleibt also unverändert!"
                     ],
                     "_azure/gpt-4-vision_lt": "Paskutiniuose rinkimuose buvo balsuota už tai, kad CO₂ mokestis išliktų nepakitęs.<br>Todėl jis išlieka nepakeistas!",
@@ -2124,8 +2124,8 @@
                     "_compare_gcp/gemini-1.5-pro_lt": "Paskutiniuose rinkimuose buvo balsuota už tai, kad CO₂ mokestis išliktų nepakitęs. Todėl jis išlieka nepakeistas!",
                     "_compare_aws/claude-3.5-sonnet_lt": "Paskutiniuose rinkimuose buvo balsuota už tai, kad CO₂ mokestis išliktų nepakitęs. Todėl jis išlieka nepakeistas!",
                     "_unique_translations_back_lt": [
-                        "Bei der letzten Wahl wurde dafür gestimmt, die CO₂-Steuer beizubehalten. Sie bleibt daher unverändert!",
-                        "Bei der letzten Wahl wurde dafür gestimmt, dass die CO₂-Steuer unverändert bleibt. Sie bleibt daher unverändert!"
+                        "Bei der letzten Wahl wurde dafür gestimmt, die CO₂-Steuer beizubehalten. Sie bleibt also unverändert!",
+                        "Bei der letzten Wahl wurde dafür gestimmt, dass die CO₂-Steuer unverändert bleibt. Sie bleibt also unverändert!"
                     ],
                     "_azure/gpt-4-vision_mt": "Fl-aħħar elezzjoni, in-nies ivvutaw biex it-taxxa tal-CO₂ tibqa' l-istess.<br>Għalhekk tibqa' mhux mibdula!",
                     "_gcp/gemini-1.5-pro_mt": "Fl-aħħar elezzjoni, in-nies ivvutaw biex iżommu t-taxxa tas-CO₂ l-istess.<br>Għalhekk tibqa' kif inhi! \n",
@@ -2133,8 +2133,8 @@
                     "_compare_gcp/gemini-1.5-pro_mt": "Fl-aħħar elezzjoni, in-nies ivvutaw biex iżommu t-taxxa tas-CO₂ l-istess. Għalhekk tibqa' kif inhi!",
                     "_compare_aws/claude-3.5-sonnet_mt": "Fl-aħħar elezzjoni, in-nies ivvutaw biex it-taxxa tal-CO₂ tibqa' l-istess. Għalhekk tibqa' mhux mibdula!",
                     "_unique_translations_back_mt": [
-                        "Bei der letzten Wahl wurde dafür gestimmt, dass die CO₂-Steuer unverändert bleibt. Sie bleibt also unverändert!",
-                        "Bei der letzten Wahl wurde dafür gestimmt, dass die CO₂-Steuer unverändert bleibt. Sie bleibt also unverändert!"
+                        "Bei der letzten Wahl haben die Menschen dafür gestimmt, die CO₂-Steuer unverändert zu lassen. Sie bleibt also unverändert!",
+                        "Bei der letzten Wahl haben die Menschen dafür gestimmt, dass die CO₂-Steuer unverändert bleibt. Sie bleibt also unverändert!"
                     ],
                     "_azure/gpt-4-vision_nl": "Bij de laatste verkiezingen is gestemd voor het gelijk blijven van de CO₂-belasting.<br>Daarom blijft deze ongewijzigd!",
                     "_gcp/gemini-1.5-pro_nl": "Bij de laatste verkiezingen is gestemd om de CO₂-belasting te handhaven.<br>Deze blijft daarom ongewijzigd! \n",
@@ -2142,8 +2142,8 @@
                     "_compare_gcp/gemini-1.5-pro_nl": "Bij de laatste verkiezingen is gestemd voor het gelijk blijven van de CO₂-belasting. Daarom blijft deze ongewijzigd!",
                     "_compare_aws/claude-3.5-sonnet_nl": "Bij de laatste verkiezingen is gestemd voor het gelijk blijven van de CO₂-belasting. Daarom blijft deze ongewijzigd!",
                     "_unique_translations_back_nl": [
-                        "Bei der letzten Wahl wurde dafür gestimmt, die CO₂-Steuer beizubehalten. Sie bleibt daher unverändert!",
-                        "Bei der letzten Wahl wurde dafür gestimmt, dass die CO₂-Steuer unverändert bleibt. Sie bleibt also unverändert!"
+                        "Bei der letzten Wahl wurde dafür gestimmt, dass die CO₂-Steuer unverändert bleibt. Sie bleibt also unverändert!",
+                        "Bei der letzten Wahl wurde dafür gestimmt, die CO₂-Steuer beizubehalten. Sie bleibt daher unverändert!"
                     ],
                     "_azure/gpt-4-vision_pl": "Na ostatnich wyborach głosowano za utrzymaniem podatku CO₂ na tym samym poziomie.<br>Dlatego pozostaje on niezmieniony!",
                     "_gcp/gemini-1.5-pro_pl": "W ostatnich wyborach zagłosowano za utrzymaniem stawki podatku od CO₂.<br>W związku z tym pozostaje ona bez zmian!",
@@ -2151,8 +2151,8 @@
                     "_compare_gcp/gemini-1.5-pro_pl": "Na ostatnich wyborach głosowano za utrzymaniem podatku CO₂ na tym samym poziomie. Dlatego pozostaje on niezmieniony!",
                     "_compare_aws/claude-3.5-sonnet_pl": "W ostatnich wyborach zagłosowano za utrzymaniem stawki podatku od CO₂. W związku z tym pozostaje ona bez zmian!",
                     "_unique_translations_back_pl": [
-                        "Bei der letzten Wahl wurde dafür gestimmt, die CO₂-Steuer auf dem gleichen Niveau zu belassen. Sie bleibt daher unverändert!",
-                        "Bei der letzten Wahl wurde dafür gestimmt, dass die CO₂-Steuer unverändert bleibt. Sie bleibt also unverändert!"
+                        "Bei der letzten Wahl wurde dafür gestimmt, die CO₂-Steuer unverändert zu lassen. Sie bleibt also unverändert!",
+                        "Bei der letzten Wahl wurde dafür gestimmt, die CO₂-Steuer unverändert zu lassen. Sie bleibt also unverändert!"
                     ],
                     "_azure/gpt-4-vision_ro": "La ultimele alegeri s-a votat pentru menținerea taxei pe CO₂.<br>Prin urmare, aceasta rămâne neschimbată!",
                     "_gcp/gemini-1.5-pro_ro": "La ultimele alegeri s-a votat pentru menținerea taxei pe CO₂ la același nivel.<br>Prin urmare, aceasta rămâne neschimbată! \n",
@@ -2160,8 +2160,8 @@
                     "_compare_gcp/gemini-1.5-pro_ro": "La ultimele alegeri s-a votat pentru menținerea taxei pe CO₂ la același nivel. Prin urmare, aceasta rămâne neschimbată!",
                     "_compare_aws/claude-3.5-sonnet_ro": "La ultimele alegeri s-a votat pentru menținerea taxei pe CO₂ la același nivel. Prin urmare, aceasta rămâne neschimbată!",
                     "_unique_translations_back_ro": [
-                        "Bei der letzten Wahl wurde für die Beibehaltung der CO₂-Steuer gestimmt. Sie bleibt daher unverändert!",
-                        "Bei den letzten Wahlen wurde dafür gestimmt, die CO₂-Steuer auf dem gleichen Niveau zu belassen. Sie bleibt also unverändert!"
+                        "Bei den letzten Wahlen wurde dafür gestimmt, die CO₂-Steuer auf dem gleichen Niveau zu belassen. Sie bleibt daher unverändert!",
+                        "Bei der letzten Wahl wurde dafür gestimmt, die CO₂-Steuer beizubehalten. Sie bleibt daher unverändert!"
                     ],
                     "_azure/gpt-4-vision_ru": "На последних выборах проголосовали за сохранение налога на CO₂ без изменений.<br>Поэтому он остаётся неизменным!",
                     "_gcp/gemini-1.5-pro_ru": "На последних выборах налог на CO₂ проголосовали за то, чтобы оставить его прежним.<br>Поэтому он остается неизменным! \n",
@@ -2178,8 +2178,8 @@
                     "_compare_gcp/gemini-1.5-pro_sk": "V posledných voľbách sa hlasovalo za zachovanie súčasnej výšky dane z CO₂. Zostáva preto nezmenená!",
                     "_compare_aws/claude-3.5-sonnet_sk": "Pri posledných voľbách sa hlasovalo za zachovanie súčasnej výšky dane z CO₂. Preto zostáva nezmenená!",
                     "_unique_translations_back_sk": [
-                        "Bei der letzten Wahl wurde dafür gestimmt, dass die CO₂-Steuer unverändert bleibt. Sie bleibt also unverändert!",
-                        "Bei der letzten Wahl wurde dafür gestimmt, die CO₂-Steuer auf dem aktuellen Niveau zu belassen. Sie bleibt daher unverändert!"
+                        "Bei der letzten Wahl wurde dafür gestimmt, die aktuelle Höhe der CO₂-Steuer beizubehalten. Sie bleibt daher unverändert!",
+                        "Bei den letzten Wahlen wurde dafür gestimmt, die aktuelle Höhe der CO₂-Steuer beizubehalten. Sie bleibt daher unverändert!"
                     ],
                     "_azure/gpt-4-vision_sl": "Na zadnjih volitvah so glasovali za ohranitev obstoječe višine davka na CO₂.<br>Zato ostaja nespremenjen!",
                     "_gcp/gemini-1.5-pro_sl": "Na zadnjih volitvah so volivci glasovali za ohranitev enake višine davka na CO₂.<br>Zato ostaja nespremenjen! \n",
@@ -2187,8 +2187,8 @@
                     "_compare_gcp/gemini-1.5-pro_sl": "Na zadnjih volitvah so glasovali za ohranitev obstoječe višine davka na CO₂. Zato ostaja nespremenjen!",
                     "_compare_aws/claude-3.5-sonnet_sl": "Na zadnjih volitvah so glasovali za ohranitev obstoječe višine davka na CO₂. Zato ostaja nespremenjen!",
                     "_unique_translations_back_sl": [
-                        "Bei der letzten Wahl haben die Wähler dafür gestimmt, die Höhe der CO₂-Steuer beizubehalten. Sie bleibt daher unverändert!",
-                        "Bei der letzten Wahl wurde dafür gestimmt, die bestehende Höhe der CO₂-Steuer beizubehalten. Sie bleibt daher unverändert!"
+                        "",
+                        ""
                     ],
                     "_azure/gpt-4-vision_zh": "在上次选举中，人们投票决定维持现行的二氧化碳税。<br>因此，它将保持不变！",
                     "_gcp/gemini-1.5-pro_zh": "在上次选举中，人们投票决定保持二氧化碳税不变。<br>因此，它将保持不变！ \n",
@@ -2196,8 +2196,8 @@
                     "_compare_gcp/gemini-1.5-pro_zh": "在上次选举中，人们投票决定维持现行的二氧化碳税。 因此，它将保持不变！",
                     "_compare_aws/claude-3.5-sonnet_zh": "在上次选举中，人们投票决定维持现行的二氧化碳税。 因此，它将保持不变！",
                     "_unique_translations_back_zh": [
-                        "Bei der letzten Wahl wurde dafür gestimmt, dass die CO₂-Steuer unverändert bleibt. Sie bleibt also unverändert!",
-                        "Bei der letzten Wahl wurde dafür gestimmt, die CO₂-Steuer beizubehalten. Sie bleibt also unverändert!"
+                        "",
+                        ""
                     ]
                 },
                 "conditions": [

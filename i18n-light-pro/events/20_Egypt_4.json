@@ -1,35 +1,418 @@
 {
     "schedule": {
-      "conditions": [
-        {
-          "path": "..seaLevel.series.elevation [meters by year]",
-          "configurationType": "PROJECTION_RESULT",
-          "value": 1.2,
-          "operator": "GTE"
-        }
-      ]
+        "conditions": [
+            {
+                "path": "..seaLevel.series.elevation [meters by year]",
+                "configurationType": "PROJECTION_RESULT",
+                "value": 1.2,
+                "operator": "GTE"
+            }
+        ]
     },
     "name": "Egypt 4 (Trigger sea level rise 1.2 m)",
     "actions": [
-      {
-        "notification": {
-          "sendEmail": true,
-          "title": {
-            "de": "Ernährungsknappheit in Ägypten – Klimafolgen machen Landwirtschaft und Lebensmittelanbau unmöglich",
-            "ru": "Нехватка продовольствия в Египте - воздействие климата делает невозможным ведение сельского хозяйства и выращивание продуктов питания",
-            "en": "Food shortages in Egypt - climate impacts make farming and food cultivation impossible",
-            "ar": "نقص الغذاء في مصر - تؤدي آثار التغير المناخي إلى عدم إمكانية الزراعة وزراعة الغذاء.",
-            "fr": "Pénuries alimentaires en Égypte - les impacts climatiques rendent l'agriculture et la culture alimentaire impossibles."
-          },
-          "body": {
-            "de": "Der Anstieg des Meeresspiegels und damit einhergehende Flutkatastrophen stellen die gesamte Landwirtschaft Ägyptens auf den Kopf. Insbesondere der Anbau von Weizen ist nur noch selten möglich und bringt wirtschaftlich keinen Ertrag mehr. Hauptsächlicher Grund dafür ist der Meeresspiegelanstieg, der die Böden versalzt und einen Anbau somit unmöglich macht. Der steigende Salzgehalt in den Böden und im Grundwasser führt ebenfalls dazu, dass immer mehr Menschen auf salziges Trinkwasser angewiesen sind. Gerade in der Trockenzeit, in der es gerne mal einige Monate nicht regnet, müssen viele Menschen auf versalzenes Trinkwasser zurückgreifen. \n \n Die Weltgesundheitsorganisation WHO spricht von katastrophalen Zuständen im Land. Die Bevölkerung Ägyptens ist immer mehr auf Nahrungsmittelimporte angewiesen. Da jedoch nicht nur Ägypten von Nahrungsknappheit bedroht ist, sondern weltweite Engpässe bestehen, sind immer weniger Länder dazu bereit, Nahrungsmittel zu exportieren. Die Generalsekretärin der Vereinten Nationen warnte deshalb Ende letzter Woche vor kommenden humanitären Krisen, die insbesondere Länder bedrohen, die nur in geringer Menge eigene Nahrungsmittel produzieren.",
-            "ru": "Повышение уровня моря и сопровождающие его наводнения переворачивают все сельское хозяйство Египта с ног на голову. Выращивание пшеницы, в частности, теперь редко возможно и больше не приносит экономической выгоды. Основной причиной этого является повышение уровня моря, которое засоляет почву и делает невозможным выращивание сельскохозяйственных культур. Повышение содержания соли в почве и грунтовых водах также означает, что все больше людей зависят от соленой питьевой воды. Особенно в сухой сезон, когда дождей часто не бывает по несколько месяцев, многие люди вынуждены прибегать к соленой питьевой воде. \n \n Всемирная организация здравоохранения ВОЗ говорит о катастрофических условиях в стране. Население Египта все больше зависит от импорта продовольствия. Однако, поскольку нехватка продовольствия угрожает не только Египту, но и всему миру, все меньше и меньше стран готовы экспортировать продовольствие. Поэтому Генеральный секретарь ООН в конце прошлой недели предупредил о грядущих гуманитарных кризисах, которые угрожают, в частности, странам, производящим лишь небольшое количество собственного продовольствия.",
-            "en": "The rise in sea level and the accompanying flood disasters are turning Egypt's entire agriculture upside down. The cultivation of wheat in particular is now only rarely possible and no longer yields any economic returns. The main reason for this is the rise in sea level, which salinates the soil and makes cultivation impossible. The rising salt content in the soil and groundwater also means that more and more people are dependent on salty drinking water. Especially in the dry season, when there is often no rain for several months, many people have to resort to saline drinking water. \n \n The World Health Organisation WHO speaks of catastrophic conditions in the country. Egypt's population is increasingly dependent on food imports. However, since not only Egypt is threatened by food shortages, but there are worldwide shortages, fewer and fewer countries are willing to export food. The Secretary General of the United Nations therefore warned at the end of last week of coming humanitarian crises that threaten in particular countries that produce only small amounts of their own food.",
-            "ar": "ارتفاع مستوى سطح البحر والكوارث المصاحبة للفيضانات تقلب زراعة مصر بأكملها رأسًا على عقب. زراعة القمح بشكل خاص أصبحت ممكنة الآن نادرًا ولا تعود بأي عائد اقتصادي. السبب الرئيسي لذلك هو ارتفاع مستوى سطح البحر الذي يملح التربة ويجعل الزراعة مستحيلة. تزيد نسبة الملوحة في التربة ومياه الجوف أيضًا مما يعني أن المزيد والمزيد من الأشخاص يعتمدون على مياه الشرب المالحة. خاصة في موسم الجفاف، عندما لا يكون هناك غالبًا أمطار لعدة أشهر، يضطر الكثيرون للجوء إلى مياه الشرب المالحة.",
-            "fr": "L'élévation du niveau de la mer et les catastrophes d'inondations qui l'accompagnent bouleversent toute l'agriculture de l'Égypte. La culture du blé en particulier est désormais rarement possible et ne rapporte plus économiquement. La principale raison en est l'élévation du niveau de la mer, qui salinise les sols et rend la culture impossible. L'augmentation de la teneur en sel dans le sol et les eaux souterraines signifie également que de plus en plus de personnes dépendent de l'eau potable salée. Surtout pendant la saison sèche, lorsque souvent il ne pleut pas pendant plusieurs mois, de nombreuses personnes doivent recourir à l'eau potable salée.\n\nL'Organisation mondiale de la santé (OMS) parle de conditions catastrophiques dans le pays. La population égyptienne dépend de plus en plus des importations alimentaires. Cependant, étant donné que non seulement l'Égypte est menacée par des pénuries alimentaires, mais qu'il y a des pénuries mondiales, de moins en moins de pays sont disposés à exporter de la nourriture. Le Secrétaire général des Nations Unies a donc mis en garde la semaine dernière contre les crises humanitaires à venir qui menacent en particulier les pays produisant de faibles quantités de leur propre nourriture."
-
-          }
+        {
+            "notification": {
+                "sendEmail": true,
+                "title": {
+                    "de": "Ernährungsknappheit in Ägypten – Klimafolgen machen Landwirtschaft und Lebensmittelanbau unmöglich",
+                    "ru": "Нехватка продовольствия в Египте - воздействие климата делает невозможным ведение сельского хозяйства и выращивание продуктов питания",
+                    "en": "Food shortages in Egypt - climate impacts make farming and food cultivation impossible",
+                    "ar": "نقص الغذاء في مصر - تؤدي آثار التغير المناخي إلى عدم إمكانية الزراعة وزراعة الغذاء.",
+                    "fr": "Pénuries alimentaires en Égypte - les impacts climatiques rendent l'agriculture et la culture alimentaire impossibles.",
+                    "_azure/gpt-4-vision_bg": "",
+                    "_gcp/gemini-1.5-pro_bg": "",
+                    "_compare_azure/gpt-4-vision_bg": "",
+                    "_compare_gcp/gemini-1.5-pro_bg": "",
+                    "_compare_aws/claude-3.5-sonnet_bg": "",
+                    "_unique_translations_back_bg": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_cs": "",
+                    "_gcp/gemini-1.5-pro_cs": "",
+                    "_compare_azure/gpt-4-vision_cs": "",
+                    "_compare_gcp/gemini-1.5-pro_cs": "",
+                    "_compare_aws/claude-3.5-sonnet_cs": "",
+                    "_unique_translations_back_cs": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_da": "",
+                    "_gcp/gemini-1.5-pro_da": "",
+                    "_compare_azure/gpt-4-vision_da": "",
+                    "_compare_gcp/gemini-1.5-pro_da": "",
+                    "_compare_aws/claude-3.5-sonnet_da": "",
+                    "_unique_translations_back_da": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_el": "",
+                    "_gcp/gemini-1.5-pro_el": "",
+                    "_compare_azure/gpt-4-vision_el": "",
+                    "_compare_gcp/gemini-1.5-pro_el": "",
+                    "_compare_aws/claude-3.5-sonnet_el": "",
+                    "_unique_translations_back_el": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_es": "",
+                    "_gcp/gemini-1.5-pro_es": "",
+                    "_compare_azure/gpt-4-vision_es": "",
+                    "_compare_gcp/gemini-1.5-pro_es": "",
+                    "_compare_aws/claude-3.5-sonnet_es": "",
+                    "_unique_translations_back_es": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_et": "",
+                    "_gcp/gemini-1.5-pro_et": "",
+                    "_compare_azure/gpt-4-vision_et": "",
+                    "_compare_gcp/gemini-1.5-pro_et": "",
+                    "_compare_aws/claude-3.5-sonnet_et": "",
+                    "_unique_translations_back_et": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_fi": "",
+                    "_gcp/gemini-1.5-pro_fi": "",
+                    "_compare_azure/gpt-4-vision_fi": "",
+                    "_compare_gcp/gemini-1.5-pro_fi": "",
+                    "_compare_aws/claude-3.5-sonnet_fi": "",
+                    "_unique_translations_back_fi": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_ga": "",
+                    "_gcp/gemini-1.5-pro_ga": "",
+                    "_compare_azure/gpt-4-vision_ga": "",
+                    "_compare_gcp/gemini-1.5-pro_ga": "",
+                    "_compare_aws/claude-3.5-sonnet_ga": "",
+                    "_unique_translations_back_ga": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_hr": "",
+                    "_gcp/gemini-1.5-pro_hr": "",
+                    "_compare_azure/gpt-4-vision_hr": "",
+                    "_compare_gcp/gemini-1.5-pro_hr": "",
+                    "_compare_aws/claude-3.5-sonnet_hr": "",
+                    "_unique_translations_back_hr": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_hu": "",
+                    "_gcp/gemini-1.5-pro_hu": "",
+                    "_compare_azure/gpt-4-vision_hu": "",
+                    "_compare_gcp/gemini-1.5-pro_hu": "",
+                    "_compare_aws/claude-3.5-sonnet_hu": "",
+                    "_unique_translations_back_hu": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_id": "",
+                    "_gcp/gemini-1.5-pro_id": "",
+                    "_compare_azure/gpt-4-vision_id": "",
+                    "_compare_gcp/gemini-1.5-pro_id": "",
+                    "_compare_aws/claude-3.5-sonnet_id": "",
+                    "_unique_translations_back_id": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_it": "",
+                    "_gcp/gemini-1.5-pro_it": "",
+                    "_compare_azure/gpt-4-vision_it": "",
+                    "_compare_gcp/gemini-1.5-pro_it": "",
+                    "_compare_aws/claude-3.5-sonnet_it": "",
+                    "_unique_translations_back_it": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_ja": "",
+                    "_gcp/gemini-1.5-pro_ja": "",
+                    "_compare_azure/gpt-4-vision_ja": "",
+                    "_compare_gcp/gemini-1.5-pro_ja": "",
+                    "_compare_aws/claude-3.5-sonnet_ja": "",
+                    "_unique_translations_back_ja": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_ko": "",
+                    "_gcp/gemini-1.5-pro_ko": "",
+                    "_compare_azure/gpt-4-vision_ko": "",
+                    "_compare_gcp/gemini-1.5-pro_ko": "",
+                    "_compare_aws/claude-3.5-sonnet_ko": "",
+                    "_unique_translations_back_ko": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_lv": "",
+                    "_gcp/gemini-1.5-pro_lv": "",
+                    "_compare_azure/gpt-4-vision_lv": "",
+                    "_compare_gcp/gemini-1.5-pro_lv": "",
+                    "_compare_aws/claude-3.5-sonnet_lv": "",
+                    "_unique_translations_back_lv": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_lt": "",
+                    "_gcp/gemini-1.5-pro_lt": "",
+                    "_compare_azure/gpt-4-vision_lt": "",
+                    "_compare_gcp/gemini-1.5-pro_lt": "",
+                    "_compare_aws/claude-3.5-sonnet_lt": "",
+                    "_unique_translations_back_lt": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_mt": "",
+                    "_gcp/gemini-1.5-pro_mt": "",
+                    "_compare_azure/gpt-4-vision_mt": "",
+                    "_compare_gcp/gemini-1.5-pro_mt": "",
+                    "_compare_aws/claude-3.5-sonnet_mt": "",
+                    "_unique_translations_back_mt": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_nl": "",
+                    "_gcp/gemini-1.5-pro_nl": "",
+                    "_compare_azure/gpt-4-vision_nl": "",
+                    "_compare_gcp/gemini-1.5-pro_nl": "",
+                    "_compare_aws/claude-3.5-sonnet_nl": "",
+                    "_unique_translations_back_nl": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_pl": "",
+                    "_gcp/gemini-1.5-pro_pl": "",
+                    "_compare_azure/gpt-4-vision_pl": "",
+                    "_compare_gcp/gemini-1.5-pro_pl": "",
+                    "_compare_aws/claude-3.5-sonnet_pl": "",
+                    "_unique_translations_back_pl": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_ro": "",
+                    "_gcp/gemini-1.5-pro_ro": "",
+                    "_compare_azure/gpt-4-vision_ro": "",
+                    "_compare_gcp/gemini-1.5-pro_ro": "",
+                    "_compare_aws/claude-3.5-sonnet_ro": "",
+                    "_unique_translations_back_ro": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_sk": "",
+                    "_gcp/gemini-1.5-pro_sk": "",
+                    "_compare_azure/gpt-4-vision_sk": "",
+                    "_compare_gcp/gemini-1.5-pro_sk": "",
+                    "_compare_aws/claude-3.5-sonnet_sk": "",
+                    "_unique_translations_back_sk": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_sl": "",
+                    "_gcp/gemini-1.5-pro_sl": "",
+                    "_compare_azure/gpt-4-vision_sl": "",
+                    "_compare_gcp/gemini-1.5-pro_sl": "",
+                    "_compare_aws/claude-3.5-sonnet_sl": "",
+                    "_unique_translations_back_sl": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_sv": "",
+                    "_gcp/gemini-1.5-pro_sv": "",
+                    "_compare_azure/gpt-4-vision_sv": "",
+                    "_compare_gcp/gemini-1.5-pro_sv": "",
+                    "_compare_aws/claude-3.5-sonnet_sv": "",
+                    "_unique_translations_back_sv": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_zh": "",
+                    "_gcp/gemini-1.5-pro_zh": "",
+                    "_compare_azure/gpt-4-vision_zh": "",
+                    "_compare_gcp/gemini-1.5-pro_zh": "",
+                    "_compare_aws/claude-3.5-sonnet_zh": "",
+                    "_unique_translations_back_zh": [
+                        ""
+                    ]
+                },
+                "body": {
+                    "de": "Der Anstieg des Meeresspiegels und damit einhergehende Flutkatastrophen stellen die gesamte Landwirtschaft Ägyptens auf den Kopf. Insbesondere der Anbau von Weizen ist nur noch selten möglich und bringt wirtschaftlich keinen Ertrag mehr. Hauptsächlicher Grund dafür ist der Meeresspiegelanstieg, der die Böden versalzt und einen Anbau somit unmöglich macht. Der steigende Salzgehalt in den Böden und im Grundwasser führt ebenfalls dazu, dass immer mehr Menschen auf salziges Trinkwasser angewiesen sind. Gerade in der Trockenzeit, in der es gerne mal einige Monate nicht regnet, müssen viele Menschen auf versalzenes Trinkwasser zurückgreifen. \n \n Die Weltgesundheitsorganisation WHO spricht von katastrophalen Zuständen im Land. Die Bevölkerung Ägyptens ist immer mehr auf Nahrungsmittelimporte angewiesen. Da jedoch nicht nur Ägypten von Nahrungsknappheit bedroht ist, sondern weltweite Engpässe bestehen, sind immer weniger Länder dazu bereit, Nahrungsmittel zu exportieren. Die Generalsekretärin der Vereinten Nationen warnte deshalb Ende letzter Woche vor kommenden humanitären Krisen, die insbesondere Länder bedrohen, die nur in geringer Menge eigene Nahrungsmittel produzieren.",
+                    "ru": "Повышение уровня моря и сопровождающие его наводнения переворачивают все сельское хозяйство Египта с ног на голову. Выращивание пшеницы, в частности, теперь редко возможно и больше не приносит экономической выгоды. Основной причиной этого является повышение уровня моря, которое засоляет почву и делает невозможным выращивание сельскохозяйственных культур. Повышение содержания соли в почве и грунтовых водах также означает, что все больше людей зависят от соленой питьевой воды. Особенно в сухой сезон, когда дождей часто не бывает по несколько месяцев, многие люди вынуждены прибегать к соленой питьевой воде. \n \n Всемирная организация здравоохранения ВОЗ говорит о катастрофических условиях в стране. Население Египта все больше зависит от импорта продовольствия. Однако, поскольку нехватка продовольствия угрожает не только Египту, но и всему миру, все меньше и меньше стран готовы экспортировать продовольствие. Поэтому Генеральный секретарь ООН в конце прошлой недели предупредил о грядущих гуманитарных кризисах, которые угрожают, в частности, странам, производящим лишь небольшое количество собственного продовольствия.",
+                    "en": "The rise in sea level and the accompanying flood disasters are turning Egypt's entire agriculture upside down. The cultivation of wheat in particular is now only rarely possible and no longer yields any economic returns. The main reason for this is the rise in sea level, which salinates the soil and makes cultivation impossible. The rising salt content in the soil and groundwater also means that more and more people are dependent on salty drinking water. Especially in the dry season, when there is often no rain for several months, many people have to resort to saline drinking water. \n \n The World Health Organisation WHO speaks of catastrophic conditions in the country. Egypt's population is increasingly dependent on food imports. However, since not only Egypt is threatened by food shortages, but there are worldwide shortages, fewer and fewer countries are willing to export food. The Secretary General of the United Nations therefore warned at the end of last week of coming humanitarian crises that threaten in particular countries that produce only small amounts of their own food.",
+                    "ar": "ارتفاع مستوى سطح البحر والكوارث المصاحبة للفيضانات تقلب زراعة مصر بأكملها رأسًا على عقب. زراعة القمح بشكل خاص أصبحت ممكنة الآن نادرًا ولا تعود بأي عائد اقتصادي. السبب الرئيسي لذلك هو ارتفاع مستوى سطح البحر الذي يملح التربة ويجعل الزراعة مستحيلة. تزيد نسبة الملوحة في التربة ومياه الجوف أيضًا مما يعني أن المزيد والمزيد من الأشخاص يعتمدون على مياه الشرب المالحة. خاصة في موسم الجفاف، عندما لا يكون هناك غالبًا أمطار لعدة أشهر، يضطر الكثيرون للجوء إلى مياه الشرب المالحة.",
+                    "fr": "L'élévation du niveau de la mer et les catastrophes d'inondations qui l'accompagnent bouleversent toute l'agriculture de l'Égypte. La culture du blé en particulier est désormais rarement possible et ne rapporte plus économiquement. La principale raison en est l'élévation du niveau de la mer, qui salinise les sols et rend la culture impossible. L'augmentation de la teneur en sel dans le sol et les eaux souterraines signifie également que de plus en plus de personnes dépendent de l'eau potable salée. Surtout pendant la saison sèche, lorsque souvent il ne pleut pas pendant plusieurs mois, de nombreuses personnes doivent recourir à l'eau potable salée.\n\nL'Organisation mondiale de la santé (OMS) parle de conditions catastrophiques dans le pays. La population égyptienne dépend de plus en plus des importations alimentaires. Cependant, étant donné que non seulement l'Égypte est menacée par des pénuries alimentaires, mais qu'il y a des pénuries mondiales, de moins en moins de pays sont disposés à exporter de la nourriture. Le Secrétaire général des Nations Unies a donc mis en garde la semaine dernière contre les crises humanitaires à venir qui menacent en particulier les pays produisant de faibles quantités de leur propre nourriture.",
+                    "_azure/gpt-4-vision_bg": "",
+                    "_gcp/gemini-1.5-pro_bg": "",
+                    "_compare_azure/gpt-4-vision_bg": "",
+                    "_compare_gcp/gemini-1.5-pro_bg": "",
+                    "_compare_aws/claude-3.5-sonnet_bg": "",
+                    "_unique_translations_back_bg": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_cs": "",
+                    "_gcp/gemini-1.5-pro_cs": "",
+                    "_compare_azure/gpt-4-vision_cs": "",
+                    "_compare_gcp/gemini-1.5-pro_cs": "",
+                    "_compare_aws/claude-3.5-sonnet_cs": "",
+                    "_unique_translations_back_cs": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_da": "",
+                    "_gcp/gemini-1.5-pro_da": "",
+                    "_compare_azure/gpt-4-vision_da": "",
+                    "_compare_gcp/gemini-1.5-pro_da": "",
+                    "_compare_aws/claude-3.5-sonnet_da": "",
+                    "_unique_translations_back_da": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_el": "",
+                    "_gcp/gemini-1.5-pro_el": "",
+                    "_compare_azure/gpt-4-vision_el": "",
+                    "_compare_gcp/gemini-1.5-pro_el": "",
+                    "_compare_aws/claude-3.5-sonnet_el": "",
+                    "_unique_translations_back_el": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_es": "",
+                    "_gcp/gemini-1.5-pro_es": "",
+                    "_compare_azure/gpt-4-vision_es": "",
+                    "_compare_gcp/gemini-1.5-pro_es": "",
+                    "_compare_aws/claude-3.5-sonnet_es": "",
+                    "_unique_translations_back_es": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_et": "",
+                    "_gcp/gemini-1.5-pro_et": "",
+                    "_compare_azure/gpt-4-vision_et": "",
+                    "_compare_gcp/gemini-1.5-pro_et": "",
+                    "_compare_aws/claude-3.5-sonnet_et": "",
+                    "_unique_translations_back_et": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_fi": "",
+                    "_gcp/gemini-1.5-pro_fi": "",
+                    "_compare_azure/gpt-4-vision_fi": "",
+                    "_compare_gcp/gemini-1.5-pro_fi": "",
+                    "_compare_aws/claude-3.5-sonnet_fi": "",
+                    "_unique_translations_back_fi": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_ga": "",
+                    "_gcp/gemini-1.5-pro_ga": "",
+                    "_compare_azure/gpt-4-vision_ga": "",
+                    "_compare_gcp/gemini-1.5-pro_ga": "",
+                    "_compare_aws/claude-3.5-sonnet_ga": "",
+                    "_unique_translations_back_ga": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_hr": "",
+                    "_gcp/gemini-1.5-pro_hr": "",
+                    "_compare_azure/gpt-4-vision_hr": "",
+                    "_compare_gcp/gemini-1.5-pro_hr": "",
+                    "_compare_aws/claude-3.5-sonnet_hr": "",
+                    "_unique_translations_back_hr": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_hu": "",
+                    "_gcp/gemini-1.5-pro_hu": "",
+                    "_compare_azure/gpt-4-vision_hu": "",
+                    "_compare_gcp/gemini-1.5-pro_hu": "",
+                    "_compare_aws/claude-3.5-sonnet_hu": "",
+                    "_unique_translations_back_hu": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_id": "",
+                    "_gcp/gemini-1.5-pro_id": "",
+                    "_compare_azure/gpt-4-vision_id": "",
+                    "_compare_gcp/gemini-1.5-pro_id": "",
+                    "_compare_aws/claude-3.5-sonnet_id": "",
+                    "_unique_translations_back_id": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_it": "",
+                    "_gcp/gemini-1.5-pro_it": "",
+                    "_compare_azure/gpt-4-vision_it": "",
+                    "_compare_gcp/gemini-1.5-pro_it": "",
+                    "_compare_aws/claude-3.5-sonnet_it": "",
+                    "_unique_translations_back_it": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_ja": "",
+                    "_gcp/gemini-1.5-pro_ja": "",
+                    "_compare_azure/gpt-4-vision_ja": "",
+                    "_compare_gcp/gemini-1.5-pro_ja": "",
+                    "_compare_aws/claude-3.5-sonnet_ja": "",
+                    "_unique_translations_back_ja": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_ko": "",
+                    "_gcp/gemini-1.5-pro_ko": "",
+                    "_compare_azure/gpt-4-vision_ko": "",
+                    "_compare_gcp/gemini-1.5-pro_ko": "",
+                    "_compare_aws/claude-3.5-sonnet_ko": "",
+                    "_unique_translations_back_ko": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_lv": "",
+                    "_gcp/gemini-1.5-pro_lv": "",
+                    "_compare_azure/gpt-4-vision_lv": "",
+                    "_compare_gcp/gemini-1.5-pro_lv": "",
+                    "_compare_aws/claude-3.5-sonnet_lv": "",
+                    "_unique_translations_back_lv": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_lt": "",
+                    "_gcp/gemini-1.5-pro_lt": "",
+                    "_compare_azure/gpt-4-vision_lt": "",
+                    "_compare_gcp/gemini-1.5-pro_lt": "",
+                    "_compare_aws/claude-3.5-sonnet_lt": "",
+                    "_unique_translations_back_lt": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_mt": "",
+                    "_gcp/gemini-1.5-pro_mt": "",
+                    "_compare_azure/gpt-4-vision_mt": "",
+                    "_compare_gcp/gemini-1.5-pro_mt": "",
+                    "_compare_aws/claude-3.5-sonnet_mt": "",
+                    "_unique_translations_back_mt": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_nl": "",
+                    "_gcp/gemini-1.5-pro_nl": "",
+                    "_compare_azure/gpt-4-vision_nl": "",
+                    "_compare_gcp/gemini-1.5-pro_nl": "",
+                    "_compare_aws/claude-3.5-sonnet_nl": "",
+                    "_unique_translations_back_nl": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_pl": "",
+                    "_gcp/gemini-1.5-pro_pl": "",
+                    "_compare_azure/gpt-4-vision_pl": "",
+                    "_compare_gcp/gemini-1.5-pro_pl": "",
+                    "_compare_aws/claude-3.5-sonnet_pl": "",
+                    "_unique_translations_back_pl": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_ro": "",
+                    "_gcp/gemini-1.5-pro_ro": "",
+                    "_compare_azure/gpt-4-vision_ro": "",
+                    "_compare_gcp/gemini-1.5-pro_ro": "",
+                    "_compare_aws/claude-3.5-sonnet_ro": "",
+                    "_unique_translations_back_ro": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_sk": "",
+                    "_gcp/gemini-1.5-pro_sk": "",
+                    "_compare_azure/gpt-4-vision_sk": "",
+                    "_compare_gcp/gemini-1.5-pro_sk": "",
+                    "_compare_aws/claude-3.5-sonnet_sk": "",
+                    "_unique_translations_back_sk": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_sl": "",
+                    "_gcp/gemini-1.5-pro_sl": "",
+                    "_compare_azure/gpt-4-vision_sl": "",
+                    "_compare_gcp/gemini-1.5-pro_sl": "",
+                    "_compare_aws/claude-3.5-sonnet_sl": "",
+                    "_unique_translations_back_sl": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_sv": "",
+                    "_gcp/gemini-1.5-pro_sv": "",
+                    "_compare_azure/gpt-4-vision_sv": "",
+                    "_compare_gcp/gemini-1.5-pro_sv": "",
+                    "_compare_aws/claude-3.5-sonnet_sv": "",
+                    "_unique_translations_back_sv": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_zh": "",
+                    "_gcp/gemini-1.5-pro_zh": "",
+                    "_compare_azure/gpt-4-vision_zh": "",
+                    "_compare_gcp/gemini-1.5-pro_zh": "",
+                    "_compare_aws/claude-3.5-sonnet_zh": "",
+                    "_unique_translations_back_zh": [
+                        ""
+                    ]
+                }
+            }
         }
-      }
     ]
-  }
+}

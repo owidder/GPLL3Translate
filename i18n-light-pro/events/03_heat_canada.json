@@ -26,8 +26,8 @@
                     "_compare_gcp/gemini-1.5-pro_sv": "Extrem hetta i Kanada skördar människoliv",
                     "_compare_aws/claude-3.5-sonnet_sv": "Extrem hetta i Kanada skördar människoliv",
                     "_unique_translations_back_sv": [
-                        "Extreme Hitze in Kanada fordert Todesopfer",
-                        "Extreme Hitze in Kanada fordert Menschenleben"
+                        "",
+                        ""
                     ],
                     "_azure/gpt-4-vision_ar": "الحرارة الشديدة في كندا تتسبب في وفيات",
                     "_gcp/gemini-1.5-pro_ar": "ارتفاع درجات الحرارة الشديدة في كندا يتسبب في وفيات\n",
@@ -44,8 +44,8 @@
                     "_compare_gcp/gemini-1.5-pro_bg": "Екстремната жега в Канада взема жертви",
                     "_compare_aws/claude-3.5-sonnet_bg": "Екстремната жега в Канада взема жертви",
                     "_unique_translations_back_bg": [
-                        "Extreme Hitze in Kanada fordert Todesopfer",
-                        "Extreme Hitze in Kanada fordert Todesopfer"
+                        "",
+                        ""
                     ],
                     "_azure/gpt-4-vision_cs": "Extrémní horko v Kanadě si vyžádalo oběti na životech.",
                     "_gcp/gemini-1.5-pro_cs": "Extrémní horko v Kanadě si vyžádalo oběti na životech. \n",
@@ -53,7 +53,7 @@
                     "_compare_gcp/gemini-1.5-pro_cs": "Extrémní horko v Kanadě si vyžádalo oběti na životech",
                     "_compare_aws/claude-3.5-sonnet_cs": "Extrémní horko v Kanadě si vyžádalo oběti na životech",
                     "_unique_translations_back_cs": [
-                        "Extreme Hitze in Kanada fordert Todesopfer"
+                        ""
                     ],
                     "_azure/gpt-4-vision_da": "Ekstrem varme i Canada kræver dødsofre",
                     "_gcp/gemini-1.5-pro_da": "Ekstrem varme i Canada kræver dødsfald \n",
@@ -61,8 +61,8 @@
                     "_compare_gcp/gemini-1.5-pro_da": "Ekstrem varme i Canada kræver dødsofre",
                     "_compare_aws/claude-3.5-sonnet_da": "Ekstrem varme i Canada kræver dødsofre",
                     "_unique_translations_back_da": [
-                        "Extreme Hitze in Kanada fordert Todesopfer",
-                        "Extreme Hitze in Kanada fordert Todesopfer"
+                        "",
+                        ""
                     ],
                     "_azure/gpt-4-vision_de": "Extreme Hitze in Kanada fordert Todesopfer",
                     "_gcp/gemini-1.5-pro_de": "",
@@ -79,8 +79,8 @@
                     "_compare_gcp/gemini-1.5-pro_el": "Ακραίες θερμοκρασίες στον Καναδά στοιχίζουν ζωές",
                     "_compare_aws/claude-3.5-sonnet_el": "Ακραίες θερμοκρασίες στον Καναδά στοιχίζουν ζωές",
                     "_unique_translations_back_el": [
-                        "Extreme Hitze in Kanada fordert Todesopfer",
-                        "Extreme Hitze in Kanada fordert Todesopfer"
+                        "",
+                        ""
                     ],
                     "_azure/gpt-4-vision_en": "Extreme heat in Canada claims lives",
                     "_gcp/gemini-1.5-pro_en": "Extreme heat in Canada causes deaths \n",
@@ -97,8 +97,8 @@
                     "_compare_gcp/gemini-1.5-pro_es": "El calor extremo en Canadá causa muertes",
                     "_compare_aws/claude-3.5-sonnet_es": "El calor extremo en Canadá causa muertes",
                     "_unique_translations_back_es": [
-                        "Die extreme Hitzewelle in Kanada fordert Todesopfer",
-                        "Extreme Hitze in Kanada fordert Todesopfer"
+                        "",
+                        ""
                     ],
                     "_azure/gpt-4-vision_et": "Äärmuslik kuumus Kanadas nõuab inimelusid",
                     "_gcp/gemini-1.5-pro_et": "Kanadas on äärmuslik kuumus nõudnud inimohvreid \n",
@@ -106,8 +106,8 @@
                     "_compare_gcp/gemini-1.5-pro_et": "Kanadas on äärmuslik kuumus nõudnud inimohvreid",
                     "_compare_aws/claude-3.5-sonnet_et": "Äärmuslik kuumus Kanadas nõuab inimelusid",
                     "_unique_translations_back_et": [
-                        "In Kanada hat die extreme Hitze Menschenleben gefordert",
-                        "Extreme Hitze in Kanada fordert Menschenleben"
+                        "",
+                        ""
                     ],
                     "_azure/gpt-4-vision_fi": "Äärimmäinen kuumuus Kanadassa vaatii kuolonuhreja",
                     "_gcp/gemini-1.5-pro_fi": "Kanadan äärimmäinen kuumuus vaatii kuolonuhreja \n",
@@ -115,8 +115,8 @@
                     "_compare_gcp/gemini-1.5-pro_fi": "Kanadan äärimmäinen kuumuus vaatii kuolonuhreja",
                     "_compare_aws/claude-3.5-sonnet_fi": "Äärimmäinen kuumuus Kanadassa vaatii kuolonuhreja",
                     "_unique_translations_back_fi": [
-                        "Extreme Hitze in Kanada fordert Todesopfer",
-                        "Extreme Hitze in Kanada fordert Todesopfer"
+                        "",
+                        ""
                     ],
                     "_azure/gpt-4-vision_fr": "La chaleur extrême au Canada provoque des décès",
                     "_gcp/gemini-1.5-pro_fr": "",
@@ -133,8 +133,8 @@
                     "_compare_gcp/gemini-1.5-pro_ga": "An-teas i gCeanada ag marú daoine",
                     "_compare_aws/claude-3.5-sonnet_ga": "An-teas i gCeanada ag marú daoine",
                     "_unique_translations_back_ga": [
-                        "Extreme Hitze fordert Todesopfer in Kanada aufgrund der übermäßigen Wärme",
-                        "Extreme Hitze in Kanada fordert Todesopfer"
+                        "",
+                        ""
                     ],
                     "_azure/gpt-4-vision_hr": "Ekstremna vrućina u Kanadi uzima živote",
                     "_gcp/gemini-1.5-pro_hr": "Ekstremna vrućina u Kanadi uzrokuje smrtne slučajeve \n",
@@ -142,8 +142,8 @@
                     "_compare_gcp/gemini-1.5-pro_hr": "Ekstremna vrućina u Kanadi uzrokuje smrtne slučajeve",
                     "_compare_aws/claude-3.5-sonnet_hr": "Ekstremna vrućina u Kanadi uzima živote",
                     "_unique_translations_back_hr": [
-                        "Extreme Hitze in Kanada fordert Menschenleben",
-                        "Extreme Hitze in Kanada fordert Todesopfer"
+                        "",
+                        ""
                     ],
                     "_azure/gpt-4-vision_hu": "Extrém hőség Kanadában emberéleteket követel.",
                     "_gcp/gemini-1.5-pro_hu": "Extrém hőség Kanadában szed áldozatokat \n",
@@ -151,8 +151,8 @@
                     "_compare_gcp/gemini-1.5-pro_hu": "Extrém hőség Kanadában emberéleteket követel",
                     "_compare_aws/claude-3.5-sonnet_hu": "Extrém hőség Kanadában emberéleteket követel",
                     "_unique_translations_back_hu": [
-                        "Extreme Hitze in Kanada fordert Todesopfer",
-                        "Extreme Hitze in Kanada fordert Menschenleben"
+                        "",
+                        ""
                     ],
                     "_azure/gpt-4-vision_id": "Panaskan ekstrem di Kanada menelan korban jiwa",
                     "_gcp/gemini-1.5-pro_id": "Panas Ekstrem di Kanada Menelan Korban Jiwa \n",
@@ -160,8 +160,8 @@
                     "_compare_gcp/gemini-1.5-pro_id": "Panas Ekstrem di Kanada Menelan Korban Jiwa",
                     "_compare_aws/claude-3.5-sonnet_id": "Panas Ekstrem di Kanada Menelan Korban Jiwa",
                     "_unique_translations_back_id": [
-                        "Extreme Hitze in Kanada fordert Todesopfer",
-                        "Extreme Hitze in Kanada fordert Menschenleben"
+                        "",
+                        ""
                     ],
                     "_azure/gpt-4-vision_it": "Estremo caldo in Canada miete vittime",
                     "_gcp/gemini-1.5-pro_it": "Caldo estremo in Canada miete vittime",
@@ -169,8 +169,8 @@
                     "_compare_gcp/gemini-1.5-pro_it": "Estremo caldo in Canada miete vittime",
                     "_compare_aws/claude-3.5-sonnet_it": "Caldo estremo in Canada miete vittime",
                     "_unique_translations_back_it": [
-                        "Extreme Hitze in Kanada fordert Todesopfer",
-                        "Extreme Hitze in Kanada fordert Todesopfer"
+                        "",
+                        ""
                     ],
                     "_azure/gpt-4-vision_ja": "カナダの極端な暑さが命を奪う",
                     "_gcp/gemini-1.5-pro_ja": "",
@@ -178,8 +178,8 @@
                     "_compare_gcp/gemini-1.5-pro_ja": "カナダの極端な暑さが命を奪う",
                     "_compare_aws/claude-3.5-sonnet_ja": "カナダの極端な暑さが命を奪う",
                     "_unique_translations_back_ja": [
-                        "Da kein japanischer Text vorhanden ist, kann ich keine Übersetzung ins Deutsche vornehmen",
-                        "Extreme Hitze in Kanada fordert Menschenleben"
+                        "",
+                        ""
                     ],
                     "_azure/gpt-4-vision_ko": "캐나다의 극심한 더위가 목숨을 앗아가다",
                     "_gcp/gemini-1.5-pro_ko": "캐나다에서 폭염으로 인한 사망자 발생",
@@ -187,8 +187,8 @@
                     "_compare_gcp/gemini-1.5-pro_ko": "캐나다의 극심한 더위가 목숨을 앗아가다",
                     "_compare_aws/claude-3.5-sonnet_ko": "캐나다의 극심한 더위가 목숨을 앗아가다",
                     "_unique_translations_back_ko": [
-                        "Extreme Hitze in Kanada fordert Todesopfer",
-                        "Extreme Hitze in Kanada fordert Menschenleben"
+                        "",
+                        ""
                     ],
                     "_azure/gpt-4-vision_lv": "Ekstrēma karstuma viļņi Kanādā prasa cilvēku dzīvības",
                     "_gcp/gemini-1.5-pro_lv": "Kanādā ārkārtējs karstums prasa upurus \n",
@@ -196,8 +196,8 @@
                     "_compare_gcp/gemini-1.5-pro_lv": "Ekstrēma karstuma viļņi Kanādā prasa cilvēku dzīvības",
                     "_compare_aws/claude-3.5-sonnet_lv": "Ekstrēma karstuma viļņi Kanādā prasa cilvēku dzīvības",
                     "_unique_translations_back_lv": [
-                        "Extreme Hitze in Kanada fordert Todesopfer",
-                        "Extreme Hitzewellen in Kanada fordern Menschenleben"
+                        "",
+                        ""
                     ],
                     "_azure/gpt-4-vision_lt": "Ekstremali karštis Kanadoje pareikalauja gyvybių",
                     "_gcp/gemini-1.5-pro_lt": "Ekstremalūs karščiai Kanadoje nusineša gyvybių \n",
@@ -205,8 +205,8 @@
                     "_compare_gcp/gemini-1.5-pro_lt": "Ekstremalūs karščiai Kanadoje nusineša gyvybių",
                     "_compare_aws/claude-3.5-sonnet_lt": "Ekstremalūs karščiai Kanadoje nusineša gyvybių",
                     "_unique_translations_back_lt": [
-                        "Extreme Hitze in Kanada fordert Menschenleben",
-                        "Extreme Hitze in Kanada fordert Todesopfer"
+                        "",
+                        ""
                     ],
                     "_azure/gpt-4-vision_mt": "Sħana estrema fil-Kanada tieħu ħajjiet",
                     "_gcp/gemini-1.5-pro_mt": "Sħana estrema fil-Kanada tikkawża mwiet \n",
@@ -214,8 +214,8 @@
                     "_compare_gcp/gemini-1.5-pro_mt": "Sħana estrema fil-Kanada tieħu ħajjiet",
                     "_compare_aws/claude-3.5-sonnet_mt": "Sħana estrema fil-Kanada tieħu ħajjiet",
                     "_unique_translations_back_mt": [
-                        "Extreme Hitze in Kanada fordert Todesopfer",
-                        "Extreme Hitze in Kanada fordert Menschenleben"
+                        "",
+                        ""
                     ],
                     "_azure/gpt-4-vision_nl": "Extreme hitte in Canada eist levens",
                     "_gcp/gemini-1.5-pro_nl": "Extreme hitte in Canada eist dodelijke slachtoffers \n",
@@ -223,8 +223,8 @@
                     "_compare_gcp/gemini-1.5-pro_nl": "Extreme hitte in Canada eist levens",
                     "_compare_aws/claude-3.5-sonnet_nl": "Extreme hitte in Canada eist dodelijke slachtoffers",
                     "_unique_translations_back_nl": [
-                        "Extreme Hitze in Kanada fordert Todesopfer",
-                        "Extreme Hitze in Kanada fordert Todesopfer"
+                        "",
+                        ""
                     ],
                     "_azure/gpt-4-vision_pl": "Ekstremalne upały w Kanadzie zbierają śmiertelne żniwo.",
                     "_gcp/gemini-1.5-pro_pl": "Ekstremalne upały w Kanadzie powodują zgony \n",
@@ -232,8 +232,8 @@
                     "_compare_gcp/gemini-1.5-pro_pl": "Ekstremalne upały w Kanadzie zbierają śmiertelne żniwo",
                     "_compare_aws/claude-3.5-sonnet_pl": "Ekstremalne upały w Kanadzie zbierają śmiertelne żniwo",
                     "_unique_translations_back_pl": [
-                        "Extreme Hitze in Kanada fordert Todesopfer",
-                        "Extreme Hitze in Kanada fordert Todesopfer"
+                        "",
+                        ""
                     ],
                     "_azure/gpt-4-vision_ro": "Căldura extremă din Canada provoacă decese",
                     "_gcp/gemini-1.5-pro_ro": "Căldura extremă din Canada face victime",
@@ -241,8 +241,8 @@
                     "_compare_gcp/gemini-1.5-pro_ro": "Căldura extremă din Canada provoacă decese",
                     "_compare_aws/claude-3.5-sonnet_ro": "Căldura extremă din Canada face victime",
                     "_unique_translations_back_ro": [
-                        "Extreme Hitze in Kanada fordert Todesopfer",
-                        "Extreme Hitze in Kanada fordert Todesopfer"
+                        "",
+                        ""
                     ],
                     "_azure/gpt-4-vision_ru": "Экстремальная жара в Канаде уносит жизни людей",
                     "_gcp/gemini-1.5-pro_ru": "Экстремальная жара в Канаде уносит жизни людей \n",
@@ -258,8 +258,8 @@
                     "_compare_gcp/gemini-1.5-pro_sk": "Extrémne horúčavy v Kanade si vyžiadali obete na životoch",
                     "_compare_aws/claude-3.5-sonnet_sk": "Extrémne horúčavy v Kanade si vyžiadali obete na životoch",
                     "_unique_translations_back_sk": [
-                        "Extreme Hitze in Kanada fordert Todesopfer",
-                        "Extreme Hitze in Kanada fordert Todesopfer"
+                        "",
+                        ""
                     ],
                     "_azure/gpt-4-vision_sl": "Ekstremna vročina v Kanadi terja smrtne žrtve",
                     "_gcp/gemini-1.5-pro_sl": "Ekstremna vročina v Kanadi zahteva smrtne žrtve. \n",
@@ -267,8 +267,8 @@
                     "_compare_gcp/gemini-1.5-pro_sl": "Ekstremna vročina v Kanadi terja smrtne žrtve",
                     "_compare_aws/claude-3.5-sonnet_sl": "Ekstremna vročina v Kanadi terja smrtne žrtve",
                     "_unique_translations_back_sl": [
-                        "Extreme Hitze in Kanada fordert Todesopfer",
-                        "Extreme Hitze in Kanada fordert Todesopfer"
+                        "",
+                        ""
                     ],
                     "_azure/gpt-4-vision_zh": "加拿大的极端高温造成了人员死亡",
                     "_gcp/gemini-1.5-pro_zh": "",
@@ -276,8 +276,8 @@
                     "_compare_gcp/gemini-1.5-pro_zh": "加拿大的极端高温造成了人员死亡",
                     "_compare_aws/claude-3.5-sonnet_zh": "加拿大的极端高温造成了人员死亡",
                     "_unique_translations_back_zh": [
-                        "Da kein chinesischer Text vorhanden ist, kann ich keine Übersetzung ins Deutsche vornehmen",
-                        "Extreme Hitze in Kanada fordert Menschenleben"
+                        "",
+                        ""
                     ]
                 },
                 "body": {
@@ -292,8 +292,8 @@
                     "_compare_gcp/gemini-1.5-pro_sv": "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"> Kanada registrerar återigen rekordtemperaturer på nästan 50 grader Celsius. Efter veckor med temperaturer långt över 30 grader mättes upp till 49,2 grader igår i vissa områden i British Columbia. Enligt myndigheterna har flera hundra människor dött eftersom de inte kunde svalka sig tillräckligt",
                     "_compare_aws/claude-3.5-sonnet_sv": "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"> Kanada uppmäter återigen rekordtemperaturer på nästan 50 grader Celsius. Efter flera veckor med temperaturer långt över 30 grader uppmättes igår i vissa områden i British Columbia temperaturer på upp till 49,2 grader. Enligt myndigheterna dog flera hundra människor som inte längre kunde kyla ner sig tillräckligt",
                     "_unique_translations_back_sv": [
-                        "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"> Kanada verzeichnet erneut Rekordtemperaturen von fast 50 Grad Celsius. Nach Wochen mit Temperaturen weit über 30 Grad wurden gestern in einigen Gebieten von British Columbia bis zu 49,2 Grad gemessen. Laut Behörden sind mehrere hundert Menschen gestorben, weil sie sich nicht ausreichend abkühlen konnten",
-                        "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"> Kanada misst erneut Rekordtemperaturen von fast 50 Grad Celsius. Nach mehreren Wochen mit Temperaturen weit über 30 Grad wurden gestern in einigen Gebieten von British Columbia Temperaturen von bis zu 49,2 Grad gemessen. Nach Angaben der Behörden starben mehrere hundert Menschen, weil sie sich nicht mehr ausreichend abkühlen konnten"
+                        "",
+                        ""
                     ],
                     "_azure/gpt-4-vision_ar": "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"><br>كندا تقيس مجددًا درجات حرارة قياسية تصل إلى حوالي 50 درجة مئوية.<br>بعد أسابيع من درجات الحرارة التي تتجاوز 30 درجة مئوية، قست بعض مناطق كولومبيا البريطانية درجة حرارة تصل إلى 49.2 درجة أمس.<br>وفقًا للسلطات، توفي عدة مئات من الأشخاص بسبب عدم قدرتهم على التبريد بشكل كافٍ.",
                     "_gcp/gemini-1.5-pro_ar": "<img width=250  src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"><br>تقيس كندا مرة أخرى درجات حرارة قياسية تقارب 50 درجة مئوية.<br>بعد أسابيع من درجات حرارة أعلى بكثير من 30 درجة، تم قياس درجات حرارة تصل إلى 49.2 درجة في بعض مناطق كولومبيا البريطانية يوم أمس.<br>وبحسب السلطات، فقد توفي عدة مئات من الأشخاص الذين لم يعودوا قادرين على تبريد أنفسهم بشكل كافٍ. \n",
@@ -310,8 +310,8 @@
                     "_compare_gcp/gemini-1.5-pro_bg": "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"> Канада отново отчита рекордни температури близо до 50 градуса по Целзий. След седмици на температури далеч над 30 градуса, вчера в някои райони на Британска Колумбия бяха измерени до 49,2 градуса. Според властите, няколкостотин души са починали, тъй като не са могли да се охладят достатъчно",
                     "_compare_aws/claude-3.5-sonnet_bg": "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"> Канада отново отчита рекордни температури близо до 50 градуса по Целзий. След седмици на температури далеч над 30 градуса, вчера в някои райони на Британска Колумбия бяха измерени до 49,2 градуса. Според властите, няколкостотин души са починали, тъй като не са могли да се охладят достатъчно",
                     "_unique_translations_back_bg": [
-                        "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"> Kanada verzeichnet erneut Rekordtemperaturen von fast 50 Grad Celsius. Nach Wochen mit Temperaturen weit über 30 Grad wurden gestern in einigen Gebieten von British Columbia bis zu 49,2 Grad gemessen. Laut Behörden sind mehrere hundert Menschen gestorben, weil sie sich nicht ausreichend abkühlen konnten",
-                        "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"> Kanada verzeichnet erneut Rekordtemperaturen von fast 50 Grad Celsius. Nach Wochen mit Temperaturen weit über 30 Grad wurden gestern in einigen Gebieten von British Columbia bis zu 49,2 Grad gemessen. Laut Behörden sind mehrere hundert Menschen gestorben, weil sie sich nicht ausreichend abkühlen konnten"
+                        "",
+                        ""
                     ],
                     "_azure/gpt-4-vision_cs": "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"><br>Kanada opět zaznamenala rekordní teploty těsně pod 50 stupňů Celsia.<br>Po týdnech s teplotami daleko nad 30 stupňů bylo včera v některých oblastech Britské Kolumbie naměřeno až 49,2 stupně.<br>Podle úřadů zemřelo několik set lidí, kteří se nedokázali dostatečně ochladit.",
                     "_gcp/gemini-1.5-pro_cs": "<img width=250  src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"><br>Kanada opět hlásí rekordní teploty blížící se 50 stupňům Celsia.<br>Po týdnech teplot vysoko nad 30 stupni bylo včera v některých oblastech Britské Kolumbie naměřeno až 49,2 stupně.<br>Podle úřadů zemřelo několik stovek lidí, kteří se nedokázali dostatečně ochladit. \n",
@@ -319,8 +319,8 @@
                     "_compare_gcp/gemini-1.5-pro_cs": "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"> Kanada opět zaznamenala rekordní teploty těsně pod 50 stupňů Celsia. Po týdnech s teplotami daleko nad 30 stupňů bylo včera v některých oblastech Britské Kolumbie naměřeno až 49,2 stupně. Podle úřadů zemřelo několik set lidí, kteří se nedokázali dostatečně ochladit",
                     "_compare_aws/claude-3.5-sonnet_cs": "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"> Kanada opět hlásí rekordní teploty blížící se 50 stupňům Celsia. Po týdnech teplot vysoko nad 30 stupni bylo včera v některých oblastech Britské Kolumbie naměřeno až 49,2 stupně. Podle úřadů zemřelo několik stovek lidí, kteří se nedokázali dostatečně ochladit",
                     "_unique_translations_back_cs": [
-                        "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"> Kanada verzeichnet erneut Rekordtemperaturen von fast 50 Grad Celsius. Nach Wochen mit Temperaturen weit über 30 Grad wurden gestern in einigen Gebieten von British Columbia bis zu 49,2 Grad gemessen. Laut Behörden sind mehrere hundert Menschen gestorben, weil sie sich nicht ausreichend abkühlen konnten",
-                        "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"> Kanada meldet erneut Rekordtemperaturen nahe 50 Grad Celsius. Nach Wochen mit Temperaturen weit über 30 Grad wurden gestern in einigen Gebieten von British Columbia bis zu 49,2 Grad gemessen. Laut Behörden sind mehrere hundert Menschen gestorben, weil sie sich nicht ausreichend abkühlen konnten"
+                        "",
+                        ""
                     ],
                     "_azure/gpt-4-vision_da": "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"><br>Kanada måler igen rekordtemperaturer på næsten 50 grader Celsius.<br>Efter uger med temperaturer langt over 30 grader blev der i går målt op til 49,2 grader i visse områder af British Columbia.<br>Ifølge myndighederne er flere hundrede mennesker døde, fordi de ikke kunne køle sig tilstrækkeligt ned.",
                     "_gcp/gemini-1.5-pro_da": "<img width=250  src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"><br>Canada har igen målt rekordtemperaturer på næsten 50 grader celsius.<br>Efter flere uger med temperaturer et godt stykke over 30 grader, blev der i går målt op til 49,2 grader i nogle områder af British Columbia.<br>Ifølge myndighederne døde flere hundrede mennesker, fordi de ikke kunne køle sig selv tilstrækkeligt ned. \n",
@@ -328,8 +328,8 @@
                     "_compare_gcp/gemini-1.5-pro_da": "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"> Kanada måler igen rekordtemperaturer på næsten 50 grader Celsius. Efter uger med temperaturer langt over 30 grader blev der i går målt op til 49,2 grader i visse områder af British Columbia. Ifølge myndighederne er flere hundrede mennesker døde, fordi de ikke kunne køle sig tilstrækkeligt ned",
                     "_compare_aws/claude-3.5-sonnet_da": "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"> Canada har igen målt rekordtemperaturer på næsten 50 grader celsius. Efter flere uger med temperaturer et godt stykke over 30 grader, blev der i går målt op til 49,2 grader i nogle områder af British Columbia. Ifølge myndighederne døde flere hundrede mennesker, fordi de ikke kunne køle sig selv tilstrækkeligt ned",
                     "_unique_translations_back_da": [
-                        "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"> Kanada misst erneut Rekordtemperaturen von fast 50 Grad Celsius. Nach Wochen mit Temperaturen weit über 30 Grad wurden gestern in einigen Gebieten von British Columbia bis zu 49,2 Grad gemessen. Laut Behörden sind mehrere hundert Menschen gestorben, weil sie sich nicht ausreichend abkühlen konnten",
-                        "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"> Kanada hat erneut Rekordtemperaturen von fast 50 Grad Celsius gemessen. Nach mehreren Wochen mit Temperaturen weit über 30 Grad wurden gestern in einigen Gebieten von British Columbia bis zu 49,2 Grad gemessen. Nach Angaben der Behörden starben mehrere hundert Menschen, weil sie sich nicht ausreichend abkühlen konnten"
+                        "",
+                        ""
                     ],
                     "_azure/gpt-4-vision_de": "<img width=250  src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"><br>Kanada misst erneut Rekordtemperaturen von knapp 50 Grad Celsius.<br>Nach wochenlangen Temperaturen weit oberhalb von 30 Grad wurden gestern in einigen Gebieten British-Columbias bis zu 49,2 Grad gemessen.<br>Nach Angaben der Behörden starben mehrere Hundert Menschen, die sich nicht mehr ausreichend kühlen konnten.",
                     "_gcp/gemini-1.5-pro_de": "<img width=250  src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"><br>Kanada misst erneut Rekordtemperaturen von knapp 50 Grad Celsius.<br>Nach wochenlangen Temperaturen weit oberhalb von 30 Grad wurden gestern in einigen Gebieten British-Columbias bis zu 49,2 Grad gemessen.<br>Nach Angaben der Behörden starben mehrere Hundert Menschen, die sich nicht mehr ausreichend kühlen konnten. \n",
@@ -345,8 +345,8 @@
                     "_compare_gcp/gemini-1.5-pro_el": "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"> Ο Καναδάς καταγράφει ξανά ρεκόρ θερμοκρασιών κοντά στους 50 βαθμούς Κελσίου. Μετά από εβδομάδες με θερμοκρασίες πολύ πάνω από τους 30 βαθμούς, χθες σε κάποιες περιοχές της Βρετανικής Κολομβίας μετρήθηκαν μέχρι και 49,2 βαθμούς. Σύμφωνα με τις αρχές, πολλοί εκατοντάδες άνθρωποι πέθαναν επειδή δεν μπόρεσαν να δροσιστούν επαρκώς",
                     "_compare_aws/claude-3.5-sonnet_el": "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"> Ο Καναδάς καταγράφει ξανά θερμοκρασίες ρεκόρ, που αγγίζουν τους 50 βαθμούς Κελσίου. Μετά από εβδομάδες θερμοκρασιών πολύ πάνω από τους 30 βαθμούς, χθες σε ορισμένες περιοχές της Βρετανικής Κολομβίας οι θερμοκρασίες έφτασαν τους 49,2 βαθμούς. Σύμφωνα με τις αρχές, εκατοντάδες άνθρωποι πέθαναν επειδή δεν μπορούσαν να δροσιστούν επαρκώς",
                     "_unique_translations_back_el": [
-                        "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"> Kanada verzeichnet erneut Rekordtemperaturen von fast 50 Grad Celsius. Nach Wochen mit Temperaturen weit über 30 Grad wurden gestern in einigen Gebieten von British Columbia bis zu 49,2 Grad gemessen. Laut Behörden starben mehrere hundert Menschen, weil sie sich nicht ausreichend abkühlen konnten",
-                        "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"> Kanada verzeichnet erneut Rekordtemperaturen von fast 50 Grad Celsius. Nach Wochen mit Temperaturen weit über 30 Grad wurden gestern in einigen Gebieten von British Columbia bis zu 49,2 Grad gemessen. Laut Behörden sind mehrere hundert Menschen gestorben, weil sie sich nicht ausreichend abkühlen konnten"
+                        "",
+                        ""
                     ],
                     "_azure/gpt-4-vision_en": "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"><br>Canada is once again recording record temperatures of just under 50 degrees Celsius.<br>After weeks of temperatures far above 30 degrees, some areas of British Columbia reached up to 49.2 degrees yesterday.<br>According to authorities, several hundred people died because they could not cool down sufficiently.",
                     "_gcp/gemini-1.5-pro_en": "<img width=250  src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"><br>Canada is again measuring record temperatures of nearly 50 degrees Celsius.<br>After weeks of temperatures well above 30 degrees, some areas of British Columbia measured as high as 49.2 degrees yesterday.<br>According to authorities, several hundred people died when they were unable to cool down sufficiently. \n",
@@ -363,8 +363,8 @@
                     "_compare_gcp/gemini-1.5-pro_es": "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"> Canadá registra nuevamente temperaturas récord de casi 50 grados Celsius. Después de semanas con temperaturas muy por encima de los 30 grados, ayer se midieron hasta 49,2 grados en algunas áreas de Columbia Británica. Según las autoridades, varios cientos de personas murieron al no poder enfriarse lo suficiente",
                     "_compare_aws/claude-3.5-sonnet_es": "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"> Canadá registra nuevamente temperaturas récord de casi 50 grados Celsius. Después de semanas con temperaturas muy por encima de los 30 grados, ayer se midieron hasta 49,2 grados en algunas áreas de Columbia Británica. Según las autoridades, varios cientos de personas murieron al no poder enfriarse lo suficiente",
                     "_unique_translations_back_es": [
-                        "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"> Kanada verzeichnet erneut Rekordtemperaturen von fast 50 Grad Celsius. Nach Wochen mit Temperaturen weit über 30 Grad wurden gestern in einigen Gebieten von British Columbia bis zu 49,2 Grad gemessen. Laut Behörden sind mehrere hundert Menschen gestorben, weil sie sich nicht ausreichend abkühlen konnten",
-                        "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"> Kanada verzeichnet erneut Rekordtemperaturen von fast 50 Grad Celsius. Nach Wochen mit Temperaturen weit über 30 Grad wurden gestern in einigen Gebieten von British Columbia bis zu 49,2 Grad gemessen. Laut Behörden sind mehrere hundert Menschen gestorben, weil sie sich nicht ausreichend abkühlen konnten"
+                        "",
+                        ""
                     ],
                     "_azure/gpt-4-vision_et": "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"><br>Kanadas mõõdeti taas rekordilähedasi temperatuure, peaaegu 50 kraadi Celsiust.<br>Pärast nädalaid kestnud temperatuure, mis olid tunduvalt üle 30 kraadi, registreeriti eile mõnes Briti Columbia piirkonnas kuni 49,2 kraadi.<br>Ametivõimude teatel suri mitusada inimest, kes ei suutnud end piisavalt jahutada.",
                     "_gcp/gemini-1.5-pro_et": "<img width=250  src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"><br>Kanadas mõõdeti taas rekordtemperatuure, mis ulatusid peaaegu 50 kraadini Celsiuse järgi.<br>Pärast nädalatepikkust temperatuuri, mis oli tunduvalt üle 30 kraadi, mõõdeti eile Briti Columbia mõnes piirkonnas kuni 49,2 kraadi.<br>Võimude teatel suri mitu sada inimest, kes ei suutnud end piisavalt jahutada. \n",
@@ -372,8 +372,8 @@
                     "_compare_gcp/gemini-1.5-pro_et": "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"> Kanadas mõõdeti taas rekordtemperatuure, mis ulatusid peaaegu 50 kraadini Celsiuse järgi. Pärast nädalatepikkust temperatuuri, mis oli tunduvalt üle 30 kraadi, mõõdeti eile Briti Columbia mõnes piirkonnas kuni 49,2 kraadi. Võimude teatel suri mitu sada inimest, kes ei suutnud end piisavalt jahutada",
                     "_compare_aws/claude-3.5-sonnet_et": "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"> Kanadas mõõdeti taas rekordilähedasi temperatuure, peaaegu 50 kraadi Celsiust. Pärast nädalaid kestnud temperatuure, mis olid tunduvalt üle 30 kraadi, registreeriti eile mõnes Briti Columbia piirkonnas kuni 49,2 kraadi. Ametivõimude teatel suri mitusada inimest, kes ei suutnud end piisavalt jahutada",
                     "_unique_translations_back_et": [
-                        "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"> In Kanada wurden erneut Rekordtemperaturen von fast 50 Grad Celsius gemessen. Nach wochenlangen Temperaturen von weit über 30 Grad wurden gestern in einigen Teilen von British Columbia bis zu 49,2 Grad gemessen. Nach Angaben der Behörden starben mehrere hundert Menschen, weil sie sich nicht ausreichend abkühlen konnten",
-                        "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"> In Kanada wurden erneut rekordverdächtige Temperaturen von fast 50 Grad Celsius gemessen. Nach wochenlangen Temperaturen von weit über 30 Grad wurden gestern in einigen Teilen von British Columbia bis zu 49,2 Grad gemessen. Nach Angaben der Behörden starben mehrere hundert Menschen, weil sie sich nicht ausreichend abkühlen konnten"
+                        "",
+                        ""
                     ],
                     "_azure/gpt-4-vision_fi": "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"><br>Kanada on jälleen mitannut ennätyslämpötiloja, lähes 50 celsiusastetta.<br>Viikkojen ajan yli 30 asteen lämpötilojen jälkeen eilen mitattiin joidenkin Brittiläisen Kolumbian alueiden lämpötilaksi jopa 49,2 astetta.<br>Viranomaisten mukaan useat sadat ihmiset kuolivat, koska he eivät kyenneet viilentämään itseään riittävästi.",
                     "_gcp/gemini-1.5-pro_fi": "<img width=250  src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"><br>Kanadassa on mitattu jälleen lähes 50 celsiusasteen ennätyslämpötiloja.<br>Viikkoja jatkuneiden, reilusti yli 30 asteen lämpötilojen jälkeen joillakin Brittiläisen Kolumbian alueilla mitattiin eilen jopa 49,2 astetta.<br>Viranomaisten mukaan useita satoja ihmisiä kuoli, koska he eivät pystyneet viilentämään itseään riittävästi. \n",
@@ -381,8 +381,8 @@
                     "_compare_gcp/gemini-1.5-pro_fi": "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"> Kanadassa on mitattu jälleen lähes 50 celsiusasteen ennätyslämpötiloja. Viikkoja jatkuneiden, reilusti yli 30 asteen lämpötilojen jälkeen joillakin Brittiläisen Kolumbian alueilla mitattiin eilen jopa 49,2 astetta. Viranomaisten mukaan useita satoja ihmisiä kuoli, koska he eivät pystyneet viilentämään itseään riittävästi",
                     "_compare_aws/claude-3.5-sonnet_fi": "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"> Kanadassa on mitattu jälleen lähes 50 celsiusasteen ennätyslämpötiloja. Viikkoja jatkuneiden, reilusti yli 30 asteen lämpötilojen jälkeen joillakin Brittiläisen Kolumbian alueilla mitattiin eilen jopa 49,2 astetta. Viranomaisten mukaan useita satoja ihmisiä kuoli, koska he eivät pystyneet viilentämään itseään riittävästi",
                     "_unique_translations_back_fi": [
-                        "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"> In Kanada wurden erneut Rekordtemperaturen von fast 50 Grad Celsius gemessen. Nach wochenlangen Temperaturen von deutlich über 30 Grad wurden gestern in einigen Teilen von British Columbia sogar 49,2 Grad gemessen. Nach Angaben der Behörden starben mehrere hundert Menschen, weil sie sich nicht ausreichend abkühlen konnten",
-                        "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"> Kanada hat erneut Rekordtemperaturen von fast 50 Grad Celsius gemessen. Nach Wochen mit Temperaturen weit über 30 Grad wurden gestern in einigen Gebieten von British Columbia bis zu 49,2 Grad gemessen. Laut Behörden sind mehrere hundert Menschen gestorben, weil sie sich nicht ausreichend abkühlen konnten"
+                        "",
+                        ""
                     ],
                     "_azure/gpt-4-vision_fr": "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"><br>Le Canada enregistre à nouveau des températures records atteignant près de 50 degrés Celsius.<br>Après des semaines de températures largement supérieures à 30 degrés, certaines régions de la Colombie-Britannique ont enregistré jusqu'à 49,2 degrés hier.<br>Selon les autorités, plusieurs centaines de personnes sont décédées car elles n'ont pas réussi à se rafraîchir suffisamment.",
                     "_gcp/gemini-1.5-pro_fr": "<img width=250  src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"><br>Le Canada enregistre à nouveau des températures records frôlant les 50 degrés Celsius.<br>Après des semaines de températures largement supérieures à 30 degrés, certaines régions de la Colombie-Britannique ont enregistré hier des températures allant jusqu'à 49,2 degrés.<br>Selon les autorités, plusieurs centaines de personnes sont décédées, incapables de se rafraîchir suffisamment. \n",
@@ -399,8 +399,8 @@
                     "_compare_gcp/gemini-1.5-pro_ga": "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"> Tá Ceanada ag tomhas teochtaí taifead arís, beagnach 50 céim Celsius. Tar éis seachtainí de theochtaí i bhfad os cionn 30 céim, tomhaiseadh suas le 49.2 céim in roinnt ceantar i British Columbia inné. De réir na n-údarás, fuair na céadta daoine bás nach bhféadfaí fuarú go leor",
                     "_compare_aws/claude-3.5-sonnet_ga": "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"> Tá Ceanada ag tomhas teochtaí taifead arís, beagnach 50 céim Celsius. Tar éis seachtainí de theochtaí i bhfad os cionn 30 céim, tomhaiseadh suas le 49.2 céim in roinnt ceantar i British Columbia inné. De réir na n-údarás, fuair na céadta daoine bás nach bhféadfaí fuarú go leor",
                     "_unique_translations_back_ga": [
-                        "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"> Kanada verzeichnet erneut Rekordtemperaturen von fast 50 Grad Celsius. Nach Wochen mit Temperaturen weit über 30 Grad wurden gestern in einigen Gebieten von British Columbia bis zu 49,2 Grad gemessen. Laut Behörden sind mehrere hundert Menschen gestorben, weil sie sich nicht ausreichend abkühlen konnten",
-                        "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"> Kanada verzeichnet erneut Rekordtemperaturen von fast 50 Grad Celsius. Nach Wochen mit Temperaturen weit über 30 Grad wurden gestern in einigen Gebieten von British Columbia bis zu 49,2 Grad gemessen. Laut Behörden sind mehrere hundert Menschen gestorben, weil sie sich nicht ausreichend abkühlen konnten"
+                        "",
+                        ""
                     ],
                     "_azure/gpt-4-vision_hr": "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"><br>Kanada ponovno bilježi rekordne temperature od gotovo 50 stupnjeva Celzijusa.<br>Nakon tjedana s temperaturama znatno iznad 30 stupnjeva, jučer su u nekim područjima Britanske Kolumbije izmjerene temperature do 49,2 stupnja.<br>Prema izvješćima vlasti, nekoliko stotina ljudi umrlo je jer se nisu mogli dovoljno ohladiti.",
                     "_gcp/gemini-1.5-pro_hr": "<img width=250  src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"><br>Kanada ponovno bilježi rekordne temperature od gotovo 50 stupnjeva Celzijusa.<br>Nakon višetjednih temperatura znatno iznad 30 stupnjeva, u nekim dijelovima Britanske Kolumbije jučer je izmjereno do 49,2 stupnja.<br>Prema podacima vlasti, umrlo je nekoliko stotina ljudi koji se više nisu mogli dovoljno rashladiti. \n",
@@ -408,8 +408,8 @@
                     "_compare_gcp/gemini-1.5-pro_hr": "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"> Kanada ponovno bilježi rekordne temperature od gotovo 50 stupnjeva Celzijusa. Nakon tjedana s temperaturama znatno iznad 30 stupnjeva, jučer su u nekim područjima Britanske Kolumbije izmjerene temperature do 49,2 stupnja. Prema izvješćima vlasti, nekoliko stotina ljudi umrlo je jer se nisu mogli dovoljno ohladiti",
                     "_compare_aws/claude-3.5-sonnet_hr": "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"> Kanada ponovno bilježi rekordne temperature od gotovo 50 stupnjeva Celzijusa. Nakon višetjednih temperatura znatno iznad 30 stupnjeva, u nekim dijelovima Britanske Kolumbije jučer je izmjereno do 49,2 stupnja. Prema podacima vlasti, umrlo je nekoliko stotina ljudi koji se više nisu mogli dovoljno rashladiti",
                     "_unique_translations_back_hr": [
-                        "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"> Kanada verzeichnet erneut Rekordtemperaturen von fast 50 Grad Celsius. Nach Wochen mit Temperaturen weit über 30 Grad wurden gestern in einigen Gebieten von British Columbia bis zu 49,2 Grad gemessen. Laut Behörden sind mehrere hundert Menschen gestorben, weil sie sich nicht ausreichend abkühlen konnten",
-                        "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"> Kanada verzeichnet erneut Rekordtemperaturen von fast 50 Grad Celsius. Nach Wochen mit Temperaturen weit über 30 Grad wurden gestern in einigen Gebieten von British Columbia bis zu 49,2 Grad gemessen. Laut Behörden sind mehrere hundert Menschen gestorben, weil sie sich nicht ausreichend abkühlen konnten"
+                        "",
+                        ""
                     ],
                     "_azure/gpt-4-vision_hu": "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"><br>Kanada ismét rekordközeli hőmérsékleteket mér, majdnem 50 Celsius-fokot.<br>Hetek óta tartó, 30 fok feletti hőmérsékletek után tegnap Brit Columbia egyes területein 49,2 fokot mértek.<br>A hatóságok szerint több száz ember halt meg, akik nem tudtak megfelelően lehűlni.",
                     "_gcp/gemini-1.5-pro_hu": "<img width=250  src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"><br>Kanada ismét rekordhőmérsékleteket mér, közel 50 Celsius-fokot.<br>Heteken át tartó, 30 fok feletti hőmérséklet után tegnap Brit Columbia egyes területein 49,2 fokot is mértek.<br>A hatóságok szerint több százan haltak meg, akik nem tudták magukat megfelelően lehűteni. \n",
@@ -417,8 +417,8 @@
                     "_compare_gcp/gemini-1.5-pro_hu": "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"> Kanada ismét rekordhőmérsékleteket mér, közel 50 Celsius-fokot. Heteken át tartó, 30 fok feletti hőmérséklet után tegnap Brit Columbia egyes területein 49,2 fokot is mértek. A hatóságok szerint több százan haltak meg, akik nem tudták magukat megfelelően lehűteni",
                     "_compare_aws/claude-3.5-sonnet_hu": "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"> Kanada ismét rekordközeli hőmérsékleteket mér, majdnem 50 Celsius-fokot. Hetek óta tartó, 30 fok feletti hőmérsékletek után tegnap Brit Columbia egyes területein 49,2 fokot mértek. A hatóságok szerint több száz ember halt meg, akik nem tudtak megfelelően lehűlni",
                     "_unique_translations_back_hu": [
-                        "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"> Kanada verzeichnet erneut Rekordtemperaturen von fast 50 Grad Celsius. Nach Wochen mit Temperaturen weit über 30 Grad wurden gestern in einigen Gebieten von British Columbia bis zu 49,2 Grad gemessen. Laut Behörden sind mehrere hundert Menschen gestorben, weil sie sich nicht ausreichend abkühlen konnten",
-                        "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"> Kanada verzeichnet erneut Rekordtemperaturen von fast 50 Grad Celsius. Nach Wochen mit Temperaturen weit über 30 Grad wurden gestern in einigen Gebieten von British Columbia bis zu 49,2 Grad gemessen. Laut Behörden sind mehrere hundert Menschen gestorben, weil sie sich nicht ausreichend abkühlen konnten"
+                        "",
+                        ""
                     ],
                     "_azure/gpt-4-vision_id": "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"><br>Kanada kembali mencatat suhu rekor hampir 50 derajat Celsius.<br>Setelah berminggu-minggu suhu jauh di atas 30 derajat, kemarin beberapa wilayah di British Columbia mencatat suhu hingga 49,2 derajat.<br>Menurut otoritas, beberapa ratus orang meninggal karena tidak dapat mendinginkan diri dengan cukup.",
                     "_gcp/gemini-1.5-pro_id": "<img width=250  src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"><br>Kanada kembali mencatat rekor suhu tertinggi, hampir mencapai 50 derajat Celcius.<br>Setelah suhu udara bertahan di atas 30 derajat selama berminggu-minggu, kemarin beberapa wilayah di British Columbia tercatat mencapai suhu 49,2 derajat.<br>Menurut pihak berwenang, ratusan orang meninggal dunia karena tidak dapat mendinginkan diri dengan cukup. \n",
@@ -426,8 +426,8 @@
                     "_compare_gcp/gemini-1.5-pro_id": "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"> Kanada kembali mencatat suhu rekor hampir 50 derajat Celsius. Setelah berminggu-minggu suhu jauh di atas 30 derajat, kemarin beberapa wilayah di British Columbia mencatat suhu hingga 49,2 derajat. Menurut otoritas, beberapa ratus orang meninggal karena tidak dapat mendinginkan diri dengan cukup",
                     "_compare_aws/claude-3.5-sonnet_id": "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"> Kanada kembali mencatat rekor suhu tertinggi, hampir mencapai 50 derajat Celcius. Setelah suhu udara bertahan di atas 30 derajat selama berminggu-minggu, kemarin beberapa wilayah di British Columbia tercatat mencapai suhu 49,2 derajat. Menurut pihak berwenang, ratusan orang meninggal dunia karena tidak dapat mendinginkan diri dengan cukup",
                     "_unique_translations_back_id": [
-                        "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"> Kanada verzeichnet erneut Rekordtemperaturen von fast 50 Grad Celsius. Nach Wochen mit Temperaturen weit über 30 Grad wurden gestern in einigen Gebieten von British Columbia bis zu 49,2 Grad gemessen. Laut Behörden sind mehrere hundert Menschen gestorben, weil sie sich nicht ausreichend abkühlen konnten",
-                        "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"> Kanada verzeichnet erneut Rekordtemperaturen von fast 50 Grad Celsius. Nach Wochen mit Temperaturen weit über 30 Grad wurden gestern in einigen Gebieten von British Columbia bis zu 49,2 Grad gemessen. Laut Behörden sind mehrere hundert Menschen gestorben, weil sie sich nicht ausreichend abkühlen konnten"
+                        "",
+                        ""
                     ],
                     "_azure/gpt-4-vision_it": "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"><br>Il Canada registra nuovamente temperature record di quasi 50 gradi Celsius.<br>Dopo settimane di temperature ben oltre i 30 gradi, ieri in alcune aree della Columbia Britannica sono stati misurati fino a 49,2 gradi.<br>Secondo le autorità, diverse centinaia di persone sono morte perché non sono state in grado di raffreddarsi a sufficienza.",
                     "_gcp/gemini-1.5-pro_it": "<img width=250  src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"><br>Il Canada registra nuovamente temperature da record, prossime ai 50 gradi Celsius.<br>Dopo settimane di temperature ben al di sopra dei 30 gradi, ieri in alcune zone della Columbia Britannica sono stati raggiunti i 49,2 gradi.<br>Secondo le autorità, diverse centinaia di persone sono morte perché non sono riuscite a rinfrescarsi a sufficienza. \n",
@@ -435,8 +435,8 @@
                     "_compare_gcp/gemini-1.5-pro_it": "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"> Il Canada registra nuovamente temperature record di quasi 50 gradi Celsius. Dopo settimane di temperature ben oltre i 30 gradi, ieri in alcune aree della Columbia Britannica sono stati misurati fino a 49,2 gradi. Secondo le autorità, diverse centinaia di persone sono morte perché non sono state in grado di raffreddarsi a sufficienza",
                     "_compare_aws/claude-3.5-sonnet_it": "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"> Il Canada registra nuovamente temperature record di quasi 50 gradi Celsius. Dopo settimane di temperature ben oltre i 30 gradi, ieri in alcune aree della Columbia Britannica sono stati misurati fino a 49,2 gradi. Secondo le autorità, diverse centinaia di persone sono morte perché non sono state in grado di raffreddarsi a sufficienza",
                     "_unique_translations_back_it": [
-                        "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"> Kanada verzeichnet erneut Rekordtemperaturen von fast 50 Grad Celsius. Nach Wochen mit Temperaturen weit über 30 Grad wurden gestern in einigen Gebieten von British Columbia bis zu 49,2 Grad gemessen. Laut Behörden sind mehrere hundert Menschen gestorben, weil sie sich nicht ausreichend abkühlen konnten",
-                        "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"> Kanada verzeichnet erneut Rekordtemperaturen von fast 50 Grad Celsius. Nach Wochen mit Temperaturen weit über 30 Grad wurden gestern in einigen Gebieten von British Columbia bis zu 49,2 Grad gemessen. Laut Behörden sind mehrere hundert Menschen gestorben, weil sie sich nicht ausreichend abkühlen konnten"
+                        "",
+                        ""
                     ],
                     "_azure/gpt-4-vision_ja": "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"><br>カナダは再び50度に近い記録的な高温を記録しました。<br>数週間にわたり30度を大幅に超える気温が続いた後、昨日ブリティッシュコロンビアの一部地域で最高49.2度を記録しました。<br>当局によると、十分に冷却することができなかった数百人の人々が亡くなりました。",
                     "_gcp/gemini-1.5-pro_ja": "<img width=250  src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"><br>カナダでは、再び50℃近い記録的な気温を記録しています。<br>数週間にわたって30℃をはるかに超える気温が続いた後、昨日、ブリティッシュコロンビア州の一部の地域では、49.2℃に達しました。<br>当局によると、十分に体を冷やすことができずに数百人が亡くなりました。",
@@ -444,8 +444,8 @@
                     "_compare_gcp/gemini-1.5-pro_ja": "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"> カナダでは、再び50℃近い記録的な気温を記録しています。 数週間にわたって30℃をはるかに超える気温が続いた後、昨日、ブリティッシュコロンビア州の一部の地域では、49.2℃に達しました。 当局によると、十分に体を冷やすことができずに数百人が亡くなりました。",
                     "_compare_aws/claude-3.5-sonnet_ja": "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"> カナダは再び50度に近い記録的な高温を記録しました。 数週間にわたり30度を大幅に超える気温が続いた後、昨日ブリティッシュコロンビアの一部地域で最高49.2度を記録しました。 当局によると、十分に冷却することができなかった数百人の人々が亡くなりました。",
                     "_unique_translations_back_ja": [
-                        "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"> In Kanada werden erneut fast 50 Grad Celsius hohe Rekordtemperaturen verzeichnet. Nach mehreren Wochen mit Temperaturen, die weit über 30 Grad lagen, wurden gestern in einigen Gebieten von British Columbia bis zu 49,2 Grad gemessen. Laut Behörden sind mehrere hundert Menschen gestorben, weil sie sich nicht ausreichend abkühlen konnten",
-                        "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"> Kanada verzeichnet erneut Rekordtemperaturen von fast 50 Grad Celsius. Nach Wochen mit Temperaturen weit über 30 Grad wurden gestern in einigen Gebieten von British Columbia bis zu 49,2 Grad gemessen. Laut Behörden sind mehrere hundert Menschen gestorben, weil sie sich nicht ausreichend abkühlen konnten"
+                        "",
+                        ""
                     ],
                     "_azure/gpt-4-vision_ko": "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"><br>캐나다가 거의 50도 섭씨에 달하는 기록적인 온도를 다시 측정했습니다.<br>수주 동안 30도를 훨씬 넘는 온도가 지속된 후, 어제 브리티시 컬럼비아의 일부 지역에서는 49.2도까지 올라갔습니다.<br>당국에 따르면 충분히 식을 수 없었던 수백 명의 사람들이 사망했습니다.",
                     "_gcp/gemini-1.5-pro_ko": "<img width=250  src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"><br>캐나다에서 섭씨 50도에 육박하는 기록적인 불볕더위가 또다시 발생했습니다.<br>수 주 동안 섭씨 30도를 훨씬 웃도는 기온이 지속된 가운데, 어제 브리티시컬럼비아 일부 지역에서는 최고 49.2도까지 치솟았습니다.<br>당국에 따르면 수백 명의 사람들이 더위를 피하지 못해 사망했습니다.",
@@ -453,8 +453,8 @@
                     "_compare_gcp/gemini-1.5-pro_ko": "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"> 캐나다가 거의 50도 섭씨에 달하는 기록적인 온도를 다시 측정했습니다. 수주 동안 30도를 훨씬 넘는 온도가 지속된 후, 어제 브리티시 컬럼비아의 일부 지역에서는 49.2도까지 올라갔습니다. 당국에 따르면 충분히 식을 수 없었던 수백 명의 사람들이 사망했습니다",
                     "_compare_aws/claude-3.5-sonnet_ko": "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"> 캐나다가 거의 50도 섭씨에 달하는 기록적인 온도를 다시 측정했습니다. 수주 동안 30도를 훨씬 넘는 온도가 지속된 후, 어제 브리티시 컬럼비아의 일부 지역에서는 49.2도까지 올라갔습니다. 당국에 따르면 충분히 식을 수 없었던 수백 명의 사람들이 사망했습니다",
                     "_unique_translations_back_ko": [
-                        "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"> In Kanada wurden erneut Rekordtemperaturen von fast 50 Grad Celsius gemessen. Nach mehreren Wochen mit Temperaturen weit über 30 Grad stiegen die Werte gestern in einigen Gebieten von British Columbia auf bis zu 49,2 Grad. Laut Behörden sind mehrere hundert Menschen gestorben, weil sie sich nicht ausreichend abkühlen konnten",
-                        "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"> Kanada verzeichnet erneut Rekordtemperaturen von fast 50 Grad Celsius. Nach Wochen mit Temperaturen weit über 30 Grad wurden gestern in einigen Gebieten von British Columbia bis zu 49,2 Grad gemessen. Laut Behörden sind mehrere hundert Menschen gestorben, weil sie sich nicht ausreichend abkühlen konnten"
+                        "",
+                        ""
                     ],
                     "_azure/gpt-4-vision_lv": "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"><br>Kanādā atkal reģistrētas rekordaugstas temperatūras gandrīz 50 grādu Celsija apmērā.<br>Pēc vairākām nedēļām ar temperatūru, kas ievērojami pārsniedz 30 grādus, vakar dažās Britu Kolumbijas vietās tika izmērīti līdz pat 49,2 grādiem.<br>Pēc iestāžu sniegtās informācijas, vairāki simti cilvēku ir miruši, jo viņi vairs nespēja pietiekami atdzist.",
                     "_gcp/gemini-1.5-pro_lv": "<img width=250  src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"><br>Kanādā atkal reģistrēta rekordaugsta gaisa temperatūra – gandrīz 50 grādi pēc Celsija skalas.<br>Pēc vairākas nedēļas ilgas temperatūras, kas krietni pārsniedza 30 grādus, vakar dažviet Britu Kolumbijā tā sasniedza pat 49,2 grādus.<br>Pēc varasiestāžu sniegtās informācijas, vairāki simti cilvēku gājuši bojā, jo nav spējuši pietiekami atdzesēties. \n",
@@ -462,8 +462,8 @@
                     "_compare_gcp/gemini-1.5-pro_lv": "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"> Kanādā atkal reģistrēta rekordaugsta gaisa temperatūra – gandrīz 50 grādi pēc Celsija skalas. Pēc vairākas nedēļas ilgas temperatūras, kas krietni pārsniedza 30 grādus, vakar dažviet Britu Kolumbijā tā sasniedza pat 49,2 grādus. Pēc varasiestāžu sniegtās informācijas, vairāki simti cilvēku gājuši bojā, jo nav spējuši pietiekami atdzesēties",
                     "_compare_aws/claude-3.5-sonnet_lv": "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"> Kanādā atkal reģistrētas rekordaugstas temperatūras gandrīz 50 grādu Celsija apmērā. Pēc vairākām nedēļām ar temperatūru, kas ievērojami pārsniedz 30 grādus, vakar dažās Britu Kolumbijas vietās tika izmērīti līdz pat 49,2 grādiem. Pēc iestāžu sniegtās informācijas, vairāki simti cilvēku ir miruši, jo viņi vairs nespēja pietiekami atdzist",
                     "_unique_translations_back_lv": [
-                        "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"> In Kanada wurde erneut eine Rekordhitze registriert – fast 50 Grad Celsius. Nach mehreren Wochen mit Temperaturen, die deutlich über 30 Grad lagen, erreichte die Temperatur gestern in einigen Gebieten von British Columbia bis zu 49,2 Grad. Laut den Behörden sind mehrere hundert Menschen gestorben, weil sie sich nicht ausreichend abkühlen konnten",
-                        "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"> In Kanada wurden erneut Rekordtemperaturen von fast 50 Grad Celsius verzeichnet. Nach mehreren Wochen mit Temperaturen, die deutlich über 30 Grad lagen, wurden gestern in einigen Gebieten von British Columbia bis zu 49,2 Grad gemessen. Laut Angaben der Behörden sind mehrere hundert Menschen gestorben, weil sie sich nicht mehr ausreichend abkühlen konnten"
+                        "",
+                        ""
                     ],
                     "_azure/gpt-4-vision_lt": "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"><br>Kanada vėl užfiksavo rekordinę beveik 50 laipsnių Celsijaus temperatūrą.<br>Po kelių savaičių, kai temperatūra buvo gerokai virš 30 laipsnių, vakar kai kuriose Britų Kolumbijos vietovėse buvo užfiksuota iki 49,2 laipsnio temperatūra.<br>Pagal valdžios institucijų duomenis, mirė keli šimtai žmonių, kurie negalėjo pakankamai atvėsti.",
                     "_gcp/gemini-1.5-pro_lt": "<img width=250  src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png><br>Kanadoje vėl fiksuojama rekordinė temperatūra – beveik 50 laipsnių Celsijaus.<br>Po kelias savaites trukusios aukštesnės nei 30 laipsnių temperatūros, vakar kai kuriuose Britų Kolumbijos rajonuose termometrų stulpeliai pakilo iki 49,2 laipsnio.<br>Pasak valdžios institucijų, keli šimtai žmonių mirė, nes negalėjo pakankamai atsivėsinti.",
@@ -471,8 +471,8 @@
                     "_compare_gcp/gemini-1.5-pro_lt": "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"> Kanada vėl užfiksavo rekordinę beveik 50 laipsnių Celsijaus temperatūrą. Po kelių savaičių, kai temperatūra buvo gerokai virš 30 laipsnių, vakar kai kuriose Britų Kolumbijos vietovėse buvo užfiksuota iki 49,2 laipsnio temperatūra. Pagal valdžios institucijų duomenis, mirė keli šimtai žmonių, kurie negalėjo pakankamai atvėsti",
                     "_compare_aws/claude-3.5-sonnet_lt": "<img width=250 src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png> Kanadoje vėl fiksuojama rekordinė temperatūra – beveik 50 laipsnių Celsijaus. Po kelias savaites trukusios aukštesnės nei 30 laipsnių temperatūros, vakar kai kuriuose Britų Kolumbijos rajonuose termometrų stulpeliai pakilo iki 49,2 laipsnio. Pasak valdžios institucijų, keli šimtai žmonių mirė, nes negalėjo pakankamai atsivėsinti",
                     "_unique_translations_back_lt": [
-                        "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"> Kanada hat erneut eine Rekordtemperatur von fast 50 Grad Celsius verzeichnet. Nach mehreren Wochen mit Temperaturen weit über 30 Grad wurde gestern in einigen Gebieten von British Columbia eine Temperatur von bis zu 49,2 Grad gemessen. Laut Angaben der Behörden sind mehrere hundert Menschen gestorben, weil sie sich nicht ausreichend abkühlen konnten",
-                        "<img width=250 src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png> In Kanada wird erneut eine Rekordtemperatur verzeichnet – fast 50 Grad Celsius. Nach mehreren Wochen mit Temperaturen, die weit über 30 Grad lagen, stiegen die Thermometer in einigen Gebieten von British Columbia gestern auf 49,2 Grad. Laut den Behörden sind mehrere hundert Menschen gestorben, weil sie sich nicht ausreichend abkühlen konnten"
+                        "",
+                        ""
                     ],
                     "_azure/gpt-4-vision_mt": "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"><br>Il-Kanada terġa' tkejjel temperaturi rekord ta' kważi 50 grad Celsius.<br>Wara ġimgħat ta' temperaturi ferm ogħla minn 30 grad, ilbieraħ f'xi żoni tal-British Columbia ġew imkejla sa 49.2 grad.<br>Skont l-awtoritajiet, mietu mijiet ta' nies li ma setgħux jibredu biżżejjed.",
                     "_gcp/gemini-1.5-pro_mt": "<img width=250  src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"><br>Il-Kanada qed tkejjel mill-ġdid temperaturi rekord ta’ kważi 50 grad Celsius.<br>Wara ġimgħat ta’ temperaturi ferm ’il fuq minn 30 grad, ilbieraħ f’xi nħawi tal-British Columbia tkejlu temperaturi sa 49.2 grad.<br>Skont l-awtoritajiet, mietu diversi mijiet ta’ persuni li ma setgħux jibqgħu friski biżżejjed. \n",
@@ -480,8 +480,8 @@
                     "_compare_gcp/gemini-1.5-pro_mt": "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"> Il-Kanada qed tkejjel mill-ġdid temperaturi rekord ta’ kważi 50 grad Celsius. Wara ġimgħat ta’ temperaturi ferm ’il fuq minn 30 grad, ilbieraħ f’xi nħawi tal-British Columbia tkejlu temperaturi sa 49.2 grad. Skont l-awtoritajiet, mietu diversi mijiet ta’ persuni li ma setgħux jibqgħu friski biżżejjed",
                     "_compare_aws/claude-3.5-sonnet_mt": "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"> Il-Kanada qed tkejjel mill-ġdid temperaturi rekord ta’ kważi 50 grad Celsius. Wara ġimgħat ta’ temperaturi ferm ’il fuq minn 30 grad, ilbieraħ f’xi nħawi tal-British Columbia tkejlu temperaturi sa 49.2 grad. Skont l-awtoritajiet, mietu diversi mijiet ta’ persuni li ma setgħux jibqgħu friski biżżejjed",
                     "_unique_translations_back_mt": [
-                        "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"> Kanada misst erneut Rekordtemperaturen von fast 50 Grad Celsius. Nach Wochen mit Temperaturen weit über 30 Grad wurden gestern in einigen Gebieten von British Columbia Temperaturen von bis zu 49,2 Grad gemessen. Nach Angaben der Behörden starben mehrere hundert Menschen, weil sie sich nicht mehr ausreichend abkühlen konnten",
-                        "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"> Kanada verzeichnet erneut Rekordtemperaturen von fast 50 Grad Celsius. Nach Wochen mit Temperaturen weit über 30 Grad wurden gestern in einigen Gebieten von British Columbia bis zu 49,2 Grad gemessen. Laut Behörden sind mehrere hundert Menschen gestorben, weil sie sich nicht ausreichend abkühlen konnten"
+                        "",
+                        ""
                     ],
                     "_azure/gpt-4-vision_nl": "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"><br>Canada registreert opnieuw recordtemperaturen van bijna 50 graden Celsius.<br>Na weken van temperaturen ver boven de 30 graden, werden gisteren in sommige gebieden van British Columbia temperaturen tot 49,2 graden gemeten.<br>Volgens de autoriteiten zijn er meerdere honderden mensen overleden die zich niet voldoende konden afkoelen.",
                     "_gcp/gemini-1.5-pro_nl": "<img width=250  src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"><br>Canada meet opnieuw recordtemperaturen van bijna 50 graden Celsius.<br>Na wekenlange temperaturen ver boven de 30 graden, werd gisteren in sommige gebieden van British Columbia tot 49,2 graden gemeten.<br>Volgens de autoriteiten zijn honderden mensen overleden omdat ze zich niet voldoende konden koelen. \n",
@@ -489,8 +489,8 @@
                     "_compare_gcp/gemini-1.5-pro_nl": "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"> Canada registreert opnieuw recordtemperaturen van bijna 50 graden Celsius. Na weken van temperaturen ver boven de 30 graden, werden gisteren in sommige gebieden van British Columbia temperaturen tot 49,2 graden gemeten. Volgens de autoriteiten zijn er meerdere honderden mensen overleden die zich niet voldoende konden afkoelen",
                     "_compare_aws/claude-3.5-sonnet_nl": "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"> Canada registreert opnieuw recordtemperaturen van bijna 50 graden Celsius. Na weken van temperaturen ver boven de 30 graden, werden gisteren in sommige gebieden van British Columbia temperaturen tot 49,2 graden gemeten. Volgens de autoriteiten zijn er meerdere honderden mensen overleden die zich niet voldoende konden afkoelen",
                     "_unique_translations_back_nl": [
-                        "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"> Kanada verzeichnet erneut Rekordtemperaturen von fast 50 Grad Celsius. Nach Wochen mit Temperaturen weit über 30 Grad wurden gestern in einigen Gebieten von British Columbia bis zu 49,2 Grad gemessen. Laut Behörden sind mehrere hundert Menschen gestorben, weil sie sich nicht ausreichend abkühlen konnten",
-                        "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"> Kanada verzeichnet erneut Rekordtemperaturen von fast 50 Grad Celsius. Nach Wochen mit Temperaturen weit über 30 Grad wurden gestern in einigen Gebieten von British Columbia bis zu 49,2 Grad gemessen. Laut Behörden sind mehrere hundert Menschen gestorben, weil sie sich nicht ausreichend abkühlen konnten"
+                        "",
+                        ""
                     ],
                     "_azure/gpt-4-vision_pl": "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"><br>Kanada ponownie odnotowuje rekordowe temperatury bliskie 50 stopni Celsjusza.<br>Po tygodniach temperatur znacznie przekraczających 30 stopni, wczoraj w niektórych rejonach Kolumbii Brytyjskiej zmierzono nawet 49,2 stopnia.<br>Według władz, kilkaset osób zmarło, ponieważ nie mogły się odpowiednio ochłodzić.",
                     "_gcp/gemini-1.5-pro_pl": "<img width=250  src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png><br>W Kanadzie ponownie odnotowano rekordowe temperatury sięgające prawie 50 stopni Celsjusza.<br>Po tygodniach temperatur znacznie przekraczających 30 stopni, wczoraj w niektórych rejonach Kolumbii Brytyjskiej zmierzono nawet 49,2 stopnia.<br>Według władz zmarło kilkaset osób, które nie były w stanie wystarczająco się schłodzić.",
@@ -498,8 +498,8 @@
                     "_compare_gcp/gemini-1.5-pro_pl": "<img width=250 src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png> W Kanadzie ponownie odnotowano rekordowe temperatury sięgające prawie 50 stopni Celsjusza. Po tygodniach temperatur znacznie przekraczających 30 stopni, wczoraj w niektórych rejonach Kolumbii Brytyjskiej zmierzono nawet 49,2 stopnia. Według władz zmarło kilkaset osób, które nie były w stanie wystarczająco się schłodzić",
                     "_compare_aws/claude-3.5-sonnet_pl": "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"> Kanada ponownie odnotowuje rekordowe temperatury bliskie 50 stopni Celsjusza. Po tygodniach temperatur znacznie przekraczających 30 stopni, wczoraj w niektórych rejonach Kolumbii Brytyjskiej zmierzono nawet 49,2 stopnia. Według władz, kilkaset osób zmarło, ponieważ nie mogły się odpowiednio ochłodzić",
                     "_unique_translations_back_pl": [
-                        "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"> In Kanada wurden erneut Rekordtemperaturen von fast 50 Grad Celsius verzeichnet. Nach Wochen mit Temperaturen, die weit über 30 Grad lagen, wurden gestern in einigen Gebieten British Columbias bis zu 49,2 Grad gemessen. Den Behörden zufolge sind mehrere hundert Menschen gestorben, weil sie sich nicht ausreichend abkühlen konnten",
-                        "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"> Kanada verzeichnet erneut Rekordtemperaturen von fast 50 Grad Celsius. Nach Wochen mit Temperaturen weit über 30 Grad wurden gestern in einigen Gebieten von British Columbia bis zu 49,2 Grad gemessen. Laut Behörden sind mehrere hundert Menschen gestorben, weil sie sich nicht ausreichend abkühlen konnten"
+                        "",
+                        ""
                     ],
                     "_azure/gpt-4-vision_ro": "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"><br>Canada înregistrează din nou temperaturi record de aproape 50 de grade Celsius.<br>După săptămâni de temperaturi cu mult peste 30 de grade, ieri, în unele zone din Columbia Britanică, s-au măsurat până la 49,2 grade.<br>Conform autorităților, câteva sute de persoane au decedat, incapabile să se răcorească suficient.",
                     "_gcp/gemini-1.5-pro_ro": "<img width=250  src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"><br>Canada înregistrează din nou temperaturi record de aproape 50 de grade Celsius.<br>După săptămâni întregi cu temperaturi cu mult peste 30 de grade, ieri s-au înregistrat în unele zone din Columbia Britanică până la 49,2 grade.<br>Potrivit autorităților, câteva sute de persoane au murit pentru că nu s-au mai putut răcori suficient. \n",
@@ -507,8 +507,8 @@
                     "_compare_gcp/gemini-1.5-pro_ro": "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"> Canada înregistrează din nou temperaturi record de aproape 50 de grade Celsius. După săptămâni de temperaturi cu mult peste 30 de grade, ieri, în unele zone din Columbia Britanică, s-au măsurat până la 49,2 grade. Conform autorităților, câteva sute de persoane au decedat, incapabile să se răcorească suficient",
                     "_compare_aws/claude-3.5-sonnet_ro": "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"> Canada înregistrează din nou temperaturi record de aproape 50 de grade Celsius. După săptămâni întregi cu temperaturi cu mult peste 30 de grade, ieri s-au înregistrat în unele zone din Columbia Britanică până la 49,2 grade. Potrivit autorităților, câteva sute de persoane au murit pentru că nu s-au mai putut răcori suficient",
                     "_unique_translations_back_ro": [
-                        "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"> Kanada verzeichnet erneut Rekordtemperaturen von fast 50 Grad Celsius. Nach Wochen mit Temperaturen weit über 30 Grad wurden gestern in einigen Gebieten von British Columbia bis zu 49,2 Grad gemessen. Laut Behörden sind mehrere hundert Menschen gestorben, weil sie sich nicht ausreichend abkühlen konnten",
-                        "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"> Kanada verzeichnet erneut Rekordtemperaturen von fast 50 Grad Celsius. Nach Wochen mit Temperaturen weit über 30 Grad wurden gestern in einigen Gebieten von British Columbia bis zu 49,2 Grad gemessen. Laut Behörden sind mehrere hundert Menschen gestorben, weil sie sich nicht ausreichend abkühlen konnten"
+                        "",
+                        ""
                     ],
                     "_azure/gpt-4-vision_ru": "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"><br>В Канаде снова зафиксированы рекордные температуры почти в 50 градусов Цельсия.<br>После нескольких недель с температурами значительно выше 30 градусов, вчера в некоторых районах Британской Колумбии было измерено до 49,2 градуса.<br>По данным властей, несколько сотен человек умерли, так как не смогли должным образом охладиться.",
                     "_gcp/gemini-1.5-pro_ru": "<img width=250  src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"><br>В Канаде снова фиксируются рекордные температуры - почти 50 градусов по Цельсию.<br> После нескольких недель, когда температура была значительно выше 30 градусов, в некоторых районах Британской Колумбии вчера она достигла 49,2 градусов.<br> По данным властей, несколько сотен человек погибли, не сумев достаточно охладиться. \n",
@@ -525,8 +525,8 @@
                     "_compare_gcp/gemini-1.5-pro_sk": "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"> Kanada opäť zaznamenala rekordné teploty takmer 50 stupňov Celzia. Po týždňoch s teplotami ďaleko nad 30 stupňov bolo včera v niektorých oblastiach Britskej Kolumbie nameraných až 49,2 stupňa. Podľa úradov zomrelo niekoľko stoviek ľudí, ktorí sa už nedokázali dostatočne ochladiť",
                     "_compare_aws/claude-3.5-sonnet_sk": "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"> Kanada opäť hlási rekordné teploty, ktoré sa blížia k 50 stupňom Celzia. Po týždňoch teplôt vysoko nad 30 stupňov namerali včera v niektorých oblastiach Britskej Kolumbie až 49,2 stupňa. Podľa úradov zomrelo niekoľko stoviek ľudí, ktorí sa už nedokázali dostatočne schladiť",
                     "_unique_translations_back_sk": [
-                        "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"> Kanada verzeichnet erneut Rekordtemperaturen von fast 50 Grad Celsius. Nach Wochen mit Temperaturen weit über 30 Grad wurden gestern in einigen Gebieten von British Columbia bis zu 49,2 Grad gemessen. Laut Behörden starben mehrere hundert Menschen, die sich nicht mehr ausreichend abkühlen konnten",
-                        "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"> Kanada meldet erneut Rekordtemperaturen nahe 50 Grad Celsius. Nach Wochen mit Temperaturen weit über 30 Grad wurden gestern in einigen Gebieten von British Columbia bis zu 49,2 Grad gemessen. Laut Behörden sind mehrere hundert Menschen gestorben, weil sie sich nicht mehr ausreichend abkühlen konnten"
+                        "",
+                        ""
                     ],
                     "_azure/gpt-4-vision_sl": "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"><br>Kanada ponovno beleži rekordne temperature skoraj 50 stopinj Celzija.<br>Po tednih z temperaturami daleč nad 30 stopinj so včeraj v nekaterih območjih Britanske Kolumbije izmerili do 49,2 stopinje.<br>Po podatkih oblasti je umrlo več sto ljudi, ki se niso mogli dovolj ohladiti.",
                     "_gcp/gemini-1.5-pro_sl": "<img width=250  src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"><br>Kanada je ponovno zabeležila rekordne temperature, ki so se približale 50 stopinjam Celzija.<br>Po več tednih temperatur, ki so bile precej nad 30 stopinjami, so včeraj v nekaterih delih Britanske Kolumbije izmerili do 49,2 stopinje.<br>Po podatkih oblasti je umrlo več sto ljudi, ki se niso mogli dovolj ohladiti. \n",
@@ -534,8 +534,8 @@
                     "_compare_gcp/gemini-1.5-pro_sl": "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"> Kanada ponovno beleži rekordne temperature skoraj 50 stopinj Celzija. Po tednih z temperaturami daleč nad 30 stopinj so včeraj v nekaterih območjih Britanske Kolumbije izmerili do 49,2 stopinje. Po podatkih oblasti je umrlo več sto ljudi, ki se niso mogli dovolj ohladiti",
                     "_compare_aws/claude-3.5-sonnet_sl": "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"> Kanada je ponovno zabeležila rekordne temperature, ki so se približale 50 stopinjam Celzija. Po več tednih temperatur, ki so bile precej nad 30 stopinjami, so včeraj v nekaterih delih Britanske Kolumbije izmerili do 49,2 stopinje. Po podatkih oblasti je umrlo več sto ljudi, ki se niso mogli dovolj ohladiti",
                     "_unique_translations_back_sl": [
-                        "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"> Kanada verzeichnet erneut Rekordtemperaturen von fast 50 Grad Celsius. Nach Wochen mit Temperaturen weit über 30 Grad wurden gestern in einigen Gebieten von British Columbia bis zu 49,2 Grad gemessen. Laut Behörden sind mehrere hundert Menschen gestorben, weil sie sich nicht ausreichend abkühlen konnten",
-                        "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"> Kanada verzeichnet erneut Rekordtemperaturen von fast 50 Grad Celsius. Nach mehreren Wochen mit Temperaturen weit über 30 Grad wurden gestern in einigen Teilen von British Columbia bis zu 49,2 Grad gemessen. Nach Angaben der Behörden sind mehrere hundert Menschen gestorben, weil sie sich nicht ausreichend abkühlen konnten"
+                        "",
+                        ""
                     ],
                     "_azure/gpt-4-vision_zh": "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"><br>加拿大再次测量到接近50摄氏度的创纪录高温。<br>经过几周的温度远高于30度后，昨天不列颠哥伦比亚省的一些地区测量到了高达49.2度的温度。<br>据当局称，数百人因无法充分降温而死亡。",
                     "_gcp/gemini-1.5-pro_zh": "<img width=250  src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"><br>加拿大再次测得接近 50 摄氏度的创纪录高温。<br>在经历了数周远高于 30 摄氏度的高温后，昨天不列颠哥伦比亚省部分地区的气温高达 49.2 摄氏度。<br>据当局称，数百人因无法充分降温而死亡。",
@@ -543,8 +543,8 @@
                     "_compare_gcp/gemini-1.5-pro_zh": "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"> 加拿大再次测量到接近50摄氏度的创纪录高温。 经过几周的温度远高于30度后，昨天不列颠哥伦比亚省的一些地区测量到了高达49.2度的温度。 据当局称，数百人因无法充分降温而死亡。",
                     "_compare_aws/claude-3.5-sonnet_zh": "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"> 加拿大再次测得接近 50 摄氏度的创纪录高温。 在经历了数周远高于 30 摄氏度的高温后，昨天不列颠哥伦比亚省部分地区的气温高达 49.2 摄氏度。 据当局称，数百人因无法充分降温而死亡。",
                     "_unique_translations_back_zh": [
-                        "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"> Kanada misst erneut Rekordtemperaturen von fast 50 Grad Celsius. Nach mehreren Wochen mit Temperaturen weit über 30 Grad wurden gestern in einigen Gebieten von British Columbia Temperaturen von bis zu 49,2 Grad gemessen. Nach Angaben der Behörden starben mehrere hundert Menschen, weil sie sich nicht mehr ausreichend abkühlen konnten",
-                        "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"> Kanada verzeichnet erneut Rekordtemperaturen von fast 50 Grad Celsius. Nach Wochen mit Temperaturen weit über 30 Grad wurden gestern in einigen Gebieten von British Columbia bis zu 49,2 Grad gemessen. Laut Behörden sind mehrere hundert Menschen gestorben, weil sie sich nicht ausreichend abkühlen konnten"
+                        "",
+                        ""
                     ]
                 }
             }

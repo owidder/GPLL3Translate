@@ -26,7 +26,7 @@
                     "_compare_gcp/gemini-1.5-pro_sv": "Stora delar av Bremen översvämmade efter oväder",
                     "_compare_aws/claude-3.5-sonnet_sv": "Stora delar av Bremen översvämmade efter oväder",
                     "_unique_translations_back_sv": [
-                        "Große Teile Bremens nach Unwettern überschwemmt"
+                        ""
                     ],
                     "_azure/gpt-4-vision_ar": "أجزاء كبيرة من بريمن تغرق بعد العواصف.",
                     "_gcp/gemini-1.5-pro_ar": "غمرت مياه الفيضانات أجزاء واسعة من بريمن بعد عاصفة شديدة. \n",
@@ -43,8 +43,8 @@
                     "_compare_gcp/gemini-1.5-pro_bg": "Големи части от Бремен бяха наводнени след буря",
                     "_compare_aws/claude-3.5-sonnet_bg": "Големи части от Бремен са наводнени след бурята",
                     "_unique_translations_back_bg": [
-                        "Große Teile Bremens wurden nach Stürmen überschwemmt",
-                        "Große Teile Bremens nach dem Sturm überschwemmt"
+                        "",
+                        ""
                     ],
                     "_azure/gpt-4-vision_cs": "Rozsáhlé části Brém po bouři zaplaveny.",
                     "_gcp/gemini-1.5-pro_cs": "Rozsáhlé části Brém zatopeny po bouřkách \n",
@@ -52,8 +52,8 @@
                     "_compare_gcp/gemini-1.5-pro_cs": "Rozsáhlé části Brém zatopeny po bouřkách",
                     "_compare_aws/claude-3.5-sonnet_cs": "Rozsáhlé části Brém zatopeny po bouřkách",
                     "_unique_translations_back_cs": [
-                        "Große Teile Bremens nach Unwettern überschwemmt",
-                        "Große Teile Bremens nach Unwettern überschwemmt"
+                        "",
+                        ""
                     ],
                     "_azure/gpt-4-vision_da": "Store dele af Bremen oversvømmet efter uvejr",
                     "_gcp/gemini-1.5-pro_da": "Store dele af Bremen oversvømmet efter uvejr \n",
@@ -61,7 +61,7 @@
                     "_compare_gcp/gemini-1.5-pro_da": "Store dele af Bremen oversvømmet efter uvejr",
                     "_compare_aws/claude-3.5-sonnet_da": "Store dele af Bremen oversvømmet efter uvejr",
                     "_unique_translations_back_da": [
-                        "Große Teile Bremens nach Unwettern überschwemmt"
+                        ""
                     ],
                     "_azure/gpt-4-vision_de": "Weite Teile Bremens nach Unwetter überschwemmt",
                     "_gcp/gemini-1.5-pro_de": "Weite Teile Bremens nach Unwetter überschwemmt \n",
@@ -77,8 +77,8 @@
                     "_compare_gcp/gemini-1.5-pro_el": "Μεγάλα τμήματα του Βρέμης πλημμύρισαν μετά από καταιγίδα",
                     "_compare_aws/claude-3.5-sonnet_el": "Εκτεταμένες περιοχές της Βρέμης πλημμύρισαν μετά από καταιγίδα",
                     "_unique_translations_back_el": [
-                        "Große Teile Bremens nach Unwettern überschwemmt",
-                        "Große Teile Bremens nach Unwettern überschwemmt"
+                        "",
+                        ""
                     ],
                     "_azure/gpt-4-vision_en": "Large parts of Bremen flooded after storms",
                     "_gcp/gemini-1.5-pro_en": "Large parts of Bremen flooded after storms \n",
@@ -94,8 +94,8 @@
                     "_compare_gcp/gemini-1.5-pro_es": "Grandes partes de Bremen inundadas tras tormentas",
                     "_compare_aws/claude-3.5-sonnet_es": "Grandes partes de Bremen inundadas tras tormentas",
                     "_unique_translations_back_es": [
-                        "Große Teile Bremens nach Unwettern überschwemmt",
-                        "Große Teile Bremens nach Unwettern überschwemmt"
+                        "",
+                        ""
                     ],
                     "_azure/gpt-4-vision_et": "Suured osad Bremenist on pärast tormi üle ujutatud.",
                     "_gcp/gemini-1.5-pro_et": "Tormi tagajärjel on Bremeni suured alad vee all. \n",
@@ -103,8 +103,8 @@
                     "_compare_gcp/gemini-1.5-pro_et": "Suured osad Bremenist on pärast tormi üle ujutatud",
                     "_compare_aws/claude-3.5-sonnet_et": "Suured osad Bremenist on pärast tormi üle ujutatud",
                     "_unique_translations_back_et": [
-                        "Große Teile Bremens nach Unwettern überschwemmt",
-                        "Große Teile Bremens sind nach dem Sturm überschwemmt"
+                        "",
+                        ""
                     ],
                     "_azure/gpt-4-vision_fi": "Suuren osan Bremenistä tulvii rankkasateiden jälkeen.",
                     "_gcp/gemini-1.5-pro_fi": "Suuria osia Bremenistä tulvinut myrskyn jälkeen \n",
@@ -112,8 +112,8 @@
                     "_compare_gcp/gemini-1.5-pro_fi": "Suuria osia Bremenistä tulvinut myrskyn jälkeen",
                     "_compare_aws/claude-3.5-sonnet_fi": "Suuria osia Bremenistä tulvinut myrskyn jälkeen",
                     "_unique_translations_back_fi": [
-                        "Große Teile Bremens nach Unwettern überschwemmt",
-                        "Große Teile Bremens nach Unwettern überschwemmt"
+                        "",
+                        ""
                     ],
                     "_azure/gpt-4-vision_fr": "De grandes parties de Brême ont été inondées après les tempêtes.",
                     "_gcp/gemini-1.5-pro_fr": "De vastes zones de Brême inondées après des intempéries",
@@ -130,8 +130,8 @@
                     "_compare_gcp/gemini-1.5-pro_ga": "Tá codanna móra de Bremen tuilte tar éis stoirm",
                     "_compare_aws/claude-3.5-sonnet_ga": "Tá codanna móra de Bremen tuilte tar éis stoirm",
                     "_unique_translations_back_ga": [
-                        "Große Teile Bremens nach schweren Stürmen überschwemmt",
-                        "Große Teile Bremens nach Stürmen überschwemmt"
+                        "",
+                        ""
                     ],
                     "_azure/gpt-4-vision_hr": "Veliki dijelovi Bremena poplavljeni nakon nevremena",
                     "_gcp/gemini-1.5-pro_hr": "Veliki dijelovi Bremena poplavljeni nakon oluje\n",
@@ -139,8 +139,8 @@
                     "_compare_gcp/gemini-1.5-pro_hr": "Veliki dijelovi Bremena poplavljeni nakon nevremena",
                     "_compare_aws/claude-3.5-sonnet_hr": "Veliki dijelovi Bremena poplavljeni nakon nevremena",
                     "_unique_translations_back_hr": [
-                        "Große Teile Bremens nach Unwettern überschwemmt",
-                        "Große Teile Bremens nach Unwettern überschwemmt"
+                        "",
+                        ""
                     ],
                     "_azure/gpt-4-vision_hu": "Bremen nagy részeit elárasztotta az ítéletidő.",
                     "_gcp/gemini-1.5-pro_hu": "Bréma nagy részét elöntötte a vihar utáni árvíz \n",
@@ -148,8 +148,8 @@
                     "_compare_gcp/gemini-1.5-pro_hu": "Bremen nagy részeit elárasztotta az ítéletidő",
                     "_compare_aws/claude-3.5-sonnet_hu": "Bréma nagy részét elöntötte a vihar utáni árvíz",
                     "_unique_translations_back_hu": [
-                        "Große Teile Bremens nach Unwettern überschwemmt",
-                        "Große Teile Bremens nach Unwettern überschwemmt"
+                        "",
+                        ""
                     ],
                     "_azure/gpt-4-vision_id": "Bagian-bagian luas dari Bremen terendam banjir setelah badai.",
                     "_gcp/gemini-1.5-pro_id": "Sebagian besar wilayah Bremen terendam banjir setelah badai besar. \n",
@@ -157,8 +157,8 @@
                     "_compare_gcp/gemini-1.5-pro_id": "Sebagian besar wilayah Bremen terendam banjir setelah badai besar",
                     "_compare_aws/claude-3.5-sonnet_id": "Bagian-bagian luas dari Bremen terendam banjir setelah badai",
                     "_unique_translations_back_id": [
-                        "Große Teile Bremens nach Unwettern überschwemmt",
-                        "Große Teile Bremens nach schweren Stürmen überschwemmt"
+                        "",
+                        ""
                     ],
                     "_azure/gpt-4-vision_it": "Ampie zone di Brema inondate dopo il maltempo.",
                     "_gcp/gemini-1.5-pro_it": "Vaste aree di Brema allagate dopo le tempeste",
@@ -166,8 +166,8 @@
                     "_compare_gcp/gemini-1.5-pro_it": "Ampie zone di Brema inondate dopo il maltempo",
                     "_compare_aws/claude-3.5-sonnet_it": "Vaste aree di Brema allagate dopo le tempeste",
                     "_unique_translations_back_it": [
-                        "Große Teile Bremens nach Unwettern überschwemmt",
-                        "Große Teile Bremens nach Unwettern überschwemmt"
+                        "",
+                        ""
                     ],
                     "_azure/gpt-4-vision_ja": "ブレーメンの広範囲が悪天候の後に洪水に見舞われました",
                     "_gcp/gemini-1.5-pro_ja": "嵐の後、ブレーメンの広範囲が浸水",
@@ -175,8 +175,8 @@
                     "_compare_gcp/gemini-1.5-pro_ja": "嵐の後、ブレーメンの広範囲が浸水",
                     "_compare_aws/claude-3.5-sonnet_ja": "嵐の後、ブレーメンの広範囲が浸水",
                     "_unique_translations_back_ja": [
-                        "Große Teile Bremens wurden nach dem Unwetter überschwemmt",
-                        "Nach dem Sturm wurden weite Teile Bremens überschwemmt"
+                        "",
+                        ""
                     ],
                     "_azure/gpt-4-vision_ko": "브레멘의 넓은 지역이 폭풍우 후에 침수되었습니다.",
                     "_gcp/gemini-1.5-pro_ko": "폭풍우 이후 브레멘의 넓은 지역이 침수되었습니다. \n",
@@ -184,8 +184,8 @@
                     "_compare_gcp/gemini-1.5-pro_ko": "브레멘의 넓은 지역이 폭풍우 후에 침수되었습니다",
                     "_compare_aws/claude-3.5-sonnet_ko": "브레멘의 넓은 지역이 폭풍우 후에 침수되었습니다",
                     "_unique_translations_back_ko": [
-                        "Nach den Stürmen wurden weite Teile Bremens überschwemmt",
-                        "Große Teile Bremens wurden nach dem Sturm überschwemmt"
+                        "",
+                        ""
                     ],
                     "_azure/gpt-4-vision_lv": "Plašas Brēmenes daļas pēc negaisa applūdušas.",
                     "_gcp/gemini-1.5-pro_lv": "Plaši Brēmenes apgabali applūst pēc spēcīgām vētrām \n",
@@ -193,8 +193,8 @@
                     "_compare_gcp/gemini-1.5-pro_lv": "Plašas Brēmenes daļas pēc negaisa applūdušas",
                     "_compare_aws/claude-3.5-sonnet_lv": "Plašas Brēmenes daļas pēc negaisa applūdušas",
                     "_unique_translations_back_lv": [
-                        "Weite Teile Bremens überschwemmt nach heftigen Stürmen",
-                        "Große Teile Bremens nach Unwettern überschwemmt"
+                        "",
+                        ""
                     ],
                     "_azure/gpt-4-vision_lt": "Dideli Bremeno miesto dalys užlietos po audros.",
                     "_gcp/gemini-1.5-pro_lt": "Po audros dideli Brėmeno plotai apsemti. \n",
@@ -202,8 +202,8 @@
                     "_compare_gcp/gemini-1.5-pro_lt": "Dideli Bremeno miesto dalys užlietos po audros",
                     "_compare_aws/claude-3.5-sonnet_lt": "Po audros dideli Brėmeno plotai apsemti",
                     "_unique_translations_back_lt": [
-                        "Große Teile Bremens nach Unwettern überschwemmt",
-                        "Große Teile Bremens nach Unwettern überschwemmt"
+                        "",
+                        ""
                     ],
                     "_azure/gpt-4-vision_mt": "Partijiet kbar ta' Bremen għerqu wara maltempata.",
                     "_gcp/gemini-1.5-pro_mt": "Partijiet kbar minn Bremen mgħarrqa wara maltempati qawwija \n",
@@ -211,8 +211,8 @@
                     "_compare_gcp/gemini-1.5-pro_mt": "Partijiet kbar minn Bremen mgħarrqa wara maltempati qawwija",
                     "_compare_aws/claude-3.5-sonnet_mt": "Partijiet kbar minn Bremen mgħarrqa wara maltempati qawwija",
                     "_unique_translations_back_mt": [
-                        "Große Teile Bremens nach Unwettern überschwemmt",
-                        "Große Teile Bremens nach schweren Stürmen überschwemmt"
+                        "",
+                        ""
                     ],
                     "_azure/gpt-4-vision_nl": "Grote delen van Bremen overstroomd na noodweer",
                     "_gcp/gemini-1.5-pro_nl": "Grote delen van Bremen overstroomd na noodweer \n",
@@ -220,7 +220,7 @@
                     "_compare_gcp/gemini-1.5-pro_nl": "Grote delen van Bremen overstroomd na noodweer",
                     "_compare_aws/claude-3.5-sonnet_nl": "Grote delen van Bremen overstroomd na noodweer",
                     "_unique_translations_back_nl": [
-                        "Große Teile Bremens nach Unwettern überschwemmt"
+                        ""
                     ],
                     "_azure/gpt-4-vision_pl": "Duże obszary Bremy zostały zalane po nawałnicy.",
                     "_gcp/gemini-1.5-pro_pl": "Duże części Bremy zalane po burzy \n",
@@ -228,8 +228,8 @@
                     "_compare_gcp/gemini-1.5-pro_pl": "Duże obszary Bremy zostały zalane po nawałnicy",
                     "_compare_aws/claude-3.5-sonnet_pl": "Duże obszary Bremy zostały zalane po nawałnicy",
                     "_unique_translations_back_pl": [
-                        "Große Teile Bremens nach Unwettern überschwemmt",
-                        "Große Teile Bremens nach Unwettern überschwemmt"
+                        "",
+                        ""
                     ],
                     "_azure/gpt-4-vision_ro": "Mari părți din Bremen au fost inundate după furtună.",
                     "_gcp/gemini-1.5-pro_ro": "Zone întinse din Bremen inundate în urma furtunilor puternice \n",
@@ -237,8 +237,8 @@
                     "_compare_gcp/gemini-1.5-pro_ro": "Mari părți din Bremen au fost inundate după furtună",
                     "_compare_aws/claude-3.5-sonnet_ro": "Mari părți din Bremen au fost inundate după furtună",
                     "_unique_translations_back_ro": [
-                        "Große Teile Bremens nach heftigen Stürmen überschwemmt",
-                        "Große Teile Bremens wurden nach dem Sturm überschwemmt"
+                        "",
+                        ""
                     ],
                     "_azure/gpt-4-vision_ru": "Большие районы Бремена затоплены после шторма.",
                     "_gcp/gemini-1.5-pro_ru": "Большие районы Бремена затоплены после непогоды \n",
@@ -255,8 +255,8 @@
                     "_compare_gcp/gemini-1.5-pro_sk": "Rozsiahle časti Brém zaplavené po búrkach",
                     "_compare_aws/claude-3.5-sonnet_sk": "Rozsiahle časti Brém po búrke zaplavené",
                     "_unique_translations_back_sk": [
-                        "Große Teile Bremens nach Unwettern überschwemmt",
-                        "Große Teile Bremens nach Unwettern überschwemmt"
+                        "",
+                        ""
                     ],
                     "_azure/gpt-4-vision_sl": "Veliki deli Bremna poplavljeni po nevihti",
                     "_gcp/gemini-1.5-pro_sl": "Obsežni deli Bremna poplavljeni po neurju \n",
@@ -264,8 +264,8 @@
                     "_compare_gcp/gemini-1.5-pro_sl": "Obsežni deli Bremna poplavljeni po neurju",
                     "_compare_aws/claude-3.5-sonnet_sl": "Obsežni deli Bremna poplavljeni po neurju",
                     "_unique_translations_back_sl": [
-                        "Große Teile Bremens nach Unwettern überschwemmt",
-                        "Große Teile Bremens nach Unwettern überschwemmt"
+                        "",
+                        ""
                     ],
                     "_azure/gpt-4-vision_zh": "德国不来梅市在暴风雨后的大部分地区被洪水淹没",
                     "_gcp/gemini-1.5-pro_zh": "不来梅大部分地区在暴风雨后被淹没",
@@ -273,8 +273,8 @@
                     "_compare_gcp/gemini-1.5-pro_zh": "不来梅大部分地区在暴风雨后被淹没",
                     "_compare_aws/claude-3.5-sonnet_zh": "不来梅大部分地区在暴风雨后被淹没",
                     "_unique_translations_back_zh": [
-                        "Große Teile Bremens nach Unwettern überschwemmt",
-                        "Große Teile Bremens nach Unwettern überschwemmt"
+                        "",
+                        ""
                     ]
                 },
                 "body": {
@@ -289,8 +289,8 @@
                     "_compare_gcp/gemini-1.5-pro_sv": "<img width=250 src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"> Timmar av åskväder med kraftiga regn har under natten satt stora delar av Bremen i Tyskland under vatten. Polisen och brandkåren fick ta emot hundratals samtal om översvämmade källare och fallna träd",
                     "_compare_aws/claude-3.5-sonnet_sv": "<img width=250 src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"> Timmar av åskväder med kraftiga regn har under natten satt stora delar av Bremen i Tyskland under vatten. Polisen och brandkåren fick ta emot hundratals samtal om översvämmade källare och fallna träd",
                     "_unique_translations_back_sv": [
-                        "<img width=250 src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"> Stundenlange Gewitter mit heftigen Regenfällen haben in der vergangenen Nacht die Stadt Bremen in Deutschland überschwemmt. Polizei und Feuerwehr erhielten Hunderte von Notrufen wegen überfluteter Keller und umgestürzter Bäume",
-                        "<img width=250 src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"> Stundenlange Gewitter mit heftigen Regenfällen haben in der vergangenen Nacht große Teile Bremens in Deutschland überschwemmt. Polizei und Feuerwehr erhielten hunderte Hilferufe wegen vollgelaufener Keller und umgestürzter Bäume"
+                        "",
+                        ""
                     ],
                     "_azure/gpt-4-vision_ar": "<img width=250 src=https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg><br>عواصف رعدية استمرت لساعات مع هطول أمطار غزيرة أغرقت مدينة بريمن في ألمانيا الليلة الماضية.<br>تلقت الشرطة والإطفاء مئات المكالمات طلباً للمساعدة بسبب القبو المغمورة بالمياه والأشجار المتساقطة.",
                     "_gcp/gemini-1.5-pro_ar": "<img width=250  src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"><br>لقد غمرت عواصف رعدية استمرت لساعات مع هطول أمطار غزيرة مدينة بريمن في ألمانيا تحت الماء الليلة الماضية. وتلقت الشرطة وفرق الإطفاء مئات المكالمات للمساعدة بسبب غرق الأقبية وسقوط الأشجار. \n",
@@ -307,8 +307,8 @@
                     "_compare_gcp/gemini-1.5-pro_bg": "<img width=250 src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"> Часове наред бури със силни валежи наводниха град Бремен в Германия миналата нощ. Полицията и пожарната получиха стотици повиквания за помощ заради наводнени мазета и паднали дървета",
                     "_compare_aws/claude-3.5-sonnet_bg": "<img width=250 src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"> Часове наред бури със силни валежи наводниха град Бремен в Германия миналата нощ. Полицията и пожарната получиха стотици повиквания за помощ заради наводнени мазета и паднали дървета",
                     "_unique_translations_back_bg": [
-                        "<img width=250 src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"> Stundenlange Gewitter mit heftigen Regenfällen haben in der vergangenen Nacht die Stadt Bremen in Deutschland überschwemmt. Polizei und Feuerwehr erhielten Hunderte von Notrufen wegen überfluteter Keller und umgestürzter Bäume",
-                        "<img width=250 src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"> Stundenlange Gewitter mit heftigen Regenfällen haben in der vergangenen Nacht die Stadt Bremen in Deutschland überschwemmt. Polizei und Feuerwehr erhielten Hunderte von Notrufen wegen überfluteter Keller und umgestürzter Bäume"
+                        "",
+                        ""
                     ],
                     "_azure/gpt-4-vision_cs": "<img width=250 src=https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg><br>Hodiny trvající bouřky s prudkými dešťovými srážkami zaplavily minulou noc město Brémy v Německu.<br>Policii a hasiči přišly stovky volání o pomoc kvůli zaplaveným sklepům a popadaným stromům.",
                     "_gcp/gemini-1.5-pro_cs": "<img width=250  src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"><br>Hodiny trvající bouřky s prudkými lijáky dnes v noci zaplavily německé město Brémy.<br>Policie a hasiči přijali stovky telefonátů se žádostí o pomoc kvůli zatopeným sklepům a vyvráceným stromům. \n",
@@ -316,8 +316,8 @@
                     "_compare_gcp/gemini-1.5-pro_cs": "<img width=250 src=https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg> Hodiny trvající bouřky s prudkými dešťovými srážkami zaplavily minulou noc město Brémy v Německu. Policii a hasiči přišly stovky volání o pomoc kvůli zaplaveným sklepům a popadaným stromům",
                     "_compare_aws/claude-3.5-sonnet_cs": "<img width=250 src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"> Hodiny trvající bouřky s prudkými lijáky dnes v noci zaplavily německé město Brémy. Policie a hasiči přijali stovky telefonátů se žádostí o pomoc kvůli zatopeným sklepům a vyvráceným stromům",
                     "_unique_translations_back_cs": [
-                        "<img width=250 src=https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg> Stundenlange Gewitter mit heftigen Regenfällen haben in der vergangenen Nacht die Stadt Bremen in Deutschland überschwemmt. Polizei und Feuerwehr erhielten Hunderte von Notrufen wegen überfluteter Keller und umgestürzter Bäume",
-                        "<img width=250 src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"> Stundenlange Gewitter mit heftigen Regenfällen haben in der vergangenen Nacht die Stadt Bremen in Deutschland überschwemmt. Polizei und Feuerwehr erhielten Hunderte von Notrufen wegen überfluteter Keller und umgestürzter Bäume"
+                        "",
+                        ""
                     ],
                     "_azure/gpt-4-vision_da": "<img width=250 src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"><br>Timelange tordenvejr med kraftige regnskyl har sidste nat sat byen Bremen i Tyskland under vand.<br>Politi og brandvæsen modtog hundredevis af opkald om hjælp på grund af oversvømmede kældre og væltede træer.",
                     "_gcp/gemini-1.5-pro_da": "<img width=250  src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"><br>Timer med tordenvejr og kraftig regn satte i nat byen Bremen i Tyskland under vand.<br>Politiet og brandvæsenet modtog hundredvis af opkald om hjælp på grund af oversvømmede kældre og væltede træer. \n",
@@ -325,8 +325,8 @@
                     "_compare_gcp/gemini-1.5-pro_da": "<img width=250 src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"> Timelange tordenvejr med kraftige regnskyl har sidste nat sat byen Bremen i Tyskland under vand. Politi og brandvæsen modtog hundredevis af opkald om hjælp på grund af oversvømmede kældre og væltede træer",
                     "_compare_aws/claude-3.5-sonnet_da": "<img width=250 src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"> Timer med tordenvejr og kraftig regn satte i nat byen Bremen i Tyskland under vand. Politiet og brandvæsenet modtog hundredvis af opkald om hjælp på grund af oversvømmede kældre og væltede træer",
                     "_unique_translations_back_da": [
-                        "<img width=250 src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"> Stundenlange Gewitter mit heftigen Regenfällen haben in der vergangenen Nacht die Stadt Bremen in Deutschland überschwemmt. Polizei und Feuerwehr erhielten Hunderte von Notrufen wegen überfluteter Keller und umgestürzter Bäume",
-                        "<img width=250 src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"> Stundenlange Gewitter mit heftigen Regenfällen haben in der vergangenen Nacht die Stadt Bremen in Deutschland überschwemmt. Polizei und Feuerwehr erhielten Hunderte von Notrufen wegen überfluteter Keller und umgestürzter Bäume"
+                        "",
+                        ""
                     ],
                     "_azure/gpt-4-vision_de": "<img width=250  src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"><br>Stundenlange Gewitter mit heftigen Regenfällen haben in der letzten Nacht die Stadt Bremen in Deutschland unter Wasser gesetzt.<br>Bei Polizei und Feuerwehr gingen Hunderte von Hilferufen wegen vollgelaufener Keller und umgestürzter Bäume ein.",
                     "_gcp/gemini-1.5-pro_de": "<img width=250  src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"><br>Stundenlange Gewitter mit heftigen Regenfällen haben in der letzten Nacht die Stadt Bremen in Deutschland unter Wasser gesetzt.<br>Bei Polizei und Feuerwehr gingen Hunderte von Hilferufen wegen vollgelaufener Keller und umgestürzter Bäume ein. \n",
@@ -342,8 +342,8 @@
                     "_compare_gcp/gemini-1.5-pro_el": "<img width=250 src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"> Ώρες θυελλωδών καταιγίδων με έντονες βροχοπτώσεις πλημμύρισαν την πόλη του Βρέμη στη Γερμανία την περασμένη νύχτα. Η αστυνομία και η πυροσβεστική δέχτηκαν εκατοντάδες κλήσεις για βοήθεια λόγω πλημμυρισμένων υπογείων και πεσμένων δέντρων",
                     "_compare_aws/claude-3.5-sonnet_el": "<img width=250 src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"> Ώρες θυελλωδών καταιγίδων με έντονες βροχοπτώσεις πλημμύρισαν την πόλη του Βρέμη στη Γερμανία την περασμένη νύχτα. Η αστυνομία και η πυροσβεστική δέχτηκαν εκατοντάδες κλήσεις για βοήθεια λόγω πλημμυρισμένων υπογείων και πεσμένων δέντρων",
                     "_unique_translations_back_el": [
-                        "<img width=250 src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"> Stundenlange Gewitter mit heftigen Regenfällen haben in der vergangenen Nacht die Stadt Bremen in Deutschland überschwemmt. Polizei und Feuerwehr erhielten Hunderte von Notrufen wegen überfluteter Keller und umgestürzter Bäume",
-                        "<img width=250 src=https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg> Stundenlange Gewitter mit heftigen Regenfällen haben die Stadt Bremen in Deutschland letzte Nacht überschwemmt. Polizei und Feuerwehr erhielten Hunderte von Hilferufen wegen überfluteter Keller und umgestürzter Bäume"
+                        "",
+                        ""
                     ],
                     "_azure/gpt-4-vision_en": "<img width=250 src=https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg><br>Hours of thunderstorms with heavy rainfall have flooded the city of Bremen in Germany last night.<br>The police and fire brigade received hundreds of calls for help due to flooded basements and fallen trees.",
                     "_gcp/gemini-1.5-pro_en": "<img width=250  src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"><br>Hours of thunderstorms with heavy rainfall flooded the city of Bremen in Germany last night. The police and fire brigade received hundreds of calls for help because of flooded cellars and fallen trees. \n",
@@ -360,8 +360,8 @@
                     "_compare_gcp/gemini-1.5-pro_es": "<img width=250 src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"> Tormentas de varias horas con fuertes lluvias inundaron la ciudad de Bremen en Alemania la noche pasada. La policía y los bomberos recibieron cientos de llamadas de auxilio debido a sótanos inundados y árboles caídos",
                     "_compare_aws/claude-3.5-sonnet_es": "<img width=250 src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"> Tormentas de varias horas con fuertes lluvias inundaron la ciudad de Bremen en Alemania la noche pasada. La policía y los bomberos recibieron cientos de llamadas de auxilio debido a sótanos inundados y árboles caídos",
                     "_unique_translations_back_es": [
-                        "<img width=250 src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"> Stundenlange Gewitter mit heftigen Regenfällen haben letzte Nacht die Stadt Bremen in Deutschland überschwemmt. Polizei und Feuerwehr erhielten Hunderte von Notrufen wegen überfluteter Keller und umgestürzter Bäume",
-                        "<img width=250 src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"> Stundenlange Gewitter mit heftigen Regenfällen haben in der vergangenen Nacht die Stadt Bremen in Deutschland überschwemmt. Polizei und Feuerwehr erhielten Hunderte von Notrufen wegen überfluteter Keller und umgestürzter Bäume"
+                        "",
+                        ""
                     ],
                     "_azure/gpt-4-vision_et": "<img width=250 src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"><br>Tundidepikkused äikesetormid koos tugevate vihmasadudega uputasid eelmisel ööl Saksamaal asuva Bremeni linna.<br>Politsei ja tuletõrje said sadu abikutseid täis valgunud keldrite ja ummikusse jäänud puude tõttu.",
                     "_gcp/gemini-1.5-pro_et": "<img width=250  src=https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg><br>Tugevate vihmasadudega äikesetormid on möödunud ööl Saksamaal Bremeni linna vee alla matnud.<br>Politsei ja tuletõrje said sadu abikutseid üleujutatud keldrite ja langenud puude tõttu.\n",
@@ -369,8 +369,8 @@
                     "_compare_gcp/gemini-1.5-pro_et": "<img width=250 src=https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg> Tugevate vihmasadudega äikesetormid on möödunud ööl Saksamaal Bremeni linna vee alla matnud. Politsei ja tuletõrje said sadu abikutseid üleujutatud keldrite ja langenud puude tõttu",
                     "_compare_aws/claude-3.5-sonnet_et": "<img width=250 src=https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg> Tugevate vihmasadudega äikesetormid on möödunud ööl Saksamaal Bremeni linna vee alla matnud. Politsei ja tuletõrje said sadu abikutseid üleujutatud keldrite ja langenud puude tõttu",
                     "_unique_translations_back_et": [
-                        "<img width=250 src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"> Stundenlange Gewitter mit heftigen Regenfällen haben in der vergangenen Nacht die Stadt Bremen in Deutschland überschwemmt. Polizei und Feuerwehr erhielten Hunderte von Notrufen wegen überfluteter Keller und umgestürzter Bäume",
-                        "<img width=250 src=https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg> Stundenlange Gewitter mit heftigen Regenfällen haben in der vergangenen Nacht die Stadt Bremen in Deutschland überschwemmt. Polizei und Feuerwehr erhielten Hunderte von Notrufen wegen überfluteter Keller und umgestürzter Bäume"
+                        "",
+                        ""
                     ],
                     "_azure/gpt-4-vision_fi": "<img width=250 src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"><br>Tuntikausia kestäneet ukkosmyrskyt rankkoine sateineen ovat viime yönä tulvineet Saksan Bremenin kaupungin.<br>Poliiisi ja palokunta vastaanottivat satoja avunpyyntöjä tulvivien kellareiden ja kaatuneiden puiden vuoksi.",
                     "_gcp/gemini-1.5-pro_fi": "<img width=250  src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"><br>Tuntikausia kestäneet ukkosmyrskyt rankkasateineen ovat viime yönä peittäneet Saksan Bremenin kaupungin veden alle.<br>Poliisi ja palokunta saivat satoja avunpyyntöjä tulvineista kellareista ja kaatuneista puista. \n",
@@ -378,8 +378,8 @@
                     "_compare_gcp/gemini-1.5-pro_fi": "<img width=250 src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"> Tuntikausia kestäneet ukkosmyrskyt rankkasateineen ovat viime yönä peittäneet Saksan Bremenin kaupungin veden alle. Poliisi ja palokunta saivat satoja avunpyyntöjä tulvineista kellareista ja kaatuneista puista",
                     "_compare_aws/claude-3.5-sonnet_fi": "<img width=250 src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"> Tuntikausia kestäneet ukkosmyrskyt rankkasateineen ovat viime yönä peittäneet Saksan Bremenin kaupungin veden alle. Poliisi ja palokunta saivat satoja avunpyyntöjä tulvineista kellareista ja kaatuneista puista",
                     "_unique_translations_back_fi": [
-                        "<img width=250 src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"> Stundenlange Gewitter mit heftigen Regenfällen haben in der vergangenen Nacht die Stadt Bremen in Deutschland überschwemmt. Polizei und Feuerwehr erhielten Hunderte von Hilferufen wegen überfluteter Keller und umgestürzter Bäume",
-                        "<img width=250 src=\\https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\\> Stundenlange Gewitter mit heftigen Regenfällen haben in der vergangenen Nacht die Stadt Bremen in Deutschland überschwemmt. Polizei und Feuerwehr erhielten Hunderte von Notrufen wegen überfluteter Keller und umgestürzter Bäume"
+                        "",
+                        ""
                     ],
                     "_azure/gpt-4-vision_fr": "<img width=250 src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"><br>Des heures d'orages accompagnés de fortes précipitations ont inondé la ville de Brême en Allemagne la nuit dernière.<br>La police et les pompiers ont reçu des centaines d'appels à l'aide en raison de caves inondées et d'arbres tombés.",
                     "_gcp/gemini-1.5-pro_fr": "<img width=250  src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"><br>Des heures d'orages accompagnés de fortes pluies ont inondé la ville de Brême en Allemagne la nuit dernière.<br>La police et les pompiers ont reçu des centaines d'appels à l'aide pour cause de caves inondées et d'arbres déracinés. \n",
@@ -396,8 +396,8 @@
                     "_compare_gcp/gemini-1.5-pro_ga": "<img width=250 src=https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg> Chuir stoirmeacha toirní agus tintreach a mhair uaireanta an chloig le báisteach throm chathair Bremen sa Ghearmáin faoi uisce aréir. Fuair na póilíní agus an briogáid dóiteáin na céadta glao gutháin ó dhaoine a raibh a gcuid íoslaigh faoi uisce agus crainn a bhí tar éis titim",
                     "_compare_aws/claude-3.5-sonnet_ga": "<img width=250 src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"> Stoirmeacha a mhair ar feadh uaireanta an chloig le báisteach throm a chuir an chathair Bremen sa Ghearmáin faoi uisce aréir. Fuair na póilíní agus an bhrigáid dóiteáin na céadta glaonna cúnaimh de bharr íoslachtaí tuilte agus crainn tite",
                     "_unique_translations_back_ga": [
-                        "<img width=250 src=https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg> Stundenlange Gewitter mit heftigen Regenfällen haben letzte Nacht die Stadt Bremen in Deutschland überschwemmt. Polizei und Feuerwehr erhielten Hunderte von Anrufen wegen überfluteter Keller und umgestürzter Bäume",
-                        "<img width=250 src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"> Stundenlange Gewitter mit heftigen Regenfällen haben letzte Nacht die Stadt Bremen in Deutschland überschwemmt. Polizei und Feuerwehr erhielten Hunderte von Notrufen wegen überfluteter Keller und umgestürzter Bäume"
+                        "",
+                        ""
                     ],
                     "_azure/gpt-4-vision_hr": "<img width=250 src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"><br>Satima olujama s obilnim padalinama prošle su noći poplavile grad Bremen u Njemačkoj.<br> Policija i vatrogasci primili su stotine poziva u pomoć zbog poplavljenih podruma i srušenih stabala.",
                     "_gcp/gemini-1.5-pro_hr": "<img width=250  src=https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg><br>Višesatne oluje s jakim pljuskovima sinoć su potopile grad Bremen u Njemačkoj.<br>Policija i vatrogasci zaprimili su stotine poziva za pomoć zbog poplavljenih podruma i srušenih stabala.\n",
@@ -405,8 +405,8 @@
                     "_compare_gcp/gemini-1.5-pro_hr": "<img width=250 src=https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg> Višesatne oluje s jakim pljuskovima sinoć su potopile grad Bremen u Njemačkoj. Policija i vatrogasci zaprimili su stotine poziva za pomoć zbog poplavljenih podruma i srušenih stabala",
                     "_compare_aws/claude-3.5-sonnet_hr": "<img width=250 src=https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg> Višesatne oluje s jakim pljuskovima sinoć su potopile grad Bremen u Njemačkoj. Policija i vatrogasci zaprimili su stotine poziva za pomoć zbog poplavljenih podruma i srušenih stabala",
                     "_unique_translations_back_hr": [
-                        "<img width=250 src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"> Stundenlange Gewitter mit heftigen Regenfällen haben in der vergangenen Nacht die Stadt Bremen in Deutschland überschwemmt. Polizei und Feuerwehr erhielten Hunderte von Notrufen wegen überfluteter Keller und umgestürzter Bäume",
-                        "<img width=250 src=https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg> Stundenlange Gewitter mit heftigen Regenfällen haben in der vergangenen Nacht die Stadt Bremen in Deutschland überschwemmt. Polizei und Feuerwehr erhielten Hunderte von Notrufen wegen überfluteter Keller und umgestürzter Bäume"
+                        "",
+                        ""
                     ],
                     "_azure/gpt-4-vision_hu": "<img width=250 src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"><br>Órákon át tartó zivatarok heves esőzésekkel árasztották el a németországi Bréma városát az elmúlt éjszaka.<br>A rendőrség és a tűzoltóság százával kapott segélyhívásokat elárasztott pincék és kidőlt fák miatt.",
                     "_gcp/gemini-1.5-pro_hu": "<img width=250  src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"><br>Az elmúlt éjszaka órákon át tartó, heves esőzésekkel tarkított zivatarok árasztották el a németországi Bréma városát.<br>A rendőrséghez és a tűzoltósághoz több száz segélyhívás érkezett elárasztott pincékről és kidőlt fákról. \n",
@@ -414,8 +414,8 @@
                     "_compare_gcp/gemini-1.5-pro_hu": "<img width=250 src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"> Órákon át tartó zivatarok heves esőzésekkel árasztották el a németországi Bréma városát az elmúlt éjszaka. A rendőrség és a tűzoltóság százával kapott segélyhívásokat elárasztott pincék és kidőlt fák miatt",
                     "_compare_aws/claude-3.5-sonnet_hu": "<img width=250 src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"> Az elmúlt éjszaka órákon át tartó, heves esőzésekkel tarkított zivatarok árasztották el a németországi Bréma városát. A rendőrséghez és a tűzoltósághoz több száz segélyhívás érkezett elárasztott pincékről és kidőlt fákról",
                     "_unique_translations_back_hu": [
-                        "<img width=250 src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"> Stundenlange Gewitter mit heftigen Regenfällen haben in der vergangenen Nacht die Stadt Bremen in Deutschland überschwemmt. Die Polizei und die Feuerwehr erhielten hunderte von Notrufen wegen überfluteter Keller und umgestürzter Bäume",
-                        "<img width=250 src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"> Stundenlange Gewitter mit heftigen Regenfällen haben in der vergangenen Nacht die Stadt Bremen in Deutschland überflutet. Bei Polizei und Feuerwehr gingen Hunderte von Notrufen wegen überfluteter Keller und umgestürzter Bäume ein"
+                        "",
+                        ""
                     ],
                     "_azure/gpt-4-vision_id": "<img width=250 src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"><br>Banjir akibat hujan lebat yang berlangsung berjam-jam telah menenggelamkan kota Bremen di Jerman semalam.<br>Polisi dan pemadam kebakaran menerima ratusan panggilan darurat karena banjir di ruang bawah tanah dan pohon-pohon yang tumbang.",
                     "_gcp/gemini-1.5-pro_id": "<img width=250  src=https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg><br>Badai petir selama berjam-jam dengan curah hujan yang tinggi telah membanjiri kota Bremen di Jerman tadi malam.<br>Polisi dan pemadam kebakaran menerima ratusan panggilan darurat karena ruang bawah tanah yang tergenang air dan pohon tumbang.",
@@ -423,8 +423,8 @@
                     "_compare_gcp/gemini-1.5-pro_id": "<img width=250 src=https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg> Badai petir selama berjam-jam dengan curah hujan yang tinggi telah membanjiri kota Bremen di Jerman tadi malam. Polisi dan pemadam kebakaran menerima ratusan panggilan darurat karena ruang bawah tanah yang tergenang air dan pohon tumbang",
                     "_compare_aws/claude-3.5-sonnet_id": "<img width=250 src=https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg> Badai petir selama berjam-jam dengan curah hujan yang tinggi telah membanjiri kota Bremen di Jerman tadi malam. Polisi dan pemadam kebakaran menerima ratusan panggilan darurat karena ruang bawah tanah yang tergenang air dan pohon tumbang",
                     "_unique_translations_back_id": [
-                        "<img width=250 src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"> Stundenlange schwere Regenfälle haben letzte Nacht die Stadt Bremen in Deutschland überschwemmt. Polizei und Feuerwehr erhielten Hunderte von Notrufen wegen überfluteter Keller und umgestürzter Bäume",
-                        "<img width=250 src=https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg> Stundenlange Gewitter mit heftigen Regenfällen haben in der vergangenen Nacht die Stadt Bremen in Deutschland überschwemmt. Polizei und Feuerwehr erhielten Hunderte von Notrufen wegen überfluteter Keller und umgestürzter Bäume"
+                        "",
+                        ""
                     ],
                     "_azure/gpt-4-vision_it": "<img width=250 src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"><br>Temporali di lunga durata con forti piogge hanno allagato la città di Brema in Germania la scorsa notte.<br>La polizia e i vigili del fuoco hanno ricevuto centinaia di chiamate di emergenza a causa di cantine allagate e alberi abbattuti.",
                     "_gcp/gemini-1.5-pro_it": "<img width=250  src=https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg><br>Ore di temporali con forti piogge hanno messo sottacqua la città di Brema in Germania la notte scorsa.<br>La polizia e i vigili del fuoco hanno ricevuto centinaia di chiamate di soccorso a causa di scantinati allagati e alberi caduti.",
@@ -432,8 +432,8 @@
                     "_compare_gcp/gemini-1.5-pro_it": "<img width=250 src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"> Temporali di lunga durata con forti piogge hanno allagato la città di Brema in Germania la scorsa notte. La polizia e i vigili del fuoco hanno ricevuto centinaia di chiamate di emergenza a causa di cantine allagate e alberi abbattuti",
                     "_compare_aws/claude-3.5-sonnet_it": "<img width=250 src=https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg> Ore di temporali con forti piogge hanno messo sottacqua la città di Brema in Germania la notte scorsa. La polizia e i vigili del fuoco hanno ricevuto centinaia di chiamate di soccorso a causa di scantinati allagati e alberi caduti",
                     "_unique_translations_back_it": [
-                        "<img width=250 src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"> Stundenlange Gewitter mit heftigen Regenfällen haben in der vergangenen Nacht die Stadt Bremen in Deutschland überschwemmt. Polizei und Feuerwehr erhielten Hunderte von Notrufen wegen überfluteter Keller und umgestürzter Bäume",
-                        "<img width=250 src=https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg> Stundenlange Gewitter mit heftigen Regenfällen haben in der vergangenen Nacht die Stadt Bremen in Deutschland überschwemmt. Polizei und Feuerwehr erhielten Hunderte von Notrufen wegen überfluteter Keller und umgestürzter Bäume"
+                        "",
+                        ""
                     ],
                     "_azure/gpt-4-vision_ja": "<img width=250 src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"><br>昨夜、ドイツのブレーメン市は数時間にわたる激しい雷雨と豪雨により水没しました。<br>警察と消防には、浸水した地下室や倒れた木のために数百件の救助要請が寄せられました。",
                     "_gcp/gemini-1.5-pro_ja": "<img width=250  src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"><br>昨夜、ドイツのブレーメン市は、何時間も続く激しい雷雨に見舞われ、市内は水浸しになりました。<br>警察や消防には、浸水した地下室や倒木に関する数百件の救助要請が寄せられました。 \n",
@@ -441,8 +441,8 @@
                     "_compare_gcp/gemini-1.5-pro_ja": "<img width=250 src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"> 昨夜、ドイツのブレーメン市は数時間にわたる激しい雷雨と豪雨により水没しました。 警察と消防には、浸水した地下室や倒れた木のために数百件の救助要請が寄せられました。",
                     "_compare_aws/claude-3.5-sonnet_ja": "<img width=250 src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"> 昨夜、ドイツのブレーメン市は、何時間も続く激しい雷雨に見舞われ、市内は水浸しになりました。 警察や消防には、浸水した地下室や倒木に関する数百件の救助要請が寄せられました。",
                     "_unique_translations_back_ja": [
-                        "<img width=250 src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"> In der vergangenen Nacht wurde die Stadt Bremen in Deutschland durch stundenlange heftige Gewitter und starke Regenfälle überflutet. Polizei und Feuerwehr erhielten Hunderte von Hilferufen wegen überfluteter Keller und umgestürzter Bäume",
-                        "<img width=250 src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"> Stundenlange schwere Gewitter mit heftigen Regenfällen haben letzte Nacht die Stadt Bremen in Deutschland überschwemmt. Polizei und Feuerwehr erhielten Hunderte von Notrufen wegen überfluteter Keller und umgestürzter Bäume"
+                        "",
+                        ""
                     ],
                     "_azure/gpt-4-vision_ko": "<img width=250 src=https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg><br>지난밤 독일 브레멘 시를 수몰시킨 몇 시간 동안의 폭풍우와 강한 비가 내렸습니다.<br>경찰과 소방서에는 물에 잠긴 지하실과 쓰러진 나무들 때문에 수백 건의 도움 요청이 접수되었습니다.",
                     "_gcp/gemini-1.5-pro_ko": "<img width=250  src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"><br>지난밤 독일 브레멘 시는 몇 시간 동안 계속된 폭풍우와 폭우로 물에 잠겼습니다.<br>경찰과 소방서는 침수된 지하실과 쓰러진 나무로 인해 수백 건의 도움 요청을 받았습니다. \n",
@@ -450,8 +450,8 @@
                     "_compare_gcp/gemini-1.5-pro_ko": "<img width=250 src=https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg> 지난밤 독일 브레멘 시를 수몰시킨 몇 시간 동안의 폭풍우와 강한 비가 내렸습니다. 경찰과 소방서에는 물에 잠긴 지하실과 쓰러진 나무들 때문에 수백 건의 도움 요청이 접수되었습니다",
                     "_compare_aws/claude-3.5-sonnet_ko": "<img width=250 src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"> 지난밤 독일 브레멘 시는 몇 시간 동안 계속된 폭풍우와 폭우로 물에 잠겼습니다. 경찰과 소방서는 침수된 지하실과 쓰러진 나무로 인해 수백 건의 도움 요청을 받았습니다",
                     "_unique_translations_back_ko": [
-                        "<img width=250 src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"> Stundenlange Gewitter mit heftigen Regenfällen haben in der vergangenen Nacht die Stadt Bremen in Deutschland überschwemmt. Polizei und Feuerwehr erhielten Hunderte von Notrufen wegen überfluteter Keller und umgestürzter Bäume",
-                        "<img width=250 src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"> Die Stadt Bremen in Deutschland wurde letzte Nacht nach stundenlangen Stürmen und starken Regenfällen überschwemmt. Die Polizei und die Feuerwehr erhielten Hunderte von Hilferufen wegen überfluteter Keller und umgestürzter Bäume"
+                        "",
+                        ""
                     ],
                     "_azure/gpt-4-vision_lv": "<img width=250 src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"><br>Stundām ilgi negaisi ar stiprām lietusgāzēm pagājušajā naktī appludināja Vācijas pilsētu Bremeni.<br>Policija un ugunsdzēsēji saņēma simtiem izsaukumu par applūdušiem pagrabiem un sagāztiem kokiem.",
                     "_gcp/gemini-1.5-pro_lv": "<img width=250  src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"><br>Vakar vakarā Vācijā, Brēmenes pilsētu appludināja vairākas stundas ilgas pērkona lietusgāzes.<br>Policija un ugunsdzēsēji saņēma simtiem palīdzības zvanu par appludinātiem pagrabiem un nogāztiem kokiem. \n",
@@ -459,8 +459,8 @@
                     "_compare_gcp/gemini-1.5-pro_lv": "<img width=250 src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"> Stundām ilgi negaisi ar stiprām lietusgāzēm pagājušajā naktī appludināja Vācijas pilsētu Bremeni. Policija un ugunsdzēsēji saņēma simtiem izsaukumu par applūdušiem pagrabiem un sagāztiem kokiem",
                     "_compare_aws/claude-3.5-sonnet_lv": "<img width=250 src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"> Stundām ilgi negaisi ar stiprām lietusgāzēm pagājušajā naktī appludināja Vācijas pilsētu Bremeni. Policija un ugunsdzēsēji saņēma simtiem izsaukumu par applūdušiem pagrabiem un sagāztiem kokiem",
                     "_unique_translations_back_lv": [
-                        "<img width=250 src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"> Stundenlange Gewitter mit heftigen Regenfällen haben in der vergangenen Nacht die Stadt Bremen in Deutschland überschwemmt. Polizei und Feuerwehr erhielten Hunderte von Notrufen wegen überfluteter Keller und umgestürzter Bäume",
-                        "<img width=250 src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"> Stundenlange Gewitter mit heftigen Regenfällen haben in der vergangenen Nacht die Stadt Bremen in Deutschland überschwemmt. Polizei und Feuerwehr erhielten Hunderte von Notrufen wegen überfluteter Keller und umgestürzter Bäume"
+                        "",
+                        ""
                     ],
                     "_azure/gpt-4-vision_lt": "<img width=250 src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"><br>Valandų trukusios perkūnijos su smarkiais lietumis praėjusią naktį užtvindė Bremeno miestą Vokietijoje.<br>Policija ir gaisrinė gavo šimtus pagalbos iškvietimų dėl užlietų rūsių ir nuvirtusių medžių.",
                     "_gcp/gemini-1.5-pro_lt": "<img width=250  src=https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg><br>Praėjusią naktį Vokietijoje, Brėmeno mieste, siautė valandas trukusios audros su smarkiomis liūtimis, dėl kurių miestas atsidūrė po vandeniu.<br>Policija ir ugniagesiai gelbėtojai sulaukė šimtų pagalbos skambučių dėl užtvindytų rūsių ir išverstų medžių.",
@@ -468,8 +468,8 @@
                     "_compare_gcp/gemini-1.5-pro_lt": "<img width=250 src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"> Valandų trukusios perkūnijos su smarkiais lietumis praėjusią naktį užtvindė Bremeno miestą Vokietijoje. Policija ir gaisrinė gavo šimtus pagalbos iškvietimų dėl užlietų rūsių ir nuvirtusių medžių",
                     "_compare_aws/claude-3.5-sonnet_lt": "<img width=250 src=https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg> Praėjusią naktį Vokietijoje, Brėmeno mieste, siautė valandas trukusios audros su smarkiomis liūtimis, dėl kurių miestas atsidūrė po vandeniu. Policija ir ugniagesiai gelbėtojai sulaukė šimtų pagalbos skambučių dėl užtvindytų rūsių ir išverstų medžių",
                     "_unique_translations_back_lt": [
-                        "<img width=250 src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"> Stundenlange Gewitter mit heftigen Regenfällen haben in der vergangenen Nacht die Stadt Bremen in Deutschland überschwemmt. Polizei und Feuerwehr erhielten Hunderte von Notrufen wegen überfluteter Keller und umgestürzter Bäume",
-                        "<img width=250 src=https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg> Stundenlange Gewitter mit heftigen Regenfällen haben in der vergangenen Nacht die Stadt Bremen in Deutschland überschwemmt. Polizei und Feuerwehr erhielten Hunderte von Notrufen wegen überfluteter Keller und umgestürzter Bäume"
+                        "",
+                        ""
                     ],
                     "_azure/gpt-4-vision_mt": "<img width=250 src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"><br>Maltempati li damu sigħat b'xita qawwija għerqu l-belt ta' Bremen fil-Ġermanja matul il-lejl li għadda.<br>Il-pulizija u l-brigata tal-pumpieri rċevew mijiet ta' sejħiet għall-għajnuna minħabba kantini mgħarrqa u siġar miġġarrfa.",
                     "_gcp/gemini-1.5-pro_mt": "<img width=250  src=https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg><br>Sigħat sħaħ ta’ maltempati bir-ragħad b’xita qawwija għarrqu l-belt ta’ Bremen fil-Ġermanja matul il-lejl li għadda.<br>Il-pulizija u d-dipartiment tat-tifi tan-nar irċevew mijiet ta’ telefonati għal għajnuna minħabba kantini mgħarrqa u siġar imqaċċtin. \n",
@@ -477,8 +477,8 @@
                     "_compare_gcp/gemini-1.5-pro_mt": "<img width=250 src=https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg> Sigħat sħaħ ta’ maltempati bir-ragħad b’xita qawwija għarrqu l-belt ta’ Bremen fil-Ġermanja matul il-lejl li għadda. Il-pulizija u d-dipartiment tat-tifi tan-nar irċevew mijiet ta’ telefonati għal għajnuna minħabba kantini mgħarrqa u siġar imqaċċtin",
                     "_compare_aws/claude-3.5-sonnet_mt": "<img width=250 src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"> Maltempati li damu sigħat b'xita qawwija għerqu l-belt ta' Bremen fil-Ġermanja matul il-lejl li għadda. Il-pulizija u l-brigata tal-pumpieri rċevew mijiet ta' sejħiet għall-għajnuna minħabba kantini mgħarrqa u siġar miġġarrfa",
                     "_unique_translations_back_mt": [
-                        "<img width=250 src=https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg> Stundenlange Gewitter mit heftigen Regenfällen haben in der vergangenen Nacht die Stadt Bremen in Deutschland überschwemmt. Polizei und Feuerwehr erhielten Hunderte von Hilferufen wegen überfluteter Keller und umgestürzter Bäume",
-                        "<img width=250 src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"> Stundenlange Gewitter mit heftigen Regenfällen haben in der vergangenen Nacht die Stadt Bremen in Deutschland überschwemmt. Polizei und Feuerwehr erhielten Hunderte von Notrufen wegen überfluteter Keller und umgestürzter Bäume"
+                        "",
+                        ""
                     ],
                     "_azure/gpt-4-vision_nl": "<img width=250 src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"><br>Urenlange onweersbuien met hevige regenval hebben vannacht de stad Bremen in Duitsland onder water gezet.<br>De politie en brandweer ontvingen honderden oproepen voor hulp vanwege ondergelopen kelders en omgevallen bomen.",
                     "_gcp/gemini-1.5-pro_nl": "<img width=250  src=https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg><br>Urenlange onweersbuien met zware regenval hebben de stad Bremen in Duitsland afgelopen nacht onder water gezet.<br>De politie en brandweer kregen honderden noodoproepen vanwege ondergelopen kelders en omgewaaide bomen.\n",
@@ -486,8 +486,8 @@
                     "_compare_gcp/gemini-1.5-pro_nl": "<img width=250 src=https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg> Urenlange onweersbuien met zware regenval hebben de stad Bremen in Duitsland afgelopen nacht onder water gezet. De politie en brandweer kregen honderden noodoproepen vanwege ondergelopen kelders en omgewaaide bomen",
                     "_compare_aws/claude-3.5-sonnet_nl": "<img width=250 src=https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg> Urenlange onweersbuien met zware regenval hebben de stad Bremen in Duitsland afgelopen nacht onder water gezet. De politie en brandweer kregen honderden noodoproepen vanwege ondergelopen kelders en omgewaaide bomen",
                     "_unique_translations_back_nl": [
-                        "<img width=250 src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"> Stundenlange Gewitter mit heftigen Regenfällen haben in der vergangenen Nacht die Stadt Bremen in Deutschland überschwemmt. Polizei und Feuerwehr erhielten Hunderte von Notrufen wegen überfluteter Keller und umgestürzter Bäume",
-                        "<img width=250 src=https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg> Stundenlange Gewitter mit heftigen Regenfällen haben in der vergangenen Nacht die Stadt Bremen in Deutschland überschwemmt. Polizei und Feuerwehr erhielten Hunderte von Notrufen wegen überfluteter Keller und umgestürzter Bäume"
+                        "",
+                        ""
                     ],
                     "_azure/gpt-4-vision_pl": "<img width=250 src=https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg><br>Godzinne burze z intensywnymi opadami deszczu zalały w zeszłej nocy miasto Brema w Niemczech.<br>Policja i straż pożarna otrzymały setki wezwań o pomoc z powodu zalanych piwnic i przewróconych drzew.",
                     "_gcp/gemini-1.5-pro_pl": "<img width=250  src=https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg><br>W ciągu ostatniej nocy wielogodzinne burze z ulewnymi deszczami spowodowały zalanie miasta Brema w Niemczech.<br>Policja i straż pożarna otrzymały setki wezwań o pomoc z powodu zalanych piwnic i powalonych drzew. \n",
@@ -495,8 +495,8 @@
                     "_compare_gcp/gemini-1.5-pro_pl": "<img width=250 src=https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg> W ciągu ostatniej nocy wielogodzinne burze z ulewnymi deszczami spowodowały zalanie miasta Brema w Niemczech. Policja i straż pożarna otrzymały setki wezwań o pomoc z powodu zalanych piwnic i powalonych drzew",
                     "_compare_aws/claude-3.5-sonnet_pl": "<img width=250 src=https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg> Godzinne burze z intensywnymi opadami deszczu zalały w zeszłej nocy miasto Brema w Niemczech. Policja i straż pożarna otrzymały setki wezwań o pomoc z powodu zalanych piwnic i przewróconych drzew",
                     "_unique_translations_back_pl": [
-                        "<img width=250 src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"> Stundenlange Gewitter mit heftigen Regenfällen haben in der vergangenen Nacht die Stadt Bremen in Deutschland überschwemmt. Polizei und Feuerwehr erhielten Hunderte von Notrufen wegen überfluteter Keller und umgestürzter Bäume",
-                        "<img width=250 src=https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg> Stundenlange Gewitter mit heftigen Regenfällen haben in der vergangenen Nacht die Stadt Bremen in Deutschland überschwemmt. Polizei und Feuerwehr erhielten Hunderte von Notrufen wegen überfluteter Keller und umgestürzter Bäume"
+                        "",
+                        ""
                     ],
                     "_azure/gpt-4-vision_ro": "<img width=250 src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"><br>Furtuni de ore întregi cu ploi torențiale au inundat orașul Bremen din Germania noaptea trecută.<br>Poliția și pompierii au primit sute de apeluri de ajutor din cauza beciurilor inundate și a copacilor căzuți.",
                     "_gcp/gemini-1.5-pro_ro": "<img width=250  src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"><br>Furtuni puternice cu ploi torențiale au inundat orașul Bremen din Germania noaptea trecută.<br>Poliția și pompierii au primit sute de apeluri de urgență din cauza pivnițelor inundate și a copacilor doborâți. \n",
@@ -504,8 +504,8 @@
                     "_compare_gcp/gemini-1.5-pro_ro": "<img width=250 src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"> Furtuni de ore întregi cu ploi torențiale au inundat orașul Bremen din Germania noaptea trecută. Poliția și pompierii au primit sute de apeluri de ajutor din cauza beciurilor inundate și a copacilor căzuți",
                     "_compare_aws/claude-3.5-sonnet_ro": "<img width=250 src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"> Furtuni de ore întregi cu ploi torențiale au inundat orașul Bremen din Germania noaptea trecută. Poliția și pompierii au primit sute de apeluri de ajutor din cauza beciurilor inundate și a copacilor căzuți",
                     "_unique_translations_back_ro": [
-                        "<img width=250 src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"> Stundenlange Gewitter mit heftigen Regenfällen haben in der vergangenen Nacht die Stadt Bremen in Deutschland überschwemmt. Polizei und Feuerwehr erhielten Hunderte von Notrufen wegen überfluteter Keller und umgestürzter Bäume",
-                        "<img width=250 src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"> Stundenlange Gewitter mit heftigen Regenfällen haben in der vergangenen Nacht die Stadt Bremen in Deutschland überschwemmt. Polizei und Feuerwehr erhielten Hunderte von Notrufen wegen überfluteter Keller und umgestürzter Bäume"
+                        "",
+                        ""
                     ],
                     "_azure/gpt-4-vision_ru": "<img width=250 src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"><br>Многочасовые грозы с проливными дождями затопили город Бремен в Германии прошлой ночью.<br>Полиция и пожарная служба получили сотни вызовов о помощи из-за затопленных подвалов и упавших деревьев.",
                     "_gcp/gemini-1.5-pro_ru": "<img width=250  src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"><br>Многочасовые грозы с проливными дождями затопили город Бремен в Германии прошлой ночью. Полиция и пожарная бригада получили сотни звонков с просьбой о помощи из-за затопленных подвалов и поваленных деревьев. \n",
@@ -522,8 +522,8 @@
                     "_compare_gcp/gemini-1.5-pro_sk": "<img width=250 src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"> Hodinové búrky s prudkými dažďami minulú noc zaplavili mesto Brémy v Nemecku. Polícia a hasiči prijali stovky volaní o pomoc kvôli zatopeným pivniciam a popadaným stromom",
                     "_compare_aws/claude-3.5-sonnet_sk": "<img width=250 src=https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg> Hodinové búrky s prudkými zrážkami zaplavili minulú noc mesto Brémy v Nemecku. Polícia a hasiči prijali stovky volaní o pomoc kvôli zaplaveným pivniciam a popadaným stromom",
                     "_unique_translations_back_sk": [
-                        "<img width=250 src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"> Stundenlange Gewitter mit heftigen Regenfällen haben in der vergangenen Nacht die Stadt Bremen in Deutschland überschwemmt. Polizei und Feuerwehr erhielten Hunderte von Notrufen wegen überfluteter Keller und umgestürzter Bäume",
-                        "<img width=250 src=https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg> Stundenlange Gewitter mit heftigen Regenfällen haben in der vergangenen Nacht die Stadt Bremen in Deutschland überschwemmt. Polizei und Feuerwehr erhielten Hunderte von Notrufen wegen überfluteter Keller und umgestürzter Bäume"
+                        "",
+                        ""
                     ],
                     "_azure/gpt-4-vision_sl": "<img width=250 src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"><br>Ure dolgotrajnih neviht z močnimi nalivi so prejšnjo noč poplavile mesto Bremen v Nemčiji.<br>Policija in gasilci so prejeli stotine klicev na pomoč zaradi poplavljenih kleti in podrtega drevja.",
                     "_gcp/gemini-1.5-pro_sl": "<img width=250  src=https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg><br>Večurne nevihte s silovitimi nalivi so ponoči poplavile mesto Bremen v Nemčiji.<br>Policija in gasilci so prejeli na stotine klicev na pomoč zaradi poplavljenih kleti in podrtih dreves. \n",
@@ -531,8 +531,8 @@
                     "_compare_gcp/gemini-1.5-pro_sl": "<img width=250 src=https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg> Večurne nevihte s silovitimi nalivi so ponoči poplavile mesto Bremen v Nemčiji. Policija in gasilci so prejeli na stotine klicev na pomoč zaradi poplavljenih kleti in podrtih dreves",
                     "_compare_aws/claude-3.5-sonnet_sl": "<img width=250 src=https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg> Večurne nevihte s silovitimi nalivi so ponoči poplavile mesto Bremen v Nemčiji. Policija in gasilci so prejeli na stotine klicev na pomoč zaradi poplavljenih kleti in podrtih dreves",
                     "_unique_translations_back_sl": [
-                        "<img width=250 src=\\https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\\> Stundenlange Gewitter mit heftigen Regenfällen haben in der vergangenen Nacht die Stadt Bremen in Deutschland überschwemmt. Polizei und Feuerwehr erhielten Hunderte von Notrufen wegen überfluteter Keller und umgestürzter Bäume",
-                        "<img width=250 src=https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg> Stundenlange Gewitter mit heftigen Regenfällen haben in der vergangenen Nacht die Stadt Bremen in Deutschland überschwemmt. Polizei und Feuerwehr erhielten Hunderte von Notrufen wegen überfluteter Keller und umgestürzter Bäume"
+                        "",
+                        ""
                     ],
                     "_azure/gpt-4-vision_zh": "<img width=250 src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"><br>持续数小时的暴风雨和大雨昨晚使德国不来梅市被水淹没。<br>警察和消防队接到了数百个因地下室被水淹和树木倒塌的求助电话。",
                     "_gcp/gemini-1.5-pro_zh": "<img width=250  src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"><br>昨晚，德国不来梅市遭遇持续数小时的暴雨雷电袭击，城市被洪水淹没。<br>警察局和消防队接到了数百个求救电话，原因是地下室被淹和树木被刮倒。 \n",
@@ -540,8 +540,8 @@
                     "_compare_gcp/gemini-1.5-pro_zh": "<img width=250 src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"> 持续数小时的暴风雨和大雨昨晚使德国不来梅市被水淹没。 警察和消防队接到了数百个因地下室被水淹和树木倒塌的求助电话。",
                     "_compare_aws/claude-3.5-sonnet_zh": "<img width=250 src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"> 昨晚，德国不来梅市遭遇持续数小时的暴雨雷电袭击，城市被洪水淹没。 警察局和消防队接到了数百个求救电话，原因是地下室被淹和树木被刮倒。",
                     "_unique_translations_back_zh": [
-                        "<img width=250 src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"> Stundenlange Gewitter mit heftigen Regenfällen haben in der vergangenen Nacht die Stadt Bremen in Deutschland überschwemmt. Polizei und Feuerwehr erhielten Hunderte von Hilferufen wegen überfluteter Keller und umgestürzter Bäume",
-                        "<img width=250 src=\"https://i.ytimg.com/vi/ilwvbn7XQmI/maxresdefault.jpg\"> Letzte Nacht wurde die Stadt Bremen in Deutschland von stundenlangen Gewittern mit heftigen Regenfällen überschwemmt. Polizei und Feuerwehr erhielten Hunderte von Notrufen wegen überfluteter Keller und umgestürzter Bäume"
+                        "",
+                        ""
                     ]
                 }
             }

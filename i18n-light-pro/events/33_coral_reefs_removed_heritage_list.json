@@ -1,42 +1,426 @@
 {
-  "schedule": {
-    "conditions": [
-      {
-        "path": "..globalMeanTemperature.series.GMT [Kelvins by year]",
-        "source": "bauRCP6.0",
-        "configurationType": "PROJECTION_RESULT",
-        "value": 1.0,
-        "operator": "GTE"
-      },
-      {
-        "path": "..globalMeanTemperature.series.GMT [Kelvins by year]",
-        "source": "bauRCP6.0",
-        "configurationType": "PROJECTION_RESULT",
-        "value": 1.2,
-        "operator": "LTE"
-      }
-    ]
-  },
-  "name": "Coral reefs (Trigger 1.0 - 1.2°C)",
-  "actions": [
-    {
-      "notification": {
-        "sendEmail": false,
-        "title": {
-            "de": "UNESCO streicht Great Barrier Reef von der Weltnaturerbe-Liste",
-            "ru": "ЮНЕСКО исключило Великий барьерный риф из списка Всемирного наследия",
-            "en": "UNESCO Removes Great Barrier Reef from World Heritage List",
-            "fr": "L'UNESCO retire la Grande Barrière de Corail de la liste du patrimoine mondial",
-            "ar": "اليونسكو تستبعد الحاجز المرجاني العظيم من قائمة التراث العالمي"
-        },
-        "body": {
-            "de": "<img width=250 src=\"\"><br>Das Great Barrier Reef verliert seinen Platz in der UNESCO-Weltnaturerbe-Liste. Nach Warnungen von Expert*innen wurde das Great Barrier Reef zuvor bereits auf die Liste der gefährdeten Welterbestätten gesetzt. Das Korallensterben schreitet immer weiter voran. Es wird zunehmend unwahrscheinlich, dass sich das Ökosystem von den Folgen der Erderhitzung noch wird erholen können.<br>Text von treibhauspost.de",
-            "ru": "<img width=250 src=\"\"><br>Великий барьерный риф лишился своего места в списке Всемирного наследия ЮНЕСКО. После предупреждений экспертов риф уже был внесен в список уязвимых объектов Всемирного наследия. Гибель кораллов продолжает продвигаться. Становится все менее вероятным, что экосистема сможет восстановиться от последствий глобального потепления.<br>Текст с treibhauspost.de",
-            "en": "<img width=250 src=\"\"><br>The Great Barrier Reef is losing its place on the UNESCO World Heritage List. Following warnings from experts, the Great Barrier Reef was previously added to the list of endangered World Heritage sites. Coral bleaching continues to progress. It is becoming increasingly unlikely that the ecosystem will be able to recover from the effects of global warming.<br>Text from treibhauspost.de",
-            "ar": "<img width=250 src=\"\"><br>الحاجز المرجاني العظيم يفقد مكانه في قائمة التراث العالمي لليونسكو. بعد تحذيرات من الخبراء، تمت إضافة الحاجز المرجاني العظيم إلى قائمة المواقع المعرضة للخطر في التراث العالمي. استمرار تدهور الشعاب المرجانية. يصبح من غير المرجح بشكل متزايد أن يتمكن النظام البيئي من التعافي من تأثيرات الاحتباس الحراري.<br>نص من treibhauspost.de",
-            "fr": "<img width=250 src=\"\"><br>La Grande Barrière de Corail perd sa place dans la liste du patrimoine mondial de l'UNESCO. Après les avertissements des experts, la Grande Barrière de Corail avait déjà été inscrite sur la liste des sites du patrimoine mondial en péril. La disparition des coraux continue de progresser. Il devient de plus en plus improbable que l'écosystème puisse se rétablir des conséquences du réchauffement climatique.<br>Texte de treibhauspost.de"
+    "schedule": {
+        "conditions": [
+            {
+                "path": "..globalMeanTemperature.series.GMT [Kelvins by year]",
+                "source": "bauRCP6.0",
+                "configurationType": "PROJECTION_RESULT",
+                "value": 1.0,
+                "operator": "GTE"
+            },
+            {
+                "path": "..globalMeanTemperature.series.GMT [Kelvins by year]",
+                "source": "bauRCP6.0",
+                "configurationType": "PROJECTION_RESULT",
+                "value": 1.2,
+                "operator": "LTE"
+            }
+        ]
+    },
+    "name": "Coral reefs (Trigger 1.0 - 1.2°C)",
+    "actions": [
+        {
+            "notification": {
+                "sendEmail": false,
+                "title": {
+                    "de": "UNESCO streicht Great Barrier Reef von der Weltnaturerbe-Liste",
+                    "ru": "ЮНЕСКО исключило Великий барьерный риф из списка Всемирного наследия",
+                    "en": "UNESCO Removes Great Barrier Reef from World Heritage List",
+                    "fr": "L'UNESCO retire la Grande Barrière de Corail de la liste du patrimoine mondial",
+                    "ar": "اليونسكو تستبعد الحاجز المرجاني العظيم من قائمة التراث العالمي",
+                    "_azure/gpt-4-vision_bg": "",
+                    "_gcp/gemini-1.5-pro_bg": "",
+                    "_compare_azure/gpt-4-vision_bg": "",
+                    "_compare_gcp/gemini-1.5-pro_bg": "",
+                    "_compare_aws/claude-3.5-sonnet_bg": "",
+                    "_unique_translations_back_bg": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_cs": "",
+                    "_gcp/gemini-1.5-pro_cs": "",
+                    "_compare_azure/gpt-4-vision_cs": "",
+                    "_compare_gcp/gemini-1.5-pro_cs": "",
+                    "_compare_aws/claude-3.5-sonnet_cs": "",
+                    "_unique_translations_back_cs": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_da": "",
+                    "_gcp/gemini-1.5-pro_da": "",
+                    "_compare_azure/gpt-4-vision_da": "",
+                    "_compare_gcp/gemini-1.5-pro_da": "",
+                    "_compare_aws/claude-3.5-sonnet_da": "",
+                    "_unique_translations_back_da": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_el": "",
+                    "_gcp/gemini-1.5-pro_el": "",
+                    "_compare_azure/gpt-4-vision_el": "",
+                    "_compare_gcp/gemini-1.5-pro_el": "",
+                    "_compare_aws/claude-3.5-sonnet_el": "",
+                    "_unique_translations_back_el": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_es": "",
+                    "_gcp/gemini-1.5-pro_es": "",
+                    "_compare_azure/gpt-4-vision_es": "",
+                    "_compare_gcp/gemini-1.5-pro_es": "",
+                    "_compare_aws/claude-3.5-sonnet_es": "",
+                    "_unique_translations_back_es": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_et": "",
+                    "_gcp/gemini-1.5-pro_et": "",
+                    "_compare_azure/gpt-4-vision_et": "",
+                    "_compare_gcp/gemini-1.5-pro_et": "",
+                    "_compare_aws/claude-3.5-sonnet_et": "",
+                    "_unique_translations_back_et": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_fi": "",
+                    "_gcp/gemini-1.5-pro_fi": "",
+                    "_compare_azure/gpt-4-vision_fi": "",
+                    "_compare_gcp/gemini-1.5-pro_fi": "",
+                    "_compare_aws/claude-3.5-sonnet_fi": "",
+                    "_unique_translations_back_fi": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_ga": "",
+                    "_gcp/gemini-1.5-pro_ga": "",
+                    "_compare_azure/gpt-4-vision_ga": "",
+                    "_compare_gcp/gemini-1.5-pro_ga": "",
+                    "_compare_aws/claude-3.5-sonnet_ga": "",
+                    "_unique_translations_back_ga": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_hr": "",
+                    "_gcp/gemini-1.5-pro_hr": "",
+                    "_compare_azure/gpt-4-vision_hr": "",
+                    "_compare_gcp/gemini-1.5-pro_hr": "",
+                    "_compare_aws/claude-3.5-sonnet_hr": "",
+                    "_unique_translations_back_hr": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_hu": "",
+                    "_gcp/gemini-1.5-pro_hu": "",
+                    "_compare_azure/gpt-4-vision_hu": "",
+                    "_compare_gcp/gemini-1.5-pro_hu": "",
+                    "_compare_aws/claude-3.5-sonnet_hu": "",
+                    "_unique_translations_back_hu": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_id": "",
+                    "_gcp/gemini-1.5-pro_id": "",
+                    "_compare_azure/gpt-4-vision_id": "",
+                    "_compare_gcp/gemini-1.5-pro_id": "",
+                    "_compare_aws/claude-3.5-sonnet_id": "",
+                    "_unique_translations_back_id": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_it": "",
+                    "_gcp/gemini-1.5-pro_it": "",
+                    "_compare_azure/gpt-4-vision_it": "",
+                    "_compare_gcp/gemini-1.5-pro_it": "",
+                    "_compare_aws/claude-3.5-sonnet_it": "",
+                    "_unique_translations_back_it": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_ja": "",
+                    "_gcp/gemini-1.5-pro_ja": "",
+                    "_compare_azure/gpt-4-vision_ja": "",
+                    "_compare_gcp/gemini-1.5-pro_ja": "",
+                    "_compare_aws/claude-3.5-sonnet_ja": "",
+                    "_unique_translations_back_ja": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_ko": "",
+                    "_gcp/gemini-1.5-pro_ko": "",
+                    "_compare_azure/gpt-4-vision_ko": "",
+                    "_compare_gcp/gemini-1.5-pro_ko": "",
+                    "_compare_aws/claude-3.5-sonnet_ko": "",
+                    "_unique_translations_back_ko": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_lv": "",
+                    "_gcp/gemini-1.5-pro_lv": "",
+                    "_compare_azure/gpt-4-vision_lv": "",
+                    "_compare_gcp/gemini-1.5-pro_lv": "",
+                    "_compare_aws/claude-3.5-sonnet_lv": "",
+                    "_unique_translations_back_lv": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_lt": "",
+                    "_gcp/gemini-1.5-pro_lt": "",
+                    "_compare_azure/gpt-4-vision_lt": "",
+                    "_compare_gcp/gemini-1.5-pro_lt": "",
+                    "_compare_aws/claude-3.5-sonnet_lt": "",
+                    "_unique_translations_back_lt": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_mt": "",
+                    "_gcp/gemini-1.5-pro_mt": "",
+                    "_compare_azure/gpt-4-vision_mt": "",
+                    "_compare_gcp/gemini-1.5-pro_mt": "",
+                    "_compare_aws/claude-3.5-sonnet_mt": "",
+                    "_unique_translations_back_mt": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_nl": "",
+                    "_gcp/gemini-1.5-pro_nl": "",
+                    "_compare_azure/gpt-4-vision_nl": "",
+                    "_compare_gcp/gemini-1.5-pro_nl": "",
+                    "_compare_aws/claude-3.5-sonnet_nl": "",
+                    "_unique_translations_back_nl": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_pl": "",
+                    "_gcp/gemini-1.5-pro_pl": "",
+                    "_compare_azure/gpt-4-vision_pl": "",
+                    "_compare_gcp/gemini-1.5-pro_pl": "",
+                    "_compare_aws/claude-3.5-sonnet_pl": "",
+                    "_unique_translations_back_pl": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_ro": "",
+                    "_gcp/gemini-1.5-pro_ro": "",
+                    "_compare_azure/gpt-4-vision_ro": "",
+                    "_compare_gcp/gemini-1.5-pro_ro": "",
+                    "_compare_aws/claude-3.5-sonnet_ro": "",
+                    "_unique_translations_back_ro": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_sk": "",
+                    "_gcp/gemini-1.5-pro_sk": "",
+                    "_compare_azure/gpt-4-vision_sk": "",
+                    "_compare_gcp/gemini-1.5-pro_sk": "",
+                    "_compare_aws/claude-3.5-sonnet_sk": "",
+                    "_unique_translations_back_sk": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_sl": "",
+                    "_gcp/gemini-1.5-pro_sl": "",
+                    "_compare_azure/gpt-4-vision_sl": "",
+                    "_compare_gcp/gemini-1.5-pro_sl": "",
+                    "_compare_aws/claude-3.5-sonnet_sl": "",
+                    "_unique_translations_back_sl": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_sv": "",
+                    "_gcp/gemini-1.5-pro_sv": "",
+                    "_compare_azure/gpt-4-vision_sv": "",
+                    "_compare_gcp/gemini-1.5-pro_sv": "",
+                    "_compare_aws/claude-3.5-sonnet_sv": "",
+                    "_unique_translations_back_sv": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_zh": "",
+                    "_gcp/gemini-1.5-pro_zh": "",
+                    "_compare_azure/gpt-4-vision_zh": "",
+                    "_compare_gcp/gemini-1.5-pro_zh": "",
+                    "_compare_aws/claude-3.5-sonnet_zh": "",
+                    "_unique_translations_back_zh": [
+                        ""
+                    ]
+                },
+                "body": {
+                    "de": "<img width=250 src=\"\"><br>Das Great Barrier Reef verliert seinen Platz in der UNESCO-Weltnaturerbe-Liste. Nach Warnungen von Expert*innen wurde das Great Barrier Reef zuvor bereits auf die Liste der gefährdeten Welterbestätten gesetzt. Das Korallensterben schreitet immer weiter voran. Es wird zunehmend unwahrscheinlich, dass sich das Ökosystem von den Folgen der Erderhitzung noch wird erholen können.<br>Text von treibhauspost.de",
+                    "ru": "<img width=250 src=\"\"><br>Великий барьерный риф лишился своего места в списке Всемирного наследия ЮНЕСКО. После предупреждений экспертов риф уже был внесен в список уязвимых объектов Всемирного наследия. Гибель кораллов продолжает продвигаться. Становится все менее вероятным, что экосистема сможет восстановиться от последствий глобального потепления.<br>Текст с treibhauspost.de",
+                    "en": "<img width=250 src=\"\"><br>The Great Barrier Reef is losing its place on the UNESCO World Heritage List. Following warnings from experts, the Great Barrier Reef was previously added to the list of endangered World Heritage sites. Coral bleaching continues to progress. It is becoming increasingly unlikely that the ecosystem will be able to recover from the effects of global warming.<br>Text from treibhauspost.de",
+                    "ar": "<img width=250 src=\"\"><br>الحاجز المرجاني العظيم يفقد مكانه في قائمة التراث العالمي لليونسكو. بعد تحذيرات من الخبراء، تمت إضافة الحاجز المرجاني العظيم إلى قائمة المواقع المعرضة للخطر في التراث العالمي. استمرار تدهور الشعاب المرجانية. يصبح من غير المرجح بشكل متزايد أن يتمكن النظام البيئي من التعافي من تأثيرات الاحتباس الحراري.<br>نص من treibhauspost.de",
+                    "fr": "<img width=250 src=\"\"><br>La Grande Barrière de Corail perd sa place dans la liste du patrimoine mondial de l'UNESCO. Après les avertissements des experts, la Grande Barrière de Corail avait déjà été inscrite sur la liste des sites du patrimoine mondial en péril. La disparition des coraux continue de progresser. Il devient de plus en plus improbable que l'écosystème puisse se rétablir des conséquences du réchauffement climatique.<br>Texte de treibhauspost.de",
+                    "_azure/gpt-4-vision_bg": "",
+                    "_gcp/gemini-1.5-pro_bg": "",
+                    "_compare_azure/gpt-4-vision_bg": "",
+                    "_compare_gcp/gemini-1.5-pro_bg": "",
+                    "_compare_aws/claude-3.5-sonnet_bg": "",
+                    "_unique_translations_back_bg": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_cs": "",
+                    "_gcp/gemini-1.5-pro_cs": "",
+                    "_compare_azure/gpt-4-vision_cs": "",
+                    "_compare_gcp/gemini-1.5-pro_cs": "",
+                    "_compare_aws/claude-3.5-sonnet_cs": "",
+                    "_unique_translations_back_cs": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_da": "",
+                    "_gcp/gemini-1.5-pro_da": "",
+                    "_compare_azure/gpt-4-vision_da": "",
+                    "_compare_gcp/gemini-1.5-pro_da": "",
+                    "_compare_aws/claude-3.5-sonnet_da": "",
+                    "_unique_translations_back_da": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_el": "",
+                    "_gcp/gemini-1.5-pro_el": "",
+                    "_compare_azure/gpt-4-vision_el": "",
+                    "_compare_gcp/gemini-1.5-pro_el": "",
+                    "_compare_aws/claude-3.5-sonnet_el": "",
+                    "_unique_translations_back_el": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_es": "",
+                    "_gcp/gemini-1.5-pro_es": "",
+                    "_compare_azure/gpt-4-vision_es": "",
+                    "_compare_gcp/gemini-1.5-pro_es": "",
+                    "_compare_aws/claude-3.5-sonnet_es": "",
+                    "_unique_translations_back_es": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_et": "",
+                    "_gcp/gemini-1.5-pro_et": "",
+                    "_compare_azure/gpt-4-vision_et": "",
+                    "_compare_gcp/gemini-1.5-pro_et": "",
+                    "_compare_aws/claude-3.5-sonnet_et": "",
+                    "_unique_translations_back_et": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_fi": "",
+                    "_gcp/gemini-1.5-pro_fi": "",
+                    "_compare_azure/gpt-4-vision_fi": "",
+                    "_compare_gcp/gemini-1.5-pro_fi": "",
+                    "_compare_aws/claude-3.5-sonnet_fi": "",
+                    "_unique_translations_back_fi": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_ga": "",
+                    "_gcp/gemini-1.5-pro_ga": "",
+                    "_compare_azure/gpt-4-vision_ga": "",
+                    "_compare_gcp/gemini-1.5-pro_ga": "",
+                    "_compare_aws/claude-3.5-sonnet_ga": "",
+                    "_unique_translations_back_ga": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_hr": "",
+                    "_gcp/gemini-1.5-pro_hr": "",
+                    "_compare_azure/gpt-4-vision_hr": "",
+                    "_compare_gcp/gemini-1.5-pro_hr": "",
+                    "_compare_aws/claude-3.5-sonnet_hr": "",
+                    "_unique_translations_back_hr": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_hu": "",
+                    "_gcp/gemini-1.5-pro_hu": "",
+                    "_compare_azure/gpt-4-vision_hu": "",
+                    "_compare_gcp/gemini-1.5-pro_hu": "",
+                    "_compare_aws/claude-3.5-sonnet_hu": "",
+                    "_unique_translations_back_hu": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_id": "",
+                    "_gcp/gemini-1.5-pro_id": "",
+                    "_compare_azure/gpt-4-vision_id": "",
+                    "_compare_gcp/gemini-1.5-pro_id": "",
+                    "_compare_aws/claude-3.5-sonnet_id": "",
+                    "_unique_translations_back_id": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_it": "",
+                    "_gcp/gemini-1.5-pro_it": "",
+                    "_compare_azure/gpt-4-vision_it": "",
+                    "_compare_gcp/gemini-1.5-pro_it": "",
+                    "_compare_aws/claude-3.5-sonnet_it": "",
+                    "_unique_translations_back_it": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_ja": "",
+                    "_gcp/gemini-1.5-pro_ja": "",
+                    "_compare_azure/gpt-4-vision_ja": "",
+                    "_compare_gcp/gemini-1.5-pro_ja": "",
+                    "_compare_aws/claude-3.5-sonnet_ja": "",
+                    "_unique_translations_back_ja": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_ko": "",
+                    "_gcp/gemini-1.5-pro_ko": "",
+                    "_compare_azure/gpt-4-vision_ko": "",
+                    "_compare_gcp/gemini-1.5-pro_ko": "",
+                    "_compare_aws/claude-3.5-sonnet_ko": "",
+                    "_unique_translations_back_ko": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_lv": "",
+                    "_gcp/gemini-1.5-pro_lv": "",
+                    "_compare_azure/gpt-4-vision_lv": "",
+                    "_compare_gcp/gemini-1.5-pro_lv": "",
+                    "_compare_aws/claude-3.5-sonnet_lv": "",
+                    "_unique_translations_back_lv": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_lt": "",
+                    "_gcp/gemini-1.5-pro_lt": "",
+                    "_compare_azure/gpt-4-vision_lt": "",
+                    "_compare_gcp/gemini-1.5-pro_lt": "",
+                    "_compare_aws/claude-3.5-sonnet_lt": "",
+                    "_unique_translations_back_lt": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_mt": "",
+                    "_gcp/gemini-1.5-pro_mt": "",
+                    "_compare_azure/gpt-4-vision_mt": "",
+                    "_compare_gcp/gemini-1.5-pro_mt": "",
+                    "_compare_aws/claude-3.5-sonnet_mt": "",
+                    "_unique_translations_back_mt": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_nl": "",
+                    "_gcp/gemini-1.5-pro_nl": "",
+                    "_compare_azure/gpt-4-vision_nl": "",
+                    "_compare_gcp/gemini-1.5-pro_nl": "",
+                    "_compare_aws/claude-3.5-sonnet_nl": "",
+                    "_unique_translations_back_nl": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_pl": "",
+                    "_gcp/gemini-1.5-pro_pl": "",
+                    "_compare_azure/gpt-4-vision_pl": "",
+                    "_compare_gcp/gemini-1.5-pro_pl": "",
+                    "_compare_aws/claude-3.5-sonnet_pl": "",
+                    "_unique_translations_back_pl": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_ro": "",
+                    "_gcp/gemini-1.5-pro_ro": "",
+                    "_compare_azure/gpt-4-vision_ro": "",
+                    "_compare_gcp/gemini-1.5-pro_ro": "",
+                    "_compare_aws/claude-3.5-sonnet_ro": "",
+                    "_unique_translations_back_ro": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_sk": "",
+                    "_gcp/gemini-1.5-pro_sk": "",
+                    "_compare_azure/gpt-4-vision_sk": "",
+                    "_compare_gcp/gemini-1.5-pro_sk": "",
+                    "_compare_aws/claude-3.5-sonnet_sk": "",
+                    "_unique_translations_back_sk": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_sl": "",
+                    "_gcp/gemini-1.5-pro_sl": "",
+                    "_compare_azure/gpt-4-vision_sl": "",
+                    "_compare_gcp/gemini-1.5-pro_sl": "",
+                    "_compare_aws/claude-3.5-sonnet_sl": "",
+                    "_unique_translations_back_sl": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_sv": "",
+                    "_gcp/gemini-1.5-pro_sv": "",
+                    "_compare_azure/gpt-4-vision_sv": "",
+                    "_compare_gcp/gemini-1.5-pro_sv": "",
+                    "_compare_aws/claude-3.5-sonnet_sv": "",
+                    "_unique_translations_back_sv": [
+                        ""
+                    ],
+                    "_azure/gpt-4-vision_zh": "",
+                    "_gcp/gemini-1.5-pro_zh": "",
+                    "_compare_azure/gpt-4-vision_zh": "",
+                    "_compare_gcp/gemini-1.5-pro_zh": "",
+                    "_compare_aws/claude-3.5-sonnet_zh": "",
+                    "_unique_translations_back_zh": [
+                        ""
+                    ]
+                }
+            }
         }
-      }
-    }
-  ]
+    ]
 }

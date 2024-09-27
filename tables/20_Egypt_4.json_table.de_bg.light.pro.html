@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <style>
+        @page {
+            size: A4 landscape;
+        }
+    </style>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-family: verdana, serif;
+            font-size:12px;
+            border: 1px solid white;
+            transform: scale(0.3);
+            transform-origin: top left;
+        }
+        th, td {
+            border-bottom:3px solid white;
+            border-right:3px solid white;
+            padding: 15px;
+            text-align: left;
+        }
+        th {
+            background-color: darkgray;
+        }
+        td {
+            background-color: lightgray;
+        }
+        .endtd {
+            border-right: 3px solid darkgray;
+        }
+        .translate {
+            background-color: lightblue;
+        }
+        .back-translate {
+            background-color: lightgrey;
+        }
+        .winner {
+            background-color: lightpink;
+        }
+        .compare {
+            background-color: lightsteelblue;
+        }
+        .source {
+            background-color: palegoldenrod;
+        }
+        .empty {
+            background-color: lightgrey;
+        }
+        .sources {
+            font-weight: bold;
+            font-size: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>20_Egypt_4.json</h1>
+    <table>
+        <thead>
+            <tr>
+                
+                    <th>source text</th>
+                
+                    <th>--- 0 ---</th>
+                
+                    <th></th>
+                
+                    <th>--- 1 ---</th>
+                
+                    <th></th>
+                
+                    <th>azure/gpt-4-vision</th>
+                
+                    <th>gcp/gemini-1.5-pro</th>
+                
+                    <th>aws/claude-3.5-sonnet</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            
+                <tr>
+                    <td class="endtd source">Ernährungsknappheit in Ägypten – Klimafolgen machen Landwirtschaft und Lebensmittelanbau unmöglich</td>
+
+
+                    <td class="winner"><br><span class="sources">azure/gpt-4-vision, gcp/gemini-1.5-pro</span></td>
+                    <td class="back-translate"></td>
+
+
+
+                    <td class="empty"></td>
+                    <td class="empty"></td>
+
+
+
+                    <td class="compare">-1</td>
+
+                    <td class="compare">-1</td>
+
+                    <td class="compare">-1</td>
+
+                </tr>
+            
+                <tr>
+                    <td class="endtd source">Der Anstieg des Meeresspiegels und damit einhergehende Flutkatastrophen stellen die gesamte Landwirtschaft Ägyptens auf den Kopf. Insbesondere der Anbau von Weizen ist nur noch selten möglich und bringt wirtschaftlich keinen Ertrag mehr. Hauptsächlicher Grund dafür ist der Meeresspiegelanstieg, der die Böden versalzt und einen Anbau somit unmöglich macht. Der steigende Salzgehalt in den Böden und im Grundwasser führt ebenfalls dazu, dass immer mehr Menschen auf salziges Trinkwasser angewiesen sind. Gerade in der Trockenzeit, in der es gerne mal einige Monate nicht regnet, müssen viele Menschen auf versalzenes Trinkwasser zurückgreifen. 
+ 
+ Die Weltgesundheitsorganisation WHO spricht von katastrophalen Zuständen im Land. Die Bevölkerung Ägyptens ist immer mehr auf Nahrungsmittelimporte angewiesen. Da jedoch nicht nur Ägypten von Nahrungsknappheit bedroht ist, sondern weltweite Engpässe bestehen, sind immer weniger Länder dazu bereit, Nahrungsmittel zu exportieren. Die Generalsekretärin der Vereinten Nationen warnte deshalb Ende letzter Woche vor kommenden humanitären Krisen, die insbesondere Länder bedrohen, die nur in geringer Menge eigene Nahrungsmittel produzieren.</td>
+
+
+                    <td class="winner"><br><span class="sources">azure/gpt-4-vision, gcp/gemini-1.5-pro</span></td>
+                    <td class="back-translate"></td>
+
+
+
+                    <td class="empty"></td>
+                    <td class="empty"></td>
+
+
+
+                    <td class="compare">-1</td>
+
+                    <td class="compare">-1</td>
+
+                    <td class="compare">-1</td>
+
+                </tr>
+            
+        </tbody>
+    </table>
+</body>
+</html>
