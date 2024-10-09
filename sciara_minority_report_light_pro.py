@@ -12,6 +12,11 @@ import os
 from jinja2 import Environment, FileSystemLoader
 from bs4 import BeautifulSoup
 
+from reportlab.lib.pagesizes import letter
+from reportlab.pdfgen import canvas
+from reportlab.lib import colors
+from reportlab.platypus import SimpleDocTemplate, Table, TableStyle
+
 os.environ['DYLD_FALLBACK_LIBRARY_PATH'] = "/opt/homebrew/lib:" + os.environ.get('DYLD_FALLBACK_LIBRARY_PATH', '')
 
 from weasyprint import HTML
@@ -267,6 +272,51 @@ async def get_best_back_translation(
 
 def is_translation(path: str) -> bool:
     return path.split(".")[-1].lower() in LANGUAGES and not "imageRef" in path
+
+
+def create_pdf_table(input_file: str, translation_lines: [str], source: str, target: str):
+    pdf_filename = f"./tables/{input_file}_table.{source}_{target}.light.pro.pdf"
+    # Create a SimpleDocTemplate object
+    pdf = SimpleDocTemplate(
+        pdf_filename,
+        pagesize=letter
+    )
+
+    translation_headers = []
+    model_names = TRANSLATION_MODELS.split(",")
+    for i in range(len(model_names)):
+        translation_headers.append(f"--- {i} ---")
+        translation_headers.append("")
+
+    assess_headers = [model_name for model_name in TRANSLATION_ASSESS_MODELS.split(",")]
+
+    data_lines = [[*translation_headers, *assess_headers]]
+    for translation_line in translation_lines:
+        data_line = [translation_line["source_text"]]
+        for i in range(len(translation_line["translations"])):
+            data_line.append(translation_line["translations"][i])
+            data_line.append(translation_line["translations_back"][i])
+        data_lines.append(data_line)
+
+    # Create a Table object
+    table = Table(data)
+
+    # Add style to the table
+    style = TableStyle([
+        ('BACKGROUND', (0, 0), (-1, 0), colors.grey),
+        ('TEXTCOLOR', (0, 0), (-1, 0), colors.whitesmoke),
+        ('ALIGN', (0, 0), (-1, -1), 'CENTER'),
+        ('FONTNAME', (0, 0), (-1, 0), 'Helvetica-Bold'),
+        ('BOTTOMPADDING', (0, 0), (-1, 0), 12),
+        ('BACKGROUND', (0, 1), (-1, -1), colors.beige),
+        ('GRID', (0, 0), (-1, -1), 1, colors.black)
+    ])
+    table.setStyle(style)
+
+    # Build the PDF
+    elements = [table]
+    pdf.build(elements)
+
 
 
 def create_table(input_file: str, translation_lines: [str], source: str, target: str) -> str:
@@ -545,25 +595,30 @@ async def process_i18n_file(file_path: str, file_description:str, target_languag
     return table_lines_dict
 
 
-async def process_one_file(input_file: str, file_description: str) -> [str]:
+async def process_one_file(input_file: str, file_description: str) -> ([str], [str]):
     table_lines_dict = await process_i18n_file(file_path=input_file, file_description=file_description, target_language=TARGET_LANGUAGE)
     html_tables = []
+    pdf_tables = []
     for target_language in table_lines_dict:
         html_table = create_table(translation_lines=table_lines_dict[target_language], source=SOURCE_LANGUAGE, target=target_language, input_file=os.path.basename(input_file))
         html_tables.append(html_table)
-    return html_tables
+        pdf_table = create_pdf_table(translation_lines=table_lines_dict[target_language], source=SOURCE_LANGUAGE, target=target_language, input_file=os.path.basename(input_file))
+        pdf_tables.append(pdf_table)
+    return html_tables, pdf_tables
 
 
-async def process_input_file_set(file_set_path: str) -> [str]:
+async def process_input_file_set(file_set_path: str) -> ([str], [str]):
     all_html_tables = []
+    all_pdf_tables =[]
     with open(file_set_path, 'r') as f:
         for line in f:
             if len(line.strip()) > 0:
                 print(f"==========> {line.strip()}")
                 relative_file_path, file_description = line.strip().split(",")
-                html_tables = await process_one_file(input_file=os.path.join(INPUT_FILE_ROOT_FOLDER, relative_file_path), file_description=file_description)
+                html_tables, pdf_tables = await process_one_file(input_file=os.path.join(INPUT_FILE_ROOT_FOLDER, relative_file_path), file_description=file_description)
                 all_html_tables.extend(html_tables)
-    return all_html_tables
+                all_pdf_tables.extend(pdf_tables)
+    return all_html_tables, all_pdf_tables
 
 
 def create_all_pdf_file(html_files: [str]):
