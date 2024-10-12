@@ -276,7 +276,6 @@ def is_translation(path: str) -> bool:
 
 def create_pdf_table(input_file: str, translation_lines: [str], source: str, target: str):
     pdf_filename = f"./tables/{input_file}_table.{source}_{target}.light.pro.pdf"
-    # Create a SimpleDocTemplate object
     pdf = SimpleDocTemplate(
         pdf_filename,
         pagesize=letter
@@ -298,7 +297,6 @@ def create_pdf_table(input_file: str, translation_lines: [str], source: str, tar
             data_line.append(translation_line["translations_back"][i])
         data_lines.append(data_line)
 
-    # Create a Table object
     table = Table(data_lines)
 
     # Add style to the table
@@ -316,7 +314,6 @@ def create_pdf_table(input_file: str, translation_lines: [str], source: str, tar
     # Build the PDF
     elements = [table]
     pdf.build(elements)
-
 
 
 def create_table(input_file: str, translation_lines: [str], source: str, target: str) -> str:
