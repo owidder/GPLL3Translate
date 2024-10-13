@@ -288,8 +288,8 @@ def create_pdf_table(input_file: str, translation_lines: [str], source: str, tar
     translation_headers = []
     model_names = TRANSLATION_MODELS.split(",")
     for i in range(len(model_names)):
-        Paragraph(text=translation_headers.append(f"--- {i} ---"), style=styleN)
-        Paragraph(text=translation_headers.append(""), style=styleN)
+        translation_headers.append(Paragraph(text=f"--- {i} ---", style=styleN))
+        translation_headers.append(Paragraph(text="", style=styleN))
 
     assess_headers = [Paragraph(text=model_name, style=styleN) for model_name in TRANSLATION_ASSESS_MODELS.split(",")]
 
