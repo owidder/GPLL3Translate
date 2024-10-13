@@ -18,6 +18,8 @@ from reportlab.lib import colors
 from reportlab.platypus import SimpleDocTemplate, Table, TableStyle, Paragraph
 from reportlab.lib.styles import getSampleStyleSheet
 
+from xhtml2pdf import pisa
+
 os.environ['DYLD_FALLBACK_LIBRARY_PATH'] = "/opt/homebrew/lib:" + os.environ.get('DYLD_FALLBACK_LIBRARY_PATH', '')
 
 from weasyprint import HTML
@@ -341,7 +343,10 @@ def create_table(input_file: str, translation_lines: [str], source: str, target:
     html_file = f"./tables/{input_file}_table.{source}_{target}.light.pro.html"
     with open(html_file, 'w') as f:
         f.write(html)
-    #HTML(html_file).write_pdf(f"{html_file}.pdf")
+    #HTML(html _file).write_pdf(f"{html_file}.pdf")
+    pdf_file = f"./tables/{input_file}_table.{source}_{target}.light.pro.html.pdf"
+    with open(pdf_file, "w+b") as pdf_file:
+        pisa.CreatePDF(html, dest=pdf_file)
     return(html_file)
 
 

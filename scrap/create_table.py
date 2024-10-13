@@ -4,7 +4,7 @@ from reportlab.lib.styles import getSampleStyleSheet
 from reportlab.lib import colors
 
 
-def create_pdf_with_wrapped_text(filename):
+def create_pdf_with_html_text(filename):
     # Create a PDF document
     pdf = SimpleDocTemplate(filename, pagesize=letter)
 
@@ -12,15 +12,21 @@ def create_pdf_with_wrapped_text(filename):
     styles = getSampleStyleSheet()
     styleN = styles['Normal']
 
-    # Define data for the table (using Paragraph for text wrapping)
+    # Define data for the table with HTML formatted text
     data = [
-        [Paragraph('Header 1', styleN), Paragraph('Header 2', styleN), Paragraph('Header 3', styleN)],
-        [Paragraph('This is a longer description in column 1', styleN),
+        [Paragraph('<b>Header 1</b>', styleN), Paragraph('<b>Header 2</b>', styleN),
+         Paragraph('<b>Header 3</b>', styleN)],
+        [Paragraph(
+            '<i>This is a <u>longer description</u> in column 1 with <font color="red">HTML</font> formatting</i>',
+            styleN),
          Paragraph('Row 1, Col 2', styleN), Paragraph('Row 1, Col 3', styleN)],
-        [Paragraph('Row 2, Col 1', styleN), Paragraph('Another long text that needs wrapping in column 2', styleN),
+        [Paragraph('Row 2, Col 1', styleN),
+         Paragraph('<b>Another long text</b> that needs <u>wrapping</u> in column 2', styleN),
          Paragraph('Row 2, Col 3', styleN)],
         [Paragraph('Row 3, Col 1', styleN), Paragraph('Row 3, Col 2', styleN),
-         Paragraph('This is a very long text in column 3 which should wrap appropriately', styleN)],
+         Paragraph(
+             '<font size="12">This is a very long text in column 3 which <font color="blue"><b>should wrap appropriately</b></font></font>',
+             styleN)],
     ]
 
     # Create the table
@@ -53,4 +59,4 @@ def create_pdf_with_wrapped_text(filename):
 
 
 # Call the function to create the PDF
-create_pdf_with_wrapped_text("table_wrapped_text_example.pdf")
+create_pdf_with_html_text("table_html_text_example.pdf")
