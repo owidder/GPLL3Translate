@@ -1,35 +1,53 @@
 {
-  "schedule": {
-    "date": "2050-01-01T00:00:00",
-    "conditions": [
-      {
-        "path": "..globalMeanTemperature.series.GMT [Kelvins by year]",
-        "configurationType": "PROJECTION_RESULT",
-        "value": 1.3,
-        "operator": "GTE"
-      }
-    ]
-  },
-  "name": "Nutrition (Trigger 2050, RCP 6.0)",
-  "actions": [
-    {
-      "notification": {
-        "sendEmail": false,
-        "title": {
-          "de": "Anzahl der Toten durch Mangelernährung steigt",
-          "ru": "Количество смертей от недоедания растет",
-          "en": "Number of Deaths from Malnutrition on the Rise",
-          "fr": "Augmentation du nombre de décès dus à la malnutrition",
-          "ar": "ارتفاع عدد الوفيات بسبب سوء التغذية"
-        },
-        "body": {
-          "de": "<img width=250 src=\"../../../content/images/events/37_malnutrition_deaths_rise.jpg\"><br>Das Bundesgesundheitsministerium hat bekannt gegeben, dass im vergangenen Jahr die Zahl der Toten in vielen Ländern Südostasiens, die an Krankheiten und Mangelernährung in Folge der geringen Verfügbarkeit von Obst und Gemüse gestorben sind, erheblich gestiegen ist. Die eingeschränkte Versorgung lässt sich auf die globale Lebensmittelknappheit infolge des Klimawandels zurückführen.<br>Text von treibhauspost.de",
-          "ru": "<img width=250 src=\"../../../content/images/events/37_malnutrition_deaths_rise.jpg\"><br>Министерство здравоохранения объявило, что в прошлом году число умерших от болезней и недоедания во многих странах Юго-Восточной Азии значительно увеличилось из-за недостаточной доступности фруктов и овощей. Ограниченное снабжение обусловлено глобальным дефицитом продовольствия из-за изменения климата.<br>Текст с treibhauspost.de",
-          "en": "<img width=250 src=\"../../../content/images/events/37_malnutrition_deaths_rise.jpg\"><br>The Ministry of Health has announced that the number of deaths in many countries in Southeast Asia due to diseases and malnutrition as a result of limited availability of fruits and vegetables has significantly risen in the past year. The restricted supply is attributed to the global food scarcity resulting from climate change.<br>Text from treibhauspost.de",
-          "ar": "<img width=250 src=\"../../../content/images/events/37_malnutrition_deaths_rise.jpg\"><br>أعلن وزارة الصحة أن عدد الوفيات في العديد من دول جنوب شرق آسيا نتيجة للأمراض وسوء التغذية نتيجة للتوفر المحدود للفواكه والخضروات ارتفع بشكل كبير في العام الماضي. يُعزى هذا الإمداد المقيد إلى ندرة الغذاء العالمية نتيجة لتغير المناخ.<br>نص من treibhauspost.de",
-          "fr": "<img width=250 src=\"../../../content/images/events/37_malnutrition_deaths_rise.jpg\"><br>Le ministère de la Santé a annoncé que le nombre de décès dans de nombreux pays d'Asie du Sud-Est en raison de maladies et de la malnutrition suite à la disponibilité limitée de fruits et légumes a considérablement augmenté l'année dernière. L'approvisionnement restreint est attribué à la pénurie alimentaire mondiale résultant du changement climatique.<br>Texte de treibhauspost.de"
+    "schedule": {
+        "date": "2050-01-01T00:00:00",
+        "conditions": [
+            {
+                "path": "..globalMeanTemperature.series.GMT [Kelvins by year]",
+                "configurationType": "PROJECTION_RESULT",
+                "value": 1.3,
+                "operator": "GTE"
+            }
+        ]
+    },
+    "name": "Nutrition (Trigger 2050, RCP 6.0)",
+    "actions": [
+        {
+            "notification": {
+                "sendEmail": false,
+                "title": {
+                    "de": "Anzahl der Toten durch Mangelernährung steigt",
+                    "ru": "Количество смертей от недоедания растет",
+                    "en": "Number of Deaths from Malnutrition on the Rise",
+                    "fr": "Augmentation du nombre de décès dus à la malnutrition",
+                    "ar": "ارتفاع عدد الوفيات بسبب سوء التغذية",
+                    "_azure/gpt-4-vision_sv": "",
+                    "_gcp/gemini-1.5-pro_sv": "Antalet dödsfall på grund av undernäring ökar \n",
+                    "_compare_azure/gpt-4-vision_sv": "",
+                    "_compare_gcp/gemini-1.5-pro_sv": "Antalet dödsfall på grund av undernäring ökar",
+                    "_compare_aws/claude-3.5-sonnet_sv": "Antalet dödsfall på grund av undernäring ökar",
+                    "_unique_translations_back_sv": [
+                        "Da kein schwedischer Text zur Übersetzung bereitgestellt wurde, kann ich keine Übersetzung ins Deutsche anbieten",
+                        "Die Zahl der Todesfälle aufgrund von Unterernährung steigt"
+                    ]
+                },
+                "body": {
+                    "de": "<img width=250 src=\"../../../content/images/events/37_malnutrition_deaths_rise.jpg\"><br>Das Bundesgesundheitsministerium hat bekannt gegeben, dass im vergangenen Jahr die Zahl der Toten in vielen Ländern Südostasiens, die an Krankheiten und Mangelernährung in Folge der geringen Verfügbarkeit von Obst und Gemüse gestorben sind, erheblich gestiegen ist. Die eingeschränkte Versorgung lässt sich auf die globale Lebensmittelknappheit infolge des Klimawandels zurückführen.<br>Text von treibhauspost.de",
+                    "ru": "<img width=250 src=\"../../../content/images/events/37_malnutrition_deaths_rise.jpg\"><br>Министерство здравоохранения объявило, что в прошлом году число умерших от болезней и недоедания во многих странах Юго-Восточной Азии значительно увеличилось из-за недостаточной доступности фруктов и овощей. Ограниченное снабжение обусловлено глобальным дефицитом продовольствия из-за изменения климата.<br>Текст с treibhauspost.de",
+                    "en": "<img width=250 src=\"../../../content/images/events/37_malnutrition_deaths_rise.jpg\"><br>The Ministry of Health has announced that the number of deaths in many countries in Southeast Asia due to diseases and malnutrition as a result of limited availability of fruits and vegetables has significantly risen in the past year. The restricted supply is attributed to the global food scarcity resulting from climate change.<br>Text from treibhauspost.de",
+                    "ar": "<img width=250 src=\"../../../content/images/events/37_malnutrition_deaths_rise.jpg\"><br>أعلن وزارة الصحة أن عدد الوفيات في العديد من دول جنوب شرق آسيا نتيجة للأمراض وسوء التغذية نتيجة للتوفر المحدود للفواكه والخضروات ارتفع بشكل كبير في العام الماضي. يُعزى هذا الإمداد المقيد إلى ندرة الغذاء العالمية نتيجة لتغير المناخ.<br>نص من treibhauspost.de",
+                    "fr": "<img width=250 src=\"../../../content/images/events/37_malnutrition_deaths_rise.jpg\"><br>Le ministère de la Santé a annoncé que le nombre de décès dans de nombreux pays d'Asie du Sud-Est en raison de maladies et de la malnutrition suite à la disponibilité limitée de fruits et légumes a considérablement augmenté l'année dernière. L'approvisionnement restreint est attribué à la pénurie alimentaire mondiale résultant du changement climatique.<br>Texte de treibhauspost.de",
+                    "_azure/gpt-4-vision_sv": "",
+                    "_gcp/gemini-1.5-pro_sv": "<img width=250 src=\"../../../content/images/events/37_malnutrition_deaths_rise.jpg\"><br>Hälsovårdsministeriet har meddelat att antalet dödsfall i många länder i Sydostasien till följd av sjukdomar och undernäring på grund av den begränsade tillgången på frukt och grönsaker har ökat markant under det senaste året. Den begränsade tillgången tillskrivs den globala livsmedelsbristen till följd av klimatförändringarna.<br>Text från treibhauspost.de \n",
+                    "_compare_azure/gpt-4-vision_sv": "",
+                    "_compare_gcp/gemini-1.5-pro_sv": "<img width=250 src=\"../../../content/images/events/37_malnutrition_deaths_rise.jpg\"> Hälsovårdsministeriet har meddelat att antalet dödsfall i många länder i Sydostasien till följd av sjukdomar och undernäring på grund av den begränsade tillgången på frukt och grönsaker har ökat markant under det senaste året. Den begränsade tillgången tillskrivs den globala livsmedelsbristen till följd av klimatförändringarna. Text från treibhauspost.de",
+                    "_compare_aws/claude-3.5-sonnet_sv": "<img width=250 src=\"../../../content/images/events/37_malnutrition_deaths_rise.jpg\"> Hälsovårdsministeriet har meddelat att antalet dödsfall i många länder i Sydostasien till följd av sjukdomar och undernäring på grund av den begränsade tillgången på frukt och grönsaker har ökat markant under det senaste året. Den begränsade tillgången tillskrivs den globala livsmedelsbristen till följd av klimatförändringarna. Text från treibhauspost.de",
+                    "_unique_translations_back_sv": [
+                        "Da kein schwedischer Text zur Übersetzung bereitgestellt wurde, kann ich keine Übersetzung ins Deutsche anbieten",
+                        ""
+                    ]
+                }
+            }
         }
-      }
-    }
-  ]
+    ]
 }

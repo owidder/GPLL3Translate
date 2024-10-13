@@ -1,55 +1,55 @@
-events/01_voting_results_4j.json, Voting Result (every 4 years)
-events/02_bremen_flooded.json, Bremen inundated (Trigger 1.15 °C)
-events/03_heat_canada.json, Extreme heat in Canada takes lives(Trigger 1.3 °C )
-events/04_coral_reefs_dying.json, Coral reefs are dying (Trigger 1.4 °C)
-events/05_forest_fires.json, Forest fires affecting Europe and Africa (Trigger 1.5 °C)
-events/06_flood_risk_northern_germany.json, Flood risks in northern Germany (Trigger 1.7 °C).
-events/07_ground_squirrels_gone.json, Large ground-dwelling squirrels gone extinct (Trigger 1.9 °C).
-events/08_ground_squirrels_postponed.json, Large ground-dwelling squirrels have another few years to live (Trigger 1.9 °C).
-events/09_ground_squirrels_will_be_gone.json, Large ground-dwelling squirrels will go extinct in 5 years (Trigger 1.9 °C).
-events/10_corals_extinct.json, Corals are almost extinct due to the ocean temperature increasing (Trigger 2.0 °C)
-events/11_tuvalu_is_gone.json, Beautiful Tuvalu is gone (Trigger 2.2 °C)
-events/12_invasive_tree_and_plant_species.json, Invasive tree and plant species are taking over (Trigger CO2 concentration exceeds 500ppm).
-events/13_bremerhaven_flooded.json, Bremerhaven flooded (Trigger sea level rise 0.8 m)
-events/14_venice_inhabitable.json, Venice is no longer inhabitable (Trigger sea level rise 0.9 m).
-events/15_update_age.json, Compute derived 'age' variable
-events/16_2C_threshold_kept.json, 2.0 Climate Goal kept
-events/17_Egypt_1.json, Egypt 1 (Trigger sea level rise 0.2 m)
-events/18_Egypt_2.json, Egypt 2 (Trigger sea level rise 0.4 m)
-events/19_Egypt_3.json, Egypt 3 (Trigger sea level rise 0.7 m)
-events/20_Egypt_4.json, Egypt 4 (Trigger sea level rise 1.2 m)
-events/21_Egypt_5.json, Egypt 5 (Trigger sea level rise 1.8 m)
-events/22_Zimbabwe_1.json, Zimbabwe 1 (Trigger 1.2 °C)
-events/23_Zimbabwe_2.json, Zimbabwe 2 (Trigger 2.1 °C)
-events/24_Zimbabwe_3.json, Zimbabwe 3 (Trigger 2.5 °C)
-events/25_Zimbabwe_4.json, Zimbabwe 4 (Trigger 3.2 °C)
-events/26_Zimbabwe_5.json, Zimbabwe 5 (Trigger 4 °C)
-events/27_Mozambique_1.json, Mozambique 1 (Trigger 1.8 °C)
-events/28_Mozambique_2.json, Mozambique 2 (Trigger 2.3 °C)
-events/29_Mozambique_3.json, Mozambique 3 (Trigger 2.9 °C)
-events/30_Mozambique_4.json, Mozambique 4 (Trigger 3.6 °C)
-events/31_Mozambique_5.json, Mozambique 5 (Trigger 4.1 °C)
-events/32_coral_reefs_mass_bleaching.json, Coral reefs (Trigger local water T 1°C above summer max: 29.2°C for a long period of time)
-events/33_coral_reefs_removed_heritage_list.json, Coral reefs (Trigger 1.0 - 1.2°C)
-events/34_hamburg_evacuated.json, Floods in Europe (Trigger 1.5 and 2.0°C)
-events/35_bremerhaven_flooded.json, Floods in Europe (Trigger 1.5 and 2.0°C)
-events/36_typhoon_hits_philippines.json, Tropical cyclones (Trigger 2030)
-events/37_malnutrition_deaths_rise.json, Nutrition (Trigger 2050, RCP 6.0)
-events/38_tourism_ban_in_spain.json, Water shortage (Trigger 2.0°C and IPCC WG II)
-events/39_aid_for_people_in_west_afrika.json, Extinction of edible fish species in Africa (Trigger 2.5°C and 2071)
-events/40_rescu_umbrella_for_pan_arctic_region.json, Thawing of the permafrost (Trigger 2050 and RCP 4.5)
-events/41_flood_risk_for_florida.json, Increase in flood risk near Florida's coast (Trigger until 2050)
-polls/01_co2_pricing.json, Polling about CO2-pricing
-polls/04_steel_industry.json, Polling about the steel industry
-polls/05_combustion_ban.json, Polling about banning combustion engines
-polls/06_speedlimit.json, Polling about speed limits
-polls/07_energysubsidy.json, Polling about a citizen energy subsidy
-polls/08_electricity_from_renewable_energies.json, Poling on the switch to 100% renewable energy generation
-polls/09_no-fossile-electricity.json, Polling on ban on fossil-fuelled electricity production
-polls/10_electricity-from-renewable-energies.json, Polling on the switch to 100% renewable energy generation
-polls/11_meat-phase-out.json, Polling on ban on meat production
-polls/12_e-fuel-flight.json, Polling on E-fuels for aircrafts
-polls/13_nuclearrenaissance.json, Polling on new construction of nuclear power plants
-projects/01_sustainable_cookers.json, sustainable-cookers
-projects/02_forest_protection.json, forest-protection
-projects/03_solar_plants.json, solar-plants
+events/01_voting_results_4j.json/// Voting Result (every 4 years)
+events/02_bremen_flooded.json/// Bremen inundated (Trigger 1.15 °C)
+events/03_heat_canada.json/// Extreme heat in Canada takes lives(Trigger 1.3 °C )
+events/04_coral_reefs_dying.json/// Coral reefs are dying (Trigger 1.4 °C)
+events/05_forest_fires.json/// Forest fires affecting Europe and Africa (Trigger 1.5 °C)
+events/06_flood_risk_northern_germany.json/// Flood risks in northern Germany (Trigger 1.7 °C).
+events/07_ground_squirrels_gone.json/// Large ground-dwelling squirrels gone extinct (Trigger 1.9 °C).
+events/08_ground_squirrels_postponed.json/// Large ground-dwelling squirrels have another few years to live (Trigger 1.9 °C).
+events/09_ground_squirrels_will_be_gone.json/// Large ground-dwelling squirrels will go extinct in 5 years (Trigger 1.9 °C).
+events/10_corals_extinct.json/// Corals are almost extinct due to the ocean temperature increasing (Trigger 2.0 °C)
+events/11_tuvalu_is_gone.json/// Beautiful Tuvalu is gone (Trigger 2.2 °C)
+events/12_invasive_tree_and_plant_species.json/// Invasive tree and plant species are taking over (Trigger CO2 concentration exceeds 500ppm).
+events/13_bremerhaven_flooded.json/// Bremerhaven flooded (Trigger sea level rise 0.8 m)
+events/14_venice_inhabitable.json/// Venice is no longer inhabitable (Trigger sea level rise 0.9 m).
+events/15_update_age.json/// Compute derived 'age' variable
+events/16_2C_threshold_kept.json/// 2.0 Climate Goal kept
+events/17_Egypt_1.json/// Egypt 1 (Trigger sea level rise 0.2 m)
+events/18_Egypt_2.json/// Egypt 2 (Trigger sea level rise 0.4 m)
+events/19_Egypt_3.json/// Egypt 3 (Trigger sea level rise 0.7 m)
+events/20_Egypt_4.json/// Egypt 4 (Trigger sea level rise 1.2 m)
+events/21_Egypt_5.json/// Egypt 5 (Trigger sea level rise 1.8 m)
+events/22_Zimbabwe_1.json/// Zimbabwe 1 (Trigger 1.2 °C)
+events/23_Zimbabwe_2.json/// Zimbabwe 2 (Trigger 2.1 °C)
+events/24_Zimbabwe_3.json/// Zimbabwe 3 (Trigger 2.5 °C)
+events/25_Zimbabwe_4.json/// Zimbabwe 4 (Trigger 3.2 °C)
+events/26_Zimbabwe_5.json/// Zimbabwe 5 (Trigger 4 °C)
+events/27_Mozambique_1.json/// Mozambique 1 (Trigger 1.8 °C)
+events/28_Mozambique_2.json/// Mozambique 2 (Trigger 2.3 °C)
+events/29_Mozambique_3.json/// Mozambique 3 (Trigger 2.9 °C)
+events/30_Mozambique_4.json/// Mozambique 4 (Trigger 3.6 °C)
+events/31_Mozambique_5.json/// Mozambique 5 (Trigger 4.1 °C)
+events/32_coral_reefs_mass_bleaching.json/// Coral reefs (Trigger local water T 1°C above summer max: 29.2°C for a long period of time)
+events/33_coral_reefs_removed_heritage_list.json/// Coral reefs (Trigger 1.0 - 1.2°C)
+events/34_hamburg_evacuated.json/// Floods in Europe (Trigger 1.5 and 2.0°C)
+events/35_bremerhaven_flooded.json/// Floods in Europe (Trigger 1.5 and 2.0°C)
+events/36_typhoon_hits_philippines.json/// Tropical cyclones (Trigger 2030)
+events/37_malnutrition_deaths_rise.json/// Nutrition (Trigger 2050, RCP 6.0)
+events/38_tourism_ban_in_spain.json/// Water shortage (Trigger 2.0°C and IPCC WG II)
+events/39_aid_for_people_in_west_afrika.json/// Extinction of edible fish species in Africa (Trigger 2.5°C and 2071)
+events/40_rescu_umbrella_for_pan_arctic_region.json/// Thawing of the permafrost (Trigger 2050 and RCP 4.5)
+events/41_flood_risk_for_florida.json/// Increase in flood risk near Florida's coast (Trigger until 2050)
+polls/01_co2_pricing.json/// Polling about CO2-pricing
+polls/04_steel_industry.json/// Polling about the steel industry
+polls/05_combustion_ban.json/// Polling about banning combustion engines
+polls/06_speedlimit.json/// Polling about speed limits
+polls/07_energysubsidy.json/// Polling about a citizen energy subsidy
+polls/08_electricity_from_renewable_energies.json/// Poling on the switch to 100% renewable energy generation
+polls/09_no-fossile-electricity.json/// Polling on ban on fossil-fuelled electricity production
+polls/10_electricity-from-renewable-energies.json/// Polling on the switch to 100% renewable energy generation
+polls/11_meat-phase-out.json/// Polling on ban on meat production
+polls/12_e-fuel-flight.json/// Polling on E-fuels for aircrafts
+polls/13_nuclearrenaissance.json/// Polling on new construction of nuclear power plants
+projects/01_sustainable_cookers.json/// sustainable-cookers
+projects/02_forest_protection.json/// forest-protection
+projects/03_solar_plants.json/// solar-plants
