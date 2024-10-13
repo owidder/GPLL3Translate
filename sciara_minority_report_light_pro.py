@@ -15,7 +15,8 @@ from bs4 import BeautifulSoup
 from reportlab.lib.pagesizes import letter
 from reportlab.pdfgen import canvas
 from reportlab.lib import colors
-from reportlab.platypus import SimpleDocTemplate, Table, TableStyle
+from reportlab.platypus import SimpleDocTemplate, Table, TableStyle, Paragraph
+from reportlab.lib.styles import getSampleStyleSheet
 
 os.environ['DYLD_FALLBACK_LIBRARY_PATH'] = "/opt/homebrew/lib:" + os.environ.get('DYLD_FALLBACK_LIBRARY_PATH', '')
 
@@ -281,20 +282,23 @@ def create_pdf_table(input_file: str, translation_lines: [str], source: str, tar
         pagesize=letter
     )
 
+    styles = getSampleStyleSheet()
+    styleN = styles['Normal']
+
     translation_headers = []
     model_names = TRANSLATION_MODELS.split(",")
     for i in range(len(model_names)):
-        translation_headers.append(f"--- {i} ---")
-        translation_headers.append("")
+        Paragraph(text=translation_headers.append(f"--- {i} ---"), style=styleN)
+        Paragraph(text=translation_headers.append(""), style=styleN)
 
-    assess_headers = [model_name for model_name in TRANSLATION_ASSESS_MODELS.split(",")]
+    assess_headers = [Paragraph(text=model_name, style=styleN) for model_name in TRANSLATION_ASSESS_MODELS.split(",")]
 
     data_lines = [[*translation_headers, *assess_headers]]
     for translation_line in translation_lines:
-        data_line = [translation_line["source_text"]]
+        data_line = [Paragraph(text=translation_line["source_text"], style=styleN)]
         for i in range(len(translation_line["translations"])):
-            data_line.append(translation_line["translations"][i])
-            data_line.append(translation_line["translations_back"][i])
+            data_line.append(Paragraph(text=translation_line["translations"][i], style=styleN))
+            data_line.append(Paragraph(text=translation_line["translations_back"][i], style=styleN))
         data_lines.append(data_line)
 
     table = Table(data_lines)
@@ -312,6 +316,10 @@ def create_pdf_table(input_file: str, translation_lines: [str], source: str, tar
     table.setStyle(style)
 
     # Build the PDF
+    table_width = pdf.pagesize[0] - pdf.leftMargin - pdf.rightMargin
+    num_columns = len(model_names)*3 + 1
+    col_width = table_width / num_columns
+    table._argW = [col_width] * num_columns
     elements = [table]
     pdf.build(elements)
 
@@ -611,7 +619,7 @@ async def process_input_file_set(file_set_path: str) -> ([str], [str]):
         for line in f:
             if len(line.strip()) > 0:
                 print(f"==========> {line.strip()}")
-                relative_file_path, file_description = line.strip().split(",")
+                relative_file_path, file_description = line.strip().split("///")
                 html_tables, pdf_tables = await process_one_file(input_file=os.path.join(INPUT_FILE_ROOT_FOLDER, relative_file_path), file_description=file_description)
                 all_html_tables.extend(html_tables)
                 all_pdf_tables.extend(pdf_tables)
