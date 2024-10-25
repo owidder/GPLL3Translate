@@ -1,7 +1,7 @@
 from reportlab.lib import colors
 from reportlab.lib.pagesizes import A4
 from reportlab.platypus import SimpleDocTemplate, Table, TableStyle, Paragraph
-from reportlab.lib.styles import getSampleStyleSheet
+from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 from reportlab.lib.units import cm
 
 def create_pdf_with_table(filename, data):
@@ -20,13 +20,15 @@ def create_pdf_with_table(filename, data):
     
     # Definiere Stile
     styles = getSampleStyleSheet()
-    normal_style = styles['Normal']
-    normal_style.wordWrap = 'CJK'  # Ermöglicht Umbruch für lange Wörter
+    html_style = ParagraphStyle('HTMLStyle', parent=styles['Normal'])
+    html_style.wordWrap = 'CJK'  # Ermöglicht Umbruch für lange Wörter
+    html_style.allowWidows = 0
+    html_style.allowOrphans = 0
     
-    # Wandle Zelleninhalte in Paragraphen um
+    # Wandle Zelleninhalte in Paragraphen um und erlaube HTML-Formatierung
     formatted_data = []
     for row in data:
-        formatted_row = [Paragraph(str(cell), normal_style) for cell in row]
+        formatted_row = [Paragraph(cell, html_style) for cell in row]
         formatted_data.append(formatted_row)
     
     # Erstelle die Tabelle mit automatischen Zeilenhöhen
@@ -59,12 +61,12 @@ def create_pdf_with_table(filename, data):
 
 # Beispielaufruf
 if __name__ == "__main__":
-    # Beispieldaten für die Tabelle mit längeren Texten
+    # Beispieldaten für die Tabelle mit HTML-formatierten Texten
     table_data = [
-        ['Spalte 1', 'Spalte 2', 'Spalte 3'],
-        ['Dies ist ein sehr langer Text, der umgebrochen werden sollte.', 'Kurzer Text', 'Noch ein langer Text, der ebenfalls umgebrochen werden sollte.'],
-        ['Zeile 2, Zelle 1', 'Ein mittelanger Text, der vielleicht umgebrochen wird.', 'Zeile 2, Zelle 3'],
-        ['Zeile 3, Zelle 1', 'Zeile 3, Zelle 2', 'Zeile 3, Zelle 3'],
+        ['<b>Spalte 1</b>', '<b>Spalte 2</b>', '<b>Spalte 3</b>'],
+        ['Dies ist ein <i>sehr langer Text</i>, der umgebrochen werden sollte.', '<font color="red">Kurzer Text</font>', 'Noch ein <u>langer Text</u>, der ebenfalls umgebrochen werden sollte.'],
+        ['Zeile 2, <b>Zelle 1</b>', 'Ein <i>mittelanger</i> Text, der vielleicht umgebrochen wird.', 'Zeile 2, <font color="blue">Zelle 3</font>'],
+        ['<b><i><u>Formatierter Text</u></i></b>', '<font size="14">Größerer Text</font>', '<font face="Courier">Monospace-Schrift</font>'],
     ]
     
     create_pdf_with_table('beispiel_tabelle_mit_umbruch.pdf', table_data)
