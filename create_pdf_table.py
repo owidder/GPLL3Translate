@@ -1,11 +1,13 @@
 from reportlab.lib import colors
 from reportlab.lib.pagesizes import A4
-from reportlab.platypus import SimpleDocTemplate, Table, TableStyle
+from reportlab.platypus import SimpleDocTemplate, Table, TableStyle, Paragraph
+from reportlab.lib.styles import getSampleStyleSheet
 from reportlab.lib.units import cm
 
 def create_pdf_with_table(filename, data):
     """
     Erzeugt ein A4-PDF-Dokument mit einer Tabelle, die die gesamte Breite einnimmt.
+    Lange Texte werden automatisch umgebrochen.
     
     :param filename: Name der zu erstellenden PDF-Datei
     :param data: Liste von Listen, die die Tabellenzeilen repräsentieren
@@ -16,8 +18,20 @@ def create_pdf_with_table(filename, data):
     # Berechne die verfügbare Breite (A4-Breite minus Ränder)
     available_width = A4[0] - 2*cm
     
-    # Erstelle die Tabelle
-    table = Table(data, colWidths=[available_width/len(data[0])]*len(data[0]))
+    # Definiere Stile
+    styles = getSampleStyleSheet()
+    normal_style = styles['Normal']
+    normal_style.wordWrap = 'CJK'  # Ermöglicht Umbruch für lange Wörter
+    
+    # Wandle Zelleninhalte in Paragraphen um
+    formatted_data = []
+    for row in data:
+        formatted_row = [Paragraph(str(cell), normal_style) for cell in row]
+        formatted_data.append(formatted_row)
+    
+    # Erstelle die Tabelle mit automatischen Zeilenhöhen
+    col_widths = [available_width/len(data[0])]*len(data[0])
+    table = Table(formatted_data, colWidths=col_widths)
     
     # Definiere den Tabellenstil
     style = TableStyle([
@@ -45,12 +59,12 @@ def create_pdf_with_table(filename, data):
 
 # Beispielaufruf
 if __name__ == "__main__":
-    # Beispieldaten für die Tabelle
+    # Beispieldaten für die Tabelle mit längeren Texten
     table_data = [
         ['Spalte 1', 'Spalte 2', 'Spalte 3'],
-        ['Zeile 1, Zelle 1', 'Zeile 1, Zelle 2', 'Zeile 1, Zelle 3'],
-        ['Zeile 2, Zelle 1', 'Zeile 2, Zelle 2', 'Zeile 2, Zelle 3'],
+        ['Dies ist ein sehr langer Text, der umgebrochen werden sollte.', 'Kurzer Text', 'Noch ein langer Text, der ebenfalls umgebrochen werden sollte.'],
+        ['Zeile 2, Zelle 1', 'Ein mittelanger Text, der vielleicht umgebrochen wird.', 'Zeile 2, Zelle 3'],
         ['Zeile 3, Zelle 1', 'Zeile 3, Zelle 2', 'Zeile 3, Zelle 3'],
     ]
     
-    create_pdf_with_table('beispiel_tabelle.pdf', table_data)
+    create_pdf_with_table('beispiel_tabelle_mit_umbruch.pdf', table_data)
