@@ -20,193 +20,193 @@
                     "en": "Tropical storms and hurricanes - Climate change worsens annual hurricane season",
                     "fr": "Tempêtes tropicales et ouragans - Le changement climatique aggrave la saison annuelle des ouragans",
                     "ar": "العواصف الاستوائية والأعاصير - تسوء تغيرات المناخ موسم الأعاصير السنوي",
-                    "_azure/gpt-4_bg": "",
+                    "_azure/gpt-4-vision_bg": "",
                     "_gcp/gemini-1.5-pro_bg": "",
-                    "_compare_azure/gpt-4_bg": "",
+                    "_compare_azure/gpt-4-vision_bg": "",
                     "_compare_gcp/gemini-1.5-pro_bg": "",
                     "_compare_aws/claude-3.5-sonnet_bg": "",
                     "_unique_translations_back_bg": [
                         ""
                     ],
-                    "_azure/gpt-4_cs": "",
+                    "_azure/gpt-4-vision_cs": "",
                     "_gcp/gemini-1.5-pro_cs": "",
-                    "_compare_azure/gpt-4_cs": "",
+                    "_compare_azure/gpt-4-vision_cs": "",
                     "_compare_gcp/gemini-1.5-pro_cs": "",
                     "_compare_aws/claude-3.5-sonnet_cs": "",
                     "_unique_translations_back_cs": [
                         ""
                     ],
-                    "_azure/gpt-4_da": "",
+                    "_azure/gpt-4-vision_da": "",
                     "_gcp/gemini-1.5-pro_da": "",
-                    "_compare_azure/gpt-4_da": "",
+                    "_compare_azure/gpt-4-vision_da": "",
                     "_compare_gcp/gemini-1.5-pro_da": "",
                     "_compare_aws/claude-3.5-sonnet_da": "",
                     "_unique_translations_back_da": [
                         ""
                     ],
-                    "_azure/gpt-4_el": "",
+                    "_azure/gpt-4-vision_el": "",
                     "_gcp/gemini-1.5-pro_el": "",
-                    "_compare_azure/gpt-4_el": "",
+                    "_compare_azure/gpt-4-vision_el": "",
                     "_compare_gcp/gemini-1.5-pro_el": "",
                     "_compare_aws/claude-3.5-sonnet_el": "",
                     "_unique_translations_back_el": [
                         ""
                     ],
-                    "_azure/gpt-4_es": "",
+                    "_azure/gpt-4-vision_es": "",
                     "_gcp/gemini-1.5-pro_es": "",
-                    "_compare_azure/gpt-4_es": "",
+                    "_compare_azure/gpt-4-vision_es": "",
                     "_compare_gcp/gemini-1.5-pro_es": "",
                     "_compare_aws/claude-3.5-sonnet_es": "",
                     "_unique_translations_back_es": [
                         ""
                     ],
-                    "_azure/gpt-4_et": "",
+                    "_azure/gpt-4-vision_et": "",
                     "_gcp/gemini-1.5-pro_et": "",
-                    "_compare_azure/gpt-4_et": "",
+                    "_compare_azure/gpt-4-vision_et": "",
                     "_compare_gcp/gemini-1.5-pro_et": "",
                     "_compare_aws/claude-3.5-sonnet_et": "",
                     "_unique_translations_back_et": [
                         ""
                     ],
-                    "_azure/gpt-4_fi": "",
+                    "_azure/gpt-4-vision_fi": "",
                     "_gcp/gemini-1.5-pro_fi": "",
-                    "_compare_azure/gpt-4_fi": "",
+                    "_compare_azure/gpt-4-vision_fi": "",
                     "_compare_gcp/gemini-1.5-pro_fi": "",
                     "_compare_aws/claude-3.5-sonnet_fi": "",
                     "_unique_translations_back_fi": [
                         ""
                     ],
-                    "_azure/gpt-4_ga": "",
+                    "_azure/gpt-4-vision_ga": "",
                     "_gcp/gemini-1.5-pro_ga": "",
-                    "_compare_azure/gpt-4_ga": "",
+                    "_compare_azure/gpt-4-vision_ga": "",
                     "_compare_gcp/gemini-1.5-pro_ga": "",
                     "_compare_aws/claude-3.5-sonnet_ga": "",
                     "_unique_translations_back_ga": [
                         ""
                     ],
-                    "_azure/gpt-4_hr": "",
+                    "_azure/gpt-4-vision_hr": "",
                     "_gcp/gemini-1.5-pro_hr": "",
-                    "_compare_azure/gpt-4_hr": "",
+                    "_compare_azure/gpt-4-vision_hr": "",
                     "_compare_gcp/gemini-1.5-pro_hr": "",
                     "_compare_aws/claude-3.5-sonnet_hr": "",
                     "_unique_translations_back_hr": [
                         ""
                     ],
-                    "_azure/gpt-4_hu": "",
+                    "_azure/gpt-4-vision_hu": "",
                     "_gcp/gemini-1.5-pro_hu": "",
-                    "_compare_azure/gpt-4_hu": "",
+                    "_compare_azure/gpt-4-vision_hu": "",
                     "_compare_gcp/gemini-1.5-pro_hu": "",
                     "_compare_aws/claude-3.5-sonnet_hu": "",
                     "_unique_translations_back_hu": [
                         ""
                     ],
-                    "_azure/gpt-4_id": "",
+                    "_azure/gpt-4-vision_id": "",
                     "_gcp/gemini-1.5-pro_id": "",
-                    "_compare_azure/gpt-4_id": "",
+                    "_compare_azure/gpt-4-vision_id": "",
                     "_compare_gcp/gemini-1.5-pro_id": "",
                     "_compare_aws/claude-3.5-sonnet_id": "",
                     "_unique_translations_back_id": [
                         ""
                     ],
-                    "_azure/gpt-4_it": "",
+                    "_azure/gpt-4-vision_it": "",
                     "_gcp/gemini-1.5-pro_it": "",
-                    "_compare_azure/gpt-4_it": "",
+                    "_compare_azure/gpt-4-vision_it": "",
                     "_compare_gcp/gemini-1.5-pro_it": "",
                     "_compare_aws/claude-3.5-sonnet_it": "",
                     "_unique_translations_back_it": [
                         ""
                     ],
-                    "_azure/gpt-4_ja": "",
+                    "_azure/gpt-4-vision_ja": "",
                     "_gcp/gemini-1.5-pro_ja": "",
-                    "_compare_azure/gpt-4_ja": "",
+                    "_compare_azure/gpt-4-vision_ja": "",
                     "_compare_gcp/gemini-1.5-pro_ja": "",
                     "_compare_aws/claude-3.5-sonnet_ja": "",
                     "_unique_translations_back_ja": [
                         ""
                     ],
-                    "_azure/gpt-4_ko": "",
+                    "_azure/gpt-4-vision_ko": "",
                     "_gcp/gemini-1.5-pro_ko": "",
-                    "_compare_azure/gpt-4_ko": "",
+                    "_compare_azure/gpt-4-vision_ko": "",
                     "_compare_gcp/gemini-1.5-pro_ko": "",
                     "_compare_aws/claude-3.5-sonnet_ko": "",
                     "_unique_translations_back_ko": [
                         ""
                     ],
-                    "_azure/gpt-4_lv": "",
+                    "_azure/gpt-4-vision_lv": "",
                     "_gcp/gemini-1.5-pro_lv": "",
-                    "_compare_azure/gpt-4_lv": "",
+                    "_compare_azure/gpt-4-vision_lv": "",
                     "_compare_gcp/gemini-1.5-pro_lv": "",
                     "_compare_aws/claude-3.5-sonnet_lv": "",
                     "_unique_translations_back_lv": [
                         ""
                     ],
-                    "_azure/gpt-4_lt": "",
+                    "_azure/gpt-4-vision_lt": "",
                     "_gcp/gemini-1.5-pro_lt": "",
-                    "_compare_azure/gpt-4_lt": "",
+                    "_compare_azure/gpt-4-vision_lt": "",
                     "_compare_gcp/gemini-1.5-pro_lt": "",
                     "_compare_aws/claude-3.5-sonnet_lt": "",
                     "_unique_translations_back_lt": [
                         ""
                     ],
-                    "_azure/gpt-4_mt": "",
+                    "_azure/gpt-4-vision_mt": "",
                     "_gcp/gemini-1.5-pro_mt": "",
-                    "_compare_azure/gpt-4_mt": "",
+                    "_compare_azure/gpt-4-vision_mt": "",
                     "_compare_gcp/gemini-1.5-pro_mt": "",
                     "_compare_aws/claude-3.5-sonnet_mt": "",
                     "_unique_translations_back_mt": [
                         ""
                     ],
-                    "_azure/gpt-4_nl": "",
+                    "_azure/gpt-4-vision_nl": "",
                     "_gcp/gemini-1.5-pro_nl": "",
-                    "_compare_azure/gpt-4_nl": "",
+                    "_compare_azure/gpt-4-vision_nl": "",
                     "_compare_gcp/gemini-1.5-pro_nl": "",
                     "_compare_aws/claude-3.5-sonnet_nl": "",
                     "_unique_translations_back_nl": [
                         ""
                     ],
-                    "_azure/gpt-4_pl": "",
+                    "_azure/gpt-4-vision_pl": "",
                     "_gcp/gemini-1.5-pro_pl": "",
-                    "_compare_azure/gpt-4_pl": "",
+                    "_compare_azure/gpt-4-vision_pl": "",
                     "_compare_gcp/gemini-1.5-pro_pl": "",
                     "_compare_aws/claude-3.5-sonnet_pl": "",
                     "_unique_translations_back_pl": [
                         ""
                     ],
-                    "_azure/gpt-4_ro": "",
+                    "_azure/gpt-4-vision_ro": "",
                     "_gcp/gemini-1.5-pro_ro": "",
-                    "_compare_azure/gpt-4_ro": "",
+                    "_compare_azure/gpt-4-vision_ro": "",
                     "_compare_gcp/gemini-1.5-pro_ro": "",
                     "_compare_aws/claude-3.5-sonnet_ro": "",
                     "_unique_translations_back_ro": [
                         ""
                     ],
-                    "_azure/gpt-4_sk": "",
+                    "_azure/gpt-4-vision_sk": "",
                     "_gcp/gemini-1.5-pro_sk": "",
-                    "_compare_azure/gpt-4_sk": "",
+                    "_compare_azure/gpt-4-vision_sk": "",
                     "_compare_gcp/gemini-1.5-pro_sk": "",
                     "_compare_aws/claude-3.5-sonnet_sk": "",
                     "_unique_translations_back_sk": [
                         ""
                     ],
-                    "_azure/gpt-4_sl": "",
+                    "_azure/gpt-4-vision_sl": "",
                     "_gcp/gemini-1.5-pro_sl": "",
-                    "_compare_azure/gpt-4_sl": "",
+                    "_compare_azure/gpt-4-vision_sl": "",
                     "_compare_gcp/gemini-1.5-pro_sl": "",
                     "_compare_aws/claude-3.5-sonnet_sl": "",
                     "_unique_translations_back_sl": [
                         ""
                     ],
-                    "_azure/gpt-4_sv": "",
+                    "_azure/gpt-4-vision_sv": "",
                     "_gcp/gemini-1.5-pro_sv": "",
-                    "_compare_azure/gpt-4_sv": "",
+                    "_compare_azure/gpt-4-vision_sv": "",
                     "_compare_gcp/gemini-1.5-pro_sv": "",
                     "_compare_aws/claude-3.5-sonnet_sv": "",
                     "_unique_translations_back_sv": [
                         ""
                     ],
-                    "_azure/gpt-4_zh": "",
+                    "_azure/gpt-4-vision_zh": "",
                     "_gcp/gemini-1.5-pro_zh": "",
-                    "_compare_azure/gpt-4_zh": "",
+                    "_compare_azure/gpt-4-vision_zh": "",
                     "_compare_gcp/gemini-1.5-pro_zh": "",
                     "_compare_aws/claude-3.5-sonnet_zh": "",
                     "_unique_translations_back_zh": [
@@ -219,193 +219,193 @@
                     "en": "The predictions for this year's hurricane season are frightening. Mozambique in southern Africa is particularly threatened again. Several tropical storms are expected again, some of which will be of hurricane proportions. The reason for this is climate change, which warms the oceans and air, making tropical storms more frequent and stronger. \n\n The annual hurricane season usually starts in October and lasts for about six months. The main regions affected include South and East African countries. Due to its geographical location, the Mozambican state is particularly vulnerable to flash floods, which acutely threaten the Mozambican population several times a year. \n\n The strength and frequency of hurricanes and tropical storms have increased in recent years. The 2022 study published in the scientific journal Nature Communications concluded that the probability of hurricanes doubled between 1982 and 2020.",
                     "fr": "Les prédictions pour la saison des ouragans de cette année sont effrayantes. Le Mozambique, dans le sud de l'Afrique, est particulièrement menacé à nouveau. Plusieurs tempêtes tropicales sont à nouveau prévues, dont certaines atteindront des proportions d'ouragan. La raison en est le changement climatique, qui réchauffe les océans et l'air, rendant les tempêtes tropicales plus fréquentes et plus puissantes. \n\n La saison annuelle des ouragans commence généralement en octobre et dure environ six mois. Les principales régions touchées comprennent les pays d'Afrique du Sud et de l'Est. En raison de sa situation géographique, l'État mozambicain est particulièrement vulnérable aux inondations soudaines, qui menacent gravement la population mozambicaine plusieurs fois par an. \n\n La force et la fréquence des ouragans et des tempêtes tropicales ont augmenté ces dernières années. Une étude de 2022 publiée dans le journal scientifique Nature Communications a conclu que la probabilité des ouragans a doublé entre 1982 et 2020.",
                     "ar": "\nالتوقعات لموسم الأعاصير لهذا العام مخيفة. تتعرض موزمبيق في جنوب أفريقيا للتهديد بشكل خاص مرة أخرى. من المتوقع حدوث العديد من العواصف الاستوائية مرة أخرى، بعضها سيكون بحجم الأعاصير. السبب في ذلك هو التغير المناخي الذي يرتفع حرارة المحيطات والهواء، مما يجعل العواصف الاستوائية أكثر تكراراً وقوة.\n\nموسم الأعاصير السنوي عادة ما يبدأ في أكتوبر ويستمر لمدة حوالي ستة أشهر. تشمل الأقاليم الرئيسية المتأثرة الدول الجنوبية والشرقية لأفريقيا. نظرًا لموقعها الجغرافي، تعتبر موزمبيق هشاً جدًا تجاه الفيضانات السريعة التي تهدد سكان موزمبيق على نحو حاد عدة مرات في السنة.\n\nقوة وتكرار الأعاصير والعواصف الاستوائية زادت خلال السنوات الأخيرة. أظهرت دراسة عام 2022 نُشرت في مجلة العلوم الطبيعية \"Nature Communications\" أن احتمالية حدوث الأعاصير تضاعفت بين عامي 1982 و 2020.",
-                    "_azure/gpt-4_bg": "",
+                    "_azure/gpt-4-vision_bg": "",
                     "_gcp/gemini-1.5-pro_bg": "",
-                    "_compare_azure/gpt-4_bg": "",
+                    "_compare_azure/gpt-4-vision_bg": "",
                     "_compare_gcp/gemini-1.5-pro_bg": "",
                     "_compare_aws/claude-3.5-sonnet_bg": "",
                     "_unique_translations_back_bg": [
                         ""
                     ],
-                    "_azure/gpt-4_cs": "",
+                    "_azure/gpt-4-vision_cs": "",
                     "_gcp/gemini-1.5-pro_cs": "",
-                    "_compare_azure/gpt-4_cs": "",
+                    "_compare_azure/gpt-4-vision_cs": "",
                     "_compare_gcp/gemini-1.5-pro_cs": "",
                     "_compare_aws/claude-3.5-sonnet_cs": "",
                     "_unique_translations_back_cs": [
                         ""
                     ],
-                    "_azure/gpt-4_da": "",
+                    "_azure/gpt-4-vision_da": "",
                     "_gcp/gemini-1.5-pro_da": "",
-                    "_compare_azure/gpt-4_da": "",
+                    "_compare_azure/gpt-4-vision_da": "",
                     "_compare_gcp/gemini-1.5-pro_da": "",
                     "_compare_aws/claude-3.5-sonnet_da": "",
                     "_unique_translations_back_da": [
                         ""
                     ],
-                    "_azure/gpt-4_el": "",
+                    "_azure/gpt-4-vision_el": "",
                     "_gcp/gemini-1.5-pro_el": "",
-                    "_compare_azure/gpt-4_el": "",
+                    "_compare_azure/gpt-4-vision_el": "",
                     "_compare_gcp/gemini-1.5-pro_el": "",
                     "_compare_aws/claude-3.5-sonnet_el": "",
                     "_unique_translations_back_el": [
                         ""
                     ],
-                    "_azure/gpt-4_es": "",
+                    "_azure/gpt-4-vision_es": "",
                     "_gcp/gemini-1.5-pro_es": "",
-                    "_compare_azure/gpt-4_es": "",
+                    "_compare_azure/gpt-4-vision_es": "",
                     "_compare_gcp/gemini-1.5-pro_es": "",
                     "_compare_aws/claude-3.5-sonnet_es": "",
                     "_unique_translations_back_es": [
                         ""
                     ],
-                    "_azure/gpt-4_et": "",
+                    "_azure/gpt-4-vision_et": "",
                     "_gcp/gemini-1.5-pro_et": "",
-                    "_compare_azure/gpt-4_et": "",
+                    "_compare_azure/gpt-4-vision_et": "",
                     "_compare_gcp/gemini-1.5-pro_et": "",
                     "_compare_aws/claude-3.5-sonnet_et": "",
                     "_unique_translations_back_et": [
                         ""
                     ],
-                    "_azure/gpt-4_fi": "",
+                    "_azure/gpt-4-vision_fi": "",
                     "_gcp/gemini-1.5-pro_fi": "",
-                    "_compare_azure/gpt-4_fi": "",
+                    "_compare_azure/gpt-4-vision_fi": "",
                     "_compare_gcp/gemini-1.5-pro_fi": "",
                     "_compare_aws/claude-3.5-sonnet_fi": "",
                     "_unique_translations_back_fi": [
                         ""
                     ],
-                    "_azure/gpt-4_ga": "",
+                    "_azure/gpt-4-vision_ga": "",
                     "_gcp/gemini-1.5-pro_ga": "",
-                    "_compare_azure/gpt-4_ga": "",
+                    "_compare_azure/gpt-4-vision_ga": "",
                     "_compare_gcp/gemini-1.5-pro_ga": "",
                     "_compare_aws/claude-3.5-sonnet_ga": "",
                     "_unique_translations_back_ga": [
                         ""
                     ],
-                    "_azure/gpt-4_hr": "",
+                    "_azure/gpt-4-vision_hr": "",
                     "_gcp/gemini-1.5-pro_hr": "",
-                    "_compare_azure/gpt-4_hr": "",
+                    "_compare_azure/gpt-4-vision_hr": "",
                     "_compare_gcp/gemini-1.5-pro_hr": "",
                     "_compare_aws/claude-3.5-sonnet_hr": "",
                     "_unique_translations_back_hr": [
                         ""
                     ],
-                    "_azure/gpt-4_hu": "",
+                    "_azure/gpt-4-vision_hu": "",
                     "_gcp/gemini-1.5-pro_hu": "",
-                    "_compare_azure/gpt-4_hu": "",
+                    "_compare_azure/gpt-4-vision_hu": "",
                     "_compare_gcp/gemini-1.5-pro_hu": "",
                     "_compare_aws/claude-3.5-sonnet_hu": "",
                     "_unique_translations_back_hu": [
                         ""
                     ],
-                    "_azure/gpt-4_id": "",
+                    "_azure/gpt-4-vision_id": "",
                     "_gcp/gemini-1.5-pro_id": "",
-                    "_compare_azure/gpt-4_id": "",
+                    "_compare_azure/gpt-4-vision_id": "",
                     "_compare_gcp/gemini-1.5-pro_id": "",
                     "_compare_aws/claude-3.5-sonnet_id": "",
                     "_unique_translations_back_id": [
                         ""
                     ],
-                    "_azure/gpt-4_it": "",
+                    "_azure/gpt-4-vision_it": "",
                     "_gcp/gemini-1.5-pro_it": "",
-                    "_compare_azure/gpt-4_it": "",
+                    "_compare_azure/gpt-4-vision_it": "",
                     "_compare_gcp/gemini-1.5-pro_it": "",
                     "_compare_aws/claude-3.5-sonnet_it": "",
                     "_unique_translations_back_it": [
                         ""
                     ],
-                    "_azure/gpt-4_ja": "",
+                    "_azure/gpt-4-vision_ja": "",
                     "_gcp/gemini-1.5-pro_ja": "",
-                    "_compare_azure/gpt-4_ja": "",
+                    "_compare_azure/gpt-4-vision_ja": "",
                     "_compare_gcp/gemini-1.5-pro_ja": "",
                     "_compare_aws/claude-3.5-sonnet_ja": "",
                     "_unique_translations_back_ja": [
                         ""
                     ],
-                    "_azure/gpt-4_ko": "",
+                    "_azure/gpt-4-vision_ko": "",
                     "_gcp/gemini-1.5-pro_ko": "",
-                    "_compare_azure/gpt-4_ko": "",
+                    "_compare_azure/gpt-4-vision_ko": "",
                     "_compare_gcp/gemini-1.5-pro_ko": "",
                     "_compare_aws/claude-3.5-sonnet_ko": "",
                     "_unique_translations_back_ko": [
                         ""
                     ],
-                    "_azure/gpt-4_lv": "",
+                    "_azure/gpt-4-vision_lv": "",
                     "_gcp/gemini-1.5-pro_lv": "",
-                    "_compare_azure/gpt-4_lv": "",
+                    "_compare_azure/gpt-4-vision_lv": "",
                     "_compare_gcp/gemini-1.5-pro_lv": "",
                     "_compare_aws/claude-3.5-sonnet_lv": "",
                     "_unique_translations_back_lv": [
                         ""
                     ],
-                    "_azure/gpt-4_lt": "",
+                    "_azure/gpt-4-vision_lt": "",
                     "_gcp/gemini-1.5-pro_lt": "",
-                    "_compare_azure/gpt-4_lt": "",
+                    "_compare_azure/gpt-4-vision_lt": "",
                     "_compare_gcp/gemini-1.5-pro_lt": "",
                     "_compare_aws/claude-3.5-sonnet_lt": "",
                     "_unique_translations_back_lt": [
                         ""
                     ],
-                    "_azure/gpt-4_mt": "",
+                    "_azure/gpt-4-vision_mt": "",
                     "_gcp/gemini-1.5-pro_mt": "",
-                    "_compare_azure/gpt-4_mt": "",
+                    "_compare_azure/gpt-4-vision_mt": "",
                     "_compare_gcp/gemini-1.5-pro_mt": "",
                     "_compare_aws/claude-3.5-sonnet_mt": "",
                     "_unique_translations_back_mt": [
                         ""
                     ],
-                    "_azure/gpt-4_nl": "",
+                    "_azure/gpt-4-vision_nl": "",
                     "_gcp/gemini-1.5-pro_nl": "",
-                    "_compare_azure/gpt-4_nl": "",
+                    "_compare_azure/gpt-4-vision_nl": "",
                     "_compare_gcp/gemini-1.5-pro_nl": "",
                     "_compare_aws/claude-3.5-sonnet_nl": "",
                     "_unique_translations_back_nl": [
                         ""
                     ],
-                    "_azure/gpt-4_pl": "",
+                    "_azure/gpt-4-vision_pl": "",
                     "_gcp/gemini-1.5-pro_pl": "",
-                    "_compare_azure/gpt-4_pl": "",
+                    "_compare_azure/gpt-4-vision_pl": "",
                     "_compare_gcp/gemini-1.5-pro_pl": "",
                     "_compare_aws/claude-3.5-sonnet_pl": "",
                     "_unique_translations_back_pl": [
                         ""
                     ],
-                    "_azure/gpt-4_ro": "",
+                    "_azure/gpt-4-vision_ro": "",
                     "_gcp/gemini-1.5-pro_ro": "",
-                    "_compare_azure/gpt-4_ro": "",
+                    "_compare_azure/gpt-4-vision_ro": "",
                     "_compare_gcp/gemini-1.5-pro_ro": "",
                     "_compare_aws/claude-3.5-sonnet_ro": "",
                     "_unique_translations_back_ro": [
                         ""
                     ],
-                    "_azure/gpt-4_sk": "",
+                    "_azure/gpt-4-vision_sk": "",
                     "_gcp/gemini-1.5-pro_sk": "",
-                    "_compare_azure/gpt-4_sk": "",
+                    "_compare_azure/gpt-4-vision_sk": "",
                     "_compare_gcp/gemini-1.5-pro_sk": "",
                     "_compare_aws/claude-3.5-sonnet_sk": "",
                     "_unique_translations_back_sk": [
                         ""
                     ],
-                    "_azure/gpt-4_sl": "",
+                    "_azure/gpt-4-vision_sl": "",
                     "_gcp/gemini-1.5-pro_sl": "",
-                    "_compare_azure/gpt-4_sl": "",
+                    "_compare_azure/gpt-4-vision_sl": "",
                     "_compare_gcp/gemini-1.5-pro_sl": "",
                     "_compare_aws/claude-3.5-sonnet_sl": "",
                     "_unique_translations_back_sl": [
                         ""
                     ],
-                    "_azure/gpt-4_sv": "",
+                    "_azure/gpt-4-vision_sv": "",
                     "_gcp/gemini-1.5-pro_sv": "",
-                    "_compare_azure/gpt-4_sv": "",
+                    "_compare_azure/gpt-4-vision_sv": "",
                     "_compare_gcp/gemini-1.5-pro_sv": "",
                     "_compare_aws/claude-3.5-sonnet_sv": "",
                     "_unique_translations_back_sv": [
                         ""
                     ],
-                    "_azure/gpt-4_zh": "",
+                    "_azure/gpt-4-vision_zh": "",
                     "_gcp/gemini-1.5-pro_zh": "",
-                    "_compare_azure/gpt-4_zh": "",
+                    "_compare_azure/gpt-4-vision_zh": "",
                     "_compare_gcp/gemini-1.5-pro_zh": "",
                     "_compare_aws/claude-3.5-sonnet_zh": "",
                     "_unique_translations_back_zh": [
