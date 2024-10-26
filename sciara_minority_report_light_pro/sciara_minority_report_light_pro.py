@@ -81,10 +81,10 @@ INPUT_FILE_DESCRIPTION = os.getenv("INPUT_FILE_DESCRIPTION", None)
 RETRY_CHECK = (os.getenv("RETRY_CHECK", "0") == "1")
 TARGET_LANGUAGE = os.getenv("TARGET_LANGUAGE", "")
 SOURCE_LANGUAGE = os.getenv("SOURCE_LANGUAGE", "de")
-TRANSLATION_MODELS = os.getenv("TRANSLATION_MODELS", "azure/gpt-4-vision,gcp/gemini-1.5-pro")
-TRANSLATION_ASSESS_MODELS = os.getenv("TRANSLATION_ASSESS_MODELS", "azure/gpt-4-vision,gcp/gemini-1.5-pro,aws/claude-3.5-sonnet")
-BACK_TRANSLATION_MODELS = os.getenv("BACK_TRANSLATION_MODELS", "azure/gpt-4-vision,gcp/gemini-1.5-pro,aws/claude-3.5-sonnet")
-BACK_TRANSLATION_ASSESS_MODELS = os.getenv("BACK_TRANSLATION_ASSESS_MODELS", "azure/gpt-4-vision,gcp/gemini-1.5-pro,aws/claude-3.5-sonnet")
+TRANSLATION_MODELS = os.getenv("TRANSLATION_MODELS", ','.join([GPT_4O, GEMINI_1_5_PRO]))
+TRANSLATION_ASSESS_MODELS = os.getenv("TRANSLATION_ASSESS_MODELS", ','.join([GPT_4O, GEMINI_1_5_PRO, CLAUDE_3_5_SONNET]))
+BACK_TRANSLATION_MODELS = os.getenv("BACK_TRANSLATION_MODELS", ','.join([GPT_4O, GEMINI_1_5_PRO, CLAUDE_3_5_SONNET]))
+BACK_TRANSLATION_ASSESS_MODELS = os.getenv("BACK_TRANSLATION_ASSESS_MODELS", ','.join([GPT_4O, GEMINI_1_5_PRO, CLAUDE_3_5_SONNET]))
 
 
 async def ask_model(system: str, user: str, model: str, no_of_tries=0) -> str:
