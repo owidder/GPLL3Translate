@@ -16,7 +16,9 @@ from reportlab.lib.pagesizes import letter
 from reportlab.pdfgen import canvas
 from reportlab.lib import colors
 from reportlab.platypus import SimpleDocTemplate, Table, TableStyle, Paragraph
-from reportlab.lib.styles import getSampleStyleSheet
+from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
+from reportlab.lib.pagesizes import A4
+from reportlab.lib.units import cm
 
 from xhtml2pdf import pisa
 
@@ -277,6 +279,63 @@ def is_translation(path: str) -> bool:
     return path.split(".")[-1].lower() in LANGUAGES and not "imageRef" in path
 
 
+def create_pdf_with_table(input_file: str, translation_lines: [str], source: str, target: str):
+    pdf_filename = f"./tables/{input_file}_table.{source}_{target}.light.pro.pdf"
+    doc = SimpleDocTemplate(pdf_filename, pagesize=A4)
+
+    # Berechne die verfügbare Breite (A4-Breite minus Ränder)
+    available_width = A4[0] - 2 * cm
+
+    # Definiere Stile
+    styles = getSampleStyleSheet()
+    html_style = ParagraphStyle('HTMLStyle', parent=styles['Normal'])
+    html_style.wordWrap = 'CJK'  # Ermöglicht Umbruch für lange Wörter
+    html_style.allowWidows = 0
+    html_style.allowOrphans = 0
+    styleN = styles['Normal']
+
+    translation_headers = []
+    model_names = TRANSLATION_MODELS.split(",")
+    for i in range(len(model_names)):
+        translation_headers.append(Paragraph(text=f"--- {i} ---", style=html_style))
+        translation_headers.append(Paragraph(text="", style=styleN))
+
+    assess_headers = [Paragraph(text=model_name, style=html_style) for model_name in TRANSLATION_ASSESS_MODELS.split(",")]
+
+    formatted_data = [["Source text", *translation_headers, *assess_headers]]
+    for translation_line in translation_lines:
+        formatted_row = [Paragraph(text=translation_line["source_text"], style=html_style)]
+        for i in range(len(translation_line["translations"])):
+            formatted_row.append(Paragraph(text=translation_line["translations"][i], style=html_style))
+            formatted_row.append(Paragraph(text=translation_line["translations_back"][i], style=html_style))
+        formatted_data.append(formatted_row)
+
+    col_widths = [available_width / len(formatted_data[0])] * len(formatted_data[0])
+    table = Table(formatted_data, colWidths=col_widths)
+
+    style = TableStyle([
+        ('BACKGROUND', (0, 0), (-1, 0), colors.grey),
+        ('TEXTCOLOR', (0, 0), (-1, 0), colors.whitesmoke),
+        ('ALIGN', (0, 0), (-1, -1), 'CENTER'),
+        ('FONTNAME', (0, 0), (-1, 0), 'Helvetica-Bold'),
+        ('FONTSIZE', (0, 0), (-1, 0), 14),
+        ('BOTTOMPADDING', (0, 0), (-1, 0), 12),
+        ('BACKGROUND', (0, 1), (-1, -1), colors.beige),
+        ('TEXTCOLOR', (0, 1), (-1, -1), colors.black),
+        ('ALIGN', (0, 0), (-1, -1), 'CENTER'),
+        ('FONTNAME', (0, 1), (-1, -1), 'Helvetica'),
+        ('FONTSIZE', (0, 1), (-1, -1), 12),
+        ('TOPPADDING', (0, 1), (-1, -1), 6),
+        ('BOTTOMPADDING', (0, 1), (-1, -1), 6),
+        ('GRID', (0, 0), (-1, -1), 1, colors.black)
+    ])
+
+    table.setStyle(style)
+
+    elements = [table]
+    doc.build(elements)
+
+
 def create_pdf_table(input_file: str, translation_lines: [str], source: str, target: str):
     pdf_filename = f"./tables/{input_file}_table.{source}_{target}.light.pro.pdf"
     pdf = SimpleDocTemplate(
@@ -337,7 +396,7 @@ def create_table(input_file: str, translation_lines: [str], source: str, target:
 
     headers = ["source text", *translation_headers, *assess_headers]
 
-    env = Environment(loader=FileSystemLoader('./templates'))
+    env = Environment(loader=FileSystemLoader('../templates'))
     template = env.get_template('compare_light_table.html.j2')
     html = template.render(table_name=input_file, headers=headers, translation_lines=translation_lines, max_translations=len(TRANSLATION_MODELS.split(",")))
     html_file = f"./tables/{input_file}_table.{source}_{target}.light.pro.html"
@@ -534,8 +593,8 @@ async def crawl_json(
                         source_text=translation,
                         source_language=target_language,
                         target_language=source_language,
-                        translate_models=[GPT_4_VISION, GEMINI_1_5_PRO, CLAUDE_3_5_SONNET],
-                        assess_models=[GPT_4_VISION, GEMINI_1_5_PRO, CLAUDE_3_5_SONNET],
+                        translate_models=[GPT_4O, GEMINI_1_5_PRO, CLAUDE_3_5_SONNET],
+                        assess_models=[GPT_4O, GEMINI_1_5_PRO, CLAUDE_3_5_SONNET],
                         file_content=file_content,
                         file_description=file_description,
                     ) for translation in unique_translations
@@ -612,7 +671,7 @@ async def process_one_file(input_file: str, file_description: str) -> ([str], [s
     for target_language in table_lines_dict:
         html_table = create_table(translation_lines=table_lines_dict[target_language], source=SOURCE_LANGUAGE, target=target_language, input_file=os.path.basename(input_file))
         html_tables.append(html_table)
-        pdf_table = create_pdf_table(translation_lines=table_lines_dict[target_language], source=SOURCE_LANGUAGE, target=target_language, input_file=os.path.basename(input_file))
+        pdf_table = create_pdf_with_table(translation_lines=table_lines_dict[target_language], source=SOURCE_LANGUAGE, target=target_language, input_file=os.path.basename(input_file))
         pdf_tables.append(pdf_table)
     return html_tables, pdf_tables
 
