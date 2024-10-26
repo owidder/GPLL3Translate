@@ -20,193 +20,193 @@
                     "en": "Zimbabwe - Three hours north of Harare: forest fire cannot be stopped",
                     "ar": "زيمبابوي - ثلاث ساعات شمال هاراري: لا يمكن إيقاف حريق الغابات",
                     "fr": "Zimbabwe - À trois heures au nord de Harare : l'incendie de forêt ne peut être maîtrisé",
-                    "_azure/gpt-4-vision_bg": "",
+                    "_azure/gpt-4_bg": "",
                     "_gcp/gemini-1.5-pro_bg": "",
-                    "_compare_azure/gpt-4-vision_bg": "",
+                    "_compare_azure/gpt-4_bg": "",
                     "_compare_gcp/gemini-1.5-pro_bg": "",
                     "_compare_aws/claude-3.5-sonnet_bg": "",
                     "_unique_translations_back_bg": [
                         ""
                     ],
-                    "_azure/gpt-4-vision_cs": "",
+                    "_azure/gpt-4_cs": "",
                     "_gcp/gemini-1.5-pro_cs": "",
-                    "_compare_azure/gpt-4-vision_cs": "",
+                    "_compare_azure/gpt-4_cs": "",
                     "_compare_gcp/gemini-1.5-pro_cs": "",
                     "_compare_aws/claude-3.5-sonnet_cs": "",
                     "_unique_translations_back_cs": [
                         ""
                     ],
-                    "_azure/gpt-4-vision_da": "",
+                    "_azure/gpt-4_da": "",
                     "_gcp/gemini-1.5-pro_da": "",
-                    "_compare_azure/gpt-4-vision_da": "",
+                    "_compare_azure/gpt-4_da": "",
                     "_compare_gcp/gemini-1.5-pro_da": "",
                     "_compare_aws/claude-3.5-sonnet_da": "",
                     "_unique_translations_back_da": [
                         ""
                     ],
-                    "_azure/gpt-4-vision_el": "",
+                    "_azure/gpt-4_el": "",
                     "_gcp/gemini-1.5-pro_el": "",
-                    "_compare_azure/gpt-4-vision_el": "",
+                    "_compare_azure/gpt-4_el": "",
                     "_compare_gcp/gemini-1.5-pro_el": "",
                     "_compare_aws/claude-3.5-sonnet_el": "",
                     "_unique_translations_back_el": [
                         ""
                     ],
-                    "_azure/gpt-4-vision_es": "",
+                    "_azure/gpt-4_es": "",
                     "_gcp/gemini-1.5-pro_es": "",
-                    "_compare_azure/gpt-4-vision_es": "",
+                    "_compare_azure/gpt-4_es": "",
                     "_compare_gcp/gemini-1.5-pro_es": "",
                     "_compare_aws/claude-3.5-sonnet_es": "",
                     "_unique_translations_back_es": [
                         ""
                     ],
-                    "_azure/gpt-4-vision_et": "",
+                    "_azure/gpt-4_et": "",
                     "_gcp/gemini-1.5-pro_et": "",
-                    "_compare_azure/gpt-4-vision_et": "",
+                    "_compare_azure/gpt-4_et": "",
                     "_compare_gcp/gemini-1.5-pro_et": "",
                     "_compare_aws/claude-3.5-sonnet_et": "",
                     "_unique_translations_back_et": [
                         ""
                     ],
-                    "_azure/gpt-4-vision_fi": "",
+                    "_azure/gpt-4_fi": "",
                     "_gcp/gemini-1.5-pro_fi": "",
-                    "_compare_azure/gpt-4-vision_fi": "",
+                    "_compare_azure/gpt-4_fi": "",
                     "_compare_gcp/gemini-1.5-pro_fi": "",
                     "_compare_aws/claude-3.5-sonnet_fi": "",
                     "_unique_translations_back_fi": [
                         ""
                     ],
-                    "_azure/gpt-4-vision_ga": "",
+                    "_azure/gpt-4_ga": "",
                     "_gcp/gemini-1.5-pro_ga": "",
-                    "_compare_azure/gpt-4-vision_ga": "",
+                    "_compare_azure/gpt-4_ga": "",
                     "_compare_gcp/gemini-1.5-pro_ga": "",
                     "_compare_aws/claude-3.5-sonnet_ga": "",
                     "_unique_translations_back_ga": [
                         ""
                     ],
-                    "_azure/gpt-4-vision_hr": "",
+                    "_azure/gpt-4_hr": "",
                     "_gcp/gemini-1.5-pro_hr": "",
-                    "_compare_azure/gpt-4-vision_hr": "",
+                    "_compare_azure/gpt-4_hr": "",
                     "_compare_gcp/gemini-1.5-pro_hr": "",
                     "_compare_aws/claude-3.5-sonnet_hr": "",
                     "_unique_translations_back_hr": [
                         ""
                     ],
-                    "_azure/gpt-4-vision_hu": "",
+                    "_azure/gpt-4_hu": "",
                     "_gcp/gemini-1.5-pro_hu": "",
-                    "_compare_azure/gpt-4-vision_hu": "",
+                    "_compare_azure/gpt-4_hu": "",
                     "_compare_gcp/gemini-1.5-pro_hu": "",
                     "_compare_aws/claude-3.5-sonnet_hu": "",
                     "_unique_translations_back_hu": [
                         ""
                     ],
-                    "_azure/gpt-4-vision_id": "",
+                    "_azure/gpt-4_id": "",
                     "_gcp/gemini-1.5-pro_id": "",
-                    "_compare_azure/gpt-4-vision_id": "",
+                    "_compare_azure/gpt-4_id": "",
                     "_compare_gcp/gemini-1.5-pro_id": "",
                     "_compare_aws/claude-3.5-sonnet_id": "",
                     "_unique_translations_back_id": [
                         ""
                     ],
-                    "_azure/gpt-4-vision_it": "",
+                    "_azure/gpt-4_it": "",
                     "_gcp/gemini-1.5-pro_it": "",
-                    "_compare_azure/gpt-4-vision_it": "",
+                    "_compare_azure/gpt-4_it": "",
                     "_compare_gcp/gemini-1.5-pro_it": "",
                     "_compare_aws/claude-3.5-sonnet_it": "",
                     "_unique_translations_back_it": [
                         ""
                     ],
-                    "_azure/gpt-4-vision_ja": "",
+                    "_azure/gpt-4_ja": "",
                     "_gcp/gemini-1.5-pro_ja": "",
-                    "_compare_azure/gpt-4-vision_ja": "",
+                    "_compare_azure/gpt-4_ja": "",
                     "_compare_gcp/gemini-1.5-pro_ja": "",
                     "_compare_aws/claude-3.5-sonnet_ja": "",
                     "_unique_translations_back_ja": [
                         ""
                     ],
-                    "_azure/gpt-4-vision_ko": "",
+                    "_azure/gpt-4_ko": "",
                     "_gcp/gemini-1.5-pro_ko": "",
-                    "_compare_azure/gpt-4-vision_ko": "",
+                    "_compare_azure/gpt-4_ko": "",
                     "_compare_gcp/gemini-1.5-pro_ko": "",
                     "_compare_aws/claude-3.5-sonnet_ko": "",
                     "_unique_translations_back_ko": [
                         ""
                     ],
-                    "_azure/gpt-4-vision_lv": "",
+                    "_azure/gpt-4_lv": "",
                     "_gcp/gemini-1.5-pro_lv": "",
-                    "_compare_azure/gpt-4-vision_lv": "",
+                    "_compare_azure/gpt-4_lv": "",
                     "_compare_gcp/gemini-1.5-pro_lv": "",
                     "_compare_aws/claude-3.5-sonnet_lv": "",
                     "_unique_translations_back_lv": [
                         ""
                     ],
-                    "_azure/gpt-4-vision_lt": "",
+                    "_azure/gpt-4_lt": "",
                     "_gcp/gemini-1.5-pro_lt": "",
-                    "_compare_azure/gpt-4-vision_lt": "",
+                    "_compare_azure/gpt-4_lt": "",
                     "_compare_gcp/gemini-1.5-pro_lt": "",
                     "_compare_aws/claude-3.5-sonnet_lt": "",
                     "_unique_translations_back_lt": [
                         ""
                     ],
-                    "_azure/gpt-4-vision_mt": "",
+                    "_azure/gpt-4_mt": "",
                     "_gcp/gemini-1.5-pro_mt": "",
-                    "_compare_azure/gpt-4-vision_mt": "",
+                    "_compare_azure/gpt-4_mt": "",
                     "_compare_gcp/gemini-1.5-pro_mt": "",
                     "_compare_aws/claude-3.5-sonnet_mt": "",
                     "_unique_translations_back_mt": [
                         ""
                     ],
-                    "_azure/gpt-4-vision_nl": "",
+                    "_azure/gpt-4_nl": "",
                     "_gcp/gemini-1.5-pro_nl": "",
-                    "_compare_azure/gpt-4-vision_nl": "",
+                    "_compare_azure/gpt-4_nl": "",
                     "_compare_gcp/gemini-1.5-pro_nl": "",
                     "_compare_aws/claude-3.5-sonnet_nl": "",
                     "_unique_translations_back_nl": [
                         ""
                     ],
-                    "_azure/gpt-4-vision_pl": "",
+                    "_azure/gpt-4_pl": "",
                     "_gcp/gemini-1.5-pro_pl": "",
-                    "_compare_azure/gpt-4-vision_pl": "",
+                    "_compare_azure/gpt-4_pl": "",
                     "_compare_gcp/gemini-1.5-pro_pl": "",
                     "_compare_aws/claude-3.5-sonnet_pl": "",
                     "_unique_translations_back_pl": [
                         ""
                     ],
-                    "_azure/gpt-4-vision_ro": "",
+                    "_azure/gpt-4_ro": "",
                     "_gcp/gemini-1.5-pro_ro": "",
-                    "_compare_azure/gpt-4-vision_ro": "",
+                    "_compare_azure/gpt-4_ro": "",
                     "_compare_gcp/gemini-1.5-pro_ro": "",
                     "_compare_aws/claude-3.5-sonnet_ro": "",
                     "_unique_translations_back_ro": [
                         ""
                     ],
-                    "_azure/gpt-4-vision_sk": "",
+                    "_azure/gpt-4_sk": "",
                     "_gcp/gemini-1.5-pro_sk": "",
-                    "_compare_azure/gpt-4-vision_sk": "",
+                    "_compare_azure/gpt-4_sk": "",
                     "_compare_gcp/gemini-1.5-pro_sk": "",
                     "_compare_aws/claude-3.5-sonnet_sk": "",
                     "_unique_translations_back_sk": [
                         ""
                     ],
-                    "_azure/gpt-4-vision_sl": "",
+                    "_azure/gpt-4_sl": "",
                     "_gcp/gemini-1.5-pro_sl": "",
-                    "_compare_azure/gpt-4-vision_sl": "",
+                    "_compare_azure/gpt-4_sl": "",
                     "_compare_gcp/gemini-1.5-pro_sl": "",
                     "_compare_aws/claude-3.5-sonnet_sl": "",
                     "_unique_translations_back_sl": [
                         ""
                     ],
-                    "_azure/gpt-4-vision_sv": "",
+                    "_azure/gpt-4_sv": "",
                     "_gcp/gemini-1.5-pro_sv": "",
-                    "_compare_azure/gpt-4-vision_sv": "",
+                    "_compare_azure/gpt-4_sv": "",
                     "_compare_gcp/gemini-1.5-pro_sv": "",
                     "_compare_aws/claude-3.5-sonnet_sv": "",
                     "_unique_translations_back_sv": [
                         ""
                     ],
-                    "_azure/gpt-4-vision_zh": "",
+                    "_azure/gpt-4_zh": "",
                     "_gcp/gemini-1.5-pro_zh": "",
-                    "_compare_azure/gpt-4-vision_zh": "",
+                    "_compare_azure/gpt-4_zh": "",
                     "_compare_gcp/gemini-1.5-pro_zh": "",
                     "_compare_aws/claude-3.5-sonnet_zh": "",
                     "_unique_translations_back_zh": [
@@ -219,193 +219,193 @@
                     "ru": "Один из самых известных национальных парков Зимбабве горит с начала этой недели. В этом году жаркий засушливый сезон принес свои плоды. Министр сельского хозяйства Зимбабве объявил вчера на пресс-конференции, что весь лесной массив и живущие в нем люди и животные находятся в опасности. \n\n В последние годы климатические условия вокруг национального парка становятся все более сухими. Однако нынешний сухой сезон превышает все предыдущие рекорды. Местные власти подтвердили, что более 1 000 гектаров национального парка в настоящее время горят или уже уничтожены огнем. Лесных пожаров такого масштаба в Зимбабве еще не было. \n\n Конвенция ООН по борьбе с опустыниванием (UNCCD) теперь сообщила о своей озабоченности: 'Опасность лесных пожаров высока. Опустынивание в Зимбабве ускорится еще больше, а климатические условия значительно ухудшатся. Сейчас необходимы активные усилия, чтобы взять пожар под контроль'.",
                     "ar": "واحدة من أشهر الحدائق الوطنية في زيمبابوي تشتعل بالنيران منذ بداية هذا الأسبوع. تأثرت المنطقة بشكل كبير خلال فصل الجفاف الحار لهذا العام. أعلن وزير الزراعة في زيمبابوي في مؤتمر صحفي أمس أن المساحة الغابية بأكملها والأشخاص والحيوانات العاشية فيها في خطر.\n\n ازدادت الظروف المناخية الجافة حول الحديقة الوطنية بشكل متزايد في السنوات الأخيرة. ومع ذلك، تفوق فصل الجفاف الحالي جميع السجلات السابقة. أكدت السلطات المحلية أن أكثر من 1,000 هكتار من الحديقة الوطنية يشتعل حاليًا أو تم تدميرها بالفعل بواسطة الحرائق. لم يشهد زيمبابوي من قبل حريق غابات بهذا الحجم.\n\n أعربت اتفاقية الأمم المتحدة لمكافحة التصحر (UNCCD) عن قلقها: 'تزايد خطورة حرائق الغابات. ستتسارع عملية التصحر في زيمبابوي بشكل أكبر وستتدهور الظروف المناخية بشكل كبير. يتطلب الآن بذل جهود عاجلة للسيطرة على الحريق.'",
                     "fr": "Un des parcs nationaux les plus célèbres du Zimbabwe est en proie aux flammes depuis le début de cette semaine. La saison chaude et sèche de cette année fait des ravages dans la région. Le ministre de l'Agriculture du Zimbabwe a annoncé lors d'une conférence de presse hier que toute la zone forestière ainsi que les habitants et les animaux qui y vivent sont en danger.\n\n Les conditions climatiques autour du parc national sont devenues de plus en plus sèches ces dernières années. Cependant, la saison sèche actuelle dépasse tous les records précédents. Les autorités locales ont confirmé que plus de 1 000 hectares du parc national sont actuellement en feu ou ont déjà été détruits par les flammes. Un incendie de forêt d'une telle ampleur n'a jamais été observé auparavant au Zimbabwe.\n\n La Convention des Nations Unies sur la lutte contre la désertification (UNCCD) a exprimé sa préoccupation : « Les dangers des incendies de forêt sont élevés. La désertification au Zimbabwe s'accélérera encore plus et les conditions climatiques se détérioreront considérablement. Des efforts urgents sont maintenant nécessaires pour maîtriser l'incendie. »",
-                    "_azure/gpt-4-vision_bg": "",
+                    "_azure/gpt-4_bg": "",
                     "_gcp/gemini-1.5-pro_bg": "",
-                    "_compare_azure/gpt-4-vision_bg": "",
+                    "_compare_azure/gpt-4_bg": "",
                     "_compare_gcp/gemini-1.5-pro_bg": "",
                     "_compare_aws/claude-3.5-sonnet_bg": "",
                     "_unique_translations_back_bg": [
                         ""
                     ],
-                    "_azure/gpt-4-vision_cs": "",
+                    "_azure/gpt-4_cs": "",
                     "_gcp/gemini-1.5-pro_cs": "",
-                    "_compare_azure/gpt-4-vision_cs": "",
+                    "_compare_azure/gpt-4_cs": "",
                     "_compare_gcp/gemini-1.5-pro_cs": "",
                     "_compare_aws/claude-3.5-sonnet_cs": "",
                     "_unique_translations_back_cs": [
                         ""
                     ],
-                    "_azure/gpt-4-vision_da": "",
+                    "_azure/gpt-4_da": "",
                     "_gcp/gemini-1.5-pro_da": "",
-                    "_compare_azure/gpt-4-vision_da": "",
+                    "_compare_azure/gpt-4_da": "",
                     "_compare_gcp/gemini-1.5-pro_da": "",
                     "_compare_aws/claude-3.5-sonnet_da": "",
                     "_unique_translations_back_da": [
                         ""
                     ],
-                    "_azure/gpt-4-vision_el": "",
+                    "_azure/gpt-4_el": "",
                     "_gcp/gemini-1.5-pro_el": "",
-                    "_compare_azure/gpt-4-vision_el": "",
+                    "_compare_azure/gpt-4_el": "",
                     "_compare_gcp/gemini-1.5-pro_el": "",
                     "_compare_aws/claude-3.5-sonnet_el": "",
                     "_unique_translations_back_el": [
                         ""
                     ],
-                    "_azure/gpt-4-vision_es": "",
+                    "_azure/gpt-4_es": "",
                     "_gcp/gemini-1.5-pro_es": "",
-                    "_compare_azure/gpt-4-vision_es": "",
+                    "_compare_azure/gpt-4_es": "",
                     "_compare_gcp/gemini-1.5-pro_es": "",
                     "_compare_aws/claude-3.5-sonnet_es": "",
                     "_unique_translations_back_es": [
                         ""
                     ],
-                    "_azure/gpt-4-vision_et": "",
+                    "_azure/gpt-4_et": "",
                     "_gcp/gemini-1.5-pro_et": "",
-                    "_compare_azure/gpt-4-vision_et": "",
+                    "_compare_azure/gpt-4_et": "",
                     "_compare_gcp/gemini-1.5-pro_et": "",
                     "_compare_aws/claude-3.5-sonnet_et": "",
                     "_unique_translations_back_et": [
                         ""
                     ],
-                    "_azure/gpt-4-vision_fi": "",
+                    "_azure/gpt-4_fi": "",
                     "_gcp/gemini-1.5-pro_fi": "",
-                    "_compare_azure/gpt-4-vision_fi": "",
+                    "_compare_azure/gpt-4_fi": "",
                     "_compare_gcp/gemini-1.5-pro_fi": "",
                     "_compare_aws/claude-3.5-sonnet_fi": "",
                     "_unique_translations_back_fi": [
                         ""
                     ],
-                    "_azure/gpt-4-vision_ga": "",
+                    "_azure/gpt-4_ga": "",
                     "_gcp/gemini-1.5-pro_ga": "",
-                    "_compare_azure/gpt-4-vision_ga": "",
+                    "_compare_azure/gpt-4_ga": "",
                     "_compare_gcp/gemini-1.5-pro_ga": "",
                     "_compare_aws/claude-3.5-sonnet_ga": "",
                     "_unique_translations_back_ga": [
                         ""
                     ],
-                    "_azure/gpt-4-vision_hr": "",
+                    "_azure/gpt-4_hr": "",
                     "_gcp/gemini-1.5-pro_hr": "",
-                    "_compare_azure/gpt-4-vision_hr": "",
+                    "_compare_azure/gpt-4_hr": "",
                     "_compare_gcp/gemini-1.5-pro_hr": "",
                     "_compare_aws/claude-3.5-sonnet_hr": "",
                     "_unique_translations_back_hr": [
                         ""
                     ],
-                    "_azure/gpt-4-vision_hu": "",
+                    "_azure/gpt-4_hu": "",
                     "_gcp/gemini-1.5-pro_hu": "",
-                    "_compare_azure/gpt-4-vision_hu": "",
+                    "_compare_azure/gpt-4_hu": "",
                     "_compare_gcp/gemini-1.5-pro_hu": "",
                     "_compare_aws/claude-3.5-sonnet_hu": "",
                     "_unique_translations_back_hu": [
                         ""
                     ],
-                    "_azure/gpt-4-vision_id": "",
+                    "_azure/gpt-4_id": "",
                     "_gcp/gemini-1.5-pro_id": "",
-                    "_compare_azure/gpt-4-vision_id": "",
+                    "_compare_azure/gpt-4_id": "",
                     "_compare_gcp/gemini-1.5-pro_id": "",
                     "_compare_aws/claude-3.5-sonnet_id": "",
                     "_unique_translations_back_id": [
                         ""
                     ],
-                    "_azure/gpt-4-vision_it": "",
+                    "_azure/gpt-4_it": "",
                     "_gcp/gemini-1.5-pro_it": "",
-                    "_compare_azure/gpt-4-vision_it": "",
+                    "_compare_azure/gpt-4_it": "",
                     "_compare_gcp/gemini-1.5-pro_it": "",
                     "_compare_aws/claude-3.5-sonnet_it": "",
                     "_unique_translations_back_it": [
                         ""
                     ],
-                    "_azure/gpt-4-vision_ja": "",
+                    "_azure/gpt-4_ja": "",
                     "_gcp/gemini-1.5-pro_ja": "",
-                    "_compare_azure/gpt-4-vision_ja": "",
+                    "_compare_azure/gpt-4_ja": "",
                     "_compare_gcp/gemini-1.5-pro_ja": "",
                     "_compare_aws/claude-3.5-sonnet_ja": "",
                     "_unique_translations_back_ja": [
                         ""
                     ],
-                    "_azure/gpt-4-vision_ko": "",
+                    "_azure/gpt-4_ko": "",
                     "_gcp/gemini-1.5-pro_ko": "",
-                    "_compare_azure/gpt-4-vision_ko": "",
+                    "_compare_azure/gpt-4_ko": "",
                     "_compare_gcp/gemini-1.5-pro_ko": "",
                     "_compare_aws/claude-3.5-sonnet_ko": "",
                     "_unique_translations_back_ko": [
                         ""
                     ],
-                    "_azure/gpt-4-vision_lv": "",
+                    "_azure/gpt-4_lv": "",
                     "_gcp/gemini-1.5-pro_lv": "",
-                    "_compare_azure/gpt-4-vision_lv": "",
+                    "_compare_azure/gpt-4_lv": "",
                     "_compare_gcp/gemini-1.5-pro_lv": "",
                     "_compare_aws/claude-3.5-sonnet_lv": "",
                     "_unique_translations_back_lv": [
                         ""
                     ],
-                    "_azure/gpt-4-vision_lt": "",
+                    "_azure/gpt-4_lt": "",
                     "_gcp/gemini-1.5-pro_lt": "",
-                    "_compare_azure/gpt-4-vision_lt": "",
+                    "_compare_azure/gpt-4_lt": "",
                     "_compare_gcp/gemini-1.5-pro_lt": "",
                     "_compare_aws/claude-3.5-sonnet_lt": "",
                     "_unique_translations_back_lt": [
                         ""
                     ],
-                    "_azure/gpt-4-vision_mt": "",
+                    "_azure/gpt-4_mt": "",
                     "_gcp/gemini-1.5-pro_mt": "",
-                    "_compare_azure/gpt-4-vision_mt": "",
+                    "_compare_azure/gpt-4_mt": "",
                     "_compare_gcp/gemini-1.5-pro_mt": "",
                     "_compare_aws/claude-3.5-sonnet_mt": "",
                     "_unique_translations_back_mt": [
                         ""
                     ],
-                    "_azure/gpt-4-vision_nl": "",
+                    "_azure/gpt-4_nl": "",
                     "_gcp/gemini-1.5-pro_nl": "",
-                    "_compare_azure/gpt-4-vision_nl": "",
+                    "_compare_azure/gpt-4_nl": "",
                     "_compare_gcp/gemini-1.5-pro_nl": "",
                     "_compare_aws/claude-3.5-sonnet_nl": "",
                     "_unique_translations_back_nl": [
                         ""
                     ],
-                    "_azure/gpt-4-vision_pl": "",
+                    "_azure/gpt-4_pl": "",
                     "_gcp/gemini-1.5-pro_pl": "",
-                    "_compare_azure/gpt-4-vision_pl": "",
+                    "_compare_azure/gpt-4_pl": "",
                     "_compare_gcp/gemini-1.5-pro_pl": "",
                     "_compare_aws/claude-3.5-sonnet_pl": "",
                     "_unique_translations_back_pl": [
                         ""
                     ],
-                    "_azure/gpt-4-vision_ro": "",
+                    "_azure/gpt-4_ro": "",
                     "_gcp/gemini-1.5-pro_ro": "",
-                    "_compare_azure/gpt-4-vision_ro": "",
+                    "_compare_azure/gpt-4_ro": "",
                     "_compare_gcp/gemini-1.5-pro_ro": "",
                     "_compare_aws/claude-3.5-sonnet_ro": "",
                     "_unique_translations_back_ro": [
                         ""
                     ],
-                    "_azure/gpt-4-vision_sk": "",
+                    "_azure/gpt-4_sk": "",
                     "_gcp/gemini-1.5-pro_sk": "",
-                    "_compare_azure/gpt-4-vision_sk": "",
+                    "_compare_azure/gpt-4_sk": "",
                     "_compare_gcp/gemini-1.5-pro_sk": "",
                     "_compare_aws/claude-3.5-sonnet_sk": "",
                     "_unique_translations_back_sk": [
                         ""
                     ],
-                    "_azure/gpt-4-vision_sl": "",
+                    "_azure/gpt-4_sl": "",
                     "_gcp/gemini-1.5-pro_sl": "",
-                    "_compare_azure/gpt-4-vision_sl": "",
+                    "_compare_azure/gpt-4_sl": "",
                     "_compare_gcp/gemini-1.5-pro_sl": "",
                     "_compare_aws/claude-3.5-sonnet_sl": "",
                     "_unique_translations_back_sl": [
                         ""
                     ],
-                    "_azure/gpt-4-vision_sv": "",
+                    "_azure/gpt-4_sv": "",
                     "_gcp/gemini-1.5-pro_sv": "",
-                    "_compare_azure/gpt-4-vision_sv": "",
+                    "_compare_azure/gpt-4_sv": "",
                     "_compare_gcp/gemini-1.5-pro_sv": "",
                     "_compare_aws/claude-3.5-sonnet_sv": "",
                     "_unique_translations_back_sv": [
                         ""
                     ],
-                    "_azure/gpt-4-vision_zh": "",
+                    "_azure/gpt-4_zh": "",
                     "_gcp/gemini-1.5-pro_zh": "",
-                    "_compare_azure/gpt-4-vision_zh": "",
+                    "_compare_azure/gpt-4_zh": "",
                     "_compare_gcp/gemini-1.5-pro_zh": "",
                     "_compare_aws/claude-3.5-sonnet_zh": "",
                     "_unique_translations_back_zh": [
