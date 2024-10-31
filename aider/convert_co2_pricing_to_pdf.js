@@ -1,5 +1,6 @@
 const puppeteer = require('puppeteer');
 const path = require('path');
+const fs = require('fs');
 
 async function convertHtmlToPdf(htmlFilePath, outputPdfPath) {
   const browser = await puppeteer.launch();
@@ -8,8 +9,11 @@ async function convertHtmlToPdf(htmlFilePath, outputPdfPath) {
   // Get the absolute path of the HTML file
   const absoluteHtmlFilePath = path.resolve(htmlFilePath);
 
-  // Load the HTML file
-  await page.goto(`file://${absoluteHtmlFilePath}`, {
+  // Read the HTML file
+  const htmlContent = fs.readFileSync(absoluteHtmlFilePath, 'utf8');
+
+  // Set the HTML content
+  await page.setContent(htmlContent, {
     waitUntil: 'networkidle0'
   });
 
