@@ -61,12 +61,26 @@ def create_pdf_with_table(filename, data):
 
 # Beispielaufruf
 if __name__ == "__main__":
-    # Beispieldaten für die Tabelle mit HTML-formatierten Texten
+    # Beispieldaten für die Tabelle mit HTML-formatierten Texten und <span> Elementen
     table_data = [
-        ['<b>Spalte 1</b>', '<b>Spalte 2</b>', '<b>Spalte 3</b>'],
-        ['Dies ist ein <i>sehr langer Text</i>, der umgebrochen werden sollte.', '<font color="red">Kurzer Text</font>', 'Noch ein <u>langer Text</u>, der ebenfalls umgebrochen werden sollte.'],
-        ['Zeile 2, <b>Zelle 1</b>', 'Ein <i>mittelanger</i> Text, der vielleicht umgebrochen wird.', 'Zeile 2, <font color="blue">Zelle 3</font>'],
-        ['<b><i><u>Formatierter Text</u></i></b>', '<font size="14">Größerer Text</font>', '<font face="Courier">Monospace-Schrift</font>'],
+        ['<span style="font-weight: bold;">Spalte 1</span>', '<span style="font-weight: bold;">Spalte 2</span>', '<span style="font-weight: bold;">Spalte 3</span>'],
+        ['Dies ist ein <span style="font-style: italic;">sehr langer Text</span>, der umgebrochen werden sollte.', '<span style="color: red;">Kurzer Text</span>', 'Noch ein <span style="text-decoration: underline;">langer Text</span>, der ebenfalls umgebrochen werden sollte.'],
+        ['Zeile 2, <span style="font-weight: bold;">Zelle 1</span>', 'Ein <span style="font-style: italic;">mittelanger</span> Text, der vielleicht umgebrochen wird.', 'Zeile 2, <span style="color: blue;">Zelle 3</span>'],
+        ['<span style="font-weight: bold; font-style: italic; text-decoration: underline;">Formatierter Text</span>', '<span style="font-size: 14px;">Größerer Text</span>', '<span style="font-family: Courier;">Monospace-Schrift</span>'],
     ]
     
     create_pdf_with_table('../beispiel_tabelle_mit_umbruch.pdf', table_data)
+
+# Zusätzliche Beispiele für komplexere Span-Verwendung
+def complex_span_example():
+    complex_data = [
+        ['<span style="font-weight: bold; color: #FF5733;">Komplexe Formatierung</span>'],
+        ['<span style="background-color: #FFFFCC; padding: 5px; border: 1px solid #000000;">Hintergrund und Rahmen</span>'],
+        ['<span style="font-size: 16px; font-family: Arial, sans-serif;">Benutzerdefinierte Schriftart und Größe</span>'],
+        ['Normaler Text mit <span style="font-weight: bold; color: blue;">fettgedrucktem blauen</span> und <span style="font-style: italic; color: green;">kursivem grünen</span> Text'],
+    ]
+    create_pdf_with_table('../komplexe_span_beispiele.pdf', complex_data)
+
+if __name__ == "__main__":
+    create_pdf_with_table('../beispiel_tabelle_mit_umbruch.pdf', table_data)
+    complex_span_example()
