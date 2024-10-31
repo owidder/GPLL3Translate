@@ -69,4 +69,4 @@ if __name__ == "__main__":
         ['<b><i><u>Formatierter Text</u></i></b>', '<font size="14">Größerer Text</font>', '<font face="Courier">Monospace-Schrift</font>'],
     ]
     
-    create_pdf_with_table('beispiel_tabelle_mit_umbruch.pdf', table_data)
+    create_pdf_with_table('../beispiel_tabelle_mit_umbruch.pdf', table_data)

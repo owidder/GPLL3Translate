@@ -24,7 +24,7 @@
                     "_compare_gcp/gemini-1.5-pro_sv": "Resultaten är här!",
                     "_compare_aws/claude-3.5-sonnet_sv": "Resultaten är här!",
                     "_unique_translations_back_sv": [
-                        ""
+                        "Die Ergebnisse sind da!"
                     ],
                     "_azure/gpt-4o_ar": "النتائج جاهزة!",
                     "_gcp/gemini-1.5-pro_ar": "النتائج جاهزة! \n",
@@ -274,8 +274,8 @@
                     "_compare_gcp/gemini-1.5-pro_sv": "El från 100% förnybara energikällor",
                     "_compare_aws/claude-3.5-sonnet_sv": "El från 100 % förnybara energikällor",
                     "_unique_translations_back_sv": [
-                        "",
-                        ""
+                        "Strom aus 100% erneuerbaren Energiequellen",
+                        "Strom aus 100 % erneuerbaren Energiequellen"
                     ],
                     "_azure/gpt-4o_ar": "كهرباء من مصادر الطاقة المتجددة بنسبة 100%",
                     "_gcp/gemini-1.5-pro_ar": "الكهرباء من مصادر الطاقة المتجددة بنسبة 100٪\n",
@@ -561,7 +561,7 @@
                     "_compare_gcp/gemini-1.5-pro_sv": "Resultaten är här!",
                     "_compare_aws/claude-3.5-sonnet_sv": "Resultaten är här!",
                     "_unique_translations_back_sv": [
-                        ""
+                        "Die Ergebnisse sind da!"
                     ],
                     "_azure/gpt-4o_ar": "النتائج جاهزة!",
                     "_gcp/gemini-1.5-pro_ar": "النتائج جاهزة! \n",
@@ -814,8 +814,8 @@
                     "_compare_gcp/gemini-1.5-pro_sv": "Vid det senaste valet röstade man för att höja CO₂-skatten. Den har därför ökat med 25 euro!",
                     "_compare_aws/claude-3.5-sonnet_sv": "Vid det senaste valet röstade man för att höja CO₂-skatten. Den har därför ökat med 25 euro!",
                     "_unique_translations_back_sv": [
-                        "",
-                        ""
+                        "Bei der letzten Wahl wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25 Euro gestiegen!",
+                        "Bei der letzten Wahl wurde für eine Erhöhung der CO₂-Steuer gestimmt. Sie ist daher um 25€ gestiegen!"
                     ],
                     "_azure/gpt-4o_ar": "في الانتخابات الأخيرة، تم التصويت لصالح زيادة ضريبة ثاني أكسيد الكربون.<br>لذلك، ارتفعت بمقدار 25 يورو!",
                     "_gcp/gemini-1.5-pro_ar": "في الانتخابات الأخيرة، تم التصويت على زيادة ضريبة ثاني أكسيد الكربون.<br>لذلك، ارتفعت بمقدار 25 يورو! \n",
@@ -1128,7 +1128,7 @@
                     "_compare_gcp/gemini-1.5-pro_sv": "Resultaten är här!",
                     "_compare_aws/claude-3.5-sonnet_sv": "Resultaten är här!",
                     "_unique_translations_back_sv": [
-                        ""
+                        "Die Ergebnisse sind da!"
                     ],
                     "_azure/gpt-4o_ar": "النتائج جاهزة!",
                     "_gcp/gemini-1.5-pro_ar": "النتائج جاهزة! \n",
@@ -1380,8 +1380,8 @@
                     "_compare_gcp/gemini-1.5-pro_sv": "Vid det senaste valet röstade man för att sänka koldioxidskatten. Den har därför sjunkit med 25 euro!",
                     "_compare_aws/claude-3.5-sonnet_sv": "Vid det senaste valet röstade man för att sänka koldioxidskatten. Den har därför sjunkit med 25 euro!",
                     "_unique_translations_back_sv": [
-                        "",
-                        ""
+                        "Bei der letzten Wahl wurde für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25€ gesunken!",
+                        "Bei der letzten Wahl wurde für eine Senkung der CO₂-Steuer gestimmt. Sie ist daher um 25 Euro gesunken!"
                     ],
                     "_azure/gpt-4o_ar": "في الانتخابات الأخيرة، صوت الناس لخفض ضريبة ثاني أكسيد الكربون.<br>لذلك، انخفضت بمقدار 25 يورو!",
                     "_gcp/gemini-1.5-pro_ar": "في الانتخابات الأخيرة، صوت الناس لخفض ضريبة ثاني أكسيد الكربون.<br>لذلك، انخفضت بمقدار 25 يورو! \n",
@@ -1692,7 +1692,7 @@
                     "_compare_gcp/gemini-1.5-pro_sv": "Resultaten är här!",
                     "_compare_aws/claude-3.5-sonnet_sv": "Resultaten är här!",
                     "_unique_translations_back_sv": [
-                        ""
+                        "Die Ergebnisse sind da!"
                     ],
                     "_azure/gpt-4o_ar": "النتائج جاهزة!",
                     "_gcp/gemini-1.5-pro_ar": "النتائج جاهزة! \n",
@@ -1944,8 +1944,8 @@
                     "_compare_gcp/gemini-1.5-pro_sv": "Vid det senaste valet röstades det för att CO₂-skatten skulle förbli densamma. Den förblir därför oförändrad!",
                     "_compare_aws/claude-3.5-sonnet_sv": "Vid det senaste valet röstades det för att CO₂-skatten skulle förbli densamma. Den förblir därför oförändrad!",
                     "_unique_translations_back_sv": [
-                        "",
-                        ""
+                        "Bei der letzten Wahl wurde dafür gestimmt, dass die CO₂-Steuer unverändert bleibt. Sie bleibt daher unverändert!",
+                        "Bei der letzten Wahl wurde dafür gestimmt, dass die CO₂-Steuer unverändert bleibt. Sie bleibt daher unverändert!"
                     ],
                     "_azure/gpt-4o_ar": "في الانتخابات الأخيرة، صوت الناس للحفاظ على ضريبة ثاني أكسيد الكربون كما هي.<br>لذلك، تظل دون تغيير!",
                     "_gcp/gemini-1.5-pro_ar": "في الانتخابات الأخيرة، تم التصويت على الإبقاء على ضريبة ثاني أكسيد الكربون كما هي.<br>لذلك، ستبقى دون تغيير! \n",

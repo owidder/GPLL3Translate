@@ -399,11 +399,11 @@ def create_table(input_file: str, translation_lines: [str], source: str, target:
     env = Environment(loader=FileSystemLoader('../templates'))
     template = env.get_template('compare_light_table.html.j2')
     html = template.render(table_name=input_file, headers=headers, translation_lines=translation_lines, max_translations=len(TRANSLATION_MODELS.split(",")))
-    html_file = f"./tables/{input_file}_table.{source}_{target}.light.pro.html"
+    html_file = f"../tables/{input_file}_table.{source}_{target}.light.pro.html"
     with open(html_file, 'w') as f:
         f.write(html)
     #HTML(html _file).write_pdf(f"{html_file}.pdf")
-    pdf_file = f"./tables/{input_file}_table.{source}_{target}.light.pro.html.pdf"
+    pdf_file = f"../tables/{input_file}_table.{source}_{target}.light.pro.html.pdf"
     with open(pdf_file, "w+b") as pdf_file:
         pisa.CreatePDF(html, dest=pdf_file)
     return(html_file)
