@@ -1,3 +1,4 @@
+import os
 from reportlab.lib import colors
 from reportlab.lib.pagesizes import A4
 from reportlab.platypus import SimpleDocTemplate, Table, TableStyle, Paragraph
@@ -69,7 +70,9 @@ if __name__ == "__main__":
         ['<span style="font-weight: bold; font-style: italic; text-decoration: underline;">Formatierter Text</span>', '<span style="font-size: 14px;">Größerer Text</span>', '<span style="font-family: Courier;">Monospace-Schrift</span>'],
     ]
     
-    create_pdf_with_table('../beispiel_tabelle_mit_umbruch.pdf', table_data)
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    pdf_path = os.path.join(script_dir, 'beispiel_tabelle_mit_umbruch.pdf')
+    create_pdf_with_table(pdf_path, table_data)
 
 # Zusätzliche Beispiele für komplexere Span-Verwendung
 def complex_span_example():
@@ -79,8 +82,12 @@ def complex_span_example():
         ['<span style="font-size: 16px; font-family: Arial, sans-serif;">Benutzerdefinierte Schriftart und Größe</span>'],
         ['Normaler Text mit <span style="font-weight: bold; color: blue;">fettgedrucktem blauen</span> und <span style="font-style: italic; color: green;">kursivem grünen</span> Text'],
     ]
-    create_pdf_with_table('../komplexe_span_beispiele.pdf', complex_data)
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    pdf_path = os.path.join(script_dir, 'komplexe_span_beispiele.pdf')
+    create_pdf_with_table(pdf_path, complex_data)
 
 if __name__ == "__main__":
-    create_pdf_with_table('../beispiel_tabelle_mit_umbruch.pdf', table_data)
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    pdf_path = os.path.join(script_dir, 'beispiel_tabelle_mit_umbruch.pdf')
+    create_pdf_with_table(pdf_path, table_data)
     complex_span_example()
