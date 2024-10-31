@@ -1,2 +1,0 @@
-Erzeuge eine Python Function, die ein A4-PDF-Dokument mit einer Tabelle erzeugt.
-Die Tabelle soll die gesamte Breite des Dokumentes einnehmen.
