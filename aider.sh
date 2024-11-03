@@ -1,1 +1,1 @@
-aider --model openai/gcp/claude-3.5-sonnet --openai-api-base https://api.iteragpt.iteratec.de/v1 --subtree-only --openai-api-key $AIDER_API_KEY
+aider --model openai/azure/gpt-4o --openai-api-base https://api.iteragpt.iteratec.de/v1 --openai-api-key $AIDER_API_KEY
