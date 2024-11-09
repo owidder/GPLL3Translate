@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>{{ title }}</title>
+    <title></title>
     <meta charset="UTF-8">
     <style>
         @page {
@@ -58,33 +58,31 @@
     </style>
 </head>
 <body>
-    <h1>{{ table_name }}</h1>
+    <h1>15_update_age.json</h1>
     <table>
         <thead>
             <tr>
-                {% for header in headers %}
-                    <th>{{ header }}</th>
-                {% endfor %}
+                
+                    <th>source text</th>
+                
+                    <th>--- 0 ---</th>
+                
+                    <th></th>
+                
+                    <th>--- 1 ---</th>
+                
+                    <th></th>
+                
+                    <th>azure/gpt-4o</th>
+                
+                    <th>gcp/gemini-1.5-pro</th>
+                
+                    <th>aws/claude-3.5-sonnet</th>
+                
             </tr>
         </thead>
         <tbody>
-            {% for translation_line in translation_lines %}
-                <tr>
-                    <td class="endtd source">{{ translation_line.source_text }}</td>
-{% for i in range(max_translations) %}
-{% if i < translation_line.translations | length %}
-                    <td class="{{ 'winner' if translation_line.translations_raw[i] in translation_line.winners else 'translate' }}">{{ translation_line.translations[i] }}<br><span class="sources">{{ translation_line.translation_sources[i] }}</span></td>
-                    <td class="back-translate">{{ translation_line.translations_back[i] }}</td>
-{% else %}
-                    <td class="empty"></td>
-                    <td class="empty"></td>
-{% endif %}
-{% endfor %}
-{% for compare_value in translation_line.compare_list %}
-                    <td class="compare">{{ translation_line.unique_translations.index(compare_value) + 1 if compare_value else -1}}</td>
-{% endfor %}
-                </tr>
-            {% endfor %}
+            
         </tbody>
     </table>
 </body>

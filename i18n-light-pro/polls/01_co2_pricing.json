@@ -28,7 +28,7 @@
         "_compare_gcp/gemini-1.5-pro_sv": "Var vänlig och rösta om utvecklingen av CO₂-skatten. CO₂-skatten tas ut på fossila bränslen som kol, olja och gas, beroende på deras kolhalt. Denna skatt påverkar priserna på alla varor som antingen direkt eller indirekt använder fossila bränslen eller kräver fossila bränslen för sin tillverkning. Den är avsedd att ge ett incitament för att spara energi och producera varor med låga CO₂-utsläpp",
         "_compare_aws/claude-3.5-sonnet_sv": "Var vänlig och rösta om utvecklingen av CO₂-skatten. CO₂-skatten tas ut på fossila bränslen som kol, olja och gas, beroende på deras kolhalt. Denna skatt påverkar priserna på alla varor som antingen direkt eller indirekt använder fossila bränslen eller kräver fossila bränslen för sin tillverkning. Den är avsedd att ge ett incitament för att spara energi och producera varor med låga CO₂-utsläpp",
         "_unique_translations_back_sv": [
-            "Bitte stimmen Sie über die Entwicklung der CO₂-Steuer ab. Die CO₂-Steuer wird auf fossile Brennstoffe wie Kohle, Öl und Gas erhoben, je nach ihrem Kohlenstoffgehalt. Diese Steuer beeinflusst die Preise aller Waren, die entweder direkt oder indirekt fossile Brennstoffe verwenden oder für ihre Herstellung fossile Brennstoffe benötigen. Sie soll einen Anreiz bieten, Energie zu sparen und Waren mit niedrigen CO₂-Emissionen zu produzieren",
+            "Bitte stimmen Sie über die Entwicklung der CO₂-Steuer ab. Die CO₂-Steuer wird auf fossile Brennstoffe wie Kohle, Öl und Gas erhoben, abhängig von ihrem Kohlenstoffgehalt. Diese Steuer beeinflusst die Preise aller Waren, die entweder direkt oder indirekt fossile Brennstoffe verwenden oder für ihre Herstellung fossile Brennstoffe benötigen. Sie soll einen Anreiz bieten, Energie zu sparen und Waren mit niedrigen CO₂-Emissionen zu produzieren",
             "Stimmen Sie über die Entwicklung der CO₂-Steuer ab. Die CO₂-Steuer wird auf fossile Brennstoffe wie Kohle, Öl und Gas erhoben, abhängig von ihrem Kohlenstoffgehalt. Diese Steuer beeinflusst die Preise aller Waren, die entweder direkt oder indirekt fossile Brennstoffe verwenden oder für ihre Herstellung benötigen. Sie soll Anreize schaffen, Energie zu sparen und Waren mit geringen CO₂-Emissionen zu produzieren"
         ]
     },
@@ -50,7 +50,7 @@
                 "_compare_aws/claude-3.5-sonnet_sv": "Höj med 25€ per ton",
                 "_unique_translations_back_sv": [
                     "Erhöhen um 25€ pro Tonne",
-                    "Erhöhung um 25€ pro Tonne"
+                    "Erhöhen um 25€ pro Tonne"
                 ]
             }
         },

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <style>
+        @page {
+            size: A4 landscape;
+        }
+    </style>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-family: verdana, serif;
+            font-size:12px;
+            border: 1px solid white;
+            transform-origin: top left;
+        }
+        th, td {
+            border-bottom:3px solid white;
+            border-right:3px solid white;
+            padding: 15px;
+            text-align: left;
+        }
+        th {
+            background-color: darkgray;
+        }
+        td {
+            background-color: lightgray;
+        }
+        .endtd {
+            border-right: 3px solid darkgray;
+        }
+        .translate {
+            background-color: lightblue;
+        }
+        .back-translate {
+            background-color: lightgrey;
+        }
+        .winner {
+            background-color: lightpink;
+        }
+        .compare {
+            background-color: lightsteelblue;
+        }
+        .source {
+            background-color: palegoldenrod;
+        }
+        .empty {
+            background-color: lightgrey;
+        }
+        .sources {
+            font-weight: bold;
+            font-size: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>23_Zimbabwe_2.json</h1>
+    <table>
+        <thead>
+            <tr>
+                
+                    <th>source text</th>
+                
+                    <th>--- 0 ---</th>
+                
+                    <th></th>
+                
+                    <th>--- 1 ---</th>
+                
+                    <th></th>
+                
+                    <th>azure/gpt-4o</th>
+                
+                    <th>gcp/gemini-1.5-pro</th>
+                
+                    <th>aws/claude-3.5-sonnet</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            
+                <tr>
+                    <td class="endtd source">Simbabwe: Bevölkerungswachstum von über fünf Prozent jährlich – In Harare wohnen jetzt 10 Millionen Menschen</td>
+
+
+                    <td class="winner"><br><span class="sources">azure/gpt-4o, gcp/gemini-1.5-pro</span></td>
+                    <td class="back-translate"></td>
+
+
+
+                    <td class="empty"></td>
+                    <td class="empty"></td>
+
+
+
+                    <td class="compare">-1</td>
+
+                    <td class="compare">-1</td>
+
+                    <td class="compare">-1</td>
+
+                </tr>
+            
+                <tr>
+                    <td class="endtd source">Eine im Jahr 2014 veröffentlichte Studie prognostizierte, dass die Bevölkerungsgröße von Harare in wenigen Jahrzehnten sehr stark ansteigen würde. Dies wurde nun sogar einige Jahre   vorher erreicht. Die sogenannte Landflucht ist seit den spürbaren Auswirkungen des Klimawandels tägliche Realität in Simbabwe. 
+
+ Ländliche Regionen sind teilweise komplett ausgetrocknet, sodass die Nahrungsmittel- und Wasserversorgung unmöglich ist. Im Norden des Landes sind Dürrefolgen besonders stark spürbar, wo teils kilometerweise Strecken kaum mehr bevölkert sind. Viele Simbabwer:innen ziehen deshalb in die größeren Städte des Landes. Dort hoffen viele Menschen auf neue Möglichkeiten und eine sichere Zukunft. Meistens ist jedoch das Gegenteil der Fall. Das wachsende Phänomen der Landflucht bringt Versorgungsprobleme in die großen Städte. Insbesondere in Harare zeigen sich steigende Armutsraten. 
+
+ Die simbabwische Regierung versucht nun mit der Unterstützung von lokalen und internationalen Organisationen, die ländlichen Regionen des Landes bewohnbarer zu gestalten. Dafür soll ein Programm aufgestellt werden, welches die Versorgungssicherheit in Dörfern garantiert. Dafür ist jedoch eine hohe Summe an finanziellen Mitteln notwendig. Die Frage, woher diese Mittel herkommen sollen, wurde noch nicht beantwortet.</td>
+
+
+                    <td class="winner"><br><span class="sources">azure/gpt-4o, gcp/gemini-1.5-pro</span></td>
+                    <td class="back-translate"></td>
+
+
+
+                    <td class="empty"></td>
+                    <td class="empty"></td>
+
+
+
+                    <td class="compare">-1</td>
+
+                    <td class="compare">-1</td>
+
+                    <td class="compare">-1</td>
+
+                </tr>
+            
+        </tbody>
+    </table>
+</body>
+</html>

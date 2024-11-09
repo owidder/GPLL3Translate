@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <style>
+        @page {
+            size: A4 landscape;
+        }
+    </style>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-family: verdana, serif;
+            font-size:12px;
+            border: 1px solid white;
+            transform-origin: top left;
+        }
+        th, td {
+            border-bottom:3px solid white;
+            border-right:3px solid white;
+            padding: 15px;
+            text-align: left;
+        }
+        th {
+            background-color: darkgray;
+        }
+        td {
+            background-color: lightgray;
+        }
+        .endtd {
+            border-right: 3px solid darkgray;
+        }
+        .translate {
+            background-color: lightblue;
+        }
+        .back-translate {
+            background-color: lightgrey;
+        }
+        .winner {
+            background-color: lightpink;
+        }
+        .compare {
+            background-color: lightsteelblue;
+        }
+        .source {
+            background-color: palegoldenrod;
+        }
+        .empty {
+            background-color: lightgrey;
+        }
+        .sources {
+            font-weight: bold;
+            font-size: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>06_flood_risk_northern_germany.json</h1>
+    <table>
+        <thead>
+            <tr>
+                
+                    <th>source text</th>
+                
+                    <th>--- 0 ---</th>
+                
+                    <th></th>
+                
+                    <th>--- 1 ---</th>
+                
+                    <th></th>
+                
+                    <th>azure/gpt-4o</th>
+                
+                    <th>gcp/gemini-1.5-pro</th>
+                
+                    <th>aws/claude-3.5-sonnet</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            
+                <tr>
+                    <td class="endtd source">Flutgefahr in Norddeutschland</td>
+
+
+                    <td class="translate"><span style = 'color: red; font-weight: bold;'> Översvämningrisk</span> <span style = 'color: black;'>  i</span> <span style = 'color: black;'>  norra</span> <span style = 'color: black;'>  Tyskland</span><br><span class="sources">azure/gpt-4o</span></td>
+                    <td class="back-translate"></td>
+
+
+
+                    <td class="winner"><span style = 'color: red; font-weight: bold;'> Översvämningsrisk</span> <span style = 'color: black;'>  i</span> <span style = 'color: black;'>  norra</span> <span style = 'color: black;'>  Tyskland</span><br><span class="sources">gcp/gemini-1.5-pro</span></td>
+                    <td class="back-translate"></td>
+
+
+
+                    <td class="compare">2</td>
+
+                    <td class="compare">1</td>
+
+                    <td class="compare">2</td>
+
+                </tr>
+            
+                <tr>
+                    <td class="endtd source"><img width=250  src="https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg"><br>Die Deiche im Norden Deutschlands werden aufgrund zunehmender Flutgefahr erhöht. Der Meeresspiegel steigt. Die Niederlande und Belgien suchen nach zusätzlichen Lösungen.</td>
+
+
+                    <td class="winner"><img src="https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg" width="250"/> <span style = 'color: red; font-weight: bold;'> Dikena</span> <span style = 'color: black;'>  i</span> <span style = 'color: black;'>  norra</span> <span style = 'color: black;'>  Tyskland</span> <span style = 'color: black;'>  höjs</span> <span style = 'color: black;'>  på</span> <span style = 'color: black;'>  grund</span> <span style = 'color: black;'>  av</span> <span style = 'color: red; font-weight: bold;'> ökande</span> <span style = 'color: red; font-weight: bold;'> översvämningsrisk.</span> <span style = 'color: black;'>  Havsnivån</span> <span style = 'color: black;'>  stiger.</span> <span style = 'color: black;'>  Nederländerna</span> <span style = 'color: black;'>  och</span> <span style = 'color: black;'>  Belgien</span> <span style = 'color: black;'>  letar</span> <span style = 'color: black;'>  efter</span> <span style = 'color: black;'>  ytterligare</span> <span style = 'color: black;'>  lösningar</span><br><span class="sources">azure/gpt-4o</span></td>
+                    <td class="back-translate"></td>
+
+
+
+                    <td class="translate"><img src="https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg" width="250"/> <span style = 'color: red; font-weight: bold;'> Vallarna</span> <span style = 'color: black;'>  i</span> <span style = 'color: black;'>  norra</span> <span style = 'color: black;'>  Tyskland</span> <span style = 'color: black;'>  höjs</span> <span style = 'color: black;'>  på</span> <span style = 'color: black;'>  grund</span> <span style = 'color: black;'>  av</span> <span style = 'color: red; font-weight: bold;'> ökad</span> <span style = 'color: red; font-weight: bold;'> risk</span> <span style = 'color: red; font-weight: bold;'> för</span> <span style = 'color: red; font-weight: bold;'> översvämningar.</span> <span style = 'color: black;'>  Havsnivån</span> <span style = 'color: black;'>  stiger.</span> <span style = 'color: black;'>  Nederländerna</span> <span style = 'color: black;'>  och</span> <span style = 'color: black;'>  Belgien</span> <span style = 'color: black;'>  letar</span> <span style = 'color: black;'>  efter</span> <span style = 'color: black;'>  ytterligare</span> <span style = 'color: black;'>  lösningar</span><br><span class="sources">gcp/gemini-1.5-pro</span></td>
+                    <td class="back-translate"></td>
+
+
+
+                    <td class="compare">1</td>
+
+                    <td class="compare">1</td>
+
+                    <td class="compare">1</td>
+
+                </tr>
+            
+        </tbody>
+    </table>
+</body>
+</html>

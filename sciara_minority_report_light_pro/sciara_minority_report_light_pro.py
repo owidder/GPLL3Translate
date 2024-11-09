@@ -403,9 +403,9 @@ def create_table(input_file: str, translation_lines: [str], source: str, target:
     with open(html_file, 'w') as f:
         f.write(html)
     #HTML(html _file).write_pdf(f"{html_file}.pdf")
-    pdf_file = f"../tables/{input_file}_table.{source}_{target}.light.pro.html.pdf"
-    with open(pdf_file, "w+b") as pdf_file:
-        pisa.CreatePDF(html, dest=pdf_file)
+    # pdf_file = f"../tables/{input_file}_table.{source}_{target}.light.pro.html.pdf"
+    # with open(pdf_file, "w+b") as pdf_file:
+    #     pisa.CreatePDF(html, dest=pdf_file)
     return(html_file)
 
 
@@ -586,8 +586,7 @@ async def crawl_json(
             translation_sources = [get_translation_sources(unique_translation) for unique_translation in unique_translations]
 
             unique_translations_back_property = f"_unique_translations_back_{target_language}"
-            if (not unique_translations_back_property in data or
-                    reduce(lambda acc, back_translation: acc and len(back_translation) > 0, data[unique_translations_back_property], True)):
+            if not unique_translations_back_property in data:
                 unique_translations_back = [
                     await get_best_back_translation(
                         source_text=translation,
@@ -671,8 +670,8 @@ async def process_one_file(input_file: str, file_description: str) -> ([str], [s
     for target_language in table_lines_dict:
         html_table = create_table(translation_lines=table_lines_dict[target_language], source=SOURCE_LANGUAGE, target=target_language, input_file=os.path.basename(input_file))
         html_tables.append(html_table)
-        pdf_table = create_pdf_with_table(translation_lines=table_lines_dict[target_language], source=SOURCE_LANGUAGE, target=target_language, input_file=os.path.basename(input_file))
-        pdf_tables.append(pdf_table)
+        # pdf_table = create_pdf_with_table(translation_lines=table_lines_dict[target_language], source=SOURCE_LANGUAGE, target=target_language, input_file=os.path.basename(input_file))
+        # pdf_tables.append(pdf_table)
     return html_tables, pdf_tables
 
 

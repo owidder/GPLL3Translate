@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <style>
+        @page {
+            size: A4 landscape;
+        }
+    </style>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-family: verdana, serif;
+            font-size:12px;
+            border: 1px solid white;
+            transform-origin: top left;
+        }
+        th, td {
+            border-bottom:3px solid white;
+            border-right:3px solid white;
+            padding: 15px;
+            text-align: left;
+        }
+        th {
+            background-color: darkgray;
+        }
+        td {
+            background-color: lightgray;
+        }
+        .endtd {
+            border-right: 3px solid darkgray;
+        }
+        .translate {
+            background-color: lightblue;
+        }
+        .back-translate {
+            background-color: lightgrey;
+        }
+        .winner {
+            background-color: lightpink;
+        }
+        .compare {
+            background-color: lightsteelblue;
+        }
+        .source {
+            background-color: palegoldenrod;
+        }
+        .empty {
+            background-color: lightgrey;
+        }
+        .sources {
+            font-weight: bold;
+            font-size: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>38_tourism_ban_in_spain.json</h1>
+    <table>
+        <thead>
+            <tr>
+                
+                    <th>source text</th>
+                
+                    <th>--- 0 ---</th>
+                
+                    <th></th>
+                
+                    <th>--- 1 ---</th>
+                
+                    <th></th>
+                
+                    <th>azure/gpt-4o</th>
+                
+                    <th>gcp/gemini-1.5-pro</th>
+                
+                    <th>aws/claude-3.5-sonnet</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            
+                <tr>
+                    <td class="endtd source">Tourismus-Verbot in Südspanien</td>
+
+
+                    <td class="translate"><span style = 'color: red; font-weight: bold;'> Turismförbud</span> <span style = 'color: red; font-weight: bold;'> i</span> <span style = 'color: red; font-weight: bold;'> södra</span> <span style = 'color: red; font-weight: bold;'> Spanien</span><br><span class="sources">azure/gpt-4o</span></td>
+                    <td class="back-translate"></td>
+
+
+
+                    <td class="winner"><br><span class="sources">gcp/gemini-1.5-pro</span></td>
+                    <td class="back-translate"><span style = 'color: red; font-weight: bold;'> Tourismusverbot</span> <span style = 'color: black;'>  in</span> <span style = 'color: black;'>  Südspanien</span></td>
+
+
+
+                    <td class="compare">-1</td>
+
+                    <td class="compare">2</td>
+
+                    <td class="compare">2</td>
+
+                </tr>
+            
+                <tr>
+                    <td class="endtd source"><img width=250 src="../../../content/images/events/38_tourisim_ban_in_spain.jpg"><br>Aufgrund der extremen Wasserknappheit im Süden des Landes hat die spanische Regierung ein Urlaubs- und Reiseverbot für die Region verhängt. 
+Trotz der enormen wirtschaftlichen Einbußen, die zu befürchten sind, habe man diese Entscheidung treffen müssen, hieß es in einer Erklärung der Regierung. Die umfassenden Maßnahmen zur Wassereinsparung reichten schon lange nicht mehr aus und durch den Tourismus komme es zu einem erheblichen Mehrverbrauch von Wasserressourcen. 
+Aufgrund steigender Temperaturen und anhaltender Dürren herrscht in Südeuropa extreme Wasserknappheit. Ein Drittel der südeuropäischen Bevölkerung ist unmittelbar betroffen.<br>Text von treibhauspost.de</td>
+
+
+                    <td class="translate"><span style = 'color: red; font-weight: bold;'> <img</span> <span style = 'color: red; font-weight: bold;'> width=250</span> <span style = 'color: red; font-weight: bold;'> src="../../../content/images/events/38_tourisim_ban_in_spain.jpg"></span> <span style = 'color: red; font-weight: bold;'> På</span> <span style = 'color: red; font-weight: bold;'> grund</span> <span style = 'color: red; font-weight: bold;'> av</span> <span style = 'color: red; font-weight: bold;'> den</span> <span style = 'color: red; font-weight: bold;'> extrema</span> <span style = 'color: red; font-weight: bold;'> vattenbristen</span> <span style = 'color: red; font-weight: bold;'> i</span> <span style = 'color: red; font-weight: bold;'> den</span> <span style = 'color: red; font-weight: bold;'> södra</span> <span style = 'color: red; font-weight: bold;'> delen</span> <span style = 'color: red; font-weight: bold;'> av</span> <span style = 'color: red; font-weight: bold;'> landet</span> <span style = 'color: red; font-weight: bold;'> har</span> <span style = 'color: red; font-weight: bold;'> den</span> <span style = 'color: red; font-weight: bold;'> spanska</span> <span style = 'color: red; font-weight: bold;'> regeringen</span> <span style = 'color: red; font-weight: bold;'> infört</span> <span style = 'color: red; font-weight: bold;'> ett</span> <span style = 'color: red; font-weight: bold;'> förbud</span> <span style = 'color: red; font-weight: bold;'> mot</span> <span style = 'color: red; font-weight: bold;'> semesterresor</span> <span style = 'color: red; font-weight: bold;'> och</span> <span style = 'color: red; font-weight: bold;'> resor</span> <span style = 'color: red; font-weight: bold;'> till</span> <span style = 'color: red; font-weight: bold;'> regionen.</span> <span style = 'color: red; font-weight: bold;'> Trots</span> <span style = 'color: red; font-weight: bold;'> de</span> <span style = 'color: red; font-weight: bold;'> enorma</span> <span style = 'color: red; font-weight: bold;'> ekonomiska</span> <span style = 'color: red; font-weight: bold;'> förluster</span> <span style = 'color: red; font-weight: bold;'> som</span> <span style = 'color: red; font-weight: bold;'> man</span> <span style = 'color: red; font-weight: bold;'> befarade</span> <span style = 'color: red; font-weight: bold;'> var</span> <span style = 'color: red; font-weight: bold;'> man</span> <span style = 'color: red; font-weight: bold;'> tvungen</span> <span style = 'color: red; font-weight: bold;'> att</span> <span style = 'color: red; font-weight: bold;'> fatta</span> <span style = 'color: red; font-weight: bold;'> detta</span> <span style = 'color: red; font-weight: bold;'> beslut,</span> <span style = 'color: red; font-weight: bold;'> hette</span> <span style = 'color: red; font-weight: bold;'> det</span> <span style = 'color: red; font-weight: bold;'> i</span> <span style = 'color: red; font-weight: bold;'> ett</span> <span style = 'color: red; font-weight: bold;'> uttalande</span> <span style = 'color: red; font-weight: bold;'> från</span> <span style = 'color: red; font-weight: bold;'> regeringen.</span> <span style = 'color: red; font-weight: bold;'> De</span> <span style = 'color: red; font-weight: bold;'> omfattande</span> <span style = 'color: red; font-weight: bold;'> åtgärderna</span> <span style = 'color: red; font-weight: bold;'> för</span> <span style = 'color: red; font-weight: bold;'> att</span> <span style = 'color: red; font-weight: bold;'> spara</span> <span style = 'color: red; font-weight: bold;'> vatten</span> <span style = 'color: red; font-weight: bold;'> hade</span> <span style = 'color: red; font-weight: bold;'> länge</span> <span style = 'color: red; font-weight: bold;'> varit</span> <span style = 'color: red; font-weight: bold;'> otillräckliga</span> <span style = 'color: red; font-weight: bold;'> och</span> <span style = 'color: red; font-weight: bold;'> turismen</span> <span style = 'color: red; font-weight: bold;'> ledde</span> <span style = 'color: red; font-weight: bold;'> till</span> <span style = 'color: red; font-weight: bold;'> en</span> <span style = 'color: red; font-weight: bold;'> betydande</span> <span style = 'color: red; font-weight: bold;'> överkonsumtion</span> <span style = 'color: red; font-weight: bold;'> av</span> <span style = 'color: red; font-weight: bold;'> vattenresurser.</span> <span style = 'color: red; font-weight: bold;'> På</span> <span style = 'color: red; font-weight: bold;'> grund</span> <span style = 'color: red; font-weight: bold;'> av</span> <span style = 'color: red; font-weight: bold;'> stigande</span> <span style = 'color: red; font-weight: bold;'> temperaturer</span> <span style = 'color: red; font-weight: bold;'> och</span> <span style = 'color: red; font-weight: bold;'> ihållande</span> <span style = 'color: red; font-weight: bold;'> torka</span> <span style = 'color: red; font-weight: bold;'> råder</span> <span style = 'color: red; font-weight: bold;'> det</span> <span style = 'color: red; font-weight: bold;'> extrem</span> <span style = 'color: red; font-weight: bold;'> vattenbrist</span> <span style = 'color: red; font-weight: bold;'> i</span> <span style = 'color: red; font-weight: bold;'> Sydeuropa.</span> <span style = 'color: red; font-weight: bold;'> En</span> <span style = 'color: red; font-weight: bold;'> tredjedel</span> <span style = 'color: red; font-weight: bold;'> av</span> <span style = 'color: red; font-weight: bold;'> den</span> <span style = 'color: red; font-weight: bold;'> sydeuropeiska</span> <span style = 'color: red; font-weight: bold;'> befolkningen</span> <span style = 'color: red; font-weight: bold;'> är</span> <span style = 'color: red; font-weight: bold;'> direkt</span> <span style = 'color: red; font-weight: bold;'> drabbad.</span> <span style = 'color: red; font-weight: bold;'> Text</span> <span style = 'color: red; font-weight: bold;'> från</span> <span style = 'color: red; font-weight: bold;'> treibhauspost.de</span><br><span class="sources">azure/gpt-4o</span></td>
+                    <td class="back-translate"></td>
+
+
+
+                    <td class="winner"><br><span class="sources">gcp/gemini-1.5-pro</span></td>
+                    <td class="back-translate"></td>
+
+
+
+                    <td class="compare">-1</td>
+
+                    <td class="compare">2</td>
+
+                    <td class="compare">2</td>
+
+                </tr>
+            
+        </tbody>
+    </table>
+</body>
+</html>

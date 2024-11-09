@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <style>
+        @page {
+            size: A4 landscape;
+        }
+    </style>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-family: verdana, serif;
+            font-size:12px;
+            border: 1px solid white;
+            transform-origin: top left;
+        }
+        th, td {
+            border-bottom:3px solid white;
+            border-right:3px solid white;
+            padding: 15px;
+            text-align: left;
+        }
+        th {
+            background-color: darkgray;
+        }
+        td {
+            background-color: lightgray;
+        }
+        .endtd {
+            border-right: 3px solid darkgray;
+        }
+        .translate {
+            background-color: lightblue;
+        }
+        .back-translate {
+            background-color: lightgrey;
+        }
+        .winner {
+            background-color: lightpink;
+        }
+        .compare {
+            background-color: lightsteelblue;
+        }
+        .source {
+            background-color: palegoldenrod;
+        }
+        .empty {
+            background-color: lightgrey;
+        }
+        .sources {
+            font-weight: bold;
+            font-size: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>14_venice_inhabitable.json</h1>
+    <table>
+        <thead>
+            <tr>
+                
+                    <th>source text</th>
+                
+                    <th>--- 0 ---</th>
+                
+                    <th></th>
+                
+                    <th>--- 1 ---</th>
+                
+                    <th></th>
+                
+                    <th>azure/gpt-4o</th>
+                
+                    <th>gcp/gemini-1.5-pro</th>
+                
+                    <th>aws/claude-3.5-sonnet</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            
+                <tr>
+                    <td class="endtd source">Die Stadt Venedig wird durch Überschwemmungen und Tourismus zerstört</td>
+
+
+                    <td class="winner"><br><span class="sources">azure/gpt-4o, gcp/gemini-1.5-pro</span></td>
+                    <td class="back-translate"></td>
+
+
+
+                    <td class="empty"></td>
+                    <td class="empty"></td>
+
+
+
+                    <td class="compare">-1</td>
+
+                    <td class="compare">-1</td>
+
+                    <td class="compare">-1</td>
+
+                </tr>
+            
+                <tr>
+                    <td class="endtd source"><img width=250  src="http://cache.boston.com/universal/site_graphics/blogs/bigpicture/venice_12_03/v02_17232273.jpg"><br>Die Wasserstände in den Straßen von Venedig sind ständig präsent. Ältere Häuser und Gebäude in der Stadt sind eingestürzt und haben durch die Salzwasserschäden mehr Wasser eindringen lassen. Infolgedessen sind die ersten Stockwerke vieler Gebäude in Venedig jetzt unbewohnbar. Die Stadt Venedig wird für unbewohnbar erklärt. Trotzdem ist sie heute das beliebteste Touristenziel für Wassersportler.</td>
+
+
+                    <td class="winner"><br><span class="sources">azure/gpt-4o, gcp/gemini-1.5-pro</span></td>
+                    <td class="back-translate"></td>
+
+
+
+                    <td class="empty"></td>
+                    <td class="empty"></td>
+
+
+
+                    <td class="compare">-1</td>
+
+                    <td class="compare">-1</td>
+
+                    <td class="compare">-1</td>
+
+                </tr>
+            
+        </tbody>
+    </table>
+</body>
+</html>
