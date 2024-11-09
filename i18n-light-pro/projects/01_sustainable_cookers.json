@@ -1,107 +1,188 @@
 {
-  "_id": "sustainable-cookers",
-  "title": {
-    "de": "Nachhaltige Kochherde",
-    "ru": "Экологичные кухонные плиты",
-    "en": "Sustainable cookers",
-    "ar": "طباخات مستدامة",
-    "fr": "Cuisinières durables"
-  },
-  "description": {
-    "de": "Weltweit kochen sehr viele Menschen über offenem Feuer und auf rudimentären Herden. Dabei werden sehr häufig Holz oder (Holz-)Kohle als Brennstoffe verwendet. Bei ihrer Verbrennung werden Rauch- und Rußwolken freigesetzt. Saubere Kochherde hingegen reduzieren im Vergleich dazu die Verschmutzung durch die Verbrennung dieser Stoffe. Sie verringern also u. a. die Emissionen, die ausgestoßen werden. \n \n Durch die Finanzierung dieses Projekttypus werden die herkömmlichen Kochherde ersetzt, die Holzkohle ineffizient und ohne Belüftung verbrennen und die ausgestoßenen Gase und der Rauch können stark vermindert werden  . Ein geringerer Einsatz von Feuerholz verringert die Abholzung von Wäldern. Zusätzlich bringt der Einsatz solcher verbesserten Kochherde weitere positive Wirkungen für die nachhaltige Entwicklung der lokalen Bevölkerung in Entwicklungs- und Schwellenländern mit sich (siehe unten).  \n Quelle: drawdown.org",
-    "ru": "Во всем мире многие люди готовят пищу на открытом огне и на примитивных плитах. В качестве топлива очень часто используется древесина или (древесный) уголь. При их сжигании образуются клубы дыма и копоти. Чистые кухонные плиты, с другой стороны, уменьшают загрязнение, вызванное сжиганием этих материалов. Поэтому они, помимо прочего, снижают количество выбрасываемых в атмосферу вредных веществ. \n \n Финансирование такого проекта позволит заменить традиционные кухонные плиты, которые сжигают древесный уголь неэффективно и без вентиляции, а количество выделяемых газов и дыма может быть значительно снижено. Кроме того, использование таких усовершенствованных кухонных плит дает дополнительные положительные эффекты для устойчивого развития местного населения в развивающихся странах и странах с формирующимся рынком (см. ниже).  \n Источник: drawdown.org",
-    "en": "Around the world, a great many people cook over open fires and on rudimentary stoves. Wood or (charcoal) are very often used as fuels. When they are burned, clouds of smoke and soot are released. Clean cookstoves, on the other hand, reduce pollution from the combustion of these materials by comparison. So, among other things, they reduce the emissions that are emitted. \n \n Funding this type of project will replace traditional cookstoves that burn charcoal inefficiently and without ventilation, and the gases and smoke emitted can be greatly reduced. In addition, the use of such improved cookstoves brings other positive effects for the sustainable development of the local population in developing and emerging countries (see below).  \n Source: drawdown.org",
-    "ar": "يطبخ الكثير من الناس حول العالم على نار مكشوفة وعلى مواقد بدائية. غالبًا ما يستخدم الخشب أو الفحم (الفحم) كوقود. عندما تحترق ، تنبعث سحب من الدخان والسخام. من ناحية أخرى ، تعمل المواقد النظيفة على تقليل التلوث الناتج عن احتراق هذه المواد. لذلك تقوم بتقليل i.a. الانبعاثات المنبعثة. \n سيحل تمويل هذا النوع من المشاريع محل مواقد الطهي التقليدية ، التي تحرق الفحم بشكل غير فعال وبدون تهوية ، ويمكن أن تقلل إلى حد كبير الغازات المنبعثة والدخان. يقلل استخدام الحطب بشكل أقل من إزالة الغابات. بالإضافة إلى ذلك ، فإن استخدام مواقد الطهي المحسنة هذه له آثار إيجابية أخرى على التنمية المستدامة للسكان المحليين في البلدان النامية والناشئة (انظر أدناه. \n المصدر: drawdown.org",
-    "fr": "À travers le monde, de nombreuses personnes cuisinent sur des feux ouverts et sur des cuisinières rudimentaires. Le bois ou le charbon (de bois) sont très souvent utilisés comme combustibles. Lorsqu'ils sont brûlés, des nuages de fumée et de suie sont libérés. Les cuisinières propres, en revanche, réduisent la pollution liée à la combustion de ces matériaux en comparaison. Ainsi, entre autres, elles réduisent les émissions qui sont émises. \n \n Le financement de ce type de projet remplacera les cuisinières traditionnelles qui brûlent le charbon de bois de manière inefficace et sans ventilation, et les gaz et la fumée émis peuvent être considérablement réduits. Une moindre utilisation de bois de chauffage réduit la déforestation. De plus, l'utilisation de ces cuisinières améliorées apporte d'autres effets positifs pour le développement durable de la population locale dans les pays en développement et émergents (voir ci-dessous). \n Source: drawdown.org"
-  },
-  "globalCompensationLimit": 15000000,
-  "participantCompensationLimit": 15,
-  "pricePerTon": [
-    {"isoCountryCode": "DEU", "unit": "€", "source":  "02_standard_prices_euro.csv", "isDefault":  true},
-    {"isoCountryCode": "AUT", "unit": "€", "source":  "02_standard_prices_euro.csv", "isDefault":  false},
-    {"isoCountryCode": "CHE", "unit": "CHF", "source":  "02_standard_prices_chf.csv", "isDefault":  false},
-    {"isoCountryCode": "RUS", "unit": "¶", "source":  "02_standard_prices_rubel.csv", "isDefault":  false}
-  ],
-  "logos": [
-    {
-      "imageRef": {
-        "de": "SDG_icons_DE-03",
-        "ru": "R-WEB-Goal-03",
-        "en": "sdg3",
-        "ar": "A-WEB-Goal-03",
-        "fr": "Objectif 3"
-      },
-      "logoDescription": {
-        "de": "Weniger Luftverschmutzung und damit Belastung für die Lunge; weniger körperliche Belastung durch Sammeln von Feuerholz",
-        "ru": "Меньше загрязнения воздуха и, следовательно, нагрузки на легкие; меньше физического напряжения при заготовке дров",
-        "en": "Less air pollution and thus strain on the lungs; less physical strain from collecting firewood",
-        "ar": "تلوث أقل للهواء وبالتالي إجهاد الرئتين ؛ إجهاد جسدي أقل من جمع الحطب",
-        "fr" : "Moins de pollution de l'air et donc de pression sur les poumons ; moins de pression physique due à la collecte de bois de chauffage"
-      }
+    "_id": "sustainable-cookers",
+    "title": {
+        "de": "Nachhaltige Kochherde",
+        "ru": "Экологичные кухонные плиты",
+        "en": "Sustainable cookers",
+        "ar": "طباخات مستدامة",
+        "fr": "Cuisinières durables",
+        "_azure/gpt-4o_sv": "Hållbara spisar",
+        "_gcp/gemini-1.5-pro_sv": "Hållbara spisar \n",
+        "_compare_azure/gpt-4o_sv": "Hållbara spisar",
+        "_compare_gcp/gemini-1.5-pro_sv": "Hållbara spisar",
+        "_compare_aws/claude-3.5-sonnet_sv": "Hållbara spisar",
+        "_unique_translations_back_sv": [
+            "Nachhaltige Kochherde"
+        ]
     },
-    {
-      "imageRef": {
-        "de": "SDG_icons_DE-05",
-        "ru": "R-WEB-Goal-05",
-        "en": "sdg5",
-        "ar": "A-WEB-Goal-05",
-        "fr" : "SDG_icons_DE-05"
-      },
-      "logoDescription": {
-        "de": "Frauen und Mädchen müssen weniger Feuerholz sammeln und haben mehr Zeit für andere Aktivitäten (z. B. Arbeit und Bildung)",
-        "ru": "Женщины и девочки должны собирать меньше дров и иметь больше времени для других видов деятельности (например, работы и образования)",
-        "en": "Women and girls have to collect less firewood and have more time for other activities (e.g. work and education)",
-        "ar": "يتعين على النساء والفتيات جمع حطب أقل والحصول على مزيد من الوقت للأنشطة الأخرى (مثل العمل والتعليم)",
-        "fr" : "Les femmes et les filles doivent ramasser moins de bois de chauffage et ont plus de temps à consacrer à d'autres activités (par exemple, le travail et l'éducation)"
-      }
+    "description": {
+        "de": "Weltweit kochen sehr viele Menschen über offenem Feuer und auf rudimentären Herden. Dabei werden sehr häufig Holz oder (Holz-)Kohle als Brennstoffe verwendet. Bei ihrer Verbrennung werden Rauch- und Rußwolken freigesetzt. Saubere Kochherde hingegen reduzieren im Vergleich dazu die Verschmutzung durch die Verbrennung dieser Stoffe. Sie verringern also u. a. die Emissionen, die ausgestoßen werden. \n \n Durch die Finanzierung dieses Projekttypus werden die herkömmlichen Kochherde ersetzt, die Holzkohle ineffizient und ohne Belüftung verbrennen und die ausgestoßenen Gase und der Rauch können stark vermindert werden  . Ein geringerer Einsatz von Feuerholz verringert die Abholzung von Wäldern. Zusätzlich bringt der Einsatz solcher verbesserten Kochherde weitere positive Wirkungen für die nachhaltige Entwicklung der lokalen Bevölkerung in Entwicklungs- und Schwellenländern mit sich (siehe unten).  \n Quelle: drawdown.org",
+        "ru": "Во всем мире многие люди готовят пищу на открытом огне и на примитивных плитах. В качестве топлива очень часто используется древесина или (древесный) уголь. При их сжигании образуются клубы дыма и копоти. Чистые кухонные плиты, с другой стороны, уменьшают загрязнение, вызванное сжиганием этих материалов. Поэтому они, помимо прочего, снижают количество выбрасываемых в атмосферу вредных веществ. \n \n Финансирование такого проекта позволит заменить традиционные кухонные плиты, которые сжигают древесный уголь неэффективно и без вентиляции, а количество выделяемых газов и дыма может быть значительно снижено. Кроме того, использование таких усовершенствованных кухонных плит дает дополнительные положительные эффекты для устойчивого развития местного населения в развивающихся странах и странах с формирующимся рынком (см. ниже).  \n Источник: drawdown.org",
+        "en": "Around the world, a great many people cook over open fires and on rudimentary stoves. Wood or (charcoal) are very often used as fuels. When they are burned, clouds of smoke and soot are released. Clean cookstoves, on the other hand, reduce pollution from the combustion of these materials by comparison. So, among other things, they reduce the emissions that are emitted. \n \n Funding this type of project will replace traditional cookstoves that burn charcoal inefficiently and without ventilation, and the gases and smoke emitted can be greatly reduced. In addition, the use of such improved cookstoves brings other positive effects for the sustainable development of the local population in developing and emerging countries (see below).  \n Source: drawdown.org",
+        "ar": "يطبخ الكثير من الناس حول العالم على نار مكشوفة وعلى مواقد بدائية. غالبًا ما يستخدم الخشب أو الفحم (الفحم) كوقود. عندما تحترق ، تنبعث سحب من الدخان والسخام. من ناحية أخرى ، تعمل المواقد النظيفة على تقليل التلوث الناتج عن احتراق هذه المواد. لذلك تقوم بتقليل i.a. الانبعاثات المنبعثة. \n سيحل تمويل هذا النوع من المشاريع محل مواقد الطهي التقليدية ، التي تحرق الفحم بشكل غير فعال وبدون تهوية ، ويمكن أن تقلل إلى حد كبير الغازات المنبعثة والدخان. يقلل استخدام الحطب بشكل أقل من إزالة الغابات. بالإضافة إلى ذلك ، فإن استخدام مواقد الطهي المحسنة هذه له آثار إيجابية أخرى على التنمية المستدامة للسكان المحليين في البلدان النامية والناشئة (انظر أدناه. \n المصدر: drawdown.org",
+        "fr": "À travers le monde, de nombreuses personnes cuisinent sur des feux ouverts et sur des cuisinières rudimentaires. Le bois ou le charbon (de bois) sont très souvent utilisés comme combustibles. Lorsqu'ils sont brûlés, des nuages de fumée et de suie sont libérés. Les cuisinières propres, en revanche, réduisent la pollution liée à la combustion de ces matériaux en comparaison. Ainsi, entre autres, elles réduisent les émissions qui sont émises. \n \n Le financement de ce type de projet remplacera les cuisinières traditionnelles qui brûlent le charbon de bois de manière inefficace et sans ventilation, et les gaz et la fumée émis peuvent être considérablement réduits. Une moindre utilisation de bois de chauffage réduit la déforestation. De plus, l'utilisation de ces cuisinières améliorées apporte d'autres effets positifs pour le développement durable de la population locale dans les pays en développement et émergents (voir ci-dessous). \n Source: drawdown.org",
+        "_azure/gpt-4o_sv": "Runt om i världen lagar många människor mat över öppen eld och på rudimentära spisar. Trä eller (trä)kol används mycket ofta som bränslen. Vid förbränningen frigörs moln av rök och sot. Rena spisar minskar däremot föroreningarna från förbränningen av dessa material i jämförelse. De minskar alltså bland annat de utsläpp som släpps ut.\n\nGenom att finansiera denna typ av projekt kommer de traditionella spisarna som bränner träkol ineffektivt och utan ventilation att ersättas, och de utsläppta gaserna och röken kan minskas avsevärt. En minskad användning av ved minskar avskogningen. Dessutom medför användningen av sådana förbättrade spisar ytterligare positiva effekter för den hållbara utvecklingen av den lokala befolkningen i utvecklings- och tillväxtländer (se nedan).\nKälla: drawdown.org",
+        "_gcp/gemini-1.5-pro_sv": "Världen över lagar väldigt många människor mat över öppen eld och på enkla spisar. Ved eller träkol används ofta som bränsle. Vid förbränning släpps rök och sot ut i stora mängder. Rena spisar minskar däremot föroreningarna från förbränning av dessa material. De minskar bland annat utsläppen som släpps ut.\n\nGenom att finansiera denna typ av projekt ersätts traditionella spisar som bränner träkol ineffektivt och utan ventilation, och de utsläppta gaserna och röken kan minskas avsevärt. En minskad användning av ved minskar avskogningen. Dessutom har användningen av sådana förbättrade spisar andra positiva effekter för den hållbara utvecklingen av lokalbefolkningen i utvecklingsländer och tillväxtekonomier (se nedan).\nKälla: drawdown.org \n",
+        "_compare_azure/gpt-4o_sv": "Världen över lagar väldigt många människor mat över öppen eld och på enkla spisar. Ved eller träkol används ofta som bränsle. Vid förbränning släpps rök och sot ut i stora mängder. Rena spisar minskar däremot föroreningarna från förbränning av dessa material. De minskar bland annat utsläppen som släpps ut. Genom att finansiera denna typ av projekt ersätts traditionella spisar som bränner träkol ineffektivt och utan ventilation, och de utsläppta gaserna och röken kan minskas avsevärt. En minskad användning av ved minskar avskogningen. Dessutom har användningen av sådana förbättrade spisar andra positiva effekter för den hållbara utvecklingen av lokalbefolkningen i utvecklingsländer och tillväxtekonomier (se nedan). Källa: drawdown.org",
+        "_compare_gcp/gemini-1.5-pro_sv": "Världen över lagar väldigt många människor mat över öppen eld och på enkla spisar. Ved eller träkol används ofta som bränsle. Vid förbränning släpps rök och sot ut i stora mängder. Rena spisar minskar däremot föroreningarna från förbränning av dessa material. De minskar bland annat utsläppen som släpps ut. Genom att finansiera denna typ av projekt ersätts traditionella spisar som bränner träkol ineffektivt och utan ventilation, och de utsläppta gaserna och röken kan minskas avsevärt. En minskad användning av ved minskar avskogningen. Dessutom har användningen av sådana förbättrade spisar andra positiva effekter för den hållbara utvecklingen av lokalbefolkningen i utvecklingsländer och tillväxtekonomier (se nedan). Källa: drawdown.org",
+        "_compare_aws/claude-3.5-sonnet_sv": "Världen över lagar väldigt många människor mat över öppen eld och på enkla spisar. Ved eller träkol används ofta som bränsle. Vid förbränning släpps rök och sot ut i stora mängder. Rena spisar minskar däremot föroreningarna från förbränning av dessa material. De minskar bland annat utsläppen som släpps ut. Genom att finansiera denna typ av projekt ersätts traditionella spisar som bränner träkol ineffektivt och utan ventilation, och de utsläppta gaserna och röken kan minskas avsevärt. En minskad användning av ved minskar avskogningen. Dessutom har användningen av sådana förbättrade spisar andra positiva effekter för den hållbara utvecklingen av lokalbefolkningen i utvecklingsländer och tillväxtekonomier (se nedan). Källa: drawdown.org",
+        "_unique_translations_back_sv": [
+            "Weltweit kochen viele Menschen über offenem Feuer und auf einfachen Herden. Holz oder (Holz-)Kohle werden sehr häufig als Brennstoffe verwendet. Bei der Verbrennung werden Wolken von Rauch und Ruß freigesetzt. Saubere Kochherde hingegen reduzieren die Verschmutzung durch die Verbrennung dieser Materialien im Vergleich. Sie verringern also unter anderem die ausgestoßenen Emissionen. Durch die Finanzierung dieser Art von Projekten werden traditionelle Kochherde, die Holzkohle ineffizient und ohne Belüftung verbrennen, ersetzt, und die ausgestoßenen Gase und der Rauch können erheblich reduziert werden. Ein geringerer Holzverbrauch verringert die Entwaldung. Darüber hinaus bringt die Verwendung solcher verbesserten Kochherde weitere positive Effekte für die nachhaltige Entwicklung der lokalen Bevölkerung in Entwicklungs- und Schwellenländern mit sich (siehe unten). Quelle: drawdown.org",
+            "Weltweit kochen sehr viele Menschen über offenem Feuer und auf einfachen Herden. Holz oder Holzkohle werden häufig als Brennstoff verwendet. Bei der Verbrennung werden große Mengen Rauch und Ruß freigesetzt. Saubere Kochherde hingegen reduzieren die Verschmutzung durch die Verbrennung dieser Materialien. Sie verringern unter anderem die freigesetzten Emissionen. Durch die Finanzierung solcher Projekte werden traditionelle Herde ersetzt, die Holzkohle ineffizient und ohne Belüftung verbrennen, wodurch die ausgestoßenen Gase und der Rauch erheblich reduziert werden können. Ein geringerer Holzverbrauch verringert die Entwaldung. Darüber hinaus hat die Verwendung solcher verbesserten Kochherde weitere positive Auswirkungen auf die nachhaltige Entwicklung der lokalen Bevölkerung in Entwicklungs- und Schwellenländern (siehe unten). Quelle: drawdown.org"
+        ]
     },
-    {
-      "imageRef": {
-        "de": "SDG_icons_DE-07",
-        "ru": "R-WEB-Goal-07",
-        "en": "sdg7",
-        "ar": "A-WEB-Goal-07",
-        "fr": "A-WEB-Goal-07"
-      },
-      "logoDescription": {
-        "de": "Höhere Energieeffizienz als die herkömmlichen Herde, dadurch höhere Energieversorgungssicherheit für Haushalte",
-        "ru": "Более высокая энергоэффективность по сравнению с обычными плитами, что повышает энергетическую безопасность домохозяйств",
-        "en": "Higher energy efficiency than the conventional stoves, thus higher energy security for households",
-        "ar": "كفاءة طاقة أعلى من المواقد التقليدية ، وبالتالي أمن طاقة أعلى للأسر",
-        "fr" : "Efficacité énergétique supérieure à celle des poêles conventionnels, et donc sécurité énergétique accrue pour les ménages"
-      }
-    },
-    {
-      "imageRef": {
-        "de": "SDG_icons_DE-08",
-        "ru": "R-WEB-Goal-08",
-        "en": "sdg8",
-        "ar": "A-WEB-Goal-08",
-        "fr": "SDG_icons_DE-08"
-      },
-      "logoDescription": {
-        "de": "Entlang der Wertschöpfungskette der Kochherde können Beschäftigungsmöglichkeiten entstehen (z. B. in Herstellung und Wartung); Zeitersparnis kann für andere Geschäftsaktivitäten genutzt werden",
-        "ru": "В цепочке создания стоимости кухонных плит могут быть созданы возможности для трудоустройства (например, в сфере производства и обслуживания); сэкономленное время может быть использовано для других видов предпринимательской деятельности",
-        "en": "Employment opportunities can be created along the cookstove value chain (e.g. in manufacturing and maintenance); time saved can be used for other business activities",
-        "ar": "قد تنشأ فرص عمل على طول سلسلة قيمة مواقد الطهي (على سبيل المثال في التصنيع والصيانة) ؛ يمكن استخدام الوقت المدخر لأنشطة الأعمال الأخرى",
-        "fr": "Des opportunités d'emploi peuvent être créées le long de la chaîne de valeur des cuisinières (par exemple, dans la fabrication et l'entretien) ; le temps économisé peut être utilisé pour d'autres activités commerciales"
-      }
-    },
-    {
-      "imageRef": {
-        "de": "SDG_icons_DE-13",
-        "ru": "R-WEB-Goal-13",
-        "en": "sdg13",
-        "ar": "A-WEB-Goal-13",
-        "fr": "Objectif 13"
-      },
-      "logoDescription": {
-        "de": "Verringert den Ausstoß von Treibhausgasemissionen",
-        "ru": "Сокращает выбросы парниковых газов",
-        "en": "Reduces greenhouse gas emissions",
-        "ar": "يقلل من انبعاثات غازات الاحتباس الحراري",
-        "fr": "Réduit les émissions de gaz à effet de serre"
-      }
-    }
-  ]
+    "globalCompensationLimit": 15000000,
+    "participantCompensationLimit": 15,
+    "pricePerTon": [
+        {
+            "isoCountryCode": "DEU",
+            "unit": "€",
+            "source": "02_standard_prices_euro.csv",
+            "isDefault": true
+        },
+        {
+            "isoCountryCode": "AUT",
+            "unit": "€",
+            "source": "02_standard_prices_euro.csv",
+            "isDefault": false
+        },
+        {
+            "isoCountryCode": "CHE",
+            "unit": "CHF",
+            "source": "02_standard_prices_chf.csv",
+            "isDefault": false
+        },
+        {
+            "isoCountryCode": "RUS",
+            "unit": "¶",
+            "source": "02_standard_prices_rubel.csv",
+            "isDefault": false
+        }
+    ],
+    "logos": [
+        {
+            "imageRef": {
+                "de": "SDG_icons_DE-03",
+                "ru": "R-WEB-Goal-03",
+                "en": "sdg3",
+                "ar": "A-WEB-Goal-03",
+                "fr": "Objectif 3"
+            },
+            "logoDescription": {
+                "de": "Weniger Luftverschmutzung und damit Belastung für die Lunge; weniger körperliche Belastung durch Sammeln von Feuerholz",
+                "ru": "Меньше загрязнения воздуха и, следовательно, нагрузки на легкие; меньше физического напряжения при заготовке дров",
+                "en": "Less air pollution and thus strain on the lungs; less physical strain from collecting firewood",
+                "ar": "تلوث أقل للهواء وبالتالي إجهاد الرئتين ؛ إجهاد جسدي أقل من جمع الحطب",
+                "fr": "Moins de pollution de l'air et donc de pression sur les poumons ; moins de pression physique due à la collecte de bois de chauffage",
+                "_azure/gpt-4o_sv": "Mindre luftföroreningar och därmed belastning på lungorna; mindre fysisk belastning från att samla ved.",
+                "_gcp/gemini-1.5-pro_sv": "Mindre luftföroreningar och därmed belastning på lungorna; mindre fysisk belastning genom att samla ved \n",
+                "_compare_azure/gpt-4o_sv": "Mindre luftföroreningar och därmed belastning på lungorna; mindre fysisk belastning från att samla ved",
+                "_compare_gcp/gemini-1.5-pro_sv": "Mindre luftföroreningar och därmed belastning på lungorna; mindre fysisk belastning genom att samla ved",
+                "_compare_aws/claude-3.5-sonnet_sv": "Mindre luftföroreningar och därmed belastning på lungorna; mindre fysisk belastning från att samla ved",
+                "_unique_translations_back_sv": [
+                    "Weniger Luftverschmutzung und damit Belastung der Lungen; weniger körperliche Belastung durch das Sammeln von Brennholz",
+                    "Weniger Luftverschmutzung und damit Belastung der Lunge; weniger körperliche Belastung durch das Sammeln von Brennholz"
+                ]
+            }
+        },
+        {
+            "imageRef": {
+                "de": "SDG_icons_DE-05",
+                "ru": "R-WEB-Goal-05",
+                "en": "sdg5",
+                "ar": "A-WEB-Goal-05",
+                "fr": "SDG_icons_DE-05"
+            },
+            "logoDescription": {
+                "de": "Frauen und Mädchen müssen weniger Feuerholz sammeln und haben mehr Zeit für andere Aktivitäten (z. B. Arbeit und Bildung)",
+                "ru": "Женщины и девочки должны собирать меньше дров и иметь больше времени для других видов деятельности (например, работы и образования)",
+                "en": "Women and girls have to collect less firewood and have more time for other activities (e.g. work and education)",
+                "ar": "يتعين على النساء والفتيات جمع حطب أقل والحصول على مزيد من الوقت للأنشطة الأخرى (مثل العمل والتعليم)",
+                "fr": "Les femmes et les filles doivent ramasser moins de bois de chauffage et ont plus de temps à consacrer à d'autres activités (par exemple, le travail et l'éducation)",
+                "_azure/gpt-4o_sv": "Kvinnor och flickor behöver samla mindre ved och får mer tid för andra aktiviteter (t.ex. arbete och utbildning)",
+                "_gcp/gemini-1.5-pro_sv": "Kvinnor och flickor behöver inte samla lika mycket ved och får mer tid över till andra aktiviteter (t.ex. arbete och utbildning) \n",
+                "_compare_azure/gpt-4o_sv": "Kvinnor och flickor behöver samla mindre ved och får mer tid för andra aktiviteter (t.ex. arbete och utbildning)",
+                "_compare_gcp/gemini-1.5-pro_sv": "Kvinnor och flickor behöver inte samla lika mycket ved och får mer tid över till andra aktiviteter (t.ex. arbete och utbildning)",
+                "_compare_aws/claude-3.5-sonnet_sv": "Kvinnor och flickor behöver inte samla lika mycket ved och får mer tid över till andra aktiviteter (t.ex. arbete och utbildning)",
+                "_unique_translations_back_sv": [
+                    "Frauen und Mädchen müssen weniger Brennholz sammeln und haben mehr Zeit für andere Aktivitäten (z.B. Arbeit und Bildung)",
+                    "Frauen und Mädchen müssen weniger Brennholz sammeln und haben mehr Zeit für andere Aktivitäten (z.B. Arbeit und Bildung)"
+                ]
+            }
+        },
+        {
+            "imageRef": {
+                "de": "SDG_icons_DE-07",
+                "ru": "R-WEB-Goal-07",
+                "en": "sdg7",
+                "ar": "A-WEB-Goal-07",
+                "fr": "A-WEB-Goal-07"
+            },
+            "logoDescription": {
+                "de": "Höhere Energieeffizienz als die herkömmlichen Herde, dadurch höhere Energieversorgungssicherheit für Haushalte",
+                "ru": "Более высокая энергоэффективность по сравнению с обычными плитами, что повышает энергетическую безопасность домохозяйств",
+                "en": "Higher energy efficiency than the conventional stoves, thus higher energy security for households",
+                "ar": "كفاءة طاقة أعلى من المواقد التقليدية ، وبالتالي أمن طاقة أعلى للأسر",
+                "fr": "Efficacité énergétique supérieure à celle des poêles conventionnels, et donc sécurité énergétique accrue pour les ménages",
+                "_azure/gpt-4o_sv": "Högre energieffektivitet än de konventionella spisarna, vilket ger högre energisäkerhet för hushållen",
+                "_gcp/gemini-1.5-pro_sv": "Högre energieffektivitet än konventionella spisar, vilket ger högre energisäkerhet för hushållen. \n",
+                "_compare_azure/gpt-4o_sv": "Högre energieffektivitet än de konventionella spisarna, vilket ger högre energisäkerhet för hushållen",
+                "_compare_gcp/gemini-1.5-pro_sv": "Högre energieffektivitet än de konventionella spisarna, vilket ger högre energisäkerhet för hushållen",
+                "_compare_aws/claude-3.5-sonnet_sv": "Högre energieffektivitet än de konventionella spisarna, vilket ger högre energisäkerhet för hushållen",
+                "_unique_translations_back_sv": [
+                    "Höhere Energieeffizienz als herkömmliche Herde, somit höhere Energiesicherheit für Haushalte",
+                    "Höhere Energieeffizienz als die herkömmlichen Herde, was zu höherer Energiesicherheit für Haushalte führt"
+                ]
+            }
+        },
+        {
+            "imageRef": {
+                "de": "SDG_icons_DE-08",
+                "ru": "R-WEB-Goal-08",
+                "en": "sdg8",
+                "ar": "A-WEB-Goal-08",
+                "fr": "SDG_icons_DE-08"
+            },
+            "logoDescription": {
+                "de": "Entlang der Wertschöpfungskette der Kochherde können Beschäftigungsmöglichkeiten entstehen (z. B. in Herstellung und Wartung); Zeitersparnis kann für andere Geschäftsaktivitäten genutzt werden",
+                "ru": "В цепочке создания стоимости кухонных плит могут быть созданы возможности для трудоустройства (например, в сфере производства и обслуживания); сэкономленное время может быть использовано для других видов предпринимательской деятельности",
+                "en": "Employment opportunities can be created along the cookstove value chain (e.g. in manufacturing and maintenance); time saved can be used for other business activities",
+                "ar": "قد تنشأ فرص عمل على طول سلسلة قيمة مواقد الطهي (على سبيل المثال في التصنيع والصيانة) ؛ يمكن استخدام الوقت المدخر لأنشطة الأعمال الأخرى",
+                "fr": "Des opportunités d'emploi peuvent être créées le long de la chaîne de valeur des cuisinières (par exemple, dans la fabrication et l'entretien) ; le temps économisé peut être utilisé pour d'autres activités commerciales",
+                "_azure/gpt-4o_sv": "Längs värdekedjan för spisarna kan sysselsättningsmöjligheter skapas (t.ex. inom tillverkning och underhåll); tidsbesparingar kan användas för andra affärsaktiviteter",
+                "_gcp/gemini-1.5-pro_sv": "Sysselsättningsmöjligheter kan uppstå längs hela värdekedjan för spisar (t.ex. inom tillverkning och underhåll); tidsbesparingar kan användas för andra affärsaktiviteter. \n",
+                "_compare_azure/gpt-4o_sv": "Sysselsättningsmöjligheter kan uppstå längs hela värdekedjan för spisar (t.ex. inom tillverkning och underhåll); tidsbesparingar kan användas för andra affärsaktiviteter",
+                "_compare_gcp/gemini-1.5-pro_sv": "Sysselsättningsmöjligheter kan uppstå längs hela värdekedjan för spisar (t.ex. inom tillverkning och underhåll); tidsbesparingar kan användas för andra affärsaktiviteter",
+                "_compare_aws/claude-3.5-sonnet_sv": "Sysselsättningsmöjligheter kan uppstå längs hela värdekedjan för spisar (t.ex. inom tillverkning och underhåll); tidsbesparingar kan användas för andra affärsaktiviteter",
+                "_unique_translations_back_sv": [
+                    "Entlang der Wertschöpfungskette der Kochherde können Beschäftigungsmöglichkeiten geschaffen werden (z.B. in der Herstellung und Wartung); die eingesparte Zeit kann für andere Geschäftstätigkeiten genutzt werden",
+                    "Beschäftigungsmöglichkeiten können entlang der gesamten Wertschöpfungskette für Kochherde entstehen (z.B. in der Herstellung und Wartung); eingesparte Zeit kann für andere Geschäftstätigkeiten genutzt werden"
+                ]
+            }
+        },
+        {
+            "imageRef": {
+                "de": "SDG_icons_DE-13",
+                "ru": "R-WEB-Goal-13",
+                "en": "sdg13",
+                "ar": "A-WEB-Goal-13",
+                "fr": "Objectif 13"
+            },
+            "logoDescription": {
+                "de": "Verringert den Ausstoß von Treibhausgasemissionen",
+                "ru": "Сокращает выбросы парниковых газов",
+                "en": "Reduces greenhouse gas emissions",
+                "ar": "يقلل من انبعاثات غازات الاحتباس الحراري",
+                "fr": "Réduit les émissions de gaz à effet de serre",
+                "_azure/gpt-4o_sv": "Minskar utsläppen av växthusgaser",
+                "_gcp/gemini-1.5-pro_sv": "Minskar utsläppen av växthusgaser \n",
+                "_compare_azure/gpt-4o_sv": "Minskar utsläppen av växthusgaser",
+                "_compare_gcp/gemini-1.5-pro_sv": "Minskar utsläppen av växthusgaser",
+                "_compare_aws/claude-3.5-sonnet_sv": "Minskar utsläppen av växthusgaser",
+                "_unique_translations_back_sv": [
+                    "Reduziert die Treibhausgasemissionen"
+                ]
+            }
+        }
+    ]
 }

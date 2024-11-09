@@ -1,107 +1,189 @@
 {
-  "_id": "forest-protection",
-  "title": {
-    "de": "Waldschutz",
-    "ru": "Сохранение лесов",
-    "en": "Forest protection",
-    "ar": "حماية الغابات",
-    "fr": "Protection des forêts"
-  },
-  "description": {
-    "de": "Wälder stellen durch ihre Biomasse und Böden wichtige Kohlenstoffspeicher dar. Ein effektiver Waldschutz verhindert den Ausstoß der Emissionen, der durch Entwaldung entstehen könnte und ermöglicht somit eine kontinuierliche Kohlenstoffspeicherung. Die Emissionen durch Entwaldung und die damit verbundene Umwandlung von ehemaligen Waldflächen für andere Landnutzungsformen (z. B. Landwirtschaft oder Industrie) machen einen signifikanten Teil der weltweiten Gesamtemissionen aus (ca. 10-15 %). \n Der nachhaltige Schutz bestehender Wälder auf allen Kontinenten der Erde kann jedoch nicht nur positiv zur Kohlenstoffbilanz beitragen, sondern hat auch große Auswirkungen auf den Erhalt von Biodiversität, die Luftqualität und weitere Nachhaltigkeitsziele. Die Förderung von Waldschutz-Projekten hat also diverse Vorteile für Natur und Mensch (siehe unten). \n Quelle: drawdown.org",
-    "ru": "Леса являются важными хранилищами углерода благодаря своей биомассе и почве. Эффективная защита лесов предотвращает выбросы, которые могут возникнуть в результате обезлесения, и тем самым обеспечивает непрерывное хранение углерода. Выбросы от обезлесения и связанного с ним преобразования бывших лесных территорий под другие формы землепользования (например, сельское хозяйство или промышленность) составляют значительную часть общих глобальных выбросов (около 10-15%). \n Однако устойчивая защита существующих лесов на всех континентах мира может не только внести положительный вклад в углеродный баланс, но и оказать существенное влияние на сохранение биоразнообразия, качество воздуха и другие цели устойчивого развития. Финансирование проектов по защите лесов имеет различные преимущества для природы и людей (см. ниже). \n Источник: drawdown.org",
-    "en": "Forests are important carbon stores due to their biomass and soil. Effective forest protection prevents the emission of emissions that could result from deforestation and thus enables continuous carbon storage. Emissions from deforestation and the associated conversion of former forest areas for other forms of land use (e.g. agriculture or industry) account for a significant part of total global emissions (approx. 10-15%). \n However, the sustainable protection of existing forests on all continents of the world can not only make a positive contribution to the carbon balance, but also has a major impact on the preservation of biodiversity, air quality and other sustainability goals. The funding of forest protection projects has various advantages for nature and people (see below). \n Source: drawdown.org",
-    "ar": "تعتبر الغابات مخازن مهمة للكربون نظرًا لكتلتها الحيوية وتربتها. تمنع الحماية الفعالة للغابات انبعاث الانبعاثات التي قد تنتج عن إزالة الغابات وبالتالي تتيح التخزين المستمر للكربون. تمثل الانبعاثات الناتجة عن إزالة الغابات وما يرتبط بها من تحويل مناطق الغابات السابقة إلى أشكال أخرى من استخدام الأراضي (مثل الزراعة أو الصناعة) جزءًا كبيرًا من إجمالي الانبعاثات العالمية (حوالي 10-15٪). \n ومع ذلك ، فإن الحماية المستدامة للغابات الموجودة في جميع قارات العالم لا يمكن أن تسهم فقط بشكل إيجابي في توازن الكربون ، ولكن لها أيضًا تأثير كبير على الحفاظ على التنوع البيولوجي وجودة الهواء وأهداف الاستدامة الأخرى. ولذلك فإن تمويل مشاريع حماية الغابات له مزايا مختلفة للطبيعة والناس (انظر أدناه). \n المصدر: drawdown.org",
-    "fr": "Les forêts sont d'importantes réserves de carbone en raison de leur biomasse et de leur sol. La protection efficace des forêts empêche les émissions qui pourraient résulter de la déforestation et permet ainsi un stockage continu du carbone. Les émissions liées à la déforestation et à la conversion des anciennes zones forestières pour d'autres formes d'utilisation des terres (comme l'agriculture ou l'industrie) représentent une part importante des émissions mondiales totales (environ 10 à 15 %). \n Cependant, la protection durable des forêts existantes sur tous les continents du monde peut non seulement contribuer positivement à l'équilibre du carbone, mais elle a également un impact majeur sur la préservation de la biodiversité, la qualité de l'air et d'autres objectifs de développement durable. Le financement des projets de protection des forêts présente divers avantages pour la nature et les populations (voir ci-dessous). \n Source: drawdown.org"
-  },
-  "globalCompensationLimit": 150000000,
-  "participantCompensationLimit": 15,
-  "pricePerTon": [
-    {"isoCountryCode": "DEU", "unit": "€", "source": "02_standard_prices_euro.csv", "isDefault": true},
-    {"isoCountryCode": "AUT", "unit": "€", "source": "02_standard_prices_euro.csv", "isDefault": false},
-    {"isoCountryCode": "CHE", "unit": "CHF", "source": "02_standard_prices_chf.csv", "isDefault": false},
-    {"isoCountryCode": "RUS", "unit": "¶", "source": "02_standard_prices_rubel.csv", "isDefault": false}
-  ],
-  "logos": [
-    {
-      "imageRef": {
-        "de": "SDG_icons_DE-01",
-        "ru": "R-WEB-Goal-01",
-        "en": "sdg1",
-        "ar": "A-WEB-Goal-01",
-        "fr": "Objectif 1"
-      },
-      "logoDescription": {
-        "de": "Nachhaltiges und langfristiges Management der Wälder kann Arbeitsplätze schaffen und damit Einkommen für die lokale Bevölkerung generieren",
-        "ru": "Устойчивое и долгосрочное управление лесами может создавать рабочие места и тем самым приносить доход местному населению",
-        "en": "Sustainable and long-term management of forests can create jobs and thus generate income for the local population",
-        "ar": "يمكن للإدارة المستدامة وطويلة الأجل للغابات أن تخلق فرص عمل وبالتالي تدر دخلاً للسكان المحليين",
-        "fr": "La gestion durable et à long terme des forêts peut créer des emplois et ainsi générer des revenus pour la population locale"
-      }
+    "_id": "forest-protection",
+    "title": {
+        "de": "Waldschutz",
+        "ru": "Сохранение лесов",
+        "en": "Forest protection",
+        "ar": "حماية الغابات",
+        "fr": "Protection des forêts",
+        "_azure/gpt-4o_sv": "Skogsskydd",
+        "_gcp/gemini-1.5-pro_sv": "Skogsskydd \n",
+        "_compare_azure/gpt-4o_sv": "Skogsskydd",
+        "_compare_gcp/gemini-1.5-pro_sv": "Skogsskydd",
+        "_compare_aws/claude-3.5-sonnet_sv": "Skogsskydd",
+        "_unique_translations_back_sv": [
+            "Waldschutz"
+        ]
     },
-    {
-      "imageRef": {
-        "de": "SDG_icons_DE-02",
-        "ru": "R-WEB-Goal-02",
-        "en": "sdg2",
-        "ar": "A-WEB-Goal-02",
-        "fr": "Objectif 2"
-      },
-      "logoDescription": {
-        "de": "Wälder beherbergen viele wilde Nahrungsmittel wie Beeren, Nüsse, Pilze und Blätter und sorgen damit für Ernährungssicherheit vor allem der ländlichen Gemeinden und indigenen Gruppen",
-        "ru": "Леса являются хранилищем многих диких продуктов питания, таких как ягоды, орехи, грибы и листья, и таким образом обеспечивают продовольственную безопасность, особенно для сельских общин и групп коренного населения",
-        "en": "Forests harbor many wild foods such as berries, nuts, mushrooms, and leaves, providing food security especially for rural communities and indigenous groups",
-        "ar": "تحضر الغابات العديد من الأطعمة البرية مثل التوت والمكسرات والفطر والأوراق ، مما يوفر الأمن الغذائي خاصة للمجتمعات الريفية ومجموعات السكان الأصليين",
-        "fr": "Les forêts abritent de nombreux aliments sauvages tels que des baies, des noix, des champignons et des feuilles, assurant la sécurité alimentaire notamment pour les communautés rurales et les groupes indigènes"
-      }
+    "description": {
+        "de": "Wälder stellen durch ihre Biomasse und Böden wichtige Kohlenstoffspeicher dar. Ein effektiver Waldschutz verhindert den Ausstoß der Emissionen, der durch Entwaldung entstehen könnte und ermöglicht somit eine kontinuierliche Kohlenstoffspeicherung. Die Emissionen durch Entwaldung und die damit verbundene Umwandlung von ehemaligen Waldflächen für andere Landnutzungsformen (z. B. Landwirtschaft oder Industrie) machen einen signifikanten Teil der weltweiten Gesamtemissionen aus (ca. 10-15 %). \n Der nachhaltige Schutz bestehender Wälder auf allen Kontinenten der Erde kann jedoch nicht nur positiv zur Kohlenstoffbilanz beitragen, sondern hat auch große Auswirkungen auf den Erhalt von Biodiversität, die Luftqualität und weitere Nachhaltigkeitsziele. Die Förderung von Waldschutz-Projekten hat also diverse Vorteile für Natur und Mensch (siehe unten). \n Quelle: drawdown.org",
+        "ru": "Леса являются важными хранилищами углерода благодаря своей биомассе и почве. Эффективная защита лесов предотвращает выбросы, которые могут возникнуть в результате обезлесения, и тем самым обеспечивает непрерывное хранение углерода. Выбросы от обезлесения и связанного с ним преобразования бывших лесных территорий под другие формы землепользования (например, сельское хозяйство или промышленность) составляют значительную часть общих глобальных выбросов (около 10-15%). \n Однако устойчивая защита существующих лесов на всех континентах мира может не только внести положительный вклад в углеродный баланс, но и оказать существенное влияние на сохранение биоразнообразия, качество воздуха и другие цели устойчивого развития. Финансирование проектов по защите лесов имеет различные преимущества для природы и людей (см. ниже). \n Источник: drawdown.org",
+        "en": "Forests are important carbon stores due to their biomass and soil. Effective forest protection prevents the emission of emissions that could result from deforestation and thus enables continuous carbon storage. Emissions from deforestation and the associated conversion of former forest areas for other forms of land use (e.g. agriculture or industry) account for a significant part of total global emissions (approx. 10-15%). \n However, the sustainable protection of existing forests on all continents of the world can not only make a positive contribution to the carbon balance, but also has a major impact on the preservation of biodiversity, air quality and other sustainability goals. The funding of forest protection projects has various advantages for nature and people (see below). \n Source: drawdown.org",
+        "ar": "تعتبر الغابات مخازن مهمة للكربون نظرًا لكتلتها الحيوية وتربتها. تمنع الحماية الفعالة للغابات انبعاث الانبعاثات التي قد تنتج عن إزالة الغابات وبالتالي تتيح التخزين المستمر للكربون. تمثل الانبعاثات الناتجة عن إزالة الغابات وما يرتبط بها من تحويل مناطق الغابات السابقة إلى أشكال أخرى من استخدام الأراضي (مثل الزراعة أو الصناعة) جزءًا كبيرًا من إجمالي الانبعاثات العالمية (حوالي 10-15٪). \n ومع ذلك ، فإن الحماية المستدامة للغابات الموجودة في جميع قارات العالم لا يمكن أن تسهم فقط بشكل إيجابي في توازن الكربون ، ولكن لها أيضًا تأثير كبير على الحفاظ على التنوع البيولوجي وجودة الهواء وأهداف الاستدامة الأخرى. ولذلك فإن تمويل مشاريع حماية الغابات له مزايا مختلفة للطبيعة والناس (انظر أدناه). \n المصدر: drawdown.org",
+        "fr": "Les forêts sont d'importantes réserves de carbone en raison de leur biomasse et de leur sol. La protection efficace des forêts empêche les émissions qui pourraient résulter de la déforestation et permet ainsi un stockage continu du carbone. Les émissions liées à la déforestation et à la conversion des anciennes zones forestières pour d'autres formes d'utilisation des terres (comme l'agriculture ou l'industrie) représentent une part importante des émissions mondiales totales (environ 10 à 15 %). \n Cependant, la protection durable des forêts existantes sur tous les continents du monde peut non seulement contribuer positivement à l'équilibre du carbone, mais elle a également un impact majeur sur la préservation de la biodiversité, la qualité de l'air et d'autres objectifs de développement durable. Le financement des projets de protection des forêts présente divers avantages pour la nature et les populations (voir ci-dessous). \n Source: drawdown.org",
+        "_azure/gpt-4o_sv": "Skogar är viktiga kolförråd på grund av deras biomassa och jord. Effektivt skogsskydd förhindrar utsläpp som kan uppstå genom avskogning och möjliggör därmed kontinuerlig kolinlagring. Utsläppen från avskogning och den därmed förknippade omvandlingen av tidigare skogsområden till andra markanvändningsformer (t.ex. jordbruk eller industri) utgör en betydande del av de globala totala utsläppen (ca 10-15%). \n Hållbart skydd av befintliga skogar på alla kontinenter i världen kan dock inte bara bidra positivt till kolbalansen, utan har också stor inverkan på bevarandet av biologisk mångfald, luftkvalitet och andra hållbarhetsmål. Finansiering av skogsskyddsprojekt har alltså olika fördelar för natur och människor (se nedan). \n Källa: drawdown.org",
+        "_gcp/gemini-1.5-pro_sv": "Skogar utgör viktiga kolsänkor genom sin biomassa och mark. Ett effektivt skogsskydd förhindrar utsläpp som skulle kunna uppstå genom avskogning och möjliggör därmed en kontinuerlig koldioxidlagring. Utsläppen från avskogning och den därmed sammanhängande omvandlingen av tidigare skogsmark för andra markanvändningsformer (t.ex. jordbruk eller industri) utgör en betydande del av de totala globala utsläppen (ca 10-15 %).\nEtt hållbart skydd av befintliga skogar på alla kontinenter kan dock inte bara bidra positivt till koldioxidbalansen, utan har också stor inverkan på bevarandet av biologisk mångfald, luftkvalitet och andra hållbarhetsmål. Att stödja skogsskyddsprojekt har därför flera fördelar för både natur och människa (se nedan).\nKälla: drawdown.org \n",
+        "_compare_azure/gpt-4o_sv": "Skogar är viktiga kolförråd på grund av deras biomassa och jord. Effektivt skogsskydd förhindrar utsläpp som kan uppstå genom avskogning och möjliggör därmed kontinuerlig kolinlagring. Utsläppen från avskogning och den därmed förknippade omvandlingen av tidigare skogsområden till andra markanvändningsformer (t.ex. jordbruk eller industri) utgör en betydande del av de globala totala utsläppen (ca 10-15%). Hållbart skydd av befintliga skogar på alla kontinenter i världen kan dock inte bara bidra positivt till kolbalansen, utan har också stor inverkan på bevarandet av biologisk mångfald, luftkvalitet och andra hållbarhetsmål. Finansiering av skogsskyddsprojekt har alltså olika fördelar för natur och människor (se nedan). Källa: drawdown.org",
+        "_compare_gcp/gemini-1.5-pro_sv": "Skogar är viktiga kolförråd på grund av deras biomassa och jord. Effektivt skogsskydd förhindrar utsläpp som kan uppstå genom avskogning och möjliggör därmed kontinuerlig kolinlagring. Utsläppen från avskogning och den därmed förknippade omvandlingen av tidigare skogsområden till andra markanvändningsformer (t.ex. jordbruk eller industri) utgör en betydande del av de globala totala utsläppen (ca 10-15%). Hållbart skydd av befintliga skogar på alla kontinenter i världen kan dock inte bara bidra positivt till kolbalansen, utan har också stor inverkan på bevarandet av biologisk mångfald, luftkvalitet och andra hållbarhetsmål. Finansiering av skogsskyddsprojekt har alltså olika fördelar för natur och människor (se nedan). Källa: drawdown.org",
+        "_compare_aws/claude-3.5-sonnet_sv": "Skogar är viktiga kolförråd på grund av deras biomassa och jord. Effektivt skogsskydd förhindrar utsläpp som kan uppstå genom avskogning och möjliggör därmed kontinuerlig kolinlagring. Utsläppen från avskogning och den därmed förknippade omvandlingen av tidigare skogsområden till andra markanvändningsformer (t.ex. jordbruk eller industri) utgör en betydande del av de globala totala utsläppen (ca 10-15%). Hållbart skydd av befintliga skogar på alla kontinenter i världen kan dock inte bara bidra positivt till kolbalansen, utan har också stor inverkan på bevarandet av biologisk mångfald, luftkvalitet och andra hållbarhetsmål. Finansiering av skogsskyddsprojekt har alltså olika fördelar för natur och människor (se nedan). Källa: drawdown.org",
+        "_unique_translations_back_sv": [
+            "Wälder sind wichtige Kohlenstoffspeicher aufgrund ihrer Biomasse und ihres Bodens. Ein effektiver Waldschutz verhindert Emissionen, die durch Entwaldung entstehen könnten, und ermöglicht so eine kontinuierliche Kohlenstoffspeicherung. Emissionen aus Entwaldung und der damit verbundenen Umwandlung ehemaliger Waldflächen für andere Landnutzungsformen (z.B. Landwirtschaft oder Industrie) machen einen erheblichen Teil der globalen Gesamtemissionen aus (ca. 10-15%). Der nachhaltige Schutz bestehender Wälder auf allen Kontinenten kann jedoch nicht nur einen positiven Beitrag zur Kohlenstoffbilanz leisten, sondern hat auch große Auswirkungen auf den Erhalt der Biodiversität, die Luftqualität und andere Nachhaltigkeitsziele. Die Förderung von Waldschutzprojekten hat daher verschiedene Vorteile für Natur und Mensch (siehe unten). Quelle: drawdown.org",
+            "Wälder sind wichtige Kohlenstoffspeicher aufgrund ihrer Biomasse und ihres Bodens. Ein effektiver Waldschutz verhindert Emissionen, die durch Abholzung entstehen könnten, und ermöglicht somit eine kontinuierliche Kohlenstoffspeicherung. Die Emissionen aus der Abholzung und der damit verbundenen Umwandlung ehemaliger Waldflächen in andere Nutzungsformen (z.B. Landwirtschaft oder Industrie) machen einen bedeutenden Teil der globalen Gesamtemissionen aus (ca. 10-15%). Der nachhaltige Schutz bestehender Wälder auf allen Kontinenten der Welt kann jedoch nicht nur positiv zur Kohlenstoffbilanz beitragen, sondern hat auch große Auswirkungen auf den Erhalt der biologischen Vielfalt, die Luftqualität und andere Nachhaltigkeitsziele. Die Finanzierung von Waldschutzprojekten hat somit verschiedene Vorteile für die Natur und die Menschen (siehe unten). Quelle: drawdown.org"
+        ]
     },
-    {
-      "imageRef": {
-        "de": "SDG_icons_DE-10",
-        "ru": "R-WEB-Goal-10",
-        "en": "sdg10",
-        "ar": "A-WEB-Goal-10",
-        "fr": "Objectif 10"
-      },
-      "logoDescription": {
-        "de": "Der Schutz von Wäldern ist oft auch der Schutz des Lebensraums indigener Bevölkerungsgruppen und somit die Wahrung ihrer grundlegenden Menschenrechte und Traditionen",
-        "ru": "Защита лесов часто является также защитой среды обитания коренных народов и, таким образом, защитой их основных прав человека и традиций",
-        "en": "The protection of forests is often also the protection of the habitat of indigenous peoples and thus the safeguarding of their fundamental human rights and traditions",
-        "ar": "غالبًا ما تكون حماية الغابات أيضًا حماية لموائل الشعوب الأصلية وبالتالي حماية حقوق الإنسان الأساسية الخاصة بهم وتقاليدهم",
-        "fr": "La protection des forêts est souvent aussi la protection de l'habitat des peuples autochtones et donc la sauvegarde de leurs droits fondamentaux et de leurs traditions"
-      }
-    },
-    {
-      "imageRef": {
-        "de": "SDG_icons_DE-13",
-        "ru": "R-WEB-Goal-13",
-        "en": "sdg13",
-        "ar": "A-WEB-Goal-13",
-        "fr": "Objectif 13"
-      },
-      "logoDescription": {
-        "de": "Speichern Kohlenstoff und sorgen so für eine bessere Treibhausgasbilanz",
-        "ru": "Сохранять углерод и тем самым обеспечивать лучший баланс парниковых газов",
-        "en": "Store carbon and thus provide a better greenhouse gas balance",
-        "ar": "تخزين الكربون وبالتالي توفير توازن أفضل لغازات الاحتباس الحراري",
-        "fr": "Stocker du carbone et ainsi offrir un meilleur équilibre des gaz à effet de serre"
-      }
-    },
-    {
-      "imageRef": {
-        "de": "SDG_icons_DE-15",
-        "ru": "R-WEB-Goal-15",
-        "en": "sdg15",
-        "ar": "A-WEB-Goal-15",
-        "fr": "Objectif 15"
-      },
-      "logoDescription": {
-        "de": "Wälder sind Heimat unzähliger Tiere und Pflanzen, d. h. die Artenvielfalt wird geschützt und wiederhergestellt",
-        "ru": "Леса являются домом для бесчисленных животных и растений, т.е. биоразнообразие защищено и восстановлено",
-        "en": "Forests are home to countless animals and plants, i.e. biodiversity is protected and restored",
-        "ar": "تعد الغابات موطنًا لعدد لا يحصى من الحيوانات والنباتات ، أي حماية التنوع البيولوجي واستعادته",
-        "fr": "Les forêts abritent d'innombrables animaux et plantes, c'est-à-dire que la biodiversité est protégée et restaurée"
-      }
-    }
-  ]
+    "globalCompensationLimit": 150000000,
+    "participantCompensationLimit": 15,
+    "pricePerTon": [
+        {
+            "isoCountryCode": "DEU",
+            "unit": "€",
+            "source": "02_standard_prices_euro.csv",
+            "isDefault": true
+        },
+        {
+            "isoCountryCode": "AUT",
+            "unit": "€",
+            "source": "02_standard_prices_euro.csv",
+            "isDefault": false
+        },
+        {
+            "isoCountryCode": "CHE",
+            "unit": "CHF",
+            "source": "02_standard_prices_chf.csv",
+            "isDefault": false
+        },
+        {
+            "isoCountryCode": "RUS",
+            "unit": "¶",
+            "source": "02_standard_prices_rubel.csv",
+            "isDefault": false
+        }
+    ],
+    "logos": [
+        {
+            "imageRef": {
+                "de": "SDG_icons_DE-01",
+                "ru": "R-WEB-Goal-01",
+                "en": "sdg1",
+                "ar": "A-WEB-Goal-01",
+                "fr": "Objectif 1"
+            },
+            "logoDescription": {
+                "de": "Nachhaltiges und langfristiges Management der Wälder kann Arbeitsplätze schaffen und damit Einkommen für die lokale Bevölkerung generieren",
+                "ru": "Устойчивое и долгосрочное управление лесами может создавать рабочие места и тем самым приносить доход местному населению",
+                "en": "Sustainable and long-term management of forests can create jobs and thus generate income for the local population",
+                "ar": "يمكن للإدارة المستدامة وطويلة الأجل للغابات أن تخلق فرص عمل وبالتالي تدر دخلاً للسكان المحليين",
+                "fr": "La gestion durable et à long terme des forêts peut créer des emplois et ainsi générer des revenus pour la population locale",
+                "_azure/gpt-4o_sv": "Hållbar och långsiktig förvaltning av skogarna kan skapa arbetstillfällen och därmed generera inkomster för den lokala befolkningen",
+                "_gcp/gemini-1.5-pro_sv": "Hållbar och långsiktig skötsel av skogar kan skapa arbetstillfällen och därmed generera inkomster för lokalbefolkningen. \n",
+                "_compare_azure/gpt-4o_sv": "Hållbar och långsiktig förvaltning av skogarna kan skapa arbetstillfällen och därmed generera inkomster för den lokala befolkningen",
+                "_compare_gcp/gemini-1.5-pro_sv": "Hållbar och långsiktig förvaltning av skogarna kan skapa arbetstillfällen och därmed generera inkomster för den lokala befolkningen",
+                "_compare_aws/claude-3.5-sonnet_sv": "Hållbar och långsiktig skötsel av skogar kan skapa arbetstillfällen och därmed generera inkomster för lokalbefolkningen",
+                "_unique_translations_back_sv": [
+                    "Nachhaltige und langfristige Bewirtschaftung der Wälder kann Arbeitsplätze schaffen und somit Einkommen für die lokale Bevölkerung generieren",
+                    "Nachhaltige und langfristige Bewirtschaftung von Wäldern kann Arbeitsplätze schaffen und somit Einkommen für die lokale Bevölkerung generieren"
+                ]
+            }
+        },
+        {
+            "imageRef": {
+                "de": "SDG_icons_DE-02",
+                "ru": "R-WEB-Goal-02",
+                "en": "sdg2",
+                "ar": "A-WEB-Goal-02",
+                "fr": "Objectif 2"
+            },
+            "logoDescription": {
+                "de": "Wälder beherbergen viele wilde Nahrungsmittel wie Beeren, Nüsse, Pilze und Blätter und sorgen damit für Ernährungssicherheit vor allem der ländlichen Gemeinden und indigenen Gruppen",
+                "ru": "Леса являются хранилищем многих диких продуктов питания, таких как ягоды, орехи, грибы и листья, и таким образом обеспечивают продовольственную безопасность, особенно для сельских общин и групп коренного населения",
+                "en": "Forests harbor many wild foods such as berries, nuts, mushrooms, and leaves, providing food security especially for rural communities and indigenous groups",
+                "ar": "تحضر الغابات العديد من الأطعمة البرية مثل التوت والمكسرات والفطر والأوراق ، مما يوفر الأمن الغذائي خاصة للمجتمعات الريفية ومجموعات السكان الأصليين",
+                "fr": "Les forêts abritent de nombreux aliments sauvages tels que des baies, des noix, des champignons et des feuilles, assurant la sécurité alimentaire notamment pour les communautés rurales et les groupes indigènes",
+                "_azure/gpt-4o_sv": "Skogar rymmer många vilda livsmedel som bär, nötter, svampar och blad, vilket säkerställer livsmedelssäkerhet särskilt för landsbygdssamhällen och ursprungsbefolkningar.",
+                "_gcp/gemini-1.5-pro_sv": "Skogar hyser många vilda livsmedel som bär, nötter, svampar och blad och säkerställer därmed livsmedelsförsörjning, särskilt för landsbygdsbefolkningar och ursprungsbefolkningar. \n",
+                "_compare_azure/gpt-4o_sv": "Skogar hyser många vilda livsmedel som bär, nötter, svampar och blad och säkerställer därmed livsmedelsförsörjning, särskilt för landsbygdsbefolkningar och ursprungsbefolkningar",
+                "_compare_gcp/gemini-1.5-pro_sv": "Skogar hyser många vilda livsmedel som bär, nötter, svampar och blad och säkerställer därmed livsmedelsförsörjning, särskilt för landsbygdsbefolkningar och ursprungsbefolkningar",
+                "_compare_aws/claude-3.5-sonnet_sv": "Skogar hyser många vilda livsmedel som bär, nötter, svampar och blad och säkerställer därmed livsmedelsförsörjning, särskilt för landsbygdsbefolkningar och ursprungsbefolkningar",
+                "_unique_translations_back_sv": [
+                    "Wälder beherbergen viele wilde Nahrungsmittel wie Beeren, Nüsse, Pilze und Blätter und gewährleisten so die Ernährungssicherheit insbesondere für ländliche Gemeinschaften und indigene Gruppen",
+                    "Wälder beherbergen viele wilde Nahrungsmittel wie Beeren, Nüsse, Pilze und Blätter und gewährleisten damit die Ernährungssicherheit, insbesondere für ländliche Gemeinschaften und indigene Völker"
+                ]
+            }
+        },
+        {
+            "imageRef": {
+                "de": "SDG_icons_DE-10",
+                "ru": "R-WEB-Goal-10",
+                "en": "sdg10",
+                "ar": "A-WEB-Goal-10",
+                "fr": "Objectif 10"
+            },
+            "logoDescription": {
+                "de": "Der Schutz von Wäldern ist oft auch der Schutz des Lebensraums indigener Bevölkerungsgruppen und somit die Wahrung ihrer grundlegenden Menschenrechte und Traditionen",
+                "ru": "Защита лесов часто является также защитой среды обитания коренных народов и, таким образом, защитой их основных прав человека и традиций",
+                "en": "The protection of forests is often also the protection of the habitat of indigenous peoples and thus the safeguarding of their fundamental human rights and traditions",
+                "ar": "غالبًا ما تكون حماية الغابات أيضًا حماية لموائل الشعوب الأصلية وبالتالي حماية حقوق الإنسان الأساسية الخاصة بهم وتقاليدهم",
+                "fr": "La protection des forêts est souvent aussi la protection de l'habitat des peuples autochtones et donc la sauvegarde de leurs droits fondamentaux et de leurs traditions",
+                "_azure/gpt-4o_sv": "Skyddet av skogar är ofta också skyddet av ursprungsbefolkningens livsmiljö och därmed bevarandet av deras grundläggande mänskliga rättigheter och traditioner.",
+                "_gcp/gemini-1.5-pro_sv": "Skyddet av skogar är ofta också skyddet av ursprungsbefolkningars livsmiljöer och därmed bevarandet av deras grundläggande mänskliga rättigheter och traditioner. \n",
+                "_compare_azure/gpt-4o_sv": "Skyddet av skogar är ofta också skyddet av ursprungsbefolkningars livsmiljöer och därmed bevarandet av deras grundläggande mänskliga rättigheter och traditioner",
+                "_compare_gcp/gemini-1.5-pro_sv": "Skyddet av skogar är ofta också skyddet av ursprungsbefolkningars livsmiljöer och därmed bevarandet av deras grundläggande mänskliga rättigheter och traditioner",
+                "_compare_aws/claude-3.5-sonnet_sv": "Skyddet av skogar är ofta också skyddet av ursprungsbefolkningens livsmiljö och därmed bevarandet av deras grundläggande mänskliga rättigheter och traditioner",
+                "_unique_translations_back_sv": [
+                    "Der Schutz der Wälder ist oft auch der Schutz des Lebensraums indigener Völker und damit die Wahrung ihrer grundlegenden Menschenrechte und Traditionen",
+                    "Der Schutz der Wälder ist oft auch der Schutz des Lebensraums indigener Völker und damit die Wahrung ihrer grundlegenden Menschenrechte und Traditionen"
+                ]
+            }
+        },
+        {
+            "imageRef": {
+                "de": "SDG_icons_DE-13",
+                "ru": "R-WEB-Goal-13",
+                "en": "sdg13",
+                "ar": "A-WEB-Goal-13",
+                "fr": "Objectif 13"
+            },
+            "logoDescription": {
+                "de": "Speichern Kohlenstoff und sorgen so für eine bessere Treibhausgasbilanz",
+                "ru": "Сохранять углерод и тем самым обеспечивать лучший баланс парниковых газов",
+                "en": "Store carbon and thus provide a better greenhouse gas balance",
+                "ar": "تخزين الكربون وبالتالي توفير توازن أفضل لغازات الاحتباس الحراري",
+                "fr": "Stocker du carbone et ainsi offrir un meilleur équilibre des gaz à effet de serre",
+                "_azure/gpt-4o_sv": "Lagrar kol och ger därmed en bättre växthusgasbalans",
+                "_gcp/gemini-1.5-pro_sv": "Lagrar kol och säkerställer därmed en bättre klimatpåverkan. \n",
+                "_compare_azure/gpt-4o_sv": "Lagrar kol och ger därmed en bättre växthusgasbalans",
+                "_compare_gcp/gemini-1.5-pro_sv": "Lagrar kol och ger därmed en bättre växthusgasbalans",
+                "_compare_aws/claude-3.5-sonnet_sv": "Lagrar kol och ger därmed en bättre växthusgasbalans",
+                "_unique_translations_back_sv": [
+                    "Speichert Kohlenstoff und sorgt somit für eine bessere Treibhausgasbilanz",
+                    "Speichert Kohlenstoff und sorgt somit für eine bessere Treibhausgasbilanz"
+                ]
+            }
+        },
+        {
+            "imageRef": {
+                "de": "SDG_icons_DE-15",
+                "ru": "R-WEB-Goal-15",
+                "en": "sdg15",
+                "ar": "A-WEB-Goal-15",
+                "fr": "Objectif 15"
+            },
+            "logoDescription": {
+                "de": "Wälder sind Heimat unzähliger Tiere und Pflanzen, d. h. die Artenvielfalt wird geschützt und wiederhergestellt",
+                "ru": "Леса являются домом для бесчисленных животных и растений, т.е. биоразнообразие защищено и восстановлено",
+                "en": "Forests are home to countless animals and plants, i.e. biodiversity is protected and restored",
+                "ar": "تعد الغابات موطنًا لعدد لا يحصى من الحيوانات والنباتات ، أي حماية التنوع البيولوجي واستعادته",
+                "fr": "Les forêts abritent d'innombrables animaux et plantes, c'est-à-dire que la biodiversité est protégée et restaurée",
+                "_azure/gpt-4o_sv": "Skogar är hem för otaliga djur och växter, dvs. biologisk mångfald skyddas och återställs.",
+                "_gcp/gemini-1.5-pro_sv": "Skogar är hem för otaliga djur och växter, d.v.s. den biologiska mångfalden skyddas och återställs. \n",
+                "_compare_azure/gpt-4o_sv": "Skogar är hem för otaliga djur och växter, d.v.s. den biologiska mångfalden skyddas och återställs",
+                "_compare_gcp/gemini-1.5-pro_sv": "Skogar är hem för otaliga djur och växter, d.v.s. den biologiska mångfalden skyddas och återställs",
+                "_compare_aws/claude-3.5-sonnet_sv": "Skogar är hem för otaliga djur och växter, d.v.s. den biologiska mångfalden skyddas och återställs",
+                "_unique_translations_back_sv": [
+                    "Wälder sind die Heimat unzähliger Tier- und Pflanzenarten, d. h. die biologische Vielfalt wird geschützt und wiederhergestellt",
+                    "Wälder sind Heimat unzähliger Tiere und Pflanzen, d.h. die Biodiversität wird geschützt und wiederhergestellt"
+                ]
+            }
+        }
+    ]
 }

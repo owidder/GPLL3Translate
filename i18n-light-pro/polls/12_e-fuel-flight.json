@@ -1,38 +1,73 @@
 {
-  "_id": "e-fuel-flight",
-  "heading": {
-    "de": "E-Fuels für Flugzeuge",
-    "en": "E-fuels for aircraft",
-    "fr": "E-fuels for aircraft",
-    "ar": "E-fuels for aircraft"
-  },
-  "description": {
-    "de": "Bitte stimmen Sie darüber ab, ob ab 2050 der Betrieb von Flugzeugen nur noch mit E-Fuels und nicht mehr mit Kerosin erlaubt sein soll.\nFür Flugzeuge ist der Ersatz kohlenstoffbasierter Treibstoffe wie Kerosin sehr schwierig, weil sie eine sehr hohe Energiedichte haben, die benötigt wird, um Jets weite Strecken fliegen lassen zu können.\nKerosin kann auch synthetisch aus mit erneuerbarem Strom hergestelltem Wasserstoff und CO<sub>2</sub> hergestellt werden. Allerdings ist dieser Prozess sehr ineffizient. Man bräuchte also sehr viel erneuerbaren Strom, um genügend E-Fuels auch nur für einen Bruchteil der heutigen Flugkilometer herzustellen. Diese Anwendung würde den Strom für alle Bürger und die Wirtschaft teurer machen und erhebliche Flächen beanspruchen.\nFlüge würden um ein Vielfaches teuer.",
-    "en": "Please vote on whether aircraft should only be allowed to run on e-fuels and no longer on jet fuel from 2050 onwards.",
-    "fr": "Please vote on whether aircraft should only be allowed to run on e-fuels and no longer on jet fuel from 2050 onwards.",
-    "ar": "Please vote on whether aircraft should only be allowed to run on e-fuels and no longer on jet fuel from 2050 onwards."
-  },
-  "multipleChoice": false,
-  "choices": [
-    {
-      "name": "justefuels",
-      "isDefault": false,
-      "uiStrings": {
-        "de": "Fliegen ab 2050 nur noch mit E-Fuels erlauben",
-        "en": "Only allow flying with e-fuels from 2050",
-        "fr": "Only allow flying with e-fuels from 2050",
-        "ar": "Only allow flying with e-fuels from 2050"
-      }
+    "_id": "e-fuel-flight",
+    "heading": {
+        "de": "E-Fuels für Flugzeuge",
+        "en": "E-fuels for aircraft",
+        "fr": "E-fuels for aircraft",
+        "ar": "E-fuels for aircraft",
+        "_azure/gpt-4o_sv": "E-bränslen för flygplan",
+        "_gcp/gemini-1.5-pro_sv": "E-bränslen för flygplan \n",
+        "_compare_azure/gpt-4o_sv": "E-bränslen för flygplan",
+        "_compare_gcp/gemini-1.5-pro_sv": "E-bränslen för flygplan",
+        "_compare_aws/claude-3.5-sonnet_sv": "E-bränslen för flygplan",
+        "_unique_translations_back_sv": [
+            "E-Fuels für Flugzeuge"
+        ]
     },
-    {
-      "name": "noefuels",
-      "isDefault": true,
-      "uiStrings": {
-        "de": "Weiterhin fossile Kraftstoffe für Flugzeuge erlauben",
-        "en": "Continue to allow fossil fuels for aircraft",
-        "fr": "Continue to allow fossil fuels for aircraft",
-        "ar": "Continue to allow fossil fuels for aircraft"
-      }
-    }
-  ]
+    "description": {
+        "de": "Bitte stimmen Sie darüber ab, ob ab 2050 der Betrieb von Flugzeugen nur noch mit E-Fuels und nicht mehr mit Kerosin erlaubt sein soll.\nFür Flugzeuge ist der Ersatz kohlenstoffbasierter Treibstoffe wie Kerosin sehr schwierig, weil sie eine sehr hohe Energiedichte haben, die benötigt wird, um Jets weite Strecken fliegen lassen zu können.\nKerosin kann auch synthetisch aus mit erneuerbarem Strom hergestelltem Wasserstoff und CO<sub>2</sub> hergestellt werden. Allerdings ist dieser Prozess sehr ineffizient. Man bräuchte also sehr viel erneuerbaren Strom, um genügend E-Fuels auch nur für einen Bruchteil der heutigen Flugkilometer herzustellen. Diese Anwendung würde den Strom für alle Bürger und die Wirtschaft teurer machen und erhebliche Flächen beanspruchen.\nFlüge würden um ein Vielfaches teuer.",
+        "en": "Please vote on whether aircraft should only be allowed to run on e-fuels and no longer on jet fuel from 2050 onwards.",
+        "fr": "Please vote on whether aircraft should only be allowed to run on e-fuels and no longer on jet fuel from 2050 onwards.",
+        "ar": "Please vote on whether aircraft should only be allowed to run on e-fuels and no longer on jet fuel from 2050 onwards.",
+        "_azure/gpt-4o_sv": "Vänligen rösta om flygplan från och med 2050 endast ska få drivas med e-bränslen och inte längre med flygbränsle.\nFör flygplan är det mycket svårt att ersätta kolbaserade bränslen som flygbränsle eftersom de har en mycket hög energitäthet som behövs för att låta jetplan flyga långa sträckor.\nFlygbränsle kan också syntetiskt tillverkas av väte och CO<sub>2</sub> som produceras med förnybar el. Men denna process är mycket ineffektiv. Man skulle alltså behöva väldigt mycket förnybar el för att tillverka tillräckligt med e-bränslen för ens en bråkdel av dagens flygkilometer. Denna tillämpning skulle göra el dyrare för alla medborgare och ekonomin och kräva betydande ytor.\nFlygningar skulle bli mångdubbelt dyrare.",
+        "_gcp/gemini-1.5-pro_sv": "Rösta på om flygplan från och med 2050 endast ska få drivas med e-bränslen och inte längre med fotogen. \nFör flygplan är det mycket svårt att ersätta kolbaserade bränslen som fotogen eftersom de har en mycket hög energitäthet, vilket behövs för att jetplan ska kunna flyga långa sträckor. \nFotogen kan även tillverkas syntetiskt av väte och CO<sub>2</sub> som produceras med förnybar el. Denna process är dock mycket ineffektiv. Det skulle alltså krävas mycket förnybar el för att producera tillräckligt med e-bränslen för ens en bråkdel av dagens flygkilometer. Denna tillämpning skulle göra el dyrare för alla medborgare och för näringslivet och kräva stora markområden. \nFlyg skulle bli många gånger dyrare. \n",
+        "_compare_azure/gpt-4o_sv": "Rösta på om flygplan från och med 2050 endast ska få drivas med e-bränslen och inte längre med fotogen. För flygplan är det mycket svårt att ersätta kolbaserade bränslen som fotogen eftersom de har en mycket hög energitäthet, vilket behövs för att jetplan ska kunna flyga långa sträckor. Fotogen kan även tillverkas syntetiskt av väte och CO<sub>2</sub> som produceras med förnybar el. Denna process är dock mycket ineffektiv. Det skulle alltså krävas mycket förnybar el för att producera tillräckligt med e-bränslen för ens en bråkdel av dagens flygkilometer. Denna tillämpning skulle göra el dyrare för alla medborgare och för näringslivet och kräva stora markområden. Flyg skulle bli många gånger dyrare",
+        "_compare_gcp/gemini-1.5-pro_sv": "Rösta på om flygplan från och med 2050 endast ska få drivas med e-bränslen och inte längre med fotogen. För flygplan är det mycket svårt att ersätta kolbaserade bränslen som fotogen eftersom de har en mycket hög energitäthet, vilket behövs för att jetplan ska kunna flyga långa sträckor. Fotogen kan även tillverkas syntetiskt av väte och CO<sub>2</sub> som produceras med förnybar el. Denna process är dock mycket ineffektiv. Det skulle alltså krävas mycket förnybar el för att producera tillräckligt med e-bränslen för ens en bråkdel av dagens flygkilometer. Denna tillämpning skulle göra el dyrare för alla medborgare och för näringslivet och kräva stora markområden. Flyg skulle bli många gånger dyrare",
+        "_compare_aws/claude-3.5-sonnet_sv": "Rösta på om flygplan från och med 2050 endast ska få drivas med e-bränslen och inte längre med fotogen. För flygplan är det mycket svårt att ersätta kolbaserade bränslen som fotogen eftersom de har en mycket hög energitäthet, vilket behövs för att jetplan ska kunna flyga långa sträckor. Fotogen kan även tillverkas syntetiskt av väte och CO<sub>2</sub> som produceras med förnybar el. Denna process är dock mycket ineffektiv. Det skulle alltså krävas mycket förnybar el för att producera tillräckligt med e-bränslen för ens en bråkdel av dagens flygkilometer. Denna tillämpning skulle göra el dyrare för alla medborgare och för näringslivet och kräva stora markområden. Flyg skulle bli många gånger dyrare",
+        "_unique_translations_back_sv": [
+            "Bitte stimmen Sie darüber ab, ob Flugzeuge ab 2050 nur noch mit E-Kraftstoffen und nicht mehr mit Kerosin betrieben werden dürfen. Für Flugzeuge ist es sehr schwierig, kohlenstoffbasierte Treibstoffe wie Kerosin zu ersetzen, da diese eine sehr hohe Energiedichte aufweisen, die für Langstreckenflüge von Düsenflugzeugen benötigt wird. Kerosin kann auch synthetisch aus Wasserstoff und CO<sub>2</sub> hergestellt werden, die mit erneuerbarem Strom produziert werden. Dieser Prozess ist jedoch sehr ineffizient. Man würde also sehr viel erneuerbaren Strom benötigen, um genügend E-Kraftstoffe für nur einen Bruchteil der heutigen Flugkilometer herzustellen. Diese Anwendung würde den Strom für alle Bürger und die Wirtschaft verteuern und erhebliche Flächen beanspruchen. Flüge würden um ein Vielfaches teurer werden",
+            "Stimmen Sie darüber ab, ob Flugzeuge ab 2050 nur noch mit E-Fuels und nicht mehr mit Kerosin betrieben werden dürfen. Für Flugzeuge ist es sehr schwierig, kohlenstoffbasierte Kraftstoffe wie Kerosin zu ersetzen, da diese eine sehr hohe Energiedichte haben, die für Langstreckenflüge benötigt wird. Kerosin kann auch synthetisch aus Wasserstoff und CO<sub>2</sub> hergestellt werden, die mit erneuerbarem Strom produziert werden. Dieser Prozess ist jedoch sehr ineffizient. Es würde also sehr viel erneuerbaren Strom benötigen, um genügend E-Fuels für auch nur einen Bruchteil der heutigen Flugkilometer zu produzieren. Diese Anwendung würde Strom für alle Bürger und die Wirtschaft verteuern und große Flächen beanspruchen. Fliegen würde um ein Vielfaches teurer werden"
+        ]
+    },
+    "multipleChoice": false,
+    "choices": [
+        {
+            "name": "justefuels",
+            "isDefault": false,
+            "uiStrings": {
+                "de": "Fliegen ab 2050 nur noch mit E-Fuels erlauben",
+                "en": "Only allow flying with e-fuels from 2050",
+                "fr": "Only allow flying with e-fuels from 2050",
+                "ar": "Only allow flying with e-fuels from 2050",
+                "_azure/gpt-4o_sv": "Tillåt endast flygning med e-bränslen från 2050",
+                "_gcp/gemini-1.5-pro_sv": "Tillåt endast flyg med e-bränslen från och med 2050 \n",
+                "_compare_azure/gpt-4o_sv": "Tillåt endast flygning med e-bränslen från 2050",
+                "_compare_gcp/gemini-1.5-pro_sv": "Tillåt endast flyg med e-bränslen från och med 2050",
+                "_compare_aws/claude-3.5-sonnet_sv": "Tillåt endast flygning med e-bränslen från 2050",
+                "_unique_translations_back_sv": [
+                    "Nur Flüge mit E-Kraftstoffen ab 2050 erlauben",
+                    "Nur Fliegen mit E-Kraftstoffen ab 2050 erlauben"
+                ]
+            }
+        },
+        {
+            "name": "noefuels",
+            "isDefault": true,
+            "uiStrings": {
+                "de": "Weiterhin fossile Kraftstoffe für Flugzeuge erlauben",
+                "en": "Continue to allow fossil fuels for aircraft",
+                "fr": "Continue to allow fossil fuels for aircraft",
+                "ar": "Continue to allow fossil fuels for aircraft",
+                "_azure/gpt-4o_sv": "Fortsätta att tillåta fossila bränslen för flygplan",
+                "_gcp/gemini-1.5-pro_sv": "Fortsätt tillåta fossila bränslen för flygplan \n",
+                "_compare_azure/gpt-4o_sv": "Fortsätta att tillåta fossila bränslen för flygplan",
+                "_compare_gcp/gemini-1.5-pro_sv": "Fortsätta att tillåta fossila bränslen för flygplan",
+                "_compare_aws/claude-3.5-sonnet_sv": "Fortsätt tillåta fossila bränslen för flygplan",
+                "_unique_translations_back_sv": [
+                    "Weiterhin fossile Brennstoffe für Flugzeuge erlauben",
+                    "Weiterhin fossile Brennstoffe für Flugzeuge erlauben"
+                ]
+            }
+        }
+    ]
 }

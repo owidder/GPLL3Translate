@@ -1,68 +1,131 @@
 {
-  "_id": "energysubsidy",
-  "heading": {
-    "de": "Abstimmung über ein Bürger-Energiegeld",
-    "en": "Vote on a citizen energy subsidy",
-    "fr": "Votez pour une subvention énergétique citoyenne",
-    "ar": "التصويت على دعم الطاقة للمواطنين"
-  },
-  "description": {
-    "de": "Die Preissteigerungen bei Energie treffen vor allem die Geringverdiener hart.\nAnstatt Energie allgemein zu subventionieren könnte der Staat allen Bürgern gleichmäßig den Mindestbedarf an Energie subventionieren. Dadurch würden Geringverdiener entlastet, gleichzeitig die Marktmechanismen erhalten, die Sparsamkeit durch hohe Preise bewirken und die Energiekonzerne daran gehindert, die Subvention selbst einzustreichen.\n\nUm die Kosten dafür zu decken, kommen Steuererhöhungen oder (vor allem bei einer temporären Maßnahme) neue Staatsschulden infrage.",
-    "en": "The price increases for energy hit low-income earners especially hard.\nInstead of subsidising energy in general, the state could subsidise the minimum energy needs of all citizens equally. This would relieve low-income earners, while at the same time preserving the market mechanisms that bring about thrift through high prices and preventing the energy companies from pocketing the subsidy themselves.\n\nTo cover the costs of this, tax increases or (especially in the case of a temporary measure) new public debt are possible options.",
-    "fr": "Les hausses de prix de l'énergie touchent particulièrement les personnes à faible revenu.\nAu lieu de subventionner l'énergie de manière générale, l'État pourrait subventionner de manière égale les besoins énergétiques minimum de tous les citoyens. Cela soulagerait les personnes à faible revenu, tout en préservant les mécanismes du marché qui favorisent l'économie grâce à des prix élevés et en empêchant les sociétés énergétiques de s'approprier la subvention.\n\nPour couvrir les coûts, des augmentations d'impôts ou (surtout dans le cas d'une mesure temporaire) de nouvelles dettes publiques sont des options possibles.",
-    "ar": "تؤثر زيادات أسعار الطاقة بشكل خاص على المتردين الوضع الاقتصادي.\nبدلاً من دعم الطاقة بشكل عام، يمكن للدولة دعم الحد الأدنى من احتياجات الطاقة لجميع المواطنين بالتساوي. وسيؤدي ذلك إلى تخفيف العبء عن المتردين الوضع الاقتصادي، مع الحفاظ في الوقت نفسه على آليات السوق التي تجلب التوفير من خلال رفع الأسعار ومنع شركات الطاقة من الاستحواذ على الدعم.\n\nلتغطية تكاليف ذلك، هناك خيارات ممكنة مثل زيادة الضرائب أو (خاصة في حالة التدابير المؤقتة) الديون العامة الجديدة."
-  },
-  "multipleChoice": false,
-  "choices": [
-    {
-      "name": "level25",
-      "isDefault": false,
-      "uiStrings": {
-        "de": "25% des Grundbedarfs werden vom Staat bezahlt",
-        "en": "25% of the basic needs are paid by the state",
-        "fr": "25 % des besoins de base sont pris en charge par l'État",
-        "ar": "يدفع الدولة 25% من الاحتياجات الأساسية"
-      }
+    "_id": "energysubsidy",
+    "heading": {
+        "de": "Abstimmung über ein Bürger-Energiegeld",
+        "en": "Vote on a citizen energy subsidy",
+        "fr": "Votez pour une subvention énergétique citoyenne",
+        "ar": "التصويت على دعم الطاقة للمواطنين",
+        "_azure/gpt-4o_sv": "Omröstning om ett medborgarenergi-bidrag",
+        "_gcp/gemini-1.5-pro_sv": "Omröstning om energiestöd till medborgare \n",
+        "_compare_azure/gpt-4o_sv": "Omröstning om energiestöd till medborgare",
+        "_compare_gcp/gemini-1.5-pro_sv": "Omröstning om ett medborgarenergi-bidrag",
+        "_compare_aws/claude-3.5-sonnet_sv": "Omröstning om ett medborgarenergi-bidrag",
+        "_unique_translations_back_sv": [
+            "Abstimmung über eine Energiesubvention für Bürger",
+            "Abstimmung über einen Energiezuschuss für Bürger"
+        ]
     },
-    {
-      "name": "level50",
-      "isDefault": false,
-      "uiStrings": {
-        "de": "50% des Grundbedarfs werden vom Staat bezahlt",
-        "en": "50% of the basic needs are paid by the state",
-        "fr": "50 % des besoins de base sont pris en charge par l'État",
-        "ar": "يدفع الدولة 50% من الاحتياجات الأساسية"
-      }
+    "description": {
+        "de": "Die Preissteigerungen bei Energie treffen vor allem die Geringverdiener hart.\nAnstatt Energie allgemein zu subventionieren könnte der Staat allen Bürgern gleichmäßig den Mindestbedarf an Energie subventionieren. Dadurch würden Geringverdiener entlastet, gleichzeitig die Marktmechanismen erhalten, die Sparsamkeit durch hohe Preise bewirken und die Energiekonzerne daran gehindert, die Subvention selbst einzustreichen.\n\nUm die Kosten dafür zu decken, kommen Steuererhöhungen oder (vor allem bei einer temporären Maßnahme) neue Staatsschulden infrage.",
+        "en": "The price increases for energy hit low-income earners especially hard.\nInstead of subsidising energy in general, the state could subsidise the minimum energy needs of all citizens equally. This would relieve low-income earners, while at the same time preserving the market mechanisms that bring about thrift through high prices and preventing the energy companies from pocketing the subsidy themselves.\n\nTo cover the costs of this, tax increases or (especially in the case of a temporary measure) new public debt are possible options.",
+        "fr": "Les hausses de prix de l'énergie touchent particulièrement les personnes à faible revenu.\nAu lieu de subventionner l'énergie de manière générale, l'État pourrait subventionner de manière égale les besoins énergétiques minimum de tous les citoyens. Cela soulagerait les personnes à faible revenu, tout en préservant les mécanismes du marché qui favorisent l'économie grâce à des prix élevés et en empêchant les sociétés énergétiques de s'approprier la subvention.\n\nPour couvrir les coûts, des augmentations d'impôts ou (surtout dans le cas d'une mesure temporaire) de nouvelles dettes publiques sont des options possibles.",
+        "ar": "تؤثر زيادات أسعار الطاقة بشكل خاص على المتردين الوضع الاقتصادي.\nبدلاً من دعم الطاقة بشكل عام، يمكن للدولة دعم الحد الأدنى من احتياجات الطاقة لجميع المواطنين بالتساوي. وسيؤدي ذلك إلى تخفيف العبء عن المتردين الوضع الاقتصادي، مع الحفاظ في الوقت نفسه على آليات السوق التي تجلب التوفير من خلال رفع الأسعار ومنع شركات الطاقة من الاستحواذ على الدعم.\n\nلتغطية تكاليف ذلك، هناك خيارات ممكنة مثل زيادة الضرائب أو (خاصة في حالة التدابير المؤقتة) الديون العامة الجديدة.",
+        "_azure/gpt-4o_sv": "Prisökningarna på energi drabbar framför allt låginkomsttagare hårt.\nIstället för att subventionera energi generellt skulle staten kunna subventionera det minsta energibehovet för alla medborgare lika. Detta skulle avlasta låginkomsttagare, samtidigt som marknadsmekanismerna som främjar sparsamhet genom höga priser bevaras och energibolagen hindras från att själva ta del av subventionen.\n\nFör att täcka kostnaderna för detta kan skattehöjningar eller (särskilt vid en tillfällig åtgärd) nya statsskulder vara möjliga alternativ.",
+        "_gcp/gemini-1.5-pro_sv": "Prisökningarna på energi drabbar framför allt låginkomsttagare hårt.\nIstället för att subventionera energi generellt skulle staten kunna subventionera alla medborgares minimibehov av energi lika. Det skulle avlasta låginkomsttagare, samtidigt som man behåller de marknadsmekanismer som leder till sparsamhet genom höga priser och hindrar energibolagen från att själva stoppa subventionerna i fickan.\n\nFör att täcka kostnaderna för detta kan skattehöjningar eller (särskilt vid en tillfällig åtgärd) nya statsskulder bli aktuella. \n",
+        "_compare_azure/gpt-4o_sv": "Prisökningarna på energi drabbar framför allt låginkomsttagare hårt. Istället för att subventionera energi generellt skulle staten kunna subventionera alla medborgares minimibehov av energi lika. Det skulle avlasta låginkomsttagare, samtidigt som man behåller de marknadsmekanismer som leder till sparsamhet genom höga priser och hindrar energibolagen från att själva stoppa subventionerna i fickan. För att täcka kostnaderna för detta kan skattehöjningar eller (särskilt vid en tillfällig åtgärd) nya statsskulder bli aktuella",
+        "_compare_gcp/gemini-1.5-pro_sv": "Prisökningarna på energi drabbar framför allt låginkomsttagare hårt. Istället för att subventionera energi generellt skulle staten kunna subventionera alla medborgares minimibehov av energi lika. Det skulle avlasta låginkomsttagare, samtidigt som man behåller de marknadsmekanismer som leder till sparsamhet genom höga priser och hindrar energibolagen från att själva stoppa subventionerna i fickan. För att täcka kostnaderna för detta kan skattehöjningar eller (särskilt vid en tillfällig åtgärd) nya statsskulder bli aktuella",
+        "_compare_aws/claude-3.5-sonnet_sv": "Prisökningarna på energi drabbar framför allt låginkomsttagare hårt. Istället för att subventionera energi generellt skulle staten kunna subventionera alla medborgares minimibehov av energi lika. Det skulle avlasta låginkomsttagare, samtidigt som man behåller de marknadsmekanismer som leder till sparsamhet genom höga priser och hindrar energibolagen från att själva stoppa subventionerna i fickan. För att täcka kostnaderna för detta kan skattehöjningar eller (särskilt vid en tillfällig åtgärd) nya statsskulder bli aktuella",
+        "_unique_translations_back_sv": [
+            "Die Preiserhöhungen für Energie treffen vor allem Geringverdiener hart. Anstatt Energie generell zu subventionieren, könnte der Staat den minimalen Energiebedarf aller Bürger gleichermaßen subventionieren. Dies würde Geringverdiener entlasten, während gleichzeitig die Marktmechanismen, die durch hohe Preise Sparsamkeit fördern, erhalten bleiben und die Energieunternehmen daran gehindert werden, die Subvention selbst zu kassieren. Um die Kosten dafür zu decken, könnten Steuererhöhungen oder (insbesondere bei einer vorübergehenden Maßnahme) neue Staatsschulden mögliche Alternativen sein",
+            "Die Preiserhöhungen für Energie treffen vor allem Geringverdiener hart. Anstatt Energie generell zu subventionieren, könnte der Staat die Mindestenergiebedürfnisse aller Bürger gleichermaßen subventionieren. Dies würde Geringverdiener entlasten, während gleichzeitig die Marktmechanismen erhalten bleiben, die durch hohe Preise zur Sparsamkeit führen und verhindern, dass die Energieunternehmen die Subventionen selbst einstecken. Um die Kosten dafür zu decken, könnten Steuererhöhungen oder (insbesondere bei einer vorübergehenden Maßnahme) neue Staatsschulden in Betracht gezogen werden"
+        ]
     },
-    {
-      "name": "level75",
-      "isDefault": false,
-      "uiStrings": {
-        "de": "75% des Grundbedarfs werden vom Staat bezahlt",
-        "en": "75% of the basic needs are paid by the state",
-        "fr": "75 % des besoins de base sont pris en charge par l'État",
-        "ar": "يدفع الدولة 75% من الاحتياجات الأساسية"
-      }
-    },
-    {
-      "name": "level100",
-      "isDefault": false,
-      "uiStrings": {
-        "de": "100% des Grundbedarfs werden vom Staat bezahlt",
-        "en": "100% of the basic needs are paid by the state",
-        "fr": "100 % des besoins de base sont pris en charge par l'État",
-        "ar": "يدفع الدولة 100% من الاحتياجات الأساسية"
-      }
-    },
-    {
-      "name": "nosubsidy",
-      "isDefault": true,
-      "uiStrings": {
-        "de": "Keine Subvention der Energiekosten",
-        "en": "No subsidy",
-        "fr": "Aucune subvention",
-        "ar": "لا دعم"
-      }
-    }
-  ]
+    "multipleChoice": false,
+    "choices": [
+        {
+            "name": "level25",
+            "isDefault": false,
+            "uiStrings": {
+                "de": "25% des Grundbedarfs werden vom Staat bezahlt",
+                "en": "25% of the basic needs are paid by the state",
+                "fr": "25 % des besoins de base sont pris en charge par l'État",
+                "ar": "يدفع الدولة 25% من الاحتياجات الأساسية",
+                "_azure/gpt-4o_sv": "25% av grundbehoven betalas av staten",
+                "_gcp/gemini-1.5-pro_sv": "25 % av basbehovet betalas av staten \n",
+                "_compare_azure/gpt-4o_sv": "25 % av basbehovet betalas av staten",
+                "_compare_gcp/gemini-1.5-pro_sv": "25 % av basbehovet betalas av staten",
+                "_compare_aws/claude-3.5-sonnet_sv": "25% av grundbehoven betalas av staten",
+                "_unique_translations_back_sv": [
+                    "25 % des Grundbedarfs werden vom Staat bezahlt",
+                    "25 % der Grundbedürfnisse werden vom Staat bezahlt"
+                ]
+            }
+        },
+        {
+            "name": "level50",
+            "isDefault": false,
+            "uiStrings": {
+                "de": "50% des Grundbedarfs werden vom Staat bezahlt",
+                "en": "50% of the basic needs are paid by the state",
+                "fr": "50 % des besoins de base sont pris en charge par l'État",
+                "ar": "يدفع الدولة 50% من الاحتياجات الأساسية",
+                "_azure/gpt-4o_sv": "50 % av grundbehoven betalas av staten",
+                "_gcp/gemini-1.5-pro_sv": "50 % av basbehovet betalas av staten \n",
+                "_compare_azure/gpt-4o_sv": "50 % av basbehovet betalas av staten",
+                "_compare_gcp/gemini-1.5-pro_sv": "50 % av grundbehoven betalas av staten",
+                "_compare_aws/claude-3.5-sonnet_sv": "50 % av basbehovet betalas av staten",
+                "_unique_translations_back_sv": [
+                    "50 % der Grundbedürfnisse werden vom Staat bezahlt",
+                    "50 % des Grundbedarfs werden vom Staat bezahlt"
+                ]
+            }
+        },
+        {
+            "name": "level75",
+            "isDefault": false,
+            "uiStrings": {
+                "de": "75% des Grundbedarfs werden vom Staat bezahlt",
+                "en": "75% of the basic needs are paid by the state",
+                "fr": "75 % des besoins de base sont pris en charge par l'État",
+                "ar": "يدفع الدولة 75% من الاحتياجات الأساسية",
+                "_azure/gpt-4o_sv": "75% av grundbehoven betalas av staten",
+                "_gcp/gemini-1.5-pro_sv": "75 % av basbehovet betalas av staten \n",
+                "_compare_azure/gpt-4o_sv": "75 % av basbehovet betalas av staten",
+                "_compare_gcp/gemini-1.5-pro_sv": "75 % av basbehovet betalas av staten",
+                "_compare_aws/claude-3.5-sonnet_sv": "75% av grundbehoven betalas av staten",
+                "_unique_translations_back_sv": [
+                    "75 % des Grundbedarfs werden vom Staat bezahlt",
+                    "75 % der Grundbedürfnisse werden vom Staat bezahlt"
+                ]
+            }
+        },
+        {
+            "name": "level100",
+            "isDefault": false,
+            "uiStrings": {
+                "de": "100% des Grundbedarfs werden vom Staat bezahlt",
+                "en": "100% of the basic needs are paid by the state",
+                "fr": "100 % des besoins de base sont pris en charge par l'État",
+                "ar": "يدفع الدولة 100% من الاحتياجات الأساسية",
+                "_azure/gpt-4o_sv": "100% av grundbehoven betalas av staten",
+                "_gcp/gemini-1.5-pro_sv": "Staten betalar 100 % av basbehovet \n",
+                "_compare_azure/gpt-4o_sv": "100% av grundbehoven betalas av staten",
+                "_compare_gcp/gemini-1.5-pro_sv": "100% av grundbehoven betalas av staten",
+                "_compare_aws/claude-3.5-sonnet_sv": "Staten betalar 100 % av basbehovet",
+                "_unique_translations_back_sv": [
+                    "100% der Grundbedürfnisse werden vom Staat bezahlt",
+                    "Der Staat zahlt 100 % des Grundbedarfs"
+                ]
+            }
+        },
+        {
+            "name": "nosubsidy",
+            "isDefault": true,
+            "uiStrings": {
+                "de": "Keine Subvention der Energiekosten",
+                "en": "No subsidy",
+                "fr": "Aucune subvention",
+                "ar": "لا دعم",
+                "_azure/gpt-4o_sv": "Ingen subvention av energikostnaderna",
+                "_gcp/gemini-1.5-pro_sv": "Inga subventioner av energikostnaderna \n",
+                "_compare_azure/gpt-4o_sv": "Ingen subvention av energikostnaderna",
+                "_compare_gcp/gemini-1.5-pro_sv": "Ingen subvention av energikostnaderna",
+                "_compare_aws/claude-3.5-sonnet_sv": "Ingen subvention av energikostnaderna",
+                "_unique_translations_back_sv": [
+                    "Keine Subvention der Energiekosten",
+                    "Keine Subventionen der Energiekosten"
+                ]
+            }
+        }
+    ]
 }

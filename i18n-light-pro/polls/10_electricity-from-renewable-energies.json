@@ -1,38 +1,73 @@
 {
-  "_id": "electricity-from-renewable-energies",
-  "heading": {
-    "de": "Abstimmung über die Umstellung auf 100% erneuerbare Stromerzeugung",
-    "en": "Vote on the switch to 100% renewable energy generation",
-    "fr": "",
-    "ar": ""
-  },
-  "description": {
-    "de": "Soll Strom ausschließlich aus erneuerbaren Energien erzeugt werden?\nBitte stimmen Sie über die folgenden politischen Maßnahmen ab, wie damit umzugehen ist:",
-    "en": "Should electricity be generated exclusively from renewable energies?\nPlease vote on the following policy measures on how to deal with this:",
-    "fr": "Should electricity be generated exclusively from renewable energies?\nPlease vote on the following policy measures on how to deal with this:",
-    "ar": "Should electricity be generated exclusively from renewable energies?\nPlease vote on the following policy measures on how to deal with this:"
-  },
-  "multipleChoice": false,
-  "choices": [
-    {
-      "name": "opt-1",
-      "isDefault": false,
-      "uiStrings": {
-        "de": "Keine politischen Maßnahmen.",
-        "en": "No policy measures.",
-        "fr": "No policy measures.",
-        "ar": "No policy measures."
-      }
+    "_id": "electricity-from-renewable-energies",
+    "heading": {
+        "de": "Abstimmung über die Umstellung auf 100% erneuerbare Stromerzeugung",
+        "en": "Vote on the switch to 100% renewable energy generation",
+        "fr": "",
+        "ar": "",
+        "_azure/gpt-4o_sv": "Omröstning om övergången till 100% förnybar elproduktion",
+        "_gcp/gemini-1.5-pro_sv": "Omröstning om övergång till 100 % förnybar elproduktion \n",
+        "_compare_azure/gpt-4o_sv": "Omröstning om övergång till 100 % förnybar elproduktion",
+        "_compare_gcp/gemini-1.5-pro_sv": "Omröstning om övergången till 100% förnybar elproduktion",
+        "_compare_aws/claude-3.5-sonnet_sv": "Omröstning om övergång till 100 % förnybar elproduktion",
+        "_unique_translations_back_sv": [
+            "Abstimmung über die Umstellung auf 100 % erneuerbare Stromerzeugung",
+            "Abstimmung über die Umstellung auf 100 % erneuerbare Stromerzeugung"
+        ]
     },
-    {
-      "name": "opt-2",
-      "isDefault": false,
-      "uiStrings": {
-        "de": "Strom darf nur noch aus erneuerbaren Energiequellen erzeugt werden.",
-        "en": "Electricity may only be generated from renewable energy sources.",
-        "fr": "Electricity may only be generated from renewable energy sources.",
-        "ar": "Electricity may only be generated from renewable energy sources."
-      }
-    }
-  ]
+    "description": {
+        "de": "Soll Strom ausschließlich aus erneuerbaren Energien erzeugt werden?\nBitte stimmen Sie über die folgenden politischen Maßnahmen ab, wie damit umzugehen ist:",
+        "en": "Should electricity be generated exclusively from renewable energies?\nPlease vote on the following policy measures on how to deal with this:",
+        "fr": "Should electricity be generated exclusively from renewable energies?\nPlease vote on the following policy measures on how to deal with this:",
+        "ar": "Should electricity be generated exclusively from renewable energies?\nPlease vote on the following policy measures on how to deal with this:",
+        "_azure/gpt-4o_sv": "Ska elektricitet genereras uteslutande från förnybara energikällor?\nVänligen rösta om följande politiska åtgärder för hur detta ska hanteras:",
+        "_gcp/gemini-1.5-pro_sv": "Bör el produceras enbart från förnybara energikällor?\nRösta på följande politiska åtgärder för hur man ska hantera detta: \n",
+        "_compare_azure/gpt-4o_sv": "Bör el produceras enbart från förnybara energikällor? Rösta på följande politiska åtgärder för hur man ska hantera detta:",
+        "_compare_gcp/gemini-1.5-pro_sv": "Bör el produceras enbart från förnybara energikällor? Rösta på följande politiska åtgärder för hur man ska hantera detta:",
+        "_compare_aws/claude-3.5-sonnet_sv": "Bör el produceras enbart från förnybara energikällor? Rösta på följande politiska åtgärder för hur man ska hantera detta:",
+        "_unique_translations_back_sv": [
+            "Soll Strom ausschließlich aus erneuerbaren Energiequellen erzeugt werden? Bitte stimmen Sie über die folgenden politischen Maßnahmen zum Umgang damit ab:",
+            "Sollte Strom ausschließlich aus erneuerbaren Energiequellen erzeugt werden? Bitte stimmen Sie über die folgenden politischen Maßnahmen ab, wie damit umgegangen werden soll:"
+        ]
+    },
+    "multipleChoice": false,
+    "choices": [
+        {
+            "name": "opt-1",
+            "isDefault": false,
+            "uiStrings": {
+                "de": "Keine politischen Maßnahmen.",
+                "en": "No policy measures.",
+                "fr": "No policy measures.",
+                "ar": "No policy measures.",
+                "_azure/gpt-4o_sv": "Inga politiska åtgärder.",
+                "_gcp/gemini-1.5-pro_sv": "Inga politiska åtgärder. \n",
+                "_compare_azure/gpt-4o_sv": "Inga politiska åtgärder",
+                "_compare_gcp/gemini-1.5-pro_sv": "Inga politiska åtgärder",
+                "_compare_aws/claude-3.5-sonnet_sv": "Inga politiska åtgärder",
+                "_unique_translations_back_sv": [
+                    "Keine politischen Maßnahmen"
+                ]
+            }
+        },
+        {
+            "name": "opt-2",
+            "isDefault": false,
+            "uiStrings": {
+                "de": "Strom darf nur noch aus erneuerbaren Energiequellen erzeugt werden.",
+                "en": "Electricity may only be generated from renewable energy sources.",
+                "fr": "Electricity may only be generated from renewable energy sources.",
+                "ar": "Electricity may only be generated from renewable energy sources.",
+                "_azure/gpt-4o_sv": "El kan endast genereras från förnybara energikällor.",
+                "_gcp/gemini-1.5-pro_sv": "El får endast produceras från förnybara energikällor. \n",
+                "_compare_azure/gpt-4o_sv": "El får endast produceras från förnybara energikällor",
+                "_compare_gcp/gemini-1.5-pro_sv": "El får endast produceras från förnybara energikällor",
+                "_compare_aws/claude-3.5-sonnet_sv": "El får endast produceras från förnybara energikällor",
+                "_unique_translations_back_sv": [
+                    "Strom darf nur aus erneuerbaren Energiequellen erzeugt werden",
+                    "Strom darf nur aus erneuerbaren Energiequellen erzeugt werden"
+                ]
+            }
+        }
+    ]
 }

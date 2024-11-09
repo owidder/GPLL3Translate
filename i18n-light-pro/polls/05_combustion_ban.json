@@ -1,78 +1,144 @@
 {
-  "_id" : "combustionban",
-  "heading" : {
-    "de" : "Abstimmung über ein Verbot des Verbrennungsmotors in PKW",
-    "en" : "Vote on a ban of the combustion engine in passenger cars",
-    "fr" : "Votez pour l'interdiction du moteur à combustion dans les voitures particulières",
-    "ar" : "تصويت بشأن حظر محرك الاحتراق الداخلي في سيارات الركاب"
-  },
-  "description" : {
-    "de" : "Eine wesentliche Quelle für Treibhausgasemissionen ist mit 20% der Verkehr durch das Verbrennen fossiler Treibstoffe wie Benzin, Diesel und Gas.\n\nEin Verbot von PKW mit Verbrennungsmotoren, die ca. 60% Anteil an den Emissionen des Verkehrssektors haben, würde die Emissionen bereits vor Inkrafttreten erheblich reduzieren, weil alle Autohersteller ihre Flotte schon vorher schrittweise umstellen müssten.\n\n",
-    "en" : "A major source of greenhouse gas emissions, accounting for 20%, is transport through the burning of fossil fuels such as petrol, diesel and gas.\n\nA ban on passenger cars with combustion engines, which account for about 60% of transport sector emissions, would reduce emissions significantly even before it comes into force, because all car manufacturers would have to gradually convert their fleets before then.\n\n",
-    "fr" : "Une source majeure d'émissions de gaz à effet de serre, représentant 20 %, est le transport par la combustion de combustibles fossiles tels que l'essence, le diesel et le gaz.\n\nUne interdiction des voitures particulières équipées de moteurs à combustion, qui représentent environ 60 % des émissions du secteur des transports, réduirait considérablement les émissions même avant son entrée en vigueur, car tous les constructeurs automobiles devraient convertir progressivement leur flotte avant cette date.\n\n",
-    "ar" : "إحدى المصادر الرئيسية لانبعاثات غازات الاحتباس الحراري، والتي تشكل 20%، هي النقل عن طريق حرق الوقود الأحفوري مثل البنزين والديزل والغاز.\n\nسيؤدي حظر السيارات الركاب المزودة بمحركات الاحتراق، والتي تمثل حوالي 60% من انبعاثات قطاع النقل، إلى تقليل الانبعاثات بشكل كبير حتى قبل البدء في تنفيذ الحظر، لأن جميع شركات صناعة السيارات ستضطر إلى تحويل أسطولها تدريجيًا قبل ذلك الحين.\n\n"
-  },
-  "multipleChoice" : false,
-  "choices" : [
-    {
-      "name" : "Noban",
-      "isDefault" : true,
-      "uiStrings" : {
-        "de" : "Kein Verbot",
-        "en" : "No ban",
-        "fr" : "Pas d'interdiction",
-        "ar" : "لا حظر"
-      }
+    "_id": "combustionban",
+    "heading": {
+        "de": "Abstimmung über ein Verbot des Verbrennungsmotors in PKW",
+        "en": "Vote on a ban of the combustion engine in passenger cars",
+        "fr": "Votez pour l'interdiction du moteur à combustion dans les voitures particulières",
+        "ar": "تصويت بشأن حظر محرك الاحتراق الداخلي في سيارات الركاب",
+        "_azure/gpt-4o_sv": "Omröstning om ett förbud mot förbränningsmotorer i personbilar",
+        "_gcp/gemini-1.5-pro_sv": "Omröstning om förbud mot förbränningsmotorer i personbilar \n",
+        "_compare_azure/gpt-4o_sv": "Omröstning om ett förbud mot förbränningsmotorer i personbilar",
+        "_compare_gcp/gemini-1.5-pro_sv": "Omröstning om ett förbud mot förbränningsmotorer i personbilar",
+        "_compare_aws/claude-3.5-sonnet_sv": "Omröstning om ett förbud mot förbränningsmotorer i personbilar",
+        "_unique_translations_back_sv": [
+            "Abstimmung über ein Verbot von Verbrennungsmotoren in Personenkraftwagen",
+            "Abstimmung über ein Verbot von Verbrennungsmotoren in Personenkraftwagen"
+        ]
     },
-    {
-      "name" : "Ban2025",
-      "isDefault" : false,
-      "uiStrings" : {
-        "de" : "Verbot ab 2025",
-        "en" : "Ban from 2025",
-        "fr" : "Interdiction à partir de 2025",
-        "ar" : "حظر اعتبارًا من 2025"
-      }
+    "description": {
+        "de": "Eine wesentliche Quelle für Treibhausgasemissionen ist mit 20% der Verkehr durch das Verbrennen fossiler Treibstoffe wie Benzin, Diesel und Gas.\n\nEin Verbot von PKW mit Verbrennungsmotoren, die ca. 60% Anteil an den Emissionen des Verkehrssektors haben, würde die Emissionen bereits vor Inkrafttreten erheblich reduzieren, weil alle Autohersteller ihre Flotte schon vorher schrittweise umstellen müssten.\n\n",
+        "en": "A major source of greenhouse gas emissions, accounting for 20%, is transport through the burning of fossil fuels such as petrol, diesel and gas.\n\nA ban on passenger cars with combustion engines, which account for about 60% of transport sector emissions, would reduce emissions significantly even before it comes into force, because all car manufacturers would have to gradually convert their fleets before then.\n\n",
+        "fr": "Une source majeure d'émissions de gaz à effet de serre, représentant 20 %, est le transport par la combustion de combustibles fossiles tels que l'essence, le diesel et le gaz.\n\nUne interdiction des voitures particulières équipées de moteurs à combustion, qui représentent environ 60 % des émissions du secteur des transports, réduirait considérablement les émissions même avant son entrée en vigueur, car tous les constructeurs automobiles devraient convertir progressivement leur flotte avant cette date.\n\n",
+        "ar": "إحدى المصادر الرئيسية لانبعاثات غازات الاحتباس الحراري، والتي تشكل 20%، هي النقل عن طريق حرق الوقود الأحفوري مثل البنزين والديزل والغاز.\n\nسيؤدي حظر السيارات الركاب المزودة بمحركات الاحتراق، والتي تمثل حوالي 60% من انبعاثات قطاع النقل، إلى تقليل الانبعاثات بشكل كبير حتى قبل البدء في تنفيذ الحظر، لأن جميع شركات صناعة السيارات ستضطر إلى تحويل أسطولها تدريجيًا قبل ذلك الحين.\n\n",
+        "_azure/gpt-4o_sv": "En väsentlig källa till växthusgasutsläpp är med 20% transport genom förbränning av fossila bränslen som bensin, diesel och gas.\n\nEtt förbud mot personbilar med förbränningsmotorer, som står för cirka 60% av transportsektorns utsläpp, skulle minska utsläppen avsevärt redan innan det träder i kraft, eftersom alla biltillverkare skulle behöva gradvis omvandla sina flottor innan dess.",
+        "_gcp/gemini-1.5-pro_sv": "En betydande källa till utsläpp av växthusgaser är trafiken, som står för 20 %, genom förbränning av fossila bränslen som bensin, diesel och gas.\n\nEtt förbud mot personbilar med förbränningsmotorer, som står för cirka 60 % av utsläppen inom transportsektorn, skulle minska utsläppen avsevärt redan innan det träder i kraft, eftersom alla biltillverkare skulle behöva ställa om sina flottor gradvis i förväg. \n",
+        "_compare_azure/gpt-4o_sv": "En betydande källa till utsläpp av växthusgaser är trafiken, som står för 20 %, genom förbränning av fossila bränslen som bensin, diesel och gas. Ett förbud mot personbilar med förbränningsmotorer, som står för cirka 60 % av utsläppen inom transportsektorn, skulle minska utsläppen avsevärt redan innan det träder i kraft, eftersom alla biltillverkare skulle behöva ställa om sina flottor gradvis i förväg",
+        "_compare_gcp/gemini-1.5-pro_sv": "En betydande källa till utsläpp av växthusgaser är trafiken, som står för 20 %, genom förbränning av fossila bränslen som bensin, diesel och gas. Ett förbud mot personbilar med förbränningsmotorer, som står för cirka 60 % av utsläppen inom transportsektorn, skulle minska utsläppen avsevärt redan innan det träder i kraft, eftersom alla biltillverkare skulle behöva ställa om sina flottor gradvis i förväg",
+        "_compare_aws/claude-3.5-sonnet_sv": "En väsentlig källa till växthusgasutsläpp är med 20% transport genom förbränning av fossila bränslen som bensin, diesel och gas. Ett förbud mot personbilar med förbränningsmotorer, som står för cirka 60% av transportsektorns utsläpp, skulle minska utsläppen avsevärt redan innan det träder i kraft, eftersom alla biltillverkare skulle behöva gradvis omvandla sina flottor innan dess",
+        "_unique_translations_back_sv": [
+            "Eine bedeutende Quelle für Treibhausgasemissionen ist der Verkehr, der 20 % ausmacht, durch die Verbrennung fossiler Brennstoffe wie Benzin, Diesel und Gas. Ein Verbot von Personenkraftwagen mit Verbrennungsmotoren, die etwa 60 % der Emissionen im Verkehrssektor ausmachen, würde die Emissionen bereits vor Inkrafttreten erheblich reduzieren, da alle Autohersteller ihre Flotten schrittweise im Voraus umstellen müssten",
+            "Eine wesentliche Quelle der Treibhausgasemissionen ist mit 20% der Transport durch die Verbrennung fossiler Brennstoffe wie Benzin, Diesel und Gas. Ein Verbot von Personenkraftwagen mit Verbrennungsmotoren, die etwa 60% der Emissionen des Transportsektors ausmachen, würde die Emissionen bereits vor Inkrafttreten erheblich reduzieren, da alle Autohersteller ihre Flotten schrittweise umstellen müssten"
+        ]
     },
-    {
-      "name" : "Ban2030",
-      "isDefault" : false,
-      "uiStrings" : {
-        "de" : "Verbot ab 2030",
-        "en" : "Ban from 2030",
-        "fr" : "Interdiction à partir de 2030",
-        "ar" : "حظر اعتبارًا من 2030"
-      }
-    },
-    {
-      "name" : "Ban2035",
-      "isDefault" : false,
-      "uiStrings" : {
-        "de" : "Verbot ab 2035",
-        "en" : "Ban from 2035",
-        "fr" : "Interdiction à partir de 2035",
-        "ar" : "حظر اعتبارًا من 2035"
-      }
-    },
-    {
-      "name" : "Ban2040",
-      "isDefault" : false,
-      "uiStrings" : {
-        "de" : "Verbot ab 2040",
-        "en" : "Ban from 2040",
-        "fr" : "Interdiction à partir de 2040",
-        "ar" : "حظر اعتبارًا من 2040"
-      }
-    },
-    {
-      "name" : "Ban2045",
-      "isDefault" : false,
-      "uiStrings" : {
-        "de" : "Verbot ab 2045",
-        "en" : "Ban from 2045",
-        "fr" : "Interdiction à partir de 2045",
-        "ar" : "حظر اعتبارًا من 2045"
-      }
-    }
-  ]
+    "multipleChoice": false,
+    "choices": [
+        {
+            "name": "Noban",
+            "isDefault": true,
+            "uiStrings": {
+                "de": "Kein Verbot",
+                "en": "No ban",
+                "fr": "Pas d'interdiction",
+                "ar": "لا حظر",
+                "_azure/gpt-4o_sv": "Inget förbud",
+                "_gcp/gemini-1.5-pro_sv": "Inget förbud \n",
+                "_compare_azure/gpt-4o_sv": "Inget förbud",
+                "_compare_gcp/gemini-1.5-pro_sv": "Inget förbud",
+                "_compare_aws/claude-3.5-sonnet_sv": "Inget förbud",
+                "_unique_translations_back_sv": [
+                    "Kein Verbot"
+                ]
+            }
+        },
+        {
+            "name": "Ban2025",
+            "isDefault": false,
+            "uiStrings": {
+                "de": "Verbot ab 2025",
+                "en": "Ban from 2025",
+                "fr": "Interdiction à partir de 2025",
+                "ar": "حظر اعتبارًا من 2025",
+                "_azure/gpt-4o_sv": "Förbud från 2025",
+                "_gcp/gemini-1.5-pro_sv": "Förbud från 2025\n",
+                "_compare_azure/gpt-4o_sv": "Förbud från 2025",
+                "_compare_gcp/gemini-1.5-pro_sv": "Förbud från 2025",
+                "_compare_aws/claude-3.5-sonnet_sv": "Förbud från 2025",
+                "_unique_translations_back_sv": [
+                    "Verbot ab 2025"
+                ]
+            }
+        },
+        {
+            "name": "Ban2030",
+            "isDefault": false,
+            "uiStrings": {
+                "de": "Verbot ab 2030",
+                "en": "Ban from 2030",
+                "fr": "Interdiction à partir de 2030",
+                "ar": "حظر اعتبارًا من 2030",
+                "_azure/gpt-4o_sv": "Förbud från 2030",
+                "_gcp/gemini-1.5-pro_sv": "Förbud från 2030\n",
+                "_compare_azure/gpt-4o_sv": "Förbud från 2030",
+                "_compare_gcp/gemini-1.5-pro_sv": "Förbud från 2030",
+                "_compare_aws/claude-3.5-sonnet_sv": "Förbud från 2030",
+                "_unique_translations_back_sv": [
+                    "Verbot ab 2030"
+                ]
+            }
+        },
+        {
+            "name": "Ban2035",
+            "isDefault": false,
+            "uiStrings": {
+                "de": "Verbot ab 2035",
+                "en": "Ban from 2035",
+                "fr": "Interdiction à partir de 2035",
+                "ar": "حظر اعتبارًا من 2035",
+                "_azure/gpt-4o_sv": "Förbud från 2035",
+                "_gcp/gemini-1.5-pro_sv": "Förbud från 2035 \n",
+                "_compare_azure/gpt-4o_sv": "Förbud från 2035",
+                "_compare_gcp/gemini-1.5-pro_sv": "Förbud från 2035",
+                "_compare_aws/claude-3.5-sonnet_sv": "Förbud från 2035",
+                "_unique_translations_back_sv": [
+                    "Verbot ab 2035"
+                ]
+            }
+        },
+        {
+            "name": "Ban2040",
+            "isDefault": false,
+            "uiStrings": {
+                "de": "Verbot ab 2040",
+                "en": "Ban from 2040",
+                "fr": "Interdiction à partir de 2040",
+                "ar": "حظر اعتبارًا من 2040",
+                "_azure/gpt-4o_sv": "Förbud från 2040",
+                "_gcp/gemini-1.5-pro_sv": "Förbud från 2040\n",
+                "_compare_azure/gpt-4o_sv": "Förbud från 2040",
+                "_compare_gcp/gemini-1.5-pro_sv": "Förbud från 2040",
+                "_compare_aws/claude-3.5-sonnet_sv": "Förbud från 2040",
+                "_unique_translations_back_sv": [
+                    "Verbot ab 2040"
+                ]
+            }
+        },
+        {
+            "name": "Ban2045",
+            "isDefault": false,
+            "uiStrings": {
+                "de": "Verbot ab 2045",
+                "en": "Ban from 2045",
+                "fr": "Interdiction à partir de 2045",
+                "ar": "حظر اعتبارًا من 2045",
+                "_azure/gpt-4o_sv": "Förbud från 2045",
+                "_gcp/gemini-1.5-pro_sv": "Förbud från 2045 \n",
+                "_compare_azure/gpt-4o_sv": "Förbud från 2045",
+                "_compare_gcp/gemini-1.5-pro_sv": "Förbud från 2045",
+                "_compare_aws/claude-3.5-sonnet_sv": "Förbud från 2045",
+                "_unique_translations_back_sv": [
+                    "Verbot ab 2045"
+                ]
+            }
+        }
+    ]
 }

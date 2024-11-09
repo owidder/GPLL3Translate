@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <style>
+        @page {
+            size: A4 landscape;
+        }
+    </style>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-family: verdana, serif;
+            font-size:12px;
+            border: 1px solid white;
+            transform-origin: top left;
+        }
+        th, td {
+            border-bottom:3px solid white;
+            border-right:3px solid white;
+            padding: 15px;
+            text-align: left;
+        }
+        th {
+            background-color: darkgray;
+        }
+        td {
+            background-color: lightgray;
+        }
+        .endtd {
+            border-right: 3px solid darkgray;
+        }
+        .translate {
+            background-color: lightblue;
+        }
+        .back-translate {
+            background-color: lightgrey;
+        }
+        .winner {
+            background-color: lightpink;
+        }
+        .compare {
+            background-color: lightsteelblue;
+        }
+        .source {
+            background-color: palegoldenrod;
+        }
+        .empty {
+            background-color: lightgrey;
+        }
+        .sources {
+            font-weight: bold;
+            font-size: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>11_meat-phase-out.json</h1>
+    <table>
+        <thead>
+            <tr>
+                
+                    <th>source text</th>
+                
+                    <th>--- 0 ---</th>
+                
+                    <th></th>
+                
+                    <th>--- 1 ---</th>
+                
+                    <th></th>
+                
+                    <th>azure/gpt-4o</th>
+                
+                    <th>gcp/gemini-1.5-pro</th>
+                
+                    <th>aws/claude-3.5-sonnet</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            
+                <tr>
+                    <td class="endtd source">Verbot von Fleischkonsum</td>
+
+
+                    <td class="winner">Förbud mot köttkonsumtion<br><span class="sources">azure/gpt-4o, gcp/gemini-1.5-pro</span></td>
+                    <td class="back-translate"><span style = 'color: black;'>  Verbot</span> <span style = 'color: red; font-weight: bold;'> des</span> <span style = 'color: red; font-weight: bold;'> Fleischkonsums</span></td>
+
+
+
+                    <td class="empty"></td>
+                    <td class="empty"></td>
+
+
+
+                    <td class="compare">1</td>
+
+                    <td class="compare">1</td>
+
+                    <td class="compare">1</td>
+
+                </tr>
+            
+                <tr>
+                    <td class="endtd source">Bitte stimmen Sie über ein Verbot der Produktion von Fleischprodukten für den menschlichen Verzehr ab.
+Mit einem Anteil von rund 15 Prozent trägt die Nutztierhaltung signifikant zu den globalen vom Menschen verursachten Treibhausgasemissionen bei. Ihr Anteil ist damit fast genauso groß wie der des weltweiten Verkehrs.
+60% der Anbaufläche wird für Tierfutter verbraucht, mit riesigen Umweltschäden.
+Der häufige Verzehr von Fleisch wird auch mit zahlreichen Gesundheitsrisiken in Verbindung gebracht.
+Wie soll in Zukunft mit der Fleischproduktion umgegangen werden?</td>
+
+
+                    <td class="winner"><span style = 'color: red; font-weight: bold;'> Vänligen</span> <span style = 'color: red; font-weight: bold;'> rösta</span> <span style = 'color: red; font-weight: bold;'> om</span> <span style = 'color: black;'>  ett</span> <span style = 'color: black;'>  förbud</span> <span style = 'color: black;'>  mot</span> <span style = 'color: black;'>  produktion</span> <span style = 'color: black;'>  av</span> <span style = 'color: black;'>  köttprodukter</span> <span style = 'color: black;'>  för</span> <span style = 'color: black;'>  mänsklig</span> <span style = 'color: black;'>  konsumtion.</span> <span style = 'color: black;'>  Med</span> <span style = 'color: black;'>  en</span> <span style = 'color: black;'>  andel</span> <span style = 'color: black;'>  på</span> <span style = 'color: black;'>  cirka</span> <span style = 'color: black;'>  15</span> <span style = 'color: black;'>  procent</span> <span style = 'color: black;'>  bidrar</span> <span style = 'color: red; font-weight: bold;'> djurhållning</span> <span style = 'color: red; font-weight: bold;'> signifikant</span> <span style = 'color: black;'>  till</span> <span style = 'color: black;'>  de</span> <span style = 'color: black;'>  globala</span> <span style = 'color: red; font-weight: bold;'> växthusgasutsläppen</span> <span style = 'color: red; font-weight: bold;'> orsakade</span> <span style = 'color: black;'>  av</span> <span style = 'color: black;'>  människor.</span> <span style = 'color: black;'>  Dess</span> <span style = 'color: black;'>  andel</span> <span style = 'color: black;'>  är</span> <span style = 'color: red; font-weight: bold;'> därför</span> <span style = 'color: black;'>  nästan</span> <span style = 'color: black;'>  lika</span> <span style = 'color: black;'>  stor</span> <span style = 'color: black;'>  som</span> <span style = 'color: black;'>  den</span> <span style = 'color: black;'>  globala</span> <span style = 'color: red; font-weight: bold;'> transportens.</span> <span style = 'color: black;'>  60%</span> <span style = 'color: black;'>  av</span> <span style = 'color: red; font-weight: bold;'> odlingsmarken</span> <span style = 'color: black;'>  används</span> <span style = 'color: red; font-weight: bold;'> för</span> <span style = 'color: black;'>  djurfoder,</span> <span style = 'color: black;'>  vilket</span> <span style = 'color: black;'>  orsakar</span> <span style = 'color: black;'>  enorma</span> <span style = 'color: black;'>  miljöskador.</span> <span style = 'color: red; font-weight: bold;'> Den</span> <span style = 'color: red; font-weight: bold;'> frekventa</span> <span style = 'color: red; font-weight: bold;'> konsumtionen</span> <span style = 'color: red; font-weight: bold;'> av</span> <span style = 'color: red; font-weight: bold;'> kött</span> <span style = 'color: black;'>  är</span> <span style = 'color: black;'>  också</span> <span style = 'color: red; font-weight: bold;'> förknippad</span> <span style = 'color: black;'>  med</span> <span style = 'color: black;'>  många</span> <span style = 'color: black;'>  hälsorisker.</span> <span style = 'color: black;'>  Hur</span> <span style = 'color: black;'>  ska</span> <span style = 'color: black;'>  köttproduktionen</span> <span style = 'color: black;'>  hanteras</span> <span style = 'color: black;'>  i</span> <span style = 'color: black;'>  framtiden?</span><br><span class="sources">azure/gpt-4o</span></td>
+                    <td class="back-translate"><span style = 'color: black;'>  Bitte</span> <span style = 'color: black;'>  stimmen</span> <span style = 'color: black;'>  Sie</span> <span style = 'color: black;'>  über</span> <span style = 'color: black;'>  ein</span> <span style = 'color: black;'>  Verbot</span> <span style = 'color: black;'>  der</span> <span style = 'color: black;'>  Produktion</span> <span style = 'color: black;'>  von</span> <span style = 'color: black;'>  Fleischprodukten</span> <span style = 'color: black;'>  für</span> <span style = 'color: black;'>  den</span> <span style = 'color: black;'>  menschlichen</span> <span style = 'color: black;'>  Verzehr</span> <span style = 'color: black;'>  ab.</span> <span style = 'color: black;'>  Mit</span> <span style = 'color: black;'>  einem</span> <span style = 'color: black;'>  Anteil</span> <span style = 'color: black;'>  von</span> <span style = 'color: red; font-weight: bold;'> etwa</span> <span style = 'color: black;'>  15</span> <span style = 'color: black;'>  Prozent</span> <span style = 'color: black;'>  trägt</span> <span style = 'color: black;'>  die</span> <span style = 'color: red; font-weight: bold;'> Tierhaltung</span> <span style = 'color: red; font-weight: bold;'> erheblich</span> <span style = 'color: black;'>  zu</span> <span style = 'color: black;'>  den</span> <span style = 'color: black;'>  vom</span> <span style = 'color: black;'>  Menschen</span> <span style = 'color: black;'>  verursachten</span> <span style = 'color: red; font-weight: bold;'> globalen</span> <span style = 'color: black;'>  Treibhausgasemissionen</span> <span style = 'color: black;'>  bei.</span> <span style = 'color: black;'>  Ihr</span> <span style = 'color: black;'>  Anteil</span> <span style = 'color: black;'>  ist</span> <span style = 'color: black;'>  damit</span> <span style = 'color: black;'>  fast</span> <span style = 'color: red; font-weight: bold;'> so</span> <span style = 'color: black;'>  groß</span> <span style = 'color: black;'>  wie</span> <span style = 'color: black;'>  der</span> <span style = 'color: black;'>  des</span> <span style = 'color: red; font-weight: bold;'> globalen</span> <span style = 'color: black;'>  Verkehrs.</span> <span style = 'color: black;'>  60%</span> <span style = 'color: black;'>  der</span> <span style = 'color: red; font-weight: bold;'> Ackerflächen</span> <span style = 'color: red; font-weight: bold;'> werden</span> <span style = 'color: black;'>  für</span> <span style = 'color: black;'>  Tierfutter</span> <span style = 'color: red; font-weight: bold;'> genutzt,</span> <span style = 'color: red; font-weight: bold;'> was</span> <span style = 'color: red; font-weight: bold;'> enorme</span> <span style = 'color: red; font-weight: bold;'> Umweltschäden</span> <span style = 'color: red; font-weight: bold;'> verursacht.</span> <span style = 'color: black;'>  Der</span> <span style = 'color: black;'>  häufige</span> <span style = 'color: black;'>  Verzehr</span> <span style = 'color: black;'>  von</span> <span style = 'color: black;'>  Fleisch</span> <span style = 'color: red; font-weight: bold;'> ist</span> <span style = 'color: red; font-weight: bold;'> zudem</span> <span style = 'color: black;'>  mit</span> <span style = 'color: black;'>  zahlreichen</span> <span style = 'color: black;'>  Gesundheitsrisiken</span> <span style = 'color: red; font-weight: bold;'> verbunden.</span> <span style = 'color: black;'>  Wie</span> <span style = 'color: black;'>  soll</span> <span style = 'color: black;'>  in</span> <span style = 'color: black;'>  Zukunft</span> <span style = 'color: black;'>  mit</span> <span style = 'color: black;'>  der</span> <span style = 'color: black;'>  Fleischproduktion</span> <span style = 'color: black;'>  umgegangen</span> <span style = 'color: black;'>  werden?</span></td>
+
+
+
+                    <td class="translate"><span style = 'color: red; font-weight: bold;'> Rosta</span> <span style = 'color: red; font-weight: bold;'> på</span> <span style = 'color: black;'>  ett</span> <span style = 'color: black;'>  förbud</span> <span style = 'color: black;'>  mot</span> <span style = 'color: black;'>  produktion</span> <span style = 'color: black;'>  av</span> <span style = 'color: black;'>  köttprodukter</span> <span style = 'color: black;'>  för</span> <span style = 'color: black;'>  mänsklig</span> <span style = 'color: black;'>  konsumtion.</span> <span style = 'color: black;'>  Med</span> <span style = 'color: black;'>  en</span> <span style = 'color: black;'>  andel</span> <span style = 'color: black;'>  på</span> <span style = 'color: black;'>  cirka</span> <span style = 'color: black;'>  15</span> <span style = 'color: black;'>  procent</span> <span style = 'color: black;'>  bidrar</span> <span style = 'color: red; font-weight: bold;'> animalieproduktionen</span> <span style = 'color: red; font-weight: bold;'> avsevärt</span> <span style = 'color: black;'>  till</span> <span style = 'color: black;'>  de</span> <span style = 'color: black;'>  globala</span> <span style = 'color: red; font-weight: bold;'> utsläppen</span> <span style = 'color: red; font-weight: bold;'> av</span> <span style = 'color: red; font-weight: bold;'> växthusgaser</span> <span style = 'color: red; font-weight: bold;'> som</span> <span style = 'color: red; font-weight: bold;'> orsakas</span> <span style = 'color: black;'>  av</span> <span style = 'color: black;'>  människor.</span> <span style = 'color: black;'>  Dess</span> <span style = 'color: black;'>  andel</span> <span style = 'color: black;'>  är</span> <span style = 'color: red; font-weight: bold;'> därmed</span> <span style = 'color: black;'>  nästan</span> <span style = 'color: black;'>  lika</span> <span style = 'color: black;'>  stor</span> <span style = 'color: black;'>  som</span> <span style = 'color: black;'>  den</span> <span style = 'color: black;'>  globala</span> <span style = 'color: red; font-weight: bold;'> trafiken.</span> <span style = 'color: black;'>  60%</span> <span style = 'color: black;'>  av</span> <span style = 'color: red; font-weight: bold;'> den</span> <span style = 'color: red; font-weight: bold;'> odlingsbara</span> <span style = 'color: red; font-weight: bold;'> marken</span> <span style = 'color: black;'>  används</span> <span style = 'color: red; font-weight: bold;'> till</span> <span style = 'color: black;'>  djurfoder,</span> <span style = 'color: black;'>  vilket</span> <span style = 'color: black;'>  orsakar</span> <span style = 'color: black;'>  enorma</span> <span style = 'color: black;'>  miljöskador.</span> <span style = 'color: red; font-weight: bold;'> Frekvent</span> <span style = 'color: red; font-weight: bold;'> köttkonsumtion</span> <span style = 'color: black;'>  är</span> <span style = 'color: black;'>  också</span> <span style = 'color: red; font-weight: bold;'> förknippat</span> <span style = 'color: black;'>  med</span> <span style = 'color: black;'>  många</span> <span style = 'color: black;'>  hälsorisker.</span> <span style = 'color: black;'>  Hur</span> <span style = 'color: black;'>  ska</span> <span style = 'color: black;'>  köttproduktionen</span> <span style = 'color: black;'>  hanteras</span> <span style = 'color: black;'>  i</span> <span style = 'color: black;'>  framtiden?</span><br><span class="sources">gcp/gemini-1.5-pro</span></td>
+                    <td class="back-translate"><span style = 'color: black;'>  Bitte</span> <span style = 'color: black;'>  stimmen</span> <span style = 'color: black;'>  Sie</span> <span style = 'color: black;'>  über</span> <span style = 'color: black;'>  ein</span> <span style = 'color: black;'>  Verbot</span> <span style = 'color: black;'>  der</span> <span style = 'color: black;'>  Produktion</span> <span style = 'color: black;'>  von</span> <span style = 'color: black;'>  Fleischprodukten</span> <span style = 'color: black;'>  für</span> <span style = 'color: black;'>  den</span> <span style = 'color: black;'>  menschlichen</span> <span style = 'color: black;'>  Verzehr</span> <span style = 'color: black;'>  ab.</span> <span style = 'color: black;'>  Mit</span> <span style = 'color: black;'>  einem</span> <span style = 'color: black;'>  Anteil</span> <span style = 'color: black;'>  von</span> <span style = 'color: black;'>  rund</span> <span style = 'color: black;'>  15</span> <span style = 'color: black;'>  Prozent</span> <span style = 'color: black;'>  trägt</span> <span style = 'color: black;'>  die</span> <span style = 'color: red; font-weight: bold;'> Tierhaltung</span> <span style = 'color: red; font-weight: bold;'> erheblich</span> <span style = 'color: black;'>  zu</span> <span style = 'color: black;'>  den</span> <span style = 'color: red; font-weight: bold;'> globalen,</span> <span style = 'color: red; font-weight: bold;'> durch</span> <span style = 'color: red; font-weight: bold;'> den</span> <span style = 'color: black;'>  Menschen</span> <span style = 'color: black;'>  verursachten</span> <span style = 'color: black;'>  Treibhausgasemissionen</span> <span style = 'color: black;'>  bei.</span> <span style = 'color: black;'>  Ihr</span> <span style = 'color: black;'>  Anteil</span> <span style = 'color: black;'>  ist</span> <span style = 'color: black;'>  damit</span> <span style = 'color: black;'>  fast</span> <span style = 'color: black;'>  genauso</span> <span style = 'color: red; font-weight: bold;'> hoch</span> <span style = 'color: black;'>  wie</span> <span style = 'color: black;'>  der</span> <span style = 'color: black;'>  des</span> <span style = 'color: black;'>  weltweiten</span> <span style = 'color: black;'>  Verkehrs.</span> <span style = 'color: red; font-weight: bold;'> 60</span> <span style = 'color: red; font-weight: bold;'> %</span> <span style = 'color: black;'>  der</span> <span style = 'color: red; font-weight: bold;'> Ackerflächen</span> <span style = 'color: red; font-weight: bold;'> werden</span> <span style = 'color: black;'>  für</span> <span style = 'color: black;'>  Tierfutter</span> <span style = 'color: red; font-weight: bold;'> verwendet,</span> <span style = 'color: red; font-weight: bold;'> was</span> <span style = 'color: red; font-weight: bold;'> enorme</span> <span style = 'color: red; font-weight: bold;'> Umweltschäden</span> <span style = 'color: red; font-weight: bold;'> verursacht.</span> <span style = 'color: black;'>  Der</span> <span style = 'color: black;'>  häufige</span> <span style = 'color: black;'>  Verzehr</span> <span style = 'color: black;'>  von</span> <span style = 'color: black;'>  Fleisch</span> <span style = 'color: red; font-weight: bold;'> ist</span> <span style = 'color: red; font-weight: bold;'> zudem</span> <span style = 'color: black;'>  mit</span> <span style = 'color: black;'>  zahlreichen</span> <span style = 'color: black;'>  Gesundheitsrisiken</span> <span style = 'color: red; font-weight: bold;'> verbunden.</span> <span style = 'color: black;'>  Wie</span> <span style = 'color: black;'>  soll</span> <span style = 'color: black;'>  mit</span> <span style = 'color: black;'>  der</span> <span style = 'color: black;'>  Fleischproduktion</span> <span style = 'color: red; font-weight: bold;'> in</span> <span style = 'color: red; font-weight: bold;'> Zukunft</span> <span style = 'color: black;'>  umgegangen</span> <span style = 'color: black;'>  werden?</span></td>
+
+
+
+                    <td class="compare">1</td>
+
+                    <td class="compare">1</td>
+
+                    <td class="compare">1</td>
+
+                </tr>
+            
+                <tr>
+                    <td class="endtd source">Fleischkonsum bis 2050 verbieten</td>
+
+
+                    <td class="translate"><span style = 'color: red; font-weight: bold;'> Förbjud</span> <span style = 'color: black;'>  köttkonsumtion</span> <span style = 'color: black;'>  till</span> <span style = 'color: black;'>  2050</span><br><span class="sources">azure/gpt-4o</span></td>
+                    <td class="back-translate"><span style = 'color: red; font-weight: bold;'> Verbot</span> <span style = 'color: red; font-weight: bold;'> des</span> <span style = 'color: red; font-weight: bold;'> Fleischkonsums</span> <span style = 'color: black;'>  bis</span> <span style = 'color: black;'>  2050</span></td>
+
+
+
+                    <td class="winner"><span style = 'color: red; font-weight: bold;'> Förbjuda</span> <span style = 'color: black;'>  köttkonsumtion</span> <span style = 'color: black;'>  till</span> <span style = 'color: black;'>  2050</span><br><span class="sources">gcp/gemini-1.5-pro</span></td>
+                    <td class="back-translate"><span style = 'color: black;'>  Fleischkonsum</span> <span style = 'color: black;'>  bis</span> <span style = 'color: black;'>  2050</span> <span style = 'color: black;'>  verbieten</span></td>
+
+
+
+                    <td class="compare">2</td>
+
+                    <td class="compare">2</td>
+
+                    <td class="compare">1</td>
+
+                </tr>
+            
+                <tr>
+                    <td class="endtd source">Die Kosten für Fleischkonsum deutlich erhöhen</td>
+
+
+                    <td class="translate"><span style = 'color: red; font-weight: bold;'> Öka</span> <span style = 'color: red; font-weight: bold;'> kostnaderna</span> <span style = 'color: red; font-weight: bold;'> för</span> <span style = 'color: black;'>  köttkonsumtion</span> <span style = 'color: red; font-weight: bold;'> betydligt</span><br><span class="sources">gcp/gemini-1.5-pro</span></td>
+                    <td class="back-translate"><span style = 'color: red; font-weight: bold;'> Den</span> <span style = 'color: black;'>  Fleischkonsum</span> <span style = 'color: black;'>  deutlich</span> <span style = 'color: red; font-weight: bold;'> verteuern</span></td>
+
+
+
+                    <td class="winner"><span style = 'color: red; font-weight: bold;'> Gör</span> <span style = 'color: black;'>  köttkonsumtion</span> <span style = 'color: red; font-weight: bold;'> avsevärt</span> <span style = 'color: red; font-weight: bold;'> dyrare</span><br><span class="sources">azure/gpt-4o</span></td>
+                    <td class="back-translate"><span style = 'color: black;'>  Fleischkonsum</span> <span style = 'color: black;'>  deutlich</span> <span style = 'color: red; font-weight: bold;'> teurer</span> <span style = 'color: red; font-weight: bold;'> machen</span></td>
+
+
+
+                    <td class="compare">1</td>
+
+                    <td class="compare">2</td>
+
+                    <td class="compare">2</td>
+
+                </tr>
+            
+                <tr>
+                    <td class="endtd source">Den Fleischkonsum nicht einschränken</td>
+
+
+                    <td class="winner">Begränsa inte köttkonsumtionen<br><span class="sources">azure/gpt-4o, gcp/gemini-1.5-pro</span></td>
+                    <td class="back-translate"><span style = 'color: black;'>  Den</span> <span style = 'color: black;'>  Fleischkonsum</span> <span style = 'color: black;'>  nicht</span> <span style = 'color: black;'>  einschränken</span></td>
+
+
+
+                    <td class="empty"></td>
+                    <td class="empty"></td>
+
+
+
+                    <td class="compare">1</td>
+
+                    <td class="compare">1</td>
+
+                    <td class="compare">1</td>
+
+                </tr>
+            
+        </tbody>
+    </table>
+</body>
+</html>

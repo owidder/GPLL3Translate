@@ -1,107 +1,189 @@
 {
-  "_id": "solar-plants",
-  "title": {
-    "de": "Solaranlagen",
-    "ru": "Солнечные системы",
-    "en": "Solar plants",
-    "ar": "محطات الطاقة الشمسية",
-    "fr" : "Plantes solaires"
-  },
-  "description": {
-    "de": "Die Gewinnung erneuerbarer Energie durch Solar-Photovoltaik-Anlagen ist ein beliebter Projekttyp der Treibhausgas-Kompensation. Solarenergie verfügt über ein riesiges Potenzial, da die Kraft der Sonne im Überfluss vorhanden ist. Herkömmliche Technologien zur Stromerzeugung wie z. B. Kohle, Öl und Erdgas werden durch sie ersetzt. \n \n Die Finanzierung solcher Projekte für Haushalte oder Gemeinden im Globalen Süden kann Fortschritte in der Entwicklung besserer Anlagen, Materialien und Batterien zur Speicherung der Energie und damit ihre globale Verbreitung weiter vorantreiben. Dies kann einen wesentlichen Beitrag zur Verringerung von Treibhausgasemissionen und beim Überspringen fossiler Technologien bei gleichzeitiger Förderung der wirtschaftlichen Entwicklung leisten. Außerdem werden zahlreiche weitere Entwicklungsfaktoren beeinflusst (siehe unten). \n \n Quelle: drawdown.org",
-    "ru": "Производство возобновляемой энергии с помощью солнечных фотоэлектрических систем является популярным видом проектов по компенсации парниковых газов. Солнечная энергия имеет многообещающий потенциал, поскольку энергия солнца в изобилии. Она приходит на смену традиционным технологиям производства электроэнергии, таким как уголь, нефть и природный газ. \n \n Финансирование таких проектов для домохозяйств или сообществ Глобального Юга может способствовать дальнейшему прогрессу в разработке лучшего оборудования, материалов и батарей для хранения энергии и, таким образом, ее глобальному распространению. Это может внести значительный вклад в снижение выбросов парниковых газов. Это также повлияет на многие другие факторы развития (см. ниже). \n \n Источник: drawdown.org",
-    "en": "Renewable energy generation through solar photovoltaic systems is a popular type of greenhouse gas offset project. Solar energy has promising potential because the power of the sun is abundant. It is replacing conventional power generation technologies such as coal, oil and natural gas. \n \n Financing such projects for households or communities in the Global South can further advance advances in the development of better equipment, materials and batteries to store the energy, and thus its global diffusion. This can make a significant contribution to reducing greenhouse gas emissions. It will also influence many other development factors (see below). \n \n Source: drawdown.org",
-    "ar": "يعد توليد الطاقة المتجددة من خلال أنظمة الطاقة الشمسية الكهروضوئية نوعًا شائعًا من المشاريع لتعويض غازات الاحتباس الحراري. تتمتع الطاقة الشمسية بإمكانيات هائلة بسبب وفرة طاقة الشمس. تقنيات توليد الطاقة التقليدية مثل يتم استبدال الفحم والنفط والغاز الطبيعي بها. \n يمكن أن يؤدي تمويل مثل هذه المشاريع للأسر أو المجتمعات في الجنوب العالمي إلى زيادة التقدم في تطوير أجهزة ومواد وبطاريات أفضل لتخزين الطاقة وبالتالي نشرها عالميًا. يمكن أن يساهم هذا بشكل كبير في تقليل انبعاثات غازات الاحتباس الحراري وتخطي تقنيات الوقود الأحفوري مع تعزيز التنمية الاقتصادية. تتأثر أيضًا العديد من عوامل التنمية الأخرى (انظر أدناه). \n المصدر: drawdown.org",
-    "fr" : "La production d'énergie renouvelable par des installations solaires photovoltaïques est un type de projet populaire de compensation des gaz à effet de serre. L'énergie solaire dispose d'un énorme potentiel, car la puissance du soleil est abondante. Elle remplace les technologies traditionnelles de production d'électricité telles que le charbon, le pétrole et le gaz naturel. \n \n Le financement de tels projets pour les ménages ou les communautés du Sud peut permettre de progresser dans la mise au point d'installations, de matériaux et de batteries plus performants pour stocker l'énergie, et donc de la diffuser davantage à l'échelle mondiale. Cela peut contribuer de manière significative à la réduction des émissions de gaz à effet de serre et à l'abandon des technologies fossiles, tout en favorisant le développement économique. En outre, de nombreux autres facteurs de développement seront influencés (voir ci-dessous). \n \n Source : drawdown.org"
-  },
-  "globalCompensationLimit": 1500000000,
-  "participantCompensationLimit": 15,
-  "pricePerTon": [
-    {"isoCountryCode": "DEU", "unit": "€", "source":  "02_standard_prices_euro.csv", "isDefault":  true},
-    {"isoCountryCode": "AUT", "unit": "€", "source":  "02_standard_prices_euro.csv", "isDefault":  false},
-    {"isoCountryCode": "CHE", "unit": "CHF", "source":  "02_standard_prices_chf.csv", "isDefault":  false},
-    {"isoCountryCode": "RUS", "unit": "¶", "source":  "02_standard_prices_rubel.csv", "isDefault":  false}
-  ],
-  "logos": [
-    {
-      "imageRef": {
-        "de": "SDG_icons_DE-03",
-        "ru": "R-WEB-Goal-03",
-        "en": "sdg3",
-        "ar": "A-WEB-Goal-03",
-        "fr": "A-WEB-Goal-03"
-      },
-      "logoDescription": {
-        "de": "Unsichere Lichtquellen im Haushalt können ersetzt werden, was die Gefahr von Verbrennungen und andere Verletzungen reduziert; Luftverschmutzung im Haus wird ebenfalls gesenkt",
-        "ru": "Небезопасные источники света в доме могут быть заменены, что снижает риск ожогов и других травм; также уменьшается загрязнение воздуха в доме",
-        "en": "Unsafe light sources in the home can be replaced, reducing the risk of burns and other injuries; air pollution in the home is also reduced",
-        "ar": "يمكن استبدال مصادر الإضاءة غير الآمنة في المنزل ، مما يقلل من مخاطر الحروق والإصابات الأخرى ؛ كما يتم تقليل تلوث الهواء في المنزل",
-        "fr" : "Les sources de lumière dangereuses dans la maison peuvent être remplacées, ce qui réduit le risque de brûlures et d'autres blessures ; la pollution de l'air dans la maison est également réduite"
-      }
+    "_id": "solar-plants",
+    "title": {
+        "de": "Solaranlagen",
+        "ru": "Солнечные системы",
+        "en": "Solar plants",
+        "ar": "محطات الطاقة الشمسية",
+        "fr": "Plantes solaires",
+        "_azure/gpt-4o_sv": "Solcellsanläggningar",
+        "_gcp/gemini-1.5-pro_sv": "Solenergianläggningar \n",
+        "_compare_azure/gpt-4o_sv": "Solcellsanläggningar",
+        "_compare_gcp/gemini-1.5-pro_sv": "Solenergianläggningar",
+        "_compare_aws/claude-3.5-sonnet_sv": "Solcellsanläggningar",
+        "_unique_translations_back_sv": [
+            "Solaranlagen",
+            "Solaranlagen"
+        ]
     },
-    {
-      "imageRef": {
-        "de": "SDG_icons_DE-04",
-        "ru": "R-WEB-Goal-04",
-        "en": "sdg4",
-        "ar": "A-WEB-Goal-04",
-        "fr": "A-WEB-Goal-04"
-      },
-      "logoDescription": {
-        "de": "Zuverlässigere und bessere Beleuchtung für Kinder und Jugendliche zum Lernen wird ermöglicht",
-        "ru": "Обеспечивается более надежное и лучшее освещение для обучения детей и молодежи",
-        "en": "More reliable and better lighting for children and young people to learn is made possible",
-        "ar": "أصبحت الإضاءة الأكثر موثوقية وأفضل للأطفال والشباب لتعلمها ممكنة",
-        "fr" : "Un éclairage plus fiable et de meilleure qualité pour l'apprentissage des enfants et des jeunes est rendu possible"
-      }
+    "description": {
+        "de": "Die Gewinnung erneuerbarer Energie durch Solar-Photovoltaik-Anlagen ist ein beliebter Projekttyp der Treibhausgas-Kompensation. Solarenergie verfügt über ein riesiges Potenzial, da die Kraft der Sonne im Überfluss vorhanden ist. Herkömmliche Technologien zur Stromerzeugung wie z. B. Kohle, Öl und Erdgas werden durch sie ersetzt. \n \n Die Finanzierung solcher Projekte für Haushalte oder Gemeinden im Globalen Süden kann Fortschritte in der Entwicklung besserer Anlagen, Materialien und Batterien zur Speicherung der Energie und damit ihre globale Verbreitung weiter vorantreiben. Dies kann einen wesentlichen Beitrag zur Verringerung von Treibhausgasemissionen und beim Überspringen fossiler Technologien bei gleichzeitiger Förderung der wirtschaftlichen Entwicklung leisten. Außerdem werden zahlreiche weitere Entwicklungsfaktoren beeinflusst (siehe unten). \n \n Quelle: drawdown.org",
+        "ru": "Производство возобновляемой энергии с помощью солнечных фотоэлектрических систем является популярным видом проектов по компенсации парниковых газов. Солнечная энергия имеет многообещающий потенциал, поскольку энергия солнца в изобилии. Она приходит на смену традиционным технологиям производства электроэнергии, таким как уголь, нефть и природный газ. \n \n Финансирование таких проектов для домохозяйств или сообществ Глобального Юга может способствовать дальнейшему прогрессу в разработке лучшего оборудования, материалов и батарей для хранения энергии и, таким образом, ее глобальному распространению. Это может внести значительный вклад в снижение выбросов парниковых газов. Это также повлияет на многие другие факторы развития (см. ниже). \n \n Источник: drawdown.org",
+        "en": "Renewable energy generation through solar photovoltaic systems is a popular type of greenhouse gas offset project. Solar energy has promising potential because the power of the sun is abundant. It is replacing conventional power generation technologies such as coal, oil and natural gas. \n \n Financing such projects for households or communities in the Global South can further advance advances in the development of better equipment, materials and batteries to store the energy, and thus its global diffusion. This can make a significant contribution to reducing greenhouse gas emissions. It will also influence many other development factors (see below). \n \n Source: drawdown.org",
+        "ar": "يعد توليد الطاقة المتجددة من خلال أنظمة الطاقة الشمسية الكهروضوئية نوعًا شائعًا من المشاريع لتعويض غازات الاحتباس الحراري. تتمتع الطاقة الشمسية بإمكانيات هائلة بسبب وفرة طاقة الشمس. تقنيات توليد الطاقة التقليدية مثل يتم استبدال الفحم والنفط والغاز الطبيعي بها. \n يمكن أن يؤدي تمويل مثل هذه المشاريع للأسر أو المجتمعات في الجنوب العالمي إلى زيادة التقدم في تطوير أجهزة ومواد وبطاريات أفضل لتخزين الطاقة وبالتالي نشرها عالميًا. يمكن أن يساهم هذا بشكل كبير في تقليل انبعاثات غازات الاحتباس الحراري وتخطي تقنيات الوقود الأحفوري مع تعزيز التنمية الاقتصادية. تتأثر أيضًا العديد من عوامل التنمية الأخرى (انظر أدناه). \n المصدر: drawdown.org",
+        "fr": "La production d'énergie renouvelable par des installations solaires photovoltaïques est un type de projet populaire de compensation des gaz à effet de serre. L'énergie solaire dispose d'un énorme potentiel, car la puissance du soleil est abondante. Elle remplace les technologies traditionnelles de production d'électricité telles que le charbon, le pétrole et le gaz naturel. \n \n Le financement de tels projets pour les ménages ou les communautés du Sud peut permettre de progresser dans la mise au point d'installations, de matériaux et de batteries plus performants pour stocker l'énergie, et donc de la diffuser davantage à l'échelle mondiale. Cela peut contribuer de manière significative à la réduction des émissions de gaz à effet de serre et à l'abandon des technologies fossiles, tout en favorisant le développement économique. En outre, de nombreux autres facteurs de développement seront influencés (voir ci-dessous). \n \n Source : drawdown.org",
+        "_azure/gpt-4o_sv": "Generering av förnybar energi genom solcellsanläggningar är en populär typ av projekt för växthusgaskompensation. Solenergi har en enorm potential eftersom solens kraft är riklig. Konventionella teknologier för elproduktion som kol, olja och naturgas ersätts av den.\n\nFinansiering av sådana projekt för hushåll eller samhällen i det globala syd kan främja utvecklingen av bättre utrustning, material och batterier för att lagra energin och därmed dess globala spridning. Detta kan göra ett betydande bidrag till att minska växthusgasutsläppen och hoppa över fossila teknologier samtidigt som den ekonomiska utvecklingen främjas. Dessutom påverkas många andra utvecklingsfaktorer (se nedan).\n\nKälla: drawdown.org",
+        "_gcp/gemini-1.5-pro_sv": "Att utvinna förnybar energi genom solcellsanläggningar är en populär projekttyp för att kompensera för växthusgaser. Solenergi har en enorm potential eftersom kraften från solen är riklig. Den ersätter konventionella tekniker för elproduktion, som kol, olja och naturgas.\n\nFinansiering av sådana projekt för hushåll eller samhällen i det globala syd kan främja utvecklingen av bättre anläggningar, material och batterier för att lagra energi, och därmed påskynda dess globala spridning. Detta kan avsevärt bidra till att minska utsläppen av växthusgaser och hoppa över fossila tekniker, samtidigt som det främjar ekonomisk utveckling. Dessutom påverkas många andra utvecklingsfaktorer positivt (se nedan).\n\nKälla: drawdown.org \n",
+        "_compare_azure/gpt-4o_sv": "Generering av förnybar energi genom solcellsanläggningar är en populär typ av projekt för växthusgaskompensation. Solenergi har en enorm potential eftersom solens kraft är riklig. Konventionella teknologier för elproduktion som kol, olja och naturgas ersätts av den. Finansiering av sådana projekt för hushåll eller samhällen i det globala syd kan främja utvecklingen av bättre utrustning, material och batterier för att lagra energin och därmed dess globala spridning. Detta kan göra ett betydande bidrag till att minska växthusgasutsläppen och hoppa över fossila teknologier samtidigt som den ekonomiska utvecklingen främjas. Dessutom påverkas många andra utvecklingsfaktorer (se nedan). Källa: drawdown.org",
+        "_compare_gcp/gemini-1.5-pro_sv": "Att utvinna förnybar energi genom solcellsanläggningar är en populär projekttyp för att kompensera för växthusgaser. Solenergi har en enorm potential eftersom kraften från solen är riklig. Den ersätter konventionella tekniker för elproduktion, som kol, olja och naturgas. Finansiering av sådana projekt för hushåll eller samhällen i det globala syd kan främja utvecklingen av bättre anläggningar, material och batterier för att lagra energi, och därmed påskynda dess globala spridning. Detta kan avsevärt bidra till att minska utsläppen av växthusgaser och hoppa över fossila tekniker, samtidigt som det främjar ekonomisk utveckling. Dessutom påverkas många andra utvecklingsfaktorer positivt (se nedan). Källa: drawdown.org",
+        "_compare_aws/claude-3.5-sonnet_sv": "Generering av förnybar energi genom solcellsanläggningar är en populär typ av projekt för växthusgaskompensation. Solenergi har en enorm potential eftersom solens kraft är riklig. Konventionella teknologier för elproduktion som kol, olja och naturgas ersätts av den. Finansiering av sådana projekt för hushåll eller samhällen i det globala syd kan främja utvecklingen av bättre utrustning, material och batterier för att lagra energin och därmed dess globala spridning. Detta kan göra ett betydande bidrag till att minska växthusgasutsläppen och hoppa över fossila teknologier samtidigt som den ekonomiska utvecklingen främjas. Dessutom påverkas många andra utvecklingsfaktorer (se nedan). Källa: drawdown.org",
+        "_unique_translations_back_sv": [
+            "Die Gewinnung erneuerbarer Energien durch Solaranlagen ist eine beliebte Projektart zur Kompensation von Treibhausgasen. Solarenergie hat ein enormes Potenzial, da die Kraft der Sonne reichlich vorhanden ist. Sie ersetzt konventionelle Stromerzeugungstechnologien wie Kohle, Öl und Erdgas. Die Finanzierung solcher Projekte für Haushalte oder Gemeinden im Globalen Süden kann die Entwicklung besserer Anlagen, Materialien und Batterien zur Energiespeicherung und damit deren weltweite Verbreitung vorantreiben. Dies kann einen erheblichen Beitrag zur Reduzierung der Treibhausgasemissionen und zur Ablösung fossiler Technologien leisten und gleichzeitig die wirtschaftliche Entwicklung fördern. Darüber hinaus werden viele weitere Entwicklungsfaktoren positiv beeinflusst (siehe unten). Quelle: drawdown.org",
+            "Die Erzeugung erneuerbarer Energie durch Photovoltaikanlagen ist eine beliebte Art von Treibhausgas-Kompensationsprojekten. Solarenergie hat ein enormes Potenzial, da die Kraft der Sonne im Überfluss vorhanden ist. Sie ersetzt herkömmliche Technologien zur Stromerzeugung wie Kohle, Öl und Erdgas. Die Finanzierung solcher Projekte für Haushalte oder Gemeinschaften im globalen Süden kann die Entwicklung besserer Geräte, Materialien und Batterien zur Energiespeicherung und damit ihre globale Verbreitung vorantreiben. Dies kann einen bedeutenden Beitrag zur Reduzierung von Treibhausgasemissionen leisten und fossile Technologien überspringen, während gleichzeitig die wirtschaftliche Entwicklung gefördert wird. Darüber hinaus werden viele andere Entwicklungsfaktoren beeinflusst (siehe unten). Quelle: drawdown.org"
+        ]
     },
-    {
-      "imageRef": {
-        "de": "SDG_icons_DE-07",
-        "ru": "R-WEB-Goal-07",
-        "en": "sdg7",
-        "ar": "A-WEB-Goal-07",
-        "fr": "A-WEB-Goal-07"
-      },
-      "logoDescription": {
-        "de": "Anteil der erneuerbaren Energien wird erhöht, andere Formen werden zurückgedrängt; Energiesicherheit und Zugang zu Energie allgemein können gewährleistet werden",
-        "ru": "Доля возобновляемых источников энергии увеличивается, другие формы оттесняются; может быть обеспечена энергетическая безопасность и доступ к энергии в целом",
-        "en": "Share of renewable energies is increased, other forms are pushed back; energy security and access to energy in general can be ensured",
-        "ar": "تزداد حصة الطاقات المتجددة ، وتتراجع الأشكال الأخرى",
-        "fr" : "La part des énergies renouvelables est augmentée, les autres formes sont repoussées ; la sécurité énergétique et l'accès à l'énergie en général peuvent être assurés"
-      }
-    },
-    {
-      "imageRef": {
-        "de": "SDG_icons_DE-11",
-        "ru": "R-WEB-Goal-11",
-        "en": "sdg11",
-        "ar": "A-WEB-Goal-11",
-        "fr": "A-WEB-Goal-11"
-      },
-      "logoDescription": {
-        "de": "Durch die Erzeugung erneuerbarer Solarenergie können Städte und Gemeinden nachhaltig, inklusiv und zukunftsfest gemacht werden",
-        "ru": "Возобновляемое производство солнечной энергии может сделать города и сообщества устойчивыми, инклюзивными и перспективными",
-        "en": "Renewable solar energy generation can make cities and communities sustainable, inclusive, and future-proof",
-        "ar": "من خلال توليد الطاقة الشمسية المتجددة ، يمكن جعل المدن والمجتمعات مستدامة وشاملة ومستقبلية",
-        "fr" : "La production d'énergie solaire renouvelable peut rendre les villes et les communautés durables, inclusives et à l'épreuve du temps"
-      }
-    },
-    {
-      "imageRef": {
-        "de": "SDG_icons_DE-13",
-        "ru": "R-WEB-Goal-13",
-        "en": "sdg13",
-        "ar": "A-WEB-Goal-13",
-        "fr": "A-WEB-Goal-13"
-      },
-      "logoDescription": {
-        "de": "Emissionen durch Stromerzeugung von Kohle, Öl, und Erdgas werden deutlich reduziert",
-        "ru": "Значительно снижены выбросы при производстве электроэнергии из угля, нефти и природного газа",
-        "en": "Emissions from power generation from coal, oil, and natural gas are significantly reduced",
-        "ar": "يتم تقليل الانبعاثات الناتجة عن توليد الطاقة من الفحم والنفط والغاز الطبيعي بشكل كبير",
-        "fr" : "Les émissions liées à la production d'électricité à partir de charbon, de pétrole et de gaz naturel sont réduites de manière significative"
-      }
-    }
-  ]
+    "globalCompensationLimit": 1500000000,
+    "participantCompensationLimit": 15,
+    "pricePerTon": [
+        {
+            "isoCountryCode": "DEU",
+            "unit": "€",
+            "source": "02_standard_prices_euro.csv",
+            "isDefault": true
+        },
+        {
+            "isoCountryCode": "AUT",
+            "unit": "€",
+            "source": "02_standard_prices_euro.csv",
+            "isDefault": false
+        },
+        {
+            "isoCountryCode": "CHE",
+            "unit": "CHF",
+            "source": "02_standard_prices_chf.csv",
+            "isDefault": false
+        },
+        {
+            "isoCountryCode": "RUS",
+            "unit": "¶",
+            "source": "02_standard_prices_rubel.csv",
+            "isDefault": false
+        }
+    ],
+    "logos": [
+        {
+            "imageRef": {
+                "de": "SDG_icons_DE-03",
+                "ru": "R-WEB-Goal-03",
+                "en": "sdg3",
+                "ar": "A-WEB-Goal-03",
+                "fr": "A-WEB-Goal-03"
+            },
+            "logoDescription": {
+                "de": "Unsichere Lichtquellen im Haushalt können ersetzt werden, was die Gefahr von Verbrennungen und andere Verletzungen reduziert; Luftverschmutzung im Haus wird ebenfalls gesenkt",
+                "ru": "Небезопасные источники света в доме могут быть заменены, что снижает риск ожогов и других травм; также уменьшается загрязнение воздуха в доме",
+                "en": "Unsafe light sources in the home can be replaced, reducing the risk of burns and other injuries; air pollution in the home is also reduced",
+                "ar": "يمكن استبدال مصادر الإضاءة غير الآمنة في المنزل ، مما يقلل من مخاطر الحروق والإصابات الأخرى ؛ كما يتم تقليل تلوث الهواء في المنزل",
+                "fr": "Les sources de lumière dangereuses dans la maison peuvent être remplacées, ce qui réduit le risque de brûlures et d'autres blessures ; la pollution de l'air dans la maison est également réduite",
+                "_azure/gpt-4o_sv": "Osäkra ljuskällor i hemmet kan ersättas, vilket minskar risken för brännskador och andra skador; luftföroreningar i hemmet minskar också",
+                "_gcp/gemini-1.5-pro_sv": "Osäkra ljuskällor i hemmet kan ersättas, vilket minskar risken för brännskador och andra skador; luftföroreningar i hemmet minskar också. \n",
+                "_compare_azure/gpt-4o_sv": "Osäkra ljuskällor i hemmet kan ersättas, vilket minskar risken för brännskador och andra skador; luftföroreningar i hemmet minskar också",
+                "_compare_gcp/gemini-1.5-pro_sv": "Osäkra ljuskällor i hemmet kan ersättas, vilket minskar risken för brännskador och andra skador; luftföroreningar i hemmet minskar också",
+                "_compare_aws/claude-3.5-sonnet_sv": "Osäkra ljuskällor i hemmet kan ersättas, vilket minskar risken för brännskador och andra skador; luftföroreningar i hemmet minskar också",
+                "_unique_translations_back_sv": [
+                    "Unsichere Lichtquellen im Haushalt können ersetzt werden, wodurch das Risiko von Verbrennungen und anderen Verletzungen verringert wird; auch die Luftverschmutzung im Haushalt wird reduziert"
+                ]
+            }
+        },
+        {
+            "imageRef": {
+                "de": "SDG_icons_DE-04",
+                "ru": "R-WEB-Goal-04",
+                "en": "sdg4",
+                "ar": "A-WEB-Goal-04",
+                "fr": "A-WEB-Goal-04"
+            },
+            "logoDescription": {
+                "de": "Zuverlässigere und bessere Beleuchtung für Kinder und Jugendliche zum Lernen wird ermöglicht",
+                "ru": "Обеспечивается более надежное и лучшее освещение для обучения детей и молодежи",
+                "en": "More reliable and better lighting for children and young people to learn is made possible",
+                "ar": "أصبحت الإضاءة الأكثر موثوقية وأفضل للأطفال والشباب لتعلمها ممكنة",
+                "fr": "Un éclairage plus fiable et de meilleure qualité pour l'apprentissage des enfants et des jeunes est rendu possible",
+                "_azure/gpt-4o_sv": "Mer tillförlitlig och bättre belysning för barn och ungdomar att lära sig möjliggörs",
+                "_gcp/gemini-1.5-pro_sv": "Mer tillförlitlig och bättre belysning för barn och ungdomar att lära sig med möjliggörs. \n",
+                "_compare_azure/gpt-4o_sv": "Mer tillförlitlig och bättre belysning för barn och ungdomar att lära sig möjliggörs",
+                "_compare_gcp/gemini-1.5-pro_sv": "Mer tillförlitlig och bättre belysning för barn och ungdomar att lära sig med möjliggörs",
+                "_compare_aws/claude-3.5-sonnet_sv": "Mer tillförlitlig och bättre belysning för barn och ungdomar att lära sig med möjliggörs",
+                "_unique_translations_back_sv": [
+                    "Zuverlässigere und bessere Beleuchtung für Kinder und Jugendliche zum Lernen wird ermöglicht",
+                    "Zuverlässigere und bessere Beleuchtung für Kinder und Jugendliche zum Lernen wird ermöglicht"
+                ]
+            }
+        },
+        {
+            "imageRef": {
+                "de": "SDG_icons_DE-07",
+                "ru": "R-WEB-Goal-07",
+                "en": "sdg7",
+                "ar": "A-WEB-Goal-07",
+                "fr": "A-WEB-Goal-07"
+            },
+            "logoDescription": {
+                "de": "Anteil der erneuerbaren Energien wird erhöht, andere Formen werden zurückgedrängt; Energiesicherheit und Zugang zu Energie allgemein können gewährleistet werden",
+                "ru": "Доля возобновляемых источников энергии увеличивается, другие формы оттесняются; может быть обеспечена энергетическая безопасность и доступ к энергии в целом",
+                "en": "Share of renewable energies is increased, other forms are pushed back; energy security and access to energy in general can be ensured",
+                "ar": "تزداد حصة الطاقات المتجددة ، وتتراجع الأشكال الأخرى",
+                "fr": "La part des énergies renouvelables est augmentée, les autres formes sont repoussées ; la sécurité énergétique et l'accès à l'énergie en général peuvent être assurés",
+                "_azure/gpt-4o_sv": "Andelen förnybar energi ökar, andra former trängs tillbaka; energisäkerhet och tillgång till energi i allmänhet kan säkerställas.",
+                "_gcp/gemini-1.5-pro_sv": "Andelen förnybar energi ökar, andra former minskar; Energisäkerhet och tillgång till energi i allmänhet kan säkerställas. \n",
+                "_compare_azure/gpt-4o_sv": "Andelen förnybar energi ökar, andra former trängs tillbaka; energisäkerhet och tillgång till energi i allmänhet kan säkerställas",
+                "_compare_gcp/gemini-1.5-pro_sv": "Andelen förnybar energi ökar, andra former trängs tillbaka; energisäkerhet och tillgång till energi i allmänhet kan säkerställas",
+                "_compare_aws/claude-3.5-sonnet_sv": "Andelen förnybar energi ökar, andra former trängs tillbaka; energisäkerhet och tillgång till energi i allmänhet kan säkerställas",
+                "_unique_translations_back_sv": [
+                    "Der Anteil erneuerbarer Energien steigt, andere Formen werden zurückgedrängt; Energiesicherheit und Zugang zu Energie im Allgemeinen können gewährleistet werden",
+                    "Der Anteil erneuerbarer Energien wird erhöht, andere Formen werden zurückgedrängt; Energiesicherheit und Zugang zu Energie im Allgemeinen können gewährleistet werden"
+                ]
+            }
+        },
+        {
+            "imageRef": {
+                "de": "SDG_icons_DE-11",
+                "ru": "R-WEB-Goal-11",
+                "en": "sdg11",
+                "ar": "A-WEB-Goal-11",
+                "fr": "A-WEB-Goal-11"
+            },
+            "logoDescription": {
+                "de": "Durch die Erzeugung erneuerbarer Solarenergie können Städte und Gemeinden nachhaltig, inklusiv und zukunftsfest gemacht werden",
+                "ru": "Возобновляемое производство солнечной энергии может сделать города и сообщества устойчивыми, инклюзивными и перспективными",
+                "en": "Renewable solar energy generation can make cities and communities sustainable, inclusive, and future-proof",
+                "ar": "من خلال توليد الطاقة الشمسية المتجددة ، يمكن جعل المدن والمجتمعات مستدامة وشاملة ومستقبلية",
+                "fr": "La production d'énergie solaire renouvelable peut rendre les villes et les communautés durables, inclusives et à l'épreuve du temps",
+                "_azure/gpt-4o_sv": "Genom produktion av förnybar solenergi kan städer och samhällen göras hållbara, inkluderande och framtidssäkra.",
+                "_gcp/gemini-1.5-pro_sv": "Genom att generera förnybar solenergi kan städer och samhällen göras hållbara, inkluderande och framtidssäkra. \n",
+                "_compare_azure/gpt-4o_sv": "Genom att generera förnybar solenergi kan städer och samhällen göras hållbara, inkluderande och framtidssäkra",
+                "_compare_gcp/gemini-1.5-pro_sv": "Genom produktion av förnybar solenergi kan städer och samhällen göras hållbara, inkluderande och framtidssäkra",
+                "_compare_aws/claude-3.5-sonnet_sv": "Genom produktion av förnybar solenergi kan städer och samhällen göras hållbara, inkluderande och framtidssäkra",
+                "_unique_translations_back_sv": [
+                    "Durch die Erzeugung erneuerbarer Solarenergie können Städte und Gemeinden nachhaltig, inklusiv und zukunftssicher gemacht werden",
+                    "Durch die Erzeugung von erneuerbarer Solarenergie können Städte und Gemeinden nachhaltig, inklusiv und zukunftssicher gemacht werden"
+                ]
+            }
+        },
+        {
+            "imageRef": {
+                "de": "SDG_icons_DE-13",
+                "ru": "R-WEB-Goal-13",
+                "en": "sdg13",
+                "ar": "A-WEB-Goal-13",
+                "fr": "A-WEB-Goal-13"
+            },
+            "logoDescription": {
+                "de": "Emissionen durch Stromerzeugung von Kohle, Öl, und Erdgas werden deutlich reduziert",
+                "ru": "Значительно снижены выбросы при производстве электроэнергии из угля, нефти и природного газа",
+                "en": "Emissions from power generation from coal, oil, and natural gas are significantly reduced",
+                "ar": "يتم تقليل الانبعاثات الناتجة عن توليد الطاقة من الفحم والنفط والغاز الطبيعي بشكل كبير",
+                "fr": "Les émissions liées à la production d'électricité à partir de charbon, de pétrole et de gaz naturel sont réduites de manière significative",
+                "_azure/gpt-4o_sv": "Utsläppen från elproduktion från kol, olja och naturgas minskas avsevärt.",
+                "_gcp/gemini-1.5-pro_sv": "Utsläpp från elproduktion från kol, olja och naturgas minskas avsevärt. \n",
+                "_compare_azure/gpt-4o_sv": "Utsläppen från elproduktion från kol, olja och naturgas minskas avsevärt",
+                "_compare_gcp/gemini-1.5-pro_sv": "Utsläppen från elproduktion från kol, olja och naturgas minskas avsevärt",
+                "_compare_aws/claude-3.5-sonnet_sv": "Utsläppen från elproduktion från kol, olja och naturgas minskas avsevärt",
+                "_unique_translations_back_sv": [
+                    "Die Emissionen aus der Stromerzeugung aus Kohle, Öl und Erdgas werden deutlich reduziert",
+                    "Die Emissionen aus der Stromerzeugung aus Kohle, Öl und Erdgas werden deutlich reduziert"
+                ]
+            }
+        }
+    ]
 }

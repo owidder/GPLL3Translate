@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <style>
+        @page {
+            size: A4 landscape;
+        }
+    </style>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-family: verdana, serif;
+            font-size:12px;
+            border: 1px solid white;
+            transform-origin: top left;
+        }
+        th, td {
+            border-bottom:3px solid white;
+            border-right:3px solid white;
+            padding: 15px;
+            text-align: left;
+        }
+        th {
+            background-color: darkgray;
+        }
+        td {
+            background-color: lightgray;
+        }
+        .endtd {
+            border-right: 3px solid darkgray;
+        }
+        .translate {
+            background-color: lightblue;
+        }
+        .back-translate {
+            background-color: lightgrey;
+        }
+        .winner {
+            background-color: lightpink;
+        }
+        .compare {
+            background-color: lightsteelblue;
+        }
+        .source {
+            background-color: palegoldenrod;
+        }
+        .empty {
+            background-color: lightgrey;
+        }
+        .sources {
+            font-weight: bold;
+            font-size: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>02_forest_protection.json</h1>
+    <table>
+        <thead>
+            <tr>
+                
+                    <th>source text</th>
+                
+                    <th>--- 0 ---</th>
+                
+                    <th></th>
+                
+                    <th>--- 1 ---</th>
+                
+                    <th></th>
+                
+                    <th>azure/gpt-4o</th>
+                
+                    <th>gcp/gemini-1.5-pro</th>
+                
+                    <th>aws/claude-3.5-sonnet</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            
+                <tr>
+                    <td class="endtd source">Waldschutz</td>
+
+
+                    <td class="winner">Skogsskydd<br><span class="sources">azure/gpt-4o, gcp/gemini-1.5-pro</span></td>
+                    <td class="back-translate"><span style = 'color: black;'>  Waldschutz</span></td>
+
+
+
+                    <td class="empty"></td>
+                    <td class="empty"></td>
+
+
+
+                    <td class="compare">1</td>
+
+                    <td class="compare">1</td>
+
+                    <td class="compare">1</td>
+
+                </tr>
+            
+                <tr>
+                    <td class="endtd source">Wälder stellen durch ihre Biomasse und Böden wichtige Kohlenstoffspeicher dar. Ein effektiver Waldschutz verhindert den Ausstoß der Emissionen, der durch Entwaldung entstehen könnte und ermöglicht somit eine kontinuierliche Kohlenstoffspeicherung. Die Emissionen durch Entwaldung und die damit verbundene Umwandlung von ehemaligen Waldflächen für andere Landnutzungsformen (z. B. Landwirtschaft oder Industrie) machen einen signifikanten Teil der weltweiten Gesamtemissionen aus (ca. 10-15 %). 
+ Der nachhaltige Schutz bestehender Wälder auf allen Kontinenten der Erde kann jedoch nicht nur positiv zur Kohlenstoffbilanz beitragen, sondern hat auch große Auswirkungen auf den Erhalt von Biodiversität, die Luftqualität und weitere Nachhaltigkeitsziele. Die Förderung von Waldschutz-Projekten hat also diverse Vorteile für Natur und Mensch (siehe unten). 
+ Quelle: drawdown.org</td>
+
+
+                    <td class="winner"><span style = 'color: black;'>  Skogar</span> <span style = 'color: red; font-weight: bold;'> är</span> <span style = 'color: black;'>  viktiga</span> <span style = 'color: red; font-weight: bold;'> kolförråd</span> <span style = 'color: red; font-weight: bold;'> på</span> <span style = 'color: red; font-weight: bold;'> grund</span> <span style = 'color: red; font-weight: bold;'> av</span> <span style = 'color: red; font-weight: bold;'> deras</span> <span style = 'color: black;'>  biomassa</span> <span style = 'color: black;'>  och</span> <span style = 'color: red; font-weight: bold;'> jord.</span> <span style = 'color: red; font-weight: bold;'> Effektivt</span> <span style = 'color: black;'>  skogsskydd</span> <span style = 'color: black;'>  förhindrar</span> <span style = 'color: black;'>  utsläpp</span> <span style = 'color: black;'>  som</span> <span style = 'color: red; font-weight: bold;'> kan</span> <span style = 'color: black;'>  uppstå</span> <span style = 'color: black;'>  genom</span> <span style = 'color: black;'>  avskogning</span> <span style = 'color: black;'>  och</span> <span style = 'color: black;'>  möjliggör</span> <span style = 'color: black;'>  därmed</span> <span style = 'color: black;'>  kontinuerlig</span> <span style = 'color: red; font-weight: bold;'> kolinlagring.</span> <span style = 'color: black;'>  Utsläppen</span> <span style = 'color: black;'>  från</span> <span style = 'color: black;'>  avskogning</span> <span style = 'color: black;'>  och</span> <span style = 'color: black;'>  den</span> <span style = 'color: black;'>  därmed</span> <span style = 'color: red; font-weight: bold;'> förknippade</span> <span style = 'color: black;'>  omvandlingen</span> <span style = 'color: black;'>  av</span> <span style = 'color: black;'>  tidigare</span> <span style = 'color: red; font-weight: bold;'> skogsområden</span> <span style = 'color: red; font-weight: bold;'> till</span> <span style = 'color: black;'>  andra</span> <span style = 'color: black;'>  markanvändningsformer</span> <span style = 'color: black;'>  (t.ex.</span> <span style = 'color: black;'>  jordbruk</span> <span style = 'color: black;'>  eller</span> <span style = 'color: black;'>  industri)</span> <span style = 'color: black;'>  utgör</span> <span style = 'color: black;'>  en</span> <span style = 'color: black;'>  betydande</span> <span style = 'color: black;'>  del</span> <span style = 'color: black;'>  av</span> <span style = 'color: black;'>  de</span> <span style = 'color: red; font-weight: bold;'> globala</span> <span style = 'color: black;'>  totala</span> <span style = 'color: black;'>  utsläppen</span> <span style = 'color: black;'>  (ca</span> <span style = 'color: red; font-weight: bold;'> 10-15%).</span> <span style = 'color: red; font-weight: bold;'> Hållbart</span> <span style = 'color: black;'>  skydd</span> <span style = 'color: black;'>  av</span> <span style = 'color: black;'>  befintliga</span> <span style = 'color: black;'>  skogar</span> <span style = 'color: black;'>  på</span> <span style = 'color: black;'>  alla</span> <span style = 'color: black;'>  kontinenter</span> <span style = 'color: red; font-weight: bold;'> i</span> <span style = 'color: red; font-weight: bold;'> världen</span> <span style = 'color: black;'>  kan</span> <span style = 'color: black;'>  dock</span> <span style = 'color: black;'>  inte</span> <span style = 'color: black;'>  bara</span> <span style = 'color: black;'>  bidra</span> <span style = 'color: black;'>  positivt</span> <span style = 'color: black;'>  till</span> <span style = 'color: red; font-weight: bold;'> kolbalansen,</span> <span style = 'color: black;'>  utan</span> <span style = 'color: black;'>  har</span> <span style = 'color: black;'>  också</span> <span style = 'color: black;'>  stor</span> <span style = 'color: black;'>  inverkan</span> <span style = 'color: black;'>  på</span> <span style = 'color: black;'>  bevarandet</span> <span style = 'color: black;'>  av</span> <span style = 'color: black;'>  biologisk</span> <span style = 'color: black;'>  mångfald,</span> <span style = 'color: black;'>  luftkvalitet</span> <span style = 'color: black;'>  och</span> <span style = 'color: black;'>  andra</span> <span style = 'color: black;'>  hållbarhetsmål.</span> <span style = 'color: red; font-weight: bold;'> Finansiering</span> <span style = 'color: red; font-weight: bold;'> av</span> <span style = 'color: black;'>  skogsskyddsprojekt</span> <span style = 'color: black;'>  har</span> <span style = 'color: red; font-weight: bold;'> alltså</span> <span style = 'color: red; font-weight: bold;'> olika</span> <span style = 'color: black;'>  fördelar</span> <span style = 'color: black;'>  för</span> <span style = 'color: black;'>  natur</span> <span style = 'color: black;'>  och</span> <span style = 'color: red; font-weight: bold;'> människor</span> <span style = 'color: black;'>  (se</span> <span style = 'color: black;'>  nedan).</span> <span style = 'color: black;'>  Källa:</span> <span style = 'color: black;'>  drawdown.org</span><br><span class="sources">azure/gpt-4o</span></td>
+                    <td class="back-translate"><span style = 'color: black;'>  Wälder</span> <span style = 'color: red; font-weight: bold;'> sind</span> <span style = 'color: red; font-weight: bold;'> wichtige</span> <span style = 'color: red; font-weight: bold;'> Kohlenstoffspeicher</span> <span style = 'color: red; font-weight: bold;'> aufgrund</span> <span style = 'color: red; font-weight: bold;'> ihrer</span> <span style = 'color: black;'>  Biomasse</span> <span style = 'color: black;'>  und</span> <span style = 'color: red; font-weight: bold;'> ihres</span> <span style = 'color: red; font-weight: bold;'> Bodens.</span> <span style = 'color: black;'>  Ein</span> <span style = 'color: black;'>  effektiver</span> <span style = 'color: black;'>  Waldschutz</span> <span style = 'color: black;'>  verhindert</span> <span style = 'color: black;'>  Emissionen,</span> <span style = 'color: red; font-weight: bold;'> die</span> <span style = 'color: black;'>  durch</span> <span style = 'color: black;'>  Entwaldung</span> <span style = 'color: black;'>  entstehen</span> <span style = 'color: red; font-weight: bold;'> könnten,</span> <span style = 'color: black;'>  und</span> <span style = 'color: black;'>  ermöglicht</span> <span style = 'color: red; font-weight: bold;'> so</span> <span style = 'color: black;'>  eine</span> <span style = 'color: black;'>  kontinuierliche</span> <span style = 'color: black;'>  Kohlenstoffspeicherung.</span> <span style = 'color: black;'>  Emissionen</span> <span style = 'color: red; font-weight: bold;'> aus</span> <span style = 'color: black;'>  Entwaldung</span> <span style = 'color: black;'>  und</span> <span style = 'color: red; font-weight: bold;'> der</span> <span style = 'color: black;'>  damit</span> <span style = 'color: red; font-weight: bold;'> verbundenen</span> <span style = 'color: black;'>  Umwandlung</span> <span style = 'color: red; font-weight: bold;'> ehemaliger</span> <span style = 'color: black;'>  Waldflächen</span> <span style = 'color: black;'>  für</span> <span style = 'color: black;'>  andere</span> <span style = 'color: black;'>  Landnutzungsformen</span> <span style = 'color: red; font-weight: bold;'> (z.B.</span> <span style = 'color: black;'>  Landwirtschaft</span> <span style = 'color: black;'>  oder</span> <span style = 'color: black;'>  Industrie)</span> <span style = 'color: black;'>  machen</span> <span style = 'color: black;'>  einen</span> <span style = 'color: red; font-weight: bold;'> erheblichen</span> <span style = 'color: black;'>  Teil</span> <span style = 'color: black;'>  der</span> <span style = 'color: red; font-weight: bold;'> globalen</span> <span style = 'color: black;'>  Gesamtemissionen</span> <span style = 'color: black;'>  aus</span> <span style = 'color: black;'>  (ca.</span> <span style = 'color: red; font-weight: bold;'> 10-15%).</span> <span style = 'color: black;'>  Der</span> <span style = 'color: black;'>  nachhaltige</span> <span style = 'color: black;'>  Schutz</span> <span style = 'color: black;'>  bestehender</span> <span style = 'color: black;'>  Wälder</span> <span style = 'color: black;'>  auf</span> <span style = 'color: black;'>  allen</span> <span style = 'color: black;'>  Kontinenten</span> <span style = 'color: black;'>  kann</span> <span style = 'color: black;'>  jedoch</span> <span style = 'color: black;'>  nicht</span> <span style = 'color: black;'>  nur</span> <span style = 'color: red; font-weight: bold;'> einen</span> <span style = 'color: red; font-weight: bold;'> positiven</span> <span style = 'color: red; font-weight: bold;'> Beitrag</span> <span style = 'color: black;'>  zur</span> <span style = 'color: black;'>  Kohlenstoffbilanz</span> <span style = 'color: red; font-weight: bold;'> leisten,</span> <span style = 'color: black;'>  sondern</span> <span style = 'color: black;'>  hat</span> <span style = 'color: black;'>  auch</span> <span style = 'color: black;'>  große</span> <span style = 'color: black;'>  Auswirkungen</span> <span style = 'color: black;'>  auf</span> <span style = 'color: black;'>  den</span> <span style = 'color: black;'>  Erhalt</span> <span style = 'color: red; font-weight: bold;'> der</span> <span style = 'color: black;'>  Biodiversität,</span> <span style = 'color: black;'>  die</span> <span style = 'color: black;'>  Luftqualität</span> <span style = 'color: black;'>  und</span> <span style = 'color: red; font-weight: bold;'> andere</span> <span style = 'color: black;'>  Nachhaltigkeitsziele.</span> <span style = 'color: black;'>  Die</span> <span style = 'color: black;'>  Förderung</span> <span style = 'color: black;'>  von</span> <span style = 'color: red; font-weight: bold;'> Waldschutzprojekten</span> <span style = 'color: black;'>  hat</span> <span style = 'color: red; font-weight: bold;'> daher</span> <span style = 'color: red; font-weight: bold;'> verschiedene</span> <span style = 'color: black;'>  Vorteile</span> <span style = 'color: black;'>  für</span> <span style = 'color: black;'>  Natur</span> <span style = 'color: black;'>  und</span> <span style = 'color: black;'>  Mensch</span> <span style = 'color: black;'>  (siehe</span> <span style = 'color: black;'>  unten).</span> <span style = 'color: black;'>  Quelle:</span> <span style = 'color: black;'>  drawdown.org</span></td>
+
+
+
+                    <td class="translate"><span style = 'color: black;'>  Skogar</span> <span style = 'color: red; font-weight: bold;'> utgör</span> <span style = 'color: black;'>  viktiga</span> <span style = 'color: red; font-weight: bold;'> kolsänkor</span> <span style = 'color: red; font-weight: bold;'> genom</span> <span style = 'color: red; font-weight: bold;'> sin</span> <span style = 'color: black;'>  biomassa</span> <span style = 'color: black;'>  och</span> <span style = 'color: red; font-weight: bold;'> mark.</span> <span style = 'color: red; font-weight: bold;'> Ett</span> <span style = 'color: red; font-weight: bold;'> effektivt</span> <span style = 'color: black;'>  skogsskydd</span> <span style = 'color: black;'>  förhindrar</span> <span style = 'color: black;'>  utsläpp</span> <span style = 'color: black;'>  som</span> <span style = 'color: red; font-weight: bold;'> skulle</span> <span style = 'color: red; font-weight: bold;'> kunna</span> <span style = 'color: black;'>  uppstå</span> <span style = 'color: black;'>  genom</span> <span style = 'color: black;'>  avskogning</span> <span style = 'color: black;'>  och</span> <span style = 'color: black;'>  möjliggör</span> <span style = 'color: black;'>  därmed</span> <span style = 'color: red; font-weight: bold;'> en</span> <span style = 'color: black;'>  kontinuerlig</span> <span style = 'color: red; font-weight: bold;'> koldioxidlagring.</span> <span style = 'color: black;'>  Utsläppen</span> <span style = 'color: black;'>  från</span> <span style = 'color: black;'>  avskogning</span> <span style = 'color: black;'>  och</span> <span style = 'color: black;'>  den</span> <span style = 'color: black;'>  därmed</span> <span style = 'color: red; font-weight: bold;'> sammanhängande</span> <span style = 'color: black;'>  omvandlingen</span> <span style = 'color: black;'>  av</span> <span style = 'color: black;'>  tidigare</span> <span style = 'color: red; font-weight: bold;'> skogsmark</span> <span style = 'color: red; font-weight: bold;'> för</span> <span style = 'color: black;'>  andra</span> <span style = 'color: black;'>  markanvändningsformer</span> <span style = 'color: black;'>  (t.ex.</span> <span style = 'color: black;'>  jordbruk</span> <span style = 'color: black;'>  eller</span> <span style = 'color: black;'>  industri)</span> <span style = 'color: black;'>  utgör</span> <span style = 'color: black;'>  en</span> <span style = 'color: black;'>  betydande</span> <span style = 'color: black;'>  del</span> <span style = 'color: black;'>  av</span> <span style = 'color: black;'>  de</span> <span style = 'color: red; font-weight: bold;'> totala</span> <span style = 'color: black;'>  globala</span> <span style = 'color: black;'>  utsläppen</span> <span style = 'color: black;'>  (ca</span> <span style = 'color: red; font-weight: bold;'> 10-15</span> <span style = 'color: red; font-weight: bold;'> %).</span> <span style = 'color: red; font-weight: bold;'> Ett</span> <span style = 'color: red; font-weight: bold;'> hållbart</span> <span style = 'color: black;'>  skydd</span> <span style = 'color: black;'>  av</span> <span style = 'color: black;'>  befintliga</span> <span style = 'color: black;'>  skogar</span> <span style = 'color: black;'>  på</span> <span style = 'color: black;'>  alla</span> <span style = 'color: black;'>  kontinenter</span> <span style = 'color: black;'>  kan</span> <span style = 'color: black;'>  dock</span> <span style = 'color: black;'>  inte</span> <span style = 'color: black;'>  bara</span> <span style = 'color: black;'>  bidra</span> <span style = 'color: black;'>  positivt</span> <span style = 'color: black;'>  till</span> <span style = 'color: red; font-weight: bold;'> koldioxidbalansen,</span> <span style = 'color: black;'>  utan</span> <span style = 'color: black;'>  har</span> <span style = 'color: black;'>  också</span> <span style = 'color: black;'>  stor</span> <span style = 'color: black;'>  inverkan</span> <span style = 'color: black;'>  på</span> <span style = 'color: black;'>  bevarandet</span> <span style = 'color: black;'>  av</span> <span style = 'color: black;'>  biologisk</span> <span style = 'color: black;'>  mångfald,</span> <span style = 'color: black;'>  luftkvalitet</span> <span style = 'color: black;'>  och</span> <span style = 'color: black;'>  andra</span> <span style = 'color: black;'>  hållbarhetsmål.</span> <span style = 'color: red; font-weight: bold;'> Att</span> <span style = 'color: red; font-weight: bold;'> stödja</span> <span style = 'color: black;'>  skogsskyddsprojekt</span> <span style = 'color: black;'>  har</span> <span style = 'color: red; font-weight: bold;'> därför</span> <span style = 'color: red; font-weight: bold;'> flera</span> <span style = 'color: black;'>  fördelar</span> <span style = 'color: black;'>  för</span> <span style = 'color: red; font-weight: bold;'> både</span> <span style = 'color: black;'>  natur</span> <span style = 'color: black;'>  och</span> <span style = 'color: red; font-weight: bold;'> människa</span> <span style = 'color: black;'>  (se</span> <span style = 'color: black;'>  nedan).</span> <span style = 'color: black;'>  Källa:</span> <span style = 'color: black;'>  drawdown.org</span><br><span class="sources">gcp/gemini-1.5-pro</span></td>
+                    <td class="back-translate"><span style = 'color: black;'>  Wälder</span> <span style = 'color: red; font-weight: bold;'> sind</span> <span style = 'color: red; font-weight: bold;'> wichtige</span> <span style = 'color: red; font-weight: bold;'> Kohlenstoffspeicher</span> <span style = 'color: red; font-weight: bold;'> aufgrund</span> <span style = 'color: red; font-weight: bold;'> ihrer</span> <span style = 'color: black;'>  Biomasse</span> <span style = 'color: black;'>  und</span> <span style = 'color: red; font-weight: bold;'> ihres</span> <span style = 'color: red; font-weight: bold;'> Bodens.</span> <span style = 'color: black;'>  Ein</span> <span style = 'color: black;'>  effektiver</span> <span style = 'color: black;'>  Waldschutz</span> <span style = 'color: black;'>  verhindert</span> <span style = 'color: black;'>  Emissionen,</span> <span style = 'color: red; font-weight: bold;'> die</span> <span style = 'color: black;'>  durch</span> <span style = 'color: red; font-weight: bold;'> Abholzung</span> <span style = 'color: black;'>  entstehen</span> <span style = 'color: red; font-weight: bold;'> könnten,</span> <span style = 'color: black;'>  und</span> <span style = 'color: black;'>  ermöglicht</span> <span style = 'color: black;'>  somit</span> <span style = 'color: black;'>  eine</span> <span style = 'color: black;'>  kontinuierliche</span> <span style = 'color: black;'>  Kohlenstoffspeicherung.</span> <span style = 'color: black;'>  Die</span> <span style = 'color: black;'>  Emissionen</span> <span style = 'color: red; font-weight: bold;'> aus</span> <span style = 'color: red; font-weight: bold;'> der</span> <span style = 'color: red; font-weight: bold;'> Abholzung</span> <span style = 'color: black;'>  und</span> <span style = 'color: red; font-weight: bold;'> der</span> <span style = 'color: black;'>  damit</span> <span style = 'color: red; font-weight: bold;'> verbundenen</span> <span style = 'color: black;'>  Umwandlung</span> <span style = 'color: red; font-weight: bold;'> ehemaliger</span> <span style = 'color: black;'>  Waldflächen</span> <span style = 'color: red; font-weight: bold;'> in</span> <span style = 'color: black;'>  andere</span> <span style = 'color: red; font-weight: bold;'> Nutzungsformen</span> <span style = 'color: red; font-weight: bold;'> (z.B.</span> <span style = 'color: black;'>  Landwirtschaft</span> <span style = 'color: black;'>  oder</span> <span style = 'color: black;'>  Industrie)</span> <span style = 'color: black;'>  machen</span> <span style = 'color: black;'>  einen</span> <span style = 'color: red; font-weight: bold;'> bedeutenden</span> <span style = 'color: black;'>  Teil</span> <span style = 'color: black;'>  der</span> <span style = 'color: red; font-weight: bold;'> globalen</span> <span style = 'color: black;'>  Gesamtemissionen</span> <span style = 'color: black;'>  aus</span> <span style = 'color: black;'>  (ca.</span> <span style = 'color: red; font-weight: bold;'> 10-15%).</span> <span style = 'color: black;'>  Der</span> <span style = 'color: black;'>  nachhaltige</span> <span style = 'color: black;'>  Schutz</span> <span style = 'color: black;'>  bestehender</span> <span style = 'color: black;'>  Wälder</span> <span style = 'color: black;'>  auf</span> <span style = 'color: black;'>  allen</span> <span style = 'color: black;'>  Kontinenten</span> <span style = 'color: black;'>  der</span> <span style = 'color: red; font-weight: bold;'> Welt</span> <span style = 'color: black;'>  kann</span> <span style = 'color: black;'>  jedoch</span> <span style = 'color: black;'>  nicht</span> <span style = 'color: black;'>  nur</span> <span style = 'color: black;'>  positiv</span> <span style = 'color: black;'>  zur</span> <span style = 'color: black;'>  Kohlenstoffbilanz</span> <span style = 'color: black;'>  beitragen,</span> <span style = 'color: black;'>  sondern</span> <span style = 'color: black;'>  hat</span> <span style = 'color: black;'>  auch</span> <span style = 'color: black;'>  große</span> <span style = 'color: black;'>  Auswirkungen</span> <span style = 'color: black;'>  auf</span> <span style = 'color: black;'>  den</span> <span style = 'color: black;'>  Erhalt</span> <span style = 'color: red; font-weight: bold;'> der</span> <span style = 'color: red; font-weight: bold;'> biologischen</span> <span style = 'color: red; font-weight: bold;'> Vielfalt,</span> <span style = 'color: black;'>  die</span> <span style = 'color: black;'>  Luftqualität</span> <span style = 'color: black;'>  und</span> <span style = 'color: red; font-weight: bold;'> andere</span> <span style = 'color: black;'>  Nachhaltigkeitsziele.</span> <span style = 'color: black;'>  Die</span> <span style = 'color: red; font-weight: bold;'> Finanzierung</span> <span style = 'color: black;'>  von</span> <span style = 'color: red; font-weight: bold;'> Waldschutzprojekten</span> <span style = 'color: black;'>  hat</span> <span style = 'color: red; font-weight: bold;'> somit</span> <span style = 'color: red; font-weight: bold;'> verschiedene</span> <span style = 'color: black;'>  Vorteile</span> <span style = 'color: black;'>  für</span> <span style = 'color: red; font-weight: bold;'> die</span> <span style = 'color: black;'>  Natur</span> <span style = 'color: black;'>  und</span> <span style = 'color: red; font-weight: bold;'> die</span> <span style = 'color: red; font-weight: bold;'> Menschen</span> <span style = 'color: black;'>  (siehe</span> <span style = 'color: black;'>  unten).</span> <span style = 'color: black;'>  Quelle:</span> <span style = 'color: black;'>  drawdown.org</span></td>
+
+
+
+                    <td class="compare">1</td>
+
+                    <td class="compare">1</td>
+
+                    <td class="compare">1</td>
+
+                </tr>
+            
+                <tr>
+                    <td class="endtd source">Nachhaltiges und langfristiges Management der Wälder kann Arbeitsplätze schaffen und damit Einkommen für die lokale Bevölkerung generieren</td>
+
+
+                    <td class="translate"><span style = 'color: black;'>  Hållbar</span> <span style = 'color: black;'>  och</span> <span style = 'color: black;'>  långsiktig</span> <span style = 'color: red; font-weight: bold;'> skötsel</span> <span style = 'color: black;'>  av</span> <span style = 'color: red; font-weight: bold;'> skogar</span> <span style = 'color: black;'>  kan</span> <span style = 'color: black;'>  skapa</span> <span style = 'color: black;'>  arbetstillfällen</span> <span style = 'color: black;'>  och</span> <span style = 'color: black;'>  därmed</span> <span style = 'color: black;'>  generera</span> <span style = 'color: black;'>  inkomster</span> <span style = 'color: black;'>  för</span> <span style = 'color: red; font-weight: bold;'> lokalbefolkningen</span><br><span class="sources">gcp/gemini-1.5-pro</span></td>
+                    <td class="back-translate"><span style = 'color: red; font-weight: bold;'> Nachhaltige</span> <span style = 'color: black;'>  und</span> <span style = 'color: red; font-weight: bold;'> langfristige</span> <span style = 'color: red; font-weight: bold;'> Bewirtschaftung</span> <span style = 'color: black;'>  der</span> <span style = 'color: black;'>  Wälder</span> <span style = 'color: black;'>  kann</span> <span style = 'color: black;'>  Arbeitsplätze</span> <span style = 'color: black;'>  schaffen</span> <span style = 'color: black;'>  und</span> <span style = 'color: red; font-weight: bold;'> somit</span> <span style = 'color: black;'>  Einkommen</span> <span style = 'color: black;'>  für</span> <span style = 'color: black;'>  die</span> <span style = 'color: black;'>  lokale</span> <span style = 'color: black;'>  Bevölkerung</span> <span style = 'color: black;'>  generieren</span></td>
+
+
+
+                    <td class="winner"><span style = 'color: black;'>  Hållbar</span> <span style = 'color: black;'>  och</span> <span style = 'color: black;'>  långsiktig</span> <span style = 'color: red; font-weight: bold;'> förvaltning</span> <span style = 'color: black;'>  av</span> <span style = 'color: red; font-weight: bold;'> skogarna</span> <span style = 'color: black;'>  kan</span> <span style = 'color: black;'>  skapa</span> <span style = 'color: black;'>  arbetstillfällen</span> <span style = 'color: black;'>  och</span> <span style = 'color: black;'>  därmed</span> <span style = 'color: black;'>  generera</span> <span style = 'color: black;'>  inkomster</span> <span style = 'color: black;'>  för</span> <span style = 'color: red; font-weight: bold;'> den</span> <span style = 'color: red; font-weight: bold;'> lokala</span> <span style = 'color: red; font-weight: bold;'> befolkningen</span><br><span class="sources">azure/gpt-4o</span></td>
+                    <td class="back-translate"><span style = 'color: red; font-weight: bold;'> Nachhaltige</span> <span style = 'color: black;'>  und</span> <span style = 'color: red; font-weight: bold;'> langfristige</span> <span style = 'color: red; font-weight: bold;'> Bewirtschaftung</span> <span style = 'color: red; font-weight: bold;'> von</span> <span style = 'color: red; font-weight: bold;'> Wäldern</span> <span style = 'color: black;'>  kann</span> <span style = 'color: black;'>  Arbeitsplätze</span> <span style = 'color: black;'>  schaffen</span> <span style = 'color: black;'>  und</span> <span style = 'color: red; font-weight: bold;'> somit</span> <span style = 'color: black;'>  Einkommen</span> <span style = 'color: black;'>  für</span> <span style = 'color: black;'>  die</span> <span style = 'color: black;'>  lokale</span> <span style = 'color: black;'>  Bevölkerung</span> <span style = 'color: black;'>  generieren</span></td>
+
+
+
+                    <td class="compare">2</td>
+
+                    <td class="compare">2</td>
+
+                    <td class="compare">1</td>
+
+                </tr>
+            
+                <tr>
+                    <td class="endtd source">Wälder beherbergen viele wilde Nahrungsmittel wie Beeren, Nüsse, Pilze und Blätter und sorgen damit für Ernährungssicherheit vor allem der ländlichen Gemeinden und indigenen Gruppen</td>
+
+
+                    <td class="winner"><span style = 'color: black;'>  Skogar</span> <span style = 'color: red; font-weight: bold;'> hyser</span> <span style = 'color: black;'>  många</span> <span style = 'color: black;'>  vilda</span> <span style = 'color: black;'>  livsmedel</span> <span style = 'color: black;'>  som</span> <span style = 'color: black;'>  bär,</span> <span style = 'color: black;'>  nötter,</span> <span style = 'color: black;'>  svampar</span> <span style = 'color: black;'>  och</span> <span style = 'color: red; font-weight: bold;'> blad</span> <span style = 'color: red; font-weight: bold;'> och</span> <span style = 'color: black;'>  säkerställer</span> <span style = 'color: red; font-weight: bold;'> därmed</span> <span style = 'color: red; font-weight: bold;'> livsmedelsförsörjning,</span> <span style = 'color: black;'>  särskilt</span> <span style = 'color: black;'>  för</span> <span style = 'color: red; font-weight: bold;'> landsbygdsbefolkningar</span> <span style = 'color: black;'>  och</span> <span style = 'color: black;'>  ursprungsbefolkningar</span><br><span class="sources">gcp/gemini-1.5-pro</span></td>
+                    <td class="back-translate"><span style = 'color: black;'>  Wälder</span> <span style = 'color: black;'>  beherbergen</span> <span style = 'color: black;'>  viele</span> <span style = 'color: black;'>  wilde</span> <span style = 'color: black;'>  Nahrungsmittel</span> <span style = 'color: black;'>  wie</span> <span style = 'color: black;'>  Beeren,</span> <span style = 'color: black;'>  Nüsse,</span> <span style = 'color: black;'>  Pilze</span> <span style = 'color: black;'>  und</span> <span style = 'color: black;'>  Blätter</span> <span style = 'color: black;'>  und</span> <span style = 'color: red; font-weight: bold;'> gewährleisten</span> <span style = 'color: red; font-weight: bold;'> so</span> <span style = 'color: red; font-weight: bold;'> die</span> <span style = 'color: red; font-weight: bold;'> Ernährungssicherheit</span> <span style = 'color: red; font-weight: bold;'> insbesondere</span> <span style = 'color: black;'>  für</span> <span style = 'color: red; font-weight: bold;'> ländliche</span> <span style = 'color: red; font-weight: bold;'> Gemeinschaften</span> <span style = 'color: black;'>  und</span> <span style = 'color: red; font-weight: bold;'> indigene</span> <span style = 'color: black;'>  Gruppen</span></td>
+
+
+
+                    <td class="translate"><span style = 'color: black;'>  Skogar</span> <span style = 'color: red; font-weight: bold;'> rymmer</span> <span style = 'color: black;'>  många</span> <span style = 'color: black;'>  vilda</span> <span style = 'color: black;'>  livsmedel</span> <span style = 'color: black;'>  som</span> <span style = 'color: black;'>  bär,</span> <span style = 'color: black;'>  nötter,</span> <span style = 'color: black;'>  svampar</span> <span style = 'color: black;'>  och</span> <span style = 'color: red; font-weight: bold;'> blad,</span> <span style = 'color: red; font-weight: bold;'> vilket</span> <span style = 'color: black;'>  säkerställer</span> <span style = 'color: red; font-weight: bold;'> livsmedelssäkerhet</span> <span style = 'color: black;'>  särskilt</span> <span style = 'color: black;'>  för</span> <span style = 'color: red; font-weight: bold;'> landsbygdssamhällen</span> <span style = 'color: black;'>  och</span> <span style = 'color: black;'>  ursprungsbefolkningar</span><br><span class="sources">azure/gpt-4o</span></td>
+                    <td class="back-translate"><span style = 'color: black;'>  Wälder</span> <span style = 'color: black;'>  beherbergen</span> <span style = 'color: black;'>  viele</span> <span style = 'color: black;'>  wilde</span> <span style = 'color: black;'>  Nahrungsmittel</span> <span style = 'color: black;'>  wie</span> <span style = 'color: black;'>  Beeren,</span> <span style = 'color: black;'>  Nüsse,</span> <span style = 'color: black;'>  Pilze</span> <span style = 'color: black;'>  und</span> <span style = 'color: black;'>  Blätter</span> <span style = 'color: black;'>  und</span> <span style = 'color: red; font-weight: bold;'> gewährleisten</span> <span style = 'color: black;'>  damit</span> <span style = 'color: red; font-weight: bold;'> die</span> <span style = 'color: red; font-weight: bold;'> Ernährungssicherheit,</span> <span style = 'color: red; font-weight: bold;'> insbesondere</span> <span style = 'color: black;'>  für</span> <span style = 'color: red; font-weight: bold;'> ländliche</span> <span style = 'color: red; font-weight: bold;'> Gemeinschaften</span> <span style = 'color: black;'>  und</span> <span style = 'color: red; font-weight: bold;'> indigene</span> <span style = 'color: red; font-weight: bold;'> Völker</span></td>
+
+
+
+                    <td class="compare">1</td>
+
+                    <td class="compare">1</td>
+
+                    <td class="compare">1</td>
+
+                </tr>
+            
+                <tr>
+                    <td class="endtd source">Der Schutz von Wäldern ist oft auch der Schutz des Lebensraums indigener Bevölkerungsgruppen und somit die Wahrung ihrer grundlegenden Menschenrechte und Traditionen</td>
+
+
+                    <td class="winner"><span style = 'color: black;'>  Skyddet</span> <span style = 'color: black;'>  av</span> <span style = 'color: black;'>  skogar</span> <span style = 'color: black;'>  är</span> <span style = 'color: black;'>  ofta</span> <span style = 'color: black;'>  också</span> <span style = 'color: black;'>  skyddet</span> <span style = 'color: black;'>  av</span> <span style = 'color: red; font-weight: bold;'> ursprungsbefolkningars</span> <span style = 'color: red; font-weight: bold;'> livsmiljöer</span> <span style = 'color: black;'>  och</span> <span style = 'color: black;'>  därmed</span> <span style = 'color: black;'>  bevarandet</span> <span style = 'color: black;'>  av</span> <span style = 'color: black;'>  deras</span> <span style = 'color: black;'>  grundläggande</span> <span style = 'color: black;'>  mänskliga</span> <span style = 'color: black;'>  rättigheter</span> <span style = 'color: black;'>  och</span> <span style = 'color: black;'>  traditioner</span><br><span class="sources">gcp/gemini-1.5-pro</span></td>
+                    <td class="back-translate"><span style = 'color: black;'>  Der</span> <span style = 'color: black;'>  Schutz</span> <span style = 'color: red; font-weight: bold;'> der</span> <span style = 'color: red; font-weight: bold;'> Wälder</span> <span style = 'color: black;'>  ist</span> <span style = 'color: black;'>  oft</span> <span style = 'color: black;'>  auch</span> <span style = 'color: black;'>  der</span> <span style = 'color: black;'>  Schutz</span> <span style = 'color: black;'>  des</span> <span style = 'color: black;'>  Lebensraums</span> <span style = 'color: black;'>  indigener</span> <span style = 'color: red; font-weight: bold;'> Völker</span> <span style = 'color: black;'>  und</span> <span style = 'color: red; font-weight: bold;'> damit</span> <span style = 'color: black;'>  die</span> <span style = 'color: black;'>  Wahrung</span> <span style = 'color: black;'>  ihrer</span> <span style = 'color: black;'>  grundlegenden</span> <span style = 'color: black;'>  Menschenrechte</span> <span style = 'color: black;'>  und</span> <span style = 'color: black;'>  Traditionen</span></td>
+
+
+
+                    <td class="translate"><span style = 'color: black;'>  Skyddet</span> <span style = 'color: black;'>  av</span> <span style = 'color: black;'>  skogar</span> <span style = 'color: black;'>  är</span> <span style = 'color: black;'>  ofta</span> <span style = 'color: black;'>  också</span> <span style = 'color: black;'>  skyddet</span> <span style = 'color: black;'>  av</span> <span style = 'color: red; font-weight: bold;'> ursprungsbefolkningens</span> <span style = 'color: red; font-weight: bold;'> livsmiljö</span> <span style = 'color: black;'>  och</span> <span style = 'color: black;'>  därmed</span> <span style = 'color: black;'>  bevarandet</span> <span style = 'color: black;'>  av</span> <span style = 'color: black;'>  deras</span> <span style = 'color: black;'>  grundläggande</span> <span style = 'color: black;'>  mänskliga</span> <span style = 'color: black;'>  rättigheter</span> <span style = 'color: black;'>  och</span> <span style = 'color: black;'>  traditioner</span><br><span class="sources">azure/gpt-4o</span></td>
+                    <td class="back-translate"><span style = 'color: black;'>  Der</span> <span style = 'color: black;'>  Schutz</span> <span style = 'color: red; font-weight: bold;'> der</span> <span style = 'color: red; font-weight: bold;'> Wälder</span> <span style = 'color: black;'>  ist</span> <span style = 'color: black;'>  oft</span> <span style = 'color: black;'>  auch</span> <span style = 'color: black;'>  der</span> <span style = 'color: black;'>  Schutz</span> <span style = 'color: black;'>  des</span> <span style = 'color: black;'>  Lebensraums</span> <span style = 'color: black;'>  indigener</span> <span style = 'color: red; font-weight: bold;'> Völker</span> <span style = 'color: black;'>  und</span> <span style = 'color: red; font-weight: bold;'> damit</span> <span style = 'color: black;'>  die</span> <span style = 'color: black;'>  Wahrung</span> <span style = 'color: black;'>  ihrer</span> <span style = 'color: black;'>  grundlegenden</span> <span style = 'color: black;'>  Menschenrechte</span> <span style = 'color: black;'>  und</span> <span style = 'color: black;'>  Traditionen</span></td>
+
+
+
+                    <td class="compare">1</td>
+
+                    <td class="compare">1</td>
+
+                    <td class="compare">2</td>
+
+                </tr>
+            
+                <tr>
+                    <td class="endtd source">Speichern Kohlenstoff und sorgen so für eine bessere Treibhausgasbilanz</td>
+
+
+                    <td class="translate"><span style = 'color: black;'>  Lagrar</span> <span style = 'color: black;'>  kol</span> <span style = 'color: black;'>  och</span> <span style = 'color: red; font-weight: bold;'> säkerställer</span> <span style = 'color: black;'>  därmed</span> <span style = 'color: black;'>  en</span> <span style = 'color: black;'>  bättre</span> <span style = 'color: red; font-weight: bold;'> klimatpåverkan</span><br><span class="sources">gcp/gemini-1.5-pro</span></td>
+                    <td class="back-translate"><span style = 'color: red; font-weight: bold;'> Speichert</span> <span style = 'color: black;'>  Kohlenstoff</span> <span style = 'color: black;'>  und</span> <span style = 'color: red; font-weight: bold;'> sorgt</span> <span style = 'color: red; font-weight: bold;'> somit</span> <span style = 'color: black;'>  für</span> <span style = 'color: black;'>  eine</span> <span style = 'color: black;'>  bessere</span> <span style = 'color: black;'>  Treibhausgasbilanz</span></td>
+
+
+
+                    <td class="winner"><span style = 'color: black;'>  Lagrar</span> <span style = 'color: black;'>  kol</span> <span style = 'color: black;'>  och</span> <span style = 'color: red; font-weight: bold;'> ger</span> <span style = 'color: black;'>  därmed</span> <span style = 'color: black;'>  en</span> <span style = 'color: black;'>  bättre</span> <span style = 'color: red; font-weight: bold;'> växthusgasbalans</span><br><span class="sources">azure/gpt-4o</span></td>
+                    <td class="back-translate"><span style = 'color: red; font-weight: bold;'> Speichert</span> <span style = 'color: black;'>  Kohlenstoff</span> <span style = 'color: black;'>  und</span> <span style = 'color: red; font-weight: bold;'> sorgt</span> <span style = 'color: red; font-weight: bold;'> somit</span> <span style = 'color: black;'>  für</span> <span style = 'color: black;'>  eine</span> <span style = 'color: black;'>  bessere</span> <span style = 'color: black;'>  Treibhausgasbilanz</span></td>
+
+
+
+                    <td class="compare">2</td>
+
+                    <td class="compare">2</td>
+
+                    <td class="compare">2</td>
+
+                </tr>
+            
+                <tr>
+                    <td class="endtd source">Wälder sind Heimat unzähliger Tiere und Pflanzen, d. h. die Artenvielfalt wird geschützt und wiederhergestellt</td>
+
+
+                    <td class="winner"><span style = 'color: black;'>  Skogar</span> <span style = 'color: black;'>  är</span> <span style = 'color: black;'>  hem</span> <span style = 'color: black;'>  för</span> <span style = 'color: black;'>  otaliga</span> <span style = 'color: black;'>  djur</span> <span style = 'color: black;'>  och</span> <span style = 'color: black;'>  växter,</span> <span style = 'color: red; font-weight: bold;'> d.v.s.</span> <span style = 'color: red; font-weight: bold;'> den</span> <span style = 'color: red; font-weight: bold;'> biologiska</span> <span style = 'color: red; font-weight: bold;'> mångfalden</span> <span style = 'color: black;'>  skyddas</span> <span style = 'color: black;'>  och</span> <span style = 'color: black;'>  återställs</span><br><span class="sources">gcp/gemini-1.5-pro</span></td>
+                    <td class="back-translate"><span style = 'color: black;'>  Wälder</span> <span style = 'color: black;'>  sind</span> <span style = 'color: red; font-weight: bold;'> die</span> <span style = 'color: black;'>  Heimat</span> <span style = 'color: black;'>  unzähliger</span> <span style = 'color: red; font-weight: bold;'> Tier-</span> <span style = 'color: black;'>  und</span> <span style = 'color: red; font-weight: bold;'> Pflanzenarten,</span> <span style = 'color: black;'>  d.</span> <span style = 'color: black;'>  h.</span> <span style = 'color: black;'>  die</span> <span style = 'color: red; font-weight: bold;'> biologische</span> <span style = 'color: red; font-weight: bold;'> Vielfalt</span> <span style = 'color: black;'>  wird</span> <span style = 'color: black;'>  geschützt</span> <span style = 'color: black;'>  und</span> <span style = 'color: black;'>  wiederhergestellt</span></td>
+
+
+
+                    <td class="translate"><span style = 'color: black;'>  Skogar</span> <span style = 'color: black;'>  är</span> <span style = 'color: black;'>  hem</span> <span style = 'color: black;'>  för</span> <span style = 'color: black;'>  otaliga</span> <span style = 'color: black;'>  djur</span> <span style = 'color: black;'>  och</span> <span style = 'color: black;'>  växter,</span> <span style = 'color: red; font-weight: bold;'> dvs.</span> <span style = 'color: red; font-weight: bold;'> biologisk</span> <span style = 'color: red; font-weight: bold;'> mångfald</span> <span style = 'color: black;'>  skyddas</span> <span style = 'color: black;'>  och</span> <span style = 'color: black;'>  återställs</span><br><span class="sources">azure/gpt-4o</span></td>
+                    <td class="back-translate"><span style = 'color: black;'>  Wälder</span> <span style = 'color: black;'>  sind</span> <span style = 'color: black;'>  Heimat</span> <span style = 'color: black;'>  unzähliger</span> <span style = 'color: black;'>  Tiere</span> <span style = 'color: black;'>  und</span> <span style = 'color: black;'>  Pflanzen,</span> <span style = 'color: red; font-weight: bold;'> d.h.</span> <span style = 'color: black;'>  die</span> <span style = 'color: red; font-weight: bold;'> Biodiversität</span> <span style = 'color: black;'>  wird</span> <span style = 'color: black;'>  geschützt</span> <span style = 'color: black;'>  und</span> <span style = 'color: black;'>  wiederhergestellt</span></td>
+
+
+
+                    <td class="compare">1</td>
+
+                    <td class="compare">1</td>
+
+                    <td class="compare">1</td>
+
+                </tr>
+            
+        </tbody>
+    </table>
+</body>
+</html>

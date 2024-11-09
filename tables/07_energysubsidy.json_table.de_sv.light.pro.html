@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <style>
+        @page {
+            size: A4 landscape;
+        }
+    </style>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-family: verdana, serif;
+            font-size:12px;
+            border: 1px solid white;
+            transform-origin: top left;
+        }
+        th, td {
+            border-bottom:3px solid white;
+            border-right:3px solid white;
+            padding: 15px;
+            text-align: left;
+        }
+        th {
+            background-color: darkgray;
+        }
+        td {
+            background-color: lightgray;
+        }
+        .endtd {
+            border-right: 3px solid darkgray;
+        }
+        .translate {
+            background-color: lightblue;
+        }
+        .back-translate {
+            background-color: lightgrey;
+        }
+        .winner {
+            background-color: lightpink;
+        }
+        .compare {
+            background-color: lightsteelblue;
+        }
+        .source {
+            background-color: palegoldenrod;
+        }
+        .empty {
+            background-color: lightgrey;
+        }
+        .sources {
+            font-weight: bold;
+            font-size: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>07_energysubsidy.json</h1>
+    <table>
+        <thead>
+            <tr>
+                
+                    <th>source text</th>
+                
+                    <th>--- 0 ---</th>
+                
+                    <th></th>
+                
+                    <th>--- 1 ---</th>
+                
+                    <th></th>
+                
+                    <th>azure/gpt-4o</th>
+                
+                    <th>gcp/gemini-1.5-pro</th>
+                
+                    <th>aws/claude-3.5-sonnet</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            
+                <tr>
+                    <td class="endtd source">Abstimmung über ein Bürger-Energiegeld</td>
+
+
+                    <td class="winner"><span style = 'color: black;'>  Omröstning</span> <span style = 'color: black;'>  om</span> <span style = 'color: red; font-weight: bold;'> ett</span> <span style = 'color: red; font-weight: bold;'> medborgarenergi-bidrag</span><br><span class="sources">azure/gpt-4o</span></td>
+                    <td class="back-translate"><span style = 'color: black;'>  Abstimmung</span> <span style = 'color: black;'>  über</span> <span style = 'color: red; font-weight: bold;'> eine</span> <span style = 'color: red; font-weight: bold;'> Energiesubvention</span> <span style = 'color: red; font-weight: bold;'> für</span> <span style = 'color: red; font-weight: bold;'> Bürger</span></td>
+
+
+
+                    <td class="translate"><span style = 'color: black;'>  Omröstning</span> <span style = 'color: black;'>  om</span> <span style = 'color: red; font-weight: bold;'> energiestöd</span> <span style = 'color: red; font-weight: bold;'> till</span> <span style = 'color: red; font-weight: bold;'> medborgare</span><br><span class="sources">gcp/gemini-1.5-pro</span></td>
+                    <td class="back-translate"><span style = 'color: black;'>  Abstimmung</span> <span style = 'color: black;'>  über</span> <span style = 'color: red; font-weight: bold;'> einen</span> <span style = 'color: red; font-weight: bold;'> Energiezuschuss</span> <span style = 'color: red; font-weight: bold;'> für</span> <span style = 'color: red; font-weight: bold;'> Bürger</span></td>
+
+
+
+                    <td class="compare">2</td>
+
+                    <td class="compare">1</td>
+
+                    <td class="compare">1</td>
+
+                </tr>
+            
+                <tr>
+                    <td class="endtd source">Die Preissteigerungen bei Energie treffen vor allem die Geringverdiener hart.
+Anstatt Energie allgemein zu subventionieren könnte der Staat allen Bürgern gleichmäßig den Mindestbedarf an Energie subventionieren. Dadurch würden Geringverdiener entlastet, gleichzeitig die Marktmechanismen erhalten, die Sparsamkeit durch hohe Preise bewirken und die Energiekonzerne daran gehindert, die Subvention selbst einzustreichen.
+
+Um die Kosten dafür zu decken, kommen Steuererhöhungen oder (vor allem bei einer temporären Maßnahme) neue Staatsschulden infrage.</td>
+
+
+                    <td class="translate"><span style = 'color: black;'>  Prisökningarna</span> <span style = 'color: black;'>  på</span> <span style = 'color: black;'>  energi</span> <span style = 'color: black;'>  drabbar</span> <span style = 'color: black;'>  framför</span> <span style = 'color: black;'>  allt</span> <span style = 'color: black;'>  låginkomsttagare</span> <span style = 'color: black;'>  hårt.</span> <span style = 'color: black;'>  Istället</span> <span style = 'color: black;'>  för</span> <span style = 'color: black;'>  att</span> <span style = 'color: black;'>  subventionera</span> <span style = 'color: black;'>  energi</span> <span style = 'color: black;'>  generellt</span> <span style = 'color: black;'>  skulle</span> <span style = 'color: black;'>  staten</span> <span style = 'color: black;'>  kunna</span> <span style = 'color: black;'>  subventionera</span> <span style = 'color: red; font-weight: bold;'> det</span> <span style = 'color: red; font-weight: bold;'> minsta</span> <span style = 'color: red; font-weight: bold;'> energibehovet</span> <span style = 'color: red; font-weight: bold;'> för</span> <span style = 'color: black;'>  alla</span> <span style = 'color: red; font-weight: bold;'> medborgare</span> <span style = 'color: black;'>  lika.</span> <span style = 'color: red; font-weight: bold;'> Detta</span> <span style = 'color: black;'>  skulle</span> <span style = 'color: black;'>  avlasta</span> <span style = 'color: black;'>  låginkomsttagare,</span> <span style = 'color: black;'>  samtidigt</span> <span style = 'color: black;'>  som</span> <span style = 'color: red; font-weight: bold;'> marknadsmekanismerna</span> <span style = 'color: black;'>  som</span> <span style = 'color: red; font-weight: bold;'> främjar</span> <span style = 'color: black;'>  sparsamhet</span> <span style = 'color: black;'>  genom</span> <span style = 'color: black;'>  höga</span> <span style = 'color: black;'>  priser</span> <span style = 'color: red; font-weight: bold;'> bevaras</span> <span style = 'color: black;'>  och</span> <span style = 'color: black;'>  energibolagen</span> <span style = 'color: red; font-weight: bold;'> hindras</span> <span style = 'color: black;'>  från</span> <span style = 'color: black;'>  att</span> <span style = 'color: black;'>  själva</span> <span style = 'color: red; font-weight: bold;'> ta</span> <span style = 'color: red; font-weight: bold;'> del</span> <span style = 'color: red; font-weight: bold;'> av</span> <span style = 'color: red; font-weight: bold;'> subventionen.</span> <span style = 'color: black;'>  För</span> <span style = 'color: black;'>  att</span> <span style = 'color: black;'>  täcka</span> <span style = 'color: black;'>  kostnaderna</span> <span style = 'color: black;'>  för</span> <span style = 'color: black;'>  detta</span> <span style = 'color: black;'>  kan</span> <span style = 'color: black;'>  skattehöjningar</span> <span style = 'color: black;'>  eller</span> <span style = 'color: black;'>  (särskilt</span> <span style = 'color: black;'>  vid</span> <span style = 'color: black;'>  en</span> <span style = 'color: black;'>  tillfällig</span> <span style = 'color: black;'>  åtgärd)</span> <span style = 'color: black;'>  nya</span> <span style = 'color: black;'>  statsskulder</span> <span style = 'color: red; font-weight: bold;'> vara</span> <span style = 'color: red; font-weight: bold;'> möjliga</span> <span style = 'color: red; font-weight: bold;'> alternativ</span><br><span class="sources">azure/gpt-4o</span></td>
+                    <td class="back-translate"><span style = 'color: black;'>  Die</span> <span style = 'color: red; font-weight: bold;'> Preiserhöhungen</span> <span style = 'color: red; font-weight: bold;'> für</span> <span style = 'color: black;'>  Energie</span> <span style = 'color: black;'>  treffen</span> <span style = 'color: black;'>  vor</span> <span style = 'color: black;'>  allem</span> <span style = 'color: black;'>  Geringverdiener</span> <span style = 'color: black;'>  hart.</span> <span style = 'color: black;'>  Anstatt</span> <span style = 'color: black;'>  Energie</span> <span style = 'color: red; font-weight: bold;'> generell</span> <span style = 'color: black;'>  zu</span> <span style = 'color: red; font-weight: bold;'> subventionieren,</span> <span style = 'color: black;'>  könnte</span> <span style = 'color: black;'>  der</span> <span style = 'color: black;'>  Staat</span> <span style = 'color: black;'>  den</span> <span style = 'color: red; font-weight: bold;'> minimalen</span> <span style = 'color: red; font-weight: bold;'> Energiebedarf</span> <span style = 'color: red; font-weight: bold;'> aller</span> <span style = 'color: red; font-weight: bold;'> Bürger</span> <span style = 'color: red; font-weight: bold;'> gleichermaßen</span> <span style = 'color: black;'>  subventionieren.</span> <span style = 'color: red; font-weight: bold;'> Dies</span> <span style = 'color: red; font-weight: bold;'> würde</span> <span style = 'color: black;'>  Geringverdiener</span> <span style = 'color: red; font-weight: bold;'> entlasten,</span> <span style = 'color: red; font-weight: bold;'> während</span> <span style = 'color: black;'>  gleichzeitig</span> <span style = 'color: black;'>  die</span> <span style = 'color: red; font-weight: bold;'> Marktmechanismen,</span> <span style = 'color: black;'>  die</span> <span style = 'color: black;'>  durch</span> <span style = 'color: black;'>  hohe</span> <span style = 'color: black;'>  Preise</span> <span style = 'color: red; font-weight: bold;'> Sparsamkeit</span> <span style = 'color: red; font-weight: bold;'> fördern,</span> <span style = 'color: red; font-weight: bold;'> erhalten</span> <span style = 'color: red; font-weight: bold;'> bleiben</span> <span style = 'color: black;'>  und</span> <span style = 'color: black;'>  die</span> <span style = 'color: red; font-weight: bold;'> Energieunternehmen</span> <span style = 'color: black;'>  daran</span> <span style = 'color: red; font-weight: bold;'> gehindert</span> <span style = 'color: red; font-weight: bold;'> werden,</span> <span style = 'color: black;'>  die</span> <span style = 'color: black;'>  Subvention</span> <span style = 'color: black;'>  selbst</span> <span style = 'color: red; font-weight: bold;'> zu</span> <span style = 'color: red; font-weight: bold;'> kassieren.</span> <span style = 'color: black;'>  Um</span> <span style = 'color: black;'>  die</span> <span style = 'color: black;'>  Kosten</span> <span style = 'color: black;'>  dafür</span> <span style = 'color: black;'>  zu</span> <span style = 'color: black;'>  decken,</span> <span style = 'color: red; font-weight: bold;'> könnten</span> <span style = 'color: black;'>  Steuererhöhungen</span> <span style = 'color: black;'>  oder</span> <span style = 'color: red; font-weight: bold;'> (insbesondere</span> <span style = 'color: black;'>  bei</span> <span style = 'color: black;'>  einer</span> <span style = 'color: red; font-weight: bold;'> vorübergehenden</span> <span style = 'color: black;'>  Maßnahme)</span> <span style = 'color: black;'>  neue</span> <span style = 'color: black;'>  Staatsschulden</span> <span style = 'color: red; font-weight: bold;'> mögliche</span> <span style = 'color: red; font-weight: bold;'> Alternativen</span> <span style = 'color: red; font-weight: bold;'> sein</span></td>
+
+
+
+                    <td class="winner"><span style = 'color: black;'>  Prisökningarna</span> <span style = 'color: black;'>  på</span> <span style = 'color: black;'>  energi</span> <span style = 'color: black;'>  drabbar</span> <span style = 'color: black;'>  framför</span> <span style = 'color: black;'>  allt</span> <span style = 'color: black;'>  låginkomsttagare</span> <span style = 'color: black;'>  hårt.</span> <span style = 'color: black;'>  Istället</span> <span style = 'color: black;'>  för</span> <span style = 'color: black;'>  att</span> <span style = 'color: black;'>  subventionera</span> <span style = 'color: black;'>  energi</span> <span style = 'color: black;'>  generellt</span> <span style = 'color: black;'>  skulle</span> <span style = 'color: black;'>  staten</span> <span style = 'color: black;'>  kunna</span> <span style = 'color: black;'>  subventionera</span> <span style = 'color: black;'>  alla</span> <span style = 'color: red; font-weight: bold;'> medborgares</span> <span style = 'color: red; font-weight: bold;'> minimibehov</span> <span style = 'color: red; font-weight: bold;'> av</span> <span style = 'color: red; font-weight: bold;'> energi</span> <span style = 'color: black;'>  lika.</span> <span style = 'color: red; font-weight: bold;'> Det</span> <span style = 'color: black;'>  skulle</span> <span style = 'color: black;'>  avlasta</span> <span style = 'color: black;'>  låginkomsttagare,</span> <span style = 'color: black;'>  samtidigt</span> <span style = 'color: black;'>  som</span> <span style = 'color: red; font-weight: bold;'> man</span> <span style = 'color: red; font-weight: bold;'> behåller</span> <span style = 'color: red; font-weight: bold;'> de</span> <span style = 'color: red; font-weight: bold;'> marknadsmekanismer</span> <span style = 'color: black;'>  som</span> <span style = 'color: red; font-weight: bold;'> leder</span> <span style = 'color: red; font-weight: bold;'> till</span> <span style = 'color: black;'>  sparsamhet</span> <span style = 'color: black;'>  genom</span> <span style = 'color: black;'>  höga</span> <span style = 'color: black;'>  priser</span> <span style = 'color: black;'>  och</span> <span style = 'color: red; font-weight: bold;'> hindrar</span> <span style = 'color: black;'>  energibolagen</span> <span style = 'color: black;'>  från</span> <span style = 'color: black;'>  att</span> <span style = 'color: black;'>  själva</span> <span style = 'color: red; font-weight: bold;'> stoppa</span> <span style = 'color: red; font-weight: bold;'> subventionerna</span> <span style = 'color: red; font-weight: bold;'> i</span> <span style = 'color: red; font-weight: bold;'> fickan.</span> <span style = 'color: black;'>  För</span> <span style = 'color: black;'>  att</span> <span style = 'color: black;'>  täcka</span> <span style = 'color: black;'>  kostnaderna</span> <span style = 'color: black;'>  för</span> <span style = 'color: black;'>  detta</span> <span style = 'color: black;'>  kan</span> <span style = 'color: black;'>  skattehöjningar</span> <span style = 'color: black;'>  eller</span> <span style = 'color: black;'>  (särskilt</span> <span style = 'color: black;'>  vid</span> <span style = 'color: black;'>  en</span> <span style = 'color: black;'>  tillfällig</span> <span style = 'color: black;'>  åtgärd)</span> <span style = 'color: black;'>  nya</span> <span style = 'color: black;'>  statsskulder</span> <span style = 'color: red; font-weight: bold;'> bli</span> <span style = 'color: red; font-weight: bold;'> aktuella</span><br><span class="sources">gcp/gemini-1.5-pro</span></td>
+                    <td class="back-translate"><span style = 'color: black;'>  Die</span> <span style = 'color: red; font-weight: bold;'> Preiserhöhungen</span> <span style = 'color: red; font-weight: bold;'> für</span> <span style = 'color: black;'>  Energie</span> <span style = 'color: black;'>  treffen</span> <span style = 'color: black;'>  vor</span> <span style = 'color: black;'>  allem</span> <span style = 'color: black;'>  Geringverdiener</span> <span style = 'color: black;'>  hart.</span> <span style = 'color: black;'>  Anstatt</span> <span style = 'color: black;'>  Energie</span> <span style = 'color: red; font-weight: bold;'> generell</span> <span style = 'color: black;'>  zu</span> <span style = 'color: red; font-weight: bold;'> subventionieren,</span> <span style = 'color: black;'>  könnte</span> <span style = 'color: black;'>  der</span> <span style = 'color: black;'>  Staat</span> <span style = 'color: red; font-weight: bold;'> die</span> <span style = 'color: red; font-weight: bold;'> Mindestenergiebedürfnisse</span> <span style = 'color: red; font-weight: bold;'> aller</span> <span style = 'color: red; font-weight: bold;'> Bürger</span> <span style = 'color: red; font-weight: bold;'> gleichermaßen</span> <span style = 'color: black;'>  subventionieren.</span> <span style = 'color: red; font-weight: bold;'> Dies</span> <span style = 'color: red; font-weight: bold;'> würde</span> <span style = 'color: black;'>  Geringverdiener</span> <span style = 'color: red; font-weight: bold;'> entlasten,</span> <span style = 'color: red; font-weight: bold;'> während</span> <span style = 'color: black;'>  gleichzeitig</span> <span style = 'color: black;'>  die</span> <span style = 'color: black;'>  Marktmechanismen</span> <span style = 'color: red; font-weight: bold;'> erhalten</span> <span style = 'color: red; font-weight: bold;'> bleiben,</span> <span style = 'color: black;'>  die</span> <span style = 'color: black;'>  durch</span> <span style = 'color: black;'>  hohe</span> <span style = 'color: black;'>  Preise</span> <span style = 'color: red; font-weight: bold;'> zur</span> <span style = 'color: red; font-weight: bold;'> Sparsamkeit</span> <span style = 'color: red; font-weight: bold;'> führen</span> <span style = 'color: black;'>  und</span> <span style = 'color: red; font-weight: bold;'> verhindern,</span> <span style = 'color: red; font-weight: bold;'> dass</span> <span style = 'color: black;'>  die</span> <span style = 'color: red; font-weight: bold;'> Energieunternehmen</span> <span style = 'color: black;'>  die</span> <span style = 'color: red; font-weight: bold;'> Subventionen</span> <span style = 'color: black;'>  selbst</span> <span style = 'color: red; font-weight: bold;'> einstecken.</span> <span style = 'color: black;'>  Um</span> <span style = 'color: black;'>  die</span> <span style = 'color: black;'>  Kosten</span> <span style = 'color: black;'>  dafür</span> <span style = 'color: black;'>  zu</span> <span style = 'color: black;'>  decken,</span> <span style = 'color: red; font-weight: bold;'> könnten</span> <span style = 'color: black;'>  Steuererhöhungen</span> <span style = 'color: black;'>  oder</span> <span style = 'color: red; font-weight: bold;'> (insbesondere</span> <span style = 'color: black;'>  bei</span> <span style = 'color: black;'>  einer</span> <span style = 'color: red; font-weight: bold;'> vorübergehenden</span> <span style = 'color: black;'>  Maßnahme)</span> <span style = 'color: black;'>  neue</span> <span style = 'color: black;'>  Staatsschulden</span> <span style = 'color: red; font-weight: bold;'> in</span> <span style = 'color: red; font-weight: bold;'> Betracht</span> <span style = 'color: red; font-weight: bold;'> gezogen</span> <span style = 'color: red; font-weight: bold;'> werden</span></td>
+
+
+
+                    <td class="compare">2</td>
+
+                    <td class="compare">2</td>
+
+                    <td class="compare">2</td>
+
+                </tr>
+            
+                <tr>
+                    <td class="endtd source">25% des Grundbedarfs werden vom Staat bezahlt</td>
+
+
+                    <td class="winner"><span style = 'color: red; font-weight: bold;'> 25</span> <span style = 'color: red; font-weight: bold;'> %</span> <span style = 'color: black;'>  av</span> <span style = 'color: red; font-weight: bold;'> basbehovet</span> <span style = 'color: black;'>  betalas</span> <span style = 'color: black;'>  av</span> <span style = 'color: black;'>  staten</span><br><span class="sources">gcp/gemini-1.5-pro</span></td>
+                    <td class="back-translate"><span style = 'color: red; font-weight: bold;'> 25</span> <span style = 'color: red; font-weight: bold;'> %</span> <span style = 'color: black;'>  des</span> <span style = 'color: black;'>  Grundbedarfs</span> <span style = 'color: black;'>  werden</span> <span style = 'color: black;'>  vom</span> <span style = 'color: black;'>  Staat</span> <span style = 'color: black;'>  bezahlt</span></td>
+
+
+
+                    <td class="translate"><span style = 'color: red; font-weight: bold;'> 25%</span> <span style = 'color: black;'>  av</span> <span style = 'color: red; font-weight: bold;'> grundbehoven</span> <span style = 'color: black;'>  betalas</span> <span style = 'color: black;'>  av</span> <span style = 'color: black;'>  staten</span><br><span class="sources">azure/gpt-4o</span></td>
+                    <td class="back-translate"><span style = 'color: red; font-weight: bold;'> 25</span> <span style = 'color: red; font-weight: bold;'> %</span> <span style = 'color: red; font-weight: bold;'> der</span> <span style = 'color: red; font-weight: bold;'> Grundbedürfnisse</span> <span style = 'color: black;'>  werden</span> <span style = 'color: black;'>  vom</span> <span style = 'color: black;'>  Staat</span> <span style = 'color: black;'>  bezahlt</span></td>
+
+
+
+                    <td class="compare">1</td>
+
+                    <td class="compare">1</td>
+
+                    <td class="compare">2</td>
+
+                </tr>
+            
+                <tr>
+                    <td class="endtd source">50% des Grundbedarfs werden vom Staat bezahlt</td>
+
+
+                    <td class="winner"><span style = 'color: black;'>  50</span> <span style = 'color: black;'>  %</span> <span style = 'color: black;'>  av</span> <span style = 'color: red; font-weight: bold;'> basbehovet</span> <span style = 'color: black;'>  betalas</span> <span style = 'color: black;'>  av</span> <span style = 'color: black;'>  staten</span><br><span class="sources">gcp/gemini-1.5-pro</span></td>
+                    <td class="back-translate"><span style = 'color: red; font-weight: bold;'> 50</span> <span style = 'color: red; font-weight: bold;'> %</span> <span style = 'color: red; font-weight: bold;'> der</span> <span style = 'color: red; font-weight: bold;'> Grundbedürfnisse</span> <span style = 'color: black;'>  werden</span> <span style = 'color: black;'>  vom</span> <span style = 'color: black;'>  Staat</span> <span style = 'color: black;'>  bezahlt</span></td>
+
+
+
+                    <td class="translate"><span style = 'color: black;'>  50</span> <span style = 'color: black;'>  %</span> <span style = 'color: black;'>  av</span> <span style = 'color: red; font-weight: bold;'> grundbehoven</span> <span style = 'color: black;'>  betalas</span> <span style = 'color: black;'>  av</span> <span style = 'color: black;'>  staten</span><br><span class="sources">azure/gpt-4o</span></td>
+                    <td class="back-translate"><span style = 'color: red; font-weight: bold;'> 50</span> <span style = 'color: red; font-weight: bold;'> %</span> <span style = 'color: black;'>  des</span> <span style = 'color: black;'>  Grundbedarfs</span> <span style = 'color: black;'>  werden</span> <span style = 'color: black;'>  vom</span> <span style = 'color: black;'>  Staat</span> <span style = 'color: black;'>  bezahlt</span></td>
+
+
+
+                    <td class="compare">1</td>
+
+                    <td class="compare">2</td>
+
+                    <td class="compare">1</td>
+
+                </tr>
+            
+                <tr>
+                    <td class="endtd source">75% des Grundbedarfs werden vom Staat bezahlt</td>
+
+
+                    <td class="translate"><span style = 'color: red; font-weight: bold;'> 75%</span> <span style = 'color: black;'>  av</span> <span style = 'color: red; font-weight: bold;'> grundbehoven</span> <span style = 'color: black;'>  betalas</span> <span style = 'color: black;'>  av</span> <span style = 'color: black;'>  staten</span><br><span class="sources">azure/gpt-4o</span></td>
+                    <td class="back-translate"><span style = 'color: red; font-weight: bold;'> 75</span> <span style = 'color: red; font-weight: bold;'> %</span> <span style = 'color: black;'>  des</span> <span style = 'color: black;'>  Grundbedarfs</span> <span style = 'color: black;'>  werden</span> <span style = 'color: black;'>  vom</span> <span style = 'color: black;'>  Staat</span> <span style = 'color: black;'>  bezahlt</span></td>
+
+
+
+                    <td class="winner"><span style = 'color: red; font-weight: bold;'> 75</span> <span style = 'color: red; font-weight: bold;'> %</span> <span style = 'color: black;'>  av</span> <span style = 'color: red; font-weight: bold;'> basbehovet</span> <span style = 'color: black;'>  betalas</span> <span style = 'color: black;'>  av</span> <span style = 'color: black;'>  staten</span><br><span class="sources">gcp/gemini-1.5-pro</span></td>
+                    <td class="back-translate"><span style = 'color: red; font-weight: bold;'> 75</span> <span style = 'color: red; font-weight: bold;'> %</span> <span style = 'color: red; font-weight: bold;'> der</span> <span style = 'color: red; font-weight: bold;'> Grundbedürfnisse</span> <span style = 'color: black;'>  werden</span> <span style = 'color: black;'>  vom</span> <span style = 'color: black;'>  Staat</span> <span style = 'color: black;'>  bezahlt</span></td>
+
+
+
+                    <td class="compare">2</td>
+
+                    <td class="compare">2</td>
+
+                    <td class="compare">1</td>
+
+                </tr>
+            
+                <tr>
+                    <td class="endtd source">100% des Grundbedarfs werden vom Staat bezahlt</td>
+
+
+                    <td class="translate"><span style = 'color: red; font-weight: bold;'> Staten</span> <span style = 'color: red; font-weight: bold;'> betalar</span> <span style = 'color: red; font-weight: bold;'> 100</span> <span style = 'color: red; font-weight: bold;'> %</span> <span style = 'color: black;'>  av</span> <span style = 'color: red; font-weight: bold;'> basbehovet</span><br><span class="sources">gcp/gemini-1.5-pro</span></td>
+                    <td class="back-translate"><span style = 'color: black;'>  100%</span> <span style = 'color: red; font-weight: bold;'> der</span> <span style = 'color: red; font-weight: bold;'> Grundbedürfnisse</span> <span style = 'color: black;'>  werden</span> <span style = 'color: black;'>  vom</span> <span style = 'color: black;'>  Staat</span> <span style = 'color: black;'>  bezahlt</span></td>
+
+
+
+                    <td class="winner"><span style = 'color: red; font-weight: bold;'> 100%</span> <span style = 'color: black;'>  av</span> <span style = 'color: red; font-weight: bold;'> grundbehoven</span> <span style = 'color: red; font-weight: bold;'> betalas</span> <span style = 'color: red; font-weight: bold;'> av</span> <span style = 'color: red; font-weight: bold;'> staten</span><br><span class="sources">azure/gpt-4o</span></td>
+                    <td class="back-translate"><span style = 'color: red; font-weight: bold;'> Der</span> <span style = 'color: red; font-weight: bold;'> Staat</span> <span style = 'color: red; font-weight: bold;'> zahlt</span> <span style = 'color: red; font-weight: bold;'> 100</span> <span style = 'color: red; font-weight: bold;'> %</span> <span style = 'color: black;'>  des</span> <span style = 'color: black;'>  Grundbedarfs</span></td>
+
+
+
+                    <td class="compare">2</td>
+
+                    <td class="compare">2</td>
+
+                    <td class="compare">1</td>
+
+                </tr>
+            
+                <tr>
+                    <td class="endtd source">Keine Subvention der Energiekosten</td>
+
+
+                    <td class="translate"><span style = 'color: red; font-weight: bold;'> Inga</span> <span style = 'color: red; font-weight: bold;'> subventioner</span> <span style = 'color: black;'>  av</span> <span style = 'color: black;'>  energikostnaderna</span><br><span class="sources">gcp/gemini-1.5-pro</span></td>
+                    <td class="back-translate"><span style = 'color: black;'>  Keine</span> <span style = 'color: black;'>  Subvention</span> <span style = 'color: black;'>  der</span> <span style = 'color: black;'>  Energiekosten</span></td>
+
+
+
+                    <td class="winner"><span style = 'color: red; font-weight: bold;'> Ingen</span> <span style = 'color: red; font-weight: bold;'> subvention</span> <span style = 'color: black;'>  av</span> <span style = 'color: black;'>  energikostnaderna</span><br><span class="sources">azure/gpt-4o</span></td>
+                    <td class="back-translate"><span style = 'color: black;'>  Keine</span> <span style = 'color: red; font-weight: bold;'> Subventionen</span> <span style = 'color: black;'>  der</span> <span style = 'color: black;'>  Energiekosten</span></td>
+
+
+
+                    <td class="compare">2</td>
+
+                    <td class="compare">2</td>
+
+                    <td class="compare">2</td>
+
+                </tr>
+            
+        </tbody>
+    </table>
+</body>
+</html>

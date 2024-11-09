@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <style>
+        @page {
+            size: A4 landscape;
+        }
+    </style>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-family: verdana, serif;
+            font-size:12px;
+            border: 1px solid white;
+            transform-origin: top left;
+        }
+        th, td {
+            border-bottom:3px solid white;
+            border-right:3px solid white;
+            padding: 15px;
+            text-align: left;
+        }
+        th {
+            background-color: darkgray;
+        }
+        td {
+            background-color: lightgray;
+        }
+        .endtd {
+            border-right: 3px solid darkgray;
+        }
+        .translate {
+            background-color: lightblue;
+        }
+        .back-translate {
+            background-color: lightgrey;
+        }
+        .winner {
+            background-color: lightpink;
+        }
+        .compare {
+            background-color: lightsteelblue;
+        }
+        .source {
+            background-color: palegoldenrod;
+        }
+        .empty {
+            background-color: lightgrey;
+        }
+        .sources {
+            font-weight: bold;
+            font-size: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>13_nuclearrenaissance.json</h1>
+    <table>
+        <thead>
+            <tr>
+                
+                    <th>source text</th>
+                
+                    <th>--- 0 ---</th>
+                
+                    <th></th>
+                
+                    <th>--- 1 ---</th>
+                
+                    <th></th>
+                
+                    <th>azure/gpt-4o</th>
+                
+                    <th>gcp/gemini-1.5-pro</th>
+                
+                    <th>aws/claude-3.5-sonnet</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            
+                <tr>
+                    <td class="endtd source">Neubau von Kernkraftwerken</td>
+
+
+                    <td class="winner">Nybyggnation av kärnkraftverk<br><span class="sources">azure/gpt-4o, gcp/gemini-1.5-pro</span></td>
+                    <td class="back-translate"><span style = 'color: black;'>  Neubau</span> <span style = 'color: black;'>  von</span> <span style = 'color: black;'>  Kernkraftwerken</span></td>
+
+
+
+                    <td class="empty"></td>
+                    <td class="empty"></td>
+
+
+
+                    <td class="compare">1</td>
+
+                    <td class="compare">1</td>
+
+                    <td class="compare">1</td>
+
+                </tr>
+            
+                <tr>
+                    <td class="endtd source">Deutschland hat sich inzwischen mehrfach von der Kernenergie verabschiedet. Der letzte deutsche Atommeiler wurde am 15. April 2023 abgeschaltet. Ein Weiterbetrieb der alten Anlagen wird selbst von den Betreibern ausgeschlossen.
+Dennoch wird immer wieder der Neubau modernster Kernkraftwerke in die Diskussion gebracht. Die Befürworter führen dafür vor allem die Grundlastfähigkeit, die geringen Treibhausgas-Emissionen und die angenommenen niedrigen Stromkosten ins Feld.
+Kritiker verweisen auf die extrem langen Genehmigungs- und Bauzeiten (mehr als 10 Jahre pro Reaktor), die einen rechtzeitigen relevanten Beitrag zum Klimaschutz ausschlössen, die Abhängigkeit von Russland für die Brennstäbe, den voraussichtlichen Mangel an Kühlwasser, die Waffenfähigkeit der Spaltprodukte, die Unversicherbarkeit, sowie die ungeklärten Endlager- und Sicherheitsfragen.
+Wie sehen Sie diese Frage?</td>
+
+
+                    <td class="translate"><span style = 'color: black;'>  Tyskland</span> <span style = 'color: black;'>  har</span> <span style = 'color: red; font-weight: bold;'> nu</span> <span style = 'color: red; font-weight: bold;'> sagt</span> <span style = 'color: red; font-weight: bold;'> adjö</span> <span style = 'color: red; font-weight: bold;'> till</span> <span style = 'color: red; font-weight: bold;'> kärnkraft</span> <span style = 'color: black;'>  flera</span> <span style = 'color: red; font-weight: bold;'> gånger.</span> <span style = 'color: black;'>  Den</span> <span style = 'color: black;'>  sista</span> <span style = 'color: black;'>  tyska</span> <span style = 'color: red; font-weight: bold;'> kärnreaktorn</span> <span style = 'color: black;'>  stängdes</span> <span style = 'color: black;'>  av</span> <span style = 'color: black;'>  den</span> <span style = 'color: black;'>  15</span> <span style = 'color: black;'>  april</span> <span style = 'color: black;'>  2023.</span> <span style = 'color: black;'>  Även</span> <span style = 'color: black;'>  operatörerna</span> <span style = 'color: red; font-weight: bold;'> har</span> <span style = 'color: red; font-weight: bold;'> uteslutit</span> <span style = 'color: red; font-weight: bold;'> att</span> <span style = 'color: red; font-weight: bold;'> fortsätta</span> <span style = 'color: red; font-weight: bold;'> driva</span> <span style = 'color: black;'>  de</span> <span style = 'color: black;'>  gamla</span> <span style = 'color: black;'>  anläggningarna.</span> <span style = 'color: black;'>  Ändå</span> <span style = 'color: red; font-weight: bold;'> tas</span> <span style = 'color: red; font-weight: bold;'> byggandet</span> <span style = 'color: red; font-weight: bold;'> av</span> <span style = 'color: red; font-weight: bold;'> nya</span> <span style = 'color: black;'>  toppmoderna</span> <span style = 'color: red; font-weight: bold;'> kärnkraftverk</span> <span style = 'color: red; font-weight: bold;'> upp</span> <span style = 'color: red; font-weight: bold;'> till</span> <span style = 'color: red; font-weight: bold;'> diskussion</span> <span style = 'color: red; font-weight: bold;'> gång</span> <span style = 'color: red; font-weight: bold;'> på</span> <span style = 'color: red; font-weight: bold;'> gång.</span> <span style = 'color: black;'>  Förespråkarna</span> <span style = 'color: red; font-weight: bold;'> hänvisar</span> <span style = 'color: red; font-weight: bold;'> främst</span> <span style = 'color: red; font-weight: bold;'> till</span> <span style = 'color: red; font-weight: bold;'> deras</span> <span style = 'color: red; font-weight: bold;'> baskapacitet,</span> <span style = 'color: black;'>  låga</span> <span style = 'color: red; font-weight: bold;'> växthusgasutsläpp</span> <span style = 'color: black;'>  och</span> <span style = 'color: black;'>  de</span> <span style = 'color: red; font-weight: bold;'> antagna</span> <span style = 'color: black;'>  låga</span> <span style = 'color: black;'>  elkostnaderna.</span> <span style = 'color: red; font-weight: bold;'> Kritiker</span> <span style = 'color: black;'>  pekar</span> <span style = 'color: black;'>  på</span> <span style = 'color: black;'>  de</span> <span style = 'color: black;'>  extremt</span> <span style = 'color: black;'>  långa</span> <span style = 'color: red; font-weight: bold;'> godkännande-</span> <span style = 'color: black;'>  och</span> <span style = 'color: black;'>  byggtiderna</span> <span style = 'color: black;'>  (mer</span> <span style = 'color: black;'>  än</span> <span style = 'color: black;'>  10</span> <span style = 'color: black;'>  år</span> <span style = 'color: black;'>  per</span> <span style = 'color: black;'>  reaktor),</span> <span style = 'color: black;'>  vilket</span> <span style = 'color: black;'>  skulle</span> <span style = 'color: black;'>  utesluta</span> <span style = 'color: black;'>  ett</span> <span style = 'color: red; font-weight: bold;'> tidsmässigt</span> <span style = 'color: black;'>  relevant</span> <span style = 'color: black;'>  bidrag</span> <span style = 'color: black;'>  till</span> <span style = 'color: black;'>  klimatskyddet,</span> <span style = 'color: black;'>  beroendet</span> <span style = 'color: black;'>  av</span> <span style = 'color: black;'>  Ryssland</span> <span style = 'color: black;'>  för</span> <span style = 'color: black;'>  bränslestavarna,</span> <span style = 'color: black;'>  den</span> <span style = 'color: red; font-weight: bold;'> förväntade</span> <span style = 'color: black;'>  bristen</span> <span style = 'color: black;'>  på</span> <span style = 'color: black;'>  kylvatten,</span> <span style = 'color: red; font-weight: bold;'> klyvningsprodukternas</span> <span style = 'color: red; font-weight: bold;'> vapenförmåga,</span> <span style = 'color: black;'>  oförsäkringsbarheten</span> <span style = 'color: black;'>  samt</span> <span style = 'color: black;'>  de</span> <span style = 'color: black;'>  olösta</span> <span style = 'color: red; font-weight: bold;'> slutlagrings-</span> <span style = 'color: black;'>  och</span> <span style = 'color: red; font-weight: bold;'> säkerhetsfrågorna.</span> <span style = 'color: black;'>  Hur</span> <span style = 'color: black;'>  ser</span> <span style = 'color: black;'>  du</span> <span style = 'color: black;'>  på</span> <span style = 'color: red; font-weight: bold;'> denna</span> <span style = 'color: red; font-weight: bold;'> fråga?</span><br><span class="sources">azure/gpt-4o</span></td>
+                    <td class="back-translate"><span style = 'color: black;'>  Deutschland</span> <span style = 'color: black;'>  hat</span> <span style = 'color: black;'>  sich</span> <span style = 'color: red; font-weight: bold;'> nun</span> <span style = 'color: red; font-weight: bold;'> schon</span> <span style = 'color: red; font-weight: bold;'> mehrmals</span> <span style = 'color: black;'>  von</span> <span style = 'color: black;'>  der</span> <span style = 'color: black;'>  Kernenergie</span> <span style = 'color: black;'>  verabschiedet.</span> <span style = 'color: black;'>  Der</span> <span style = 'color: black;'>  letzte</span> <span style = 'color: black;'>  deutsche</span> <span style = 'color: red; font-weight: bold;'> Kernreaktor</span> <span style = 'color: black;'>  wurde</span> <span style = 'color: black;'>  am</span> <span style = 'color: black;'>  15.</span> <span style = 'color: black;'>  April</span> <span style = 'color: black;'>  2023</span> <span style = 'color: black;'>  abgeschaltet.</span> <span style = 'color: red; font-weight: bold;'> Selbst</span> <span style = 'color: red; font-weight: bold;'> die</span> <span style = 'color: red; font-weight: bold;'> Betreiber</span> <span style = 'color: red; font-weight: bold;'> haben</span> <span style = 'color: red; font-weight: bold;'> ausgeschlossen,</span> <span style = 'color: red; font-weight: bold;'> die</span> <span style = 'color: black;'>  alten</span> <span style = 'color: black;'>  Anlagen</span> <span style = 'color: red; font-weight: bold;'> weiter</span> <span style = 'color: red; font-weight: bold;'> zu</span> <span style = 'color: red; font-weight: bold;'> betreiben.</span> <span style = 'color: black;'>  Dennoch</span> <span style = 'color: black;'>  wird</span> <span style = 'color: red; font-weight: bold;'> der</span> <span style = 'color: red; font-weight: bold;'> Bau</span> <span style = 'color: red; font-weight: bold;'> neuer,</span> <span style = 'color: red; font-weight: bold;'> hochmoderner</span> <span style = 'color: red; font-weight: bold;'> Kernkraftwerke</span> <span style = 'color: black;'>  immer</span> <span style = 'color: black;'>  wieder</span> <span style = 'color: red; font-weight: bold;'> diskutiert.</span> <span style = 'color: black;'>  Befürworter</span> <span style = 'color: black;'>  führen</span> <span style = 'color: red; font-weight: bold;'> dabei</span> <span style = 'color: black;'>  vor</span> <span style = 'color: black;'>  allem</span> <span style = 'color: red; font-weight: bold;'> ihre</span> <span style = 'color: black;'>  Grundlastfähigkeit,</span> <span style = 'color: black;'>  die</span> <span style = 'color: black;'>  geringen</span> <span style = 'color: red; font-weight: bold;'> Treibhausgasemissionen</span> <span style = 'color: black;'>  und</span> <span style = 'color: black;'>  die</span> <span style = 'color: red; font-weight: bold;'> vermeintlich</span> <span style = 'color: black;'>  niedrigen</span> <span style = 'color: black;'>  Stromkosten</span> <span style = 'color: black;'>  ins</span> <span style = 'color: black;'>  Feld.</span> <span style = 'color: black;'>  Kritiker</span> <span style = 'color: black;'>  verweisen</span> <span style = 'color: black;'>  auf</span> <span style = 'color: black;'>  die</span> <span style = 'color: black;'>  extrem</span> <span style = 'color: black;'>  langen</span> <span style = 'color: black;'>  Genehmigungs-</span> <span style = 'color: black;'>  und</span> <span style = 'color: black;'>  Bauzeiten</span> <span style = 'color: black;'>  (mehr</span> <span style = 'color: black;'>  als</span> <span style = 'color: black;'>  10</span> <span style = 'color: black;'>  Jahre</span> <span style = 'color: black;'>  pro</span> <span style = 'color: black;'>  Reaktor),</span> <span style = 'color: red; font-weight: bold;'> was</span> <span style = 'color: black;'>  einen</span> <span style = 'color: red; font-weight: bold;'> zeitnahen</span> <span style = 'color: red; font-weight: bold;'> und</span> <span style = 'color: black;'>  relevanten</span> <span style = 'color: black;'>  Beitrag</span> <span style = 'color: black;'>  zum</span> <span style = 'color: black;'>  Klimaschutz</span> <span style = 'color: red; font-weight: bold;'> ausschließen</span> <span style = 'color: red; font-weight: bold;'> würde,</span> <span style = 'color: black;'>  die</span> <span style = 'color: black;'>  Abhängigkeit</span> <span style = 'color: black;'>  von</span> <span style = 'color: black;'>  Russland</span> <span style = 'color: red; font-weight: bold;'> bei</span> <span style = 'color: black;'>  den</span> <span style = 'color: red; font-weight: bold;'> Brennstäben,</span> <span style = 'color: red; font-weight: bold;'> den</span> <span style = 'color: red; font-weight: bold;'> zu</span> <span style = 'color: red; font-weight: bold;'> erwartenden</span> <span style = 'color: red; font-weight: bold;'> Kühlwassermangel,</span> <span style = 'color: black;'>  die</span> <span style = 'color: black;'>  Waffenfähigkeit</span> <span style = 'color: black;'>  der</span> <span style = 'color: black;'>  Spaltprodukte,</span> <span style = 'color: black;'>  die</span> <span style = 'color: red; font-weight: bold;'> fehlende</span> <span style = 'color: red; font-weight: bold;'> Sicherheit</span> <span style = 'color: black;'>  sowie</span> <span style = 'color: black;'>  die</span> <span style = 'color: red; font-weight: bold;'> ungelösten</span> <span style = 'color: black;'>  Endlager-</span> <span style = 'color: black;'>  und</span> <span style = 'color: black;'>  Sicherheitsfragen.</span> <span style = 'color: black;'>  Wie</span> <span style = 'color: black;'>  sehen</span> <span style = 'color: black;'>  Sie</span> <span style = 'color: black;'>  diese</span> <span style = 'color: black;'>  Frage?</span></td>
+
+
+
+                    <td class="winner"><span style = 'color: black;'>  Tyskland</span> <span style = 'color: black;'>  har</span> <span style = 'color: red; font-weight: bold;'> vid</span> <span style = 'color: red; font-weight: bold;'> det</span> <span style = 'color: red; font-weight: bold;'> här</span> <span style = 'color: red; font-weight: bold;'> laget</span> <span style = 'color: black;'>  flera</span> <span style = 'color: red; font-weight: bold;'> gånger</span> <span style = 'color: red; font-weight: bold;'> tagit</span> <span style = 'color: red; font-weight: bold;'> avstånd</span> <span style = 'color: red; font-weight: bold;'> från</span> <span style = 'color: red; font-weight: bold;'> kärnkraften.</span> <span style = 'color: black;'>  Den</span> <span style = 'color: black;'>  sista</span> <span style = 'color: black;'>  tyska</span> <span style = 'color: red; font-weight: bold;'> kärnkraftsreaktorn</span> <span style = 'color: black;'>  stängdes</span> <span style = 'color: black;'>  av</span> <span style = 'color: black;'>  den</span> <span style = 'color: black;'>  15</span> <span style = 'color: black;'>  april</span> <span style = 'color: black;'>  2023.</span> <span style = 'color: black;'>  Även</span> <span style = 'color: black;'>  operatörerna</span> <span style = 'color: red; font-weight: bold;'> utesluter</span> <span style = 'color: red; font-weight: bold;'> fortsatt</span> <span style = 'color: red; font-weight: bold;'> drift</span> <span style = 'color: red; font-weight: bold;'> av</span> <span style = 'color: black;'>  de</span> <span style = 'color: black;'>  gamla</span> <span style = 'color: black;'>  anläggningarna.</span> <span style = 'color: black;'>  Ändå</span> <span style = 'color: red; font-weight: bold;'> förs</span> <span style = 'color: red; font-weight: bold;'> diskussioner</span> <span style = 'color: red; font-weight: bold;'> om</span> <span style = 'color: red; font-weight: bold;'> att</span> <span style = 'color: red; font-weight: bold;'> bygga</span> <span style = 'color: red; font-weight: bold;'> nya,</span> <span style = 'color: red; font-weight: bold;'> toppmoderna</span> <span style = 'color: red; font-weight: bold;'> kärnkraftverk.</span> <span style = 'color: red; font-weight: bold;'> Förespråkarna</span> <span style = 'color: red; font-weight: bold;'> lyfter</span> <span style = 'color: red; font-weight: bold;'> särskilt</span> <span style = 'color: red; font-weight: bold;'> fram</span> <span style = 'color: red; font-weight: bold;'> baskraftsegenskaperna,</span> <span style = 'color: red; font-weight: bold;'> de</span> <span style = 'color: red; font-weight: bold;'> låga</span> <span style = 'color: red; font-weight: bold;'> utsläppen</span> <span style = 'color: black;'>  av</span> <span style = 'color: red; font-weight: bold;'> växthusgaser</span> <span style = 'color: black;'>  och</span> <span style = 'color: black;'>  de</span> <span style = 'color: red; font-weight: bold;'> förmodat</span> <span style = 'color: black;'>  låga</span> <span style = 'color: black;'>  elkostnaderna.</span> <span style = 'color: red; font-weight: bold;'> Kritikerna</span> <span style = 'color: black;'>  pekar</span> <span style = 'color: black;'>  på</span> <span style = 'color: black;'>  de</span> <span style = 'color: black;'>  extremt</span> <span style = 'color: black;'>  långa</span> <span style = 'color: red; font-weight: bold;'> tillstånds-</span> <span style = 'color: black;'>  och</span> <span style = 'color: black;'>  byggtiderna</span> <span style = 'color: black;'>  (mer</span> <span style = 'color: black;'>  än</span> <span style = 'color: black;'>  10</span> <span style = 'color: black;'>  år</span> <span style = 'color: black;'>  per</span> <span style = 'color: black;'>  reaktor),</span> <span style = 'color: black;'>  vilket</span> <span style = 'color: black;'>  skulle</span> <span style = 'color: black;'>  utesluta</span> <span style = 'color: black;'>  ett</span> <span style = 'color: red; font-weight: bold;'> aktuellt</span> <span style = 'color: red; font-weight: bold;'> och</span> <span style = 'color: black;'>  relevant</span> <span style = 'color: black;'>  bidrag</span> <span style = 'color: black;'>  till</span> <span style = 'color: black;'>  klimatskyddet,</span> <span style = 'color: black;'>  beroendet</span> <span style = 'color: black;'>  av</span> <span style = 'color: black;'>  Ryssland</span> <span style = 'color: black;'>  för</span> <span style = 'color: black;'>  bränslestavarna,</span> <span style = 'color: black;'>  den</span> <span style = 'color: red; font-weight: bold;'> sannolika</span> <span style = 'color: black;'>  bristen</span> <span style = 'color: black;'>  på</span> <span style = 'color: black;'>  kylvatten,</span> <span style = 'color: red; font-weight: bold;'> vapenpotentialen</span> <span style = 'color: red; font-weight: bold;'> hos</span> <span style = 'color: red; font-weight: bold;'> fissionsprodukterna,</span> <span style = 'color: black;'>  oförsäkringsbarheten</span> <span style = 'color: black;'>  samt</span> <span style = 'color: black;'>  de</span> <span style = 'color: black;'>  olösta</span> <span style = 'color: red; font-weight: bold;'> frågorna</span> <span style = 'color: red; font-weight: bold;'> om</span> <span style = 'color: red; font-weight: bold;'> slutförvaring</span> <span style = 'color: black;'>  och</span> <span style = 'color: red; font-weight: bold;'> säkerhet.</span> <span style = 'color: black;'>  Hur</span> <span style = 'color: black;'>  ser</span> <span style = 'color: black;'>  du</span> <span style = 'color: black;'>  på</span> <span style = 'color: red; font-weight: bold;'> den</span> <span style = 'color: red; font-weight: bold;'> här</span> <span style = 'color: red; font-weight: bold;'> frågan?</span><br><span class="sources">gcp/gemini-1.5-pro</span></td>
+                    <td class="back-translate"><span style = 'color: black;'>  Deutschland</span> <span style = 'color: black;'>  hat</span> <span style = 'color: black;'>  sich</span> <span style = 'color: black;'>  inzwischen</span> <span style = 'color: black;'>  mehrfach</span> <span style = 'color: black;'>  von</span> <span style = 'color: black;'>  der</span> <span style = 'color: black;'>  Kernenergie</span> <span style = 'color: black;'>  verabschiedet.</span> <span style = 'color: black;'>  Der</span> <span style = 'color: black;'>  letzte</span> <span style = 'color: black;'>  deutsche</span> <span style = 'color: red; font-weight: bold;'> Kernreaktor</span> <span style = 'color: black;'>  wurde</span> <span style = 'color: black;'>  am</span> <span style = 'color: black;'>  15.</span> <span style = 'color: black;'>  April</span> <span style = 'color: black;'>  2023</span> <span style = 'color: black;'>  abgeschaltet.</span> <span style = 'color: red; font-weight: bold;'> Auch</span> <span style = 'color: red; font-weight: bold;'> die</span> <span style = 'color: red; font-weight: bold;'> Betreiber</span> <span style = 'color: red; font-weight: bold;'> schließen</span> <span style = 'color: red; font-weight: bold;'> einen</span> <span style = 'color: black;'>  Weiterbetrieb</span> <span style = 'color: black;'>  der</span> <span style = 'color: black;'>  alten</span> <span style = 'color: black;'>  Anlagen</span> <span style = 'color: red; font-weight: bold;'> aus.</span> <span style = 'color: black;'>  Dennoch</span> <span style = 'color: black;'>  wird</span> <span style = 'color: black;'>  immer</span> <span style = 'color: black;'>  wieder</span> <span style = 'color: red; font-weight: bold;'> über</span> <span style = 'color: red; font-weight: bold;'> den</span> <span style = 'color: red; font-weight: bold;'> Bau</span> <span style = 'color: red; font-weight: bold;'> neuer,</span> <span style = 'color: red; font-weight: bold;'> hochmoderner</span> <span style = 'color: black;'>  Kernkraftwerke</span> <span style = 'color: red; font-weight: bold;'> diskutiert.</span> <span style = 'color: black;'>  Befürworter</span> <span style = 'color: red; font-weight: bold;'> heben</span> <span style = 'color: red; font-weight: bold;'> insbesondere</span> <span style = 'color: black;'>  die</span> <span style = 'color: black;'>  Grundlastfähigkeit,</span> <span style = 'color: black;'>  die</span> <span style = 'color: red; font-weight: bold;'> niedrigen</span> <span style = 'color: red; font-weight: bold;'> Treibhausgasemissionen</span> <span style = 'color: black;'>  und</span> <span style = 'color: black;'>  die</span> <span style = 'color: red; font-weight: bold;'> vermeintlich</span> <span style = 'color: black;'>  niedrigen</span> <span style = 'color: black;'>  Stromkosten</span> <span style = 'color: red; font-weight: bold;'> hervor.</span> <span style = 'color: black;'>  Kritiker</span> <span style = 'color: black;'>  verweisen</span> <span style = 'color: black;'>  auf</span> <span style = 'color: black;'>  die</span> <span style = 'color: black;'>  extrem</span> <span style = 'color: black;'>  langen</span> <span style = 'color: black;'>  Genehmigungs-</span> <span style = 'color: black;'>  und</span> <span style = 'color: black;'>  Bauzeiten</span> <span style = 'color: black;'>  (mehr</span> <span style = 'color: black;'>  als</span> <span style = 'color: black;'>  10</span> <span style = 'color: black;'>  Jahre</span> <span style = 'color: black;'>  pro</span> <span style = 'color: black;'>  Reaktor),</span> <span style = 'color: red; font-weight: bold;'> was</span> <span style = 'color: black;'>  einen</span> <span style = 'color: red; font-weight: bold;'> aktuellen</span> <span style = 'color: red; font-weight: bold;'> und</span> <span style = 'color: black;'>  relevanten</span> <span style = 'color: black;'>  Beitrag</span> <span style = 'color: black;'>  zum</span> <span style = 'color: black;'>  Klimaschutz</span> <span style = 'color: red; font-weight: bold;'> ausschließen</span> <span style = 'color: red; font-weight: bold;'> würde,</span> <span style = 'color: black;'>  die</span> <span style = 'color: black;'>  Abhängigkeit</span> <span style = 'color: black;'>  von</span> <span style = 'color: black;'>  Russland</span> <span style = 'color: black;'>  für</span> <span style = 'color: black;'>  die</span> <span style = 'color: black;'>  Brennstäbe,</span> <span style = 'color: black;'>  den</span> <span style = 'color: red; font-weight: bold;'> wahrscheinlichen</span> <span style = 'color: black;'>  Mangel</span> <span style = 'color: black;'>  an</span> <span style = 'color: black;'>  Kühlwasser,</span> <span style = 'color: red; font-weight: bold;'> das</span> <span style = 'color: red; font-weight: bold;'> Waffenpotenzial</span> <span style = 'color: black;'>  der</span> <span style = 'color: black;'>  Spaltprodukte,</span> <span style = 'color: black;'>  die</span> <span style = 'color: red; font-weight: bold;'> mangelnde</span> <span style = 'color: red; font-weight: bold;'> Sicherheit</span> <span style = 'color: black;'>  sowie</span> <span style = 'color: black;'>  die</span> <span style = 'color: red; font-weight: bold;'> ungelösten</span> <span style = 'color: black;'>  Endlager-</span> <span style = 'color: black;'>  und</span> <span style = 'color: black;'>  Sicherheitsfragen.</span> <span style = 'color: black;'>  Wie</span> <span style = 'color: black;'>  sehen</span> <span style = 'color: black;'>  Sie</span> <span style = 'color: black;'>  diese</span> <span style = 'color: black;'>  Frage?</span></td>
+
+
+
+                    <td class="compare">2</td>
+
+                    <td class="compare">2</td>
+
+                    <td class="compare">2</td>
+
+                </tr>
+            
+                <tr>
+                    <td class="endtd source">Bau neuer Kernkraftwerke</td>
+
+
+                    <td class="translate"><span style = 'color: red; font-weight: bold;'> Bygga</span> <span style = 'color: black;'>  nya</span> <span style = 'color: black;'>  kärnkraftverk</span><br><span class="sources">gcp/gemini-1.5-pro</span></td>
+                    <td class="back-translate"><span style = 'color: red; font-weight: bold;'> Neue</span> <span style = 'color: black;'>  Kernkraftwerke</span> <span style = 'color: red; font-weight: bold;'> bauen</span></td>
+
+
+
+                    <td class="winner"><span style = 'color: red; font-weight: bold;'> Bygg</span> <span style = 'color: black;'>  nya</span> <span style = 'color: black;'>  kärnkraftverk</span><br><span class="sources">azure/gpt-4o</span></td>
+                    <td class="back-translate"><span style = 'color: red; font-weight: bold;'> Neue</span> <span style = 'color: black;'>  Kernkraftwerke</span> <span style = 'color: red; font-weight: bold;'> bauen</span></td>
+
+
+
+                    <td class="compare">2</td>
+
+                    <td class="compare">2</td>
+
+                    <td class="compare">2</td>
+
+                </tr>
+            
+                <tr>
+                    <td class="endtd source">Keine neuen Kernkraftwerke</td>
+
+
+                    <td class="translate"><span style = 'color: black;'>  Inga</span> <span style = 'color: black;'>  nya</span> <span style = 'color: red; font-weight: bold;'> kärnkraftverk</span><br><span class="sources">azure/gpt-4o</span></td>
+                    <td class="back-translate"><span style = 'color: black;'>  Keine</span> <span style = 'color: black;'>  neuen</span> <span style = 'color: black;'>  Kernkraftwerke</span></td>
+
+
+
+                    <td class="winner"><span style = 'color: black;'>  Inga</span> <span style = 'color: black;'>  nya</span> <span style = 'color: red; font-weight: bold;'> kärnkraftverk!</span><br><span class="sources">gcp/gemini-1.5-pro</span></td>
+                    <td class="back-translate"><span style = 'color: black;'>  Keine</span> <span style = 'color: black;'>  neuen</span> <span style = 'color: red; font-weight: bold;'> Kernkraftwerke!</span></td>
+
+
+
+                    <td class="compare">2</td>
+
+                    <td class="compare">1</td>
+
+                    <td class="compare">2</td>
+
+                </tr>
+            
+        </tbody>
+    </table>
+</body>
+</html>

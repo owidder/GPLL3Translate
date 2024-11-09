@@ -1,38 +1,73 @@
 {
-  "_id": "nuclearrenaissance",
-  "heading": {
-    "de": "Neubau von Kernkraftwerken",
-    "en": "New construction of nuclear power plants",
-    "fr": "New construction of nuclear power plants",
-    "ar": "New construction of nuclear power plants"
-  },
-  "description": {
-    "de": "Deutschland hat sich inzwischen mehrfach von der Kernenergie verabschiedet. Der letzte deutsche Atommeiler wurde am 15. April 2023 abgeschaltet. Ein Weiterbetrieb der alten Anlagen wird selbst von den Betreibern ausgeschlossen.\nDennoch wird immer wieder der Neubau modernster Kernkraftwerke in die Diskussion gebracht. Die Befürworter führen dafür vor allem die Grundlastfähigkeit, die geringen Treibhausgas-Emissionen und die angenommenen niedrigen Stromkosten ins Feld.\nKritiker verweisen auf die extrem langen Genehmigungs- und Bauzeiten (mehr als 10 Jahre pro Reaktor), die einen rechtzeitigen relevanten Beitrag zum Klimaschutz ausschlössen, die Abhängigkeit von Russland für die Brennstäbe, den voraussichtlichen Mangel an Kühlwasser, die Waffenfähigkeit der Spaltprodukte, die Unversicherbarkeit, sowie die ungeklärten Endlager- und Sicherheitsfragen.\nWie sehen Sie diese Frage?",
-    "en": "Germany has now said goodbye to nuclear energy several times. The last German nuclear reactor was shut down on 15 April 2023. Even the operators have ruled out continuing to operate the old plants.\nNevertheless, the construction of new state-of-the-art nuclear power plants is repeatedly brought up for discussion. Those in favour cite their base load capability, low greenhouse gas emissions and the assumed low cost of electricity.\nCritics point to the extremely long approval and construction times (more than 10 years per reactor), which would rule out a timely and relevant contribution to climate protection, the dependence on Russia for the fuel rods, the probable lack of cooling water, the weapons capability of the fission products, the lack of safety, as well as the unresolved final storage and safety issues.\nHow do you see this issue?",
-    "fr": "Germany has now said goodbye to nuclear energy several times. The last German nuclear reactor was shut down on 15 April 2023. Even the operators have ruled out continuing to operate the old plants.\nNevertheless, the construction of new state-of-the-art nuclear power plants is repeatedly brought up for discussion. Those in favour cite their base load capability, low greenhouse gas emissions and the assumed low cost of electricity.\nCritics point to the extremely long approval and construction times (more than 10 years per reactor), which would rule out a timely and relevant contribution to climate protection, the dependence on Russia for the fuel rods, the probable lack of cooling water, the weapons capability of the fission products, the lack of safety, as well as the unresolved final storage and safety issues.\nHow do you see this issue?",
-    "ar": "Germany has now said goodbye to nuclear energy several times. The last German nuclear reactor was shut down on 15 April 2023. Even the operators have ruled out continuing to operate the old plants.\nNevertheless, the construction of new state-of-the-art nuclear power plants is repeatedly brought up for discussion. Those in favour cite their base load capability, low greenhouse gas emissions and the assumed low cost of electricity.\nCritics point to the extremely long approval and construction times (more than 10 years per reactor), which would rule out a timely and relevant contribution to climate protection, the dependence on Russia for the fuel rods, the probable lack of cooling water, the weapons capability of the fission products, the lack of safety, as well as the unresolved final storage and safety issues.\nHow do you see this issue?"
-  },
-  "multipleChoice": false,
-  "choices": [
-    {
-      "name": "option1",
-      "isDefault": false,
-      "uiStrings": {
-        "de": "Bau neuer Kernkraftwerke",
-        "en": "Build new nuclear power plants",
-        "fr": "Build new nuclear power plants",
-        "ar": "Build new nuclear power plants"
-      }
+    "_id": "nuclearrenaissance",
+    "heading": {
+        "de": "Neubau von Kernkraftwerken",
+        "en": "New construction of nuclear power plants",
+        "fr": "New construction of nuclear power plants",
+        "ar": "New construction of nuclear power plants",
+        "_azure/gpt-4o_sv": "Nybyggnation av kärnkraftverk",
+        "_gcp/gemini-1.5-pro_sv": "Nybyggnation av kärnkraftverk \n",
+        "_compare_azure/gpt-4o_sv": "Nybyggnation av kärnkraftverk",
+        "_compare_gcp/gemini-1.5-pro_sv": "Nybyggnation av kärnkraftverk",
+        "_compare_aws/claude-3.5-sonnet_sv": "Nybyggnation av kärnkraftverk",
+        "_unique_translations_back_sv": [
+            "Neubau von Kernkraftwerken"
+        ]
     },
-    {
-      "name": "option2",
-      "isDefault": true,
-      "uiStrings": {
-        "de": "Keine neuen Kernkraftwerke",
-        "en": "No new nuclear!",
-        "fr": "No new nuclear!",
-        "ar": "No new nuclear!"
-      }
-    }
-  ]
+    "description": {
+        "de": "Deutschland hat sich inzwischen mehrfach von der Kernenergie verabschiedet. Der letzte deutsche Atommeiler wurde am 15. April 2023 abgeschaltet. Ein Weiterbetrieb der alten Anlagen wird selbst von den Betreibern ausgeschlossen.\nDennoch wird immer wieder der Neubau modernster Kernkraftwerke in die Diskussion gebracht. Die Befürworter führen dafür vor allem die Grundlastfähigkeit, die geringen Treibhausgas-Emissionen und die angenommenen niedrigen Stromkosten ins Feld.\nKritiker verweisen auf die extrem langen Genehmigungs- und Bauzeiten (mehr als 10 Jahre pro Reaktor), die einen rechtzeitigen relevanten Beitrag zum Klimaschutz ausschlössen, die Abhängigkeit von Russland für die Brennstäbe, den voraussichtlichen Mangel an Kühlwasser, die Waffenfähigkeit der Spaltprodukte, die Unversicherbarkeit, sowie die ungeklärten Endlager- und Sicherheitsfragen.\nWie sehen Sie diese Frage?",
+        "en": "Germany has now said goodbye to nuclear energy several times. The last German nuclear reactor was shut down on 15 April 2023. Even the operators have ruled out continuing to operate the old plants.\nNevertheless, the construction of new state-of-the-art nuclear power plants is repeatedly brought up for discussion. Those in favour cite their base load capability, low greenhouse gas emissions and the assumed low cost of electricity.\nCritics point to the extremely long approval and construction times (more than 10 years per reactor), which would rule out a timely and relevant contribution to climate protection, the dependence on Russia for the fuel rods, the probable lack of cooling water, the weapons capability of the fission products, the lack of safety, as well as the unresolved final storage and safety issues.\nHow do you see this issue?",
+        "fr": "Germany has now said goodbye to nuclear energy several times. The last German nuclear reactor was shut down on 15 April 2023. Even the operators have ruled out continuing to operate the old plants.\nNevertheless, the construction of new state-of-the-art nuclear power plants is repeatedly brought up for discussion. Those in favour cite their base load capability, low greenhouse gas emissions and the assumed low cost of electricity.\nCritics point to the extremely long approval and construction times (more than 10 years per reactor), which would rule out a timely and relevant contribution to climate protection, the dependence on Russia for the fuel rods, the probable lack of cooling water, the weapons capability of the fission products, the lack of safety, as well as the unresolved final storage and safety issues.\nHow do you see this issue?",
+        "ar": "Germany has now said goodbye to nuclear energy several times. The last German nuclear reactor was shut down on 15 April 2023. Even the operators have ruled out continuing to operate the old plants.\nNevertheless, the construction of new state-of-the-art nuclear power plants is repeatedly brought up for discussion. Those in favour cite their base load capability, low greenhouse gas emissions and the assumed low cost of electricity.\nCritics point to the extremely long approval and construction times (more than 10 years per reactor), which would rule out a timely and relevant contribution to climate protection, the dependence on Russia for the fuel rods, the probable lack of cooling water, the weapons capability of the fission products, the lack of safety, as well as the unresolved final storage and safety issues.\nHow do you see this issue?",
+        "_azure/gpt-4o_sv": "Tyskland har nu sagt adjö till kärnkraft flera gånger. Den sista tyska kärnreaktorn stängdes av den 15 april 2023. Även operatörerna har uteslutit att fortsätta driva de gamla anläggningarna.\nÄndå tas byggandet av nya toppmoderna kärnkraftverk upp till diskussion gång på gång. Förespråkarna hänvisar främst till deras baskapacitet, låga växthusgasutsläpp och de antagna låga elkostnaderna.\nKritiker pekar på de extremt långa godkännande- och byggtiderna (mer än 10 år per reaktor), vilket skulle utesluta ett tidsmässigt relevant bidrag till klimatskyddet, beroendet av Ryssland för bränslestavarna, den förväntade bristen på kylvatten, klyvningsprodukternas vapenförmåga, oförsäkringsbarheten samt de olösta slutlagrings- och säkerhetsfrågorna.\nHur ser du på denna fråga?",
+        "_gcp/gemini-1.5-pro_sv": "Tyskland har vid det här laget flera gånger tagit avstånd från kärnkraften. Den sista tyska kärnkraftsreaktorn stängdes av den 15 april 2023. Även operatörerna utesluter fortsatt drift av de gamla anläggningarna.\nÄndå förs diskussioner om att bygga nya, toppmoderna kärnkraftverk. Förespråkarna lyfter särskilt fram baskraftsegenskaperna, de låga utsläppen av växthusgaser och de förmodat låga elkostnaderna.\nKritikerna pekar på de extremt långa tillstånds- och byggtiderna (mer än 10 år per reaktor), vilket skulle utesluta ett aktuellt och relevant bidrag till klimatskyddet, beroendet av Ryssland för bränslestavarna, den sannolika bristen på kylvatten, vapenpotentialen hos fissionsprodukterna, oförsäkringsbarheten samt de olösta frågorna om slutförvaring och säkerhet.\nHur ser du på den här frågan? \n",
+        "_compare_azure/gpt-4o_sv": "Tyskland har vid det här laget flera gånger tagit avstånd från kärnkraften. Den sista tyska kärnkraftsreaktorn stängdes av den 15 april 2023. Även operatörerna utesluter fortsatt drift av de gamla anläggningarna. Ändå förs diskussioner om att bygga nya, toppmoderna kärnkraftverk. Förespråkarna lyfter särskilt fram baskraftsegenskaperna, de låga utsläppen av växthusgaser och de förmodat låga elkostnaderna. Kritikerna pekar på de extremt långa tillstånds- och byggtiderna (mer än 10 år per reaktor), vilket skulle utesluta ett aktuellt och relevant bidrag till klimatskyddet, beroendet av Ryssland för bränslestavarna, den sannolika bristen på kylvatten, vapenpotentialen hos fissionsprodukterna, oförsäkringsbarheten samt de olösta frågorna om slutförvaring och säkerhet. Hur ser du på den här frågan?",
+        "_compare_gcp/gemini-1.5-pro_sv": "Tyskland har vid det här laget flera gånger tagit avstånd från kärnkraften. Den sista tyska kärnkraftsreaktorn stängdes av den 15 april 2023. Även operatörerna utesluter fortsatt drift av de gamla anläggningarna. Ändå förs diskussioner om att bygga nya, toppmoderna kärnkraftverk. Förespråkarna lyfter särskilt fram baskraftsegenskaperna, de låga utsläppen av växthusgaser och de förmodat låga elkostnaderna. Kritikerna pekar på de extremt långa tillstånds- och byggtiderna (mer än 10 år per reaktor), vilket skulle utesluta ett aktuellt och relevant bidrag till klimatskyddet, beroendet av Ryssland för bränslestavarna, den sannolika bristen på kylvatten, vapenpotentialen hos fissionsprodukterna, oförsäkringsbarheten samt de olösta frågorna om slutförvaring och säkerhet. Hur ser du på den här frågan?",
+        "_compare_aws/claude-3.5-sonnet_sv": "Tyskland har vid det här laget flera gånger tagit avstånd från kärnkraften. Den sista tyska kärnkraftsreaktorn stängdes av den 15 april 2023. Även operatörerna utesluter fortsatt drift av de gamla anläggningarna. Ändå förs diskussioner om att bygga nya, toppmoderna kärnkraftverk. Förespråkarna lyfter särskilt fram baskraftsegenskaperna, de låga utsläppen av växthusgaser och de förmodat låga elkostnaderna. Kritikerna pekar på de extremt långa tillstånds- och byggtiderna (mer än 10 år per reaktor), vilket skulle utesluta ett aktuellt och relevant bidrag till klimatskyddet, beroendet av Ryssland för bränslestavarna, den sannolika bristen på kylvatten, vapenpotentialen hos fissionsprodukterna, oförsäkringsbarheten samt de olösta frågorna om slutförvaring och säkerhet. Hur ser du på den här frågan?",
+        "_unique_translations_back_sv": [
+            "Deutschland hat sich nun schon mehrmals von der Kernenergie verabschiedet. Der letzte deutsche Kernreaktor wurde am 15. April 2023 abgeschaltet. Selbst die Betreiber haben ausgeschlossen, die alten Anlagen weiter zu betreiben. Dennoch wird der Bau neuer, hochmoderner Kernkraftwerke immer wieder diskutiert. Befürworter führen dabei vor allem ihre Grundlastfähigkeit, die geringen Treibhausgasemissionen und die vermeintlich niedrigen Stromkosten ins Feld. Kritiker verweisen auf die extrem langen Genehmigungs- und Bauzeiten (mehr als 10 Jahre pro Reaktor), was einen zeitnahen und relevanten Beitrag zum Klimaschutz ausschließen würde, die Abhängigkeit von Russland bei den Brennstäben, den zu erwartenden Kühlwassermangel, die Waffenfähigkeit der Spaltprodukte, die fehlende Sicherheit sowie die ungelösten Endlager- und Sicherheitsfragen. Wie sehen Sie diese Frage?",
+            "Deutschland hat sich inzwischen mehrfach von der Kernenergie verabschiedet. Der letzte deutsche Kernreaktor wurde am 15. April 2023 abgeschaltet. Auch die Betreiber schließen einen Weiterbetrieb der alten Anlagen aus. Dennoch wird immer wieder über den Bau neuer, hochmoderner Kernkraftwerke diskutiert. Befürworter heben insbesondere die Grundlastfähigkeit, die niedrigen Treibhausgasemissionen und die vermeintlich niedrigen Stromkosten hervor. Kritiker verweisen auf die extrem langen Genehmigungs- und Bauzeiten (mehr als 10 Jahre pro Reaktor), was einen aktuellen und relevanten Beitrag zum Klimaschutz ausschließen würde, die Abhängigkeit von Russland für die Brennstäbe, den wahrscheinlichen Mangel an Kühlwasser, das Waffenpotenzial der Spaltprodukte, die mangelnde Sicherheit sowie die ungelösten Endlager- und Sicherheitsfragen. Wie sehen Sie diese Frage?"
+        ]
+    },
+    "multipleChoice": false,
+    "choices": [
+        {
+            "name": "option1",
+            "isDefault": false,
+            "uiStrings": {
+                "de": "Bau neuer Kernkraftwerke",
+                "en": "Build new nuclear power plants",
+                "fr": "Build new nuclear power plants",
+                "ar": "Build new nuclear power plants",
+                "_azure/gpt-4o_sv": "Bygg nya kärnkraftverk",
+                "_gcp/gemini-1.5-pro_sv": "Bygga nya kärnkraftverk \n",
+                "_compare_azure/gpt-4o_sv": "Bygg nya kärnkraftverk",
+                "_compare_gcp/gemini-1.5-pro_sv": "Bygg nya kärnkraftverk",
+                "_compare_aws/claude-3.5-sonnet_sv": "Bygg nya kärnkraftverk",
+                "_unique_translations_back_sv": [
+                    "Neue Kernkraftwerke bauen",
+                    "Neue Kernkraftwerke bauen"
+                ]
+            }
+        },
+        {
+            "name": "option2",
+            "isDefault": true,
+            "uiStrings": {
+                "de": "Keine neuen Kernkraftwerke",
+                "en": "No new nuclear!",
+                "fr": "No new nuclear!",
+                "ar": "No new nuclear!",
+                "_azure/gpt-4o_sv": "Inga nya kärnkraftverk",
+                "_gcp/gemini-1.5-pro_sv": "Inga nya kärnkraftverk! \n",
+                "_compare_azure/gpt-4o_sv": "Inga nya kärnkraftverk!",
+                "_compare_gcp/gemini-1.5-pro_sv": "Inga nya kärnkraftverk",
+                "_compare_aws/claude-3.5-sonnet_sv": "Inga nya kärnkraftverk!",
+                "_unique_translations_back_sv": [
+                    "Keine neuen Kernkraftwerke",
+                    "Keine neuen Kernkraftwerke!"
+                ]
+            }
+        }
+    ]
 }

@@ -1,48 +1,91 @@
 {
-  "_id": "meat-phase-out",
-  "heading": {
-    "de": "Verbot von Fleischkonsum",
-    "en": "Ban on meat production",
-    "fr": "Ban on meat production",
-    "ar": "Ban on meat production"
-  },
-  "description": {
-    "de": "Bitte stimmen Sie über ein Verbot der Produktion von Fleischprodukten für den menschlichen Verzehr ab.\nMit einem Anteil von rund 15 Prozent trägt die Nutztierhaltung signifikant zu den globalen vom Menschen verursachten Treibhausgasemissionen bei. Ihr Anteil ist damit fast genauso groß wie der des weltweiten Verkehrs.\n60% der Anbaufläche wird für Tierfutter verbraucht, mit riesigen Umweltschäden.\nDer häufige Verzehr von Fleisch wird auch mit zahlreichen Gesundheitsrisiken in Verbindung gebracht.\nWie soll in Zukunft mit der Fleischproduktion umgegangen werden?",
-    "en": "Please vote on a ban on the production of meat products for human consumption.\nWith a share of around 15 per cent, livestock farming makes a significant contribution to global greenhouse gas emissions caused by humans. Its share is therefore almost as large as that of global transport.\n60% of arable land is used for animal feed, causing huge environmental damage.\nThe frequent consumption of meat is also associated with numerous health risks.\nHow should meat production be handled in the future?",
-    "fr": "Please vote on a ban on the production of meat products for human consumption.\nWith a share of around 15 per cent, livestock farming makes a significant contribution to global greenhouse gas emissions caused by humans. Its share is therefore almost as large as that of global transport.\n60% of arable land is used for animal feed, causing huge environmental damage.\nThe frequent consumption of meat is also associated with numerous health risks.\nHow should meat production be handled in the future?",
-    "ar": "Please vote on a ban on the production of meat products for human consumption.\nWith a share of around 15 per cent, livestock farming makes a significant contribution to global greenhouse gas emissions caused by humans. Its share is therefore almost as large as that of global transport.\n60% of arable land is used for animal feed, causing huge environmental damage.\nThe frequent consumption of meat is also associated with numerous health risks.\nHow should meat production be handled in the future?"
-  },
-  "multipleChoice": false,
-  "choices": [
-    {
-      "name": "nomeat",
-      "isDefault": false,
-      "uiStrings": {
-        "de": "Fleischkonsum bis 2050 verbieten",
-        "en": "Ban meat consumption by 2050",
-        "fr": "Ban meat consumption by 2050",
-        "ar": "Ban meat consumption by 2050"
-      }
+    "_id": "meat-phase-out",
+    "heading": {
+        "de": "Verbot von Fleischkonsum",
+        "en": "Ban on meat production",
+        "fr": "Ban on meat production",
+        "ar": "Ban on meat production",
+        "_azure/gpt-4o_sv": "Förbud mot köttkonsumtion",
+        "_gcp/gemini-1.5-pro_sv": "Förbud mot köttkonsumtion \n",
+        "_compare_azure/gpt-4o_sv": "Förbud mot köttkonsumtion",
+        "_compare_gcp/gemini-1.5-pro_sv": "Förbud mot köttkonsumtion",
+        "_compare_aws/claude-3.5-sonnet_sv": "Förbud mot köttkonsumtion",
+        "_unique_translations_back_sv": [
+            "Verbot des Fleischkonsums"
+        ]
     },
-    {
-      "name": "expensivemeat",
-      "isDefault": true,
-      "uiStrings": {
-        "de": "Die Kosten für Fleischkonsum deutlich erhöhen",
-        "en": "Make meat consumption significantly more expensive",
-        "fr": "Make meat consumption significantly more expensive",
-        "ar": "Make meat consumption significantly more expensive"
-      }
+    "description": {
+        "de": "Bitte stimmen Sie über ein Verbot der Produktion von Fleischprodukten für den menschlichen Verzehr ab.\nMit einem Anteil von rund 15 Prozent trägt die Nutztierhaltung signifikant zu den globalen vom Menschen verursachten Treibhausgasemissionen bei. Ihr Anteil ist damit fast genauso groß wie der des weltweiten Verkehrs.\n60% der Anbaufläche wird für Tierfutter verbraucht, mit riesigen Umweltschäden.\nDer häufige Verzehr von Fleisch wird auch mit zahlreichen Gesundheitsrisiken in Verbindung gebracht.\nWie soll in Zukunft mit der Fleischproduktion umgegangen werden?",
+        "en": "Please vote on a ban on the production of meat products for human consumption.\nWith a share of around 15 per cent, livestock farming makes a significant contribution to global greenhouse gas emissions caused by humans. Its share is therefore almost as large as that of global transport.\n60% of arable land is used for animal feed, causing huge environmental damage.\nThe frequent consumption of meat is also associated with numerous health risks.\nHow should meat production be handled in the future?",
+        "fr": "Please vote on a ban on the production of meat products for human consumption.\nWith a share of around 15 per cent, livestock farming makes a significant contribution to global greenhouse gas emissions caused by humans. Its share is therefore almost as large as that of global transport.\n60% of arable land is used for animal feed, causing huge environmental damage.\nThe frequent consumption of meat is also associated with numerous health risks.\nHow should meat production be handled in the future?",
+        "ar": "Please vote on a ban on the production of meat products for human consumption.\nWith a share of around 15 per cent, livestock farming makes a significant contribution to global greenhouse gas emissions caused by humans. Its share is therefore almost as large as that of global transport.\n60% of arable land is used for animal feed, causing huge environmental damage.\nThe frequent consumption of meat is also associated with numerous health risks.\nHow should meat production be handled in the future?",
+        "_azure/gpt-4o_sv": "Vänligen rösta om ett förbud mot produktion av köttprodukter för mänsklig konsumtion.\nMed en andel på cirka 15 procent bidrar djurhållning signifikant till de globala växthusgasutsläppen orsakade av människor. Dess andel är därför nästan lika stor som den globala transportens.\n60% av odlingsmarken används för djurfoder, vilket orsakar enorma miljöskador.\nDen frekventa konsumtionen av kött är också förknippad med många hälsorisker.\nHur ska köttproduktionen hanteras i framtiden?",
+        "_gcp/gemini-1.5-pro_sv": "Rosta på ett förbud mot produktion av köttprodukter för mänsklig konsumtion.\nMed en andel på cirka 15 procent bidrar animalieproduktionen avsevärt till de globala utsläppen av växthusgaser som orsakas av människor. Dess andel är därmed nästan lika stor som den globala trafiken.\n60% av den odlingsbara marken används till djurfoder, vilket orsakar enorma miljöskador.\nFrekvent köttkonsumtion är också förknippat med många hälsorisker.\nHur ska köttproduktionen hanteras i framtiden? \n",
+        "_compare_azure/gpt-4o_sv": "Vänligen rösta om ett förbud mot produktion av köttprodukter för mänsklig konsumtion. Med en andel på cirka 15 procent bidrar djurhållning signifikant till de globala växthusgasutsläppen orsakade av människor. Dess andel är därför nästan lika stor som den globala transportens. 60% av odlingsmarken används för djurfoder, vilket orsakar enorma miljöskador. Den frekventa konsumtionen av kött är också förknippad med många hälsorisker. Hur ska köttproduktionen hanteras i framtiden?",
+        "_compare_gcp/gemini-1.5-pro_sv": "Vänligen rösta om ett förbud mot produktion av köttprodukter för mänsklig konsumtion. Med en andel på cirka 15 procent bidrar djurhållning signifikant till de globala växthusgasutsläppen orsakade av människor. Dess andel är därför nästan lika stor som den globala transportens. 60% av odlingsmarken används för djurfoder, vilket orsakar enorma miljöskador. Den frekventa konsumtionen av kött är också förknippad med många hälsorisker. Hur ska köttproduktionen hanteras i framtiden?",
+        "_compare_aws/claude-3.5-sonnet_sv": "Vänligen rösta om ett förbud mot produktion av köttprodukter för mänsklig konsumtion. Med en andel på cirka 15 procent bidrar djurhållning signifikant till de globala växthusgasutsläppen orsakade av människor. Dess andel är därför nästan lika stor som den globala transportens. 60% av odlingsmarken används för djurfoder, vilket orsakar enorma miljöskador. Den frekventa konsumtionen av kött är också förknippad med många hälsorisker. Hur ska köttproduktionen hanteras i framtiden?",
+        "_unique_translations_back_sv": [
+            "Bitte stimmen Sie über ein Verbot der Produktion von Fleischprodukten für den menschlichen Verzehr ab. Mit einem Anteil von etwa 15 Prozent trägt die Tierhaltung erheblich zu den vom Menschen verursachten globalen Treibhausgasemissionen bei. Ihr Anteil ist damit fast so groß wie der des globalen Verkehrs. 60% der Ackerflächen werden für Tierfutter genutzt, was enorme Umweltschäden verursacht. Der häufige Verzehr von Fleisch ist zudem mit zahlreichen Gesundheitsrisiken verbunden. Wie soll in Zukunft mit der Fleischproduktion umgegangen werden?",
+            "Bitte stimmen Sie über ein Verbot der Produktion von Fleischprodukten für den menschlichen Verzehr ab. Mit einem Anteil von rund 15 Prozent trägt die Tierhaltung erheblich zu den globalen, durch den Menschen verursachten Treibhausgasemissionen bei. Ihr Anteil ist damit fast genauso hoch wie der des weltweiten Verkehrs. 60 % der Ackerflächen werden für Tierfutter verwendet, was enorme Umweltschäden verursacht. Der häufige Verzehr von Fleisch ist zudem mit zahlreichen Gesundheitsrisiken verbunden. Wie soll mit der Fleischproduktion in Zukunft umgegangen werden?"
+        ]
     },
-    {
-      "name": "stillmeat",
-      "isDefault": false,
-      "uiStrings": {
-        "de": "Den Fleischkonsum nicht einschränken",
-        "en": "Do not limit meat consumption",
-        "fr": "Do not limit meat consumption",
-        "ar": "Do not limit meat consumption"
-      }
-    }
-  ]
+    "multipleChoice": false,
+    "choices": [
+        {
+            "name": "nomeat",
+            "isDefault": false,
+            "uiStrings": {
+                "de": "Fleischkonsum bis 2050 verbieten",
+                "en": "Ban meat consumption by 2050",
+                "fr": "Ban meat consumption by 2050",
+                "ar": "Ban meat consumption by 2050",
+                "_azure/gpt-4o_sv": "Förbjud köttkonsumtion till 2050",
+                "_gcp/gemini-1.5-pro_sv": "Förbjuda köttkonsumtion till 2050 \n",
+                "_compare_azure/gpt-4o_sv": "Förbjuda köttkonsumtion till 2050",
+                "_compare_gcp/gemini-1.5-pro_sv": "Förbjuda köttkonsumtion till 2050",
+                "_compare_aws/claude-3.5-sonnet_sv": "Förbjud köttkonsumtion till 2050",
+                "_unique_translations_back_sv": [
+                    "Verbot des Fleischkonsums bis 2050",
+                    "Fleischkonsum bis 2050 verbieten"
+                ]
+            }
+        },
+        {
+            "name": "expensivemeat",
+            "isDefault": true,
+            "uiStrings": {
+                "de": "Die Kosten für Fleischkonsum deutlich erhöhen",
+                "en": "Make meat consumption significantly more expensive",
+                "fr": "Make meat consumption significantly more expensive",
+                "ar": "Make meat consumption significantly more expensive",
+                "_azure/gpt-4o_sv": "Gör köttkonsumtion avsevärt dyrare",
+                "_gcp/gemini-1.5-pro_sv": "Öka kostnaderna för köttkonsumtion betydligt \n",
+                "_compare_azure/gpt-4o_sv": "Öka kostnaderna för köttkonsumtion betydligt",
+                "_compare_gcp/gemini-1.5-pro_sv": "Gör köttkonsumtion avsevärt dyrare",
+                "_compare_aws/claude-3.5-sonnet_sv": "Gör köttkonsumtion avsevärt dyrare",
+                "_unique_translations_back_sv": [
+                    "Den Fleischkonsum deutlich verteuern",
+                    "Fleischkonsum deutlich teurer machen"
+                ]
+            }
+        },
+        {
+            "name": "stillmeat",
+            "isDefault": false,
+            "uiStrings": {
+                "de": "Den Fleischkonsum nicht einschränken",
+                "en": "Do not limit meat consumption",
+                "fr": "Do not limit meat consumption",
+                "ar": "Do not limit meat consumption",
+                "_azure/gpt-4o_sv": "Begränsa inte köttkonsumtionen",
+                "_gcp/gemini-1.5-pro_sv": "Begränsa inte köttkonsumtionen \n",
+                "_compare_azure/gpt-4o_sv": "Begränsa inte köttkonsumtionen",
+                "_compare_gcp/gemini-1.5-pro_sv": "Begränsa inte köttkonsumtionen",
+                "_compare_aws/claude-3.5-sonnet_sv": "Begränsa inte köttkonsumtionen",
+                "_unique_translations_back_sv": [
+                    "Den Fleischkonsum nicht einschränken"
+                ]
+            }
+        }
+    ]
 }
