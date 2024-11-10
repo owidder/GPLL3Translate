@@ -520,6 +520,10 @@ async def compare(
     return compare_result
 
 
+def check_if_array_contains_no_empty_strings(array: [str]) -> bool:
+    return reduce(lambda acc, element: acc and len(element) > 0, array, True)
+
+
 async def crawl_json(
         data,
         source_language: str,
@@ -587,7 +591,7 @@ async def crawl_json(
             translation_sources = [get_translation_sources(unique_translation) for unique_translation in unique_translations]
 
             unique_translations_back_property = f"_unique_translations_back_{target_language}"
-            if not unique_translations_back_property in data:
+            if not (unique_translations_back_property in data and check_if_array_contains_no_empty_strings(data[unique_translations_back_property])):
                 unique_translations_back = [
                     await get_best_back_translation(
                         source_text=translation,
