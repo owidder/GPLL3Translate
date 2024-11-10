@@ -260,17 +260,18 @@ async def get_best_back_translation(
             file_description=file_description,
         ) for model in translate_models
     ]
+    unique_translations = create_unique_translations(translations)
     best_translations = [
         await compare_translations(
             source_text=source_text,
             source_language=source_language,
             target_language=target_language,
-            translations=translations,
+            translations=unique_translations,
             model=model,
             file_content=file_content,
             file_description=file_description
         ) for model in assess_models
-    ]
+    ] if len(unique_translations) > 1 and len(assess_models) > 1 else unique_translations
     best_translation = normalize_string(find_most_common_strings(best_translations)[0])
     return best_translation
 
@@ -592,8 +593,8 @@ async def crawl_json(
                         source_text=translation,
                         source_language=target_language,
                         target_language=source_language,
-                        translate_models=[GPT_4O, GEMINI_1_5_PRO, CLAUDE_3_5_SONNET],
-                        assess_models=[GPT_4O, GEMINI_1_5_PRO, CLAUDE_3_5_SONNET],
+                        translate_models=[GPT_4O],
+                        assess_models=[],
                         file_content=file_content,
                         file_description=file_description,
                     ) for translation in unique_translations
