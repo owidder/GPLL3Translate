@@ -23,13 +23,31 @@
                     "ru": null,
                     "en": "Success - the 2°C target was met!",
                     "fr": "Succès - l'objectif des 2°C a été atteint !",
-                    "ar": "نجاح - تم تحقيق الهدف البالغ 2 درجة مئوية!"
+                    "ar": "نجاح - تم تحقيق الهدف البالغ 2 درجة مئوية!",
+                    "_azure/gpt-4o_sv": "Lyckades - 2°C-målet uppnåddes!",
+                    "_gcp/gemini-1.5-pro_sv": "Lyckats - 2-gradersmålet har uppnåtts! \n",
+                    "_compare_azure/gpt-4o_sv": "Lyckades - 2°C-målet uppnåddes!",
+                    "_compare_gcp/gemini-1.5-pro_sv": "Lyckats - 2-gradersmålet har uppnåtts!",
+                    "_compare_aws/claude-3.5-sonnet_sv": "Lyckades - 2°C-målet uppnåddes!",
+                    "_unique_translations_back_sv": [
+                        "Erfolg - das 2-Grad-Ziel wurde erreicht!",
+                        "Erfolg - das 2°C-Ziel wurde erreicht!"
+                    ]
                 },
                 "body": {
                     "de": "Wir haben es geschafft! Der Temperaturanstieg im Vergleich zum vorindustriellen Niveau wird unter 2°C bleiben. Dies wurde durch die Änderungen Ihres Lebensstils und die Anstrengungen der Industrie erreicht.",
                     "en": "We made it! The increase in temperature as compared to pre-industrial levels will be kept under 2°C. This has been achieved through your changes in lifestyle and efforts by the industrial sector.",
                     "fr": "Nous l'avons fait ! L'augmentation de la température par rapport aux niveaux préindustriels sera maintenue en dessous de 2°C. Cela a été réalisé grâce à vos changements de mode de vie et aux efforts du secteur industriel.",
-                    "ar": "نحن قد حققناها! سيتم الحفاظ على زيادة درجة الحرارة مقارنةً بمستويات ما قبل الثورة الصناعية دون 2 درجة مئوية. تم تحقيق ذلك من خلال تغييراتك في نمط الحياة وجهود القطاع الصناعي."
+                    "ar": "نحن قد حققناها! سيتم الحفاظ على زيادة درجة الحرارة مقارنةً بمستويات ما قبل الثورة الصناعية دون 2 درجة مئوية. تم تحقيق ذلك من خلال تغييراتك في نمط الحياة وجهود القطاع الصناعي.",
+                    "_azure/gpt-4o_sv": "Vi har klarat det! Temperaturökningen jämfört med förindustriella nivåer kommer att hållas under 2°C. Detta har uppnåtts genom dina livsstilsförändringar och industrins ansträngningar.",
+                    "_gcp/gemini-1.5-pro_sv": "Vi klarade det! Temperaturökningen jämfört med förindustriell nivå kommer att hålla sig under 2 °C. Detta har uppnåtts genom dina livsstilsförändringar och industrins ansträngningar. \n",
+                    "_compare_azure/gpt-4o_sv": "Vi har klarat det! Temperaturökningen jämfört med förindustriella nivåer kommer att hållas under 2°C. Detta har uppnåtts genom dina livsstilsförändringar och industrins ansträngningar",
+                    "_compare_gcp/gemini-1.5-pro_sv": "Vi har klarat det! Temperaturökningen jämfört med förindustriella nivåer kommer att hållas under 2°C. Detta har uppnåtts genom dina livsstilsförändringar och industrins ansträngningar",
+                    "_compare_aws/claude-3.5-sonnet_sv": "Vi har klarat det! Temperaturökningen jämfört med förindustriella nivåer kommer att hållas under 2°C. Detta har uppnåtts genom dina livsstilsförändringar och industrins ansträngningar",
+                    "_unique_translations_back_sv": [
+                        "Wir haben es geschafft! Der Temperaturanstieg im Vergleich zum vorindustriellen Niveau wird unter 2 °C bleiben. Dies wurde durch Ihre Lebensstiländerungen und die Anstrengungen der Industrie erreicht",
+                        "Wir haben es geschafft! Der Temperaturanstieg im Vergleich zu vorindustriellen Niveaus wird unter 2°C gehalten. Dies wurde durch Ihre Lebensstiländerungen und die Anstrengungen der Industrie erreicht"
+                    ]
                 }
             }
         }

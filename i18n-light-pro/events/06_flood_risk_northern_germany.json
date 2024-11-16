@@ -26,8 +26,8 @@
                     "_compare_gcp/gemini-1.5-pro_sv": "Översvämningrisk i norra Tyskland",
                     "_compare_aws/claude-3.5-sonnet_sv": "Översvämningsrisk i norra Tyskland",
                     "_unique_translations_back_sv": [
-                        "",
-                        ""
+                        "Überschwemmungsrisiko in Norddeutschland",
+                        "Überschwemmungsrisiko in Norddeutschland"
                     ],
                     "_azure/gpt-4o_ar": "مخاطر الفيضانات في شمال ألمانيا",
                     "_gcp/gemini-1.5-pro_ar": "مخاطر الفيضانات في شمال ألمانيا\n",
@@ -282,8 +282,8 @@
                     "_compare_gcp/gemini-1.5-pro_sv": "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> Dikena i norra Tyskland höjs på grund av ökande översvämningsrisk. Havsnivån stiger. Nederländerna och Belgien letar efter ytterligare lösningar",
                     "_compare_aws/claude-3.5-sonnet_sv": "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> Dikena i norra Tyskland höjs på grund av ökande översvämningsrisk. Havsnivån stiger. Nederländerna och Belgien letar efter ytterligare lösningar",
                     "_unique_translations_back_sv": [
-                        "",
-                        ""
+                        "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> Die Deiche in Norddeutschland werden aufgrund des zunehmenden Hochwasserrisikos erhöht. Der Meeresspiegel steigt. Die Niederlande und Belgien suchen nach zusätzlichen Lösungen",
+                        "<img width=250 src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"> Die Deiche in Norddeutschland werden aufgrund des zunehmenden Hochwasserrisikos erhöht. Der Meeresspiegel steigt. Die Niederlande und Belgien suchen nach zusätzlichen Lösungen"
                     ],
                     "_azure/gpt-4o_ar": "<img width=250 src=https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg><br>تتم رفع السدود في شمال ألمانيا بسبب زيادة خطر الفيضانات. يرتفع مستوى البحر. هولندا وبلجيكا يبحثان عن حلول إضافية.",
                     "_gcp/gemini-1.5-pro_ar": "<img width=250  src=\"https://hakaimagazine.com/wp-content/uploads/header-dike-mafia.jpg\"><br>تتم رفع السدود في شمال ألمانيا بسبب زيادة خطر الفيضانات. يرتفع مستوى البحر. هولندا وبلجيكا يبحثان عن حلول إضافية. \n",

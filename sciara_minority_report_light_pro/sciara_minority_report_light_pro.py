@@ -386,7 +386,7 @@ def create_pdf_table(input_file: str, translation_lines: [str], source: str, tar
     pdf.build(elements)
 
 
-def create_table(input_file: str, translation_lines: [str], source: str, target: str) -> str:
+def render_htmL_table(table_name: str, translation_lines: [str], source: str, target: str) -> str:
     translation_headers = []
     model_names = TRANSLATION_MODELS.split(",")
     for i in range(len(model_names)):
@@ -399,14 +399,23 @@ def create_table(input_file: str, translation_lines: [str], source: str, target:
 
     env = Environment(loader=FileSystemLoader('../templates'))
     template = env.get_template('compare_light_table.html.j2')
-    html = template.render(table_name=input_file, headers=headers, translation_lines=translation_lines, max_translations=len(TRANSLATION_MODELS.split(",")))
+    html = template.render(table_name=table_name, headers=headers, translation_lines=translation_lines, max_translations=len(TRANSLATION_MODELS.split(",")))
+    return html
+
+
+def create_global_table(translation_lines_dict: {str: [str]}, source: str, target: str):
+    html_file = f"../tables/global_table.{source}_{target}.light.pro.html"
+    with open(html_file, 'w') as f:
+        for table_name, translation_lines in translation_lines_dict.items():
+            html = render_htmL_table(table_name=table_name, translation_lines=translation_lines, source=source, target=target)
+            f.write(html)
+
+
+def create_table(input_file: str, translation_lines: [str], source: str, target: str) -> str:
+    html = render_htmL_table(table_name=input_file, translation_lines=translation_lines, source=source, target=target)
     html_file = f"../tables/{input_file}_table.{source}_{target}.light.pro.html"
     with open(html_file, 'w') as f:
         f.write(html)
-    #HTML(html _file).write_pdf(f"{html_file}.pdf")
-    # pdf_file = f"../tables/{input_file}_table.{source}_{target}.light.pro.html.pdf"
-    # with open(pdf_file, "w+b") as pdf_file:
-    #     pisa.CreatePDF(html, dest=pdf_file)
     return(html_file)
 
 
@@ -668,30 +677,25 @@ async def process_i18n_file(file_path: str, file_description:str, target_languag
     return table_lines_dict
 
 
-async def process_one_file(input_file: str, file_description: str) -> ([str], [str]):
+async def process_one_file(input_file: str, file_description: str) -> [str]:
     table_lines_dict = await process_i18n_file(file_path=input_file, file_description=file_description, target_language=TARGET_LANGUAGE)
     html_tables = []
-    pdf_tables = []
     for target_language in table_lines_dict:
         html_table = create_table(translation_lines=table_lines_dict[target_language], source=SOURCE_LANGUAGE, target=target_language, input_file=os.path.basename(input_file))
         html_tables.append(html_table)
-        # pdf_table = create_pdf_with_table(translation_lines=table_lines_dict[target_language], source=SOURCE_LANGUAGE, target=target_language, input_file=os.path.basename(input_file))
-        # pdf_tables.append(pdf_table)
-    return html_tables, pdf_tables
+    return html_tables
 
 
-async def process_input_file_set(file_set_path: str) -> ([str], [str]):
+async def process_input_file_set(file_set_path: str) -> [str]:
     all_html_tables = []
-    all_pdf_tables =[]
     with open(file_set_path, 'r') as f:
         for line in f:
             if len(line.strip()) > 0:
                 print(f"==========> {line.strip()}")
                 relative_file_path, file_description = line.strip().split("///")
-                html_tables, pdf_tables = await process_one_file(input_file=os.path.join(INPUT_FILE_ROOT_FOLDER, relative_file_path), file_description=file_description)
+                html_tables = await process_one_file(input_file=os.path.join(INPUT_FILE_ROOT_FOLDER, relative_file_path), file_description=file_description)
                 all_html_tables.extend(html_tables)
-                all_pdf_tables.extend(pdf_tables)
-    return all_html_tables, all_pdf_tables
+    return all_html_tables
 
 
 def create_all_pdf_file(html_files: [str]):

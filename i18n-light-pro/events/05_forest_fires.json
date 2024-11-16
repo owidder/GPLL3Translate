@@ -26,8 +26,8 @@
                     "_compare_gcp/gemini-1.5-pro_sv": "Röd himmel av fördärv: Tänk noga på var du bokar din nästa semester!",
                     "_compare_aws/claude-3.5-sonnet_sv": "Röd himmel av fördärv: Tänk noga på var du bokar din nästa semester!",
                     "_unique_translations_back_sv": [
-                        "",
-                        ""
+                        "Roter Himmel des Verderbens: Überlegen Sie gut, wo Sie Ihren nächsten Urlaub buchen!",
+                        "Roter Himmel des Unheils: Überlegen Sie sich gut, wo Sie Ihren nächsten Urlaub buchen!"
                     ],
                     "_azure/gpt-4o_ar": "سماء حمراء من الهلاك: فكروا جيدًا في أي مكان تحجزون فيه عطلتكم القادمة!",
                     "_gcp/gemini-1.5-pro_ar": "سماء حمراء من الدمار: فكر جيدًا في المكان الذي ستحجز فيه عطلتك القادمة! \n",
@@ -290,8 +290,8 @@
                     "_compare_gcp/gemini-1.5-pro_sv": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Längs Medelhavet fortsätter enorma skogsbränder att hota populära turistområden. Effekterna på flora och fauna är förödande. Var försiktig!",
                     "_compare_aws/claude-3.5-sonnet_sv": "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Längs Medelhavet fortsätter enorma skogsbränder att hota populära turistområden. Effekterna på flora och fauna är förödande. Var försiktig!",
                     "_unique_translations_back_sv": [
-                        "",
-                        ""
+                        "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Entlang des Mittelmeers bedrohen weiterhin riesige Waldbrände beliebte Touristengebiete. Die Auswirkungen auf Flora und Fauna sind verheerend. Bitte seien Sie vorsichtig!",
+                        "<img width=250 src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"> Entlang des Mittelmeers bedrohen weiterhin riesige Waldbrände beliebte Touristengebiete. Die Auswirkungen auf Flora und Fauna sind verheerend. Bitte seien Sie vorsichtig!"
                     ],
                     "_azure/gpt-4o_ar": "<img width=250 src=https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg ><br>على طول البحر الأبيض المتوسط، تستمر الحرائق الضخمة في الغابات في تهديد المناطق السياحية الشهيرة. الآثار المترتبة على النباتات والحيوانات مدمرة. يرجى أخذ الحيطة والحذر!",
                     "_gcp/gemini-1.5-pro_ar": "<img width=250  src=\"https://grist.org/wp-content/uploads/2020/01/australia-fire.jpg \"><br>لا تزال حرائق الغابات الضخمة تهدد المناطق السياحية الشهيرة على طول البحر الأبيض المتوسط. إن تأثيرها على النباتات والحيوانات كارثي. يرجى توخي الحذر! \n",

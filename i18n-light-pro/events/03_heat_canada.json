@@ -26,8 +26,8 @@
                     "_compare_gcp/gemini-1.5-pro_sv": "Extrem hetta i Kanada skördar människoliv",
                     "_compare_aws/claude-3.5-sonnet_sv": "Extrem hetta i Kanada skördar människoliv",
                     "_unique_translations_back_sv": [
-                        "",
-                        ""
+                        "Extreme Hitze in Kanada fordert Menschenleben",
+                        "Extreme Hitze in Kanada fordert Todesopfer"
                     ],
                     "_azure/gpt-4o_ar": "الحرارة الشديدة في كندا تتسبب في وفيات",
                     "_gcp/gemini-1.5-pro_ar": "ارتفاع درجات الحرارة الشديدة في كندا يتسبب في وفيات\n",
@@ -78,10 +78,6 @@
                     "_compare_azure/gpt-4o_el": "Η ακραία ζέστη στον Καναδά προκαλεί θανάτους",
                     "_compare_gcp/gemini-1.5-pro_el": "Ακραίες θερμοκρασίες στον Καναδά στοιχίζουν ζωές",
                     "_compare_aws/claude-3.5-sonnet_el": "Ακραίες θερμοκρασίες στον Καναδά στοιχίζουν ζωές",
-                    "_unique_translations_back_el": [
-                        "",
-                        ""
-                    ],
                     "_azure/gpt-4o_en": "Extreme heat in Canada claims lives",
                     "_gcp/gemini-1.5-pro_en": "Extreme heat in Canada causes deaths \n",
                     "_compare_azure/gpt-4o_en": "Extreme heat in Canada claims lives",
@@ -96,28 +92,16 @@
                     "_compare_azure/gpt-4o_es": "El calor extremo en Canadá causa muertes",
                     "_compare_gcp/gemini-1.5-pro_es": "El calor extremo en Canadá causa muertes",
                     "_compare_aws/claude-3.5-sonnet_es": "El calor extremo en Canadá causa muertes",
-                    "_unique_translations_back_es": [
-                        "",
-                        ""
-                    ],
                     "_azure/gpt-4o_et": "Äärmuslik kuumus Kanadas nõuab inimelusid",
                     "_gcp/gemini-1.5-pro_et": "Kanadas on äärmuslik kuumus nõudnud inimohvreid \n",
                     "_compare_azure/gpt-4o_et": "Äärmuslik kuumus Kanadas nõuab inimelusid",
                     "_compare_gcp/gemini-1.5-pro_et": "Kanadas on äärmuslik kuumus nõudnud inimohvreid",
                     "_compare_aws/claude-3.5-sonnet_et": "Äärmuslik kuumus Kanadas nõuab inimelusid",
-                    "_unique_translations_back_et": [
-                        "",
-                        ""
-                    ],
                     "_azure/gpt-4o_fi": "Äärimmäinen kuumuus Kanadassa vaatii kuolonuhreja",
                     "_gcp/gemini-1.5-pro_fi": "Kanadan äärimmäinen kuumuus vaatii kuolonuhreja \n",
                     "_compare_azure/gpt-4o_fi": "Äärimmäinen kuumuus Kanadassa vaatii kuolonuhreja",
                     "_compare_gcp/gemini-1.5-pro_fi": "Kanadan äärimmäinen kuumuus vaatii kuolonuhreja",
                     "_compare_aws/claude-3.5-sonnet_fi": "Äärimmäinen kuumuus Kanadassa vaatii kuolonuhreja",
-                    "_unique_translations_back_fi": [
-                        "",
-                        ""
-                    ],
                     "_azure/gpt-4o_fr": "La chaleur extrême au Canada provoque des décès",
                     "_gcp/gemini-1.5-pro_fr": "",
                     "_compare_azure/gpt-4o_fr": "La chaleur extrême au Canada provoque des décès",
@@ -132,118 +116,66 @@
                     "_compare_azure/gpt-4o_ga": "An-teas i gCeanada ag marú daoine",
                     "_compare_gcp/gemini-1.5-pro_ga": "An-teas i gCeanada ag marú daoine",
                     "_compare_aws/claude-3.5-sonnet_ga": "An-teas i gCeanada ag marú daoine",
-                    "_unique_translations_back_ga": [
-                        "",
-                        ""
-                    ],
                     "_azure/gpt-4o_hr": "Ekstremna vrućina u Kanadi uzima živote",
                     "_gcp/gemini-1.5-pro_hr": "Ekstremna vrućina u Kanadi uzrokuje smrtne slučajeve \n",
                     "_compare_azure/gpt-4o_hr": "Ekstremna vrućina u Kanadi uzrokuje smrtne slučajeve",
                     "_compare_gcp/gemini-1.5-pro_hr": "Ekstremna vrućina u Kanadi uzrokuje smrtne slučajeve",
                     "_compare_aws/claude-3.5-sonnet_hr": "Ekstremna vrućina u Kanadi uzima živote",
-                    "_unique_translations_back_hr": [
-                        "",
-                        ""
-                    ],
                     "_azure/gpt-4o_hu": "Extrém hőség Kanadában emberéleteket követel.",
                     "_gcp/gemini-1.5-pro_hu": "Extrém hőség Kanadában szed áldozatokat \n",
                     "_compare_azure/gpt-4o_hu": "Extrém hőség Kanadában emberéleteket követel",
                     "_compare_gcp/gemini-1.5-pro_hu": "Extrém hőség Kanadában emberéleteket követel",
                     "_compare_aws/claude-3.5-sonnet_hu": "Extrém hőség Kanadában emberéleteket követel",
-                    "_unique_translations_back_hu": [
-                        "",
-                        ""
-                    ],
                     "_azure/gpt-4o_id": "Panaskan ekstrem di Kanada menelan korban jiwa",
                     "_gcp/gemini-1.5-pro_id": "Panas Ekstrem di Kanada Menelan Korban Jiwa \n",
                     "_compare_azure/gpt-4o_id": "Panas Ekstrem di Kanada Menelan Korban Jiwa",
                     "_compare_gcp/gemini-1.5-pro_id": "Panas Ekstrem di Kanada Menelan Korban Jiwa",
                     "_compare_aws/claude-3.5-sonnet_id": "Panas Ekstrem di Kanada Menelan Korban Jiwa",
-                    "_unique_translations_back_id": [
-                        "",
-                        ""
-                    ],
                     "_azure/gpt-4o_it": "Estremo caldo in Canada miete vittime",
                     "_gcp/gemini-1.5-pro_it": "Caldo estremo in Canada miete vittime",
                     "_compare_azure/gpt-4o_it": "Caldo estremo in Canada miete vittime",
                     "_compare_gcp/gemini-1.5-pro_it": "Estremo caldo in Canada miete vittime",
                     "_compare_aws/claude-3.5-sonnet_it": "Caldo estremo in Canada miete vittime",
-                    "_unique_translations_back_it": [
-                        "",
-                        ""
-                    ],
                     "_azure/gpt-4o_ja": "カナダの極端な暑さが命を奪う",
                     "_gcp/gemini-1.5-pro_ja": "",
                     "_compare_azure/gpt-4o_ja": "カナダの極端な暑さが命を奪う",
                     "_compare_gcp/gemini-1.5-pro_ja": "カナダの極端な暑さが命を奪う",
                     "_compare_aws/claude-3.5-sonnet_ja": "カナダの極端な暑さが命を奪う",
-                    "_unique_translations_back_ja": [
-                        "",
-                        ""
-                    ],
                     "_azure/gpt-4o_ko": "캐나다의 극심한 더위가 목숨을 앗아가다",
                     "_gcp/gemini-1.5-pro_ko": "캐나다에서 폭염으로 인한 사망자 발생",
                     "_compare_azure/gpt-4o_ko": "캐나다에서 폭염으로 인한 사망자 발생",
                     "_compare_gcp/gemini-1.5-pro_ko": "캐나다의 극심한 더위가 목숨을 앗아가다",
                     "_compare_aws/claude-3.5-sonnet_ko": "캐나다의 극심한 더위가 목숨을 앗아가다",
-                    "_unique_translations_back_ko": [
-                        "",
-                        ""
-                    ],
                     "_azure/gpt-4o_lv": "Ekstrēma karstuma viļņi Kanādā prasa cilvēku dzīvības",
                     "_gcp/gemini-1.5-pro_lv": "Kanādā ārkārtējs karstums prasa upurus \n",
                     "_compare_azure/gpt-4o_lv": "Kanādā ārkārtējs karstums prasa upurus",
                     "_compare_gcp/gemini-1.5-pro_lv": "Ekstrēma karstuma viļņi Kanādā prasa cilvēku dzīvības",
                     "_compare_aws/claude-3.5-sonnet_lv": "Ekstrēma karstuma viļņi Kanādā prasa cilvēku dzīvības",
-                    "_unique_translations_back_lv": [
-                        "",
-                        ""
-                    ],
                     "_azure/gpt-4o_lt": "Ekstremali karštis Kanadoje pareikalauja gyvybių",
                     "_gcp/gemini-1.5-pro_lt": "Ekstremalūs karščiai Kanadoje nusineša gyvybių \n",
                     "_compare_azure/gpt-4o_lt": "Ekstremali karštis Kanadoje pareikalauja gyvybių",
                     "_compare_gcp/gemini-1.5-pro_lt": "Ekstremalūs karščiai Kanadoje nusineša gyvybių",
                     "_compare_aws/claude-3.5-sonnet_lt": "Ekstremalūs karščiai Kanadoje nusineša gyvybių",
-                    "_unique_translations_back_lt": [
-                        "",
-                        ""
-                    ],
                     "_azure/gpt-4o_mt": "Sħana estrema fil-Kanada tieħu ħajjiet",
                     "_gcp/gemini-1.5-pro_mt": "Sħana estrema fil-Kanada tikkawża mwiet \n",
                     "_compare_azure/gpt-4o_mt": "Sħana estrema fil-Kanada tieħu ħajjiet",
                     "_compare_gcp/gemini-1.5-pro_mt": "Sħana estrema fil-Kanada tieħu ħajjiet",
                     "_compare_aws/claude-3.5-sonnet_mt": "Sħana estrema fil-Kanada tieħu ħajjiet",
-                    "_unique_translations_back_mt": [
-                        "",
-                        ""
-                    ],
                     "_azure/gpt-4o_nl": "Extreme hitte in Canada eist levens",
                     "_gcp/gemini-1.5-pro_nl": "Extreme hitte in Canada eist dodelijke slachtoffers \n",
                     "_compare_azure/gpt-4o_nl": "Extreme hitte in Canada eist levens",
                     "_compare_gcp/gemini-1.5-pro_nl": "Extreme hitte in Canada eist levens",
                     "_compare_aws/claude-3.5-sonnet_nl": "Extreme hitte in Canada eist dodelijke slachtoffers",
-                    "_unique_translations_back_nl": [
-                        "",
-                        ""
-                    ],
                     "_azure/gpt-4o_pl": "Ekstremalne upały w Kanadzie zbierają śmiertelne żniwo.",
                     "_gcp/gemini-1.5-pro_pl": "Ekstremalne upały w Kanadzie powodują zgony \n",
                     "_compare_azure/gpt-4o_pl": "Ekstremalne upały w Kanadzie zbierają śmiertelne żniwo",
                     "_compare_gcp/gemini-1.5-pro_pl": "Ekstremalne upały w Kanadzie zbierają śmiertelne żniwo",
                     "_compare_aws/claude-3.5-sonnet_pl": "Ekstremalne upały w Kanadzie zbierają śmiertelne żniwo",
-                    "_unique_translations_back_pl": [
-                        "",
-                        ""
-                    ],
                     "_azure/gpt-4o_ro": "Căldura extremă din Canada provoacă decese",
                     "_gcp/gemini-1.5-pro_ro": "Căldura extremă din Canada face victime",
                     "_compare_azure/gpt-4o_ro": "Căldura extremă din Canada face victime",
                     "_compare_gcp/gemini-1.5-pro_ro": "Căldura extremă din Canada provoacă decese",
                     "_compare_aws/claude-3.5-sonnet_ro": "Căldura extremă din Canada face victime",
-                    "_unique_translations_back_ro": [
-                        "",
-                        ""
-                    ],
                     "_azure/gpt-4o_ru": "Экстремальная жара в Канаде уносит жизни людей",
                     "_gcp/gemini-1.5-pro_ru": "Экстремальная жара в Канаде уносит жизни людей \n",
                     "_compare_azure/gpt-4o_ru": "Экстремальная жара в Канаде уносит жизни людей",
@@ -257,19 +189,11 @@
                     "_compare_azure/gpt-4o_sk": "Extrémne horúčavy v Kanade si vyžiadali obete na životoch",
                     "_compare_gcp/gemini-1.5-pro_sk": "Extrémne horúčavy v Kanade si vyžiadali obete na životoch",
                     "_compare_aws/claude-3.5-sonnet_sk": "Extrémne horúčavy v Kanade si vyžiadali obete na životoch",
-                    "_unique_translations_back_sk": [
-                        "",
-                        ""
-                    ],
                     "_azure/gpt-4o_sl": "Ekstremna vročina v Kanadi terja smrtne žrtve",
                     "_gcp/gemini-1.5-pro_sl": "Ekstremna vročina v Kanadi zahteva smrtne žrtve. \n",
                     "_compare_azure/gpt-4o_sl": "Ekstremna vročina v Kanadi terja smrtne žrtve",
                     "_compare_gcp/gemini-1.5-pro_sl": "Ekstremna vročina v Kanadi terja smrtne žrtve",
                     "_compare_aws/claude-3.5-sonnet_sl": "Ekstremna vročina v Kanadi terja smrtne žrtve",
-                    "_unique_translations_back_sl": [
-                        "",
-                        ""
-                    ],
                     "_azure/gpt-4o_zh": "加拿大的极端高温造成了人员死亡",
                     "_gcp/gemini-1.5-pro_zh": "",
                     "_compare_azure/gpt-4o_zh": "加拿大的极端高温造成了人员死亡",
@@ -292,8 +216,8 @@
                     "_compare_gcp/gemini-1.5-pro_sv": "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"> Kanada registrerar återigen rekordtemperaturer på nästan 50 grader Celsius. Efter veckor med temperaturer långt över 30 grader mättes upp till 49,2 grader igår i vissa områden i British Columbia. Enligt myndigheterna har flera hundra människor dött eftersom de inte kunde svalka sig tillräckligt",
                     "_compare_aws/claude-3.5-sonnet_sv": "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"> Kanada uppmäter återigen rekordtemperaturer på nästan 50 grader Celsius. Efter flera veckor med temperaturer långt över 30 grader uppmättes igår i vissa områden i British Columbia temperaturer på upp till 49,2 grader. Enligt myndigheterna dog flera hundra människor som inte längre kunde kyla ner sig tillräckligt",
                     "_unique_translations_back_sv": [
-                        "",
-                        ""
+                        "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"> Kanada verzeichnet erneut Rekordtemperaturen von fast 50 Grad Celsius. Nach Wochen mit Temperaturen weit über 30 Grad wurden gestern in einigen Gebieten von British Columbia bis zu 49,2 Grad gemessen. Laut Behörden sind mehrere hundert Menschen gestorben, weil sie sich nicht ausreichend abkühlen konnten",
+                        "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"> Kanada misst erneut Rekordtemperaturen von fast 50 Grad Celsius. Nach mehreren Wochen mit Temperaturen weit über 30 Grad wurden gestern in einigen Gebieten von British Columbia Temperaturen von bis zu 49,2 Grad gemessen. Nach Angaben der Behörden starben mehrere hundert Menschen, die sich nicht mehr ausreichend kühlen konnten"
                     ],
                     "_azure/gpt-4o_ar": "<img width=250 src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"><br>كندا تقيس مجددًا درجات حرارة قياسية تصل إلى حوالي 50 درجة مئوية.<br>بعد أسابيع من درجات الحرارة التي تتجاوز 30 درجة مئوية، قست بعض مناطق كولومبيا البريطانية درجة حرارة تصل إلى 49.2 درجة أمس.<br>وفقًا للسلطات، توفي عدة مئات من الأشخاص بسبب عدم قدرتهم على التبريد بشكل كافٍ.",
                     "_gcp/gemini-1.5-pro_ar": "<img width=250  src=\"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EDF4QOGNHNCH3LFMHDNHAXBNW4.png\"><br>تقيس كندا مرة أخرى درجات حرارة قياسية تقارب 50 درجة مئوية.<br>بعد أسابيع من درجات حرارة أعلى بكثير من 30 درجة، تم قياس درجات حرارة تصل إلى 49.2 درجة في بعض مناطق كولومبيا البريطانية يوم أمس.<br>وبحسب السلطات، فقد توفي عدة مئات من الأشخاص الذين لم يعودوا قادرين على تبريد أنفسهم بشكل كافٍ. \n",

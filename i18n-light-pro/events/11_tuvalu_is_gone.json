@@ -180,7 +180,11 @@
                     "_gcp/gemini-1.5-pro_zh": "美丽的太平洋岛国图瓦卢已经不复存在了",
                     "_compare_azure/gpt-4o_zh": "美丽的太平洋岛国图瓦卢已经消失了",
                     "_compare_gcp/gemini-1.5-pro_zh": "美丽的太平洋岛国图瓦卢已经不复存在了",
-                    "_compare_aws/claude-3.5-sonnet_zh": "美丽的太平洋岛国图瓦卢已经不复存在了"
+                    "_compare_aws/claude-3.5-sonnet_zh": "美丽的太平洋岛国图瓦卢已经不复存在了",
+                    "_unique_translations_back_sv": [
+                        "Die schöne pazifische Inselnation Tuvalu ist nicht mehr",
+                        "Den wunderschöne pazifische Inselstaat Tuvalu ist nicht mehr"
+                    ]
                 },
                 "body": {
                     "de": "<img width=250  src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"><br>Der pazifische Inselstaat Tuvalu ist völlig überflutet. Die 11.000 Einwohner haben alles verloren und sind auf Hilfe angewiesen. Wenden Sie sich an Ihre örtlichen Behörden, um zu erfahren, wie Sie helfen können.",
@@ -351,7 +355,11 @@
                     "_gcp/gemini-1.5-pro_zh": "<img width=250  src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"><br>太平洋岛国图瓦卢已被完全淹没。1.1万居民失去了一切，急需救援。请联系您当地的政府部门，了解如何提供帮助。 \n",
                     "_compare_azure/gpt-4o_zh": "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> 太平洋岛国图瓦卢已被完全淹没。1.1万居民失去了一切，急需救援。请联系您当地的政府部门，了解如何提供帮助。",
                     "_compare_gcp/gemini-1.5-pro_zh": "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> 太平洋岛国图瓦卢已被完全淹没。1.1万居民失去了一切，急需救援。请联系您当地的政府部门，了解如何提供帮助。",
-                    "_compare_aws/claude-3.5-sonnet_zh": "<img width=250 src=https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg> 太平洋岛国图瓦卢已经完全被洪水淹没。11000名居民失去了一切，急需救援。请联系当地政府，了解您如何提供帮助。"
+                    "_compare_aws/claude-3.5-sonnet_zh": "<img width=250 src=https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg> 太平洋岛国图瓦卢已经完全被洪水淹没。11000名居民失去了一切，急需救援。请联系当地政府，了解您如何提供帮助。",
+                    "_unique_translations_back_sv": [
+                        "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> Der pazifische Inselstaat Tuvalu ist völlig überflutet. Die 11.000 Einwohner haben alles verloren und sind auf Hilfe angewiesen. Wenden Sie sich an Ihre örtlichen Behörden, um zu erfahren, wie Sie helfen können",
+                        "<img width=250 src=\"https://i0.wp.com/whstheshield.com/wp-content/uploads/2020/09/tuvalu-1-2.jpg\"> Der im Pazifik gelegene Inselstaat Tuvalu ist vollständig überflutet. Seine 11.000 Einwohner haben alles verloren und benötigen Hilfe. Wenden Sie sich an Ihre lokalen Behörden, um zu erfahren, wie Sie helfen können"
+                    ]
                 }
             }
         }

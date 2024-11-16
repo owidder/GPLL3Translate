@@ -26,8 +26,8 @@
                     "_compare_gcp/gemini-1.5-pro_sv": "Värmeböljor i havet dödar korallrev",
                     "_compare_aws/claude-3.5-sonnet_sv": "Värmeböljor i havet dödar korallrev",
                     "_unique_translations_back_sv": [
-                        "",
-                        ""
+                        "En stor gemensam inventering av marina forskningsinstitut från flera länder visade att över två tredjedelar av alla koraller har dött på grund av för höga havstemperaturer. Detta har katastrofala konsekvenser för fiskbeståndet, eftersom korallreven är en viktig uppfödningsplats för ett stort antal fiskar, skaldjur och kräftdjur",
+                        "Hitzewellen im Meer töten Korallenriffe"
                     ],
                     "_azure/gpt-4o_ar": "موجات الحرارة في البحر تقتل الشعاب المرجانية",
                     "_gcp/gemini-1.5-pro_ar": "موجات الحر البحرية تقتل الشعاب المرجانية\n",
@@ -290,8 +290,8 @@
                     "_compare_gcp/gemini-1.5-pro_sv": "<img width=250 src=\"https://static.dw.com/image/46075549_303.jpg \"> En stor gemensam inventering av marina forskningsinstitut från flera länder visade att över två tredjedelar av alla koraller har dött på grund av för höga havstemperaturer. Detta har katastrofala konsekvenser för fiskbeståndet, eftersom korallreven är en viktig uppfödningsplats för ett stort antal fiskar, skaldjur och kräftdjur",
                     "_compare_aws/claude-3.5-sonnet_sv": "<img width=250 src=\"https://static.dw.com/image/46075549_303.jpg \"> En stor gemensam inventering av marina forskningsinstitut från flera länder visade att över två tredjedelar av alla koraller har dött på grund av för höga havstemperaturer. Detta har katastrofala konsekvenser för fiskbeståndet, eftersom korallreven är en viktig uppfödningsplats för ett stort antal fiskar, skaldjur och kräftdjur",
                     "_unique_translations_back_sv": [
-                        "",
-                        ""
+                        "<img width=250 src=\"https://static.dw.com/image/46075549_303.jpg \"> Eine große gemeinsame Bestandsaufnahme von Meeresforschungsinstituten aus mehreren Ländern ergab, dass über zwei Drittel aller Korallen aufgrund zu hoher Meerestemperaturen gestorben sind. Dies hat katastrophale Auswirkungen auf den Fischbestand, da die Korallenriffe ein wichtiger Aufzuchtsort für eine große Zahl von Fischen, Schalentieren und Krebstieren sind",
+                        "<img width=250 src=\"https://static.dw.com/image/46075549_303.jpg \"> Eine große gemeinsame Bestandsaufnahme von Meeresforschungsinstituten aus mehreren Ländern ergab, dass über zwei Drittel aller Korallen aufgrund zu hoher Meerestemperaturen gestorben sind. Dies hat katastrophale Auswirkungen auf den Fischbestand, da die Korallenriffe ein wichtiger Aufzuchtsort für eine große Zahl von Fischen, Schalentieren und Krebstieren sind"
                     ],
                     "_azure/gpt-4o_ar": "<img width=250 src=https://static.dw.com/image/46075549_303.jpg ><br>أظهرت دراسة مشتركة كبيرة أجرتها معاهد بحثية بحرية من عدة دول أن أكثر من ثلثي الشعاب المرجانية قد ماتت بسبب ارتفاع درجات حرارة المياه البحرية.<br>وهذا له تأثيرات كارثية على مخزون الأسماك، نظرًا لأن الشعاب المرجانية تُعد مكانًا هامًا لتربية العديد من الأسماك والقشريات والمحار.",
                     "_gcp/gemini-1.5-pro_ar": "<img width=250  src=\"https://static.dw.com/image/46075549_303.jpg \"><br>كشفت دراسة مشتركة واسعة النطاق أجرتها معاهد أبحاث بحرية من عدة دول أن أكثر من ثلثي الشعاب المرجانية قد ماتت بسبب ارتفاع درجات حرارة المحيط.<br>لهذا الأمر عواقب وخيمة على الأرصدة السمكية، حيث تُعتبر الشعاب المرجانية بيئة حاضنة مهمة لعدد كبير من الأسماك والمحار والقشريات. \n",
