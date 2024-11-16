@@ -1,37 +1,22 @@
-const puppeteer = require('puppeteer');
+const htmlPdf = require('html-pdf');
 const fs = require('fs');
 const path = require('path');
 
-(async () => {
-  const browser = await puppeteer.launch();
-  const folderPath = '/Users/oliverwidder/dev/github/GPLL3Translate/tables'; // Replace with your folder path
-  const files = fs.readdirSync(folderPath).filter(file => file.endsWith('.html'));
+const folderPath = '/Users/oliverwidder/dev/github/GPLL3Translate/tables'; // Replace with your folder path
+const files = fs.readdirSync(folderPath).filter(file => file.endsWith('.html'));
 
-  for (const file of files) {
-    const filePath = path.join(folderPath, file);
-    const page = await browser.newPage();
-    await page.goto(`file://${filePath}`, { waitUntil: 'networkidle2' });
+let combinedHtml = '<html><head><style>table { width: 100%; }</style></head><body>';
 
-    // Adjust the table and page to fit the content
-    await page.addStyleTag({
-      content: `
-        table {
-          width: 100%;
-        }
-      `
-    });
+for (const file of files) {
+  const filePath = path.join(folderPath, file);
+  const htmlContent = fs.readFileSync(filePath, 'utf8');
+  combinedHtml += htmlContent;
+}
 
-    // Generate the PDF with landscape orientation
-    const outputFilePath = path.join(folderPath, `${path.basename(file, '.html')}.pdf`);
-    await page.pdf({
-      path: outputFilePath,    // Output file path
-      format: 'A4',            // Paper format
-      landscape: true,         // Landscape orientation
-      printBackground: true,   // Print background graphics
-    });
+combinedHtml += '</body></html>';
 
-    await page.close();
-  }
-
-  await browser.close();
-})();
+const outputFilePath = path.join(folderPath, 'combined_tables.pdf');
+htmlPdf.create(combinedHtml, { format: 'A4', orientation: 'landscape', border: '10mm' }).toFile(outputFilePath, (err, res) => {
+  if (err) return console.log(err);
+  console.log(res);
+});
