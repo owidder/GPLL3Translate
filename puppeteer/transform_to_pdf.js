@@ -5,12 +5,12 @@ const path = require('path');
 const folderPath = '/Users/oliverwidder/dev/github/GPLL3Translate/tables'; // Replace with your folder path
 const files = fs.readdirSync(folderPath).filter(file => file.endsWith('.html'));
 
-let combinedHtml = '<html><head><style>table { width: 100%; }</style></head><body>';
+let combinedHtml = '<html><head><style>table { width: 100%; } .page-break { page-break-after: always; }</style></head><body>';
 
 for (const file of files) {
   const filePath = path.join(folderPath, file);
   const htmlContent = fs.readFileSync(filePath, 'utf8');
-  combinedHtml += htmlContent;
+  combinedHtml += htmlContent + '<div class="page-break"></div>';
 }
 
 combinedHtml += '</body></html>';
